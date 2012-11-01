@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2011, v.4002-->
+<!DOCTYPE engordr PUBLIC "-//UPS//DTD ENGINEERING ORDER//EN"
+ "engordr.dtd" [
+<!ENTITY Fig1 SYSTEM "image/Fig1.PNG" NDATA PNG>
+<!ENTITY Fig4 SYSTEM "image/Fig4.PNG" NDATA PNG>
+<!ENTITY Fig3 SYSTEM "image/Fig3.PNG" NDATA PNG>
+<!ENTITY Fig2 SYSTEM "image/Fig2.PNG" NDATA PNG>
+]>
+<?Pub UDT template _font?>
+<?Pub UDT instructions _comment FontColor="red"?>
+<?Pub EntList alpha bull copy rArr sect trade agr?>
+<?Pub Inc?>
+<engordr chapnbr="72" class="other" key="UPSmodel20121018134408"
+model="4000" other="Inspection" revdate="20120312" revnbr="m"
+sectnbr="40" seqnbr="18252">
+<!--Modify <EngineeringOrder> attributes to add EO number, RevisionDate, Classification, AD_FARNbr, and EngSubstantiationNbr; and edit RVSM, CAT23, ETOPS, WtBalancePerfChg as necessary.--><?Pub (instructions)?>
+<!--The EO number is composed of Model, ATAChapter, ATASection, EOSequenceNbr, and RevisionLetter.--><?Pub (instructions)?>
+<title><revision>PW4000: Inspection of the Area Between the TT3 Boss
+and the Bracket Boss</revision></title>
+<signature>
+<prepared><name>Jeffrey S. Logue</name></prepared>
+<checked><name>Brian Drewnowski</name></checked>
+<approved><name>Bart Law</name><jobtitle>ENGINEERING MANAGER/DESIGNEE</jobtitle>
+</approved>
+<approved><name>Jim Roberts</name><jobtitle>ENGINEERING MANAGER/DESIGNEE</jobtitle>
+</approved>
+<!--The Director of Engineering approval is automatically set when necessary.--><?Pub (instructions)?>
+<director><name>Ed Walton</name></director>
+</signature>
+<distlist>
+<!--Only the department names shown in green text below will print to the Distribution List.  Change the DIST attribute to "Yes" for any <name> shown in red text to add it to the Distribution List (changes text to green).  Add additional department/individual names to the Distribution List after AMC as necessary.--><?Pub (instructions)?>
+<name>Aircraft Engineering (2)</name>
+<name>Aircraft Maintenance Planning (AMP)</name>
+<name>Material Planning</name>
+<name>Component Cost Management</name>
+<name>Aircraft Records</name>
+<name>Technical Publications</name>
+<name dist="yes">Aircraft Tooling</name>
+<name>Warranty</name>
+<name>FOG (Aircraft Reliability Programs)</name>
+<name dist="yes">Aircraft Line Maintenance</name>
+<name dist="yes">Aircraft Major Maintenance</name>
+<name dist="no">Performance Engineering</name>
+<name dist="no">Flight Publications</name>
+<name dist="no">Flight Simulators</name>
+<name dist="no">Maintenance Training</name>
+<name>Q.C. Inspection</name>
+<name dist="no">FAA</name>
+<name dist="yes">Aircraft Maintenance Control (AMC)</name>
+</distlist>
+<mfmatr key="UPSmodel20121018134409">
+<summary>
+<para>A number of diffuser cases have been found to have cracks in
+the outer wall between the TT3 boss and the round bracket boss. The
+cracking adjacent to the TT3 boss is caused by high stress levels
+resulting from the proximity of the bosses to each other, combined
+with undetectable porosity during the casting process. The purpose
+of this EO is to verify that all UPS PW4000 engines are in compliance
+with Pratt and Whitney Alert Service Bulletin A72&ndash;681.</para>
+<para><revision>This Engineering Order authorizes continued operation
+of the effective aircraft when the actions specified herein are accomplished
+as specified in Paragraph 4. &mdash; <emphasis role="underline">TIMETABLE</emphasis
+>.</revision></para>
+</summary>
+<effective>&PW4158_Fleet;&PW4460_Fleet;</effective>
+<!--Modify <Effectivity> attributes to add TailRange as XXXYYY, where XXX is the first tail number in the range and YYY is the last tail number in the range. For a single aircraft, set both XXX and YYY to the same tail number.--><?Pub (instructions)?>
+<!--Optionally add a table with engine serial numbers.--><?Pub (instructions)?>
+<authrize>
+<para><revision>Pratt and Whitney Alert Service Bulletin PW4ENG A72-681
+Revision 2, dated June 20, 2005</revision></para>
+</authrize>
+<timetbl>
+<list1>
+<l1item><para>For diffuser cases PN 50J713-001 or 50J779-001 that
+have not been Fluorescent Penetrant Inspected perform the inspection
+within 250 cycles before the case accumulates 2000 CSN. For cases
+that have accumulated 2000 cycles verify that the case was Fluorescent
+Penetrant Inspected either during the last shop visit or on-wing.
+If no records of inspection were found, inspect within 250 cycles.
+These diffuser cases should be reinspected at 1000 cycles thereafter.</para>
+</l1item>
+<l1item><para>For diffuser cases PN 50J713-D02, 50J779-002, or 50J779-D03
+that have not been Fluorescent Penetrant Inspected perform the inspection
+within 250 cycles before the case accumulates 3000 CSN. For cases
+that have accumulated 3000 cycles, verify that the case was Fluorescent
+Penetrant Inspected either during the last shop visit or on-wing.
+If no records of inspection were found, inspect within 250 cycles.
+These diffuser cases should be reinspected at 3000 cycles thereafter.</para>
+</l1item>
+</list1>
+</timetbl>
+<resource>
+<para>Accomplishment of this EO will require 3.0 labor hours.</para>
+</resource>
+<actions>
+<list1>
+<l1item><para>Aircraft Maintenance</para><para>Accomplish <refint
+refid="UPSmodel20121018134411" reftype="appendix"></refint>when assigned.</para>
+</l1item>
+<l1item><para><emphasis role="underline">Aircraft Maintenance Control
+(AMC)</emphasis></para><para>Issue DMIIMPI when requested per <refint
+refid="UPS400020121019130049" reftype="step"></refint>. DMI time intervals
+are defined by findings in <refint refid="UPS400020121019145957"
+reftype="step"></refint>.</para>
+</l1item>
+<l1item><para><emphasis role="underline">Aircraft Maintenance Planning
+(AMP)</emphasis></para>
+<list2>
+<l2item><para><revision>Accomplish the intent of this EO during Aircraft
+Transition checks if the initial inspection or repetitive inspection
+is within 300 cycles of the due date.</revision></para></l2item>
+<l2item><para><revision>Deleted</revision></para></l2item>
+</list2>
+</l1item>
+<l1item><para><emphasis role="underline">Aircraft Materials</emphasis
+></para><para>Refer to <refint refid="UPSmodel20121018134410"
+reftype="appendix"></refint> and make sure gateways accomplishing
+this EO have sufficient supply of material outlined.</para>
+</l1item>
+<l1item><para><emphasis role="underline">Aircraft Records</emphasis
+></para>
+<list2>
+<l2item><para>Maintain the current effectivity of this EO. Update
+the forecast based upon TIMETABLE and engine shop records package.</para>
+</l2item>
+<l2item><para>Incorporation of Pratt &amp; Whitney SB 72-699 and/or
+72-710 during engine shop visit are the terminating action for this
+EO.</para>
+<note><para>Service Bulletins 72-699 and 72-710 modify the engine
+diffuser case. Engine diffuser cases can be swapped between engines
+during engine shop visits. Diffuser cases cannot be swapped during
+line maintenance of the engine.</para></note>
+</l2item>
+</list2>
+</l1item>
+</list1>
+</actions>
+<drawings>
+<para>None</para>
+<!--The APPENDICES SECTION 8 is automatically generated.--><?Pub (instructions)?>
+</drawings>
+<engcom>
+<para>None</para>
+</engcom>
+<revhist>
+<list1>
+<l1item><para>Revision &ldquo;A&rdquo; released 02/10/2003 by N. Mardirossian</para>
+</l1item>
+<l1item><para>Revision &ldquo;B&rdquo; released 11/03/2003 by N. Mardirossian</para>
+<list2>
+<l2item><para>Summary</para><para>Updated Effectivity list.</para>
+</l2item>
+<l2item><para>Retroactivity</para><para>None</para>
+</l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;C&rdquo; released 05/27/2004 by N. Mardirossian</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+Effectivity list.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;D&rdquo; released 08/30/2004 by N. Mardirossian</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+Effectivity list and in Appendix A changed Fluorescent Penetrant from
+ZL-27A to RC77.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;E&rdquo; released 01/27/2005 by N. Mardirossian</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+Effectivity list. Added terminating action statement for Aircraft
+Records.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+Remove ESN 733754 from forecast due to accomplishment of terminating
+action during last shop visit.</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;F&rdquo; released 02/17/2005 by D. Dieterle</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+Effectivity list to PW4460 Swiss MD11 ESN&rsquo;s, new spare ESN&rsquo;s,
+and 733754. Added PW4158 ESN&rsquo;s. All ESN&rsquo;s are now included
+in the EO due to the to the possibility of diffuser case swaps at
+engine shop visits. Added Actions By for AMC to create DMI based on
+inspection findings.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;G&rdquo; released 06/23/2005 by D. Dieterle</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+work steps to include A300 references.Corrected PN ST1061-16 to ST1061-06
+in work steps 2 and 8 of Appendix B. Updated the PW4460 effectivity.
+Revised Authorization to reference revision 2 of Pratt and Whitney
+Alert Service Bulletin PW4ENG A72-681 .</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;H&rdquo; released 07/23/2005 by M. Sargent</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Revised
+Appendix B, Step 4 by requiring MECH and INSP sign-offs.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;I&rdquo; released 04/13/2006 by D. Dieterle</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Corrected
+PN ST1061-16 to ST1061-06 in work steps 2 and 8 of Appendix B. Updated
+the PW4460 effectivity. Revised Authorization to reference revision
+2 of Pratt and Whitney Alert Service Bulletin PW4ENG A72-681.</para>
+</l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;J&rdquo; released 06/16/2006 by D. Dieterle</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+Paragraph 2 &mdash; <emphasis role="underline">EFFECTIVITY</emphasis
+>.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;K&rdquo; released 06/23/2006 by J. Logue</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Added
+diffuser case PN 50J779-003 as P/N to be flourescent penetrant inspected
+per Paragraph 4.B.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+None</para></l2item>
+</list2>
+</l1item>
+<l1item><para>Revision &ldquo;L&rdquo; released 01/28/2011 by J. Logue</para>
+<list2>
+<l2item><para><emphasis role="underline">Summary</emphasis>: Updated
+General Information Page (GIP) to current format.</para></l2item>
+<l2item><para><emphasis role="underline">Retroactivity</emphasis>:
+Added ESN 728589, 728593, 728598, and 729085 to Effectivity.</para>
+</l2item>
+</list2>
+</l1item>
+<l1item><para><revision>Revision &ldquo;M&rdquo; released 03/12/2012
+by J. Logue</revision></para>
+<list2>
+<l2item><para><revision><emphasis role="underline">Summary</emphasis
+></revision>:</para>
+<list3>
+<l3item><para><revision>Deleted ESN 723907 from Effectivity. </revision
+></para></l3item>
+<l3item><para><revision>Added ESN 723808 and ESN 723922 to Effectivity.</revision
+></para></l3item>
+<l3item><para><revision>Closed Inspector sjgn-off block in Appendix
+B, Steps (4) and (5). This inspection is not an RII item and may be
+performed by a mechanic in accordance with GMM 04.10.01.04.</revision
+></para></l3item>
+</list3>
+</l2item>
+<l2item><para><revision><emphasis role="underline">Retroactivity</emphasis
+>: None</revision></para></l2item>
+</list2>
+</l1item>
+</list1>
+</revhist>
+</mfmatr>
+<appendix key="UPSmodel20121018134410">
+<matlst>
+<prtreqd type="engine">
+<prv>All gateways accomplishing this EO should have outlined parts
+in stock at all times.</prv>
+<prtitem><upa>1</upa><unit>EA</unit><tqa>AR</tqa><pnr>RC77</pnr><adt
+>Fluorescent Penetrant</adt><mfr>N/A</mfr><disp></disp>
+<prv>Equivalent substitutes may be used instead of the above item.</prv>
+</prtitem>
+<prtitem><upa>1</upa><unit>EA</unit><tqa>AR</tqa><pnr>ZP-9F</pnr><adt
+>Fluorescent Developer</adt><mfr>N/A</mfr><disp></disp>
+<prv>Equivalent substitutes may be used instead of the above item.</prv>
+</prtitem>
+<prtitem><upa>1</upa><unit>EA</unit><tqa>AR</tqa><pnr><revision>SKC-S</revision
+></pnr><adt>Fluorescent Cleaner/Remover</adt><mfr>N/A</mfr><disp></disp>
+<prv>Equivalent substitutes may be used instead of the above item.</prv>
+</prtitem>
+</prtreqd>
+<toollst>
+<prtitem><upa>1</upa><unit>EA</unit><tqa>AR</tqa><pnr>SB100XR</pnr><adt
+>Ultra-Violet Light</adt><mfr></mfr><disp></disp>
+<prv>Equivalent substitutes may be used instead of the above item.</prv>
+</prtitem>
+</toollst>
+</matlst>
+</appendix>
+<appendix key="UPSmodel20121018134411">
+<workinst>
+<title>Work Instructions</title>&RII_caution;
+<list1>
+<l1item><signoff/><para>Open the fan cowl and thrust reverser halves
+per MD11 AMM 71&ndash;10&ndash;00 or A300 AMM 71&ndash;13&ndash;00.</para>
+</l1item>
+<l1item><signoff/><para>On the diffuser case, located at the 10 o&rsquo;clock
+position when viewed from the rear, remove the front hose clamp, PN
+ST1061&ndash;06 from the pressure shield assembly, PN 51T607. Refer
+to <grphcref refid="UPS400020121019101921"></grphcref> and <grphcref
+refid="UPS400020121019092844"></grphcref>.</para></l1item><?Pub Caret 17?>
+<l1item><signoff/><para>Remove the lockwire, the two bolts (PN MS9576&ndash;01),
+the two washers (PN MS9321-11) and the bracket assembly (PN 54T732-01)
+from the diffuser case located at the 10 o'clock position when viewed
+from rear. Retain the removed hardware and bracket. Refer to <grphcref
+refid="UPS400020121019101921"></grphcref> and <grphcref
+refid="UPS400020121019092844"></grphcref>.</para></l1item>
+<l1item><signoff/><para>Accomplish Fluorescent Penetrant Inspection
+(FPI) per MD11 AMM 70-10-05 or A300 AMM 70-00-00-2, SPOP 70 (ultra
+high). FPI the diffuser case between the Oval Boss (TT3 Boss) and
+Round Bracket Boss which is located at approximately the 10 o'clock
+position when viewed from rear and 8 inches forward of M flange. Refer
+to <grphcref refid="UPS400020121019100333"></grphcref>.</para></l1item>
+<l1item key="UPS400020121019145957"><signoff/><para>Did FPI reveal
+any cracks on the diffuser case? Refer to <grphcref
+refid="UPS400020121019100413"></grphcref></para>
+<unlist ckbox="yes">
+<unlitem><para>NO &mdash; Proceed to<refint refid="UPS400020121019130049"
+reftype="step"></refint></para></unlitem>
+<unlitem><para>YES &mdash; Record the total crack length &ldquo;A&rdquo;
+and longest individual crack length &ldquo;B&rdquo; below.</para>
+</unlitem>
+</unlist>
+<unlist>
+<unlitem><para>Total Crack Length &ldquo;A&rdquo; __________________
+(in).</para></unlitem>
+<unlitem><para>Longest Individual Crack Length &ldquo;B&rdquo; __________________
+(in).</para></unlitem>
+</unlist>
+<note><para>The limits in the table below only apply to longest individual
+crack length &ldquo;B&rdquo;.</para></note>
+<table>
+<tgroup cols="2">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">Crack Length &ldquo;B&rdquo; (in)</emphasis
+></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">Reinspection Interval</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>0 &mdash; 0.032</para>
+</entry>
+<entry>
+<para>No Action</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>0.032 &mdash; 1.00</para>
+</entry>
+<entry>
+<para>500 Cycles</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1.0 &mdash; 1.3</para>
+</entry>
+<entry>
+<para>100 Cycles</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1.3 &mdash; 1.5</para>
+</entry>
+<entry>
+<para>5 Cycles</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>Greater than 1.5</para>
+</entry>
+<entry>
+<para>Remove engine from service</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</l1item>
+<l1item key="UPS400020121019130049"><signoff/><para><emphasis role="bold"
+>If the longest individual crack length is greater than 0.032 in.
+contact AMC and obtain a DMI based on the reinspection interval outlined
+in</emphasis> <refint refid="UPS400020121019145957" reftype="step"
+></refint><emphasis role="bold">. If the crack length is greater than
+1.5 in. immediate engine change is required.</emphasis> If the crack
+length is less than or equal to 0.032 in., N/A this step and proceed
+to <refint refid="UPS400020121019143038" reftype="step"></refint>.</para>
+</l1item>
+<l1item key="UPS400020121019143038"><signoff/><para>Install bracket
+assembly (PN 54T732&ndash;01) using the retained washers (PN MS9321&ndash;11)
+and bolts (PN MS9576&ndash;01). Coat bolts with engine oil and torque
+to 125 -170 Ib-in and lockwire the bolts. Refer to <grphcref
+refid="UPS400020121019101921"></grphcref> and <grphcref
+refid="UPS400020121019092844"></grphcref>.</para></l1item>
+<l1item><signoff/><para>Install the front hose clamp, PN ST1061-06
+on the pressure shield assembly, PN 51T607. Refer to <grphcref
+refid="UPS400020121019101921"></grphcref> and <grphcref
+refid="UPS400020121019092844"></grphcref>.</para></l1item>
+<l1item><signoff/><para>Close the fan cowl and thrust reverser halves
+per the MD11 AMM 71-10-00, or the A300 AMM 71-13-00.</para></l1item>
+&Restore_config_signoff;&WAN_signoff;&APP_complete_signoff;</list1>
+<graphic key="UPS400020121019101916">
+<sheet gnbr="Fig1" key="UPS400020121019101921">
+<title>Location of Bracket PN 54T732&ndash;01 and Boss Cover PN 50J760</title>
+</sheet>
+</graphic>
+<graphic key="UPS400020121019092822"><revision><sheet gnbr="Fig2"
+key="UPS400020121019092844">
+<title>Parts to be Removed for Inspection</title>
+</sheet></revision></graphic>
+<graphic key="UPS400020121019100325">
+<sheet gnbr="Fig3" key="UPS400020121019100333">
+<title>Area of Diffuser to be Inspected</title>
+</sheet>
+</graphic>
+<graphic key="UPS400020121019100407">
+<sheet gnbr="Fig4" key="UPS400020121019100413">
+<title>TT3 Boss Location of Cracks</title>
+</sheet>
+<sheet gnbr="Fig3" key="UPS400020121019112417">
+<title>Sample Sheet</title>
+</sheet>
+</graphic>
+</workinst>
+</appendix>
+</engordr>
+<?Pub *0000018835 0?>
