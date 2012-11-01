@@ -30,7 +30,7 @@ and the Bracket Boss</revision></title>
 </signature>
 <distlist>
 <!--Only the department names shown in green text below will print to the Distribution List.  Change the DIST attribute to "Yes" for any <name> shown in red text to add it to the Distribution List (changes text to green).  Add additional department/individual names to the Distribution List after AMC as necessary.--><?Pub (instructions)?>
-<name>Aircraft Engineering (2)</name>
+<name>Aircraft Engineering (2) - Test</name>
 <name>Aircraft Maintenance Planning (AMP)</name>
 <name>Material Planning</name>
 <name>Component Cost Management</name>
