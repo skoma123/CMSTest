@@ -12,7 +12,12 @@
         <asp:FileUpload ID="FileUpload1" runat="server" Width="594px" />
         <asp:Button ID="Button1" runat="server"
             Text="Upload" Height="20px" onclick="Button1_Click" />
-    </div>
+        <br />
+        <br />
+        <asp:TextBox ID="TextBox1" runat="server" Width="427px"></asp:TextBox>
+        <asp:Button ID="Button2" runat="server" Text="Open repository" onclick="OnSelectRepository" />
+
+   </div>
     </form>
 </body>
 </html>
