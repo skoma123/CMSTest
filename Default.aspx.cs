@@ -217,7 +217,10 @@ public partial class _Default : System.Web.UI.Page
   //edit the commit message of the most recent commit
 
 
+        //Add a new folder with subfolder 747 copy and paste from another location.
+        //***************STAGE, COMMIT with comment **git stage CMS/MEL/*.* // **git commit -am "my commit message
+        //***PUSH to remote location ****git push
 
-        //***************STAGE, COMMIT
+        //
         }
 }
