@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1" key="UPS747MEL20070815104815" revdate="20100707" revnbr="8" sectnbr="57">
+<title>Navigation Systems (ADF)</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="2"
+nbrreq="0" operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815104816">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ADF ___</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815104817">
+<numlist>
+<numlitem><para>Ensure ADF is not required for en route or approach
+procedures. </para></numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "LEFT and/or
+RIGHT ADF INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

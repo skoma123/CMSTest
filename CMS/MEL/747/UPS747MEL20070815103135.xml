@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS747MEL20070815103135" revdate="20080827" revnbr="5" sectnbr="18">
+<title>Aileron Position Indicating System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided visual confirmation of proper aileron
+movement is made before each departure.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "AILERON POS
+IND INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103136">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Perform visual check of surface movement:</para>
+<numlist>
+<numlitem><para>Establish communications &ndash; flight deck to ground.</para>
+<warning><para>ENSURE THAT PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL
+FLIGHT CONTROL SURFACES.</para></warning>
+</numlitem>
+<numlitem><para>Pressurize all four hydraulic systems.</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec align="left" colname="col1" colwidth="208.60pt"/>
+<colspec align="left" char="" charoff="50" colname="COLSPEC3"
+colwidth="298.93pt"/>
+<tbody>
+<row>
+<entry align="center" colsep="0" rowsep="0">
+<para><emphasis role="underline">FLIGHT DECK</emphasis></para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para><emphasis role="underline">GROUND OBSERVATION</emphasis></para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Control Wheel Full Left</para>
+<para>Control Wheel Full Right</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Observe left ailerons up, right ailerons down.</para>
+<para>Observe right ailerons up, left ailerons down.</para>
+<note><para>Inboard aileron deflection will be approximately 20&ordm;
+up or down. Outboard aileron deflection will be approximately 25&deg;
+up and 15&deg; down.</para></note>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

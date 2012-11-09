@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-2" key="UPS747MEL20070815103741" revdate="20080827" revnbr="5" sectnbr="33">
+<title>Hydraulic Quantity Indications &ndash; Hydraulic &ldquo;SYS
+FAULT&rdquo; Light Operative</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="2"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated reservoir level is verified normal before
+each departure,</para></numlitem>
+<numlitem><para>Associated system pressure indication is verified
+to be operative, and</para></numlitem>
+<numlitem><para>Associated hydraulic SYS FAULT light is verified to
+be operative. </para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "___ HYD QTY
+IND INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103742">
+<title>HYDRAULIC QUANTITY INDICATIONS</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Before each departure, check reservoir level for proper
+fluid quantity using the fill indicator at the fill station.</para>
+</numlitem>
+<numlitem><para>Service the reservoir if required (AMM 12-12-01).</para>
+</numlitem>
+<numlitem><para>A sight gauge installed on each reservoir may be used
+to check the reservoir fluid level if the EICAS or fill station indication(s)
+is inoperative. Fill or drain reservoir as required (AMM 12-12-01)
+to ensure that fluid level is in upper half of the sight gauge.</para>
+<note><para>To prevent incorrect quantity display due to inoperative
+indications, the appropriate Hydraulic Quantity Transmitter Connectors
+(DT401, DT402, DT403, or DT404) may be disconnected, capped and stowed.</para>
+</note>
+</numlitem>
+<numlitem><para>Required indications for the associated system are
+verified as follows:</para>
+<numlist>
+<numlitem><para>Push the HYD switch on the EICAS Display Select Panel.
+The Hydraulic Synoptic Page will come into view on the Auxiliary EICAS
+screen. </para></numlitem>
+<numlitem><para>Verify the associate SYS FAULT light is ON before
+the system is pressurized.</para></numlitem>
+<numlitem><para>Pressurize the associated system and verify the following
+indications on the Hydraulic Synoptic Page:</para>
+<numlist>
+<numlitem><para>Hydraulic fluid pressure 2800-3200 psi.</para>
+</numlitem>
+<numlitem><para>Verify associated SYS FAULT light is OFF when the
+system is pressurized and indicating 2800-3200 psi.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

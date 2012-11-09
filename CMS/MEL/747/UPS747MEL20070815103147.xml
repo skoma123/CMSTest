@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS747MEL20070815103147" revdate="20090824" revnbr="7" sectnbr="28">
+<title>Rudder Trim Indicator</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Rudder trim actuator is operative, and</para></numlitem>
+<numlitem><para>Rudder trim is verified centered before each departure.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103148">
+<numlist>
+<numlitem><para>Before each takeoff, confirm rudder position is centered
+by checking that the rudder pedals are essentially centered and by
+checking the rudder position indication displayed on secondary EICAS.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard on rudder trim indicator: "RUD TRIM IND INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103149">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>To verify the rudder trim actuator is operative.</para>
+<warning><para>ENSURE THAT PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL
+FLIGHT CONTROL SURFACES.</para></warning>
+<numlist>
+<numlitem><para>Supply electrical and hydraulic power to aircraft.</para>
+</numlitem>
+<numlitem><para>Select STAT on the EICAS display select panel to display
+the flight controls position indications on secondary EICAS.</para>
+</numlitem>
+<numlitem><para>Rotate the rudder trim control, located on the aisle
+stand, to NOSE LEFT.</para>
+<numlist>
+<numlitem><para>On both Captain&rsquo;s and First Officer&rsquo;s
+sides, observe that left rudder pedals move forward and that right
+rudder pedals move aft. </para></numlitem>
+<numlitem><para>Also observe that rudder position indications (upper
+and lower) on secondary EICAS indicate rudder moving to left.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Rotate the rudder trim control to NOSE RIGHT.</para>
+<numlist>
+<numlitem><para>On both Captain&rsquo;s and First Officer&rsquo;s
+sides, observe that left rudder pedals move aft and that right rudder
+pedals move forward. </para></numlitem>
+<numlitem><para>Also observe that rudder position indications (upper
+and lower) on secondary EICAS indicate rudder moving to right.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Return rudder trim to neutral position by rotating
+the rudder trim control as required until rudder pedals are aligned
+together and rudder position indication on EICAS shows rudder (upper
+and lower) centered.</para></numlitem>
+<numlitem><para>Apply opaque tape over inoperative rudder trim indicator
+on aisle stand.</para></numlitem>
+<numlitem><para>Restore aircraft to required configuration.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

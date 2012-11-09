@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS747MEL20070815103214" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Control Wheel Stabilizer Trim Switches</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="NO"
+nbrins="2" nbrreq="1" operation="YES">
+<remarks>
+<para>One may be inoperative provided Alternate Stabilizer Trim System
+is verified to be operative before each departure.</para>
+</remarks>
+<operation key="UPS747MEL20070815103215">
+<numlist>
+<numlitem><para>Before each departure, verify the Alternate Stab Trim
+System is operative:</para>
+<numlist>
+<numlitem><para>Using both Alternate Stabilizer Trim Switches located
+on the control stand, select APL NOSE UP for at least 3 seconds. Monitor
+stabilizer trim indicator to confirm the stabilizer moves in the nose
+up direction.</para></numlitem>
+<numlitem><para>Using both Alternate Stabilizer Trim Switches located
+on the control stand, select APL NOSE DN for at least 3 seconds. Monitor
+stabilizer trim indicator to confirm the stabilizer moves in the nose
+down direction. </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<note><para>The remaining control wheel stab trim switch may be verified
+to be operative by applying manual trim input in each direction for
+at least 3 seconds and observing corresponding stabilizer motion.</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815103216">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "CAPTS (F/O)
+STAB TRIM SWITCHES INOP". Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103217">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

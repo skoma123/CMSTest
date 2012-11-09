@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2-2" key="UPS747MELCDL20080417090125" revdate="20080827" revnbr="5"
+sectnbr="45">
+<title>Traffic Collision and Avoidance System (TCAS) Resolution Advisory
+(RA) Display System(s) &ndash; RA Inoperative TA Operative</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Traffic Alert (TA) visual display and audio functions
+are operative,</para></numlitem>
+<numlitem><para>TA only mode is selected by the crew, and</para>
+</numlitem>
+<numlitem><para>En route or approach procedures do not require its
+use.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MELCDL20080417090714">
+<note><para>The following EICAS message(s) may be displayed:</para>
+</note>
+<para>TCAS SYSTEM</para>
+<numlist>
+<numlitem><para>Operate TCAS in TA-Only mode by selecting TCAS Mode
+Selector to TA ONLY position.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel: "____RESOLUTION
+ADV SYS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

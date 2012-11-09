@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1" key="UPS747MELCDL20080424090237" revdate="20090528" revnbr="6" sectnbr="20">
+<title>Non-Essential Equipment &amp; Furnishings (NEF)</title>
+<dispcond category="&ndash;" maintenance="YES" nbrins="&ndash;"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative, damaged or missing provided that the item(s)
+is deferred in accordance with the operator&rsquo;s NEF deferral program.
+The NEF program, procedures and processes are outlined in the UPS
+General Maintenance Manual (GMM). (M) and (O) procedures, if required,
+must be available to the flight crew and included in the operator&rsquo;s
+appropriate document. </para>
+<note><para>Exterior lavatory door ash trays are not considered NEF
+items.</para></note>
+</remarks>
+<operation key="UPS747MELCDL20080425092639">
+<numlist>
+<numlitem><para>Contact Aircraft Maintenance for deferral.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard as applicable per AMC instructions.</para>
+</placard>
+<maintenance key="UPS747MELCDL20080425092719">
+<numlist>
+<numlitem><para>Contact Aircraft Maintenance Control (AMC).</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-1" key="UPS747MEL20070815102559" revdate="20080827" revnbr="5" sectnbr="56">
+<title>Electrical Load Control Units (ELCU) &ndash; Utility Power
+ELCU's</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Dispatch limitations for affected utility bus equipment
+are observed, and</para></numlitem>
+<numlitem><para>For Passenger/Combi, utility bus #4 ELCU is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815102610">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ELEC UTIL BUS ___</para>
+</note>
+<numlist>
+<numlitem><para>Observe dispatch limitations for affected utility
+bus equipment. </para></numlitem>
+<numlitem><para>For Utility Bus #1, the following equipment is affected:</para>
+<para>&ndash;Fuel Boost Pump Main Forward #3</para>
+<para>&ndash;Equipment Cooling Supply Fan Power</para>
+<para>&ndash;Left Forward Cargo Heater Power</para>
+<para>&ndash;Vent Fan Power Lower Forward Power</para>
+<para>&ndash;Captain Aux Heater</para>
+<para>&ndash;F/O Aux Heater</para>
+</numlitem>
+<numlitem><para>For Utility Bus #2, the following equipment is affected:</para>
+<para>&ndash;Override Jettison Pumps Forward 2 and 3</para>
+<para>&ndash;Left Center Override Jettison Pump</para>
+<para>&ndash;Captain Power Seat</para>
+<para>&ndash;Lav Lights</para>
+<para>&ndash;Water and Waste Water Line Heaters</para>
+</numlitem>
+<numlitem><para>For Utility Bus #3, the following equipment is affected:</para>
+<para>&ndash;Lights on the Main Cargo Deck</para>
+<para>&ndash;Fuel Boost Pump Main Forward #2</para>
+<para>&ndash;F/O Power Seat</para>
+<para>&ndash;Right Forward Cargo Heater Power</para>
+<para>&ndash;Vent Fans for Bulk Cargo and Lower Aft Cargo</para>
+<para>&ndash;R CDU</para>
+<para>&ndash;Lav Water Heater</para>
+</numlitem>
+<numlitem><para>For Utility Bus #4, the following equipment is affected:</para>
+<para>&ndash;ACM Mass Flow Indication</para>
+<para>&ndash;Flight Deck Fan</para>
+<para>&ndash;Upper Deck Lav Flush Motor</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102611">
+<numlist>
+<numlitem><para>If the ELCU is inoperative for the #1 utility bus,
+observe the following limitations:</para>
+<numlist>
+<numlitem><para>Center wing tank fuel must be included as part of
+the ZFW but is considered usable.</para></numlitem>
+<numlitem><para>Main tanks 1, 2, 3 and 4 must contain a minimum of
+8610 lbs of fuel for landing.</para></numlitem>
+<numlitem><para>Remaining main tank boost pumps, main tank fuel quantity
+indicating systems and remaining crossfeed valves are operative.</para>
+</numlitem>
+<numlitem><para>Carriage of animals or perishables in the lower forward
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If the ELCU is inoperative for the #2 utility bus,
+observe the following limitations:</para>
+<numlist>
+<numlitem><para>Aft jettison pumps in tank 2 and 3 must be operative.</para>
+</numlitem>
+<numlitem><para>All engine driven generator systems are operative.</para>
+</numlitem>
+<numlitem><para>All main tanks 2 and 3 boost pumps are operative.</para>
+</numlitem>
+<numlitem><para>If right center tank override jettison is operative,
+wing tank fuel must be adequate to reach a suitable airport if the
+remaining pump fails and center tank fuel must be included as part
+of the ZFW.</para></numlitem>
+<numlitem><para>If right center tank override jettison is inoperative,
+center tank fuel is included as part of the ZFW and is considered
+unusable.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If the ELCU is inoperative for the #3 utility bus,
+observe the following limitations:</para>
+<numlist>
+<numlitem><para>Center wing tank fuel must be included as part of
+the ZFW but is considered usable.</para></numlitem>
+<numlitem><para>Main tanks 1, 2, 3 and 4 must contain a minimum of
+8610 lbs of fuel for landing.</para></numlitem>
+<numlitem><para>Remaining main tank boost pumps, main tank fuel quantity
+indicating systems and remaining crossfeed valves are operative.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>There are no limitations for #4 ELCU inoperative.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: </para>
+<para>"______ UTILITY BUS ELCU INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102612">
+<para>Observe dispatch limitations for affected utility bus equipment:</para>
+<para><emphasis role="underline">FREIGHTER</emphasis></para>
+<table>
+<tgroup align="center" cols="7">
+<colspec colname="col1" colwidth="41.88pt"/>
+<colspec colname="col2" colwidth="146.41pt"/>
+<colspec colname="col3" colwidth="42.55pt"/>
+<colspec colname="col4" colwidth="21.28pt"/>
+<colspec colname="col5" colwidth="38.60pt"/>
+<colspec colname="col6" colwidth="146.41pt"/>
+<colspec colname="col7" colwidth="42.70pt"/>
+<tbody>
+<row>
+<entry colsep="1" nameend="col3" namest="col1">
+<para>UTILITY BUS #1</para>
+</entry>
+<entry></entry>
+<entry colsep="1" nameend="col7" namest="col5">
+<para>UTILITY BUS #2</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>C/B</para>
+<para>NO.</para>
+</entry>
+<entry>
+<para>EQUIPMENT</para>
+<para>NOMENCLATURE</para>
+</entry>
+<entry>
+<para>ATA</para>
+<para>CH #</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>C/B</para>
+<para>NO.</para>
+</entry>
+<entry>
+<para>EQUIPMENT</para>
+<para>NOMENCLATURE</para>
+</entry>
+<entry>
+<para>ATA</para>
+<para>CH #</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>809</para>
+</entry>
+<entry align="left">
+<para>FUEL BST PUMP MAIN FWD 3</para>
+</entry>
+<entry>
+<para>28</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>833</para>
+</entry>
+<entry align="left">
+<para>FUEL OVRD JTSNPUMP FWD 2</para>
+</entry>
+<entry>
+<para>28</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1598</para>
+</entry>
+<entry align="left">
+<para>SVCE OUT CAR HDLG-1 FWD</para>
+</entry>
+<entry>
+<para>25</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>835</para>
+</entry>
+<entry align="left">
+<para>FUEL OVRD JTSN PUMP CTR L</para>
+</entry>
+<entry>
+<para>28</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3145</para>
+</entry>
+<entry align="left">
+<para>EQUIP COOLING SUPPLY FAN PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>838</para>
+</entry>
+<entry align="left">
+<para>FUEL OVRD/JTSN PUMP FWD 3</para>
+</entry>
+<entry>
+<para>28</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3163</para>
+</entry>
+<entry align="left">
+<para>LEFT FWD CARGO HEATER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>878</para>
+</entry>
+<entry align="left">
+<para>CAPT PWR SEAT</para>
+</entry>
+<entry>
+<para>25</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3240</para>
+</entry>
+<entry align="left">
+<para>VENT FAN PWR-1 LWR FWD CAR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>1553</para>
+</entry>
+<entry align="left">
+<para>FLT DK HUMIDIFIER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3241</para>
+</entry>
+<entry align="left">
+<para>VEN FAN PWR-1 LWR FWD CAR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>3067</para>
+</entry>
+<entry align="left">
+<para>WST&amp;WTR LINE HTRS-MAIN</para>
+</entry>
+<entry>
+<para>30</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>10200</para>
+</entry>
+<entry align="left">
+<para>HIGH CAPT AUX HEATER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>10776</para>
+</entry>
+<entry align="left">
+<para>LAV LIGHTS</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>10201</para>
+</entry>
+<entry align="left">
+<para>LOW CAPT AUX HEATER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>10877</para>
+</entry>
+<entry align="left">
+<para>WATER TANK HEATERS-S</para>
+</entry>
+<entry>
+<para>30</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>10202</para>
+</entry>
+<entry align="left">
+<para>HIGH F/O AUX HEATER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>10878</para>
+</entry>
+<entry align="left">
+<para>WASTE&amp;WATER LINE HEATERS-A1</para>
+</entry>
+<entry>
+<para>30</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>10203</para>
+</entry>
+<entry align="left">
+<para>LOW F/O AUX HEATER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>10879</para>
+</entry>
+<entry align="left">
+<para>WASTE&amp;WATER LINE HEATERS A2</para>
+</entry>
+<entry>
+<para>30</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup align="center" cols="7">
+<colspec colname="col1" colwidth="41.88pt"/>
+<colspec colname="col2" colwidth="146.41pt"/>
+<colspec colname="col3" colwidth="42.55pt"/>
+<colspec colname="col4" colwidth="21.28pt"/>
+<colspec colname="col5" colwidth="38.60pt"/>
+<colspec colname="col6" colwidth="146.41pt"/>
+<colspec colname="col7" colwidth="42.70pt"/>
+<tbody>
+<row>
+<entry colsep="1" nameend="col3" namest="col1">
+<para>UTILITY BUS #3</para>
+</entry>
+<entry></entry>
+<entry colsep="1" nameend="col7" namest="col5">
+<para>UTILITY BUS #4</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>C/B</para>
+<para>NO.</para>
+</entry>
+<entry>
+<para>EQUIPMENT</para>
+<para>NOMENCLATURE</para>
+</entry>
+<entry>
+<para>ATA</para>
+<para>CH #</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>C/B</para>
+<para>NO.</para>
+</entry>
+<entry>
+<para>EQUIPMENT</para>
+<para>NOMENCLATURE</para>
+</entry>
+<entry>
+<para>ATA</para>
+<para>CH #</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>341</para>
+</entry>
+<entry align="left">
+<para>THSKD LT CARGO DR MN DK</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>522</para>
+</entry>
+<entry align="left">
+<para>ACM MASS FLOW INDICATION</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>804</para>
+</entry>
+<entry align="left">
+<para>FUEL BST PUMP MAIN FWD 2</para>
+</entry>
+<entry>
+<para>28</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>3243</para>
+</entry>
+<entry align="left">
+<para>FLT DK FAN PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>877</para>
+</entry>
+<entry align="left">
+<para>F/O PWR SEAT</para>
+</entry>
+<entry>
+<para>25</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para>3244</para>
+</entry>
+<entry align="left">
+<para>UPR DK LAV-U-21 FLUSH MOTOR</para>
+</entry>
+<entry>
+<para>38</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1461</para>
+</entry>
+<entry align="left">
+<para>CLG LT MN DK AFT-SYS 2</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1462</para>
+</entry>
+<entry align="left">
+<para>CLG LT MN DK AFT-SYS 1</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1463</para>
+</entry>
+<entry align="left">
+<para>CLG LT MN DK FWD</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1464</para>
+</entry>
+<entry align="left">
+<para>CLG LT MN DK AFT R</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1465</para>
+</entry>
+<entry align="left">
+<para>SWL LT MN DK AFT R</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1466</para>
+</entry>
+<entry align="left">
+<para>SWL LT MN DK FWDR</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1467</para>
+</entry>
+<entry align="left">
+<para>SWL LT MN DK AFT L</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1468</para>
+</entry>
+<entry align="left">
+<para>SWL LT MN DK FWD L</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1495</para>
+</entry>
+<entry align="left">
+<para>SWL LT MN DK CTR R</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1496</para>
+</entry>
+<entry align="left">
+<para>SWL LT MN DK CTR L</para>
+</entry>
+<entry>
+<para>33</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1596</para>
+</entry>
+<entry align="left">
+<para>RIGHT FWD CARGO HDLG-R FWD</para>
+</entry>
+<entry>
+<para>25</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3164</para>
+</entry>
+<entry align="left">
+<para>RIGHT FWD CARGO HEATER PWR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3177</para>
+</entry>
+<entry align="left">
+<para>VENT FAN PWR-BULK CARGO</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3242</para>
+</entry>
+<entry align="left">
+<para>VENT FAN PWR LWR AFT CAR</para>
+</entry>
+<entry>
+<para>21</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>10474</para>
+</entry>
+<entry align="left">
+<para>R CDU</para>
+</entry>
+<entry>
+<para>45</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>10796</para>
+</entry>
+<entry align="left">
+<para>LAV WRT HTR-UPR DK-U-21</para>
+</entry>
+<entry>
+<para>38</para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+<entry align="left">
+<para></para>
+</entry>
+<entry>
+<para></para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>Advisory messages ELEC UTIL BUS L and/or ELEC UTIL BUS
+R will remain displayed.</para></note>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-2" key="UPSB747-400MELCDL20100202102250" revdate="20100707" revnbr="8"
+sectnbr="40">
+<!--Per C.R.4339 Tim 1/20/10 for Rev 8-->
+<title>EXTERIOR LAVATORY DOOR ASHTRAYS &ndash; AIRCRAFT WITH ONLY
+ONE EXTERIOR LAVATORY DOOR ASHTRAY INSTALLED</title>
+<dispcond attr-rev="NO" category="A" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be missing provided it is replaced within 3 calendar days.</para>
+</remarks>
+<placard>
+<para>Placard "LAV DR ASHTRAY MISSING" on Lavatory Door next to where
+the ashtray mounts. Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS747MEL20070815104113" revdate="20080827" revnbr="5" sectnbr="31">
+<title>Landing Gear Latch Solenoid</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Solenoid is in the latched position, and</para>
+</numlitem>
+<numlitem><para>Override mechanism is operative.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104114">
+<numlist>
+<numlitem><para>To retract the landing gear, use the checklist GEAR
+LEVER WILL NOT MOVE UP.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near landing gear lever on center panel: "LEVER LATCH
+SOLENOID INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104115">
+<para>With landing gear lever down, determine that the lock solenoid
+is in the latched position and the override mechanism operates normally
+as follows: </para>
+<numlist>
+<numlitem><para>Install all landing gear lockpins in gear.</para>
+</numlitem>
+<numlitem><para>Move the landing gear control handle from the DN to
+the OFF position.</para></numlitem>
+<numlitem><para>Without pushing the landing gear control handle LOCK
+OVRD button, ensure that the landing gear control handle cannot be
+moved from the OFF to the UP position.</para></numlitem>
+<numlitem><para>Push the landing gear control handle LOCK OVRD button
+and ensure that the landing gear control handle moves from the OFF
+to the UP position and into the detent.</para></numlitem>
+<numlitem><para>Return the landing gear control handle to the DN position. </para>
+</numlitem>
+<numlitem><para>Remove all landing gear lockpins installed in step
+1.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

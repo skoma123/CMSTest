@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="2-1" key="UPS747MEL20070815103913" revdate="20100707" revnbr="8" sectnbr="41">
+<!--Per Cargo Lux Differences email that Tim sent 1/22/10-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Flight Deck Window Heater Systems (No. 1 &amp; No. 2) &ndash;
+Freighter with Draw-Through Smoke Detection System Captain&rsquo;s
+Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 1" maintenance="NO" nbrins="2"
+nbrreq="1" operation="NO">
+<remarks>
+<para>One window heater system (No. 1 or No. 2) may be inoperative
+provided AOM limitations are followed.</para>
+<note><para>Both F/O&rsquo;s window heater systems must be operative.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815103914">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>WINDOW HEAT ___</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815103915">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+<numlitem><para>Operations into known or forecast icing conditions
+is prohibited. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard on Anti-Ice Rain Removal Panel (P5): "#____ WINDOW HT
+SYS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103916">
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPS747MEL20070815104826" revdate="20100707" revnbr="8" sectnbr="58">
+<title>Global Positioning System (GPS)</title>
+<dispcond category="D" downgrade="" maintenance="NO" nbrins="2"
+nbrreq="0" operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided procedures or navigation is not
+dependent upon its use.</para>
+</remarks>
+<limitation key="UPS747MEL20070815104827">
+<numlist>
+<numlitem><para>RNP-5 (BRNAV) airspace &ndash; All GPS may be inoperative
+provided the flight is limited to 2 hours after the last DME/DME or
+VOR/DME update.</para></numlitem>
+<numlitem><para>RNP-10 Airspace &ndash; All GPS may be inoperative
+provided the flight is limited to 12 hours after the last DME/DME
+or VOR/DME update. </para></numlitem>
+<numlitem><para>FANS Operations prohibited.</para></numlitem>
+<numlitem><para>RNP -4 Operations prohibited.</para></numlitem>
+<numlitem><para>Flight Control to ensure ADS-B Out is not required
+along planned route. (e.g. Hudson Bay, etc.). Reference IOM Communications
+Section for Limitations and Procedures.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "BOTH GPS(s)
+INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

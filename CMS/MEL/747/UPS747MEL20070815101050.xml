@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2" key="UPS747MEL20070815101050" revdate="20080827" revnbr="5" sectnbr="26">
+<effect effrg="578579" efftext=""></effect>
+<title>Forward Cargo A/C Ground Exhaust Fans</title>
+<dispcond category="C" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Install placard below Captain's PFD on P-1-1 panel "____ FWD
+CARGO A/C GND EXH FAN(s) INOP". Enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+</dispcond>
+</item>

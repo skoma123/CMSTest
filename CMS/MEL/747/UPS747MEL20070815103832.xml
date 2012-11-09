@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-1" key="UPS747MEL20070815103832" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Nacelle Anti-Ice Valves &ndash; Secured Closed</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative secured closed provided aircraft is not
+operated in known or forecast icing conditions.</para>
+</remarks>
+<operation key="UPS747MEL20070815103833">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ANTI-ICE NAC ___</para>
+<para>NAC DUCT ___ LEAK</para>
+</note>
+<note><para>If icing conditions are inadvertently encountered, reducing
+thrust on affected engine will minimize possible damage if ice is
+ingested.</para></note>
+</operation>
+<limitation key="UPS747MEL20070815103834">
+<numlist>
+<numlitem><para>Operations into known or forecast icing conditions
+prohibited. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard on NAI VALVE switch Pilot&rsquo;s Overhead Panel: "NAI
+VALVE INOP CLOSED". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103835">
+<numlist>
+<numlitem><para>To secure NAI valve in the closed position:</para>
+<numlist>
+<numlitem><para>Gain access to affected NAI valve through access door
+in nacelle strut.</para></numlitem>
+<numlitem><para>Disconnect and stow electrical connector.</para>
+</numlitem>
+<numlitem><para>Turn shaft hex stud to closed position.</para>
+</numlitem>
+<numlitem><para>With valve in the desired position, pull and rotate
+the lockout knob to the LOCKED CLOSED position.</para></numlitem>
+<numlitem><para>Verify the fan air modulating valve is operative (AMM
+36-12-04). </para></numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

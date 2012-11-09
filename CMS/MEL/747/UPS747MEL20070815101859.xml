@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="9-1" key="UPS747MEL20070815101859" revdate="20080827" revnbr="5" sectnbr="61">
+<title>Zone Trim Air Modulation Valves </title>
+<dispcond category="C" maintenance="YES" nbrins="6" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided associated valve(s) is secured in
+an appropriate position unless it is verified that associated zone
+operation in MAN mode is normal.</para>
+</remarks>
+<operation key="UPS747MEL20070815101910">
+<note><para>The following EICAS message(s) may remain displayed:</para>
+<para>ZONE TEMP</para>
+</note>
+<numlist>
+<numlitem><para>For operation with individual zone(s) trim air modulation
+valve(s) secured in an appropriate position:</para>
+<numlist>
+<numlitem><para>For taxi, takeoff, climb, approach and landing, select
+Trim Air switch OFF.</para></numlitem>
+<numlitem><para>For cruise and descent, select Trim Air switch ON.
+ During descent to avoid high temperature in affected Zone(s), select
+Trim Air switch OFF before passing through Flight Level 150.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard as instructed in DMP Procedure<refint
+refid="UPS747MEL20070815101911" reftype="DMP">  21-61-9-1</refint
+>.  Enter item(s) in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101911">
+<numlist>
+<numlitem><para>Ensure that the Zone Temperature Controller (ZTC)
+is operative by performing the Chapter 21 TRIM SYSTEM Ground Test
+using the CMC.</para>
+<numlist>
+<numlitem><para>If the test fails, perform the procedures below to
+secure affected valve(s) in the appropriate position.</para></numlitem>
+<numlitem><para>If the test passes, access the CMC Other Functions
+page, and select SHOP FAULTS, 21 AIR CONDITIONING, and ZONE TEMP CONTROL.
+If Shop Faults are present, an inoperative Zone Temperature Controller
+(ZTC) will report one or more of the following faults:</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec align="left" colname="col1" colwidth="235.70pt"/>
+<tbody>
+<row>
+<entry>
+<para>00 I/O BOARD A FAIL</para>
+<para>00 MOTOR DRIVER BOARD A FAIL</para>
+<para>00 I/O BOARD B FAIL</para>
+<para>00 MOTOR DRIVER BOARD B FAIL</para>
+<para>00 I/O BOARD C FAIL</para>
+<para>00 MOTOR DRIVER BOARD C FAIL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>If one or both <emphasis role="bold">Board A</emphasis
+> faults are reported, the ZTC has lost control to one or more of
+zones Crew Rest (C/R), Fwd Main Deck, Aft Main Deck (Left and/or Right)
+and/or Fwd Lower Lobe Cargo.</para></numlitem>
+<numlitem><para>If one or both <emphasis role="bold">Board B</emphasis
+> faults are report, the ZTC has lost control to one or more of zones
+Flight Deck (F/D), Upper Deck *U/D), Fwd Lower Cargo, and/or Aft Lower
+Lobe Cargo.</para>
+<note><para>If one or both <emphasis role="bold">Board C</emphasis
+> faults are report, the ZTC has lost control to one or more of the
+following valves, dispatch may be available under other MEL items:</para>
+<para>Flight Deck Flow Regulating Valve</para>
+<para>FWD Lower Lobe Cargo Flow Regulating Valve</para>
+<para>Aft Lower Lobe Cargo Flow Regulating Valve</para>
+</note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>To verify normal MAN mode operation for F/D, Fwd Main
+Deck, Aft Main Deck (Left &amp; Right), Fwd Lower Lobe cargo and/or
+Aft Lower Lobe Cargo zones, alternately select MAN W and MAN C on
+the associated ZONE TEMP Selector on the ECS Maintenance Page that
+the associated zone&rsquo;s trim air modulation valve responds as
+commanded:</para>
+<numlist>
+<numlitem><para>If MAN mode is operative, placard associated Zone
+Temp Selector(s) (P5 panel) "AUTO INOP &ndash; USE MANUAL".</para>
+</numlitem>
+<numlitem><para>If MAN mode is inoperative for F/D, Fwd Main Deck
+and/or Aft Main Deck zone(s), go to Step 3 below and secure associated
+zone&rsquo;s trim air modulation valve(s) in the appropriate position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>To secure an associated trim air modulation valve(s)
+in the appropriate position:</para>
+<numlist>
+<numlitem><para>Open the P6 panel ZONE TEMP CONT AC and ZONE TEMP
+CONT DC circuit breakers.</para></numlitem>
+<numlitem><para>Location of zone trim air modulation valve(s):</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec align="left" colname="col1" colwidth="506.71pt"/>
+<tbody>
+<row>
+<entry>
+<para>Flight Deck: STA 1113, WL 340, LBL14 (Above Main Deck Ceiling)</para>
+<para>Upper Deck: STA 1109, WL 340, LBL 13 (Above Main Deck Ceiling)</para>
+<para>Crew Rest: STA 1111, WL 340, LBL 10 (Above Main Deck Ceiling)</para>
+<para>Fwd Main Deck: STA 1253, WL 170, RBL 94 (RH Wheel Well)</para>
+<para>Aft Main Deck: L STA 1253, WL 170, LBL 94 (LH Wheel Well)</para>
+<para>Aft Main Deck: R STA 1253, WL 170, RBL 87 (RH Wheel Well)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>The Aft Main Deck zone is equipped with two trim air modulation
+valves (Left and Right). If control to only one of these valves fails,
+it can be secured fully closed with minimal effect on the zone&rsquo;s
+normal temperature control. Trim air modulation valves are identical
+and interchangeable. A zone&rsquo;s temperature control with an inoperative
+F/D, U/D, C/R, or Fwd Main Deck trim air mod valve can be enhanced
+by interchanging with an operable Aft Main Deck trim air mod valve.</para>
+</note>
+</numlitem>
+<numlitem><para>Disconnect, cap, and stow electrical connector from
+affected valves.</para></numlitem>
+<numlitem><para>Install an Allen wrench in the affected valve&rsquo;s
+manual positioning shaft. Rotate the shaft until valves are in the
+appropriate position as determined below and shown by the valve&rsquo;s
+position indicator. Note that, except for full open and full closed,
+there are no position markings on the indicators. Degree of rotation
+must therefore be approximation between full open and full closed
+&ndash; note that for each 1/4 turn of the Allen wrench, the valve
+will move 10%.</para>
+<table frame="none">
+<tgroup align="center" cols="2">
+<colspec colname="col1" colsep="0" colwidth="194.64pt"/>
+<colspec colname="col2" colwidth="312.89pt"/>
+<tbody>
+<row>
+<entry rowsep="0">
+<para>Trim Air Mod Valve</para>
+</entry>
+<entry rowsep="0">
+<para>Range of Appropriate Valve Position</para>
+</entry>
+</row>
+<row>
+<entry rowsep="0">
+<para>Flight Deck</para>
+<para>Upper Deck</para>
+<para>Crew Rest</para>
+<para>Fwd Main Deck</para>
+<para>Aft Main Deck</para>
+</entry>
+<entry rowsep="0">
+<para>5% &ndash; 25% Open</para>
+<para>20% &ndash; 30% Open</para>
+<para>10% &ndash; 20% Open</para>
+<para>0% &ndash; 40% Open</para>
+<para>0% &ndash; 40% Open</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>For the Fwd Main Deck zone, a closed (0%) valve position will
+result in a zone temperature that eventually stabilizes at approximately
+40&deg;F (4&deg;C). A valve secured 40% open will result in a zone
+temperature that eventually stabilizes at approximately 70&deg;F (21&deg;C).
+This assumes cargo carried in the Fwd Main Deck is not heat generating.
+For desired intermediate temperatures between 40&deg;F and 70&deg;F,
+secure the valve at a position between 0% and 40%. For the Aft Main
+Deck zone, there are two trim air mod valves. Both valves secured
+closed with result in a zone temperature that eventually stabilizes
+at approximately 40&deg;F (4&deg;C). With one valve secured closed
+and the other valve secured 40% open, Aft Main Deck zone temperature
+will eventually stabilize at approximately 70&deg;F (21&deg;C). This
+assumes cargo carried in the Aft Main Deck is not heat generating.
+For desired intermediate temperatures between 40&deg;F and 70&deg;F,
+secure the valve at a position between 0% and 40%. F/D, U/D, and C/R
+zone(s) trim air mod valve position selection must take into consideration
+the fact that pack outlet air temperature is controlled to satisfy
+the zone needing the coldest air supply temperature. If a relatively
+cold zone temperature is selected for main deck or a lower lobe zone,
+the F/D, U/D, and C/R zone(s) trim air mod valve position should be
+positioned more open in their recommended range. (The opposite is
+true if a relatively warm zone temperature is selected for a main
+or lower lobe zone.)</para>
+</numlitem>
+<numlitem><para>Close the P6 panel ZONE TEMP CONT AC and ZONE TEMP
+CONT DC circuit breakers.</para></numlitem>
+<numlitem><para>If Crew Rest and/or Upper Deck Zones are affected,
+placard Cabin Temperature selector (located in Upper Deck) as appropriate
+"CREW REST TEMP CONTROL INOP and/or UPPER DECK TEMP CONTROL INOP".</para>
+</numlitem>
+<numlitem><para>If the FLIGHT DECK TRIM MOD VALVE is secured in an
+appropriate position, placard the FLT DECK TEMP selector on the Temperature
+Control panel (P5) "FLT DECK TEMP CONTROL INOP".</para></numlitem>
+<numlitem><para>If the FORWARD MAIN DECK TRIM MOD VALVE is secured
+in an appropriate position, placard the FWD MAIN DECK TEMP selector
+on the Temperature Control panel (P5) "INOP".</para></numlitem>
+<numlitem><para>If the AFT MAIN DECK TRIM MOD VALVE is secured in
+an appropriate position, placard the AFT MAIN DECK TEMP selector on
+the Temperature Control panel (P5) "INOP".</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Advisory message TEMP ZONE may remain displayed and
+the status message ZONE TEMP may remain displayed.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

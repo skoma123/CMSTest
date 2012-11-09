@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815103641" revdate="20090824" revnbr="7" sectnbr="11">
+<title>Engine Driven Hydraulic Pump Systems &ndash; Operate in Depressurized
+Mode</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="4"
+nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One engine pump system, including the pump and/or associated
+plumbing, may be inoperative provided:</para>
+<numlist>
+<numlitem><para>All Demand pumps are operative,</para></numlitem>
+<numlitem><para>Demand pump for the associated hydraulic system remains
+ON, and</para></numlitem>
+<numlitem><para>Associated pump is operated in the depressurized mode
+with fluid supply and pump case return functioning normally.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103642">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>HYD PRESS ENG ___</para>
+</note>
+<numlist>
+<numlitem><para>The Demand Pump Selector on the affected system must
+remain ON throughout flight.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to associated engine hydraulic pump switch:
+"INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103643">
+<numlist>
+<numlitem><para>To ensure fluid supply is available while operating
+in the depressurized mode, confirm that the affected EDP shutoff valve
+is in the open position as follows:</para>
+<numlist>
+<numlitem><para>Gain access to the hydraulic shutoff valve via the
+appropriate strut access panel/fairing (AMM 29-11-04).</para></numlitem>
+<numlitem><para>View thru the access door and confirm that the hydraulic
+shutoff valve position indicator is in the open position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify affected pump system reservoir hydraulic quantity
+using sight gauge located on reservoir in engine pylon.</para>
+</numlitem>
+</numlist>
+<para>If the affected engine driven pump (EDP) fluid supply or pump
+case drain lines are not functioning normally or are leaking, use
+MEL <refint refid="UPS747MEL20070815103644" reftype="MEL">29-11-1-0-2</refint
+> or <refint refid="UPS747MEL20070815103648"> 29-11-1-0-3</refint
+>.</para>
+</maintenance>
+</dispcond>
+</item>

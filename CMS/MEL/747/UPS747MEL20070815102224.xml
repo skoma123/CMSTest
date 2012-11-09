@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1" key="UPS747MEL20070815102224" revdate="20100707" revnbr="8" sectnbr="11">
+<title>High Frequency (HF) Communication System &ndash; Both Inoperative</title>
+<dispcond category="D" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815102225">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>HF DATA ___</para>
+</note>
+<numlist>
+<numlitem><para>For International Operations, the Captain will contact
+Flight Control to determine ATC and company VHF/HF/SATCOM communication
+requirements. </para></numlitem>
+<numlitem><para>The Dispatcher and Captain will refer to OPS Spec
+B45/B50. </para></numlitem>
+<numlitem><para>Reference FOM Communications chapter for additional
+information. </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102226">
+<numlist>
+<numlitem><para>Communications must be maintained with ATC and company.</para>
+</numlitem>
+<numlitem><para>Operations in RNP&ndash;4 airspace are prohibited.</para>
+</numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near HF Control Panel "Both HF INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

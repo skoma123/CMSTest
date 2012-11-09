@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1-1" key="UPS747MEL20070815104342" revdate="20080827" revnbr="5" sectnbr="18">
+<title>Master Dim and Test Systems</title>
+<dispcond category="B" nbrins="1" nbrreq="0">
+<remarks>
+<para>Dim function may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Test and Bright functions are operative, and</para>
+</numlitem>
+<numlitem><para>Light intensity is acceptable to the flight crew.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near IND LTS TEST Switch: "DIM INOP". Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

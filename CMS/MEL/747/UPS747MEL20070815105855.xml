@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="4" chapnbr="27" chg="U" key="UPS747MEL20070815105855" qtyreq="2" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Inboard Trailing Edge Flap Outboard Deflection Control Roller</title>
+<remarks>
+<para>One or both may be missing provided for each missing roller
+the performance limited weights are reduced by the following:</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec colname="col1" colwidth="0.50*"/>
+<colspec colname="col2" colwidth="1.50*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>85 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(39 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En&nbsp;route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>260 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(118 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</remarks>
+<note><para>Due to the possibility of additional wear on the mid flap
+bullnose created by contact with the seal retainer, operation beyond
+the next C check is not recommended.</para></note>
+<graphic chapnbr="27" chg="U" confnbr="4" key="UPS747MEL20070815105856"
+revdate="20080827" revnbr="5" sectnbr="51">
+<sheet chg="U" gnbr="747-400_CDL_CH_27_Page_8"
+key="UPS747MEL20070815105857" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</cdlblk>

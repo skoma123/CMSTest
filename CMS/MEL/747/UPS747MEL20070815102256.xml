@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815102256" revdate="20080827" revnbr="5" sectnbr="28">
+<title>Selective Call (SELCAL) System</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS747MEL20070815102257">
+<note><para>Flight crew continuously monitors appropriate radio frequencies.</para>
+</note>
+</operation>
+<placard>
+<para>Placard near SELCAL Panel "SELCAL INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

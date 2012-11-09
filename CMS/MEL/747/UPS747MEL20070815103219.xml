@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS747MEL20070815103219" revdate="20080827" revnbr="5" sectnbr="48">
+<title>Stabilizer Trim Indicators</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative (including multiple greenband indication)
+provided faulty indicator is not visible.</para>
+</remarks>
+<operation key="UPS747MEL20070815103220">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>STAB GREENBAND</para>
+</note>
+</operation>
+<placard>
+<para>Placard over faulty stabilizer trim indicator ensuring indication
+is obscured: "STAB TRIM IND INOP". Enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103221">
+<numlist>
+<numlitem><para>Perform check of stabilizer movement:</para>
+<warning><para>ENSURE THAT PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL
+FLIGHT CONTROL SURFACES.</para></warning>
+<numlist>
+<numlitem><para>Pressurize hydraulic systems 2 and 3.</para></numlitem>
+<numlitem><para>Hold the STAB TRIM ALTN switches on the control stand
+to the APL NOSE UP position until the stabilizer stops moving. Check
+that the operating stabilizer trim indicator reads 14.60 to 14.90
+units of trim.</para></numlitem>
+<numlitem><para>Hold the STAB TRIM ALTN switches to the APL NOSE DN
+position until the stabilizer stops moving. Check that the operating
+stabilizer trim indicator reads 0.10 to 0.40 units of trim.</para>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

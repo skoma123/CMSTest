@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk attr-rev="NO" blknbr="1" chapnbr="55" chg="U" key="UPSB747-400MELCDL20100607093906" qtyreq="2" revdate="20100707"
+revnbr="8" sectnbr="20">
+<!--Per C.R.4427 Tim 5/21/10 Rev 8-->
+<title>ELEVATOR INBOARD BULB SEALS</title>
+<remarks>
+<para>Any number may be missing provided for each missing seal the
+performance limited weights are reduced by:</para>
+<table frame="none">
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="659.00px"?>
+<colspec colname="col1" colwidth="1.09*"/>
+<colspec colname="col2" colwidth="0.91*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Negligible</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>200 lbs</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(91 kgs)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</remarks>
+</cdlblk>

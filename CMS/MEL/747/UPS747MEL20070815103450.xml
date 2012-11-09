@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS747MEL20070815103450" revdate="20080827" revnbr="5" sectnbr="25">
+<title>APU Fuel (DC) Pump</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative deactivated.</para>
+</remarks>
+<operation key="UPS747MEL20070815103451">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>APU FUEL PUMP</para>
+</note>
+<note><para>For APU operation:</para></note>
+<numlist>
+<numlitem><para>Apply External Power to the AC Buses.</para></numlitem>
+<numlitem><para>Select No. 2 Main Aft Boost Pump ON.</para></numlitem>
+<numlitem><para>Start and run APU using normal procedures.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to APU selector switch: "DC FUEL PUMP INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103452">
+<numlist>
+<numlitem><para>Open and collar the P6 panel DC FUEL PUMP APU circuit
+breaker. </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="4" key="UPS747MEL20070815105411" revdate="20080827" revnbr="5" sectnbr="32">
+<title>Cargo Door Lift Systems (Main Lower Lobe Cargo Doors and Main
+Deck Side Cargo Door)</title>
+<dispcond category="B" maintenance="YES" nbrins="3" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>There is no damage to the latch mechanism,</para>
+</numlitem>
+<numlitem><para>There is no damage to the master latch lock mechanism,
+and </para></numlitem>
+<numlitem><para>Associated door is opened, closed and locked using
+an accepted maintenance manual procedure.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard on Cargo Door control panel(s): "ELECTRICAL LEFT ACTUATION
+INOP" or if Manual function is affected: "MANUAL LIFT ACTUATION INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105412">
+<numlist>
+<numlitem><para>Visually check the associated cargo door to ensure
+that there is no damage to the latch mechanism or the exterior master
+latch lock mechanism. </para></numlitem>
+<numlitem><para>The door must be locked and unlocked using the exterior
+master latch lock handle only.</para></numlitem>
+<numlitem><para>Open, close, latch and lock the door using the appropriate
+Maintenance Manual procedure AMM 52-32-00 for Main Deck Side Cargo
+Door, AMM 52-34-00 for Lower Lobe Cargo Door).  The appropriate procedure
+will be contained in one or more of the following Maintenance Manual
+paragraphs:  </para><para>Open door manually.</para>
+<para>Close door manually.</para>
+<para>Open or close door with one or more electrically inoperative
+actuators. </para>
+<para>Open door with a jammed actuator or mechanism.</para>
+<para>Close door with a jammed actuator or mechanism.</para>
+</numlitem>
+</numlist>
+<warning><para><emphasis role="bold">TO AVOID PERSONNEL INJURY OR
+CARGO DOOR DAMAGE, USE ONLY AN APPROPRIATE SLING WHEN DOOR MUST BE
+LIFTED OR SUPPORTED DUE TO A JAMMED ACTUATOR OR MECHANISM.</emphasis
+></para></warning>
+</maintenance>
+</dispcond>
+</item>

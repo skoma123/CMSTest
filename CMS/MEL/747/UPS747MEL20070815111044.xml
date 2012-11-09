@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="57" chg="U" key="UPS747MEL20070815111044" qtyreq="2" revdate="20080827" revnbr="5" sectnbr="28">
+<title>Winglets</title>
+<remarks>
+<para>One may be missing provided the performance limited weights
+are reduced by the following:</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec colname="col1" colwidth="0.59*"/>
+<colspec colname="col2" colwidth="1.41*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>20,800 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(9435 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En&nbsp;route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>10,000 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(4536 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</remarks>
+<note><para>If a winglet is removed, the affected winglet fairings,
+except the leading edge wingtip fairing Part Number 118U0010 and the
+trailing edge wingtip fairing Part Number 118U0030, must be removed.
+ The forward facing opening in the trailing edge wingtip fairing must
+be covered (e.g., speed tape).</para></note>
+<graphic chapnbr="57" chg="U" confnbr="1" key="UPS747MEL20070815111045"
+revdate="20080827" revnbr="5" sectnbr="28">
+<sheet chg="U" gnbr="747-400_CDL_CH_57_Page_2"
+key="UPS747MEL20070815111046" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</cdlblk>

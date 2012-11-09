@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="2-0-1" key="UPS747MEL20070815102515" revdate="20080827" revnbr="5" sectnbr="21">
+<title>APU Drive Generator Systems (Generator, AGCU, APB) &ndash;
+(APB's) Remains Open </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided associated Auxiliary Power Breaker(s)
+(APBs) remains open.</para>
+</remarks>
+<operation key="UPS747MEL20070815102516">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>APU GEN ___</para>
+</note>
+<note><para>When dispatching with APU Gen 1 inop turn #4 DEMAND PUMP
+to AUTO for pushback, #4 AUX inop due to Gnd Handling bus not powered.</para>
+</note>
+<note><para>If EEC CLNG SUP FAN status message is displayed, it can
+be cleared by rotating the EQUIP COOLING switch to OVRD, then back
+to NORM.</para></note>
+</operation>
+<placard>
+<para>Placard APU GEN Switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102517">
+<title>APU DRIVE GENERATOR SYSTEMS (GENERATOR, AGCU, APB)</title>
+<para>Determine the APU Drive Generator System failure mode and accomplish
+the following steps as applicable:</para>
+<numlist>
+<numlitem><para>APU Drive Generator Bearing Failure:</para>
+<numlist>
+<numlitem><para>Check the EICAS for status message APU GEN BEARING
+which indicates an APU generator bearing failure.</para></numlitem>
+<numlitem><para>If a bearing failure has occurred, deactivate the
+associated generator as follows:</para>
+<numlist>
+<numlitem><para>Verify BATTERY switch, located on P5 overhead panel,
+is set to ON.</para></numlitem>
+<numlitem><para>Verify the associated APU generator FIELD OFF light
+is illuminated on the P461 panel.</para>
+<note><para>If the FIELD OFF light is extinguished, momentarily toggle
+and release the associated APU generator field switch on the P461
+panel.</para></note>
+</numlitem>
+<numlitem><para>Place INOP placard on appropriate APU GEN switch (P5
+panel). </para></numlitem>
+<numlitem><para>Limit operation of the APU to ground use only (do
+not use during takeoff).</para></numlitem>
+<numlitem><para>Do not operate the APU in excess of 15 hours total
+cumulative time following the initial bearing failure. Refer to item
+49-11-1 to deactivate the APU if necessary.</para>
+<note><para>The generator will be operating in a no-load condition
+when the APU is operating. Operation of APU for more than 15 hours
+total cumulative time following the initial generator bearing failure
+may result in severe damage to the APU generator and APU.</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>APU Drive Generator Electrical Failure, Auxiliary
+Generator Control Unit (AGCU) Failure:</para>
+<numlist>
+<numlitem><para>Verify EICAS status message APU GEN BEARING is not
+displayed. </para></numlitem>
+<numlitem><para>If status message is present, refer to (M) step 1
+&ldquo;APU Drive Generator Bearing Failure.&rdquo;</para></numlitem>
+<numlitem><para>If the messages are not present, deactivate the generator(s)
+as follows:</para>
+<numlist>
+<numlitem><para>Verify BATTERY switch, located on P5 overhead panel,
+is set to ON.</para></numlitem>
+<numlitem><para>Verify the associated APU generator FIELD OFF light
+is illuminated on the P461 panel.</para>
+<note><para>If the FIELD OFF light is extinguished, momentarily toggle
+and release the associated APU generator field switch on the P461
+panel.</para></note>
+</numlitem>
+<numlitem><para>Place INOP placard on appropriate APU GEN switch (P5
+panel). </para></numlitem>
+<numlitem><para>The generator will be operating in a no-load condition
+when the APU is operating. In this configuration, the potential for
+a generator bearing failure still exists. If the APU is operated,
+verify EICAS status message APU GEN BEARING is not displayed before
+each departure.</para></numlitem>
+<numlitem><para>If status message is present, refer to step 1, &ldquo;APU
+Driven Generator Bearing Failure.&rdquo;</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Auxiliary Power Breaker (APB) Failure:</para>
+<numlist>
+<numlitem><para>Apply electrical power through external power receptacle
+No. 1 or apply power from engine-driven generator No.1 and/or No.
+2.</para>
+<note><para>If electrical power (from either an external power source
+or from engine-driven generator power) cannot be connected to the
+aircraft, this is an indication auxiliary power breaker No. 1 is failed
+closed.</para></note>
+</numlitem>
+<numlitem><para>Verify all BUS TIE switches, located on P5 overhead
+panel, are set to AUTO.</para></numlitem>
+<numlitem><para>Verify that the ISLN lights, located on P5 overhead
+panel, are extinguished.</para>
+<note><para>If any ISLN lights are illuminated when engine generator
+power is applied, this is an indication auxiliary power breaker (No.
+1 and No. 2) is failed closed.</para></note>
+</numlitem>
+<numlitem><para>Verify split system breaker OPEN light, located on
+P461 pilots&rsquo; overhead maintenance panel is extinguished.</para>
+<note><para>If split system breaker light is illuminated, toggle SPLIT
+SYSTEM BREAKER switch to close breaker. If split system breaker OPEN
+light remains illuminated, this is an indication auxiliary power breaker
+No. 2 is failed closed.</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

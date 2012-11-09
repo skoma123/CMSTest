@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="79" chg="U" itemnbr="1" key="UPS747MEL20070815105726" revdate="20090824" revnbr="7" sectnbr="21">
+<title>Engine Oil Filter Warning Indications &ndash; (Impending Bypass)</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="4"
+nbrreq="2" operation="NO" btb="YES">
+<remarks>
+<para>Two may be inoperative provided:</para>
+<numlist>
+<numlitem><para>It is verified that the malfunction is in the alerting
+system, and</para></numlitem>
+<numlitem><para>Associated Master Chip Detector is checked for contaminants
+before each departure.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815105727">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ENG ___ OIL FILT</para>
+</note>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ENG ___ OIL
+FILTER IMPENDING BYPASS WARNING INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105728">
+<title>ENGINE OIL FILTER WARNING INDICATIONS</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify the malfunction is in the alerting system by
+one of the following methods:</para>
+<numlist>
+<numlitem><para>Use CMC input monitoring with the associated engine
+not running (a BIT set to one indicates the Oil Filter Differential
+Pressure Switch has failed):</para>
+<table frame="none">
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ENGINE 1</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>C/26/007/01</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BIT 17 = 1</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ENGINE 2</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>C/26/003/10</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BIT 24 = 1</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ENGINE 3</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>C/26/003/00</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BIT 22 = 1</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ENGINE 4</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>C/26/002/11</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BIT 14 = 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>If the advisory message ENG<emphasis role="underline"
+>  </emphasis> OIL FILT is displayed with the associated engine not
+running, the malfunction is in the alerting system.</para></note>
+<table frame="none">
+<tgroup align="center" cols="1">
+<colspec colname="col1" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>OR</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Perform the oil filter bypass warning system test
+(AMM 79-35-00/501). </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Deactivate the associated Oil Filter Bypass Warning
+System as follows:</para>
+<numlist>
+<numlitem><para>Open the P7 panel EIU L, EIU C and EIU R circuit breakers. </para>
+</numlitem>
+<numlitem><para>Disconnect, cap and stow electrical connector DS1583
+(at the Engine Oil Filter Differential Pressure Switch, S1583).</para>
+</numlitem>
+<numlitem><para>Close the circuit breakers opened in step 2A above.</para>
+<note><para>Advisory message ENG<emphasis role="underline">  </emphasis
+> OIL FILT may remain displayed.</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Install a new scavenge oil filter (AMM 79-21-04/401)
+on the associated engine.</para></numlitem>
+<numlitem><para>Prior to each departure, check that Master Chip Detector
+contamination is within limits (AMM 79-21-05/201).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

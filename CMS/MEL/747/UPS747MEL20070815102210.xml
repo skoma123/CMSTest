@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="2-2" key="UPS747MEL20070815102210" revdate="20100707" revnbr="8" sectnbr="31">
+<title>Autothrottle Disconnect Switches &ndash; Both Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 2" maintenance="YES"
+nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Autothrottles are not armed, and</para></numlitem>
+<numlitem><para>Approach minimums do not require use of autothrottles.</para>
+</numlitem>
+</numlist>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815102211">
+<numlist>
+<numlitem><para>If A/T ARM Switch is in the OFF position, the EEC
+engine trim function will not operate. Small thrust asymmetry may
+occur even if the throttles appear aligned.</para></numlitem>
+<numlitem><para>#2 EICAS display of Thrust Management computations
+are operative. </para></numlitem>
+<numlitem><para>Set thrust manually.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102212">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+2.</para></numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near A/T Control switch "L (R) A/T DISC SW INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102213">
+<numlist>
+<numlitem><para>Set Autothrottle Arm Switch to OFF.</para></numlitem>
+</numlist>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 2</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

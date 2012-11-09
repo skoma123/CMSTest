@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPS747MEL20070815104514" revdate="20080827" revnbr="5" sectnbr="13">
+<title>Mach Indications &ndash; Both Inoperative</title>
+<dispcond category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided flight remains at or below FL290.</para>
+</remarks>
+<limitation key="UPS747MEL20070815104515">
+<numlist>
+<numlitem><para>Flight altitude remains at or below FL290.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on PFD P-1-1 panel: "BOTH
+MACH INDs INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

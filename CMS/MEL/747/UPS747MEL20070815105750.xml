@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="80" chg="U" itemnbr="4" key="UPS747MEL20070815105750" revdate="20090824" revnbr="7" sectnbr="11">
+<title>Start Valve Open Lights</title>
+<dispcond attr-rev="NO" category="C" maintenance="NO" nbrins="4"
+nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided it is verified after engine
+start that the associated start valve is closed.</para>
+</remarks>
+<operation key="UPS747MEL20070815105751">
+<numlist>
+<numlitem><para>During engine start, if EICAS caution message STARTER
+CUTOUT_ is displayed, comply with non-normal procedures.</para>
+</numlitem>
+<numlitem><para>If EICAS caution message STARTER CUTOUT_ is displayed
+after engine speed reaches 52% N<sub>2</sub> , the start valve has
+failed to close. Maintenance action to replace or repair the start
+valve is required.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to Start Valve Open Light (P5):  "START VALVE
+OPEN LIGHT INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105752">
+<note><para>Should an inoperative Start Valve Open Light remain illuminated
+after confirmation that the associated start valve is closed, the
+PRV may remain commanded closed (due to failure of a start valve closed
+limit switch).  Under this condition it is necessary to comply with
+the PRV inoperative and secured closed provisions of MEL item <refint
+refid="UPS747MEL20070815104942" reftype="MEL">36-11-8-1</refint> or <refint
+refid="UPS747MEL20070815104948" reftype="MEL">36-11-8-2</refint>.</para>
+</note>
+</maintenance>
+</dispcond>
+</item>

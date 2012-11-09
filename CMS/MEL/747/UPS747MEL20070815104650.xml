@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815104650" revdate="20100707" revnbr="8" sectnbr="43">
+<title>Weather Radar System &ndash; Both Inoperative</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="2"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Weather radar is not required by FAR, and</para>
+</numlitem>
+<numlitem><para>Reactive windshear alert (GPWS Mode 7) is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104651">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>WXR SYS</para>
+</note>
+<numlist>
+<numlitem><para>May be inoperative for day VMC.</para></numlitem>
+<numlitem><para>May be inoperative for IMC provided that no thunderstorms
+or other potentially hazardous weather conditions that can be detected
+with airborne weather radar are forecast or may reasonably be expected
+along the route of the flight.</para></numlitem>
+</numlist>
+<note><para>In the case of daylight flights, the specification &ldquo;IMC&rdquo;
+does not necessarily mean that the entire flight must be conducted
+under VMC if the radar is inoperative, but only that the aircraft
+must remain in the clear throughout the area of thunderstorms or other
+hazardous weather, visually circumnavigating all such weather.</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815104652">
+<numlist>
+<!--Per email from Dispatch group. 9/24/09-->
+<numlitem><para>Dispatch not authorized when thunderstorms or other
+potentially hazardous weather conditions can be detected with airborne
+weather radar may reasonably be expected along the route to be flown.</para>
+<note><para>Dispatch allowed when the flight is planned to avoid any
+potential thunderstorms or hazardous weather.</para></note>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near appropriate weather radar selector switch: "WEATHER
+RADAR INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

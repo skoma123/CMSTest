@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="3-3" key="UPS747MEL20070815101842" revdate="20080827" revnbr="5" sectnbr="61">
+<title>Master Trim Air Valve Pressure Regulating Function </title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative or deactivated provided shutoff feature is
+operative. </para>
+</remarks>
+<placard>
+<para>Placard adjacent to the TRIM AIR switch "PRESS REG - INOP".
+ Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101843">
+<numlist>
+<numlitem><para>To deactivate pressure regulating function:</para>
+<numlist>
+<numlitem><para>Lower air conditioning access panel 191 (note: panel
+has 58 fasteners, ref AMM 21-61-08-04). The trim air PRSOV is on the
+left side of the keel beam and aft of the No. 2 air conditioning pack.</para>
+</numlitem>
+<numlitem><para>Remove downstream (duct) sense line tube from tee
+fitting. </para>
+<note><para>There are two exterior pressure sensing ports in the master
+trim air valve. The aft port is the downstream (duct) pressure sensing
+port. The forward port is the cabin pressure sensing port.</para></note>
+</numlitem>
+<numlitem><para>Plug and secure downstream (duct) sense line tube.</para>
+</numlitem>
+<numlitem><para>Allow tee fitting to remain open. <emphasis role="bold"
+>Do not cap or plug opening.</emphasis> </para></numlitem>
+<numlitem><para>Test trim air supply valve operation as follows:</para>
+<numlist>
+<numlitem><para>Provide electrical power.</para></numlitem>
+<numlitem><para>Position the Temperature Control panel (P5) TRIM AIR
+switch OFF.</para></numlitem>
+<numlitem><para>Pressurize pneumatic system using the APU or an external
+supply of pneumatic air.</para></numlitem>
+<numlitem><para>Select EICAS-ECS-Maintenance page via the CMC.</para>
+</numlitem>
+<numlitem><para>Position the Bleed Air Control panel (P5) PAC 1 selector
+to NORM.</para></numlitem>
+<numlitem><para>Check the TRIM AIR PRESS is approximately zero.</para>
+</numlitem>
+<numlitem><para>Position the Temperature Control panel (P5) TRIM AIR
+switch ON.</para></numlitem>
+<numlitem><para>Check that TRIM AIR PRESS increases.</para></numlitem>
+<numlitem><para>Position the Temperature Control panel (P5) TRIM AIR
+switch OFF.</para></numlitem>
+<numlitem><para>Check that TRIM AIR PRESS returns to approximately
+zero.</para></numlitem>
+<numlitem><para>Position the Temperature Control panel (P5) TRIM AIR
+switch is ON.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove pneumatic supply if no longer required and
+position the Temperature Control panel (P5): PACK 1 selector OFF if
+no longer required. </para></numlitem>
+<numlitem><para>Remove electrical power if no longer required.</para>
+</numlitem>
+<numlitem><para>Secure air conditioning access panel.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101844"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_59"
+key="UPS747MEL20070815101845" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

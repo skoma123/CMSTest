@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="4" key="UPS747MEL20070815105052" revdate="20100707" revnbr="8" sectnbr="21">
+<title>Engine Bleed Overpressure Switch</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="YES"
+nbrins="4" nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative deactivated provided:</para>
+<numlist>
+<numlitem><para>Associated HPSOV is secured closed,</para></numlitem>
+<numlitem><para>Associated Bleed switch remains OFF for takeoff,</para>
+</numlitem>
+<numlitem><para>A minimum of 70% N<sub>1</sub> (60% N<sub>1</sub> for
+RR) is maintained at or above 10,000 ft. MSL, or 55% N<sub>1</sub
+> is maintained below 10,000 ft. MSL on the associated engine while
+in icing conditions,</para></numlitem>
+<numlitem><para>Bleed systems on remaining engines are operative,
+and</para></numlitem>
+<numlitem><para>For GE, associated engine reverser is deactivated.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815105053">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BLEED HP ENG ___</para>
+</note>
+<numlist>
+<numlitem><para>When nacelle Anti-Ice is on, maintain a minimum of
+70% N<sub>1</sub> above 10,000 MSL and 55% below 10,000 MSL.</para>
+</numlitem>
+<numlitem><para>With the HPSOV secured closed, it is normal for the
+Pressure Regulating and Shutoff Valve (PRSOV) to close during engine
+operation at idle or if engine power setting are unequal.</para>
+</numlitem>
+<numlitem><para>The associated engine&rsquo;s thrust reverser is deactivated.
+The REV amber indication and EICAS message ENG_REVERSER may be displayed
+for the engine with reverser deactivated. Use symmetrical reverser
+thrust as required. </para></numlitem>
+<numlitem><para>Thrust Reverser deactivation will not affect control
+of engine idle speed during flight but the affect engine will stay
+in minimum idle on the ground. Therefore, EICAS message IDLE DISAGREE
+may be annunciated during landing when the unaffected engines are
+commanded to approach idle for reverser thrust operation.</para>
+</numlitem>
+<numlitem><para>The associated Bleed Switch should be selected OFF
+for takeoff and may be selected ON after flaps are UP.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105054">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<!--Per C.R.4299 David B. 12/16/2009 Rev 8-->
+<numlitem><para>Takeoff on cluttered or icy runway is prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placards below Captain's PFD on P-1-1 panel: "ENG____HPSOV
+INOP CLOSED and ____ENG BLEED OVERPRESS SW INOP and ____TR INOP".
+Enter items in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105055">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Deactivate the associated Bleed switch.  This will prevent the
+BLEED_ advisory message and the BLEED OVPRESS_ status message from
+displaying due to activation from the Bleed switch.</para>
+<numlist>
+<numlitem><para>Extend the leading edge flaps (AMM 27-81-00/201).</para>
+</numlitem>
+<numlitem><para>Gain access to the associated engine bleed air overpressure
+switch (through access panel located on wing leading edge inboard
+of the engine strut) and disconnect the electrical connector from
+the switch.</para>
+<note><para>The shorting wire in the following steps is UPS tool 747-36-002-101,
+if available.</para></note>
+</numlitem>
+<numlitem><para>Fabricate a 3 to 4 inch shorting wire from 20 to 24
+SWG type 6A wire (BMS 13-60 Type 1 or BMS 13-48 Type 10) and two 20
+gauge pins (P/N BACC47CN1A). </para></numlitem>
+<numlitem><para>Connect sockets 2 and 5 with the fabricated shorting
+wire and stow the connector securely using a bundle strap.</para>
+</numlitem>
+<numlitem><para>Secure the HPSOV CLOSED using the following procedures:</para>
+<note><para>The HPSOV is located on the right side of the high pressure
+compressor (HPC) case.  To deactivate the HPSOV, it is necessary to
+remove the positioning screw in the valve actuator to release actuator
+pressure.  The positioning screw is then installed in the switch actuating
+lever to lock the valve in the CLOSED position.  It is necessary to
+open the right thrust reverser half to gain access to the HPSOV.</para>
+</note>
+<graphic chapnbr="36" chg="U" key="UPS747-400MELCDL20080807105938"
+revdate="20080827" revnbr="5" sectnbr="21">
+<sheet chg="U" gnbr="747-400_DMP_CH_36_Page_12a"
+key="UPS747-400MELCDL20080807110013" revdate="20080827" revnbr="5"
+sheetnbr="001"></sheet>
+</graphic>
+<numlist>
+<numlitem><para>Release the pressure in the pneumatic system (AMM
+36-00-00/201). </para></numlitem>
+<numlitem><para>Open the right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+<numlitem><para>Remove the positioning screw from the actuator cap.
+ Do not disconnect the retaining cable from the positioning screw.</para>
+</numlitem>
+<numlitem><para>Install the positioning screw in the switch actuating
+lever to lock the HPSOV in the CLOSED position.</para></numlitem>
+<numlitem><para>Close the right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Secure the Thrust Reverser</para>
+<numlist>
+<numlitem><para>Refer to MEL <refint refid="UPS747MEL20070815105646"
+reftype="MEL">78-31-1-1</refint>.  Accomplish Maintenance (M) procedure
+to deactivate the reverser in the forward thrust position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

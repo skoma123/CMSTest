@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="2" chapnbr="52" chg="U" key="UPS747MEL20070815105956" qtyreq="4" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Main Entry Forward Hinge Fairings </title>
+<remarks>
+<para>This item is for the small forward fairings installed over hinge
+attachment points (1&nbsp;at upper hinge attachment and 1 at lower
+hinge attachment). </para>
+<numlist>
+<numlitem><para>For all models except -400F, a total of eight may
+be missing with no performance decrement.</para></numlitem>
+<numlitem><para>For -400F, a total of four may be missing without
+any performance decrement.</para></numlitem>
+</numlist>
+</remarks>
+<graphic chapnbr="52" chg="U" confnbr="2" key="UPS747MEL20070815105957"
+revdate="20080827" revnbr="5" sectnbr="11">
+<sheet chg="U" gnbr="747-400_CDL_CH_52_Page_2"
+key="UPS747MEL20070815105958" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</cdlblk>

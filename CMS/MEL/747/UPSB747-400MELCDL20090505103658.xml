@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="5-2-2" key="UPSB747-400MELCDL20090505103658" revdate="20090528" revnbr="6"
+sectnbr="63">
+<title>EMERGENCY LOCATOR TRANSMITTER (ELT) &ndash; FIXED ELT'S &ndash;
+SYSTEM REMOVED</title>
+<dispcond attr-rev="NO" category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be missing provided repairs are made within 90 days.</para>
+</remarks>
+<placard>
+<para>Install placard on top of ELT Remote Control switch cover located
+on the pilot's P5 overhead control panel &ldquo;FIXED ELT INOP&rdquo;.</para>
+</placard>
+</dispcond>
+</item>

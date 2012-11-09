@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS747MEL20070815103251" revdate="20080827" revnbr="5" sectnbr="81">
+<title>Leading Edge Flaps Drives &ndash; (Electric)</title>
+<dispcond category="C" maintenance="YES" nbrins="8" nbrreq="7"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>All pneumatic drives are operative, and</para>
+</numlitem>
+<numlitem><para>Associated electric drive is deactivated.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103252">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>LE SINGLE DRIVE</para>
+</note>
+</operation>
+<placard>
+<para>Placard near flap lever: "NUMBER ___ L (R) ELEC DR INOP". Enter
+item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103253">
+<para>Deactivate the associated electric drive.</para>
+<numlist>
+<numlitem><para>Extend the leading edge flaps pneumatically (AMM 27-81-00). </para>
+</numlitem>
+<numlitem><para>Check the Primary EICAS Display to ensure that all
+leading edge flaps are extended to the correct position.</para>
+</numlitem>
+<numlitem><para>Remove pneumatic power (AMM 36-00-00/201).</para>
+</numlitem>
+<numlitem><para>Open the following circuit breakers and attach DO-NOT-CLOSE
+tags:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="163.43pt"/>
+<colspec colname="col2" colwidth="148.65pt"/>
+<colspec colname="col3" colwidth="197.92pt"/>
+<thead>
+<row>
+<entry align="center" colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">P-6 Panel</emphasis></para>
+</entry>
+<entry align="center" colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">P-414 Panel</emphasis></para>
+</entry>
+<entry align="center" colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">P-415 Panel</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>PRI LE FLAP CONT GRP A AC</para>
+<para>PRI LE FLAP CONT GRP A DC</para>
+<para>PRI LE FLAP CONT GRP B AC</para>
+<para>PRI LE FLAP CONT GRP A DC</para>
+<para>LE FLAP ELEC CONT GRP B</para>
+<para>DRIVE 1</para>
+<para>LE FLAP ELEC CONT GRP A</para>
+<para>DRIVE 2</para>
+<para>LE FLAP ELEC CONT GRP A</para>
+<para>DRIVE 3</para>
+<para>LE FLAP ELEC CONT GRP A</para>
+<para>DRIVE 4</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>LE FLAP ELEC DRIVE 1</para>
+<para>LE FLAP ELEC DRIVE 4</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>LE FLAP ELEC DRIVE 2</para>
+<para>LE FLAP ELEC DRIVE 3</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Locate the associated electric drive motor in the
+leading edge wing cavity, remove and securely stow alternate drive
+motor&rsquo;s electrical connector.</para></numlitem>
+<numlitem><para>Close circuit breakers opened above.</para></numlitem>
+</numlist>
+<graphic chapnbr="27" chg="U" key="UPS747MEL20070815103254"
+revdate="20080827" revnbr="5" sectnbr="81">
+<sheet chg="U" gnbr="747-400_DMP_CH_27_Page_19"
+key="UPS747MEL20070815103255" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

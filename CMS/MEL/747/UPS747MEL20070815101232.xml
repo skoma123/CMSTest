@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="7-2" key="UPS747MEL20070815101232" revdate="20080827" revnbr="5" sectnbr="28">
+<title>Cargo/Combi Temperature Selector(s)</title>
+<dispcond category="C" maintenance="NO" nbrins="4" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815101233">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>CARGO ZONE TEMP</para>
+</note>
+<note><para>When a Cargo Temperature Selector is inoperative, zone
+temperature controllers automatically default to a target of 60&deg;F
+for the associated zone.  If the temperature selector's MAN mode remains
+available, associated zone temperature other than 60 may be obtained
+by selecting MAN and then W (warmer) or C (cooler) as desired to move
+the associated trim air mod valve. Cargo compartment temperatures
+are available on the ECS synoptics page.</para></note>
+</operation>
+<limitation key="UPS747MEL20070815101234">
+<numlist>
+<numlitem><para>If Manual Mode is not available, carriage of animals
+and perishables in associated cargo compartment is prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard associated Cargo Temperature selector "TEMPERATURE SELECTOR
+INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

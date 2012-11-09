@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="3" key="UPS747MEL20070815105359" revdate="20080827" revnbr="5" sectnbr="32">
+<title>Main Deck Side Cargo Door Latch Lock System (Interior Master
+Latch Lock Handle Shear Pin)</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>Shear pin may be inoperative or missing provided:</para>
+<numlist>
+<numlitem><para>Exterior master latch lock handle is operative,</para>
+</numlitem>
+<numlitem><para>There is no damage to the master latch lock mechanism,
+and </para></numlitem>
+<numlitem><para>Door is locked using the exterior master latch lock
+handle. </para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard on main Deck Side Cargo Door control panels: "INTERIOR
+MASTER LATCH HANDLE INOP &ndash; USE EXTERIOR HANDLE". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105410">
+<numlist>
+<numlitem><para>Visually check the side cargo door to ensure that
+there is no damage to the latch mechanism or the exterior master latch
+lock mechanism. </para></numlitem>
+<numlitem><para>The door must be locked and unlocked using the exterior
+master latch lock handle only.</para></numlitem>
+<numlitem><para>Door may be opened and closed using normal procedures.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

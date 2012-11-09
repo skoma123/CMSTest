@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="4-2-1" key="UPS747MEL20070815101635" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Air Cycle Machines (ACM) </title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="2"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated turbine bypass valve is secured open (full
+heat), </para></numlitem>
+<numlitem><para>Associated pack overheat protective system is operative,</para>
+</numlitem>
+<numlitem><para>PACK RST Switch is operative,</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE is not selected for
+the associated pack's zone, and</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE is not selected HIGH.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101636">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+<numlist>
+<numlitem><para>A pack with an inoperative ACM will, under some flight
+conditions, have degraded temperature control.  However, cabin pressurization
+will be operative.</para></numlitem>
+<numlitem><para>When operations are conducted with a turbine bypass
+valve secured open:</para>
+<numlist>
+<numlitem><para>Do not operate affected pack until airborne and TAT
+is +10&deg;C or cooler.  Select affected Pack Control Selector to
+NORM, or to A, or to B.</para></numlitem>
+<numlitem><para>During descent when TAT rises above +10&deg;C, select
+affected Pack Control Selector OFF.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Based on which pack is affected, the LOWER LOBE CARGO
+COND AIR FLOW RATE, if required, should be selected as follows:</para>
+<numlist>
+<numlitem><para>Pack 1, select LOW FWD or LOW AFT. Conditioned air
+is unavailable to the Lower Lobe Cargo compartment not selected.</para>
+</numlitem>
+<numlitem><para>Pack 2, select LOW FWD. Aft Lower Lobe Cargo conditioned
+air is unavailable.</para></numlitem>
+<numlitem><para>Pack 3, select LOW AFT. Fwd Lower Lobe Cargo conditioned
+air is unavailable.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101637">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to the affected PACK selector "ACM INOP". 
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101638">
+<numlist>
+<numlitem><para>To secure a turbine bypass valve open:</para>
+<numlist>
+<numlitem><para>Open the P6 panel PACK TEMP CONT &ndash; A and PACK
+TEMP CONT &ndash; B circuit breakers.</para></numlitem>
+<numlitem><para>Access valve through the appropriate A/C equipment
+bay access door. The valve is on the right side of the related ACM
+in the turbine bypass line.</para></numlitem>
+<numlitem><para>Remove the connector from the turbine bypass valve
+(TBV). </para></numlitem>
+<numlitem><para>Loosen the strain relief clamp supporting the connector&rsquo;s
+wire bundle.</para></numlitem>
+<numlitem><para>Remove wire from pin 5 of the TBV connector.</para>
+</numlitem>
+<numlitem><para>Remove wire from pin 7 of the TBV connector.</para>
+</numlitem>
+<numlitem><para>Sleeve pin 5 and pin 7 wires individually per Boeing
+Standard Wiring Practice Manual 20-10-15 using sleeve material RT-876.
+Sleeve must extend a minimum of one half inch beyond end of pin.</para>
+</numlitem>
+<numlitem><para>Stow wires to bundle per Boeing Standard Wiring Practices
+Manual 20-10-11.</para></numlitem>
+<numlitem><para>Tighten the strain relief clamp supporting the connector&rsquo;s
+wire bundle.</para></numlitem>
+<numlitem><para>Install Allen wrench in manual position shaft and
+rotate wrench to drive valve to open position as indicated on valve&rsquo;s
+position indicator. </para></numlitem>
+<numlitem><para>Reconnect electrical connector to TBV.</para></numlitem>
+<numlitem><para>Close the P6 panel PACK TEMP CONT &ndash; A and PACK
+TEMP CONT &ndash; B circuit breakers.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>A/C Controller Part Numbers</para><para>If P/N S210U130-41
+(or later) Pack Temperature Controller <emphasis role="italic"><emphasis
+role="underline">is</emphasis></emphasis> installed, ensure that both
+Pack Discharge Temperature Sensors for the associated pack are operative.
+A method to ensure that both pack discharge temperature sensors are
+operative is to check the CMC to make sure none of the following CMC
+messages are present: </para>
+<table frame="none">
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="157.68pt"/>
+<colspec colname="col3" colwidth="193.82pt"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>PACK 1</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>PACK 2</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>PACK 3</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>21112, 21172</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21123, 21173</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21134, 21174</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Status message PACK may remain displayed.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

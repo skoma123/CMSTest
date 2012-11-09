@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-2-1-1" key="UPS747MEL20070815101625" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Pack Flow Control and Shutoff Valves High Flow Mode &ndash;
+Models Without Auxiliary Fuel Tank Provisions </title>
+<dispcond category="C" maintenance="NO" nbrins="3" nbrreq="2"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided two packs are operating.</para>
+</remarks>
+<operation key="UPS747MEL20070815101626">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard the HI FLOW switch "PACK - HIGH FLOW MODE INOP".  Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

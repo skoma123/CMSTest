@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815105444" revdate="20090824" revnbr="7" sectnbr="73">
+<title>Door Indication</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="&ndash;"
+nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided door(s) is verified closed and locked
+by an alternate procedure.</para>
+</remarks>
+<operation key="UPS747MEL20070815105445">
+<note><para>The following EICAS message(s) may remain displayed:</para>
+<para>DOOR AFT CARGO</para>
+<para>DOOR FWD CARGO</para>
+<para>DOOR SIDE CARGO</para>
+<para>DOOR ENTRY ___</para>
+</note>
+<note><para>Lower E &amp; E and Bulk door indication will be EICAS
+Advisory messages only and if either is inoperative will affect ACARS
+report times.</para></note>
+<numlist>
+<numlitem><para>Associated door indication may remain displayed.</para>
+</numlitem>
+<numlitem><para>Maintenance will verify the status of the affected
+door(s) and communicate this to the flight crew as appropriate.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near Primary EICAS Display: "DOOR_ INDICATION INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105446">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Log at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<note><para>Maintenance procedures are to be performed as the final
+closing of an affected door(s) prior to takeoff.  The status of the
+affected door(s) should be communicated to the flight crew as appropriate.</para>
+</note>
+<numlist>
+<numlitem><para>Verify the affected door(s) is closed and locked as
+follows: </para>
+<numlist>
+<numlitem><para>Main Entry and Upper Deck Doors:</para>
+<numlist>
+<numlitem><para>Check that the door is flush with the fuselage skin.</para>
+</numlitem>
+<numlitem><para>Check that the exterior operating handle is stowed
+flush with the door.</para></numlitem>
+<numlitem><para>Check that the interior operating handle is rotated
+to the fully latched (closed) position.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Crew Compartment Overhead Door (Hatch):</para>
+<numlist>
+<numlitem><para>Open the door and check that the exterior handle is
+stowed flush with the door and is secured in the latched position
+by the handle latch. </para></numlitem>
+<numlitem><para>Close and latch the door.</para></numlitem>
+<numlitem><para>Ensure that the latch pins properly engage the keeper
+fittings on the body and that the arrow on the interior handle is
+aligned with the LOCKED arrow on the  door lining.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Bulk Cargo Door:</para>
+<numlist>
+<numlitem><para>Ensure the interior and exterior operating handles
+are working in phase by pulling the exterior handle from its recess
+in the door until it is fully extended.  Re-stow the handle.</para>
+</numlitem>
+<numlitem><para>Check that the exterior operating handle is stowed
+flush with the door.</para></numlitem>
+<numlitem><para>Check that the door is flush with the fuselage skin.</para>
+</numlitem>
+<numlitem><para>Check that the door is latched by pushing inward on
+the door and verify that it does not move.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Main/Center Electronics Equipment Access Door:</para>
+<numlist>
+<numlitem><para>Ensure the interior and exterior operating handles
+are working in phase by pulling the exterior handle from its recess
+in the door until it is fully extended.  Re-stow the handle.</para>
+</numlitem>
+<numlitem><para>Check that the exterior operating handle is stowed
+flush with the door and is secured in the latched position by the
+handle latch.</para></numlitem>
+<numlitem><para>Check that the door is flush with the fuselage skin.</para>
+</numlitem>
+<numlitem><para>Check that the door is latched by pushing inward on
+the door and verify that it does not move.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Forward and Aft Lower Lobe Cargo Doors:</para>
+<numlist>
+<numlitem><para>Close and latch door per normal procedure.</para>
+</numlitem>
+<numlitem><para>Check that the door is fully latched by observing,
+through the door's view port, that the stripe on each rotary latch
+cam is aligned with the arrow on the adjacent latch pin fitting.</para>
+</numlitem>
+<numlitem><para>Observe that the pressure relief doors are open prior
+to closing the master latch lock handle.  Observe the pressure relief
+doors closing while moving the master latch lock handle to the closed
+position.</para>
+<note><para>Do not force master latch lock handle closed.  Resistance
+or interference indicates latch cams may not be in fully latched position. </para>
+</note>
+</numlitem>
+<numlitem><para>Check that the master latch lock handle and its trigger
+are stowed flush with the door and that the pressure relief doors
+are closed.  The top of a fully closed pressure relief door is approximately
+one half inch inboard of the cargo door skin when plane is unpressurized.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Main Deck Cargo Door:</para>
+<numlist>
+<numlitem><para>Close and latch door per normal procedure.</para>
+</numlitem>
+<numlitem><para>Check that the door is fully latched by observing,
+from inside the aircraft, that the rig pin slot in both the forward-most
+and aft-most rotary latch cam is aligned with the rig pin hole in
+the adjacent door structure. </para></numlitem>
+<numlitem><para>Observe, from outside the aircraft, that the pressure
+relief doors are open prior to closing the master latch lock handle.
+ Observe the pressure relief doors closing while moving the master
+latch lock handle to the closed position.</para>
+<note><para>Do not force master latch lock handle closed.  Resistance
+or interference indicates latch cams may not be in fully latched position. </para>
+</note>
+</numlitem>
+<numlitem><para>Check that the master latch lock handle and its trigger
+are stowed flush with the door and that the pressure relief doors
+are closed.  The top of a fully closed pressure relief door is approximately
+one half inch inboard of the cargo door skin when the aircraft is
+unpressurized.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

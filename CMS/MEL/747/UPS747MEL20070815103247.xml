@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS747MEL20070815103247" revdate="20090824" revnbr="7" sectnbr="81">
+<title>Leading Edge Flaps Drives &ndash; (Pneumatic)</title>
+<dispcond category="C" maintenance="YES" nbrins="8" nbrreq="7"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>All electric drives are operative, and</para></numlitem>
+<numlitem><para>Takeoff obstacle clearance is not required upon retraction
+of flaps from takeoff position.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103248">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>LE SINGLE DRIVE</para>
+</note>
+<numlist>
+<numlitem><para>With one pneumatic drive inoperative, the caution
+message FLAPS PRIMARY will be displayed during flap operation. The
+FLAPS PRIMARY message indicates a temporary LE Flap disagreement as
+a result of slower electrical actuation of the affected LE Flap panels.
+At the completion of flap motion, with all panels in commanded position,
+FLAPS PRIMARY will extinguish. Dispatch with FLAPS PRIMARY displayed,
+or the status message LE MULT DRIVE, is prohibited. </para></numlitem>
+<numlitem><para>After Takeoff:</para>
+<numlist>
+<numlitem><para>Leave flaps in takeoff position until obstacle clearance
+is assured.</para></numlitem>
+<numlitem><para>Retract flaps with the flap lever using normal procedures.
+(The affected leading edge flaps will automatically be retracted electrically
+at a slower rate than the pneumatic flaps).</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815103249">
+<numlist>
+<numlitem><para>If &ldquo;Obstacle Clearance Altitude (OCA)&rdquo;
+is present on the AA Data for the departure runway, contact Flight
+Control for alternate AA Data.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near flap lever: "NUMBER ___ L (R) PNEU DR INOP". Enter
+item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103250">
+<numlist>
+<numlitem><para>Check operation of the leading edge electric drives
+as follows: </para>
+<warning><para>ENSURE PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL FLIGHT
+CONTROL SURFACES.</para></warning>
+<numlist>
+<numlitem><para>If all leading edge and trailing edge flaps are not
+fully retracted, retract them using the flap lever.</para></numlitem>
+<numlitem><para>To inhibit trailing edge motion and leading edge pneumatic
+motion, open the following circuit breakers on the P6 panel:</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec align="left" colname="col1" colwidth="281.69pt"/>
+<tbody>
+<row>
+<entry align="left">
+<para>PRI LE FLAP DR CONT GRP A (AC)</para>
+<para>PRI LE FLAP DR CONT GRP B (AC)</para>
+<para>TE FLAP ELEC CONT INBD</para>
+<para>TE FLAP ELEC CONT OUTBD</para>
+<para>PRI TE FLAP CONT DC</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<caution><para>DO NOT ELECTRICALLY EXTEND OR RETRACT THE FLAPS MORE
+THAN ONE TIME IN 5 MINUTES. DAMAGE TO THE MOTOR CAN OCCUR IF THE MOTOR
+BECOMES TOO HOT.</para></caution>
+</numlitem>
+<numlitem><para>Move the flap lever to 5:</para><para>The leading
+edge flaps should remain stationary for approximately 15 seconds,
+and then extend electrically. Verify that all leading edge flaps extend
+by observing the EICAS non-normal (expanded) flap display and by observing
+the flap panels.</para>
+<note><para>The Caution message FLAPS DRIVE and the status messages
+LE MULT DRIVE and TE FLAPS will remain displayed on EICAS following
+this step.</para></note>
+</numlitem>
+<numlitem><para>Move the flap lever to UP:</para><para>The leading
+edge flaps should remain stationary for approximately 15 seconds,
+and then retract electrically. Verify that all leading edge flaps
+retract fully by observing the EICAS display and the flap panels.</para>
+</numlitem>
+<numlitem><para>Close the 5 circuit breakers opened in step B.</para>
+</numlitem>
+<numlitem><para>Press the ALT FLAPS arm switch. Press the arm switch
+again and verify the messages FLAPS DRIVE, LE MULT DRIVE, and TE FLAPS
+are extinguished. </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<note><para>Status message LE MULT DRIVE may be latched by a single
+pneumatically inoperative Flap Drive unit. If LE MULT DRIVE remains
+displayed at conclusion of the maintenance procedure above, dispatch
+may still be available by accomplishing the steps below and verifying
+the message was latched by a single pneumatically inoperative Flap
+drive unit.</para></note>
+<para><emphasis role="bold">LE MULT DRIVE:</emphasis></para>
+<note><para>The following procedure may be used to verify that LE
+MULT DRIVE was latched by a single pneumatically inoperative Flap
+drive unit. If LE MULT DRIVE remains annunciated at the conclusion
+of the verification procedure, dispatch is not allowed.</para></note>
+<warning><para>LEADING AND TRAILING EDGE FLAPS WILL OPERATE. ENSURE
+THAT PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL FLIGHT CONTROL SURFACES.</para>
+</warning>
+<numlist>
+<numlitem><para>Apply power to Flap Control Units (FCUs).</para>
+</numlitem>
+<numlitem><para>Apply hydraulic and pneumatic power to the flaps.</para>
+</numlitem>
+<numlitem><para>Move the flap lever to the &ldquo;UP&rdquo; detent
+and wait until the flaps are fully retracted.</para></numlitem>
+<numlitem><para>Open and close the following circuit breakers located
+on the P7 panel:</para>
+<numlist>
+<numlitem><para>7C10 FLT CONT ELEC 2L AC</para></numlitem>
+<numlitem><para>7C11 FLT CONT ELEC 2L DC</para></numlitem>
+<numlitem><para>7C12 FLT CONT ELEC 1L AC</para></numlitem>
+<numlitem><para>7C13 FLT CONT ELEC 1L DC</para></numlitem>
+<numlitem><para>7C14 FLT CONT ELEC 1R AC</para></numlitem>
+<numlitem><para>7C15 FLT CONT ELEC 1R DC</para></numlitem>
+<numlitem><para>7C16 FLT CONT ELEC 2R AC</para></numlitem>
+<numlitem><para>7C17 FLT CONT ELEC 2R AC</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify that all flap related EICAS messages and all
+existing flap related CMC faults are no longer displayed.</para>
+</numlitem>
+<numlitem><para>Move the flap lever to the &ldquo;5&rdquo; detent
+and wait until the flaps fully extend. Affected leading edge flaps
+will operate in the primary electric mode.</para>
+<caution><para>DO NOT ELECTRICALLY EXTEND OR RETRACT THE FLAPS MORE
+THAN ONE TIME IN 5 MINUTES. DAMAGE TO THE MOTOR CAN OCCUR IF THE MOTOR
+BECOMES TOO HOT.</para></caution>
+</numlitem>
+<numlitem><para>Verify that LE MULT DRIVE is not displayed.</para>
+</numlitem>
+<numlitem><para>Move the flap lever to the &ldquo;UP&rdquo; detent
+and wait until the flaps fully retract. Affected leading edge flaps
+will operate in the primary electric mode.</para></numlitem>
+<numlitem><para>Verify that LE MULT DRIVE is not displayed.</para>
+<note><para>Dispatch is not allowed if LE MULT DRIVE was displayed
+at any time after the circuit breakers were open and closed by Step
+4 above.</para></note>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="4-1" key="UPS747MEL20070815102434" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Audio Control Panels &ndash; Captain&rsquo;s Audio Control
+Panel</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided First Observer&rsquo;s audio control
+panel is operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102435">
+<numlist>
+<numlitem><para>Position Overhead Panel OBS AUDIO SYSTEM switch to
+CAPT. Captain&rsquo;s audio equipment is connected to the First Observer&rsquo;s
+audio panel.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard inoperative Audio Control Panel "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

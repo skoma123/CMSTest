@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="5-2" key="UPS747MEL20070815103445" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Fuel Crossfeed Valves &ndash; Fuel Crossfeed Valves 2 and 3</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Valve is secured open,</para></numlitem>
+<numlitem><para>All main tank fuel quantity indicating systems are
+operating, and</para></numlitem>
+<numlitem><para>Crossfeed Valves 1 and 4 are operative.</para>
+</numlitem>
+<numlitem><para>Center tank and auxiliary tank (if installed) remain
+empty, or fuel is included a part of Zero Fuel Weight, and</para>
+</numlitem>
+<numlitem><para>Horizontal stabilizer tank remains empty.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103446">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL X FEED ___</para>
+</note>
+<note><para>The EICAS Fuel Synoptic crossfeed valve position display
+will be blank for all four crossfeed valves (i.e. low intensity white
+with no fuel flow bars).</para></note>
+<numlist>
+<numlitem><para>CWT fuel, if carried, must be included as part of
+ZFW. Fuel may be included as part of ZFW in any quantity up to the
+maximum ZFW or the capacity of CWT.</para>
+<note><para>CWT fuel included as part of ZFW may be used en route.</para>
+</note>
+<note><para>Takeoff fuel feed must be main tank-to-engine or main
+tanks 2 and 3 to all engines.</para></note>
+</numlitem>
+<numlitem><para>If fuel is present in the center wing tank, center
+wing tank override/jettison pumps must be selected OFF for takeoff.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815103447">
+<numlist>
+<numlitem><para>Condition #1: Center tank remains empty.</para>
+</numlitem>
+<numlitem><para>Condition #2: Center Wing Tank fuel must be included
+as part of the ZFW but is considered usable en route.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to affected crossfeed switch: "___ FUEL XFEED
+VL LIGHT INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103448">
+<numlist>
+<numlitem><para>Secure the affected valve open as follows:</para>
+<numlist>
+<numlitem><para>Access front wing spar. (Access for No. 2 or No. 3
+crossfeed valves between inboard and outboard engines.)</para>
+</numlitem>
+<numlitem><para>Extend leading edge flaps (AMM 27-81-00/201).</para>
+</numlitem>
+<numlitem><para>Open the circuit breaker associated with the inoperative
+crossfeed valve and install DO-NOT-CLOSE identifier:</para>
+<numlist>
+<numlitem><para>For crossfeed valve 2, open P6 panel FUEL XFEED VALVE
+ENG 2 circuit breaker.</para></numlitem>
+<numlitem><para>For crossfeed valve 3, open P6 panel FUEL XFEED VALVE
+ENG 3 circuit breaker.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Disconnect, cap, and stow electrical connector from
+affected valve (AMM 28-22-02/401).</para></numlitem>
+<numlitem><para>Position manual override lever for affected valve
+in the OPEN position and lockwire.</para></numlitem>
+<numlitem><para>Remove DO-NOT-CLOSE identifier and close the circuit
+breaker opened above.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

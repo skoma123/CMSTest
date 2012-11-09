@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="45" chg="U" itemnbr="3-1" key="UPS747MEL20070815105130" revdate="20080827" revnbr="5" sectnbr="45">
+<title>Multiple-Input Printer</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS747MEL20070815105131">
+<numlist>
+<numlitem><para>Obtain required paperwork prior to departure. Advise
+flight control that no inflight printer will be available.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to Printer: "INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

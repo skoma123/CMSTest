@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="3-2" key="UPS747MEL20070815104420" revdate="20080827" revnbr="5" sectnbr="42">
+<title>Runway Turn-Off Lights &ndash; Day Operations</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative for day operations.</para>
+</remarks>
+<limitation key="UPS747MEL20070815104421">
+<numlist>
+<numlitem><para>Day operations only.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Runway Turnoff Light Switch: "___ RUNWAY TURNOFF
+LIGHT(S) INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

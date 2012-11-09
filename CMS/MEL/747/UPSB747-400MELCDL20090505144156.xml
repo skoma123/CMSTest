@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPSB747-400MELCDL20090505144156" revdate="20100707" revnbr="8"
+sectnbr="53">
+<title>ATC TRANSPONDERS AND AUTOMATIC ALTITUDE REPORTING SYSTEMS &ndash;
+ADS-B SQUITTER TRANSMISSIONS</title>
+<dispcond attr-rev="NO" category="A" nbrins="&ndash;" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Operations do not require its use, and</para></numlitem>
+<numlitem><para>Repairs are made prior to completion of the next heavy
+maintenance visit.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPSB747-400MELCDL20090506113557">
+<numlist>
+<numlitem><para>Flight Control to ensure ADS-B Out is not required
+along planned route. (e.g. Hudson Bay, etc.). Reference IOM Communications
+Section for Limitations and Procedures.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Transponder Selector Switch: "ADS-B INOP&rdquo;.
+ Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

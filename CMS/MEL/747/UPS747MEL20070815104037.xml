@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="4-1" key="UPS747MEL20070815104037" revdate="20090824" revnbr="7" sectnbr="61">
+<title>EICAS Status Messages</title>
+<dispcond category="C" maintenance="YES" nbrins="462" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided associated equipment is verified
+to be operative. </para>
+</remarks>
+<operation key="UPS747MEL20070815104038">
+<numlist>
+<numlitem><para>Dispatch with inoperative (nuisance) Status level
+message(s) is allowed by provisions of this MEL item. An inoperative
+message is one which is displayed when there is no actual equipment
+fault. Dispatch may be accomplished by verifying the equipment associated
+with the inoperative EICAS Status Message is operative.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard "DISREGARD STATUS MESSAGE _____" below Captain&rsquo;s
+PFD on P-1-1 panel. Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104039">
+<note><para>Dispatch with inoperative (nuisance) Status level messages
+is allowed by the provisions of this MEL item. An inoperative message
+is one which is displayed when there is no actual equipment fault.
+If such an EICAS message is suspected, dispatch may still be accomplished
+by verifying the equipment associated with the inoperative EICAS Status
+Message is operative, or by observing the Dispatch Deviation(s) for
+the associated equipment, if available. The EICAS Cross Reference
+List in Section 1 can be used to locate the appropriate MEL item for
+possible dispatch.</para><para>Maintenance (M) procedures are presented
+herein to verify normal operation of equipment for three nuisance
+Status messages. These three messages do not have associated Operations
+(O) procedures. The EICAS STATUS MESSAGE list and procedures associated
+with them that follow are not intended to be all inclusive. </para>
+</note>
+<numlist>
+<numlitem><para><emphasis role="bold">FUEL SPAR VLV_ :</emphasis></para>
+<note><para>The following procedure may be used to verify that the
+Fuel Spar Valve is operative if dispatching with the EICAS status
+message FUEL SPAR VLV_ displayed. </para></note>
+<numlist>
+<numlitem><para>Check that all boost pumps and override/jettison pump
+switches on the Fuel Control Panel are OFF.</para></numlitem>
+<numlitem><para>Check that all fuel crossfeed valve switches on the
+Fuel Control Panel are OFF.</para></numlitem>
+<numlitem><para>Check that all FUEL CONTROL switches on the Control
+Stand are set to CUTOFF.</para></numlitem>
+<numlitem><para>Check that all Engine start switches on the P5 panel
+are OFF. </para>
+<warning><para>FAILURE TO OPEN APPLICABLE ENGINE IGNITION CIRCUIT
+BREAKERS (CB&rsquo;S) PRIOR TO OPENING ENGINE FUEL CONT VALVE CB&rsquo;S
+WILL RESULT IN AUTOMATIC FIRING OF IGNITER PLUGS IF/WHEN FLAPS ARE
+OUT OF ZERO DETENT, NACELLE ANTI-ICE IS ON, CONTINUOUS IGNITION SWITCH
+IS PULLED &ldquo;ON,&rdquo; OR ENGINE START SWITCH IS PULLED &ldquo;ON.&rdquo;
+WHEN UNBURNED FUEL IS IN THE COMBUSTION CHAMBER, INTERNAL ENGINE OR
+TAILPIPE FIRE MAY RESULT, CAUSING PERSONNEL INJURY OR ENGINE DAMAGE.</para>
+</warning>
+</numlitem>
+<numlitem><para>On the P6 Main Power Panel, open the following CBs
+and attach DO-NOT-CLOSE identifiers:</para>
+<note><para>Do not proceed to Step 6 until Step 5 has been accomplished
+in its entirety. </para></note>
+<numlist>
+<numlitem><para>6H2 FIRE EXTINGUISHER ENG 1 &amp; 3 A</para></numlitem>
+<numlitem><para>6H1 FIRE EXTINGUISHER ENG 1 &amp; 3 B</para></numlitem>
+<numlitem><para>6H4 FIRE EXTINGUISHER ENG 2 &amp; 4 A</para></numlitem>
+<numlitem><para>6H3 FIRE EXTINGUISHER ENG 2 &amp; 4 B</para></numlitem>
+<numlitem><para>6F1 IGN 1 ENG 1</para></numlitem>
+<numlitem><para>6F2 IGN 1 ENG 2</para></numlitem>
+<numlitem><para>6F3 IGN 1 ENG 3</para></numlitem>
+<numlitem><para>6F4 IGN 1 ENG 4</para></numlitem>
+<numlitem><para>6G19 STBY IGN ENG 1</para></numlitem>
+<numlitem><para>6G20 STBY IGN ENG 2</para></numlitem>
+<numlitem><para>6G21 STBY IGN ENG 3</para></numlitem>
+<numlitem><para>6G22 STBY IGN ENG 4</para></numlitem>
+<numlitem><para>6K19 IGN 2 ENG 1</para></numlitem>
+<numlitem><para>6K20 IGN 2 ENG 2</para></numlitem>
+<numlitem><para>6K21 IGN 2 ENG 3</para></numlitem>
+<numlitem><para>6K22 IGN 2 ENG 4</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>On the P6 Main Power Panel, open the following CBs
+and attach DO-NOT-CLOSE identifiers:</para>
+<numlist>
+<numlitem><para>6L10 FUEL CONT VALVE ENG 1</para></numlitem>
+<numlitem><para>6L11 FUEL CONT VALVE ENG 2</para></numlitem>
+<numlitem><para>6L12 FUEL CONT VALVE ENG 3</para></numlitem>
+<numlitem><para>6L13 FUEL CONT VALVE ENG 4</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Extend Wing Leading Edge Flaps for access to Spar
+Valves. </para></numlitem>
+<numlitem><para>Station an observer on an elevated platform near the
+affected Spar Valve.</para></numlitem>
+<numlitem><para>Observer visually verify that the Manual Override
+Lever on the Spar Valve is in the CLOSED position.</para></numlitem>
+<numlitem><para>Set the associated FUEL CONTROL switch on the Aisle
+Stand to RUN.</para></numlitem>
+<numlitem><para>Observer visually verify that the Manual Override
+Lever on the Spar Valve moves to the OPEN position.</para></numlitem>
+<numlitem><para>Pull the associated engine FIRE switch on the P5 Fire
+Control Module.</para></numlitem>
+<numlitem><para>Observer visually verify that the Manual Override
+Lever on the Spar Valve moves to the CLOSED position.</para></numlitem>
+<numlitem><para>Reset the Fire switch.</para></numlitem>
+<numlitem><para>Observer visually verify that the Manual Override
+Lever on the Spar Valve moves to the OPEN position.</para></numlitem>
+<numlitem><para>Set the associated FUEL CONTROL switch on the Aisle
+Stand to CUTOFF.</para></numlitem>
+<numlitem><para>Observer visually verify that the Manual Override
+Lever on the Spar Valve moves to the CLOSED position.</para></numlitem>
+<numlitem><para>Restore the aircraft to its required configuration.
+Remove, DO-NOT-CLOSE identifiers and close all CBs opened in Step
+E and Step F.</para></numlitem>
+<numlitem><para>If the Fuel Spar Valve positions were all positively
+verified in the above Steps, the affected Spar Valve is operative
+and the aircraft may be dispatched.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para><emphasis role="bold">LE MULT DRIVE:</emphasis></para>
+<note><para>The following procedure may be used to verify that LE
+MULT DRIVE was latched by a single pneumatically inoperative Flap
+drive unit. If LE MULT DRIVE remains annunciated at the conclusion
+of the verification procedure, dispatch is not allowed.</para></note>
+<warning><para>LEADING AND TRAILING EDGE FLAPS WILL OPERATE. ENSURE
+THAT PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL FLIGHT CONTROL SURFACES.</para>
+</warning>
+<numlist>
+<numlitem><para>Apply power to Flap Control Units (FCUs).</para>
+</numlitem>
+<numlitem><para>Apply hydraulic and pneumatic power to the flaps.</para>
+</numlitem>
+<numlitem><para>Move the flap lever to the &ldquo;UP&rdquo; detent
+and wait until the flaps are fully retracted.</para></numlitem>
+<numlitem><para>Open and close the following circuit breakers located
+on the P7 panel:</para>
+<numlist>
+<numlitem><para>7C10 FLT CONT ELEC 2L AC</para></numlitem>
+<numlitem><para>7C11 FLT CONT ELEC 2L DC</para></numlitem>
+<numlitem><para>7C12 FLT CONT ELEC 1L AC</para></numlitem>
+<numlitem><para>7C13 FLT CONT ELEC 1L DC</para></numlitem>
+<numlitem><para>7C14 FLT CONT ELEC 1R AC</para></numlitem>
+<numlitem><para>7C15 FLT CONT ELEC 1R DC</para></numlitem>
+<numlitem><para>7C16 FLT CONT ELEC 2R AC</para></numlitem>
+<numlitem><para>7C17 FLT CONT ELEC 2R DC</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify that all flap related EICAS messages and all
+existing flap related CMC faults are no longer displayed.</para>
+</numlitem>
+<numlitem><para>Move the flap lever to the &ldquo;5&rdquo; detent
+and wait until the flaps fully extend. Affected leading edge flaps
+will operate in the primary electric mode.</para>
+<caution><para>DO NOT ELECTRICALLY EXTEND OR RETRACT THE FLAPS MORE
+THAN ONE TIME IN 5 MINUTES. DAMAGE TO THE MOTOR CAN OCCUR IF THE MOTOR
+BECOMES TOO HOT.</para></caution>
+</numlitem>
+<numlitem><para>Verify that LE MULT DRIVE is not displayed.</para>
+</numlitem>
+<numlitem><para>Move the flap lever to the &ldquo;UP&rdquo; detent
+and wait until the flaps fully retract. Affected leading edge flaps
+will operate in the primary electric mode.</para></numlitem>
+<numlitem><para>Verify that LE MULT DRIVE is not displayed.</para>
+<note><para>Dispatch is not allowed if LE MULT DRIVE was displayed
+at any time after the circuit breakers were open and closed by Step
+2. D. above. Refer to MEL <refint refid="UPS747MEL20070815103247"
+reftype="MEL"> 27-81-1</refint> if LE SINGLE DRIVE status level message
+remains displayed.</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para><emphasis role="bold">ENG_ ESCV:</emphasis></para>
+<note><para>GE SB 75-123 has been complied with on 570 thru 579. EEC
+software configuration is later than 8.2N on 570 thru 579.</para></note>
+<note><para>The following may be used to verify that the ESC Valves
+have been removed if dispatching with the EICAS status message ENG
+ESCV displayed on aircraft powered by GE engines only.</para></note>
+<numlist>
+<numlitem><para>Verify that either GE Service Bulletin 75-123, or
+the GE Block II Change or its production equivalent has been accomplished.
+The Service Bulletin 75-123 permanently deactivates the ESC Valves
+open. The GE Block II Change or its production equivalent permanently
+removes ESC Valves from GE engines.</para></numlitem>
+<numlitem><para>For aircraft with the ESC Valves permanently deactivated,
+or permanently removed, or the production equivalent, the EICAS status
+message ENG_ ESCV message may appear with EEC Software 8.2M and earlier
+installed. No corrective action is necessary for the associated engine.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

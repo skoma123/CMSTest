@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-3" key="UPS747MEL20070815103347" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Pressure Fueling System &ndash; Preselect Feature</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0" btb="NO">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used for refueling associated fuel tank.</para>
+</remarks>
+<placard>
+<para>Placard at refuel panel: "FUELING PRESELECT FEATURE INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MELCDL20080407152446">
+<numlist>
+<numlitem><para>Manually fuel aircraft starting with forward most
+tank(s): First (center), then next most forward tanks (2 and 3 main)
+and then tanks 1 and 4 last in order to prevent weight and balance
+concerns.</para>
+<caution><para>FUEL DISTRIBUTION WILL NEED TO BE MANUALLY MONITORED.</para>
+</caution>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

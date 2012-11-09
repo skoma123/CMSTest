@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="4-3-3-4" key="UPS747MEL20070815102418" revdate="20080827" revnbr="5" sectnbr="42">
+<title>Alerting System (Audio/Visual) Courier/ Supernumerary Visual
+Alerting System &ndash; Compartment Remains Unoccupied</title>
+<dispcond category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided Courier/ Supernumerary compartment
+remains unoccupied.</para>
+<note><para>Any visual alerting system function(s) that is operative
+may be used. </para></note>
+</remarks>
+<limitation key="UPS747MEL20070815102419">
+<numlist>
+<numlitem><para>The Courier/ Supernumerary compartment must remain
+unoccupied. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel "SUPERNUM VIS
+ALERT SYS INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

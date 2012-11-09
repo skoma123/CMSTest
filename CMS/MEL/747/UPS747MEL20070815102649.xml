@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815102649" revdate="20090528" revnbr="6" sectnbr="28">
+<title>Overhead Storage Bin(s)/Cabin and Galley Storage Compartments/
+Closets &ndash; DOOR SECURED</title>
+<dispcond category="C" maintenance="YES" nbrins="5" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Procedures are established to secure compartment CLOSED,</para>
+</numlitem>
+<numlitem><para>Any emergency equipment located in affected compartment
+is considered inoperative,</para></numlitem>
+<numlitem><para>Affected compartment is not used for storage of any
+item(s) except for those permanently affixed, and</para></numlitem>
+<numlitem><para>Associated bin or compartment is prominently placaded:
+&ldquo;DO NOT USE&rdquo;.</para></numlitem>
+</numlist>
+<note><para>If no partitions are installed, the entire overhead storage
+compartment is considered one bin or compartment.</para></note>
+</remarks>
+<placard>
+<para>Placard associated bin, compartment, "DO NOT USE" so as to prevent
+its use. Enter item in Aircraft Deferred Item log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102650">
+<numlist>
+<numlitem><para>Ensure every affected bin is empty (except for permanently
+affixed items) and secured closed after crew inspection.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

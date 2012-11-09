@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS747MEL20070815103636" revdate="20080827" revnbr="5" sectnbr="44">
+<title>Measuring Sticks</title>
+<dispcond category="C" maintenance="YES" nbrins="19" nbrreq="0">
+<remarks>
+<para>May be inoperative provided fuel quantity is verified by other
+means. </para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "___ TANK
+DRIP STICK INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103637">
+<para>Verify the fuel quantity in the tank associated with the inoperative
+measuring stick using one of the following methods:</para>
+<numlist>
+<numlitem><para>Use the flight deck fuel synoptic to ensure that the
+correct amount of fuel has been loaded.</para></numlitem>
+<numlitem><para>Defuel the associated tank (AMM 28-26-00/201) and
+service the tank with a known quantity of fuel (AMM 12-11-01/301).</para>
+</numlitem>
+</numlist>
+<note><para>If the flight deck fuel synoptic is blank for one or more
+tanks, the automatic fuel shutoff for the related tank(s) will be
+inoperative.</para></note>
+</maintenance>
+</dispcond>
+</item>

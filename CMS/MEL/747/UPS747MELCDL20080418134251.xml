@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="5-2-1" key="UPS747MELCDL20080418134251" revdate="20100707" revnbr="8"
+sectnbr="23">
+<!--Per C.R.4358 Tim 2/2/10 for Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Pressure Stop Fitting Assemblies (Upper Deck Door(s)) &ndash;
+Freighter with Draw-Through Smoke Detection System &ndash; Flight
+Pressurized Manual Mode Only</title>
+<dispcond category="C" maintenance="YES" nbrins="10" nbrreq="8"
+operation="YES">
+<remarks>
+<para>One forward fitting assembly and/or one aft fitting assembly
+per door may be missing or inoperative provided:</para>
+<numlist>
+<numlitem><para>There are no visible defects on remaining fitting
+assemblies for associated door(s),</para></numlitem>
+<numlitem><para>Cabin altitude auto controller is operative,</para>
+</numlitem>
+<numlitem><para>Maximum cabin pressure differential is limited to
+6.1 psi.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MELCDL20080418135042">
+<numlist>
+<numlitem><para>Use Manual Cabin Altitude Control. Do not exceed maximum
+cabin pressure differential limit of 6.1 psi.</para></numlitem>
+</numlist>
+<note><para>When at FL290 MSL with a 6.1 psi cabin pressure differential,
+the cabin altitude will be approximately 9,000 ft.</para></note>
+</operation>
+<limitation key="UPS747MELCDL20080418135735">
+<para>Flight is limited to FL290 MSL.</para>
+</limitation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel: "U/D DOOR____PRESS
+STOP FITTING MISSING/INOP: MAX PRESSURE DIFF 6.1 PSI". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MELCDL20080418135432">
+<numlist>
+<numlitem><para>Visually inspect remaining fittings on affected door(s)
+for defects.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

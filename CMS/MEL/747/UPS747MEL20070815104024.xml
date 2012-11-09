@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="2" key="UPS747MEL20070815104024" revdate="20100707" revnbr="8" sectnbr="51">
+<title>MAWEA ID Card</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>MAWEA ID Card may be inoperative.</para>
+<note><para>ACARS will be inoperative.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815104025">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>MAWEA ID CARD</para>
+</note>
+<note><para>Perform ACARS Inoperative procedure from FOM Chapter 4.</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815104026">
+<numlist>
+<numlitem><para>FANS Operations prohibited.</para></numlitem>
+<numlitem><para>RNP -4 Operations prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near affected Master Warning Light: "MAWEA ID CARD INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

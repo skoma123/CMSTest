@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="75" chg="U" itemnbr="1-1" key="UPS747MEL20070815105626" revdate="20090824" revnbr="7" sectnbr="33">
+<title>IDG Air/Oil Cooler (AOC) Valves</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="4"
+nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided: </para>
+<numlist>
+<numlitem><para>Valves are inoperative open, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815105627">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ELEC IDG ___ VALVE</para>
+</note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105628">
+<numlist>
+<numlitem><para>Reduce performance limited weights for each inoperative
+valve by the following:</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="0.37*"/>
+<colspec colname="col2" colwidth="1.63*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1,400 lbs.</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1,400 lbs.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Increase flight planning fuel by 0.1% for each affected
+engine. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ENG ___ IDG
+AIR/OIL HEAT EXCHANGER VALVE INOP OPEN". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105629">
+<para>Deactivate the IDG Air/Oil Cooler Valve Open as follows:</para>
+<numlist>
+<numlitem><para>Open the associated P180 panel circuit breaker(s)
+and install DO NOT CLOSE identifier(s):</para><para>GCU 1, GCU 2,
+GCU 3, and/or GCU 4 </para>
+<para>GCU 1 ALT, GCU 2 ALT, GCU 3 ALT, and/or GCU 4 ALT</para>
+<note><para>The GCU<emphasis role="underline">  </emphasis> ALT C/Bs
+are not installed on all aircraft.</para></note>
+</numlitem>
+<numlitem><para>Open right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+<numlitem><para>Verify valve is open by noting position lever (on
+top of valve) is set to the OPEN position.</para></numlitem>
+<numlitem><para>Disconnect electrical connector DV350A and DV350B
+from valve.  Install protective closures and secure harness end.</para>
+</numlitem>
+<numlitem><para>Secure valve open by removing stowed lock screw and
+inserting lock screw down through hole in position lever and into
+threaded hole in valve plate.</para></numlitem>
+<numlitem><para>Close right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+<numlitem><para>Close circuit breaker(s) opened in step 1 and remove
+DO NOT CLOSE identifier(s).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

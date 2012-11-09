@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="2" key="UPS747MEL20070815104921" revdate="20090824" revnbr="7" sectnbr="11">
+<title>Engine Bleed PRSOV Start Solenoids</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="4"
+nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Bleed valve otherwise functions normally, and</para>
+</numlitem>
+<numlitem><para>Start valves on remaining engines are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104922">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ENG ___ START VLV</para>
+</note>
+<numlist>
+<numlitem><para>A manual override ground start is required.</para>
+<note><para>The amount of torque necessary to open the PRSOV depends
+on existing pneumatic pressure. If manifold is unpressurized, the
+PRSOV will open easily. If manifold is pressurized, the PRSOV may
+require up to 50 ft-lb. of applied torque to open.</para></note>
+<numlist>
+<numlitem><para>If PRSOV is to be opened with wing pneumatic manifold
+unpressurized: </para>
+<numlist>
+<numlitem><para>Select the appropriate L or R ISLN VALVE switch OFF.</para>
+</numlitem>
+<numlitem><para>If the other engine on the same wing is running, select
+its ENGINE BLEED switch OFF.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>When ready for engine start, advise ground crew to
+open the PRSOV.</para></numlitem>
+<numlitem><para>Ensure the pneumatic manifold is pressurized and pull
+the appropriate engine start switch.</para>
+<note><para>If PRSOV is opened with the wing pneumatic manifold unpressurized,
+select appropriate L or R ISLN VALVE switch ON after PRSOV is confirmed
+open by ground crew.</para></note>
+</numlitem>
+<numlitem><para>At 45-50% N<sub>2</sub>, request closed PRSOV to ground
+crew. </para></numlitem>
+<numlitem><para>Continue engine start.</para></numlitem>
+<numlitem><para>Ensure ENGINE BLEED switch for other engine on same
+wing is selected ON.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Starter assisted inflight start is not available for
+the affected engine.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to associated START switch on the Engine Ignition
+and Start Control panel (P5): "ENG_STARTER INOP INFLIGHT". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104923">
+<graphic chapnbr="36" chg="U" confnbr="2" key="UPS747MEL20070815104924"
+revdate="20080827" revnbr="5" sectnbr="11">
+<sheet chg="U" gnbr="747-400_DMP_CH_36_Page_3"
+key="UPS747MEL20070815104925" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+<para>The PRSOV is installed in the strut. Access to the PRSOV manual
+override drive is on the left side of the strut. It is not necessary
+to open any access panels to operate the PRSOV manual override drive.
+The PRSOV is spring loaded to the closed position. It can be manually
+held in the open position for engine starting. After engine start,
+the inoperative PRSOV must be manually placed in the locked closed
+position.</para>
+<para><emphasis role="bold">Special Tools and Equipment: G71021&ndash;
+6 &ndash; Drive Extension &ndash; Starter Valve and PRSOV.</emphasis
+></para>
+<warning><para>DO NOT OPERATE THE THRUST REVERSER DURING MANUAL OPERATION
+OF THE PRSOV. THRUST REVERSER OPERATION DURING MANUAL OPERATION OF
+THE PRSOV CAN CAUSE SERIOUS PERSONNEL INJURY AND DAMAGE.</para>
+</warning>
+<warning><para>DO NOT USE ENGINE NACELLE SERVICE INTERPHONE JACK ON
+ENGINE WHICH IS TO BE STARTED OR ON ENGINE IN OPERATION. PERSONNEL
+COULD ENTER HAZARD AREA RESULTING IN SERIOUS INJURY OR LOSS OF LIFE.</para>
+</warning>
+<numlist>
+<numlitem><para>Establish interphone communication with the flight
+deck and determine if the applicable wing manifold will be pressurized
+or unpressurized for associated engine start.</para>
+<note><para>The amount of torque necessary to open the PRSOV depends
+on existing pneumatic pressure. If manifold is unpressurized, the
+PRSOV will open easily. If manifold is pressurized, the PRSOV may
+require up to 50 ft-lb of applied torque to open.</para></note>
+<caution><para><emphasis role="bold">DO NOT ROTATE THE MANUAL OVERRIDE
+DRIVE QUICKLY WHEN THERE IS NO WING MANIFOLD PNEUMATIC PRESSURE. FAST
+OPERATION OF THE MANUAL OVERRIDE DRIVE MAY RESULT IN TEMPORARY JAMMING
+OF THE ACTUATOR OR POSSIBLE DIAPHRAGM DAMAGE..</emphasis></para>
+</caution>
+</numlitem>
+<numlitem><para>When requested by the flight crew, slowly turn the
+PRSOV manual override drive 90&deg; clockwise to the open position.
+Hold it in the open position until the flight crew requests a closed
+PRSOV.</para></numlitem>
+<numlitem><para>When flight crew requests closed PRSOV, turn the PRSOV
+manual override drive 90&deg; counterclockwise to the closed position.</para>
+<note><para>Do not lock the PRSOV in the CLOSED position.</para></note>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

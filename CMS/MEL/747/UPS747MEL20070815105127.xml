@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="45" chg="U" itemnbr="2" key="UPS747MEL20070815105127" revdate="20080827" revnbr="5" sectnbr="45">
+<title>Ground Test Enable Switches</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided switch(es) are deactivated.</para>
+</remarks>
+<operation key="UPS747MEL20070815105128">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>GND TESTS ENABLE</para>
+</note>
+</operation>
+<placard>
+<para>Placard adjacent to Ground Test Enable Switch: "INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105129">
+<numlist>
+<numlitem><para>Open and collar CMC ENABLE SWITCH circuit breaker
+180 DM (P180). </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

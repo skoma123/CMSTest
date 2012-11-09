@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-2" key="UPS747MEL20070815102544" revdate="20080827" revnbr="5" sectnbr="32">
+<title>Transformer Rectifier Units (TRU) &ndash; APU</title>
+<dispcond category="D" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided APU battery is selected for APU
+start.</para>
+</remarks>
+<operation key="UPS747MEL20070815102545">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ELEC TR UNIT ___</para>
+</note>
+<numlist>
+<numlitem><para>With an inoperative APU TRU, select the APU battery
+on the APU Start Source Switch located on the overhead panel, prior
+to APU start. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "APU TRU INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

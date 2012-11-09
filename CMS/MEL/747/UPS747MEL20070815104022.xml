@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-3" key="UPS747MEL20070815104022" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Master Caution/ Warning Systems &ndash; Aural Warning Speaker
+Systems</title>
+<dispcond category="C" nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative provided Master Warning, Master Caution,
+and all discrete lights are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815104023">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>AURAL SYNTH CARD</para>
+<para>AURAL WARN SPKR</para>
+</note>
+</operation>
+<placard>
+<para>Placard near affected Master Warning Light: "AURAL WARNING SPEAKER
+INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

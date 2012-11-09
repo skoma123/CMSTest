@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="5-1" key="UPS747MEL20070815103621" revdate="20100707" revnbr="8" sectnbr="41">
+<effect effrg="578579" efftext=""></effect>
+<title>Reserve Tank Fuel Quantity Indicating Systems (Flight Deck)
+&ndash; Converted Freighter</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative with reserve tanks 2 and 3 empty provided:</para>
+<numlist>
+<numlitem><para>Takeoff weight is limited to a maximum of 740,000
+lbs (335,664 kgs),</para></numlitem>
+<numlitem><para>Remaining individual tank quantity indications are
+available.</para></numlitem>
+<numlitem><para>For Combi, if ballast fuel is carried, stabilizer
+tank remains empty and CWT fuel in excess of ballast fuel may not
+be carried.</para></numlitem>
+</numlist>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747-400MELCDL20080711083832">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL QTY SYS</para>
+</note>
+<numlist>
+<numlitem><para>Total Fuel quantity indication may also be inoperative,
+if so:</para>
+<numlist>
+<numlitem><para>Total fuel quantity must be calculated and manually
+initialized on the FMC PERT INIT page.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If it is necessary to jettison fuel:</para>
+<note><para>For Combi aircraft carrying center tank ballast fuel &ndash;
+DO NOT JETTISON BALLAST FUEL.</para></note>
+<numlist>
+<numlitem><para>Record the FUEL TO REMAIN quantity selected for the
+jettison operation.</para></numlitem>
+<numlitem><para>Wait two minutes after fuel jettison is complete and
+then manually re-initialize the FMC with the total FUEL TO REMAIN
+quantity recorded above.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>In case of en route failure of the FMC calculated
+total fuel quantity, flight crew must keep a fuel log for the remainder
+of the flight.</para>
+<note><para>The PROGRESS page 1 display of Fuel quantity and actual
+time of arrival (ATA) at the last waypoint prior to failure may be
+used as a starting point. In some failure modes, PROGRESS page 2 FUEL
+USED data may be available.</para></note>
+</numlitem>
+<numlitem><para>Center tank override/jettison pumps must be OFF for
+takeoff.</para></numlitem>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080711084553">
+<numlist>
+<numlitem><para>Actual takeoff weight cannot exceed 740,000 lbs.</para>
+</numlitem>
+<numlitem><para>Center Wing Tank fuel must be included as part of
+the ZFW but is considered usable en route.</para></numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel: "RES TANK #2 or
+#3 FUEL QTY IND INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="2-4" key="UPS747MEL20070815104822" revdate="20080827" revnbr="5" sectnbr="57">
+<title>Automatic Dependent Surveillance- Broadcast (ADS-B) System
+&ndash; Data Link Transmitter(s)</title>
+<dispcond category="D" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ADS-B DATALINK
+XMITTER INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

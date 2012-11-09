@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-2-5" key="UPSB747-400MELCDL20090504105626" revdate="20090528" revnbr="6"
+sectnbr="11">
+<title>FLIGHT CREW SEATS MANUAL ADJUSTMENT SYSTEM &ndash; VERTICAL
+ADJUSTMENT</title>
+<dispcond attr-rev="NO" category="A" maintenance="YES" nbrins="2"
+nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Seat is acceptable to the affected crewmember, and</para>
+</numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captains PFD on P-1-1 panel: " ____SEAT VERTCAL
+ADJ INOP". Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090504110639">
+<numlist>
+<numlitem><para>Verify affected seat locks in a vertical position. </para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

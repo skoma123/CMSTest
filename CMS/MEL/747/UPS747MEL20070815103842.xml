@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="2-1" key="UPS747MEL20070815103842" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Nacelle Anti-Ice VALVE Lights or NAI Indications &ndash; Valve
+Verified Operative </title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative provided associated valve is verified
+to be operative before each departure in known or forecast icing conditions.</para>
+</remarks>
+<operation key="UPS747MEL20070815103843">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>NAI VALVE ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard on NAI VALVE switch Pilot&rsquo;s Overhead Panel: "NAI
+VLV IND INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103844">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>To verify valve associated with inoperative VALVE
+light or NAI indication is operative, perform the following procedure:</para>
+<numlist>
+<numlitem><para>Supply electrical power (AMM 24-22-00/201).</para>
+</numlitem>
+<numlitem><para>Pressurize the pneumatic system with either a ground
+air source or with the APU (AMM 36-00-00/201).</para>
+<warning><para>ENGINES MUST NOT BE RUNNING WHEN PERSONNEL OR EQUIPMENT
+ARE NEARBY.</para></warning>
+</numlitem>
+<numlitem><para>Manually open the associated engine PRSOV (AMM 36-11-04/201). </para>
+</numlitem>
+<numlitem><para>Gain access to the associated nacelle anti-ice valve
+assembly on the nacelle anti-ice duct. Access panel is located on
+the left side of the strut forward fairing, No. 3 fairing:</para>
+<table frame="none">
+<tgroup align="center" cols="2">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">Engine</emphasis></para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">Location Zone</emphasis></para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>1</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>451</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>2</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>461</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>3</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>471</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>4</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>481</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Locate the valve position indicator hex nut adjacent
+to the valve manual override selector. Hex nut has position pointer
+indicating OPEN or CLOSED. The manual override selector must remain
+at NORMAL.</para>
+<graphic chapnbr="30" chg="U" key="UPS747MEL20070815103845"
+revdate="20080827" revnbr="5" sectnbr="21">
+<sheet chg="U" gnbr="747-400_DMP_CH_30_Page_6"
+key="UPS747MEL20070815103846" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Verify that nacelle anti-ice valve opens:</para>
+<numlist>
+<numlitem><para>Position associated Anti-Ice/Rain Removal panel (P5)
+NACELLE ANTI-ICE switch ON.</para>
+<caution><para>IF THE PNEUMATIC AIR IS HOT (APPROXIMATELY 350&ordm;F),
+DO NOT OPEN THE ENGINE INLET ANTI-ICE VALVE FOR MORE THAN 30 SECONDS.
+AFTER THE VALVE CLOSES, LET THE INLET COWL BECOME COOL. TOO MUCH HEAT
+CAN CAUSE DAMAGE TO THE INLET COWL.</para></caution>
+</numlitem>
+<numlitem><para>Visually confirm that the valve position indicator
+hex nut rotates toward OPEN.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify that nacelle anti-ice valve closes:</para>
+<numlist>
+<numlitem><para>Position associated Anti-Ice/Rain Removal panel (P5)
+NACELLE ANTI-ICE switch OFF.</para></numlitem>
+<numlitem><para>Visually confirm that the valve position indicator
+hex nut rotates to indicate CLOSED.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Release the pressure in the pneumatic system (AMM
+36-00-00/201). </para></numlitem>
+<numlitem><para>Remove electrical power (AMM 24-22-00/201).</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

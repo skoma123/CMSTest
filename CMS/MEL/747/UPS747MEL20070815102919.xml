@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-1-1" key="UPS747MEL20070815102919" revdate="20080827" revnbr="5" sectnbr="16">
+<title>Lower Lobe Cargo Compartment Smoke Detection System (Forward,
+Aft) &ndash; Flight Deck Test System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided smoke detector system integrity
+is verified before each departure.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "LOWER LOBE
+COMP SMOKE DET SYS INOP". Enter Item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815102920">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify integrity of lower cargo smoke detection system
+as follows:</para>
+<numlist>
+<numlitem><para>Close circuit breakers (MM 26-16-00/501).</para>
+</numlitem>
+<numlitem><para>Select either one of the following switches to the
+ENABLE position:</para>
+<numlist>
+<numlitem><para>S2089 Ground Test Enable Switch (P461).</para>
+</numlitem>
+<numlitem><para>S2090 Remote Test Enable Switch (RCDU) at STA 400
+in the left Main Equipment Center. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Set the CDU to the CMC main menu and press LINE SELECT
+key for GROUND TEST.</para></numlitem>
+<numlitem><para>When screen displays ATA name and chapter, select
+26 FIRE PROTECTION SYSTEM.</para></numlitem>
+<numlitem><para>Press LINE SELECT key to initiate FIRE/OVHT TEST.
+TEST IN PROGRESS will display for the duration of the test. Upon completion
+of the test, TEST PASSED or FIRE TEST FAIL will be displayed on the
+CDU.</para></numlitem>
+<numlitem><para>If TEST PASSED is displayed, system integrity is verified. </para>
+</numlitem>
+<numlitem><para>If FIRE TEST FAIL is displayed:</para></numlitem>
+<numlitem><para>Ensure S2090 Remote Test Enable Switch (RCDU) at STA
+400 in the left Main Equipment Center is left in the NORM position.</para>
+<note><para>FIRE TEST FAIL may appear because of a fault in a different
+fire/overheat detection system.</para></note>
+<numlist>
+<numlitem><para>Verify the following EICAS/CMC fault messages do not
+appear on the CDU.</para><para>FIRE CARGO FWD</para>
+<para>FIRE CARGO AFT</para>
+<para>FWD CARGO FIRE ALARM SIGNAL>MAWEA MM-A FAIL INTERFACE FAIL</para>
+<para>FWD CARGO FIRE ALARM SIGNAL>MAWEA MM-B FAIL INTERFACE FAIL</para>
+<para>AFT CARGO FIRE ALARM SIGNAL>MAWEA MM-A FAIL INTERFACE FAIL</para>
+<para>AFT CARGO FIRE ALARM SIGNAL>MAWEA MM-B FAIL INTERFACE FAIL</para>
+</numlitem>
+</numlist>
+<para>If the above fault messages appear, seek corrective action - <emphasis
+role="bold">dispatch is not allowed.</emphasis></para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Check for the following Status messages on the lower
+EICAS display:</para>
+<table>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="448.00px"?>
+<colspec colname="col1" colwidth="0.98*"/>
+<colspec colname="col2" colwidth="1.02*"/>
+<tbody>
+<row>
+<entry>
+<para>CGO DET FWD 1</para>
+</entry>
+<entry>
+<para>CARGO DET AFT 1</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET FWD 2</para>
+</entry>
+<entry>
+<para>CARGO DET AFT 2</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET FWD 3</para>
+</entry>
+<entry>
+<para>CARGO DET AFT 3</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET FWD 4</para>
+</entry>
+<entry>
+<para>CARGO DET AFT 4</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>If the above status messages appear, seek corrective action
+or dispatch is allowed provided the associated lobe cargo compartment
+remains empty or contains only empty ULD&rsquo;s, or fly away kits.</para>
+</numlitem>
+<numlitem><para>Restore Aircraft to its required configuration.</para>
+</numlitem>
+<numlitem><para>While not required, an inoperative smoke detector
+may be deactivated as follows:</para>
+<numlist>
+<numlitem><para>Remove and stow the electrical connector from affected
+detector. </para></numlitem>
+<numlitem><para>With the electrical connector removed the AFOLTS will
+automatically configure for single loop operation and the FIRE/OVHT
+test should indicate passed with a status message for the inoperative
+detector.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="26" chg="U" key="UPS747-400MELCDL20080703095651"
+revdate="20080827" revnbr="05" sectnbr="16">
+<sheet chg="U" gnbr="747-400_DMP_CH_26_Page_4"
+key="UPS747-400MELCDL20080703095746" revdate="20080827" revnbr="05"
+sheetnbr="001"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

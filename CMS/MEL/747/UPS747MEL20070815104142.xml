@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="4" key="UPS747MEL20070815104142" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Inflight Wheel Braking System</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Takeoff performance is based on landing gear extended,
+and </para></numlitem>
+<numlitem><para>After takeoff, landing gear remains extended for a
+minimum of two minutes before retraction.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104143">
+<numlist>
+<numlitem><para>Leave gear down for a minimum of 2 minutes after takeoff
+to permit affected wheel(s) to spin down prior to gear retraction.</para>
+</numlitem>
+<numlitem><para>Observe performance limitations.</para></numlitem>
+</numlist>
+<note><para>At takeoff weights greater than 720,000 lbs., flaps up
+maneuver speed (V<sub>REF</sub>+ 100 kt) may exceed the landing gear
+retract speed (270 kt.). Therefore, ensure gear is retracted prior
+to selecting Flaps Up.</para></note>
+</operation>
+<limitation key="UPS747MEL20070815104144">
+<numlist>
+<numlitem><para>Apply restricted takeoff climb weights from the Takeoff
+Climb Limit Weight, Landing Gear Extended or Brake(s) Deactivated
+By Capping chart found in the AOM Chapter 5.1.</para></numlitem>
+<numlitem><para>If "Obstacle Clearance Altitude (OCA)" is present
+on the AA Data for the departure runway, contact Flight Control for
+alternate AA Data.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near gear handle: "INFLIGHT WHEEL BRAKING INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

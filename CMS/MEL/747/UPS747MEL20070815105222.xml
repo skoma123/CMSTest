@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="1" key="UPS747MEL20070815105222" revdate="20100707" revnbr="8" sectnbr="11">
+<!--Per C.R.4359 Tim 2/1/10 Rev 8-->
+<title>MAIN ENTRY DOORS/SLIDES &ndash; CARGO OPERATIONS</title>
+<dispcond attr-rev="NO" category="B" maintenance="YES" nbrins="1"
+nbrreq="0" operation="YES">
+<remarks>
+<para>One may be inoperative or slide missing provided:</para>
+<numlist>
+<numlitem><para>All remaining entry doors are fully operations</para>
+</numlitem>
+<numlitem><para>Associated door is not used for passenger loading,</para>
+</numlitem>
+<numlitem><para>A conspicuous barrier strap or rope and a placard
+stating that the door is inoperative shall be placed across the inoperative
+door,</para></numlitem>
+<numlitem><para>Emergency exit sign or light associated with the inoperative
+exit must be covered to obscure the sign,</para></numlitem>
+<numlitem><para>Passengers must be advised to not use associated door,</para>
+</numlitem>
+<numlitem><para>Crew shall be advised that evacuation procedures must
+not include associated door, though opposite door may be used,</para>
+</numlitem>
+<numlitem><para>Persons (other than assigned cabin attendants) are
+not permitted to be seated in blocked areas when the associated door
+is as indicated below:</para><para>Door L-1 or R-1: From forward cabin
+end to a line midway between L-1/R-1 and L-2/R-2.</para>
+<para>Door L-2 or R-2: Halfway to next exits in both directions from
+the affected door.</para>
+<para>Door L-3 or R-3: Halfway to next exits in both directions from
+the affected door.</para>
+<para>Door L-4 or R-4: Halfway to next exits in both directions from
+the affected door.</para>
+<para>Door L-5 or R-5: From a line midway between L-4/R-4  and L-5/R-5
+to aft cabin end.</para>
+<note><para>Restriction extends across entire cabin and those seats
+located on designated boundaries will be blocked.</para></note>
+</numlitem>
+<numlitem><para>Tapes or ropes of conspicuous colors shall be installed
+to block access to unusable seats before boarding of passengers,</para>
+</numlitem>
+<numlitem><para>Conspicuous signs and placards shall be placed in
+appropriate locations to indicate seats are not to be occupied by
+passengers,</para></numlitem>
+<numlitem><para>Main passenger aisles, cross aisles and exit access
+areas must not be blocked,</para></numlitem>
+<numlitem><para>Seated capacity must not exceed rated capacity of
+remaining pairs of exits.</para></numlitem>
+<numlitem><para>For extended overwater operations, occupancy shall
+not exceed the normal rated capacity of the slide/rafts, or the remaining
+slide/rafts, or the rated overload capacity of the slide/rafts remaining
+after loss of one additional slide/raft of greatest capacity, whichever
+is least, and</para></numlitem>
+<numlitem><para>Blocked seating layouts and evacuation procedures
+must be developed and approved by the FAA certificate-holding office
+for inclusion in the operator&rsquo;s manual.</para></numlitem>
+</numlist>
+<note><para>Cabin attendants may be stationed in the vicinity of each
+door within blocked areas.</para></note>
+<note><para>Weight and Balanced Manifest must be revised as necessary
+to ensure proper loading limits are observed.</para></note>
+<note><para>On all-cargo and combination passenger/cargo airplanes,
+main entry doors located in the cargo area may be inoperative with
+no restrictions.</para></note>
+</remarks>
+<operation key="UPSB747-400MELCDL20100218133852">
+<numlist>
+<numlitem><para>Prior to departure the flight crew will request instruction
+from aircraft maintenance, how to properly open, close and secure
+main cargo door.</para></numlitem>
+</numlist>
+</operation>
+<maintenance key="UPSB747-400MELCDL20100609143532">
+<numlist>
+<numlitem><para>Block the inoperative door with a conspicuous barrier
+strap or rope and placard INOPERATIVE.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

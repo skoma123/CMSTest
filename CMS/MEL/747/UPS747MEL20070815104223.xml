@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3-2" key="UPS747MEL20070815104223" revdate="20090824" revnbr="7" sectnbr="42">
+<title>Autobrake System &ndash; Module Deactivated</title>
+<dispcond attr-rev="NO" category="C" downgrade="CATEGORY 3a"
+maintenance="YES" nbrins="1" nbrreq="0" operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Autobrake selector remains in the OFF position,</para>
+</numlitem>
+<numlitem><para>Autobrake hydraulic control module is deactivated,
+and</para></numlitem>
+<numlitem><para>Approach minimums do not require its use.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104224">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>AUTOBRAKES</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815104225">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Autobrake Selector Switch: "INOP". Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104226">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.07*"/>
+<colspec colname="col3" colwidth="0.93*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>Apply electrical power to aircraft, chock the wheels,
+set parking brake OFF, and pressurize hydraulic system No. 4 (auxiliary
+pump or a ground pressure source may be used).</para></numlitem>
+<numlitem><para>Place the AUTOBRAKE SELECTOR SWITCH to the OFF position.</para>
+<numlist>
+<numlitem><para>If the AUTOBRAKES advisory message is no longer displayed,
+the solenoid valve is closed and aircraft can be dispatched per MEL <refint
+refid="UPS747MEL20070815104217" reftype="MEL">32-42-3-1.</refint> </para>
+</numlitem>
+<numlitem><para>If the AUTOBRAKES advisory message remains displayed
+on EICAS at this point, either an electrical malfunction or a solenoid
+valve malfunction is indicated. Continue with the next step.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Open and collar the P180 panel AUTOBRAKES circuit
+breaker. </para>
+<numlist>
+<numlitem><para>If the AUTOBRAKES advisory message is no longer displayed,
+a valve malfunction is not indicated and the valve is assumed to be
+closed and aircraft can be dispatched per MEL <refint
+refid="UPS747MEL20070815104217" reftype="MEL"> 32-42-3-1</refint>.</para>
+</numlitem>
+<numlitem><para>If the AUTOBRAKES advisory message remains displayed
+on EICAS, continue with the next step.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Depressurize Hydraulic Systems No. 1, 2 and 4, then
+pump the brake pedals until the brake accumulator pressure gauge on
+the Captain&rsquo;s panel will reduce no further (approximately 750
+psi).</para>
+<numlist>
+<numlitem><para>If the AUTOBRAKES advisory message remains displayed,
+a solenoid valve pressure switch or indication system malfunction
+is indicated, and the solenoid valve is closed. Aircraft can be dispatched
+per MEL <refint refid="UPS747MEL20070815104217" reftype="MEL"> 32-42-3-1</refint
+>.</para></numlitem>
+<numlitem><para>If the AUTOBRAKES advisory message is no longer displayed,
+the solenoid valve has failed open. Continue with the next step.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Hydraulically deactivate the Autobrake system as follows: </para>
+<numlist>
+<numlitem><para>Remove the hydraulic power from system No. 4. Pump
+the brake pedals until the brake accumulator pressure gauge will reduce
+no further (approximately 750 psi).</para></numlitem>
+<numlitem><para>Locate the Autobrake Pressure Control Module in the
+right hand wing gear wheel well on aft bulkhead near top center.</para>
+</numlitem>
+<numlitem><para>Disconnect and cap the PRESSURE line on the Autobrake
+Pressure Control Module (P/N 60B00263-3), or Remove the Autobrake
+Pressure Control Module (P/N 60B00263-3), cap the PRESSURE line to
+the module, and interconnect the BRAKE and RETURN lines (straight
+section of - 10 tubing 7-1/2 inches long including fittings, will
+suffice).</para>
+<note><para>Do not cap the BRAKE line from the valve. Interconnection
+between the BRAKE and RETURN ports, either through the valve or interconnect
+tube, is required to ensure that a leaky Autobrake Shuttle Valve cannot
+result in an inability to release brakes when the pilots&rsquo; pedals
+are released.</para></note>
+</numlitem>
+<numlitem><para>Restore hydraulic power to system No. 4 and check
+for leaks. </para></numlitem>
+<numlitem><para>Leaving the AUTOBRAKES circuit opened and collared,
+restore the aircraft to its normal configuration.</para>
+<graphic chapnbr="32" chg="U" confnbr="3-2" key="UPS747MEL20070815104227"
+revdate="20080827" revnbr="5" sectnbr="42">
+<sheet chg="U" gnbr="747-400_DMP_CH_32_Page_13"
+key="UPS747MEL20070815104228" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

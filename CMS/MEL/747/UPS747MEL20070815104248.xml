@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS747MEL20070815104248" revdate="20080827" revnbr="5" sectnbr="46">
+<title>Brake Temperature Monitoring System (BTMS)</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided AOM/AA Data Maximum Quick Turn-around
+Weight limitations are observed.</para>
+</remarks>
+<operation key="UPS747MEL20070815104249">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BRAKE TEMP SYS</para>
+</note>
+<numlist>
+<numlitem><para>Observe Maximum Quick Turnaround Weight limitations.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104250">
+<numlist>
+<numlitem><para>Apply a 10,000 lb weight penalty to the Quick Turnaround
+Limitation in AOM Chapter 5.2.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Captain&rsquo;s PFD on P-1-1 panel: "BRAKE TEMP SYS
+INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="7" key="UPS747MEL20070815105333" revdate="20100707" revnbr="8" sectnbr="31">
+<!--Per C.R.4358 Tim 2/2/10 Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Loadmaster&rsquo;s Nose Cargo Door Latch Annunciator System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided it is visually verified that latches
+are fully extended before each departure.</para>
+</remarks>
+<operation key="UPS747MEL20070815105334">
+<numlist>
+<numlitem><para>Prior to each departure, ensure nose cargo door has
+been verified closed, latched, locked.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel and on Annunciator
+panel: "LOADMASTER&rsquo;S NOSE CARGO DOOR ANNUNCIATOR SYS INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105335">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Log at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<graphic chapnbr="52" chg="U" key="UPS747MEL20070815105336"
+revdate="20080827" revnbr="5" sectnbr="31">
+<sheet chg="U" gnbr="747-400_DMP_CH_52_Page_8A"
+key="UPS747MEL20070815105337" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+<numlist>
+<numlitem><para>Accomplish all normal procedures to ensure door is
+securely closed, latched and locked.</para></numlitem>
+<numlitem><para>Visually verify all 16 latches are fully extended
+by viewing that each latch pin is extended to a position that is within
++ 0.1 inch of the visible end of the bushing (see illustration below).</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="52" chg="U" key="UPS747MEL20070815105338"
+revdate="20080827" revnbr="5" sectnbr="31">
+<sheet chg="U" gnbr="747-400_DMP_CH_52_Page_8B"
+key="UPS747MEL20070815105339" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

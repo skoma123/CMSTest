@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="6" key="UPS747MEL20070815101518" revdate="20080827" revnbr="5" sectnbr="33">
+<title>Cabin Altitude Backup Sensor &ndash; (CPCS BACKUP SENS) System </title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided both automatic cabin pressure controllers
+are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815101519">
+<note><para>The following EICAS message(s) may be displayed:</para>
+</note>
+<note><para>CPCS BACKUP SENSE</para></note>
+<numlist>
+<numlitem><para>Verify status message CABIN ALT AUTO A or status message
+CABIN ALT AUTO B is not displayed.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard "CPCS BACKUP SENS INOP" below Captain's PFD on P-1-1
+panel.  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

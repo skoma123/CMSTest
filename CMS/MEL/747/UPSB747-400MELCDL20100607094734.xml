@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk attr-rev="NO" blknbr="2" chapnbr="55" chg="U" key="UPSB747-400MELCDL20100607094734" qtyreq="2" revdate="20100707"
+revnbr="8" sectnbr="20">
+<!--Per C.R.4427 Tim 5/21/10 Rev 8-->
+<title>ELEVATOR OUTBOARD BULB SEALS</title>
+<remarks>
+<para>Any number may be missing. The performance decrement is negligible.</para>
+</remarks>
+</cdlblk>

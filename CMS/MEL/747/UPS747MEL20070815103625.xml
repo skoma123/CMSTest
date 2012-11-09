@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="6" key="UPS747MEL20070815103625" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Wing Fueling Station Quantity Indicating System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided preselect refueling is not used.</para>
+</remarks>
+<placard>
+<para>Placard at refuel panel: "WING REFUEL STATION QTY IND INOP".
+Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103626">
+<para>Use the manual mode fueling procedure (AMM 12-11-01/301). Use
+the flight deck fuel synoptic or measuring sticks (AMM 28-44-00/001)
+to ensure that the correct amount of fuel has been loaded.</para>
+<note><para>If the flight deck fuel synoptic is blank for one or more
+tanks, the automatic fuel shutoff for the related tank(s) will be
+inoperative.</para></note>
+</maintenance>
+</dispcond>
+</item>

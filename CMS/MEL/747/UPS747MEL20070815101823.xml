@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="9" key="UPS747MEL20070815101823" revdate="20080827" revnbr="5" sectnbr="58">
+<title>Aft EE Fans</title>
+<dispcond category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815101824">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>AFT EE FAN ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard "AFT EE FAN INOP" below Captain's PFD on P-1-1 panel.
+ Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

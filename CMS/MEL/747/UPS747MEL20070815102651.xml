@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-1" key="UPS747MEL20070815102651" revdate="20080827" revnbr="5" sectnbr="28">
+<effect effrg="578579" efftext=""></effect>
+<title>Overhead Storage Bin(s)/Cabin and Galley Storage Compartments/Closets
+&ndash; Multi Latch/Quarter Turn Lug Installations</title>
+<dispcond category="C" maintenance="YES" nbrins="&ndash;" nbrreq="0">
+<remarks>
+<para>One latch/lug per component may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Remaining latch(es)/lug(s) on affected compartments
+are operative, and</para></numlitem>
+<numlitem><para>If affected compartment is used for a galley cart,
+the cart remains empty.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS747-400MELCDL20080627104850">
+<numlist>
+<numlitem><para>Effected compartment must remain empty.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placard next to Discrepant latch: "LATCH INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080627105026">
+<numlist>
+<numlitem><para>Secure inop bins/compartments closed.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

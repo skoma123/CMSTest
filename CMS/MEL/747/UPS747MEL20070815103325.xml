@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2-0-2" key="UPS747MEL20070815103325" revdate="20100707" revnbr="8" sectnbr="15">
+<!--Per C.R.4347 Tim 1/21/10 for Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N581UP-N583UP">
+</effect>
+<title>Hydro-mechanical Fuel Scavenge Systems</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided the first 3,000 lbs (1,360 kgs)
+of center tank fuel is included as part of Zero Fuel Weight and is
+considered unusable. </para>
+<note><para>With two float valves inoperative open, it will be necessary
+to deactivate the associated system(s).</para></note>
+</remarks>
+<operation key="UPS747MEL20070815103326">
+<note><para>When the FUEL PRESS CTR L or R alerting messages are displayed
+and related override/jettison pumps are turned off, 3,000 lbs. of
+fuel will be trapped (unusable) in the center tank. Ensure load manifest
+includes adjusted ZFW. </para></note>
+</operation>
+<limitation key="UPS747MEL20070815103327">
+<numlist>
+<numlitem><para>First 3,000 pounds of fuel is included as part of
+the Zero Fuel Weight and is considered unusable. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "SCAVENGE
+PUMPS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MELCDL20080407114724">
+<title>HYDRO-MECHANICAL FUEL SCAVENGE SYSTEM(S) DEACTIVATION</title>
+<numlist>
+<numlitem><para>Defuel the center tank using the pressure defueling
+procedure and drain the remaining center tank fuel (approximately
+125 gallons) through the sump drain (AMM 28-26-00/201).</para>
+</numlitem>
+<numlitem><para>Deactivate the Fuel Scavenge Systems.</para>
+<note><para>Steps to remove the left fuel strainer are given. Steps
+to remove the right fuel strainer are the same.</para></note>
+<numlist>
+<numlitem><para>Go into the left wheel well for the wing landing gear.</para>
+</numlitem>
+<numlitem><para>Access the fuel strainer housing on the rear spar
+of the center wing tank.</para></numlitem>
+<numlitem><para>Position fluid absorbent pad (or something similar)
+below the fuel strainer housing.</para></numlitem>
+<numlitem><para>Put a suitable 5 gallon (19 Liters) fuel resistant
+container below the fuel strainer housing.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>The quantity of fuel that can drain our of the fuel
+strainer housing is 9.0 fl-oz.</para></numlitem>
+<numlitem><para>Do these steps to remove the fuel strainer:</para>
+<numlist>
+<numlitem><para>Remove the lockwire from the strainer cap.</para>
+<warning><para>be prepared to re-install the cap on the fuel strainer
+housing and contain any fuel that can spill. if the shut-off mechanism
+for the strainer housing fails, fuel from the fuel-feed manifold can
+drain through the strainer housing port. a fuel spill can cause a
+fire or an explosion.</para></warning>
+</numlitem>
+<numlitem><para>Remove the strainer cap and the washer (solid disk
+inside the strainer cap).</para></numlitem>
+<numlitem><para>Remove the fuel strainer.</para></numlitem>
+<numlitem><para>Remove and discard the O-ring.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Do these steps to reassemble the fuel strainer housing:</para>
+<note><para><emphasis role="bold">Do not install the fuel strainer
+or washer. </emphasis> </para></note>
+<numlist>
+<numlitem><para>Lubricate a new O-ring with petrolatum grease.</para>
+</numlitem>
+<numlitem><para>Install the O-ring on the strainer cap.</para>
+</numlitem>
+<numlitem><para>Install the strainer cap into the fuel strainer housing.</para>
+</numlitem>
+<numlitem><para>Torque the strainer cap to 250 in-lb. (28.2 Nm).</para>
+</numlitem>
+<numlitem><para>Lockwire the strainer cap to the housing body.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Do these steps again at the right fuel strainer housing.</para>
+</numlitem>
+<numlitem><para>Prepare the fuel strainers and washers for storage:</para>
+<numlist>
+<numlitem><para>Inspect the fuel strainer and washer for damage.</para>
+</numlitem>
+<numlitem><para>Discard the component(s) if there is damage. Contact
+AMC if any parts are damaged or discarded.</para></numlitem>
+<numlitem><para>Clean the fuel strainer with water or air pressure
+(90 psi (621kPa) maximum).</para></numlitem>
+<numlitem><para>Identify, place parts in plastic bag and store the
+fuel strainers and washers in PFM box.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Fuel Strainer Housing Leak Check:</para>
+<numlist>
+<numlitem><para>Make sure that one main tank contains a minimum of
+2500 lb. (1134 kg) of fuel (sufficient fuel to operate a fuel boost
+pump).</para></numlitem>
+<numlitem><para>Add or transfer fuel if it is necessary.</para>
+</numlitem>
+<numlitem><para>Set the crossfeed valve switches to the ON position.</para>
+<warning><para>do not operate a fuel pump if the low pressure light
+comes on and stays on. this condition can cause the ignition of the
+fuel fumes in the fuel tank. a fire or an explosion can cause injuries
+to personnel and damage to equipment.</para></warning>
+</numlitem>
+<numlitem><para>To operate any of the fuel pumps, you must be in the
+flight compartment to continuously monitor the low pressure indication
+and the fuel quantity in the fuel tank.</para>
+<numlist>
+<numlitem><para>Immediately set the applicable fuel pump switch(es)
+to the off position if the amber PRESS light comes on and stays on.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Do an external leak check for the fuel strainer cap:</para>
+<numlist>
+<numlitem><para>Set one or more of the boost pump switches to the
+ON position.</para>
+<note><para>The boost pump switches are found on the fuel management
+control module, M154.</para></note>
+</numlitem>
+<numlitem><para>Operate the boost pump(s) for 5 minutes.</para>
+</numlitem>
+<numlitem><para>Monitor the left and right fuel strainer housing for
+leaks.</para></numlitem>
+<numlitem><para>After 5 minutes, set the boost pump(s) to the OFF
+position.</para></numlitem>
+<numlitem><para>Set the crossfeed valves to the OFF position.</para>
+</numlitem>
+<numlitem><para>Visually examine the two strainer caps for leaks.</para>
+</numlitem>
+</numlist>
+<caution><para>NO FUEL LEAKS ARE ALLOWED AT THE FUEL STRAINER HOUSINGS.</para>
+</caution>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

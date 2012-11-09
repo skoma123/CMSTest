@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1-2" key="UPS747MEL20070815102247" revdate="20100707" revnbr="8" sectnbr="25">
+<!--Due to C.R.4335 Tim 1/20/10 Rev 8. Item was changed during MEL review meeting per Fred J. Changes have been made per FAA review meeting.-->
+<title>Satellite Communication (SATCOM) Systems &ndash; SATCOM Voice
+Systems</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+<note><para>Any function that is operative may be used.</para></note>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815102248">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>SATCOM ___</para>
+</note>
+</operation>
+<limitation key="UPSB747-400MELCDL20090527105443">
+<numlist>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Center CDU "SATCOM INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

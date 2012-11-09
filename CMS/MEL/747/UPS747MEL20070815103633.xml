@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-2" key="UPS747MEL20070815103633" revdate="20100707" revnbr="8" sectnbr="43">
+<title>Fuel Temperature Indication (Main Tank #1)</title>
+<dispcond attr-rev="NO" category="C" maintenance="NO" nbrins="1"
+nbrreq="0" operation="NO">
+<!--Per C.R.4346 Tim 1/21/10 for Rev 8-->
+<remarks>
+<para>May be inoperative provided Total Air Temperature (TAT) or Static
+Air Temperature (SAT) to (TAT) conversion is substituted as an indication
+of fuel temperature.</para>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815103634">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL TEMP</para>
+</note>
+<numlist>
+<numlitem><para>Substitute TAT as an indication of fuel temperature.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPSB747-400MELCDL20090527113351">
+<numlist>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "FUEL TEMP
+IND INOP". Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+</dispcond>
+</item>

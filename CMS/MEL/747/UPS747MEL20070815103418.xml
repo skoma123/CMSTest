@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-2-1-1" key="UPS747MEL20070815103418" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Main Tank Boost Pumps Main Tank 2 and 3 Boost Pumps &ndash;
+Aft Boost Pumps Override/Jettison Pump Operative Alternate Method</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES" btb="YES">
+<remarks>
+<para>One aft boost pump may be inoperative provided:</para>
+<numlist>
+<numlitem><para>All main tank 1 and 4 boost pumps and main tank 2
+and 3 fwd boost pumps are operative,</para></numlitem>
+<numlitem><para>Aft override/jettison pump in associated tank is operative, </para>
+</numlitem>
+<numlitem><para>Fuel quantity indicating system for the associated
+tank is operative, and</para></numlitem>
+<numlitem><para>The following minimum fuel quantities are retained
+in the associated tank for the flight conditions shown (normal fuel
+loading, balance and usage requirements still apply):</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="82.95pt"/>
+<colspec colname="col2" colwidth="184.78pt"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>TAKEOFF:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78,390 lbs</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(35,557 kgs)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>LANDING:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>8,610 lbs</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(3,905 kgs)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103419">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL PUMP ___ AFT</para>
+</note>
+<note><para>Inoperative boost pump operations may require large amounts
+of fuel to be retained in the main fuel tanks for takeoff and landing.
+Payload and/or range restrictions may result.</para></note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815103420">
+<numlist>
+<numlitem><para>For takeoff: Main tanks 2 and 3 contain a minimum
+of 78,390 lbs of fuel each and main tanks 1 and 4 are fueled to capacity.</para>
+</numlitem>
+<numlitem><para>For landing: Main tanks 1, 2, 3 and 4 contain a minimum
+of 8,610 lbs of fuel each.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to affected pump switch: "#___ AFT FUEL PUMP
+INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103421">
+<title>MAIN TANK BOOST PUMPS MAIN TANK 2 AND 3 BOOST PUMPS AFT BOOST
+PUMPS </title>
+<numlist>
+<numlitem><para>Deactivate the inoperative fuel pump by opening and
+collaring the appropriate circuit breaker:</para>
+<numlist>
+<numlitem><para>Tank 2 Aft Boost Pump: P414 panel, FUEL BOOST PUMP
+MAIN AFT 2.</para></numlitem>
+<numlitem><para>Tank 3 Aft Boost Pump: P415 panel, FUEL BOOST PUMP
+MAIN AFT 3.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

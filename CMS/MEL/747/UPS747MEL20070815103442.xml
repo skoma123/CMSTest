@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="5-1" key="UPS747MEL20070815103442" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Fuel Crossfeed Valves &ndash; Fuel Crossfeed Valves 1 and 4</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Valve is secured open,</para></numlitem>
+<numlitem><para>All main tank fuel quantity indicating systems are
+operative, and</para></numlitem>
+<numlitem><para>Crossfeed Valves 2 and 3 are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103443">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL X FEED ___</para>
+</note>
+<numlist>
+<numlitem><para>Operate normally until main tanks are equal (i.e.,
+EICAS Advisory message >FUEL TANK/ENG is displayed).</para></numlitem>
+<numlitem><para>When EICAS Advisory message >FUEL TANK/ENG is displayed,
+push main tank 2 and 3 OVRD FWD and AFT pump switches to OFF and crossfeed
+valve switches 2 and 3 to OFF.</para></numlitem>
+</numlist>
+<note><para>EICAS advisory messages >FUEL TANK/ENG and >XFEED CONFIG
+may remain displayed.</para></note>
+<note><para>Because of the CWT scavenge system, expect fuel usage
+from Tanks 1 and 4 to be greater than from Tanks 2 and 3 after closing
+crossfeed valves 2 and 3. EICAS advisory message >FUEL IMBALANCE may
+be displayed. After completion of the FUEL IMBALANCE NON-NORMAL procedure
+and >FUEL IMBALANCE is no longer displayed, switch MAIN PUMP 1 and
+4 to ON and CROSSFEED VALVE 2 and 3 to OFF. </para></note>
+</operation>
+<placard>
+<para>Placard adjacent to affected crossfeed switch: "___ FUEL XFEED
+VLV LIGHT INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103444">
+<numlist>
+<numlitem><para>Secure the affected valve open as follows:</para>
+<numlist>
+<numlitem><para>Access front wing spar. (Access for No. 1 or No. 4
+crossfeed valves between inboard and outboard engines.)</para>
+</numlitem>
+<numlitem><para>Extend leading edge flaps (AMM 27-81-00/201).</para>
+</numlitem>
+<numlitem><para>Open the circuit breaker associated with the inoperative
+crossfeed valve and install DO-NOT-CLOSE identifier:</para>
+<numlist>
+<numlitem><para>For crossfeed valve 1, open P6 panel FUEL XFEED VALVE
+ENG 1 circuit breaker.</para></numlitem>
+<numlitem><para>For crossfeed valve 4, open P6 panel FUEL XFEED VALVE
+ENG 4 circuit breaker.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Disconnect, cap, and stow electrical connector from
+affected valve (AMM 28-22-02/401).</para></numlitem>
+<numlitem><para>Position manual override lever for affected valve
+in the OPEN position and lockwire.</para></numlitem>
+<numlitem><para>Remove DO-NOT-CLOSE identifier and close the circuit
+breaker opened above.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

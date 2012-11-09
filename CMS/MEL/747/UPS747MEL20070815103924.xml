@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815103924" revdate="20080827" revnbr="5" sectnbr="42">
+<title>Windshield Wipers</title>
+<dispcond category="C" downgrade="CATEGORY 1" maintenance="NO" nbrins="2"
+nbrreq="0">
+<remarks>
+<para>May be inoperative provided the aircraft is not operated in
+known or forecast precipitation within 5 statute miles of the airport
+of departure or intended landing.</para>
+</remarks>
+<limitation key="UPS747MEL20070815103925">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+<numlitem><para>Operation in precipitation within 5 statute miles
+of the airport of departure or intended landing is prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard on Anti-Ice Rain Removal Panel (P5): "CAPT&rsquo;s and/or
+F/O&rsquo;s WINDSHIELD WIPER(S) INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103926">
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.05*"/>
+<colspec colname="col3" colwidth="0.95*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

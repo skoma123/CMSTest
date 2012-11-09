@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1" key="UPS747MEL20070815102656" revdate="20080827" revnbr="5" sectnbr="30">
+<title>Galley Waste Receptacle Access Doors/ Covers</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated waste container is empty,</para></numlitem>
+<numlitem><para>Receptacle access is secured to prevent waste introduction
+into the receptacle, and</para></numlitem>
+<numlitem><para>Procedures are established to ensure that sufficient
+galley waste receptacles are available to accommodate all waste that
+may be generated on a flight.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815102657">
+<numlist>
+<numlitem><para>Prior to blockout ensure an adequate number of garbage
+bags are onboard.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to the waste access door "DO NO USE" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102658">
+<numlist>
+<numlitem><para>Ensure waste receptacle is empty.</para></numlitem>
+<numlitem><para>Block access door with tape.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

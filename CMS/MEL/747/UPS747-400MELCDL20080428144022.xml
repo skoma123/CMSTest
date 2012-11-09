@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<mfmatr chg="U" key="UPS747-400MELCDL20080428144022" revdate="20080827" revnbr="5">
+<section chapnbr="00" chg="U" key="UPS747MEL20070815101033" revdate="20080827" revnbr="5" sectnbr="01">
+<title>GENERAL</title>
+<textset chapnbr="General" chg="U" key="UPS747MEL20070815101034" revdate="20080827" revnbr="5" sectnbr="01" textsetnbr="01">
+<title>GENERAL</title>
+<para>This document contains <emphasis role="underline">guideline</emphasis
+> maintenance and operational procedures for dispatching 747-400's
+in non-standard configurations.  It is not intended to replace existing
+Maintenance and/or Operations Manuals, but it is to be used by Line
+Maintenance and/or flying personnel as a ready reference to determine
+any procedures and/or limitations which may be imposed when invoking
+the provisions of the Minimum Equipment List.</para>
+<para>Should disagreement with the procedures given herein arise,
+the Maintenance, Operations, Flight or other official manuals which
+pertain to the problems shall be considered more authoritative than
+these Dispatch Maintenance Procedures and shall be relied upon to
+provide the proper procedures.</para>
+</textset>
+</section>
+</mfmatr>

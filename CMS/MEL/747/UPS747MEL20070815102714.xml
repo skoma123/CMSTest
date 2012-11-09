@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1" key="UPS747MEL20070815102714" revdate="20100707" revnbr="8" sectnbr="52">
+<title>Lower Cargo Compartment Lining Panels</title>
+<dispcond category="C" nbrins="&ndash;" nbrreq="0" operation="YES">
+<remarks>
+<para>May be damaged or missing provided procedures are established
+and used to verify the associated cargo compartment remains empty
+or contains only empty cargo handling equipment, ballast (ballast
+may be loaded in ULDs), or Fly Away Kits.</para>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815102715">
+<numlist>
+<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102716">
+<numlist>
+<numlitem><para>Associated lower cargo compartment is empty or contains
+only empty cargo handling equipment.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below captain&rsquo;s PFD on P-1-1 panel: "______ PANELS
+DAMAGED/MISSING IN ______ LOWER COMPARTMENT". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

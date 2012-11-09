@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1-1" key="UPS747MEL20070815102338" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Service Interphone System Nose Gear Jack &ndash; Flight Interphone
+Jack Operative </title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>Service interphone flight deck to ground/ground to flight deck
+function may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Alternate procedures are established and used, and</para>
+</numlitem>
+<numlitem><para>Nose gear/ forward fuselage flight interphone jack
+is operative. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815102339">
+<numlist>
+<numlitem><para>Use flight interphone for communication with ground
+crew during ground handling operations.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Crewmember Interphone System Flight Deck to Ground "INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

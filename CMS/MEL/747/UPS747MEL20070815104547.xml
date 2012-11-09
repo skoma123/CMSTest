@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="5-1" key="UPS747MEL20070815104547" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Integrated Standby Flight Display (ISFD) System &ndash; Attitude
+Display</title>
+<dispcond category="B" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Operations are conducted in Day VMC only, and</para>
+</numlitem>
+<numlitem><para>Operations are not conducted into known or forecast
+over-the-top conditions.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS747MEL20070815104548">
+<numlist>
+<numlitem><para>Operations are conducted in Day VMC only.</para>
+</numlitem>
+<numlitem><para>Operations are not conducted into known or forecast
+over-the-top conditions.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Flight Display: "ATT IND INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

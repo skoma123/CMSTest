@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-2" key="UPS747MEL20070815102527" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Bus Tie Breakers (BTB) &ndash; No. 4</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative closed provided No.1, 2, and 3 are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102528">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>EC BTB 4</para>
+</note>
+</operation>
+<placard>
+<para>Placard Bus Tie Breaker (BTB) "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102529">
+<para>Use the following procedure to verify the bus tie breaker (BTB)
+failure condition:</para>
+<numlist>
+<numlitem><para>Apply APU or external power, if not already accomplished. </para>
+</numlitem>
+<numlitem><para>Verify all BUS TIE switches, located on P5 overhead
+panel, are set to AUTO and the ISLN lights are extinguished.</para>
+<note><para>If any ISLN lights are illuminated with all BUS TIE switches
+set to the AUTO position and both sync buses powered, this is an indication
+of an open bus tie breaker.</para></note>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-3" key="UPS747MEL20070815102051" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; A/T Speed Mode Engage Switch
+(SPD)</title>
+<dispcond category="C" downgrade="CATEGORY 2" maintenance="NO" nbrins="1"
+nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+autothrottle use.</para>
+</remarks>
+<operation key="UPS747MEL20070815102052">
+<note><para>Autothrottle Speed mode cannot be manually selected.</para>
+</note>
+<note><para>A/T Speed mode is the default A/T mode after altitude
+capture on FLCH, VNAV, or G/A.</para></note>
+<note><para>VNAV commands the A/T to speed determined by FMC.</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815102053">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+2.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard A/T SPD Mode Engage Switch "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102054">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 2</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>
