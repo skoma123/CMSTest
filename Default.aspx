@@ -45,6 +45,12 @@
         <asp:ListBox ID="lstCommittedNotMerged" runat="server" Width="404px">
         </asp:ListBox>
 
+        <br />
+        <asp:Xml ID="Xml1" runat="server" 
+            DocumentSource="~/CMS/MEL/747/UPS747-400MELCDL20080428144022.xml" 
+            TransformSource="~/CMS/MEL/747/melcdl.dtd"></asp:Xml>
+        <br />
+
    </div>
     </form>
 </body>
