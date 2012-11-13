@@ -17,8 +17,10 @@ public partial class _Default : System.Web.UI.Page
 
 
     ProcessStartInfo gitInfo = new ProcessStartInfo();
-
-
+    string stdout_str;
+    string[] words;
+    Process gitProcess;
+   // bool treepopu = false;
         //public const string CURRENT_REPOSITORY = "repository";
 
 	
@@ -67,38 +69,130 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (!IsPostBack)
+        {
+            //Response.Write("<script>alert('Again')</script>");
+            gitInfo.CreateNoWindow = true;
+            gitInfo.RedirectStandardError = true;
+            gitInfo.RedirectStandardOutput = true;
+            gitInfo.UseShellExecute = false;
+            gitInfo.FileName = @"C:\Program Files\Git" + @"\bin\git.exe";
+
+            //git processes to run
+            gitProcess = new Process();
+            gitInfo.WorkingDirectory = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP"; //"D:\data\FileShareGITsample\"; //YOUR_GIT_REPOSITORY_PATH;
+
+            BindTreeView();
+
+            gitInfo.Arguments = "branch -a"; // such as "fetch orign" //GIT COMMAND
+            gitProcess.StartInfo = gitInfo;
+            gitProcess.Start();
+
+            //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+            stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+            //clear the listbox
+            lstBranches.Items.Clear();
+            words = stdout_str.Split('\n');
+
+            foreach (string strtest in words)
+                if (strtest != "") {
+                    lstBranches.Items.Add(strtest.Trim());
+                    if (strtest.Contains("*"))
+                        lstBranches.SelectedValue = strtest;
+                }
+                   
+        }
+        else
+        {
+            if (treeFiles.SelectedValue != null)
+            {
+                Xml1.DocumentSource = treeFiles.SelectedValue;
+            }
+        }
 
     }
+
+    protected void BindTreeView()
+    {
+        DirectoryInfo dir1 = new DirectoryInfo(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\");
+        treeFiles.Nodes.Add(GetNode(dir1));
+    }
+
+    protected TreeNode GetNode(DirectoryInfo directoryinfo)
+    {
+        TreeNode treenode = new TreeNode(directoryinfo.Name, directoryinfo.FullName);
+        treenode.PopulateOnDemand = true;
+        treenode.Collapse();
+
+        return treenode;
+    }
+
+    protected TreeNode GetNodeFiles(FileInfo fileinfo)
+    {
+        TreeNode treenode = new TreeNode(fileinfo.Name, fileinfo.FullName);
+        if (treenode.ChildNodes.Count != 0)
+        {
+        treenode.SelectAction = TreeNodeSelectAction.None;
+        treenode.PopulateOnDemand = true;
+        treenode.Collapse();
+        }
+        else
+        {
+            treenode.SelectAction = TreeNodeSelectAction.Select;
+            treenode.PopulateOnDemand = false;
+            treenode.Expanded = false;  //.Depth = 0; //.Expand();
+        }
+        return treenode;
+    }
+
+    protected void populate_gitDir(object sender, TreeNodeEventArgs e)
+    {
+        try
+        {
+
+            {
+                //if (treepopu == false)
+
+                    // if (treeFiles.Nodes.Count > 1)
+                    // {
+                    DirectoryInfo dirInfo1 = new DirectoryInfo(e.Node.Value);
+                    foreach (DirectoryInfo dirinfo in dirInfo1.GetDirectories())
+                        e.Node.ChildNodes.Add(GetNode(dirinfo));
+                    foreach (FileInfo fileinfo in dirInfo1.GetFiles())
+                        e.Node.ChildNodes.Add(GetNodeFiles(fileinfo));
+                    // }
+               // }
+            }
+        }
+
+        catch
+        {
+            throw;    // Rethrowing exception e
+        }
+
+
+    }
+
     protected void Button1_Click(object sender, EventArgs e)
     {
         //Opening an existing git repository
         Repository repo = new Repository(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP");
 
-        //Response.Write("<script>alert('Again')</script>");
-        gitInfo.CreateNoWindow = true;
-        gitInfo.RedirectStandardError = true;
-        gitInfo.RedirectStandardOutput = true;
-        gitInfo.UseShellExecute = false;
-        gitInfo.FileName = @"C:\Program Files\Git" + @"\bin\git.exe";
 
-   
-        //git processes to run
-        Process gitProcess = new Process();
-        gitInfo.WorkingDirectory = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP"; //"D:\data\FileShareGITsample\"; //YOUR_GIT_REPOSITORY_PATH;
+      //  gitInfo.Arguments = "ls-files"; // such as "fetch orign" //GIT COMMAND
+      //  gitProcess.StartInfo = gitInfo;
+      //  gitProcess.Start();
 
-        gitInfo.Arguments = "ls-files"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+      //  //list files git ls-files
 
-        //list files git ls-files
-
-        string stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        string stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-        ListBox1.Items.Clear();
-        string[] words = stdout_str.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-        foreach (string strtest in words)
-            if (strtest != "")
-                ListBox1.Items.Add(strtest);
+      ////  string stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+      //  string stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+      //  ListBox1.Items.Clear();
+      //  string[] words = stdout_str.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+      //  foreach (string strtest in words)
+      //      if (strtest != "")
+      //          ListBox1.Items.Add(strtest);
 
         ////Root 
         ////Get the root tree of the most recent commit
@@ -112,75 +206,62 @@ public partial class _Default : System.Web.UI.Page
         //    ListBox1.Items.Add(leaf.Name);
         //   // Console.WriteLine(leaf.Path);
         
-        gitInfo.Arguments = "branch -a"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+   
 
-        stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+       //// //commit history (authorname, author date, subject, committer name, committed date)
+       //// gitInfo.Arguments = @"log --pretty=format:""%an | %ar | %s | %cn | %cr"""; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+       //// gitProcess.StartInfo = gitInfo;
+       //// gitProcess.Start();
 
-        //clear the listbox
-        lstBranches.Items.Clear();
-        words = stdout_str.Split(' ');
+       //// //git log -p -2 difference introduced in each commit
 
-        foreach (string strtest in words)
-            if (strtest != "")
-            lstBranches.Items.Add(strtest);
+       //// //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+       //// stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-        //commit history (authorname, author date, subject, committer name, committed date)
-        gitInfo.Arguments = @"log --pretty=format:""%an | %ar | %s | %cn | %cr"""; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+       //// lstCommitHistorySimple.Items.Clear();
+       //// words = stdout_str.Split('\n');
 
-        //git log -p -2 difference introduced in each commit
+       ////foreach (string strtest in words)
+       ////     if (strtest != "")
+       ////         //lstCommitHistorySimple.Items.Add(strtest);
+       ////         lstCommitHistorySimple.Items.Add(strtest);
+       //////commit history
+       ////gitInfo.Arguments = "log --stat"; // such as "fetch orign" //GIT COMMAND
+       ////gitProcess.StartInfo = gitInfo;
+       ////gitProcess.Start();
 
-        stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+       //////git log -p -2 difference introduced in each commit
 
-        lstCommitHistorySimple.Items.Clear();
-        words = stdout_str.Split('\n');
+       //////stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+       ////stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-       foreach (string strtest in words)
-            if (strtest != "")
-                //lstCommitHistorySimple.Items.Add(strtest);
-                lstCommitHistorySimple.Items.Add(strtest);
-       //commit history
-       gitInfo.Arguments = "log --stat"; // such as "fetch orign" //GIT COMMAND
-       gitProcess.StartInfo = gitInfo;
-       gitProcess.Start();
+       ////lstCommitHistory.Items.Clear();
+       ////words = stdout_str.Split('\n');
 
-       //git log -p -2 difference introduced in each commit
-
-       stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-       stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-
-       lstCommitHistory.Items.Clear();
-       words = stdout_str.Split('\n');
-
-       foreach (string strtest in words)
-           if (strtest != "")
-               lstCommitHistory.Items.Add(strtest);
+       ////foreach (string strtest in words)
+       ////    if (strtest != "")
+       ////        lstCommitHistory.Items.Add(strtest);
 
        //list of commits made in last 2 weeks "log --since=2.weeks"
        //last commit This seems a bit clearer. It’s also common to add a last command, like this: $ git config --global alias.last 'log -1 HEAD'
        //This way, you can see the last commit easily: $ git last
 
-        gitInfo.Arguments = @"log --pretty=""%h - %s"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-01"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+        //gitInfo.Arguments = @"log --pretty=""%h - %s"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-01"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+        //gitProcess.StartInfo = gitInfo;
+        //gitProcess.Start();
 
-        stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+        ////stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        //stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-        lstCommittedNotMerged.Items.Clear();
-        words = stdout_str.Split('\n');
+        //lstCommittedNotMerged.Items.Clear();
+        //words = stdout_str.Split('\n');
 
-        foreach (string strtest in words)
-            if (strtest != "")
-                lstCommittedNotMerged.Items.Add(strtest);
+        //foreach (string strtest in words)
+        //    if (strtest != "")
+        //        lstCommittedNotMerged.Items.Add(strtest);
 
-        gitProcess.WaitForExit();
-        gitProcess.Close();
+        //gitProcess.WaitForExit();
+        //gitProcess.Close();
 
         //***********see changes 10 revisions back on a single file or entire tree
        // # 10 single file foo.c-changes ago **** git show $(git rev-list -n 10 --reverse HEAD -- readme3.c | head -1):readme3.c
@@ -218,9 +299,130 @@ public partial class _Default : System.Web.UI.Page
 
 
         //Add a new folder with subfolder 747 copy and paste from another location.
-        //***************STAGE, COMMIT with comment **git stage CMS/MEL/*.* // **git commit -am "my commit message
+        //***************STAGE, COMMIT with comment **git stage CMS/MEL/*.* // **git commit -am "my commit message"
         //***PUSH to remote location ****git push
 
         //
         }
+    protected void treeFiles_SelectedNodeChanged(object sender, EventArgs e)
+    {
+        try
+        {
+
+           Xml1.DocumentSource = treeFiles.SelectedValue;
+        //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
+
+        }
+        catch
+        {
+            throw;    // Rethrowing exception e
+        }
+    }
+    protected void InitialProcessing()
+    {
+        //Response.Write("<script>alert('Again')</script>");
+        gitInfo.CreateNoWindow = true;
+        gitInfo.RedirectStandardError = true;
+        gitInfo.RedirectStandardOutput = true;
+        gitInfo.UseShellExecute = false;
+        gitInfo.FileName = @"C:\Program Files\Git" + @"\bin\git.exe";
+
+        //git processes to run
+        gitProcess = new Process();
+        gitInfo.WorkingDirectory = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP"; //"D:\data\FileShareGITsample\"; //YOUR_GIT_REPOSITORY_PATH;
+
+    }
+
+    protected void btnCommitHistory_Click(object sender, EventArgs e)
+    {
+        InitialProcessing();
+        gitInfo.Arguments = "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //git log -p -2 difference introduced in each commit
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        lstAll.Items.Clear();
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+    }
+    protected void btnCommitHistSimple_Click(object sender, EventArgs e)
+    {
+        InitialProcessing();
+        //commit history (authorname, author date, subject, committer name, committed date)
+        gitInfo.Arguments = @"log --pretty=format:""%an | %ar | %s | %cn | %cr"""; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //git log -p -2 difference introduced in each commit
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        lstAll.Items.Clear();
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                //lstCommitHistorySimple.Items.Add(strtest);
+                lstAll.Items.Add(strtest);
+    }
+    protected void btnCommitNotMerged_Click(object sender, EventArgs e)
+    {
+        InitialProcessing();
+        gitInfo.Arguments = @"log --pretty=""%h - %s"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        lstAll.Items.Clear();
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
+
+    protected void EditXMLWindow(object sender, EventArgs e)
+    {
+        
+        System.Diagnostics.Process.Start(@treeFiles.SelectedValue);
+       
+    }
+    protected void btnRefreshXML_Click(object sender, EventArgs e)
+    {
+        InitialProcessing();
+        gitInfo.Arguments = @"stage CMS\MEL\*.*"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitInfo.Arguments = @"commit -am ""Updated XML file"""; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitInfo.Arguments = @"push"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        Xml1.DocumentSource = treeFiles.SelectedValue;
+    }
+    protected void btnMergeXML_Click(object sender, EventArgs e)
+    {
+        InitialProcessing();
+        gitInfo.Arguments = @"merge CMS"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();   
+
+    }
 }
