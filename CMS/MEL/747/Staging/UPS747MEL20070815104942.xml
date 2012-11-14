@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="8-1" key="UPS747MEL20070815104942" revdate="20090824" revnbr="7" sectnbr="11">
+<title>Bleed Air Pressure Regulating Valve (PRV) Systems &ndash; PRV
+CLOSED AND FAV FULL OPEN</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="YES"
+nbrins="4" nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative with associated PRV secured closed provided: </para>
+<numlist>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions, </para></numlitem>
+<numlitem><para>L and R ISLN valves are open for takeoff, and when
+flaps are operated,</para></numlitem>
+<numlitem><para>Bleed systems on remaining engine are operative,</para>
+</numlitem>
+<numlitem><para>Associated ENGINE BLEED switch is select OFF except
+for engine start,</para></numlitem>
+<numlitem><para>For GE, associated engine thrust reverser is deactivated,
+and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104943">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BLEED PRV ENG ___</para>
+<para>BLEED OVPRESS ___</para>
+<para>BLEED ___ OVHT</para>
+<para>ENG ___ REVERSER</para>
+</note>
+<numlist>
+<numlitem><para>For the associated engine, select Engine Bleed OFF
+except for ground engine start and when bleed air is required for
+inflight start. </para></numlitem>
+<numlitem><para>APU-TO-PACK TAKEOFF procedure is not permitted since
+L and R ISLN Valves must remain open during takeoff.</para></numlitem>
+<numlitem><para>The associated engine&rsquo;s thrust reverser is deactivated.
+The REV amber indication and EICAS message ENG_REVERSER may be displayed
+for the engine with reverser deactivated. Use symmetrical reverse
+thrust as required. </para></numlitem>
+<numlitem><para>Thrust Reverser deactivation will not affect control
+of engine idle speed during flight but the affected engine will stay
+in minimum idle on the ground. Therefore, EICAS message IDLE DISAGREE
+may be annunciated during landing when the unaffected engines are
+commanded to approach idle for reverse thrust operation.</para>
+</numlitem>
+<numlitem><para>During takeoff and for all flap operations, ensure
+that the L and R ISLN valve switches are in the open position. This
+assures air is available for operation of the air-driven hydraulic
+demand pump and LE flaps in the event of an adjacent engine shutdown.</para>
+</numlitem>
+<numlitem><para>Do not select associated engine Nacelle Anti-Ice Switch
+ON. If icing conditions are inadvertently encountered, reducing thrust
+on affected engine will minimize possible damage if ice is ingested.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104944">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<numlitem><para>Operations into known or forecast icing conditions
+is prohibited. </para></numlitem>
+<numlitem><para>Reduce takeoff and landing limited weights by 4,500
+lbs.</para></numlitem>
+<numlitem><para>Reduce en route climb limited weight by 6,300 lbs.</para>
+</numlitem>
+<numlitem><para>Increase flight planning fuel by 0.5%.</para></numlitem>
+<numlitem><para>If runway clutter or icy conditions exist at origin,
+takeoff is prohibited.</para></numlitem>
+<numlitem><para>APU-TO-PACK TAKEOFF procedure is not permitted.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ENG ___ PRV
+INOP CLOSED" and " ___ TR INOP". Placard adjacent to associated Bleed
+Air SYS FAULT Light (P5 Panel): "SYS FAULT LIGHT INOP". Placard the
+associated engine Nacelle Anti-Ice Valve Switch (P5 Panel): "INOP
+- LEAVE OFF". Enter items in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104945">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>The Pressure Regulating Valve and the High Pressure Shutoff
+Valve (MEL Item <refint refid="UPS747MEL20070815104926" reftype="MEL"
+>36-11-3</refint>) are the same part number and can be interchanged.</para>
+</note>
+<numlist>
+<numlitem><para>To dispatch with the associated PRV closed:</para>
+<note><para>The PRV is installed forward of the precooler in the 1:00
+o'clock position on GE CF6-80C series engines.</para></note>
+<numlist>
+<numlitem><para>Release the pressure in the pneumatic system (AMM
+36-00-00/201). </para></numlitem>
+<numlitem><para>Open right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+<numlitem><para>Remove locking pin screw from the PRV actuator cap.
+ Do not disconnect the retaining cable from locking pin screw.</para>
+</numlitem>
+<numlitem><para>Rotate the hex for manual operation to the valve CLOSED
+position. </para></numlitem>
+<numlitem><para>Install the locking pin screw in the switch actuating
+lever to lock the PRV in the CLOSED position.</para></numlitem>
+<numlitem><para>Close the thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="36" chg="U" confnbr="8-1" key="UPS747MEL20070815104946"
+revdate="20080827" revnbr="5" sectnbr="11">
+<sheet chg="U" gnbr="747-400_DMP_CH_36_Page_8"
+key="UPS747MEL20070815104947" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Deactivate the associated thrust reverser per DMP<refint
+refid="UPS747MEL20070815105649" reftype="DMP">78-31-1-1</refint>. </para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

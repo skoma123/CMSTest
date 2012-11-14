@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3" key="UPS747MEL20070815104332" revdate="20090824" revnbr="7" sectnbr="61">
+<title>Wing Landing Gear Downlock Position Sensors</title>
+<dispcond attr-rev="NO" category="B" downgrade="" maintenance="YES"
+nbrins="4" nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both wing gear are secured in the down and locked
+position, and</para></numlitem>
+<numlitem><para>Dispatch is in accordance with AOM/AA Data Gear Down
+appendix Chapter 5.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104333">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>GEAR MONITOR</para>
+</note>
+<numlist>
+<numlitem><para>Operate in accordance with landing gear extended performance. </para>
+</numlitem>
+<numlitem><para>If all landing gear are not to be left extended, use
+of the following procedure will keep all wheel well doors closed:</para>
+<numlist>
+<numlitem><para>Before retraction of operable landing gear, depressurize
+the hydraulic landing gear.</para>
+<table frame="none">
+<tgroup cols="1">
+<colspec colname="col1" colwidth="1.00*"/>
+<tbody>
+<row>
+<?PubTbl row rht="0.22in"?>
+<entry colsep="0" rowsep="0">
+<para>Wing gear..................................................................................................HYD
+sys 4</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>After gear retraction, position gear lever OFF.</para>
+</numlitem>
+<numlitem><para>Repressurize the hydraulic system associated with
+the inoperative landing gear.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104334">
+<numlist>
+<numlitem><para>Maximum operating speed is 270 KIAS/ 0.73 M.</para>
+</numlitem>
+<numlitem><para>Maximum takeoff weight is limited to 720,000 lbs.</para>
+</numlitem>
+<numlitem><para>RVSM operations prohibited.</para></numlitem>
+<numlitem><para>Extended overwater operation prohibited.</para>
+</numlitem>
+<numlitem><para>If operations are conducted in known or forecasted
+icing conditions during any part of the flight and if the destination
+airport has a forecast landing temperature below 8&deg;F, reduce the
+landing climb limit weight by 78,150 lbs.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Captain&rsquo;s PFD on P-1-1 panel: "WING GR DNLOCK
+POS SENSORS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104335">
+<para>If one or both downlock sensors (primary or alternate) on any
+wing gear are failed, the affected landing gear and its symmetric
+landing gear pair must be secured in the down and locked position.</para>
+<note><para>With both sensors on any main gear failed, the caution
+message GEAR DISAGREE may be displayed.</para></note>
+<numlist>
+<numlitem><para>Configure the landing gear (symmetric wing and/or
+body gear pairs) for gear down dispatch (AMM 32-00-00/201).</para>
+</numlitem>
+<numlitem><para>If all landing gear are to be left extended, pull
+and collar the landing gear lever lock circuit breaker on the P6 panel.</para>
+</numlitem>
+<numlitem><para>Configure the Mach/Airspeed Warning System as required
+by the Aircraft Flight Manual (AFM) appendix.</para>
+<numlist>
+<numlitem><para>Access the Gear Down Dispatch Switch in the main electronic
+equipment center.</para></numlitem>
+<numlitem><para>Remove the safety wire from the switch guard.</para>
+</numlitem>
+<numlitem><para>Lift switch guard and place switch in the Gear Down
+Dispatch position.</para></numlitem>
+<numlitem><para>Close switch guard and install safety wire.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

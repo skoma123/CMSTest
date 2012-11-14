@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS747MEL20070815102827" revdate="20080827" revnbr="5" sectnbr="13">
+<title>Lavatory Smoke Detection Systems</title>
+<dispcond category="D" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative for flights conducted in a cargo configuration.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "LAVATORY
+SMOKE DET SYS INOP". Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

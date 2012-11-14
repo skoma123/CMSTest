@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-2-1" key="UPS747MEL20070815103650" revdate="20100707" revnbr="8" sectnbr="11">
+<title>Engine Driven Hydraulic Pump Systems Supply Shutoff Valves
+&ndash; Pump Deactivated </title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="4"
+nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One supply shutoff valve may be inoperative closed provided:</para>
+<numlist>
+<numlitem><para>All Demand pumps are operative,</para></numlitem>
+<numlitem><para>Demand pump for the associated hydraulic system remains
+ON, and</para></numlitem>
+<numlitem><para>Associated pump is deactivated.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103651">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>HYD PRESS ENG ___</para>
+<numlist>
+<numlitem><para>The Demand Pump Selector on the affected system must
+remain ON throughout flight.</para></numlitem>
+</numlist>
+</note>
+</operation>
+<placard>
+<para>Placard adjacent to associated engine hydraulic pump switch:
+"INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103652">
+<note><para>The EDP deactivation/dispatch kit is P/N G29003-8.</para>
+</note>
+<numlist>
+<numlitem><para>Deactivate the engine driven pump (EDP) per AMM 29-11-05/201
+procedures.</para>
+<note><para>This task removes the EDP from the engine, then the quillshaft
+from the EDP and installs a device to seal the gear shaft. The EDP
+is then reinstalled (which now will not operate) on the engine. This
+task also caps the pump fluid supply and pump case fittings along
+with the associated lines.</para></note>
+</numlitem>
+<numlitem><para>Deactivate the EDP hydraulic supply shutoff valve
+closed per the steps listed below:</para>
+<!--Per C.R.4281 Tim 11/16/09 Rev 8-->
+<note><para>The hydraulic shutoff valve is installed in the strut.
+You must open the forward thrust reverser to strut mid fairing access
+door to gain access to the valve. You must remove approximately 50
+screws to open the access door. </para></note>
+<graphic chapnbr="29" chg="U" key="UPSB747-400MELCDL20100225114630"
+revdate="20100707" revnbr="8" sectnbr="11">
+<sheet chg="U" gnbr="747-400_DMP_CH_29_Page_1"
+key="UPSB747-400MELCDL20100225114728" revdate="20100707" revnbr="8"
+sheetnbr="001"></sheet>
+</graphic>
+<graphic chapnbr="29" chg="U" key="UPSB747-400MELCDL20100225114819"
+revdate="20100707" revnbr="8" sectnbr="11">
+<sheet chg="U" gnbr="747-400_DMP_CH_29_Page_2"
+key="UPSB747-400MELCDL20100225114851" revdate="20100707" revnbr="8"
+sheetnbr="001"></sheet>
+</graphic>
+<numlist>
+<numlitem><para>Gain access to the hydraulic shutoff valve via the
+appropriate strut access panel/fairing.</para></numlitem>
+<numlitem><para>Open the associated P6 panel engine fire extinguisher
+circuit breakers:</para><para></para>
+<numlist>
+<numlitem><para>Engines 1 or 3: FIRE EXT ENG 1 &amp; 3 BTL A and FIRE
+EXT ENG 1 &amp; 3 BTL B</para></numlitem>
+<numlitem><para>Engines 2 or 4: FIRE EXT ENG 2 &amp; 4 BTL A and FIRE
+EXT ENG 2 &amp; 4 BTL B</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Pull the associated P5 Engine Fire Control panel Engine
+Fire handle.</para>
+<note><para>You must push the fire override switch installed below
+the fire switch to operate the fire handle.</para></note>
+<warning><para>DO NOT TURN THE FIRE HANDLE. THE EXTINGUISHER BOTTLES
+WILL LET THE CONTENTS OUT AND CAUSE DAMAGE TO THE ENGINE IF YOU TURN
+THE FIRE HANDLE. </para></warning>
+</numlitem>
+<numlitem><para>Verify the position indicator on the EDP hydraulic
+shutoff valve moves to the CLOSED position and the motor stops.</para>
+</numlitem>
+<numlitem><para>Open and collar the associated P7 panel HYDRAULICS
+EDP SUPPLY circuit breaker:</para></numlitem>
+<numlitem><para>Push the fire handle back to its usual position.</para>
+</numlitem>
+<numlitem><para>Close the engine fire extinguisher circuit breakers
+opened above.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

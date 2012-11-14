@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1-2" key="UPS747MEL20070815104354" revdate="20080827" revnbr="5" sectnbr="24">
+<title>Passenger Notice System (No Smoking/fasten Seat Belt/Return
+to Cabin) Signs Flight Deck Automatic Function</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>Automatic function may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Manual Control function is operative, and</para>
+</numlitem>
+<numlitem><para>Procedures for its use are established and used.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104355">
+<numlist>
+<numlitem><para>The flight crew will ensure that all persons in the
+upper deck are notified when seat belts should be fastened.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "FLT DK AUTO
+FUNCTION INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

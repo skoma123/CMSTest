@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="75" chg="U" itemnbr="2" key="UPS747MEL20070815105619" revdate="20090824" revnbr="7" sectnbr="24">
+<title>Turbine Cooling Air Systems</title>
+<dispcond attr-rev="NO" category="C" maintenance="NO" nbrins="4"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided associated turbine cooling valve
+remains open.</para>
+<note><para>SB 75-123 has been accomplished on all engines on acft
+570 - 579 and EEC software has been verified to be 8.2Q or later,
+therefore, no maintenance procedure other than placarding is necessary.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815105620">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ENG ___ ESCV</para>
+</note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105621">
+<numlist>
+<numlitem><para>Increase flight planning fuel by 0.1% for each affected
+engine. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ENG ___ TURBINE
+COOLING AIR SYS INOP OPEN". Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+</dispcond>
+</item>

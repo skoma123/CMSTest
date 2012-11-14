@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS747MEL20070815104311" revdate="20081208" revnbr="5a" sectnbr="53">
+<title>BODY GEAR STEERING SYSTEM</title>
+<dispcond attr-rev="NO" category="C" downgrade="" maintenance="YES"
+nbrins="1" nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Body gear steering actuators are verified locked,
+and</para></numlitem>
+<numlitem><para>Body gear steering is deactivated.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104312">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BODY GR STRG SYS</para>
+<para>> BODY GEAR STRG</para>
+</note>
+<note><para>On takeoff, assure all 4 engines are spooled evenly at
+70% N1, prior to engaging TOGA.</para></note>
+<numlist>
+<numlitem><para>With the body gear steering deactivated or inoperative,
+turning capability will be reduced. See the illustration in the AOM
+chapter 3 for the depiction of the approximate minimum turning radius
+using differential thrust in addition to nose wheel steering. As with
+all turns, the cockpit must travel outside the centerline of the turn
+to align the main path. The tip of the winglet describes the largest
+arc while turning and determines the minimum obstruction clearance
+path. All other portions of the aircraft structure are within this
+arc. It should be noted from the turning radius illustration that
+the wingtips are moved outboard about 11 feet, and travel 59 feet
+in front of the cockpit.</para>
+<caution><para>DO NOT ATTEMPT TO MAKE A TURN AWAY FROM AN OBSTACLE
+WITHIN 11 FEET OF THE WINGTIP OR WITHIN 59 FEET OF THE COCKPIT.</para>
+</caution>
+</numlitem>
+<numlitem><para>Avoid sharp turns if possible, due to excessive tire
+scrubbing. </para>
+<caution><para>AVOID USE OF EXCESSIVE THRUST IN RAMP AREA DUE TO POSSIBLE
+DAMAGE OR INJURY FROM JET WAKE.</para></caution>
+</numlitem>
+<numlitem><para>Use modified GEAR LEVER WILL NOT MOVE UP Non-Normal
+Procedure for Body Gear Steering deactivated in the AOM Chapter 2.1
+and QRH.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104313">
+<numlist>
+<numlitem><para>Minimum 170 feet of pavement required for 180 degree
+turn. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Captain&rsquo;s PFD on P-1-1 panel: "BODY GEAR STRG
+SYS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104314">
+<numlist>
+<numlitem><para>Verify body Gear Steering actuators are locked.</para>
+<numlist>
+<numlitem><para>Perform the body gear steering actuator lock switch
+BITE test [AMM 32-53-16 procedure 3.F.15(a) through (i)]. Bit status
+of "1" indicates actuators are locked. Bit status of "0" indicates
+actuators may be unlocked or indication system may be inoperative
+(refer to DMP <refint refid="UPS747MEL20070815104320" reftype="DMP"
+>32-53-2</refint>). </para></numlitem>
+<numlitem><para>If any bit status indicates "0", verify actuator integrity
+as follows:</para>
+<numlist>
+<numlitem><para>Depressurize hydraulic system No. 1.</para></numlitem>
+<numlitem><para>Tow aircraft (using normal towing procedures) as follows,
+observing that no body gear steering actuator extension or separation
+occurs: </para>
+<numlist>
+<numlitem><para>Nose wheel left 45 degrees, move 50 feet, stop.</para>
+</numlitem>
+<numlitem><para>Nose wheel right 45 degrees, move 50 feet, stop.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Repressurize hydraulic system No. 1.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Deactivate Body Gear Steering using Procedure A and
+if necessary, Procedure B (actuator leak) and/or Procedure C (control
+module leak or pressure switch fault).</para>
+<numlist>
+<numlitem><para>PROCEDURE A</para>
+<numlist>
+<numlitem><para>Remove nose gear torsion link apex pin and secure
+upper torsion link so that it clears structure when turning.</para>
+</numlitem>
+<numlitem><para>Open and collar the P7 panel BODY GR STRG ARM AC and
+BODY GR STRG ARM DC circuit breakers.</para></numlitem>
+<numlitem><para>Using tiller, steer left and right at least 25 degrees.
+Verify that no body gear steering actuator extension occurs.</para>
+</numlitem>
+<numlitem><para>Reconnect nose gear torsion links.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>PROCEDURE B - Use when steering actuator(s) leaks
+excessively. </para>
+<numlist>
+<numlitem><para>Deactivate body gear steering using PROCEDURE A, then
+disconnect the left and/or right steering hydraulic system as follows:</para>
+<numlist>
+<numlitem><para>Disconnect the OUTBD and INBD CYL EXT (extend) hoses
+and one RET (retract) hose from the associated body gear trunnion
+swivel fittings. Cap the trunnion swivel fittings.</para></numlitem>
+<numlitem><para>Loosen the B nuts on EXT and RET hoses on the associated
+steering actuators. Drain the fluid from the hoses and re-tighten
+the B nuts.</para></numlitem>
+<numlitem><para>Cap and stow the disconnected hoses so they clear
+the gear retraction swing.</para></numlitem>
+<numlitem><para>Rotate the top disconnected swivel INBD EXT on the
+right body gear, and/or the OUTBD EXT on the left body gear, toward
+the nose of the aircraft to a horizontal position and secure there
+with lockwire. This prevents possible interferences with closing of
+slaved gear door.</para></numlitem>
+<numlitem><para>Pressure check system.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>PROCEDURE C - Use when the hydraulic control module(s)
+leak excessively or when a pressure switch indicates a fault.</para>
+<numlist>
+<numlitem><para>Deactivate body gear steering using PROCEDURE A, then
+disconnect the leaky hydraulic control module(s) as follows (disconnect
+both modules for a pressure switch fault):</para>
+<numlist>
+<numlitem><para>Depressurize hydraulic system No. 1.</para></numlitem>
+<numlitem><para>Remove the pressure supply lines (P1) to the control
+module(s) (from the landing gear down LGD1 lines). Remove the return
+lines (R1) that connect to the top of the control module(s). Cap disconnected
+ports on tee line fittings. Stow tubes aboard aircraft.</para>
+</numlitem>
+<numlitem><para>Disconnect EXT and RET hoses at the associated steering
+actuators and drain lines. Reconnect hoses.</para></numlitem>
+<numlitem><para>Cap open ports on the control module(s).</para>
+</numlitem>
+<numlitem><para>Pressure check system.</para></numlitem>
+<numlitem><para>Restore hydraulic system No. 1 pressure.</para>
+</numlitem>
+</numlist>
+<note><para>The EICAS advisory message >BODY GEAR STRG may remain
+displayed due to a pressure switch fault.</para></note>
+<graphic chapnbr="32" chg="U" key="UPS747MEL20070815104315"
+revdate="20080827" revnbr="5" sectnbr="53">
+<sheet chg="U" gnbr="747-400_DMP_CH_32_Page_17"
+key="UPS747MEL20070815104316" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="35" chg="U" itemnbr="1" key="UPS747MEL20070815104859" revdate="20080827" revnbr="5" sectnbr="31">
+<title>Portable Oxygen Dispensing Units &ndash; (Bottle and Mask)</title>
+<dispcond category="D" maintenance="YES" nbrins="4" nbrreq="3"
+operation="NO" btb="NO">
+<remarks>
+<para>Any in excess of those required by FAR may be unserviceable
+or missing provided:</para>
+<numlist>
+<numlitem><para>Required distribution of serviceable bottles is maintained
+throughout aircraft, and</para></numlitem>
+<numlitem><para>Bottles not properly serviced are replaced, serviced,
+or removed at the next available maintenance facility.</para></numlitem>
+</numlist>
+</remarks>
+<maintenance key="UPS747MEL20070815104911">
+<numlist>
+<numlitem><para>Remove the unserviceable unit from the aircraft and
+placard O<sub>2</sub> bottle "INOP". Enter item in Aircraft Deferred
+Item Log.</para></numlitem>
+</numlist>
+<note><para>Lavatory bottle and mask must be serviceable.</para></note>
+<table>
+<tgroup cols="8">
+<colspec colname="col1" colwidth="1.69*"/>
+<colspec colname="col2" colwidth="0.93*"/>
+<colspec colname="col3" colwidth="0.90*"/>
+<colspec colname="col4" colwidth="0.86*"/>
+<colspec colname="col5" colwidth="0.89*"/>
+<colspec colname="col6" colwidth="0.88*"/>
+<colspec colname="col7" colwidth="0.90*"/>
+<colspec colname="col8" colwidth="0.98*"/>
+<tbody>
+<row>
+<entry>
+<para>BOTTLE TEMP &ordm;F</para>
+</entry>
+<entry>
+<para>-10</para>
+</entry>
+<entry>
+<para>10</para>
+</entry>
+<entry>
+<para>30</para>
+</entry>
+<entry>
+<para>50</para>
+</entry>
+<entry>
+<para>70</para>
+</entry>
+<entry>
+<para>90</para>
+</entry>
+<entry>
+<para>110</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>MIN. PRESS.</para>
+</entry>
+<entry>
+<para>1275</para>
+</entry>
+<entry>
+<para>1330</para>
+</entry>
+<entry>
+<para>1385</para>
+</entry>
+<entry>
+<para>1440</para>
+</entry>
+<entry>
+<para>1500</para>
+</entry>
+<entry>
+<para>1555</para>
+</entry>
+<entry>
+<para>1610</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

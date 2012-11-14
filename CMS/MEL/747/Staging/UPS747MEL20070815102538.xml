@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="4" key="UPS747MEL20070815102538" revdate="20080827" revnbr="5" sectnbr="23">
+<title>Engine and APU Generator FIELD OFF Lights (Overhead Maintenance
+Panel) </title>
+<dispcond category="C" nbrins="6" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard appropriate FIELD OFF Light(s) "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1" key="UPS747MEL20070815104458" revdate="20100707" revnbr="8" sectnbr="12">
+<!--Per C.R.4353 Tim 1/22/10 for Rev 8-->
+<effect chg="U" effrg="" efftext="N578UP-N579UP and N581UP-N583UP">
+</effect>
+<title>Air Data Computer System (ADC)</title>
+<dispcond category="C" downgrade="CATEGORY 3b" maintenance="YES"
+nbrins="3" nbrreq="2" operation="YES">
+<remarks>
+<para>May be inoperative provided at least the left, and one other
+ADC is operative.</para>
+</remarks>
+<operation key="UPS747-400MELCDL20080715101429">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ADC ____</para>
+</note>
+<numlist>
+<numlitem><para>Flight crew should verify the left ADC and either
+the right or center ADC is operative.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel: "C or R ADC INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080715101705">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="COLSPEC1" colwidth="1.00*"/>
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>C or R</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3b</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>If Status Message ADC RIGHT is annunciated, the following procedure
+for selecting the Center ADC is recommended:</para>
+<numlist>
+<numlitem><para>Select Center ADC on F/O P3 panel.</para>
+<note><para>Center ADC must be selected prior to proceeding to step
+2.</para></note>
+</numlitem>
+<numlitem><para>Determine if Status Message AOA RIGHT is displayed.</para>
+<numlist>
+<numlitem><para>If AOA RIGHT is <emphasis role="underline">not</emphasis
+> displayed, dispatch is allowed.</para></numlitem>
+<numlitem><para>If AOA RIGHT is displayed, locate circuit breaker
+ADC R PWR on P7 panel.</para>
+<numlist>
+<numlitem><para>If circuit breaker ADC R PWR is closed, <emphasis
+role="underline">dispatch is not allowed</emphasis>.</para></numlitem>
+<numlitem><para>If circuit breaker ADC R PWR is open, close it one
+time ONLY and wait 30 seconds:</para>
+<numlist>
+<numlitem><para>If circuit breaker ADC R PWR re-opens, <emphasis
+role="underline">dispatch is not allowed</emphasis>.</para></numlitem>
+<numlitem><para>If circuit breaker ADC R PWR remains closed, and AOA
+RIGHT is <emphasis role="underline">not</emphasis> displayed, dispatch
+is allowed.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

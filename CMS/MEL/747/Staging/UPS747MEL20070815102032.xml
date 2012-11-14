@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="3-3-3" key="UPS747MEL20070815102032" revdate="20080827" revnbr="5" sectnbr="11">
+<title>MODE CONTROL PANEL SELECTORS SELECTOR PUSH FUNCTIONS &ndash;
+IAS/MACH</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102033">
+<numlist>
+<numlitem><para>Speed intervention is not available. If VNAV operation
+is desired, speed entries can be made via the FMS-CDU.</para></numlitem>
+<numlitem><para>VNAV will not be available for approach.</para>
+</numlitem>
+</numlist>
+<note><para>The rotation function of the IAS/MACH Selector must still
+operate to enable the crew to select the desired command speed in
+the IAS/MACH window and on both PFD&rsquo;s.</para></note>
+</operation>
+<placard>
+<para>Placard IAS/MACH switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="3-2" key="UPS747MEL20070815102026" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Mode Control Panel Selectors &ndash; BANK LIMIT Selector (AUTO
+5, 10, 15, 20, 25)</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102027">
+<numlist>
+<numlitem><para>If AFDS is not providing desired commands, turn off
+Flight Director and manually maneuver the aircraft.</para></numlitem>
+<numlitem><para>LNAV limits bank angle to comply with maneuvering
+limitations. When operating at MAX altitude using a roll mode other
+than LNAV, fly at least 10 knots above minimum maneuver amber speed
+band and limit bank angle to 10 degrees.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Bank Limit Selector "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

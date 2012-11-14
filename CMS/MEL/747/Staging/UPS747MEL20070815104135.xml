@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-3" key="UPS747MEL20070815104135" revdate="20090824" revnbr="7" sectnbr="41">
+<title>Wheel Brakes &ndash; Brake(s) Removed</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="YES"
+nbrins="16" nbrreq="14" operation="YES">
+<remarks>
+<para>One or two brakes may be deactivated by removing the brake(s)
+and capping the lines provided:</para>
+<numlist>
+<numlitem><para>Takeoff and landing performance complies with AOM/AA
+Data, both for Gear Down dispatch and for two brakes deactivated,
+and</para></numlitem>
+<numlitem><para>After takeoff, gear remains down for two minutes before
+retraction, and.</para></numlitem>
+<numlitem><para>If inoperative brake(s) are on wheels other than No.
+1, 2, 13, or 14, one forward and one aft brake on the same side must
+be removed to maintain a balanced truck, or if inoperative brake(s)
+are on wheels No. 1, 2, 13, or 14, one brake on each affected truck
+may be removed.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104136">
+<numlist>
+<numlitem><para>Maximum takeoff thrust must be used.</para></numlitem>
+<numlitem><para>Stopping distances will increase.</para></numlitem>
+<numlitem><para>Leave gear down for a minimum of 2 minutes after takeoff
+to permit affected wheel(s) to spin down prior to gear retraction.</para>
+</numlitem>
+<numlitem><para>Observe performance limitations.</para></numlitem>
+</numlist>
+<note><para>At takeoff weights greater than 720,000 lbs. flaps up
+maneuver speed (V<sub>REF</sub>+ 100 kt) may exceed the landing gear
+retract speed (270 kt.). Therefore, ensure gear is retracted prior
+to selecting Flaps Up.</para></note>
+</operation>
+<limitation key="UPS747MEL20070815104137">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<numlitem><para>Compute V1 using the V1 correction, One or Two Brakes
+Deactivated or One or Two Anti-Skid Channels Inoperative worksheet
+in the AOM Chapter 5.1. </para></numlitem>
+<numlitem><para>Apply takeoff performance runway weight corrections
+from the Takeoff Runway Limit Weight Reduction, Landing Gear Extended
+or Brake(s) Deactivated By Capping chart found in the AOM Chapter
+5.1.</para></numlitem>
+<numlitem><para>Apply restricted takeoff climb weights from the Takeoff
+Climb Limit Weight, Landing Gear Extended or Brake(s) Deactivated
+By Capping chart found in the AOM Chapter 5.1.</para></numlitem>
+<numlitem><para>Apply landing weight performance for 1 or 2 brakes
+deactivated in the AA landing data.</para></numlitem>
+<numlitem><para>If "Obstacle Clearance Altitude (OCA)" is present
+on the AA Data for the departure runway, contact Flight Control for
+alternate AA Data.</para></numlitem>
+<numlitem><para>Operations on cluttered or icy runways prohibited.</para>
+</numlitem>
+<numlitem><para>Use cutback runway is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "WHEEL___
+BRAKE(S) DEACTIVATED &ndash; BRAKE(S) REMOVED". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104138">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>If Brake System Control Unit (BSCU) P/N S283U002-5 or
+later version is installed and one or two brakes are deactivated,
+advisory message ANTI-SKID for the affected wheels may be inhibited
+as follows: Rotate the BSCU (E9 Rack) message inhibit knobs on the
+unit&rsquo;s front face so that one knob points to each affected wheel&rsquo;s
+position number. Advisory level message ANTI-SKID will not display
+if an anti-skid fault is present. While en route, if an additional
+anti-skid fault occurs affecting another wheel, EICAS will again display
+ANTI-SKID. </para></note>
+<numlist>
+<numlitem><para>REMOVE INOPERATIVE BRAKE(S):</para>
+<note><para>To ensure that the truck will tilt to the retract position,
+one forward and one aft brake on the same side must be removed to
+maintain a balanced truck. It may be necessary to remove or relocate
+an operative brake in order to balance the truck and ensure proper
+retraction. However, if the inoperative brake(s) is on wheel No. 1,
+2, 13 or 14, one brake on each affected truck may be removed.</para>
+</note>
+<numlist>
+<numlitem><para>Remove the affected brakes (AMM 32-41-15).</para>
+</numlitem>
+<numlitem><para>Cap and secure the hydraulic lines and electrical
+wiring for the affected brakes, using procedures below:</para>
+<numlist>
+<numlitem><para>Remove pressure from hydraulic systems 1, 2 and 4
+(AMM 29-11-00/201). </para></numlitem>
+<numlitem><para>Release the parking brake.</para></numlitem>
+<numlitem><para>Release pressure from the hydraulic brake accumulator
+by operating the brake pedals until HYD BRAKE PRESS gauge on the P1
+panel shows pre-charge pressure (approximately 750 psi).</para>
+</numlitem>
+<numlitem><para>Uncouple the Brake Disconnect - Brake Hose Half and
+attach the hose to the landing gear truck using tie-wrap P/N BACS38K3D
+or P/N PLT2S-C3. This will ensure that the hose will not interfere
+with brake rotation when the gear is retracted.</para>
+<note><para>The part of the Brake Disconnect that is attached to the
+hose is called the Brake Disconnect - Brake hose half. The part of
+the Brake Disconnect that is attached to the brake is called the Brake
+Disconnect &ndash; Brake Half. </para></note>
+<note><para>The Brake Disconnect incorporates a pressure release function
+in the Brake Half; there is no need to open the brake bleed fitting
+for dispatch. </para></note>
+</numlitem>
+<numlitem><para>Pressurize hydraulic system 1, 2 or 4.</para></numlitem>
+<numlitem><para>Apply brake pressure and check for leaks.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove the associated brake equalizer rods from the
+truck. </para></numlitem>
+<numlitem><para>Install tire and wheel assemblies and restore the
+aircraft to normal (AMM 23-41-15).</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

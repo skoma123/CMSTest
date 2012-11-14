@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-2" key="UPS747-400MELCDL20080621121014" revdate="20080827" revnbr="05"
+sectnbr="42">
+<effect effrg="578579" efftext=""></effect>
+<title>Flight Deck Crew Rest Area Heat Control System &ndash; Crew
+Rest Bunk Heaters</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative deactivated.</para>
+</remarks>
+<placard>
+<para>Placard Flt Deck Crew Rest Bunk Heat Control switch "INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080621121440">
+<numlist>
+<numlitem><para>Select Flight Deck Rest Bunk Temperature Control switch
+to the "OFF" position.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="38" chg="U" itemnbr="1-1" key="UPS747MEL20070815105114" revdate="20080827" revnbr="5" sectnbr="10">
+<title>Potable Water Systems &ndash; System Does Not Leak</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>Individual components may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated components are deactivated or isolated,
+and</para></numlitem>
+<numlitem><para>Associated system components are verified not to have
+leaks. </para></numlitem>
+</numlist>
+<note><para>Any portion of system which is operative may be used.</para>
+</note>
+</remarks>
+<placard>
+<para>For deactivated or isolated components, placard as appropriate.
+"INOP - DO NOT USE". Enter item(s) in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105115">
+<numlist>
+<numlitem><para>For inoperative individual components:</para>
+<numlist>
+<numlitem><para>Deactivate or isolate inoperative components.</para>
+</numlitem>
+<numlitem><para>Verify associated system components do not have leaks.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

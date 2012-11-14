@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="9-1" key="UPS747MEL20070815101719" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Compressor Temperature Bulbs </title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided the compressor overheat discharge
+switches are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815101720">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard adjacent to the associated Pack switch "COMP TEMP BULB(s)
+INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101721">
+<numlist>
+<numlitem><para>Ensure compressor discharge overheat switches are
+operative by accomplishing the following test: </para>
+<numlist>
+<numlitem><para>Open PACK TEMP CONTROL A (C10217) and PACK TEMP CONTROL
+B (C10218) circuit breakers on the P6 Main Power Distribution Panel.</para>
+</numlitem>
+<numlitem><para>Supply electrical power.</para></numlitem>
+<numlitem><para>Make sure the applicable (1, 2 or 3) PACKS selector,
+on the overhead panel, P5, is in the NORM position.</para></numlitem>
+<numlitem><para>Make sure the EICAS message system operates normally.</para>
+</numlitem>
+<numlitem><para>Push the ECS switch on the EICAS display select panel.</para>
+</numlitem>
+<numlitem><para>Open the applicable air conditioning access doors
+(191A, 191H or 192A).</para></numlitem>
+<numlitem><para>Disconnect the applicable electrical connector from
+the compressor discharge overheat switch:</para><para>&ndash; DS520
+for pack 1</para>
+<para>&ndash; DS517 for pack 2</para>
+<para>&ndash; DS522 for pack 3</para>
+</numlitem>
+<numlitem><para>Install a jumper wire between pin 1 and pin 2 of the
+electrical connector.</para></numlitem>
+<numlitem><para>Make sure the SYS FAULT light on the applicable PACK
+RST switch on the P5 panel comes on.</para></numlitem>
+<numlitem><para>Remove the jumper wire from the electrical connector.</para>
+</numlitem>
+<numlitem><para>Reconnect the applicable electrical connector to the
+compressor discharge overheat switch:</para><para>&ndash; DS520 for
+pack 1</para>
+<para>&ndash; DS517 for pack 2</para>
+<para>&ndash; DS522 for pack 3</para>
+</numlitem>
+<numlitem><para>Make sure that the SYS FAULT light goes off when you
+push the PACK RST switch.</para></numlitem>
+<numlitem><para>Close air conditioning access doors, push in PACK
+TEMP CONTROL A (C10217) and PACK TEMP CONTROL B (C10218) circuit breakers
+and restore aircraft back to normal configuration.</para></numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747-400MELCDL20080624135411"
+revdate="20080827" revnbr="05" sectnbr="51">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_592"
+key="UPS747-400MELCDL20080624135515" revdate="20080827" revnbr="05"
+sheetnbr="001"></sheet>
+</graphic>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

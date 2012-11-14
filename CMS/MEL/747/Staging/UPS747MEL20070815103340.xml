@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815103340" revdate="20100707" revnbr="8" sectnbr="21">
+<title>Pressure Fueling System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative open provided alternate refueling procedures
+are established and used.</para>
+<note><para>For an inoperative refuel valve indicator light, the associated
+refuel valve is considered inoperative.</para></note>
+<note><para>Any function of the Fueling Control Panel that is operative
+may be used.</para></note>
+<!--Per C.R.4327 Tim 1/20/10-->
+<note><para>Additional Deferral Required &ndash; REFUEL VALVE.</para>
+</note>
+</remarks>
+<limitation key="UPS747MEL20070815103342">
+<numlist>
+<numlitem><para>For operations with a refuel valve failed open in
+reserve tanks 2 or 3, maximum takeoff weight may not exceed the lessor
+of:</para>
+<!--Per C.R.4371 Fred J. 2/24/10 Rev 8.-->
+<numlist>
+<numlitem><para>785,000 lbs. <emphasis role="bold">(N570UP-N577UP
+and N580UP-N583UP),</emphasis> 740,000 lbs. <emphasis role="bold"
+>(N578UP-N579UP)</emphasis></para><para>OR</para>
+</numlitem>
+<numlitem><para>The landing climb limit weight at the departure airport
+plus 17,000 lbs of additional fuel.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For operation with a refuel valve failed open in main
+tanks 1 or 4, the maximum takeoff weight may not exceed the maximum
+ZFW.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Refer to Dispatch Maintenance Procedure<refint
+refid="UPS747MEL20070815103343" reftype="DMP"> 28-21-1-0-1</refint
+> for placard procedures. Enter item(s) in Aircraft Deferred Item
+Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103343">
+<title>PRESSURE FUELING SYSTEM</title>
+<numlist>
+<numlitem><para>If a refuel valve has failed closed, the valve may
+be operated manually using the manual override screw as follows:</para>
+<numlist>
+<numlitem><para>Depressurize fueling manifold.</para></numlitem>
+<numlitem><para>Gain access to affected refuel valve control unit
+as follows: </para>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="220.09pt"/>
+<colspec colname="col2" colwidth="288.80pt"/>
+<tbody>
+<row>
+<entry align="center">
+<para><emphasis role="underline">VALVE</emphasis></para>
+</entry>
+<entry align="center">
+<para><emphasis role="underline">LOCATION</emphasis></para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>#2 &amp; #3 Reserve</para>
+</entry>
+<entry align="left">
+<para>Outboard aileron access panel 591AB or 691AB.</para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>#1 &amp; #4 Main</para>
+</entry>
+<entry align="left">
+<para>Flap drive access panel 581EB or 681EB.</para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>#2 Main</para>
+</entry>
+<entry align="left">
+<para>Trailing edge lower access panel 572GB (outboard valve) or 571AB
+(inboard valve).</para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>#3 Main</para>
+</entry>
+<entry align="left">
+<para>Trailing edge lower access panel 672GB (outboard valve) or 671AB
+(inboard valve).</para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>CWT</para>
+</entry>
+<entry align="left">
+<para>Forward wing gear wheel well.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Turn override screw (do not remove screw retainer)
+in the open direction (10 to 13 full revolutions will be required).
+Initial screw rotation, as well as last few turns to full open, may
+be difficult.</para></numlitem>
+<numlitem><para>Begin manual mode fueling. When fuel in tank is at
+desired quantity, set the refuel nozzle adapter&rsquo;s manual shutoff
+valve lever(s) (located at the fueling station) to the off position.</para>
+</numlitem>
+<numlitem><para>Close refuel valve by turning override screw in CLOSE
+direction, 10 to 13 revolutions.</para></numlitem>
+<numlitem><para>Placard (at P42 fueling control panel) FUEL VALVE
+INOP.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If a main tank refuel valve cannot be open, tank may
+be fueled through overwing fill port (AMM 12-11-01/301).</para>
+</numlitem>
+<numlitem><para><emphasis role="bold"><emphasis role="underline">If
+a refuel valve has failed open and cannot be manually closed,</emphasis
+></emphasis> pressure fuel aircraft , using manual mode, until affected
+tank is full or filled to desired level. Use overwing filling for
+the remainder of the fueling operation (AMM 12-11-01/301).</para>
+<numlist>
+<numlitem><para>All main tank 1 and 4 boost pumps must be operative.</para>
+</numlitem>
+<numlitem><para>Fuel jettison system be considered inoperative. Deactivate
+the jettison system per steps listed below:</para>
+<numlist>
+<numlitem><para>Center wing tank and main tanks 2 and 3 jettison/transfer
+valves must be secured closed by disconnecting the electrical connector
+and positioning the manual override lever to the closed position (AMM
+28-31-04/401). </para></numlitem>
+<numlitem><para>Jettison nozzle valves must be secured closed by disconnecting
+the electrical connector and positioning the manual override lever
+to the closed position (AMM 28-31-05/401).</para></numlitem>
+<numlitem><para>Main tanks 1 and 4 transfer valves must be secured
+closed by disconnecting the electrical connector and positioning the
+manual override lever to the closed position (AMM 28-16-04/401).</para>
+<numlist>
+<numlitem><para>Gain access to transfer valves through upper wing
+access panel 573AT (673AT).</para></numlitem>
+<numlitem><para>Remove and stow the associated electrical connector
+DV55 (DV50). </para></numlitem>
+<numlitem><para>Position the associated actuator manual override lever
+to the closed position. For the #1 transfer valve, the valve is closed
+with the lever on the inboard side and positioned down. For the #4
+transfer valve, the valve is closed with the lever on the inboard
+side and positioned up. </para></numlitem>
+<numlitem><para>Secure the manual override lever with locking wire.</para>
+</numlitem>
+<numlitem><para>Refit the access panel.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Placard adjacent to fuel jettison module in the cockpit:
+"JETTISON SYSTEM INOP". Enter item(s) in Aircraft Deferred Item Log.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

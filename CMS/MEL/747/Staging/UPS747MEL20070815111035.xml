@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="54" chg="U" key="UPS747MEL20070815111035" qtyreq="70" revdate="20080827" revnbr="5" sectnbr="32">
+<title>Nacelle Strut Access Doors (Includes Pylon Valve Access Doors)</title>
+<remarks>
+<para>For GE, the 14 doors listed below may be missing.  The performance
+limited weights are reduced by the following for each affected strut:</para>
+<numlist>
+<numlitem><para>For GE:</para></numlitem>
+</numlist>
+</remarks>
+<table>
+<tgroup align="left" cols="4">
+<colspec colname="col1" colwidth="1.12*"/>
+<colspec colname="col2" colwidth="0.96*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<colspec colname="col4" colwidth="0.92*"/>
+<tbody>
+<row>
+<entry morerows="1" rowsep="1">
+<para>Location</para>
+</entry>
+<entry morerows="1" rowsep="1">
+<para>Number of Doors Missing (Per Strut)</para>
+</entry>
+<entry colsep="1" nameend="col4" namest="col3">
+<para>Performance Decrement (Per Affected Strut)</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>Takeoff &amp; Landing</para>
+</entry>
+<entry>
+<para>En&nbsp;route Climb</para>
+</entry>
+</row>
+<row>
+<entry morerows="1" rowsep="1">
+<para>Inboard Strut: Group I</para>
+<para>(total of 4 per strut)</para>
+</entry>
+<entry>
+<para>One</para>
+</entry>
+<entry>
+<para>Negligible</para>
+</entry>
+<entry>
+<para>Negligible</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>More than One</para>
+</entry>
+<entry>
+<para>950 lb (431 kg)</para>
+</entry>
+<entry>
+<para>2900 lb (1316 kg)</para>
+</entry>
+</row>
+<row>
+<entry morerows="1" rowsep="1">
+<para>Outboard Strut: Group I</para>
+<para>(total of 3 per strut)</para>
+</entry>
+<entry>
+<para>One</para>
+</entry>
+<entry>
+<para>Negligible</para>
+</entry>
+<entry>
+<para>Negligible</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>More than One</para>
+</entry>
+<entry>
+<para>750 lb (341 kg)</para>
+</entry>
+<entry>
+<para>2400 lb (1089 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="underline">Group</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="underline">Inboard Strut Doors</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="underline">Outboard Strut Doors</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>462 ER, EL, GL, FL</para>
+<para>472 ER, EL, GL, FL</para>
+</entry>
+<entry>
+<para>452 EL, ER, DR</para>
+<para>482 EL, ER, DR</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<graphic chapnbr="54" chg="U" confnbr="1" key="UPS747MEL20070815111036"
+revdate="20080827" revnbr="5" sectnbr="32">
+<sheet chg="U" gnbr="747-400_CDL_CH_54"
+key="UPS747MEL20070815111037" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</cdlblk>

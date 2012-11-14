@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="7" key="UPS747MEL20070815105252" revdate="20090824" revnbr="7" sectnbr="23">
+<effect effrg="578579" efftext=""></effect>
+<title>Upper Deck Door Battery OK Lights</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1" btb="YES">
+<remarks>
+<para>One press-to-test system may be inoperative provided associated
+system is verified to be adequately charged once each flight day.</para>
+</remarks>
+<placard>
+<para>Install Placard below Captain's PFD on P-1-1 on affected door:
+"____ BATTERY OK LIGHT INOP". Enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080717093722">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Log at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Depress and hold operational BATTERY OK lighted switch
+on DOOR ANNUNCIATOR module above door. Check that light illuminates
+after a delay of approximately 2 seconds and extinguishes when switch
+is released.</para></numlitem>
+<numlitem><para>Open hinged access panels in overhead between doors.</para>
+</numlitem>
+<numlitem><para>Remove batteries from M7037 and M7038 receptacles
+(AMM 52-23-14).</para></numlitem>
+<numlitem><para>Install M7037 battery in M7038 receptacle and M7038
+battery in M7037 receptacle.</para></numlitem>
+<numlitem><para>Depress and hold operational BATTERY OK lighted switch
+on DOOR ANNUNCIATOR module above door. Check that light illuminates
+after a delay of approximately 2 seconds and extinguishes when switch
+is released. If light illuminates both systems are adequately charged.</para>
+</numlitem>
+<numlitem><para>Close access panels in overhead.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="1-2" key="UPS747MEL20070815105027" revdate="20080827" revnbr="5" sectnbr="12">
+<title>Precoolers &ndash; Alternate Method</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated ENGINE BLEED switch is selected OFF except
+for engine start,</para></numlitem>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions, </para></numlitem>
+<numlitem><para>L and R ISLN valves are open for takeoff, and when
+flaps are operated,</para></numlitem>
+<numlitem><para>Bleed systems on remaining engines are operative,</para>
+</numlitem>
+<numlitem><para>Associated Engine Anti-Ice switch remains OFF,</para>
+</numlitem>
+<numlitem><para>For PW &amp; GE, associated fan air valve is secured
+in the intermediate open position, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+<note><para>Aircraft may be dispatched with damage to the precooler
+(including core damage) provided engine start is not precluded.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815105028">
+<numlist>
+<numlitem><para>For the associated engine, select Engine Bleed OFF
+except for ground engine start and when bleed air is required for
+inflight start. </para></numlitem>
+<numlitem><para>APU-TO-PACK TAKEOFF procedure is not permitted since
+L and R ISLN Valves must remain open during takeoff.</para></numlitem>
+<numlitem><para>During takeoff and for all flap operations, ensure
+that the L and R ISLN valve switches are in the open position. This
+assures air is available for operation of the air-driven hydraulic
+demand pump and LE flaps in the event of an adjacent engine shutdown.</para>
+</numlitem>
+<numlitem><para>Do not select associated engine Nacelle Anti-Ice Switch
+ON. If icing conditions are inadvertently encountered, reducing thrust
+on affected engine will minimize possible damage if ice is ingested.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105029">
+<numlist>
+<numlitem><para>Operations into known or forecast icing conditions
+is prohibited. </para></numlitem>
+<numlitem><para>Increase flight planning fuel by .3%.</para></numlitem>
+<numlitem><para>Reduce performance limited takeoff and landing weight
+by 2,200 lbs.</para></numlitem>
+<numlitem><para>Reduce performance limited en route weight by 3,200
+lbs.</para></numlitem>
+<numlitem><para>APU-TO-PACK TAKEOFF procedure is not permitted.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placards below Captain's PFD on P-1-1 panel: "ENG____PRECOOLER
+INOP" and "ENG____FAV INOP INTERMEDIATE OPEN". Enter items in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105030">
+<title>PRECOOLERS</title>
+<graphic chapnbr="36" chg="U" key="UPS747-400MELCDL20080807104850"
+revdate="20080827" revnbr="5" sectnbr="12">
+<sheet chg="U" gnbr="747-400_DMP_CH_36_Page_16"
+key="UPS747-400MELCDL20080807105324" revdate="20080827" revnbr="5"
+sheetnbr="001"></sheet>
+</graphic>
+<numlist>
+<numlitem><para>Secure the associated Fan Air Valve (FAV) in the intermediate
+open position as follows:</para>
+<numlist>
+<numlitem><para>Open the left thrust reverser half (AMM 78-31-00/201).</para>
+<note><para>The FAV is installed on the left side of the precooler.
+ The valve is spring- loaded open and is controlled by the Fan Air
+Temperature sensors.  It has a locking crank to permit the valve 
+to be operated manually.</para></note>
+</numlitem>
+<numlitem><para>Remove the positioning screw from the FAV actuator
+housing.  Remove and discard the O-ring.  Do not disconnect the retaining
+cable from the positioning screw.  </para></numlitem>
+<numlitem><para>Turn the locking crank to the 45 degree position.</para>
+</numlitem>
+<numlitem><para>Install the positioning screw in the locking crank
+until it is engaged with the switch bracket.  This will lock the valve
+in the 45 degree position.  </para></numlitem>
+<numlitem><para>Close the thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

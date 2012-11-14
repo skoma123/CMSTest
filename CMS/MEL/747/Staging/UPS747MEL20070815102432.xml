@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="2-2" key="UPS747MEL20070815102432" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Headset/ Boom Microphones &ndash; Headset Earphones/ Headphones</title>
+<dispcond category="C" nbrins="2" nbrreq="1">
+<remarks>
+<para>Either the Captain&rsquo;s or First Officer&rsquo;s earphone/
+headphone may be inoperative provided associated Flight Deck Speaker
+is operative. </para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel "HEADSET EARPHONES
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

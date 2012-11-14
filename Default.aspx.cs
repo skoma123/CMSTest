@@ -546,6 +546,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void btnStage_Click(object sender, EventArgs e)
     {
+        //push files from working folder to staging
         //Now Create all of the directories
         foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*",
             SearchOption.AllDirectories))
@@ -557,6 +558,7 @@ public partial class _Default : System.Web.UI.Page
             File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
 
 
+        //then stage, commit, and push new folder
         InitialProcessing();
         gitInfo.Arguments = @"stage CMS/MEL/747/*.*";
         gitProcess.StartInfo = gitInfo;

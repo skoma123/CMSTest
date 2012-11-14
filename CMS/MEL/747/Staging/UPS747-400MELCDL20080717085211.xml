@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="6-2" key="UPS747-400MELCDL20080717085211" revdate="20080827" revnbr="5"
+sectnbr="23">
+<effect effrg="578579" efftext=""></effect>
+<title>Door U/D FLT LK Indication &ndash; Freighter without Draw-Through
+Smoke Detection System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Each upper deck type "A" door is verified to be capable
+of being unlatched before each departure, and</para></numlitem>
+<numlitem><para>DOOR U/D GND MODE lights above each upper deck Type
+"A" door is operative.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Install Placard below Captain's PFD on P-1-1 on affected door:
+"____ U/D DOOR GRD MODE LIGHTS INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080717085758">
+<title>Door U/D FLT LK INDICATION</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Log at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify both upper deck type A doors are capable of
+being unlatched.</para>
+<numlist>
+<numlitem><para>Place the mode selector lever in the MANUAL position.</para>
+<caution><para>DO NOT RAISE INSIDE HANDLE WHEN DOOR IS IN AUTOMATIC
+MODE. DOOR WILL OPEN RAPIDLY AND SLIDE WILL BE DEPLOYED AND INFLATED.</para>
+</caution>
+</numlitem>
+<numlitem><para>Rotate the inside handle to the open position. Door
+should translate upward approximately 2 inches.</para></numlitem>
+<numlitem><para>Rotate the inside handle downward to the latched position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Ensure both DOOR U/D GND MODE lights operate normally.</para>
+<numlist>
+<numlitem><para>Energize all 28 V DC Buses.</para></numlitem>
+<numlitem><para>Remove the flight lock actuator access panel. (These
+are the 10-inch square access panels located in the door upper lining
+just left of the inside handle)</para></numlitem>
+<numlitem><para>Rotate the flight lock lever arm until it comes in
+contact with the inside handle shaft and verify the message DOOR U/D
+GND MODE light is extinguished. </para></numlitem>
+<numlitem><para>Release the flight lock lever arm and verify the DOOR
+U/D GND MODE light is illuminated.</para>
+<warning><para>refer to amm 32-09-02/201. put the air/ground relay
+system in the air mode. automatic operation of aircraft systems In
+the air mode can cause injury or damage.</para></warning>
+</numlitem>
+<numlitem><para>Put the air/ground relay system in the air mode (AMM
+32-09-02/201).</para></numlitem>
+<numlitem><para>Open 180G02 LH UPR DK DR FLT LK circuit breaker on
+the P180 DC Power Distribution Panel.</para></numlitem>
+<numlitem><para>Check that the DOOR U/D GND MODE light above the left
+hand door is illuminated. </para></numlitem>
+<numlitem><para>Close 180G02 LH UPR DK DR FLT LK circuit breaker on
+the P180 DC Power Distribution Panel. </para></numlitem>
+<numlitem><para>Check that the DOOR U/D GND MODE light above the left
+hand door is extinguished.</para></numlitem>
+<numlitem><para>Open 180D02 RH UPR DK DR FLT LK circuit breaker on
+the P180 DC Power Distribution Panel.</para></numlitem>
+<numlitem><para>Check that the DOOR U/D GND MODE light above the right
+hand door is illuminated.</para></numlitem>
+<numlitem><para>Close 180D02 RH UPR DK DR FLT LK circuit breaker on
+the P180 CR Power Distribution Panel.</para></numlitem>
+<numlitem><para>Check that the DOOR U/D GND MODE light above the right
+hand door is extinguished.</para></numlitem>
+<numlitem><para>Put the air/ground relay system back to the ground
+mode (AMM 32-09-02/201).</para></numlitem>
+<numlitem><para>Restore the flight lock actuator access panel.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

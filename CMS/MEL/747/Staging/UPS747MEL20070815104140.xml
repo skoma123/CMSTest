@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3" key="UPS747MEL20070815104140" revdate="20090824" revnbr="7" sectnbr="41">
+<title>HYD BRAKE PRESS Indicator &ndash; (Flight Deck)</title>
+<dispcond attr-rev="NO" category="C" downgrade="" maintenance="YES"
+nbrins="1" nbrreq="0" operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Brake accumulator charge is verified normal once each
+flight day, and</para></numlitem>
+<numlitem><para>Brake source discrete light is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard on wheel well accumulator gauge: "BRAKE PRESS GAUGE
+INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104141">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>BRAKE SOURCE discrete light check:</para>
+<numlist>
+<numlitem><para>Pressurize hydraulic systems No. 1, 2 and 4.</para>
+</numlitem>
+<numlitem><para>Check that the BRAKE SOURCE discrete light on the
+P1 panel is off.</para></numlitem>
+<numlitem><para>Depressurize hydraulic system No. 4. Check that BRAKE
+SOURCE discrete light remains off.</para></numlitem>
+<numlitem><para>Depressurize hydraulic system No. 1. Check that BRAKE
+SOURCE discrete light remains off.</para></numlitem>
+<numlitem><para>Depressurize hydraulic system No. 2. Check that BRAKE
+SOURCE discrete light is on.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Brake Accumulator Charge Check:</para>
+<numlist>
+<numlitem><para>Chock the wheels, release the parking brake and depressurize
+hydraulic systems 1, 2 and 4.</para></numlitem>
+<numlitem><para>Apply and release brakes 8 times.</para></numlitem>
+<numlitem><para>Gain access to the hydraulic brake accumulator direct
+reading pressure gauge in the right side body landing gear wheel well.</para>
+</numlitem>
+<numlitem><para>Check that the direct reading pressure gauge adjacent
+to the hydraulic brake accumulator air charging valve indicates correct
+pre-charge (approximately 750 psi &ndash; see placard adjacent to
+gauge.)</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

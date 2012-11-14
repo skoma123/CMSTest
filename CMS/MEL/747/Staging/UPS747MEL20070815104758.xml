@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPS747MEL20070815104758" revdate="20090528" revnbr="6" sectnbr="53">
+<title>ATC Transponders and Automatic Altitude Reporting Systems &ndash;
+Elementary and Enhanced Downlink Aircraft Reportable Parameters Required
+in European Airspace (Mode-S)</title>
+<dispcond category="A" downgrade="" maintenance="NO" nbrins="&ndash;"
+nbrreq="0" operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Operations do not require its use, and</para></numlitem>
+<numlitem><para>Repairs are made prior to completion of the next heavy
+maintenance visit.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS747MEL20070815104759">
+<numlist>
+<numlitem><para>Flight Control to obtain exemption from the Eurocontrol
+CFMU Duty Officer and place in item 18 of the ICAO flight plan.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Transponder Selector Switch: "TRANSPONDER INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

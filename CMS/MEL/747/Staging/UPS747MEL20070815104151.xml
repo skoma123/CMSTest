@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-1" key="UPS747MEL20070815104151" revdate="20090824" revnbr="7" sectnbr="42">
+<title>Anti-skid System Control Channels &ndash; Deactivation Tool
+Preferred Method </title>
+<dispcond attr-rev="NO" category="C" downgrade="CATEGORY 3a"
+maintenance="YES" nbrins="16" nbrreq="14" operation="YES" btb="YES">
+<remarks>
+<para>Anti-skid control channels for one or two brakes may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>The affected brakes are deactivated, and</para>
+</numlitem>
+<numlitem><para>AOM/AA Data performance decrements are applied for
+the selected procedure.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104152">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ANTI-SKID</para>
+</note>
+<para>If brakes are deactivated using the tool,</para>
+<numlist>
+<numlitem><para>Normal gear retraction procedure may be used.</para>
+</numlitem>
+<numlitem><para>Stopping distances will increase.</para></numlitem>
+<numlitem><para>Observe performance limitations.</para></numlitem>
+<numlitem><para>Maximum takeoff thrust must be used.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104153">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<numlitem><para>Compute V1 using the V1 correction, One or Two Brakes
+Deactivated or One or Two Anti-Skid Channels Inoperative worksheet
+in the AOM Chapter 5.1. </para></numlitem>
+<numlitem><para>Apply takeoff performance runway weight corrections
+from the Takeoff Runway Limit Weight Reduction, Brake(s) Deactivated
+Using Special Tool Chart in the AOM Chapter 5.1.</para></numlitem>
+<numlitem><para>Apply landing weight performance for 1 or 2 brakes
+deactivated in the AA landing data.</para></numlitem>
+<numlitem><para>Operations on cluttered or icy runways prohibited.</para>
+</numlitem>
+<numlitem><para>Use cutback runway is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placards as directed in DMP procedure. Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104154">
+<title>ANTI-SKID SYSTEM</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Confirm antiskid faults, deactivate the associated brakes, and
+prior to every flight review CMC messages when ANTISKID advisory message
+is displayed.</para>
+<numlist>
+<numlitem><para>Conduct a CMC Brake System Ground Test.</para>
+<note><para>The ground set-up procedure may be simplified. The IRUs
+do not need to be in NAV mode. (Ignore any IRS signal fault indications).
+Hydraulic pressure is not required. Autobrake system does not need
+to be armed.</para></note>
+<numlist>
+<numlitem><para>Select 32 BRAKE CONTROL from the CMC GROUND TEST menu.</para>
+</numlitem>
+<numlitem><para>Execute the BRAKE SYSTEM BITE test. Record all antiskid
+system configuration and input faults annunciated during the test.</para>
+</numlitem>
+<numlitem><para>Following the conclusion of the CMC Brake System Ground
+Test, select the line-select key opposite the FAIL prompt on the CMC
+and record the antiskid system fault. Continue to select the NEXT
+PAGE key on the CMC as required and record the antiskid system faults.</para>
+<note><para>When CMC message PARK BRK VLV NOT OPEN WHEN RELEASED or
+NO PARK BRKE PWR is displayed, dispatch is not allowed (Brake Torque
+Limiter is inoperative). This condition causes Status message PARK
+BRK VALVE as well as ANTISKID OFF and BRAKE LIMITER Advisory messages. </para>
+</note>
+<para>******** For Brake System Control Unit (BSCU) P/N S283U002-5
+(or later) not installed:</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Deactivate the associated wheel brakes.</para>
+<numlist>
+<numlitem><para>Use MEL item 32-41-1-1 to deactivate the associated
+wheel brakes.</para></numlitem>
+</numlist>
+<para>********For Brake System Control Unit (BSCU) P/N S283U002-5
+(or later) installed:</para>
+</numlitem>
+<numlitem><para>Deactivate the associated wheel brakes.</para>
+<numlist>
+<numlitem><para>Use MEL item 32-41-1-1 to deactivate the associated
+wheel brakes. </para></numlitem>
+<numlitem><para>Position the BSCU (E9 Rack) front face message inhibit
+knobs so that one knob points to each affected wheel position number.
+Advisory message ANTISKID will not remain annunciated.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If EICAS message ANTI-SKID or ANTI-SKID OFF remains
+displayed, the Fault isolation procedure must be performed prior to
+every departure to determine if additional anti-skid faults occurred
+en route.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

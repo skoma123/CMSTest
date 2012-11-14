@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-1" key="UPS747-400MELCDL20080621111227" revdate="20080827" revnbr="05"
+sectnbr="42">
+<effect effrg="578579" efftext=""></effect>
+<title>Flight Deck Crew Rest Area Heat Control System &ndash; Temperature
+Control Functions (LOW/MED/HIGH)</title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard Flt Deck Crew Rest Temperature Control Functions switch
+"INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080621111816">
+<numlist>
+<numlitem><para>Select Flight Deck Temperature Control Functions switch
+to the "OFF" position.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

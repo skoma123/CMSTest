@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="7" key="UPS747MEL20070815104940" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Left and Right Wing Isolation VALVE Lights</title>
+<dispcond category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="YES" btb="NO">
+<remarks>
+<para>One may be inoperative provided associated duct pressure indication
+is available.</para>
+</remarks>
+<operation key="UPS747MEL20070815104941">
+<para>Refer to the ECS Synoptic page and/or Duct Pressure indications
+if proper operation of an Isolation Valve is in question.</para>
+</operation>
+<placard>
+<para>Placard adjacent to appropriate Wing Isolation valve Light:
+"L/R WING ISLN VALVE LIGHT INOP". Enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+</dispcond>
+</item>

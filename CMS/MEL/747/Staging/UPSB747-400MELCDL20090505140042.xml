@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1-3" key="UPSB747-400MELCDL20090505140042" revdate="20090528" revnbr="6"
+sectnbr="33">
+<title>RADIO ALTIMETERS (RA) &ndash; SINGLE SOURCE DATALINK TO GPWS
+&ndash; RIGHT RA</title>
+<dispcond attr-rev="NO" category="C" downgrade="CATEGORY 3a"
+maintenance="YES" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Approach minimums or operating procedures do not require
+its use, and</para></numlitem>
+<numlitem><para>Left RA is operative.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPSB747-400MELCDL20090505140528">
+<note><para>The following EICAS messages may be displayed:</para><para
+>RADIO ALT___</para>
+<para>NO LAND 3</para>
+</note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPSB747-400MELCDL20090528102456">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel &ldquo;RIGHT RADIO
+ALT INOP&rdquo;. Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090505140749">
+<note><para>Radio Altimeters (RAs) are interchangeable, and operative
+left RA is preferred.</para></note>
+<note><para>For proper operation of the Autopilot Flight Director
+System (AFDS) takeoff and approach modes, an operative RA and FCC
+on the same side (L/R) is required.</para></note>
+<para>If necessary, the radio altimeters may be interchaged as follows:</para>
+<numlist>
+<numlitem><para>Open the P7 panel RAD ALTM L, RAD ALTM C and RAD ALTM
+R circuit breakers.</para></numlitem>
+<numlitem><para>Interchange the Radio Altimeters (located in the center
+equipment center - E9 Rack).</para></numlitem>
+<numlitem><para>Close the circuit breakers opened above.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

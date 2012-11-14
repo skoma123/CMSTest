@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-1" key="UPS747MEL20070815101429" revdate="20080827" revnbr="5" sectnbr="32">
+<title>Positive Pressure Relief Valves</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be deactivated closed.</para>
+</remarks>
+<operation key="UPS747MEL20070815101430">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para> </para>
+<para>___ PRESS RELIEF</para>
+<para>PACK ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard Cabin Pressurization Controller Selector "POSITIVE PRESSURE
+RELIEF VALVE INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101431">
+<numlist>
+<numlitem><para>Deactivate one valve in the closed position by accomplishing
+the following:</para>
+<numlist>
+<numlitem><para>Press pressure flapper doors closed until flush with
+fuselage. </para></numlitem>
+<numlitem><para>Disconnect and cap external static line from primary
+differential pressure control mechanism (Cap P/N is MS21913D6, ref
+AMM 21-32-01/501).</para></numlitem>
+<numlitem><para>Disconnect and cap external static line from secondary
+differential pressure control mechanism (Cap P/N is MS21913D6, ref
+AMM 21-32-01/501).</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

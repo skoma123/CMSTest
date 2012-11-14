@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-0-2" key="UPSB747-400MELCDL20090504151733" revdate="20090528" revnbr="6"
+sectnbr="28">
+<title>OVERHEAD STORAGE BIN(S)/CABIN AND GALLEY STORAGE COMPARTMENTS/CLOSETS
+&ndash; DOOR REMOVED</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="5"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Affected door(s) is removed,</para></numlitem>
+<numlitem><para>Associated bin or compartment is not used for storage
+of any items, except those permanently affixed,</para></numlitem>
+<numlitem><para>Associated bin or compartment is prominently placarded:
+&ldquo;DO NOT USE&rdquo;,</para></numlitem>
+<numlitem><para>Procedures are established and used to alert crew
+members and passengers of inoperative bins or compartment, and</para>
+</numlitem>
+<numlitem><para>Passengers are briefed that associated bin or compartment
+is not used.</para></numlitem>
+</numlist>
+<note><para>If no partitions are installed, the entire overhead storage
+compartment is considered one bin or compartment.</para></note>
+<note><para>Any emergency equipment located in the associated compartment
+(permanently affixed) is available for use.</para></note>
+</remarks>
+<operation key="UPSB747-400MELCDL20090504152836">
+<numlist>
+<!--Verbiage for procedure taken from MD-11-->
+<numlitem><para>Brief supernumeraries not to use inoperative storage
+bin/compartment.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard associated bin, compartment, "DO NOT USE" so as to prevent
+its use. Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090504153011">
+<numlist>
+<numlitem><para>Ensure affected bins, compartments and closets are
+empty (except for permanently affixed items).</para></numlitem>
+<numlitem><para>Remove affected door(s).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

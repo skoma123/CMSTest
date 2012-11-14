@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-1" key="UPS747MEL20070815104322" revdate="20090824" revnbr="7" sectnbr="61">
+<title>Body and Wing Landing Gear Uplock Position Sensors</title>
+<dispcond attr-rev="NO" category="B" downgrade="" maintenance="YES"
+nbrins="8" nbrreq="7" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided the associated Primary and Alternate
+Landing Gear Door Warning Sensors are verified to be operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815104323">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>GEAR DISAGREE</para>
+<para>GEAR MONITOR</para>
+</note>
+<numlist>
+<numlitem><para>When retracting the landing gear, to ensure the associated
+landing gear has operated properly, verify that the EICAS advisory
+level message GEAR DOOR does not display.</para></numlitem>
+</numlist>
+<note><para>If advisory level message GEAR DOOR is displayed, accomplish
+GEAR DOOR Non-Normal procedure.</para></note>
+<note><para>If <emphasis role="underline">Caution</emphasis> level
+message GEAR DISAGREE is displayed, accomplish GEAR DISAGREE Non-Normal
+procedure.</para></note>
+</operation>
+<placard>
+<para>Placard Captain&rsquo;s PFD on P-1-1 panel: "B &amp; W GR UPLK
+POS SENSOR INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104324">
+<para><emphasis role="underline">One Uplock Position Sensor Inoperative:</emphasis
+></para>
+<note><para>Dispatch is permitted if the cause of the Indication System
+failure is due to either Main Gear Uplock position sensors (Item 32-61-1-1),
+Landing gear Door warning sensors (Item 32-61-2) or Wing Gear Downlock
+position sensors (Item 32-61-3). Dispatch with faulty Nose Gear Up,
+Locked, Compressed sensors, Main Gear Tilt sensors or Body Gear Downlock
+sensors is not permitted, as this will affect essential systems including
+the Air/Ground System.</para></note>
+<para>Verify that the primary and alternate gear door warning sensors
+have not failed on the associated gear door by checking for the following
+CMC messages: </para>
+<table>
+<tgroup align="left" cols="2">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>PRIMARY SENSOR</para>
+</entry>
+<entry align="center" valign="top">
+<para>ALTERNATE SENSOR</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>X GEAR DOOR PRIMARY PROX SWITCH SENSOR FAIL (PSEU)</para>
+</entry>
+<entry>
+<para>X GEAR DOOR ALTERNATE PROX SWITCH SENSOR FAIL (PSEU)</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>X GEAR DOOR PRIMARY PROX SWITCH TARGET FAIL (PSEU)</para>
+</entry>
+<entry>
+<para>X GEAR DOOR ALTERNATE PROX SWITCH TARGET FAIL (PSEU)</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>X GEAR DOOR PRIMARY PROX SWITCH SENSOR/ WIRE FAIL (PSEU)</para>
+</entry>
+<entry>
+<para>X GEAR DOOR ALTERNATE PROX SWITCH SENSOR/WIRE FAIL (PSEU)</para>
+</entry>
+</row>
+<row>
+<entry colsep="1" nameend="col2" namest="col1">
+<para>(X identifies landing gear.)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

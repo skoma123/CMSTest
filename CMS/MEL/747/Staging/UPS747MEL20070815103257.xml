@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS747MEL20070815103257" revdate="20080827" revnbr="5" sectnbr="88">
+<title>Leading Edge Flaps System Position Monitor</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "L/E FLAPS
+SYS POS IND INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="74" chg="U" itemnbr="2-1" key="UPS747MEL20070815105548" revdate="20080827" revnbr="5" sectnbr="00">
+<title>Continuous Ignition Selection System &ndash; Flap Actuated</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided continuous ignition is manually
+selected ON when required.</para>
+</remarks>
+<operation key="UPS747MEL20070815105549">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>CON IGN ENG ___</para>
+</note>
+<numlist>
+<numlitem><para>Select Continuous Ignition Switch ON when flaps are
+extended from the FLAPS UP position.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "____ FLAP
+CON IGN SELECTION INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

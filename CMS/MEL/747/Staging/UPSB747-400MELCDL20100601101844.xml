@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk attr-rev="NO" blknbr="1" chapnbr="32" chg="U" key="UPSB747-400MELCDL20100601101844" qtyreq="96" revdate="20100707"
+revnbr="8" sectnbr="10">
+<!--Per C.R.4426 Tim 5/21/10 Rev 8-->
+<title>MAIN LANDING GEAR DOOR SEALS</title>
+<remarks>
+<numlist>
+<numlitem><para>One Main Landing Gear Door Seal may be missing provided
+the performance limited weights are reduced by:</para>
+<table frame="none">
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="646.00px"?>
+<colspec colname="col1" colwidth="1.11*"/>
+<colspec colname="col2" colwidth="0.89*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>340 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(154 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1020 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(463 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>The maximum operating speed is 270 KCAS (M = 0.73).</para>
+</numlitem>
+<numlitem><para>Mach-airspeed aural warning, V<sub>mo</sub> pointer,
+and M<sub>mo</sub> indicator must be reset in the main equipment center.</para>
+</numlitem>
+<numlitem><para>The Gear Down Dispatch placard must be adhered to
+when dispatching with the Main Landing Gear Door Seals missing.</para>
+</numlitem>
+</numlist>
+</remarks>
+</cdlblk>

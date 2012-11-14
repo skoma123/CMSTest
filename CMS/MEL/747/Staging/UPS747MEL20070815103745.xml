@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-4" key="UPS747MEL20070815103745" revdate="20080827" revnbr="5" sectnbr="33">
+<title>Hydraulic Quantity Indications &ndash; Hydraulic &ldquo;SYS
+FAULT&rdquo; Light Operative</title>
+<dispcond category="B" maintenance="YES" nbrins="4" nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated reservoir level is verified normal before
+each departure,</para></numlitem>
+<numlitem><para>Associated system pressure indication is verified
+to be operative, and</para></numlitem>
+<numlitem><para>Associated hydraulic SYS FAULT light is verified to
+be operative. </para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "___ HYD QTY
+IND INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103746">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS747MEL20070815103741" reftype="MNT"> 29-33-1-2</refint>.</para>
+</maintenance>
+</dispcond>
+</item>

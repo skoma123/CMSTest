@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS747MEL20070815103226" revdate="20100707" revnbr="8" sectnbr="51">
+<title>Flap Control Units (FCU)</title>
+<dispcond category="C" downgrade="CATEGORY 2" maintenance="YES"
+nbrins="3" nbrreq="2" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative or removed provided:</para>
+<numlist>
+<numlitem><para>It is verified that flap position RVDT sensors are
+operative before each departure,</para></numlitem>
+<numlitem><para>For PW and GE, if right FCU is inoperative or removed,
+No. 1 demand pump is selected ON during takeoff and landing, and</para>
+</numlitem>
+<numlitem><para>For PW and GE, if left FCU is inoperative or removed,
+No. 4 demand pump is selected ON during takeoff and landing.</para>
+</numlitem>
+</numlist>
+<note><para>If S/B 747-34-2349 or production equivalent has not been
+incorporated and center FCU is inoperative or removed, MODE 4 of the
+ground proximity warning system is considered inoperative.</para></note>
+<note><para>S/B 747-34-2349 has been accomplished on UPS aircraft.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815103227">
+<caution><para>IF EICAS STATUS MESSAGE "FLAP SYS MONITOR" IS DISPLAYED,
+A BLOCK TURN BACK IS REQUIRED.</para></caution>
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FLAP CONTROL ___</para>
+</note>
+<numlist>
+<numlitem><para>Triple channel autoland may not be available with
+an inoperative or removed FCU. If triple channel autoland is not available,
+status message NO LAND 3 will be displayed.</para></numlitem>
+<numlitem><para>When operating with an inoperative or removed FCU,
+if the flight director is selected to the FCC associated with the
+inoperative or removed FCU channel, the flight director will not be
+displayed at speeds below 60 knots. Each FCC receives inputs from
+the associated FCU channel.</para></numlitem>
+<numlitem><para>The FMC scratch pad message PERF/VNAV UNAVAILABLE
+may be displayed. </para></numlitem>
+<numlitem><para>With an inoperative removed L or R FCU, the EICAS
+advisory message >IDLE DISAGREE may be displayed in flight when selecting
+idle thrust with flaps not in landing position and engine anti-ice
+off.</para></numlitem>
+<numlitem><para>If right FCU is inoperative or removed, select Demand
+Pump 1 ON for takeoff and landing.</para></numlitem>
+<numlitem><para>If left FCU is inoperative or removed, select Demand
+Pump 4 ON for takeoff and landing.</para></numlitem>
+</numlist>
+<note><para>Display of the EICAS advisory message >IDLE DISAGREE on
+the ground indicates failure of the ground minimum idle selection
+system and MEL Item 73-21-1 should be used.</para></note>
+</operation>
+<limitation key="UPS747MELCDL20080405101806">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+2.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "L (C or R)
+FCU INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103228">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 2</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<!--Per C.R.4265 Tim 10/28/09 for Rev 8-->
+<note><para>The FCU's are interchangeable.</para></note>
+<note><para>AD 2005-04-03 requires at least one operative FCU. Needs
+to be P/N 285U0011-208 in accordance with<?Pub _newline?> SB 747-27A2386.</para>
+</note>
+<note><para>SB 747-27A2386 has been accomplished on all UPS aircraft.</para>
+</note>
+<numlist>
+<numlitem><para>If status message FLAP CONTROL__ is displayed:</para>
+<numlist>
+<numlitem><para>Verify RVDT sensors are operative. This is accomplished
+by ensuring status message FLAP SYS MONITOR is not displayed. If FLAP
+SYS MONITOR is not displayed, no additional maintenance action is
+required unless FCU interchange is elected due to an inoperative GPWS
+MODE 4.</para></numlitem>
+<numlitem><para>If the center FCU is inoperative and interchange is
+necessary for GPWS MODE 4 operation:</para>
+<numlist>
+<numlitem><para>Open circuit breakers listed in Step 2. A. (2) below
+and exchange either the left or right FCU with the center unit.</para>
+</numlitem>
+<numlitem><para>Close the previously opened circuit breakers.</para>
+</numlitem>
+<numlitem><para>After interchange, EICAS Status Message FLAP CONTROL
+__ will re-display to the inoperative FCU position.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If status message FLAP SYS MONITOR is displayed:</para>
+<numlist>
+<numlitem><para>Verify the RVDT sensors are operative as follows:</para>
+<numlist>
+<numlitem><para>Access CMC Existing Faults for >27 FLAP CONTROL. If
+any of the following faults are present, all three FCUs detect an
+RVDT fault. Dispatch is not allowed.</para>
+<numlist>
+<numlitem><para>LE_SWITCH FAIL</para></numlitem>
+<numlitem><para>_RVDT FAIL</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Access CMC Existing Faults for >27 FLAP CONTROL. If
+any of the following faults are present, either an FCU fault or an
+FCU detected RVDT fault has occurred and the following procedure must
+be accomplished to verify the RVDT sensors are operative:</para><para
+>_RVDT &ndash; FCU-_INTERFACE FAIL </para>
+<para>FLAP 26 VAC-_>FCU-_INTERFACE FAIL</para>
+<numlist>
+<numlitem><para>Open the following circuit breakers on the P7 panel.</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec colname="col1" colsep="0" colwidth="176.16pt"/>
+<colspec colname="col2" colsep="0" colwidth="176.16pt"/>
+<tbody>
+<row>
+<entry>
+<para>7C10 FLT CONT ELEC 2L AC</para>
+<para>7C12 FLT CONT ELEC 1L AC</para>
+<para>7C14 FLT CONT ELEC 1R AC</para>
+<para>7C16 FLT CONT ELEC 2R AC</para>
+</entry>
+<entry>
+<para>7C11 FLT CONT ELEC 2L DC</para>
+<para>7C13 FLT CONT ELEC 1L DC</para>
+<para>7C15 FLT CONT ELEC 1R DC</para>
+<para>7C17 FLT CONT ELEC 2R DC</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Label each FCU with LEFT, RIGHT and CENTER identification
+marks so their original location remains known.</para></numlitem>
+<numlitem><para>Remove the FCU that corresponds to the above reported
+Interface Fail faults.</para></numlitem>
+<numlitem><para>Close the above circuit breakers. Verify FLAP SYS
+MONITOR status message does not appear within 30 seconds. If FLAP
+SYS MONITOR message appears, dispatch is not allowed.</para></numlitem>
+<numlitem><para>Open the above circuit breakers and remove one of
+the FCUs which is still installed. Install this FCU in the vacant
+slot of the previously removed unit.</para></numlitem>
+<numlitem><para>Close the above circuit breakers.</para>
+<numlist>
+<numlitem><para>Wait a minimum of 30 seconds, if FLAP SYS MONITOR
+message appears, an RVDT sensor fault is confirmed and dispatch is
+not allowed</para></numlitem>
+<numlitem><para>If FLAP SYS MONITOR message does not appear, RVDT
+sensors are verified to be operative. The removed FCU is classified
+inoperative.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Open the above circuit breakers and replace the two
+operable FCUs in their original EE shelf slot. Do not replace the
+inoperative FCU. </para>
+<note><para>If the center FCU is inoperative and interchange is necessary
+for GPWS MODE 4 operation, move either the left or right unit to the
+removed center FCUs position at this time.</para></note>
+</numlitem>
+<numlitem><para>Close the above circuit breakers. Status message FLAP
+CONTROL__ will re-display to the removed FCUs position.</para>
+<caution><para>IF FLAP SYS MONITOR REMAINS DISPLAYED, DISPATCH IS
+NOT ALLOWED. </para></caution>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

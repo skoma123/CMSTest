@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-3" key="UPS747MELCDL20080416154212" revdate="20080827" revnbr="5"
+sectnbr="43">
+<title>Weather Radar System &ndash; One Inoperative</title>
+<dispcond category="D" nbrins="2" nbrreq="1">
+<remarks>
+<para>One may be inoperative provided one weather radar system is
+operative.</para>
+</remarks>
+<placard>
+<para>Placard near appropriate weather radar selector switch: "WEATHER
+RADAR INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

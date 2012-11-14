@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="1" key="UPS747MEL20070815105231" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Crew Compartment Overhead Hatch Latch Pins</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="NO">
+<remarks>
+<para>One may be removed provided hatch is operative.</para>
+</remarks>
+<placard>
+<para>Placard adjacent to or below Crew compartment overhead hatch:
+"LATCH PIN REMOVED". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105232">
+<numlist>
+<numlitem><para>Remove the crew compartment overhead hatch (AMM 52-21-01). </para>
+</numlitem>
+<numlitem><para>Using the applicable steps of 747 Overhaul Manual,
+52-22-11, remove the broken or cracked latch pin assembly.</para>
+</numlitem>
+<numlitem><para>Replace the latch pin assembly with washer(s) the
+same diameter as Part No. 63-1658 and equal in thickness to the rack
+gear on the latch pin assembly.</para></numlitem>
+<numlitem><para>Reassemble the door mechanism using the applicable
+steps of 747 Overhaul Manual, 52-22-11.</para></numlitem>
+<numlitem><para>Reinstall the crew compartment overhead hatch (AMM
+52-21-01). </para></numlitem>
+</numlist>
+<note><para>With a missing latch pin with the extend stop collar,
+be careful not to over-rotate the door handle when securing the door
+closed.  When closing the door, do not rotate the outside handle past
+the hatch skin cutout or the interior handle past the closed guide
+markings.</para></note>
+</maintenance>
+</dispcond>
+</item>

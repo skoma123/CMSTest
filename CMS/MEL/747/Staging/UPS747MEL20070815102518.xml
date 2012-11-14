@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="2-0-2" key="UPS747MEL20070815102518" revdate="20080827" revnbr="5" sectnbr="21">
+<title>APU Drive Generator Systems (Generator, AGCU, APB) &ndash;
+Removed and APU is Deactivated</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative and removed provided APU is deactivated.</para>
+</remarks>
+<operation key="UPS747MEL20070815102519">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>APU GEN ___</para>
+</note>
+<note><para>When dispatching with APU Gen 1 inop turn #4 DEMAND PUMP
+to AUTO for pushback, #4 AUX inop due to Gnd Handling bus not powered.</para>
+</note>
+<note><para>If EEC CLNG SUP FAN status message is displayed, it can
+be cleared by rotating the EQUIP COOLING switch to OVRD, then back
+to NORM.</para></note>
+</operation>
+<placard>
+<para>Placard APU Selector Switch "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090506071509">
+<numlist>
+<numlitem><para>Open and collar the following P83 panel circuit breakers:
+AIR INLET DOOR, APU PRIMARY CONT, and APU START.</para></numlitem>
+<numlitem><para>Open and collar the P6 main power supply panel circuit
+breaker APU ALTN CONT.</para></numlitem>
+<numlitem><para>See AMM 09-11-00 for towing aircraft if APU not used.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

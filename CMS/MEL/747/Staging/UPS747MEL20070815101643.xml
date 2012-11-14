@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="5-2-1" key="UPS747MEL20070815101643" revdate="20080827" revnbr="5" sectnbr="51">
+<title>ACM Turbine Bypass Valves</title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="2"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Inoperative valve is secured open,</para></numlitem>
+<numlitem><para>Associated pack overheat protective system is operative,</para>
+</numlitem>
+<numlitem><para>PACK RST Switch is operative,</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE is not selected for
+the associated pack's zone, and</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE is not selected HIGH.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101644">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+<numlist>
+<numlitem><para>A pack with an inoperative ACM will, under some flight
+conditions, have degraded temperature control.  However, cabin pressurization
+will be operative.</para></numlitem>
+<numlitem><para>When operations are conducted with a turbine bypass
+valve secured open:</para>
+<numlist>
+<numlitem><para>Do not operate affected pack until airborne and TAT
+is +10&deg;C or cooler.  Select affected Pack Control Selector to
+NORM, or to A, or to B.</para></numlitem>
+<numlitem><para>During descent when TAT rises above +10&deg;C, select
+affected Pack Control Selector OFF.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Based on which pack is affected, the LOWER LOBE CARGO
+COND AIR FLOW RATE, if required, should be selected as follows:</para>
+<numlist>
+<numlitem><para>Pack 1, select LOW FWD or LOW AFT. Conditioned air
+is unavailable to the Lower Lobe Cargo compartment not selected.</para>
+</numlitem>
+<numlitem><para>Pack 2, select LOW FWD. Aft Lower Lobe Cargo conditioned
+air is unavailable.</para></numlitem>
+<numlitem><para>Pack 3, select LOW AFT. Fwd Lower Lobe Cargo conditioned
+air is unavailable.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101645">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+lower cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to the affected PACK selector "ACM INOP". 
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101646">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS747MEL20070815101638" reftype="DMP">21-51-4-2-1</refint
+>.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

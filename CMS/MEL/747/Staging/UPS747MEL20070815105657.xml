@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="78" chg="U" itemnbr="1" key="UPS747MEL20070815105657" revdate="20100707" revnbr="8" sectnbr="34">
+<title>Engine Reverse Lever Interlock</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="NO"
+nbrins="4" nbrreq="3" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative extended or retracted.</para>
+<note><para>Associated Reverse thrust is limited to idle when inoperative
+retracted. </para></note>
+</remarks>
+<operation key="UPS747MEL20070815105658">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>REV ___ INTERLOCK</para>
+</note>
+<numlist>
+<numlitem><para>Reverse Thrust Lever Interlock Inoperative:</para>
+<numlist>
+<numlitem><para>When selecting reverse thrust, pull all reverse levers
+up to the normal interlock position and apply reverse thrust as required
+when the operative interlocks release.</para></numlitem>
+</numlist>
+<note><para>If interlock is inoperative extended (released), there
+will be no physical stop for that reverse thrust lever when it is
+pulled up to the interlock position. The EEC will still protect the
+engine by not letting reverse thrust increase above idle until the
+thrust reverser sleeves are sufficiently deployed.</para></note>
+</numlitem>
+<numlitem><para>Reverse thrust limited to idle:</para>
+<numlist>
+<numlitem><para>When selecting reverse thrust, pull all reverse levers
+up to the interlock position. When the reverse interlocks release,
+apply symmetrical reverse thrust as needed for stopping requirements.
+Full reverse thrust on three engines is available if conditions required
+it.</para></numlitem>
+</numlist>
+<note><para>If interlock is inoperative retracted, it will not be
+physically possible to move the reverse thrust lever beyond reverse
+idle, even when the reverser sleeves are fully deployed.</para></note>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105659">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<!--Per C.R.4299 David B. 12/16/2009 Rev 8-->
+<numlitem><para>Takeoff on cluttered or icy runway is prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ENG ___ REVERSE
+THRUST LEVER INTERLOCK INOP". Enter item in Aircraft Deferred Item
+Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815105710">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.96*"/>
+<colspec colname="col2" colwidth="1.08*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

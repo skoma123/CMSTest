@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-2" key="UPS747MEL20070815101942" revdate="20090824" revnbr="7" sectnbr="62">
+<title>Pack Coolant (Inlet/Exit Doors) Systems &ndash; Exit Doors </title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>Any exit doors may be inoperative secured at least 50% open.</para>
+</remarks>
+<operation key="UPS747MEL20070815101943">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+<numlist>
+<numlitem><para>If exit door is inoperative but not full open, monitor
+pack output temperature due to high temperature at lower altitudes.
+ If a pack overheat condition develops, EICAS advisory message PACK_
+will be annunciated. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to associated PACK selector "EXIT COOLING DR
+INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MELCDL20080329095704">
+<numlist>
+<numlitem><para>Secure exit door(s) as required to meet position requirements:</para>
+<note><para>IF THE FOLLOWING PROCEDURES CANNOT BE MET, SEE MEL <refint
+refid="UPS747MEL20070815101929" reftype="MEL"> 21-62-2-0-1.</refint
+></para></note>
+<numlist>
+<numlitem><para>Open the P6 panel PACK TEMP CONT A and PACK TEMP CONT
+B circuit breakers.</para></numlitem>
+<numlitem><para>Disconnect the electrical connector from door actuator.</para>
+</numlitem>
+<numlitem><para>Install Allen wrench into adapter on end of gearbox
+opposite linear screw.</para>
+<caution><para>TURN WRENCH BY HAND ONLY. A TORQUE GREATER THAN 15-INCH
+POUNDS MAY DAMAGE ACTUATOR GEARS.</para></caution>
+</numlitem>
+<numlitem><para>Move door to desired position:</para>
+<numlist>
+<numlitem><para>Position exit door at least 50% open. If pack is to
+be used with an inoperative exit door, position it full open if possible
+(louver doors are approximately vertical); <emphasis role="bold">otherwise,
+pack trip off when operated in warm ambient conditions.</emphasis
+></para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Loosen strain relief clamp supporting the removed
+electrical connector's wiring bundle.</para></numlitem>
+<numlitem><para>Disconnect the wire from pin 6, pin 7, and pin 8.
+Individually, sleeve the disconnected wires per Boeing Standard Wiring
+Practice Manual section 20-10-15 using sleeve material RT-876. Sleeve
+should extend one half inch beyond end of pin. Identify the disconnected
+wires for later restoration.</para>
+<note><para>The shorting wire in the following step is UPS P/N 747-21-004-101,
+if available.</para></note>
+</numlitem>
+<numlitem><para>Fabricate a 4-inch shorting wire from type UA (BMS
+13-48 TY VIII CL 1) 20-gauge wire and two 20-gauge sockets P/N BACC47CP1A.</para>
+</numlitem>
+<numlitem><para>Insert fabricated shorting wire to connector pins
+6 and 8. Note that pin 7, on the connector's back side, will remain
+unconnected.</para></numlitem>
+<numlitem><para>Stow the following wires to the connector's wiring
+bundle per Boeing Standard Wiring Practice Manual section 20-10-11:</para>
+<numlist>
+<numlitem><para>Wire disconnected and sleeved per step F above.</para>
+</numlitem>
+<numlitem><para>Excess wire from shorting wire connected per step
+H above.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Tighten the strain relief clamp supporting the wiring
+bundle.</para></numlitem>
+<numlitem><para>Reconnect the electrical connector, with shorting
+wire installed, to the exit door acutator(s).</para></numlitem>
+<numlitem><para>Close the P6 panel PACK TEMP CONT A and PACK TEMP
+CONT B circuit breakers.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-1" key="UPS747MEL20070815101346" revdate="20080827" revnbr="5" sectnbr="31">
+<title>Automatic Cabin Pressure Controllers (A and B)</title>
+<dispcond category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO" btb="NO">
+<remarks>
+<para>One may be inoperative provided both outflow valves are operative
+in manual mode.</para>
+</remarks>
+<operation key="UPS747MEL20070815101347">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>CABIN ALT AUTO ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard Cabin Pressurization Controller Selector "MODE A or
+ MODE B INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

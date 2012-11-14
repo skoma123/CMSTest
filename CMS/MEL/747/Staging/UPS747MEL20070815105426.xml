@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="2" key="UPS747MEL20070815105426" revdate="20080827" revnbr="5" sectnbr="36">
+<title>Bulk Cargo Door Pressure Stop Fitting Assemblies</title>
+<dispcond category="C" maintenance="YES" nbrins="16" nbrreq="15"
+operation="YES" btb="NO">
+<remarks>
+<para>One forward fitting assembly or one aft fitting assembly may
+be missing or inoperative provided:</para>
+<numlist>
+<numlitem><para>There are no visible defects on remaining fitting
+assemblies for associated door,</para></numlitem>
+<numlitem><para>Cabin altitude auto controller is operative, and</para>
+</numlitem>
+<numlitem><para>Maximum cabin pressure differential is limited to
+5.2 psi. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815105427">
+<numlist>
+<numlitem><para>In automatic Cabin Altitude control, comply with maximum
+cabin pressure differential limit of 5.2 by not exceeding the 11,000
+feet MSL maximum aircraft altitude.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105428">
+<numlist>
+<numlitem><para>Flight is limited to 11,000 feet MSL en route altitude.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "BULK CARGO
+DOOR PRESSURE STOP FITTING INOP_ MAX CABIN PRESSURE DIFF &ndash; 5.2
+PSI". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105429">
+<numlist>
+<numlitem><para>Visually inspect remaining fittings on affected door(s)
+for defects.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

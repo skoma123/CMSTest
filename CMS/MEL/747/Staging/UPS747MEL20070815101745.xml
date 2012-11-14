@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="3-2-1" key="UPS747MEL20070815101745" revdate="20100707" revnbr="8" sectnbr="58">
+<title>Equipment Cooling Bypass Valve </title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative deactivated closed provided:</para>
+<numlist>
+<numlitem><para>Procedures are established and used to verify main
+deck cargo compartment remains empty or contains only empty handling
+equipment, ballast (ballast may be loaded in ULDs), or Fly Away Kits,
+and</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE remains OFF.</para>
+</numlitem>
+</numlist>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815101746">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>EE CLNG BYPASS</para>
+</note>
+<numlist>
+<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101747">
+<numlist>
+<numlitem><para>Main deck cargo compartment is empty, or contains
+only empty cargo handling equipment.</para></numlitem>
+<numlitem><para>Carriage of animals and perishables in associated
+lower cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to the Equipment Cooling selector "EQUIP COOLING
+BYPASS VLV INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101748">
+<numlist>
+<numlitem><para>To deactivate  Equipment Cooling Bypass Valve closed:</para>
+<numlist>
+<numlitem><para>Open the P414 panel EQUIP COOL CONT VLV INBD circuit
+breaker. </para></numlitem>
+<numlitem><para>Access Bypass Valve by removing LH forward cargo sidewall
+lining at STA 570.</para></numlitem>
+<numlitem><para>Disconnect, cap and stow electrical connector from
+Bypass Valve.</para></numlitem>
+<numlitem><para>Close the P414 panel EQUIP COOL CONT VLV INBD circuit
+breaker. </para></numlitem>
+<numlitem><para>Determine Bypass Valve position.  If not already closed,
+manually position valve in the close position.</para></numlitem>
+<numlitem><para>Status message EE CLNG BYPASS V will remain displayed.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Position the Overhead Maintenance panel (P461) LOWER
+LOBE CARGO CON AIR FLOW RATE selector to OFF.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

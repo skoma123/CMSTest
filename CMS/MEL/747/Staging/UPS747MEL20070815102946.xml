@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS747MEL20070815102946" revdate="20100707" revnbr="8" sectnbr="18">
+<!--Per Tim after reviewing changes. Sent email 3-23-10-->
+<effect chg="U" effrg="570577" efftext=""></effect>
+<title>Wing Leading Edge Overheat Detection System &ndash; Flight
+Deck Test System </title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided an alternate procedure is established
+to ensure integrity of the system.</para>
+</remarks>
+<placard>
+<para>Placard adjacent to FIRE/OVHT Test Switch: "WING L/E FIRE DET
+LOOP A (or B) INOP". Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102947">
+<para>The following procedure may be used to ensure system integrity:</para>
+<numlist>
+<numlitem><para>Close circuit breakers (AMM 26-18-00/501).</para>
+</numlitem>
+<numlitem><para>Set either of the following switches to the ENABLE
+position: </para>
+<numlist>
+<numlitem><para>S2089 Ground Test Enable Switch (P461).</para>
+</numlitem>
+<numlitem><para>S2090 Remote Test Enable Switch (RCDU) at STA 400
+bulkhead in the left main equipment center located near upper left
+side of ladder. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Set the CDU to the CMC Main Menu.</para></numlitem>
+<numlitem><para>Press LINE SELECT key for GROUND TEST.</para></numlitem>
+<numlitem><para>When the screen displays ATA name and chapter, select
+26 FIRE PROTECTION.</para></numlitem>
+<numlitem><para>To initiate test, press LINE SELECT key for FIRE/OVHT
+TEST. </para></numlitem>
+<numlitem><para>The TEST IN PROGRESS indication will be displayed
+for the duration of the test.</para></numlitem>
+<numlitem><para>When the test is done, the CDU will display TEST PASSED
+or FIRE TEST FAIL.</para>
+<note><para>The indication FIRE TEST FAIL may appear because circuit
+breakers are open or due to other related fire/overheat detection
+system faults.</para></note>
+<numlist>
+<numlitem><para>If the indication is TEST PASSED, the test is finished,
+and system integrity is verified.</para></numlitem>
+<numlitem><para>If the indication is FIRE TEST FAIL, verify that following
+CMC messages do not appear on CDU:</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec align="left" colname="col1" colwidth="134.68pt"/>
+<colspec align="left" colname="col2" colwidth="340.00pt"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Single Loop System:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BLEED DUCT LEAK - LEFT DETECTION SYSTEM FAIL</para>
+<para>BLEED DUCT LEAK - RIGHT DETECTION SYSTEM FAIL</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Dual Loop System:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BLEED DUCT LEAK - LEFT LOOP A FAIL</para>
+<para>BLEED DUCT LEAK - LEFT LOOP B FAIL </para>
+<para>BLEED DUCT LEAK - RIGHT LOOP A FAIL</para>
+<para>BLEED DUCT LEAK - RIGHT LOOP B FAIL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If CMC fault messages appear, seek corrective action.</para>
+</numlitem>
+<numlitem><para>Ensure S2090 Remote Test switch at the left main Equipment
+Center is in the NORM position.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

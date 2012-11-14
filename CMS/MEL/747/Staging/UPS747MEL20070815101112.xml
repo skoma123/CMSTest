@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="5-2" key="UPS747MEL20070815101112" revdate="20100707" revnbr="8" sectnbr="26">
+<title>ECS Misc Card &ndash; Non-ER Operations</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Forward Overboard Valve is deactivated open,</para>
+</numlitem>
+<numlitem><para>Extended overwater flight prohibited,</para></numlitem>
+<numlitem><para>Operation is limited to two Air Conditioning Packs,</para>
+</numlitem>
+<numlitem><para>Procedures are established and used to verify the
+forward lower lobe cargo compartment remains empty or contains only
+empty cargo handling equipment, ballast (ballast may be loaded in
+ULDs), or Fly Away Kits,</para></numlitem>
+<numlitem><para>For Freighter, procedures are established and used
+to verify main deck cargo compartment remains empty or contains only
+empty cargo handling equipment, ballast (ballast may be loaded in
+ULDs), or Fly Away Kits,</para></numlitem>
+<numlitem><para>For Passenger/Combi, one Lavatory/Galley fan is verified
+to be operative,</para></numlitem>
+<numlitem><para>Aft Cargo Heat remains OFF,</para></numlitem>
+<numlitem><para>If installed, humidifiers are operated manually,</para>
+</numlitem>
+<numlitem><para>If installed, Fwd Cargo Heat (electrical) is deactivated,
+and</para></numlitem>
+<numlitem><para>If installed, the main cabin exhaust valve(s) is deactivated
+closed.</para></numlitem>
+</numlist>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+<note><para>UPS -400F's and BCF's do not have humidifiers or cabin
+exhaust valves.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815101113">
+<note><para>The following EICAS message(s) may remain displayed:</para>
+</note>
+<para>ECS MISC CARD</para>
+<numlist>
+<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+<numlitem><para>Operation limited to two packs.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101114">
+<numlist>
+<numlitem><para>Extended overwater flight is prohibited.</para>
+</numlitem>
+<numlitem><para>Forward lower cargo and Main deck cargo compartment
+remains empty or contains only empty cargo handling equipment.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<!--Per C.R.4317 Tim 1/18/10 for Rev 8-->
+<para>Placard adjacent to Pack selector "ESC MISC CARD INOP - USE
+TWO PACKS MAX".  Placard adjacent to AFT Cargo Heat Switch "DO NOT
+OPERATE - LEAVE AFT CARGO HT OFF". Install placard below Captain's
+PFD on P-1-1 panel "FORWARD CARGO COMP HEATING SYS INOP". Enter items
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101115">
+  <para>
+    <refint REFTYPE="pgblk" REFID="E0F2A1D4453610C6B6194D33E1B1CF4F">See Maintenance Procedure 05-51-10 P/B 201</refint>
+  </para>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101116"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_2B"
+key="UPS747MEL20070815101117" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

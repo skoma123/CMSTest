@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-2" key="UPS747MEL20070815103836" revdate="20100707" revnbr="8" sectnbr="21">
+<title>Nacelle Anti-Ice Valves &ndash; Inoperative Open</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="YES"
+nbrins="4" nbrreq="3" operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative open provided:</para>
+<numlist>
+<numlitem><para>High pressure shutoff valve is secured closed,</para>
+</numlitem>
+<numlitem><para>Bleed air switch for associated engine remains OFF
+except for engine start,</para></numlitem>
+<numlitem><para>Associated engine nacelle anti-ice switch is operated
+manually, </para></numlitem>
+<numlitem><para>Bleed systems on the remaining engines are operative,</para>
+</numlitem>
+<numlitem><para>Left and right ISLN valves remain open for takeoff
+and during flaps operation,</para></numlitem>
+<numlitem><para>A minimum of 70% N<sub>1</sub> (60% N<sub>1</sub> for
+RR) is maintained at or above 10,000 ft. MSL, or 55% N<sub>1</sub
+> is maintained below 10,000 ft. MSL on the associated engine while
+in icing conditions,</para></numlitem>
+<numlitem><para>For GE, associated engine thrust reverser is deactivated, </para>
+</numlitem>
+<numlitem><para>For PW &amp; GE, associated PRV is operative,</para>
+</numlitem>
+<numlitem><para>For RR, associated FWSOV is operative, and</para>
+</numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103837">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ANTI-ICE NAC ___</para>
+<para>NAC DUCT ___ LEAK</para>
+<para>BLEED HP ENG ___</para>
+<para>ENG ___ REVERSER</para>
+<para>BLEED OVERPRESS ___</para>
+<para>BLEED ___ OVHT</para>
+</note>
+<numlist>
+<numlitem><para>Disregard the anti-ice valve position disagreement
+advisory level message NAI VALVE ___ for the affected engine.</para>
+</numlitem>
+<numlitem><para>For the affected engine, select Engine Bleed OFF except
+for ground starting. Starter assisted inflight start is not available
+for the affected engine.</para></numlitem>
+<numlitem><para>When operating in icing conditions, maintain a minimum
+of 70% N<sub>1</sub> at or above 10,000 MSL and 55% N<sub>1</sub> below
+10,000 MSL.</para></numlitem>
+<numlitem><para>APU-TO-PACK TAKEOFF procedure is not permitted since
+L and R ISLN valves must remain open during takeoff.</para></numlitem>
+<numlitem><para>The associated engine reverser will be deactivated.
+The REV amber indication may be displayed for the engine with the
+reverser deactivated. Use symmetrical reverse thrust.</para></numlitem>
+<numlitem><para>EICAS message IDLE DISAGREE may be annunciated during
+landing when the unaffected engines are commanded to approach idle
+for reverse thrust operations.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815103838">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<numlitem><para>Increase flight planning fuel by .5%</para></numlitem>
+<numlitem><para>With Anti-ice selected ON, reduce performance limited
+weights by: Takeoff and Landing 12,200 lbs. and En route Climb 17,600
+lbs.</para></numlitem>
+<numlitem><para>With Anti-ice selected OFF, reduce performance limited
+weights by: Takeoff and Landing 4,500 lbs. and En route Climb 17,600
+lbs.</para></numlitem>
+<numlitem><para>Associated Thrust Reverser is inoperative.</para>
+</numlitem>
+<!--Per C.R.4299 David B. 12/16/09 Rev 8-->
+<numlitem><para>Takeoff on cluttered or icy runway is prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard on NAI VALVE switch Pilot&rsquo;s Overhead Panel: "NAI
+VALVE INOP CLOSED". Install placards below Captain&rsquo;s PFD on
+P-1-1 panel: ENG ___ REVERSER INOP" and "ENG ___ HPSOV INOP CLOSED".
+Enter items in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103839">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>To secure NAI valve in the open position:</para>
+<numlist>
+<numlitem><para>Gain access to affected NAI valve through access door
+in nacelle strut.</para></numlitem>
+<numlitem><para>Disconnect and stow electrical connector.</para>
+</numlitem>
+<numlitem><para>Turn shaft hex stud to open position.</para></numlitem>
+<numlitem><para>With valve in the desired position, pull and rotate
+the lockout knob to the LOCKED OPEN position.</para></numlitem>
+<numlitem><para>Verify the fan air modulating valve is operative (AMM
+36-12-04). </para></numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Secure the associate engine&rsquo;s high pressure
+shutoff valve (HPSOV) closed.</para>
+<note><para>The HPSOV is located on the right side of the high pressure
+compressor (HPC) case. To deactivate the HPSOV, it is necessary to
+remove the positioning screw in the valve actuator to release actuator
+pressure. The positioning screw is then installed in the switch actuating
+lever to lock the valve in the CLOSED position. It is necessary to
+open the right thrust reverser half to gain access to the HPSOV.</para>
+</note>
+<graphic chapnbr="30" chg="U" key="UPS747MEL20070815103840"
+revdate="20080827" revnbr="5" sectnbr="21">
+<sheet chg="U" gnbr="747-400_DMP_CH_30_Page_4"
+key="UPS747MEL20070815103841" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+<numlist>
+<numlitem><para>Deactivate the HPSOV</para>
+<numlist>
+<numlitem><para>Release the pressure in the pneumatic system (AMM
+36-00-00/201). </para></numlitem>
+<numlitem><para>Open the right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+<numlitem><para>Remove the positioning screw from the actuator cap.
+Do not disconnect the retaining cable from the positioning screw.</para>
+</numlitem>
+<numlitem><para>Install the positioning screw in the switch actuating
+lever to lock the HPSOV in the CLOSED position.</para></numlitem>
+<numlitem><para>Close the right thrust reverser half (AMM 78-31-00/201).</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Secure the Thrust Reverser.</para>
+<numlist>
+<numlitem><para>Refer to DMP 78-31-1. Accomplish the Maintenance (M)
+procedure to deactivate the reverser in the forward thrust position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

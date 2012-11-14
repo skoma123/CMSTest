@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="13-1" key="UPS747MEL20070815101318" revdate="20080827" revnbr="5" sectnbr="28">
+<title>Main Deck Shut Off Valves </title>
+<dispcond category="C" maintenance="YES" nbrins="5" nbrreq="4"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated valve is secured closed, and</para>
+</numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE is selected to either
+LOW or HIGH.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101319">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>MN DK SOV ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard Lower Lobe Cargo Con air Flow Rate selector "MAIN DECK
+S/O VLV INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101320">
+<numlist>
+<numlitem><para>Secure the associated Main Deck Shutoff Valve (M/D
+SOV) in the closed position by accessing the affected M/D SOV located
+under the main deck floor panels forward of wing gear wheel well in
+the mix bay:</para>
+<numlist>
+<numlitem><para>Remove cargo-handling hardware, as required, to access
+the applicable floor panels.</para></numlitem>
+<numlitem><para>Remove floor panels that are over affected M/D SOV
+at the following locations:</para>
+<table frame="none">
+<tgroup align="center" cols="1">
+<colspec colname="col1" colwidth="511.64pt"/>
+<tbody>
+<row>
+<entry>
+<para>M/D SOV 1 STA 1130 RBL 45</para>
+<para>M/D SOV 2 STA 1150 RBL 45</para>
+<para>M/D SOV 3 STA 1150 RBL 45</para>
+<para>M/D SOV 4 STA 1170 RBL 45</para>
+<para>M/D SOV 5 STA 1170 RBL 45</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Open the P7 panel MN/DK FIRE SOV CONT circuit breaker.</para>
+</numlitem>
+<numlitem><para>Open the following P414 panel circuit breaker for
+the failed valve:</para>
+<numlist>
+<numlitem><para>For M/D SOV 1, open the MN DK FIRE AIR COND SOV &ndash;
+1 circuit breaker.</para></numlitem>
+<numlitem><para>For M/D SOV 2, open the MN DK FIRE AIR COND SOV &ndash;
+2 circuit breaker.</para></numlitem>
+<numlitem><para>For M/D SOV 3, open the MN DK FIRE AIR COND SOV &ndash;
+3 circuit breaker.</para></numlitem>
+<numlitem><para>For M/D SOV 4, open the MN DK FIRE AIR COND SOV &ndash;
+4 circuit breaker.</para></numlitem>
+<numlitem><para>For M/D SOV 5, open the MN DK FIRE AIR COND SOV &ndash;
+5 circuit breaker.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Disconnect, cap, and stow the electrical connector
+from the affected valve.</para></numlitem>
+<numlitem><para>Manually position the valve override handle in the
+closed position.</para></numlitem>
+<numlitem><para>Reinstall previously removed floor panels.</para>
+</numlitem>
+<numlitem><para>Reinstall previously removed cargo handling hardware.</para>
+</numlitem>
+<numlitem><para>Close the P7 panel MN/DK FIRE SOV CONT circuit breaker
+(step C) and the circuit breaker opened in step D above.</para>
+</numlitem>
+<numlitem><para>Position the Overhead Maintenance panel (P461) LOWER
+LOBE CARGO CON AIR FLOW RATE selector to either LOW or HIGH.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101321"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_31"
+key="UPS747MEL20070815101322" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

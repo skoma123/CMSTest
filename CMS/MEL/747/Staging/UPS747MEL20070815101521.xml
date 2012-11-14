@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1" key="UPS747MEL20070815101521" revdate="20080827" revnbr="5" sectnbr="40">
+<effect effrg="578579" efftext=""></effect>
+<title>Side Cargo Door Heat</title>
+<dispcond category="D" maintenance="YES" nbrins="1" nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative deactivated.</para>
+</remarks>
+<placard>
+<para>Install placard below Captain's PFD on P-1-1 panel "SIDE CARGO
+DOOR HEAT INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080620152631">
+<numlist>
+<numlitem><para>Open and Collar the P414 panel CARGO HT SIDE DOOR
+PWR circuit breaker.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-4" key="UPS747MEL20070815103526" revdate="20080827" revnbr="5" sectnbr="31">
+<title>Fuel Jettison System Fuel Jettison Control Cards</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1" btb="YES">
+<remarks>
+<para>One may be inoperative provided the remaining FJCC is verified
+to be operative before departure.</para>
+</remarks>
+<placard>
+<para>Placard adjacent to fuel jettison module in the cockpit: "JETTISON
+FUEL SYS CNTRL CARD INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103527">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify Fuel jettison control card operation by performing
+fuel jettison control care operational test (AMM 28-31-00/501).</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

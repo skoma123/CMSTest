@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPS747MEL20070815104535" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Non-Stabilized Magnetic Compass (Standby) &ndash; Three IRU&rsquo;s
+Operative </title>
+<dispcond category="B" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided three IRUs are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815104536">
+<numlist>
+<numlitem><para>Ensure all three IRU&rsquo;s are operative before
+dispatch. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near Magnetic Compass: "STBY COMPASS INOP". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

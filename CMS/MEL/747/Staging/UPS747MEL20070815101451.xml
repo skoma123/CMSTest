@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="3-1" key="UPS747MEL20070815101451" revdate="20080827" revnbr="5" sectnbr="33">
+<title>CAB ALT Indication</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Cabin differential pressure indication is operative,
+and</para></numlitem>
+<numlitem><para>A chart is provided for the flight crew to convert
+cabin differential pressure to cabin altitude.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101452">
+<numlist>
+<numlitem><para>Use the following chart to convert altitude to cabin
+differential pressure to cabin altitude.</para></numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101453"
+revdate="20080827" revnbr="5">
+<effect></effect>
+<sheet chg="U" gnbr="747-400_MEL_CH_21_Page_31"
+key="UPS747MEL20070815101454" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</operation>
+<placard>
+<para>Placard "CABIN  ALT PRESSURE INDICATION - INOP" below Captain's
+PFD on P-1-1 panel.  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

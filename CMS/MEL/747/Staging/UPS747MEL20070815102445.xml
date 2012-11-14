@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="8-3" key="UPS747MEL20070815102445" revdate="20100707" revnbr="8" sectnbr="51">
+<title>Captain/First Officer Push-to-Talk (PTT) Switches &ndash; Glareshield
+PTT Switches </title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="2"
+nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided the affected switch is deactivated
+open. </para>
+</remarks>
+<placard>
+<!--Per C.R.4337 Tim 1/20/10 for Rev 8-->
+<para>Placard affected Glareshield PTT switch "PTT SW INOP OPEN" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102446">
+<numlist>
+<numlitem><para>Deactivate the affected glareshield PTT switch open.</para>
+<numlist>
+<numlitem><para>Open the P7 panel INTERPHONE &ndash; CAPT and INTERPHONE
+&ndash; F/O circuit breakers.</para></numlitem>
+<numlitem><para>Remove the screws which mount the glareshield panel
+containing the affected PTT switch.</para></numlitem>
+<numlitem><para>Remove the glareshield panel to gain access to the
+PTT wires. </para></numlitem>
+<numlitem><para>Disconnect the wires from the PTT switch.</para>
+</numlitem>
+<numlitem><para>Cap the wires and stow them behind the switch panel.</para>
+</numlitem>
+<numlitem><para>Install the glareshield panel and secure with its
+mounting screws.</para></numlitem>
+<numlitem><para>Close the P7 panel INTERPHONE - CAPT and INTERPHONE
+- F/O circuit breakers.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

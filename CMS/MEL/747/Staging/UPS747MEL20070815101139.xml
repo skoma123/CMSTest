@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="3-2-1" key="UPS747MEL20070815101139" revdate="20080827" revnbr="5" sectnbr="28">
+<title>Lower Lobe Cargo A/C Cabin Shutoff Valve(s) </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated pack is selected OFF,</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE remains OFF, and</para>
+</numlitem>
+<numlitem><para>Associated Pack Flow Control &amp; Shutoff Valve is
+secured closed.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101140">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ZONE TEMP</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815101141">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Lower Lobe Cargo Cond Air Flow Rate selector "LOWER
+LOBE CARGO A/C CABIN S/O VLV - INOP".  Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101142">
+<numlist>
+<numlitem><para>Select discrepant pack to the OFF position. (Cargo
+A/C Forward Cabin Shutoff Valve &ndash; Pack 3; Cargo A/C Aft Cabin
+Shutoff Valve &ndash; Pack 2).</para></numlitem>
+<numlitem><para>For an inoperative Lower Cargo A/C <emphasis
+role="underline"> Forward</emphasis> Cabin Shutoff Valve secure Pack
+3 Flow Control and Shutoff Valve closed as follows:</para>
+<numlist>
+<numlitem><para>Position the associated Bleed Air Control panel (P5)
+PACK selector OFF.</para></numlitem>
+<numlitem><para>Access valve through the air conditioning equipment
+bay access doors.</para></numlitem>
+<numlitem><para>Manually rotate crank arm on end of butterfly shaft
+until valve is closed.</para></numlitem>
+<numlitem><para>Run screw on end of crank into hole in the casting.</para>
+</numlitem>
+<numlitem><para>Manually select HI FLOW on remaining packs and advise
+crew that HI FLOW must remain selected to ensure that these packs
+will operate in High Flow Mode. The associated PACK ____ advisory
+message may be displayed.</para></numlitem>
+<numlitem><para>If the affected Pack Flow Control and Shutoff Valve
+has an external maintenance canister installed containing a lockout
+device (a cap, a spring and a plug):</para>
+<numlist>
+<numlitem><para>Remove the existing pack flow control and shutoff
+valve plug, packing, spring and filter from the inoperative Pack Flow
+Control and Shutoff Valve per AMM 21-51-13. Retain all removed parts
+for later storage in the canister.</para></numlitem>
+<numlitem><para>Remove the perforated plug from the canister containing
+the lockout device (the canister is located near the end of the crank
+screw noted in step 1. D.).</para></numlitem>
+<numlitem><para>Remove the cap and spring from inside the canister.</para>
+</numlitem>
+<numlitem><para>Install the cap and spring into the filter cavity:
+The small end of cap fits into the inside diameter of the spring.
+Ensure the cap is seated at the bottom of the filter cavity.</para>
+</numlitem>
+<numlitem><para>Apply anti-seize compound to the threads on the perforated
+plug obtained from the canister.</para></numlitem>
+<numlitem><para>Install and tighten the perforated plug that was obtained
+from the canister: Tighten the plug to 60-70 pound-inches (6.78-7.90
+newton-meters).</para></numlitem>
+<numlitem><para>Install a lockwire on the perforated plug with the
+hole.</para></numlitem>
+<numlitem><para>Place the removed plug, packing, spring and filter
+(from step 1. E. 1.) into the canister for storage and future restoration
+of the Pack Flow Control and Shutoff Valve function.</para></numlitem>
+<numlitem><para>Position A/C Flow rate to HI FLOW on operative packs.</para>
+</numlitem>
+<numlitem><para>Position the Overhead Maintenance Panel (P461) CARGO
+COND AIR FLOW RATE selector to OFF.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For an inoperative Lower Cargo A/C <emphasis
+role="underline"> Aft</emphasis> Cabin Shutoff Valve secure Pack 2
+Flow Control and Shutoff Valve closed as follows:</para>
+<numlist>
+<numlitem><para>Position the associated Bleed Air Control panel (P5)
+PACK selector OFF.</para></numlitem>
+<numlitem><para>Access valve through the air conditioning equipment
+bay access doors.</para></numlitem>
+<numlitem><para>Manually rotate crank arm on end of butterfly shaft
+until valve is closed.</para></numlitem>
+<numlitem><para>Run screw on end of crank into hole in the casting.</para>
+</numlitem>
+<numlitem><para>Manually select HI FLOW on remaining packs and advise
+crew that HI FLOW must remain selected to ensure that these packs
+will operate in High Flow Mode. The associated PACK ____ advisory
+message may be displayed.</para></numlitem>
+<numlitem><para>If the affected Pack Flow Control and Shutoff Valve
+has an external maintenance canister installed containing a lockout
+device (a cap, a spring and a plug):</para>
+<numlist>
+<numlitem><para>Remove the existing pack flow control and shutoff
+valve plug, packing, spring and filter from the inoperative Pack Flow
+Control and Shutoff Valve per AMM 21-51-13. Retain all removed parts
+for later storage in the canister.</para></numlitem>
+<numlitem><para>Remove the perforated plug from the canister containing
+the lockout device (the canister is located near the end of the crank
+screw noted in step 1. D.).</para></numlitem>
+<numlitem><para>Remove the cap and spring from inside the canister.</para>
+</numlitem>
+<numlitem><para>Install the cap and spring into the filter cavity:
+The small end of cap fits into the inside diameter of the spring.
+Ensure the cap is seated at the bottom of the filter cavity.</para>
+</numlitem>
+<numlitem><para>Apply anti-seize compound to the threads on the perforated
+plug obtained from the canister.</para></numlitem>
+<numlitem><para>Install and tighten the perforated plug that was obtained
+from the canister: Tighten the plug to 60-70 pound-inches (6.78-7.90
+newton-meters).</para></numlitem>
+<numlitem><para>Install a lockwire on the perforated plug with the
+hole.</para></numlitem>
+<numlitem><para>Place the removed plug, packing, spring and filter
+(from step 1. E. 1.) into the canister for storage and future restoration
+of the Pack Flow Control and Shutoff Valve function.</para></numlitem>
+<numlitem><para>Position A/C Flow rate to HI FLOW on operative packs.</para>
+</numlitem>
+<numlitem><para>Position the Overhead Maintenance Panel (P461) CARGO
+COND AIR FLOW RATE selector to OFF.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" confnbr="321" key="UPS747MEL20070815101143"
+revdate="20080827" revnbr="5" sectnbr="28">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_9"
+key="UPS747MEL20070815101144" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+<graphic chapnbr="21" chg="U" confnbr="3-21"
+key="UPS747MEL20070815101145" revdate="20080827" revnbr="5" sectnbr="28">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_10"
+key="UPS747MEL20070815101146" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

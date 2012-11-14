@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS747MEL20070815104055" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Landing Gear Strut Pressure Indicators</title>
+<dispcond category="D" maintenance="YES" nbrins="4" nbrreq="0">
+<remarks>
+<para>May be inoperative provided landing gear strut is checked for
+proper inflation and extension.</para>
+</remarks>
+<placard>
+<para>Placard on affected strut gauge: "____ MAIN (or NOSE) STRUT
+GAUGE INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104056">
+<numlist>
+<numlitem><para>Use external pressure gauge. Check shock strut for
+proper inflation and extension as specified on placard located on
+shock strut (wing or body gear) or adjacent to strut in wheel well
+(nose gear). If required, service shock strut (AMM 12-15-03/301, AMM
+12-15-04/301 or AMM 12-15-05/301). </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

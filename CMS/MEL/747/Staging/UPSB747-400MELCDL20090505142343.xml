@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPSB747-400MELCDL20090505142343" revdate="20090528" revnbr="6"
+sectnbr="46">
+<title>GROUND PROXIMITY WARNING SYSTEM (GPWS) &ndash; MODES 1 THRU
+4</title>
+<dispcond attr-rev="NO" category="A" nbrins="4" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Alternate procedures are established and used,</para>
+</numlitem>
+<numlitem><para>Boeing Service Bulletin 747-31-2410 or production
+equivalent is incorporated, and</para></numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+<note><para>Service Bulletin 747-31-2410 has been incorporated on
+all UPS aircraft.</para></note>
+</remarks>
+<operation key="UPSB747-400MELCDL20090505142915">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>GND PROX SYS</para>
+</note>
+<numlist>
+<numlitem><para>Visual approaches are not authorized with GPWS inoperative.
+Instrument approach procedures must be used.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: &ldquo;GPWS
+MODES 1 THRU 4 INOP&rdquo;.  Enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+</dispcond>
+</item>

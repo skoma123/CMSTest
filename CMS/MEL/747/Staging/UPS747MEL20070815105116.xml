@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="38" chg="U" itemnbr="1-2" key="UPS747MEL20070815105116" revdate="20080827" revnbr="5" sectnbr="10">
+<title>Potable Water Systems &ndash; System Leaks</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>System is drained, and</para></numlitem>
+<numlitem><para>Procedures are established to ensure that system is
+not serviced. </para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>For inoperative potable water system, placard Potable Water
+Service Panel: "POTABLE WATER SYS INOP - DO NOT FILL". Enter item(s)
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815105117">
+<numlist>
+<numlitem><para>For an inoperative potable water system:</para>
+<numlist>
+<numlitem><para>Drain potable water system (AMM 12-14-01/301).</para>
+</numlitem>
+<numlitem><para>Placard Water Service Panel:  POTABLE WATER SYSTEM
+INOPERATIVE-DO NOT FILL.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

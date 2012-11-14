@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-2-2" key="UPS747MEL20070815103929" revdate="20080827" revnbr="5" sectnbr="42">
+<title>Windshield Wipers &ndash; High Speed &ndash; Both Inoperative</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both low speed functions are operative, and</para>
+</numlitem>
+<numlitem><para>Aircraft is not operated in known or forecast precipitation
+of moderate or greater intensity within 5 statute miles of the airport
+of departure or intended landing.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS747MEL20070815103930">
+<numlist>
+<numlitem><para>Operation in precipitation of moderate or greater
+intensity with 5 statute miles of the airport of takeoff or intended
+landing are prohibited. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard on Anti-Ice Rain Removal Panel (P5): "CAPT&rsquo;s and
+F/O&rsquo;s HIGH SPD WINDSHIELD WIPER(S) INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

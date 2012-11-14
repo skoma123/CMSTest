@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="1-2" key="UPS747MEL20070815105520" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Minimum Idle/Approach Idle Selection Systems &ndash; Continuous
+Ignition Selected Approach Idle</title>
+<dispcond category="C" maintenance="NO" nbrins="4" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided during operation in or near heavy
+rain or hail, N<sub>1</sub> is maintained at 45% for Flight Levels
+below 10,000 ft., and N<sub>1</sub> is maintained at 50% for Flight
+Levels 10,000 ft. and higher. </para>
+</remarks>
+<operation key="UPS747MEL20070815105521">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>IDLE DISAGREE</para>
+<para>ENG __ LOW IDLE</para>
+</note>
+<numlist>
+<numlitem><para>With inoperative Continuous Ignition Selected Approach
+Idle, if moderate-to-heavy rain or hail is encountered or anticipated,</para>
+<numlist>
+<numlitem><para>If TAT 10&ordm;C or below, turn Nacelle Anti-ice switches
+ON and Disconnect Autothrottles during descent.</para></numlitem>
+<numlitem><para>If TAT above 10&ordm;C turn Continuous Ignition ON.
+During descent disconnect Autothrottles and set a minimum of 50% N<sub
+>1</sub> at or above 10,000 feet and 45% N<sub>1</sub> below 10,000
+feet (except for landing). </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<note><para>In heavy precipitation, engine parameter fluctuations
+may occur, particularly a noticeable drop in EGT. Engine parameters
+will return to normal immediately upon leaving the area of heavy precipitation.</para>
+</note>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: " ____ CONT
+IGN SEL APP IDLE INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

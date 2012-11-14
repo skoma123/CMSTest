@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="2-2" key="UPS747MEL20070815103847" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Nacelle Anti-Ice VALVE Lights or NAI Indications &ndash; Valve
+Inoperative </title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative provided associated nacelle anti-ice
+valve is inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815103848">
+<note><para>If icing conditions are inadvertently encountered, reducing
+thrust on affected engine will minimize possible damage if ice is
+ingested.</para></note>
+</operation>
+<limitation key="UPS747MEL20070815103849">
+<numlist>
+<numlitem><para>Operations into known or forecast icing conditions
+prohibited. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placards on NAI VALVE switch Pilot&rsquo;s Overhead
+Panel: "NAI VLV INOP CLOSED" and "NAI VLV IND INOP". Enter items in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103850">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure<refint
+refid="UPS747MEL20070815103835"> 30-21-1-1.</refint> </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

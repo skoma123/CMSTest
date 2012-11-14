@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="3-3-2" key="UPS747MEL20070815102030" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Mode Control Panel Selectors Selector Push Functions &ndash;
+HDG SEL</title>
+<dispcond category="B" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102031">
+<numlist>
+<numlitem><para>Use Heading Hold, or LNAV modes. APP or LOC, once
+established, will be operative.</para></numlitem>
+<numlitem><para>Autpilot disengagement will be required for radar
+vectors. </para></numlitem>
+<numlitem><para>Heading Hold and LNAV must be operative.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard HDG SEL switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

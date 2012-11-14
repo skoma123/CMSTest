@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="6" key="UPS747MEL20070815105332" revdate="20100707" revnbr="8" sectnbr="31">
+<!--Per C.R.4358 Tim 2/2/10 Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Nose Door Latch Actuator Test System</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard on Test Latch Actuator Test Panel: "INOP". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>
