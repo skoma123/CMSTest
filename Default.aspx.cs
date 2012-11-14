@@ -10,16 +10,21 @@ using System.IO;
 using System.Text;
 using MongoDB.Bson;
 using MongoDB;
+using System.Xml;
+using System.Xml.Schema;
+using System.Xml.XPath;
+using System.Drawing;
 
 public partial class _Default : System.Web.UI.Page 
 {
 
-
-
+    private StringBuilder _builder = new StringBuilder(); 
+    
     ProcessStartInfo gitInfo = new ProcessStartInfo();
     string stdout_str;
     string[] words;
     Process gitProcess;
+    private static bool isValid = true;
    // bool treepopu = false;
         //public const string CURRENT_REPOSITORY = "repository";
 
@@ -174,11 +179,11 @@ public partial class _Default : System.Web.UI.Page
 
     }
 
-    protected void Button1_Click(object sender, EventArgs e)
+  /*  protected void Button1_Click(object sender, EventArgs e)
     {
         //Opening an existing git repository
         Repository repo = new Repository(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP");
-
+    } */
 
       //  gitInfo.Arguments = "ls-files"; // such as "fetch orign" //GIT COMMAND
       //  gitProcess.StartInfo = gitInfo;
@@ -303,16 +308,25 @@ public partial class _Default : System.Web.UI.Page
         //***PUSH to remote location ****git push
 
         //
-        }
+
+
+    protected void colorIt(object sender, TreeNodeEventArgs e)
+    {
+       e.Node.SelectAction = TreeNodeSelectAction.None;
+       lblMsg.Text = "You selected";
+
+    }
     protected void treeFiles_SelectedNodeChanged(object sender, EventArgs e)
     {
         try
         {
-
+           
            Xml1.DocumentSource = treeFiles.SelectedValue;
         //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
+          treeFiles.SelectedNodeStyle.ForeColor = Color.Blue;
+           tblXML.Visible = true;
 
-        }
+        }           
         catch
         {
             throw;    // Rethrowing exception e
@@ -335,6 +349,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void btnCommitHistory_Click(object sender, EventArgs e)
     {
+        lstAll.Items.Clear();
         InitialProcessing();
         gitInfo.Arguments = "log --stat"; // such as "fetch orign" //GIT COMMAND
         gitProcess.StartInfo = gitInfo;
@@ -345,7 +360,6 @@ public partial class _Default : System.Web.UI.Page
         //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
         stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-        lstAll.Items.Clear();
         words = stdout_str.Split('\n');
 
         foreach (string strtest in words)
@@ -354,6 +368,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnCommitHistSimple_Click(object sender, EventArgs e)
     {
+        lstAll.Items.Clear();
         InitialProcessing();
         //commit history (authorname, author date, subject, committer name, committed date)
         gitInfo.Arguments = @"log --pretty=format:""%an | %ar | %s | %cn | %cr"""; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
@@ -365,7 +380,6 @@ public partial class _Default : System.Web.UI.Page
         //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
         stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-        lstAll.Items.Clear();
         words = stdout_str.Split('\n');
 
         foreach (string strtest in words)
@@ -375,6 +389,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnCommitNotMerged_Click(object sender, EventArgs e)
     {
+        lstAll.Items.Clear();
         InitialProcessing();
         gitInfo.Arguments = @"log --pretty=""%h - %s"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
         gitProcess.StartInfo = gitInfo;
@@ -383,7 +398,6 @@ public partial class _Default : System.Web.UI.Page
         //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
         stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-        lstAll.Items.Clear();
         words = stdout_str.Split('\n');
 
         foreach (string strtest in words)
@@ -411,9 +425,13 @@ public partial class _Default : System.Web.UI.Page
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
+
         gitInfo.Arguments = @"push"; //GIT COMMAND
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
 
         Xml1.DocumentSource = treeFiles.SelectedValue;
     }
@@ -424,5 +442,102 @@ public partial class _Default : System.Web.UI.Page
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();   
 
+        gitProcess.WaitForExit();
+        gitProcess.Close();
     }
+    protected void btnBlame_Click(object sender, EventArgs e)
+    {
+        InitialProcessing();
+        gitInfo.Arguments = @"blame CMS/MEL/747/" + @treeFiles.SelectedNode.Text;
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();   
+
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        lstAll.Items.Clear();
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
+
+    protected void btnValidateXML_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            string xmlPath = treeFiles.SelectedValue.Replace("\\", "/");
+            XmlReader reader = null;
+            XmlReaderSettings settings = new XmlReaderSettings();
+            settings.ValidationEventHandler += new ValidationEventHandler(MyValidationEventHandler);
+            settings.ValidationType = ValidationType.DTD;
+            settings.ProhibitDtd = false;
+            reader = XmlReader.Create(xmlPath, settings);
+            if (reader.Read())
+            {
+                //Response.Write("<script>alert('XML Document well formed')</script>");
+                lblMsg.Text = "XML Document well formed";
+                lblMsg.ForeColor = Color.Green;
+            }
+            else
+            {
+                lblMsg.Text = "XML Document is not well formed";
+                lblMsg.ForeColor = Color.Red;
+            }
+            while (reader.Read())
+            {
+            }
+
+            if (_builder.ToString() == String.Empty)
+                lblMsg.Text = "DTD Validation completed successfully";
+            //Response.Write("<script>alert('DTD Validation completed successfully')</script>");
+            //Response.Write("DTD Validation completed successfully.");
+            else
+                lblMsg.Text = "DTD Validation Failed";
+            //Response.Write("<script>alert('DTD Validation Failed" + _builder.ToString() + "')</script>");
+            // Response.Write("DTD Validation Failed. <br>" + _builder.ToString());
+            reader.Close();
+
+        }
+        catch (XmlException ex)
+        {
+              lblMsg.Text = "XML Document not valid, following error:" +  ex.Message;          
+              Server.ClearError();
+              Xml1.DocumentSource = treeFiles.SelectedValue;
+                             
+             }
+    }
+
+       // XmlTextReader r = new XmlTextReader(treeFiles.SelectedValue);
+       // XmlReader v = new XmlReader;
+
+       // v.ValidationType = ValidationType.DTD;
+
+       // v.ValidationEventHandler += new ValidationEventHandler(MyValidationEventHandler);
+
+
+       // while (v.Read())
+       // {
+       //     // Can add code here to process the content.
+       // }
+       // v.Close();
+
+       // // Check whether the document is valid or invalid.
+       // if (isValid)
+       //     Console.WriteLine("Document is valid");
+       // else
+       //     Console.WriteLine("Document is invalid");
+
+       //}
+
+    public static void MyValidationEventHandler(object sender,  ValidationEventArgs args)
+    {
+        isValid = false;
+        Console.WriteLine("Validation event\n" + args.Message);
+    }
+	
+   
 }
