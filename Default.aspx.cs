@@ -18,8 +18,9 @@ using System.Drawing;
 public partial class _Default : System.Web.UI.Page 
 {
 
-    private StringBuilder _builder = new StringBuilder(); 
-    
+    private StringBuilder _builder = new StringBuilder();
+    Process process = new Process();
+
     ProcessStartInfo gitInfo = new ProcessStartInfo();
     string stdout_str;
     string[] words;
@@ -541,6 +542,51 @@ public partial class _Default : System.Web.UI.Page
         isValid = false;
         Console.WriteLine("Validation event\n" + args.Message);
     }
-	
-   
+
+
+    protected void btnStage_Click(object sender, EventArgs e)
+    {
+        //Now Create all of the directories
+        foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*",
+            SearchOption.AllDirectories))
+            Directory.CreateDirectory(dirPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
+
+        //Copy all the files
+        foreach (string newPath in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*.*",
+            SearchOption.AllDirectories))
+            File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
+
+
+        InitialProcessing();
+        gitInfo.Arguments = @"stage CMS/MEL/747/*.*";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        gitInfo.Arguments = @"commit -am ""Updated XML file"""; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        gitInfo.Arguments = @"push"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+
+        treeFiles.Nodes.Clear();
+        BindTreeView();
+
+        //copy the contents from working to staging
+        //Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.*");
+
+        //foreach(var file in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.*"))
+        //File.Copy(file, Path.Combine(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\", Path.GetFileName(file)));
+        //process.StartInfo.FileName = "xcopy";
+        //process.StartInfo.Arguments = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.* C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\ /e /y /I";
+        //process.Start();
+        //bool lp = process.WaitForExit(10000);
+        
+    }
 }

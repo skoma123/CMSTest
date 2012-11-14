@@ -24,7 +24,8 @@
         <asp:Button ID="btnConflict" runat="server" Text="Conflict" />
         <asp:Button ID="btnRepository" runat="server" Text="Repository" Width="76px" />
         <asp:Button ID="btnBranches" runat="server" Text="Branches" Width="77px" />
-        <asp:Button ID="btnStage" runat="server" Text="Stage" Width="50px" />
+        <asp:Button ID="btnStage" runat="server" Text="Stage" Width="50px" 
+            onclick="btnStage_Click" />
         <br />
         <table runat="server"><tr>
         <td valign="top" style="overflow:scroll; height:200px">
