@@ -31,7 +31,7 @@
         <asp:Panel runat="server" Height="200px" Width="395px">
         Directory Tree<%--        <asp:Button ID="Button2" runat="server" Text="Open repository" onclick="OnSelectRepository" />--%><asp:TreeView
             ID="treeFiles" runat="server" OnTreeNodePopulate="populate_gitDir" EnableClientScript="false"
-            ImageSet="Arrows" onselectednodechanged="treeFiles_SelectedNodeChanged" OnTreeNodeExpanded="colorIt"
+            ImageSet="Arrows" onselectednodechanged="treeFiles_SelectedNodeChanged" OnTreeNodeExpanded="NoLinkWhenExpanded" 
             ShowLines="True" Width="322px" >
             <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
             <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" 

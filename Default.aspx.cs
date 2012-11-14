@@ -127,6 +127,7 @@ public partial class _Default : System.Web.UI.Page
     protected TreeNode GetNode(DirectoryInfo directoryinfo)
     {
         TreeNode treenode = new TreeNode(directoryinfo.Name, directoryinfo.FullName);
+        treenode.SelectAction = TreeNodeSelectAction.None;
         treenode.PopulateOnDemand = true;
         treenode.Collapse();
 
@@ -310,12 +311,12 @@ public partial class _Default : System.Web.UI.Page
         //
 
 
-    protected void colorIt(object sender, TreeNodeEventArgs e)
+    protected void NoLinkWhenExpanded(object sender, TreeNodeEventArgs e)
     {
        e.Node.SelectAction = TreeNodeSelectAction.None;
-       lblMsg.Text = "You selected";
 
     }
+
     protected void treeFiles_SelectedNodeChanged(object sender, EventArgs e)
     {
         try
@@ -324,7 +325,9 @@ public partial class _Default : System.Web.UI.Page
            Xml1.DocumentSource = treeFiles.SelectedValue;
         //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
           treeFiles.SelectedNodeStyle.ForeColor = Color.Blue;
-           tblXML.Visible = true;
+          tblXML.Visible = true;
+
+          
 
         }           
         catch
