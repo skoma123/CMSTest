@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-1" key="UPS747MEL20070815103958" revdate="20080827" revnbr="5" sectnbr="31">
+<title>Flight Data Recorder (FDR) System FDR Recording &ndash; Parameters
+required by FAR</title>
+<dispcond category="A" nbrins="88" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Cockpit Voice Recorder (CVR) is operative, and</para>
+</numlitem>
+<numlitem><para>Repairs are made within 20 calendar days.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103959">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FLIGHT RCDR SYS</para>
+</note>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "FLIGHT RCDR
+SYS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

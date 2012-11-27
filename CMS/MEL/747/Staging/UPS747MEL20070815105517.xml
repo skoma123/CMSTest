@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="1-1" key="UPS747MEL20070815105517" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Minimum Idle/Approach Idle Selection Systems &ndash; Ground
+Minimum Idle Selection Systems</title>
+<dispcond category="C" maintenance="NO" nbrins="4" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Anti-skid is operative, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815105518">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>IDLE DISAGREE</para>
+<para>ENG __ LOW IDLE</para>
+</note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105519">
+<numlist>
+<numlitem><para>Reduce performance limited weights by the following
+per affected engine:</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec colname="col1" colwidth="0.56*"/>
+<colspec colname="col2" colwidth="1.44*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>5,000 lbs.</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21,000 lbs.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: " ____ GROUND
+MIN IDLE SEL SYS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

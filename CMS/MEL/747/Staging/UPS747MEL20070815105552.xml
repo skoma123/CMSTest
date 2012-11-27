@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="74" chg="U" itemnbr="2-3" key="UPS747MEL20070815105552" revdate="20080827" revnbr="5" sectnbr="00">
+<title>Continuous Ignition Selection System &ndash; Switch Actuated</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided standby ignition system is used
+to provide continuous ignition when required.</para>
+</remarks>
+<operation key="UPS747MEL20070815105553">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>CON IGN ENG ___</para>
+</note>
+<numlist>
+<numlitem><para>Select Standby Ignition Switch position 1 or 2 anytime
+during operation in flight that would require selecting Continuous
+Ignition. For example: heavy precipitation or Volcanic Ash.</para>
+<numlist>
+<numlitem><para>If TAT 10&deg;C or below, turn Nacelle Anti-ice switches
+ON and Disconnect Autothrottles during descent.</para></numlitem>
+<numlitem><para>If TAT above 10&deg;C, during descent disconnect Autothrottles
+and set a minimum of 50% N<sub>1</sub> at or above 10,000 feet and
+45% N<sub>1</sub> below 10,000 feet (except for landing).</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<note><para>In heavy precipitation, engine parameter fluctuations
+may occur, particularly a noticeable drop in EGT. Engine parameters
+will return to normal immediately upon leaving the area of heavy precipitation.</para>
+</note>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "____ CON
+IGN SWITCH INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

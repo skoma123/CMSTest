@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-6-2-1" key="UPS747MEL20070815104744" revdate="20080827" revnbr="5" sectnbr="46">
+<title>Ground Proximity Warning System (GPWS) &ndash; Terrain Awareness
+and Warning System (TAWS) &ndash; Terrain Display Functions &ndash;
+One Inoperative</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="2"
+nbrreq="1" operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815104745">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>TERR SYS</para>
+</note>
+</operation>
+<placard>
+<para>Placard below applicable Captain&rsquo;s PFD on P-1-1 panel:
+"GPWS TAWS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

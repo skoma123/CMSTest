@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="2-2" key="UPS747MEL20070815102549" revdate="20080827" revnbr="5" sectnbr="32">
+<title>DC Bus Isolation Relays &ndash; No. 4</title>
+<dispcond category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative closed provided No. 1, 2, and 3 are operative.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "____ DC BUS
+ISOL RELAY INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

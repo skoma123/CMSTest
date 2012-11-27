@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="2" key="UPS747MEL20070815105259" revdate="20100707" revnbr="8" sectnbr="31">
+<!--Per C.R.4358 Tim 2/2/10 Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Nose Cargo/Door Power Lift System &ndash; (Electrical Function)</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="NO">
+<remarks>
+<para>May be inoperative provided accepted maintenance procedures
+are established and used.</para>
+</remarks>
+<placard>
+<para>Placard on Nose Cargo Door Control Panel: "ELECTRICAL LIFT INOP
+- OPERATE MANUALLY". Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815105310">
+<numlist>
+<numlitem><para>Disconnect flexible drive shafts and operate door
+manually (AMM 52-31-00).</para></numlitem>
+<numlitem><para>Open and collar the following circuit breaker on the
+H122 panel: </para>
+<table frame="none">
+<tgroup cols="2">
+<colspec align="right" colname="col1" colsep="0" colwidth="1.00*"/>
+<colspec align="left" colname="col2" colsep="0" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para>Door Lift</para>
+</entry>
+<entry>
+<para>C16303.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Prior to departure, ensure nose cargo door is closed,
+latched and locked using normal procedures.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

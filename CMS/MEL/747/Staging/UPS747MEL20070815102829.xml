@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-1-1" key="UPS747MEL20070815102829" revdate="20090824" revnbr="7" sectnbr="14">
+<title>Main Deck Cargo Smoke Detector System &ndash; Flight Deck Test
+System</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="1"
+nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided smoke detector system integrity
+is verified before each departure.</para>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "MAIN CARGO
+DECK SMOKE DET SYS INOP". Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102830">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify integrity of main deck cargo smoke detection
+system as follows:</para>
+<numlist>
+<numlitem><para>Close circuit breakers (MM 26-14-00/501).</para>
+</numlitem>
+<numlitem><para>Select either one of the following switches to the
+ENABLE position:</para>
+<numlist>
+<numlitem><para>S2089 Ground Test Enable Switch (P461).</para>
+</numlitem>
+<numlitem><para>S2090 Ground Test Enable Switch (RCDU) at STA 400
+bulkhead in the left main equipment center located near upper left
+side of ladder. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Set CDU to the CMC main menu and press LINE SELECT
+key for GROUND TEST.</para></numlitem>
+<numlitem><para>When screen displays ATA name and chapter, select
+26 FIRE PROTECTION SYSTEM.</para></numlitem>
+<numlitem><para>Press LINE SELECT key to initiate FIRE/OVHT TEST.
+TEST IN PROGRESS will display for the duration of the test. Upon completion
+of the test, TEST PASSED or FIRE TEST FAIL will be displayed on the
+CDU.</para></numlitem>
+<numlitem><para>If TEST PASSED is displayed, system integrity is verified. </para>
+</numlitem>
+<numlitem><para>If FIRE TEST FAIL is displayed:</para>
+<note><para>FIRE TEST FAIL may appear because of a fault in a different
+fire/overheat detection system.</para></note>
+<numlist>
+<numlitem><para>Verify the following EICAS/CMC fault messages do not
+appear on the CDU:</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec align="left" colname="col1" colsep="0" colwidth="254.48pt"/>
+<colspec align="left" colname="col2" colsep="0" colwidth="245.66pt"/>
+<tbody>
+<row>
+<entry>
+<para>FIRE MAIN DECK</para>
+<para>FIRE MAIN DECK MID</para>
+<para>FIRE MAIN DECK AFT</para>
+<para>FIRE MN DK FWD</para>
+</entry>
+<entry>
+<para>FIRE MN DK MID</para>
+<para>FIRE MN DK AFT</para>
+<para>CARGO FIRE SIGNAL> MM-A CARD FAIL</para>
+<para>CARGO FIRE SIGNAL> MM-B CARD FAIL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>If the above EICAS/CMC fault messages appear, seek corrective
+action: <emphasis role="bold">dispatch is not allowed</emphasis>.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Check for the following EICAS status messages:</para>
+<para><emphasis role="bold">Freighter aircraft with Draw-Through Smoke
+Detection System:</emphasis></para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec align="left" colname="col1" colsep="0" colwidth="254.48pt"/>
+<colspec align="left" colname="col2" colsep="0" colwidth="245.66pt"/>
+<tbody>
+<row>
+<entry>
+<para>CGO DET 1 MN DK</para>
+<para>CGO DET 2 MN DK*</para>
+<para>CGO DET 3 MN DK**</para>
+<para>CGO DET 4 MN DK**</para>
+<para>CGO DET 5 MN DK**</para>
+<para>CGO DET 6 MN DK**</para>
+<para>CGO DET 7 MN DK**</para>
+<para>CGO DET 8 MN DK**</para>
+</entry>
+<entry>
+<para>CGO DET 9 MN DK**</para>
+<para>CGO DET 10 MN DK**</para>
+<para>CGO DET 11 MN DK**</para>
+<para>CGO DET 12 MN DK***</para>
+<para>CGO DET 13 MN DK***</para>
+<para>CGO DET 14 MN DK**</para>
+<para>CGO DET 15 MN DK**</para>
+<para>CGO DET 16 MN DK**</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>For each of the above EICAS status messages displayed,
+dispatch is allowed provided the associated cargo zone remains empty
+and:</para><para> * The associated zone(s) and the zone immediately
+forward of the associated zone(s) remain empty for above CMC fault
+message(s) listed and followed by one asterisk (*).</para>
+<para>** The associated zone(s) and the two zones immediately forward
+of the associated zone(s) remain empty for above CMC fault message(s)
+listed and followed by two asterisks (**).</para>
+<para>*** For detection zones 12 and/or 13, zones 10, 11, 12 and 13
+remain empty.</para>
+<graphic chapnbr="26" chg="U" key="UPS747MEL20070815102831"
+revdate="20080827" revnbr="5" sectnbr="14">
+<sheet chg="U" gnbr="747-400_DMP_CH_26_Page_4"
+key="UPS747MEL20070815102832" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

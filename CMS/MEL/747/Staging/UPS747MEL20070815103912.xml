@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1" key="UPS747MEL20070815103912" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Window Heat INOP Lights</title>
+<dispcond category="C" nbrins="2" nbrreq="1">
+<remarks>
+<para>One may be inoperative provided associated heater is operative.</para>
+</remarks>
+<placard>
+<para>Placard on Anti-Ice Rain Removal Panel (P5): "WINDOW HT INOP
+LIGHT &ndash; INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

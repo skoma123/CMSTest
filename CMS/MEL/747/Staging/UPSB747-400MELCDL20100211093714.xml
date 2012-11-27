@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="2-3" key="UPSB747-400MELCDL20100211093714" revdate="20100707" revnbr="8"
+sectnbr="24">
+<!--Per C.R.4343 Tim 1/21/10 Rev 8-->
+<effect chg="U" effrg="580583" efftext=""></effect>
+<title>LAVATORY FIRE EXTINGUISHER SYSTEMS</title>
+<dispcond attr-rev="NO" category="D" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative for flights conducted in a cargo configuration.</para>
+</remarks>
+<operation key="UPSB747-400MELCDL20100211100112">
+<note><para>If the lavatory smoke detection system is inoperative,
+ensure that the lavatory is kept locked and is not entered except
+for use or inspection by crewmembers.</para></note>
+</operation>
+<placard>
+<para>Placard on Lavatory Door "LAV FIRE EXT INOP". Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

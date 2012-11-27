@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-1-2" key="UPS747MEL20070815102833" revdate="20100707" revnbr="8" sectnbr="14">
+<title>Main Deck Cargo Smoke Detector System &ndash; Flight Deck Test
+System &ndash; Cargo Compartment Empty/Empty ULD&rsquo;s Only</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided procedures are established and used
+to verify main deck cargo compartment remains empty, or contains only
+empty cargo handling equipment, ballast (ballast may be loaded in
+ULDs), or Fly Away Kits.</para>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815102834">
+<numlist>
+<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102835">
+<numlist>
+<numlitem><para>Main deck cargo compartment is empty or contains only
+empty cargo handling equipment.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "MAIN CARGO
+DECK SMOKE DET SYS INOP". Enter Item in Aircraft Deferred Item Log. </para>
+</placard>
+</dispcond>
+</item>

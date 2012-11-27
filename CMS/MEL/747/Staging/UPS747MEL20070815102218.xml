@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="3-2" key="UPS747MEL20070815102218" revdate="20080827" revnbr="5" sectnbr="31">
+<title>Takeoff/Go-Around (TO/GA) Switches &ndash; Both Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 1" maintenance="NO" nbrins="2"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Thrust levers are operated manually for takeoff and
+go-around, and</para></numlitem>
+<numlitem><para>Autopilot and Flight Director are not used below 500
+feet AGL or MDA whichever is higher.</para></numlitem>
+</numlist>
+<note><para>Flight Director go-around and Windshear guidance are not
+available with both TO/GA switches inoperative.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815102219">
+<numlist>
+<numlitem><para>Do not use Autopilot below 1,500 feet AGL.</para>
+</numlitem>
+<numlitem><para>Do not use Autopilot or Flight Director below 500
+feet AGL or MDA whichever is higher.</para></numlitem>
+<numlitem><para>Review/brief Windshear Avoidance, Precautions, Recognition
+and Recovery procedures in AOM Chapter 2.0.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102220">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+<numlitem><para>Takeoffs and Landings in known or forecasted windshear
+conditions are prohibited.</para></numlitem>
+<numlitem><para>PRM approaches prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard TO/GA switch(es) "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102221">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="8-2" key="UPS747MEL20070815101855" revdate="20100707" revnbr="8" sectnbr="61">
+<title>Zone Temperature Control System </title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>TRIM AIR Switch remains OFF,</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE selector remains OFF,
+and</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C Cabin Shutoff Valves are verified
+open. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101856">
+<note><para>The following EICAS message(s) may remain displayed:</para>
+<para>ZONE TEMP</para>
+</note>
+<numlist>
+<numlitem><para>If A/C FLOW RATE selector is OFF, no temperature sensitive
+cargo in associated compartments.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101857">
+<numlist>
+<numlitem><para>Carriage of animals or perishables in associated lower
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard as instructed in DMP Procedure <refint
+refid="UPS747MEL20070815101858" reftype="DMP"> 21-61-8-2</refint>.
+ Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101858">
+<numlist>
+<numlitem><para>To dispatch with the Trim Air switch selected OFF
+(Master Trim Air Valve closed):</para>
+<numlist>
+<numlitem><para>Position the Temperature Control panel (p5) TRIM AIR
+switch OFF and placard switch: INOP &ndash; LEAVE INOP.</para>
+</numlitem>
+<numlitem><para>If Lower Lobe Cargo Air Conditioning is not desired,
+position the Overhead Maintenance panel (P461) CARGO COND AIR FLOW
+RATE selector OFF and placard the selector: INOP &ndash; LEAVE OFF.</para>
+</numlitem>
+<numlitem><para>To verify Lower Lobe Cargo A/C Cabin Shutoff Valves
+are open: </para>
+<numlist>
+<numlitem><para>Select EICAS ECS &ndash; Air Conditioning Maintenance
+Page. </para></numlitem>
+<numlitem><para>Observe Cabin Sov POS indicates open (OP) for both
+LWR FWD and LWR AFT valves.</para></numlitem>
+<!--Per C.R.4320 Tim 1/18/10 for Rev 8-->
+<numlitem><para>Alternately, valves may be secured in the open position
+using DMP Item <refint refid="UPS747MEL20070815101151" reftype="MEL"
+>21-28-3-2-3 </refint>.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Advisory message TEMP ZONE may remain displayed and
+the status message ZONE TEMP will remain displayed.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

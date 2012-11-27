@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-2" key="UPS747MEL20070815105155" revdate="20080827" revnbr="5" sectnbr="15">
+<title>APU Inlet Door</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative open or partially open provided appropriate
+performance adjustments are applied.</para>
+</remarks>
+<operation key="UPS747MEL20070815105156">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>APU DOOR</para>
+</note>
+<numlist>
+<numlitem><para>If required use external power and air for engine
+start.</para></numlitem>
+<numlitem><para>If EEC CLNG SUP FAN status message is displayed, it
+can be cleared by rotating the EQUIP COOLING switch to OVRD, then
+back to NORM.</para></numlitem>
+<numlitem><para>If any RECRIC FAN UPR or LWR status message is displayed,
+momentarily depress the PACK RST switch until each has cleared.</para>
+</numlitem>
+<numlitem><para>Apply performance penalties.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815105157">
+<numlist>
+<numlitem><para>Reduce takeoff and landing limited weight by 3,200
+lbs.</para></numlitem>
+<numlitem><para>Reduce en route climb weight by 9,700 lbs.</para>
+</numlitem>
+<numlitem><para>Increase flight planning fuel by 2.0%.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to APU Selector Switch: "APU DOOR INOP OPEN".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-2" key="UPS747MEL20070815102652" revdate="20090528" revnbr="6" sectnbr="28">
+<effect effrg="578579" efftext=""></effect>
+<title>Overhead Storage Bin(s)/Cabin and Galley Storage Compartments/Closets
+&ndash; Storage Compartment Key Locks</title>
+<dispcond category="D" maintenance="YES" nbrins="&ndash;" nbrreq="0">
+<remarks>
+<para>May be inoperative in the unlocked position provided doors can
+be secured by other means.</para>
+</remarks>
+<placard>
+<para>Install Placard next to Discrepant latch: "LOCK INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080627133905">
+<numlist>
+<numlitem><para>Secure inop bins/compartments closed.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

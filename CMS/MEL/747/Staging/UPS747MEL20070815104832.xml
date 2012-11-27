@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPS747MEL20070815104832" revdate="20100707" revnbr="8" sectnbr="61">
+<title>Flight Management Computer Systems (FMCS includes Thrust Management
+Function) &ndash; Navigation Databases</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="2"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be out of currency provided:</para>
+<numlist>
+<numlitem><para>Current Aeronautical Charts are used to verify Navigation
+Fixes prior to dispatch,</para></numlitem>
+<numlitem><para>Procedures are established and used to verify status
+and suitability of Navigation Facilities used to define route of flight,
+and</para></numlitem>
+<numlitem><para>Approach Navigation Radios are manually tuned and
+identified. </para></numlitem>
+</numlist>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815104833">
+<numlist>
+<numlitem><para>Enter flight plan into FMCS (waypoints, etc.) using
+standard FMCS procedures.</para></numlitem>
+<numlitem><para>Cross check FMCS waypoints using current flight crew
+navigation charts.</para></numlitem>
+<numlitem><para>Manually tune and identify approach navigation radios.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104834">
+<numlist>
+<numlitem><para>Modify the ATC flight plan filing suffix to the appropriate
+code.</para></numlitem>
+<numlitem><para>FMS RNAV/RNP approaches and departures are prohibited.</para>
+</numlitem>
+<numlitem><para>FANS Operations prohibited.</para></numlitem>
+<numlitem><para>RNP -4 Operations prohibited.</para></numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "LEFT or RIGHT
+FMCS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

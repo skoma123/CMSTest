@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-1" key="UPS747MEL20070815103333" revdate="20080827" revnbr="5" sectnbr="16">
+<effect effrg="578579" efftext=""></effect>
+<title>Reserve 2 and 3 Fuel Transfer Valves &ndash; Converted Freighter</title>
+<dispcond category="C" nbrins="4" nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Reserve tanks 2 and 3 remain empty, and</para>
+</numlitem>
+<numlitem><para>Maximum Takeoff Weight is limited to 740,000 lbs.
+(335,664 kg)</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747-400MELCDL20080710130944">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>RES ____ XFR VLV</para>
+</note>
+<numlist>
+<numlitem><para>CWT fuel included as part of ZFW may be used en route.</para>
+</numlitem>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080710131223">
+<numlist>
+<numlitem><para>Reserve tanks 2 and 3 must remain empty.</para>
+</numlitem>
+<numlitem><para>All tanks (except reserve tanks 2 and 3) may be fueled
+to capacity, provided takeoff weight does not exceed 740,000 lbs.</para>
+</numlitem>
+<numlitem><para>Center wing tank (CWT) fuel must be included as part
+of the ZFW but may be used en route. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placard below Captain's PFD on P-1-1 panel: "RESERVE
+#2 AND #3 RESERVE TRANSFER VALVES INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2-3" key="UPS747MEL20070815103611" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Single Point Sensor Systems Main Tanks 2 and 3 Sensors &ndash;
+(Main 1 and 4 Jettison Transfer)</title>
+<dispcond category="C" nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative provided main tanks 2 and 3 fuel quantity
+indicating systems are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815103612">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL QTY SYS</para>
+<para>M2/M3&lt;3K SIG</para>
+</note>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "#2 OR #3
+MAIN TANK SINGLE PT SENSORS SYS INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

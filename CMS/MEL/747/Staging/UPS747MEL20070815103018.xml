@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS747MEL20070815103018" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Fire Extinguisher Squib Test &ndash; APU Squib Test System
+APU OFF</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided APU is not used.</para>
+</remarks>
+<operation key="UPS747MEL20070815103019">
+<numlist>
+<numlitem><para>If engines cannot be started due to insufficient external
+power, select UTILITY power OFF. Utility power can be restored after
+completion of the engine start procedure.</para></numlitem>
+</numlist>
+<note><para>If utility power is selected off for engine start an EEC
+CLNG SUP FAN status message may be displayed. It can be cleared by
+rotating the EQUIP COOLING switch to OVRD, then back to NORM.</para>
+</note>
+<note><para>If utility power is selected off for engine start a RECIRC
+FAN UPR or LWR status message may be displayed. Momentarily depress
+the PACK RST switch until each has cleared.</para></note>
+</operation>
+<placard>
+<para>Placard adjacent to SQUIB TEST module on the pilots overhead
+panel: "APU SQUIB TEST SYS INOP". Enter item in Aircraft Deferred
+Item Log.</para>
+<para>Placard APU Selector Switch &ldquo;INOP&rdquo; and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

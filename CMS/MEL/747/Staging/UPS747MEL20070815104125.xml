@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-1" key="UPS747MEL20070815104125" revdate="20090824" revnbr="7" sectnbr="41">
+<title>Wheel Brakes &ndash; Deactivation Tool Preferred Method</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="YES"
+nbrins="16" nbrreq="14" operation="YES">
+<remarks>
+<para>One or two brakes may be deactivated with a deactivation tool
+provided performance complies with AOM/AA Data for two brakes deactivated.</para>
+</remarks>
+<operation key="UPS747MEL20070815104126">
+<numlist>
+<numlitem><para>Normal gear retraction procedure may be used. Stopping
+distances will increase.</para></numlitem>
+<numlitem><para>Observe performance limitations.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104127">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<numlitem><para>Compute V1 using the V1 correction, One or Two Brakes
+Deactivated or One or Two Anti-Skid Channels Inoperative worksheet
+in the AOM Chapter 5.1. </para></numlitem>
+<numlitem><para>Apply takeoff performance runway weight corrections
+from the Takeoff Runway Limit Weight Reduction, Brake(s) Deactivated
+Using Special Tool Chart in the AOM Chapter 5.1.</para></numlitem>
+<numlitem><para>Apply landing weight performance for 1 or 2 brakes
+deactivated in the AA landing Data.</para></numlitem>
+<numlitem><para>Operations on cluttered or icy runways prohibited.</para>
+</numlitem>
+<numlitem><para>Use cutback runway is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "WHEEL___
+BRAKE(S) DEACTIVATED WITH DEACTIVATION TOOL". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104128">
+<title>WHEEL BRAKES DEACTIVATION TOOL</title>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>If Brake System Control Unit (BSCU) P/N S283U002-5 or
+later version is installed and one or two brakes are deactivated,
+advisory message ANTI-SKID for the affected wheels may be inhibited
+as follows: Rotate the BSCU (E9 Rack) message inhibit knobs on the
+unit&rsquo;s front face so that one knob points to each affected wheel&rsquo;s
+position number. Advisory level message ANTI-SKID will not display
+if an anti-skid fault is present. While en route, if an additional
+anti-skid fault occurs affecting another wheel, EICAS will again display
+ANTI-SKID. </para></note>
+<numlist>
+<numlitem><para>Examine the wheel brake(s) for leaks or damage.</para>
+<numlist>
+<numlitem><para>If there is no leak and no damage, use DEACTIVATION
+TOOL Procedure in step 2 below. If there is a leak and no damage,
+and the leak exceeds the limits defined in AMM 32-41-15, use MEL <refint
+refid="UPS747MEL20070815104131" reftype="MEL">32-41-1-2</refint>.
+If brake damage exists use MEL <refint refid="UPS747MEL20070815104135"
+reftype="MEL">32-41-1-3</refint>.</para>
+<graphic chapnbr="32" chg="U" key="UPS747MEL20070815104129"
+revdate="20080827" revnbr="5" sectnbr="41">
+<sheet chg="U" gnbr="747-400_DMP_CH_32_Page_3"
+key="UPS747MEL20070815104130" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>DEACTIVATE BRAKE(S) USING DEACTIVATION TOOL:</para>
+<numlist>
+<numlitem><para>Remove pressure from hydraulic systems 1, 2, and 4.</para>
+</numlitem>
+<numlitem><para>Release the parking brake.</para></numlitem>
+<numlitem><para>Release pressure from the hydraulic brake accumulator
+by operating the brake pedals until the HYD BRAKE PRESS gauge on the
+P1 panel shows pre-charge pressure (approximately 750 psi).</para>
+<caution><para>REMOVAL OF OTHER THAN ONLY THE SHUTTLE VALVE END CAP
+CAN RESULT IN EJECTION OF THE SHUTTLE VALVE.</para></caution>
+</numlitem>
+<numlitem><para>Remove the applicable shuttle valve cap (the valve
+that supplies the brakes to be deactivated).</para>
+<note><para>To identify the shuttle valve that supplies the brakes
+to be deactivated, refer to FIM 32-42-00/101, Figure 126.</para></note>
+</numlitem>
+<numlitem><para>Install brake deactivation tool (P/N A32080-1) in
+place of the valve cap and tighten 50-pound inches. Install a lockwire.</para>
+</numlitem>
+<numlitem><para>Restore the aircraft to its required configuration.</para>
+</numlitem>
+<numlitem><para>Test for proper deactivation:</para>
+<numlist>
+<numlitem><para>Pressurize hydraulic system 4.</para></numlitem>
+<numlitem><para>Operate the brakes and make sure that the deactivated
+brake does not apply by observing brake piston movement.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS747MEL20070815103032" revdate="20100707" revnbr="8" sectnbr="23">
+<effect effrg="578579" efftext=""></effect>
+<title>Lower Cargo Compartment Fire Extinguisher System &ndash; Freighter
+without Draw-Through Smoke Detection System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Procedures are established and used to verify lower
+cargo compartments remain empty, or contain only empty cargo handling
+equipment, ballast (ballast may be loaded in ULDs), or Fly Away Kits,
+and</para></numlitem>
+<numlitem><para>Lower Cargo Smoke Detection System is deactivated.</para>
+</numlitem>
+</numlist>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+</remarks>
+<operation key="UPS747-400MELCDL20080709135953">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BTL LOW CARGO ___</para>
+</note>
+<numlist>
+<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080709140209">
+<numlist>
+<numlitem><para>Lower cargo compartment remains empty or contains
+only empty cargo handling equipment.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placard below Captain's PFD on P-1-1 panel "LOOP (A
+or B) LOWER LOBE CARGO DECK SMOKE DETECTORS INOP". Enter Item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080709140413">
+<numlist>
+<numlitem><para>Open and collar the P7 CAR SMK DET LWR A and CAR SMK
+DET LWR B circuit breakers.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

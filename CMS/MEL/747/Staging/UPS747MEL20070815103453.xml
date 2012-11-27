@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2" key="UPS747MEL20070815103453" revdate="20100707" revnbr="8" sectnbr="25">
+<!--Per C.R.4307 Scott H. 1/5/10 for Rev 8-->
+<title>APU Fuel Valve</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="1"
+nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative closed.</para>
+</remarks>
+<operation key="UPS747MEL20070815103454">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>APU FUEL VALVE</para>
+</note>
+<numlist>
+<numlitem><para>Use External Air and Electrical power.</para></numlitem>
+<numlitem><para>If engines cannot be started due to insufficient external
+power, select UTILITY power OFF. Utility power can be restored after
+completion of the engine start procedure.</para></numlitem>
+</numlist>
+<note><para>If utility power is selected OFF for engine start an EEC
+CLNG SUP FAN status message may be displayed, it can be cleared by
+rotating the EQUIP COOLING switch to OVRD, then back to NORM.</para>
+</note>
+<note><para>If utility power is selected OFF for engine start a RECIRC
+FAN UPR or LWR status message may be displayed, momentarily depress
+the PACK RST switch until each is cleared.</para></note>
+</operation>
+<placard>
+<para>Placard adjacent to APU selector switch: "APU INOP DUE TO FUEL
+VLV". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103455">
+<numlist>
+<numlitem><para>Position the Electrical System Control Panel (P5)
+APU master control switch OFF. If desired (to prevent inadvertent
+switching to START) open the P6 panel APU ALTN CONT and P83 panel
+APU PRIMARY CONT circuit breakers. </para></numlitem>
+<numlitem><para>Open and collar the P6 panel APU FUEL SHUT OFF circuit
+breaker. </para></numlitem>
+<numlitem><para>Manually position the APU fuel valve closed using
+the manual override lever (valve is on the aft side of No. 2 main
+fuel tank rear spar, accessible from the left wing gear wheel well).</para>
+</numlitem>
+</numlist>
+<note><para>See AMM 09-11-00/201 for towing aircraft with an inoperative
+APU (braking availability, etc.).</para></note>
+</maintenance>
+</dispcond>
+</item>

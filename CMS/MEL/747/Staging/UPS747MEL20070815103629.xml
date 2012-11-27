@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS747MEL20070815103629" revdate="20080827" revnbr="5" sectnbr="42">
+<title>Fuel Pump Low PRESS Lights</title>
+<dispcond category="C" nbrins="14" nbrreq="6">
+<remarks>
+<para>One PRESS light may be inoperative for each tank containing
+fuel.</para>
+<note><para>Not required for empty tanks.</para></note>
+</remarks>
+<placard>
+<para>Placard adjacent to affected fuel pump low pressure light: "PUMP
+LOW PRESS LIGHT INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

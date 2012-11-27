@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="2-1-1" key="UPS747MEL20070815102950" revdate="20080827" revnbr="5" sectnbr="18">
+<effect effrg="570577" efftext=""></effect>
+<title>Center Duct Leak Detection Systems &ndash; Dual Loop System
+Loops A or B Inoperative </title>
+<dispcond category="C" nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102951">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>DUCT LEAK C LP ___</para>
+</note>
+</operation>
+<placard>
+<para>Placard adjacent to FIRE/OVHT Test Switch: "CTR DUCT LEAK DET
+LOOP A (or B) INOP". Enter Item in Aircraft Deferred Item Log. </para>
+</placard>
+</dispcond>
+</item>

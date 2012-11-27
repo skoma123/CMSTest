@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="6-2" key="UPSB747-400MELCDL20090504090544" revdate="20100707" revnbr="8"
+sectnbr="51">
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<!--Per C.R.4330 Tim 1/19/10 for Rev 8-->
+<title>WATER SEPARATORS &ndash; FREIGHTER WITH DRAW-THROUGH SMOKE
+DETECTION SYSTEM</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="3"
+nbrreq="2" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative with coalescer bag removed provided associated
+pack is not used.</para>
+</remarks>
+<operation key="UPSB747-400MELCDL20090504091406">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+<numlist>
+<numlitem><para>Associated pack is selected OFF.</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE (if installed) remains
+OFF.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPSB747-400MELCDL20090528093258">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard " ______ PACK WATER SEPARATOR COALESCER REMOVED" below
+Captain's PFD on P-1-1 panel. Also placard "_____PACK INOP" next to
+affected pack switch on P-5 panel. Enter Items in Aircraft Deferred
+item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090504091703">
+<numlist>
+<numlitem><para>Select affected Pack OFF.</para></numlitem>
+<numlitem><para>Remove the associated water coalescer bag (AMM 21-51-05/701).</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815102934" revdate="20100707" revnbr="8" sectnbr="17">
+<!--Per email that Tim sent 1/14/10 Rev 8-->
+<title>Wheel Well Fire Detection System &ndash; EICAS Brake Temp NOT
+Available</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="1"
+nbrreq="0" operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative deactivated provided brakes are verified
+cool to the touch before engine start.</para>
+</remarks>
+<operation key="UPS747MEL20070815102935">
+<numlist>
+<numlitem><para>Verify brakes are cool before engine start by carefully
+touching each wheel&rsquo;s brake to determine that each is cool.</para>
+</numlitem>
+<numlitem><para>After takeoff, avoid the possibility of retracting
+a wheel overheated from dragging brakes by leaving the landing gear
+extended for 10 minutes.</para></numlitem>
+<numlitem><para>In case of engine failure after V<sub>1</sub>, performance
+is the prime consideration. Landing gear should be retracted until
+obstruction clearance requirement has been met, then extended for
+a 10 minute cooling period.</para></numlitem>
+<!--Deleted item 4 per Fred J. in MEL review meeting.-->
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102936">
+<numlist>
+<numlitem><para>An additional 2,000 lbs. of fuel should be planned
+to account for increased fuel burn due to the landing gear being possibly
+extended for 10 minutes.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to FIRE/OVHT Test Switch: "WHEEL WELL FIRE
+DET INOP". Enter Item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815102937">
+<para>For dispatch with the Wheel Well Fire Detection System inoperative: </para>
+<numlist>
+<numlitem><para>To verify the brakes are cool before engine start,
+carefully touch each wheel&rsquo;s brake to determine that each is
+cool.</para></numlitem>
+<numlitem><para>Deactivate Flight Deck annunciations for Wheel Well
+Fire Warning by opening and collaring the P6 panel W/W FIRE DET AC
+circuit breaker.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-1" key="UPS747MEL20070815101338" revdate="20100707" revnbr="8" sectnbr="31">
+<title>Outflow Valves </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES" btb="YES">
+<remarks>
+<para>One valve may be inoperative provided:</para>
+<numlist>
+<numlitem><para>A maximum of two packs are used throughout flight,</para>
+</numlitem>
+<numlitem><para>Valve is deactivated closed, and</para></numlitem>
+<numlitem><para>Both automatic and manual controls are operative on
+the remaining valve.</para></numlitem>
+</numlist>
+<note><para>The carriage of animals or perishables is dependent on
+Pack availability or configuration.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815101339">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>OUTFLOW VALVE ___</para>
+</note>
+<numlist>
+<numlitem><para>Packs 2 and 3 provide conditioned air to forward and
+aft lower lobe cargo compartments.</para></numlitem>
+<numlitem><para>If pack 2 is not used, the aft lower lobe cargo compartment
+may still be heated by the aft cargo heating system.</para></numlitem>
+<numlitem><para>If pack 3 is not used, the forward lower lobe cargo
+compartment may still be heated to a limited extent by the equipment
+cooling exhaust air. </para></numlitem>
+<numlitem><para>Operation limited to two packs.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101340">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+lower cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard associated Manual Outflow Valve switch "OUTFLOW VLV
+INOP".  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101341">
+<para><emphasis role="underline">ONE OUTFLOW VALVE INOPERATIVE</emphasis
+></para>
+<numlist>
+<numlitem><para>Deactivate left or right outflow valve closed as detailed
+below:</para>
+<!--Per C.R.4301 Tim 12/23/09 E.O.B747-2130-36086-A Rev 8-->
+<numlist>
+<numlitem><para>For the left outflow valve, open and collar P6 panel
+CABIN PRESS CONT L ICU circuit breaker. Also on the P414 panel, open
+and collar CABIN PRESS CONT ICU Left circuit breaker.</para></numlitem>
+<numlitem><para>For the right outflow valve, open and collar P6 panel
+CABIN PRESS CONT R ICU circuit breaker. Also on the P414 panel, open
+and collar CABIN PRESS CONT ICU RIGHT circuit breaker.</para></numlitem>
+<numlitem><para>Determine position of inoperative outflow valve. If
+not fully closed, manually close by one of the following methods:</para>
+<numlist>
+<numlitem><para>If manual control is available:</para>
+<numlist>
+<numlitem><para>Select manual control for the affected outflow valve
+(MAN L or MAN R ON), and drive affected outflow valve fully closed.</para>
+</numlitem>
+<numlitem><para>Deselect manual control (MAN L or MAN R OFF).</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If manual control is not available:</para>
+<numlist>
+<numlitem><para>Remove outflow valve AC motor (AMM 21-31-06/401).</para>
+<note><para>Caution should be taken so as not to lose AC motor shim
+plate.</para></note>
+</numlitem>
+<numlitem><para>Close valve by applying torque to actuator output
+shaft.</para></numlitem>
+<numlitem><para>Reinstall AC motor.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="2" key="UPS747MEL20070815102152" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Yaw Damper INOP Lights</title>
+<dispcond category="C" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard affected Yaw Damper light(s) "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

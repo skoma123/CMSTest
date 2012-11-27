@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS747MEL20070815103238" revdate="20080827" revnbr="5" sectnbr="62">
+<title>Speed Brake Solenoid</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative in the GROUND position provided speed brake
+lever is not moved beyond the FLIGHT position during flight.</para>
+</remarks>
+<operation key="UPS747MEL20070815103239">
+<numlist>
+<numlitem><para>Observe FLIGHT detent when speed brakes are used in
+flight. </para></numlitem>
+</numlist>
+<note><para>If lever is inadvertently extended to the UP position
+in flight, aircraft will pitch nose-up, since the two outboard spoilers
+on each side (which do not deploy in FLIGHT detent) will be deployed.</para>
+</note>
+</operation>
+<placard>
+<para>Placard near speedbrake lever: "OBSERVE FLT DETENT &ndash; SOLENOID
+INOP". Enter item in aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103240">
+<numlist>
+<numlitem><para>Open P7 panel SPEEDBRAKE FLT DETENT circuit breaker.</para>
+</numlitem>
+<numlitem><para>If speed brake lever cannot be moved from DOWN to
+full UP position:</para>
+<numlist>
+<numlitem><para>Remove ceiling panel 211E, forward of main entry door
+No. 1, approximately at the aircraft centerline.</para></numlitem>
+<numlitem><para>Disconnect electrical wire from solenoid.</para>
+</numlitem>
+<numlitem><para>Move solenoid or solenoid actuated lever lock to the
+relaxed &ldquo;on the ground&rdquo; position so that speed brake lever
+is free to move to full UP position. Remove solenoid (if required)
+and lockwire (if required). </para></numlitem>
+<numlitem><para>Re-install ceiling panel.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="27" chg="U" key="UPS747MEL20070815103241"
+revdate="20080827" revnbr="5" sectnbr="62">
+<sheet chg="U" gnbr="747-400_DMP_CH_27_Page_15"
+key="UPS747MEL20070815103242" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

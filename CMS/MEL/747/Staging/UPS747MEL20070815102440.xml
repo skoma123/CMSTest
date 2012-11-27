@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="7" key="UPS747MEL20070815102440" revdate="20100707" revnbr="8" sectnbr="51">
+<title>Cargo Intercom System</title>
+<dispcond category="D" maintenance="NO" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<!--Per C.R.4336 Tim 1/20/10 for Rev 8-->
+<para>Install "INOP" placards on: a) Nose Cargo Door Loadmaster panel,
+b) Side Cargo Door Loadmaster panel, c) All 3 audio control panels,
+and d) the "CALL" module CARGO pushbutton (on pedestal). Enter items
+in Aircraft Deferred item Log.</para>
+</placard>
+</dispcond>
+</item>

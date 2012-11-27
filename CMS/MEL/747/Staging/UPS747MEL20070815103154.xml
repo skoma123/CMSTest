@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1-1" key="UPS747MEL20070815103154" revdate="20080827" revnbr="5" sectnbr="32">
+<title>Stall Warning Systems &ndash; Stick Shakers</title>
+<dispcond category="C" nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815103155">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>STALL WARN SYS</para>
+</note>
+</operation>
+<placard>
+<para>Placard on rudder trim indicator: "(L) or (R) STICK SHAKER INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-1-2" key="UPS747MEL20070815103344" revdate="20080827" revnbr="5" sectnbr="21">
+<title>Pressure Fueling System &ndash; Valve Closed</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0" btb="NO">
+<remarks>
+<para>May be inoperative closed provided:</para>
+<numlist>
+<numlitem><para>Alternate refueling procedures are established and
+used, and</para></numlitem>
+<numlitem><para>For any center tank refuel valve inoperative closed,
+stabilizer and auxiliary tanks (if installed) remain empty.</para>
+</numlitem>
+</numlist>
+<note><para>Stabilizer and Auxiliary tanks are not installed on UPS
+aircraft.</para></note>
+</remarks>
+<placard>
+<para>Refer to Dispatch Maintenance Procedure <refint
+refid="UPS747MEL20070815103343" reftype="DMP"> 28-21-1-0-1</refint
+> for placard procedures. Enter item(s) in Aircraft Deferred Item
+Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103345">
+<para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS747MEL20070815103343"> 28-21-1-0-1</refint>.</para>
+</maintenance>
+</dispcond>
+</item>

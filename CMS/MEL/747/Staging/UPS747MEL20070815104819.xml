@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="2-1" key="UPS747MEL20070815104819" revdate="20080827" revnbr="5" sectnbr="57">
+<title>Automatic Dependent Surveillance- Broadcast (ADS-B) System
+&ndash; Link and Display Processor Unit (LDPU)</title>
+<dispcond category="D" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="NO" btb="NO">
+<remarks>
+<note><para>Cockpit Display Traffic Information (CDTI) display of
+data from other aircraft systems may be used.</para></note>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "ADS-B LDPU
+INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="5-2-2" key="UPS747MEL20070815101220" revdate="20080827" revnbr="5" sectnbr="28">
+<title>Lower Lobe Cargo A/C Trim Modulating Valve(s) </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided associated Lower Cargo Trim Shutoff
+Valve is secured closed.</para>
+</remarks>
+<operation key="UPS747MEL20070815101221">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ZONE TEMP</para>
+</note>
+<note><para>Trim air is not available to the conditioned air supplied
+to the compartment. </para></note>
+<numlist>
+<numlitem><para>Associated pack outlet air (pack 2 - AFT Lower Cargo;
+Pack 3 FWD Lower Cargo) remains available to the associated compartment
+by selecting HIGH rate in LOWER LOBE CARGO COND AIR FLOW RATE selector.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101222">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+lower cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard associated Lower Lobe Temp selector "TRIM AIR INOP".
+ Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101223">
+<numlist>
+<numlitem><para>To secure Lower Lobe FWD Cargo A/C Trim Shutoff Valve
+closed: </para>
+<numlist>
+<numlitem><para>Open LOWER FORWARD CARGO AIR COND VLVS and LOWER AFT
+CARGO AIR COND VLVS circuit breakers on the P414 panel.</para>
+</numlitem>
+<numlitem><para>For Fwd Cargo Trim Air Shutoff Valve, remove the AFT
+right air conditioning equipment bay panel 192MR to access valve (STA
+1240, WL 79, RBL 104).</para></numlitem>
+<numlitem><para>Manually position valve in the closed position. Remove,
+cap, and stow valve electrical connector.</para></numlitem>
+<numlitem><para>Open LOWER FORWARD CARGO AIR COND VLVS and LOWER AFT
+CARGO AIR COND VLVS circuit breakers on the P414 panel.</para>
+</numlitem>
+<numlitem><para>In the cockpit the Stats message ZONE TEMP may remain
+displayed. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>To secure Lower Lobe AFT Cargo A/C Trim Shutoff Valve
+closed: </para>
+<numlist>
+<numlitem><para>Open LOWER FORWARD CARGO AIR COND VLVS and LOWER AFT
+CARGO COND VLVS circuit breakers on the P414 panel.</para></numlitem>
+<numlitem><para>For AFT Cargo Trim Air Shutoff Valve, locate valve
+in right body landing gear wheel well on inboard bulkhead (STA 1435,
+WL 140, RBL 7). </para></numlitem>
+<numlitem><para>Manually position valve in closed position. Remove,
+cap, and stow valve electrical connector.</para></numlitem>
+<numlitem><para>Close LOWER FORWARD CARGO AIR COND VLVS and LOWER
+AFT CARGO AIR COND VLVS circuit breakers on the P414 panel.</para>
+</numlitem>
+<numlitem><para>In the cockpit the Status message ZONE TEMP may remain
+displayed. </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101224"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_18"
+key="UPS747MEL20070815101225" revdate="20080827" revnbr="5" sheetnbr="01">
+</sheet>
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_19"
+key="UPS747MEL20070815101226" revdate="20080827" revnbr="5" sheetnbr="02">
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

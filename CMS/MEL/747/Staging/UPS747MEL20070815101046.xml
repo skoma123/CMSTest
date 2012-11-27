@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1" key="UPS747MEL20070815101046" revdate="20100707" revnbr="8" sectnbr="26">
+<title>Forward Cargo Air Conditioning (A/C) Overboard Valves </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided one valve remains closed.</para>
+<note><para>Forward Cargo A/C will be unavailable.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815101047">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>CGO OVBD VLV FWD</para>
+<para>FWD CAR OVBD VLV</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815101048">
+<numlist>
+<numlitem><para>Carriage of animals, or perishables is prohibited
+in the forward cargo compartment.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel "FWD CARGO
+OVBD BKUP VLV(s) INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101049">
+<!--Per C.R.4331 Tim 1/19/10 for Rev 8-->
+<numlist>
+<numlitem><para>Manually close and verify that the cargo overboard
+valve or the cargo overboard backup valve remains closed by either
+method 1 or 2.</para><para>Method 1: If Power Available.</para>
+<para>To verify this, check the EICAS MAINTENANCE PAGE as follows:</para>
+<para>On the CDU select Menu, CMC, EICAS, MAINTENANCE PAGE.</para>
+<para>Select &lt;21 ECS.</para>
+<para>>OTHER SYSTEMS</para>
+<para>>SUPPLY</para>
+<para>&lt;DISPLAY</para>
+<para>The lower EICAS will display both valves. The CGO OVERBOARD
+VALVE is closed when O.O. is displayed, the BACKUP VALVE will display
+CLOSED.</para>
+<para></para>
+<para>Method 2: Manual Check or Valve Not Closed.</para>
+<para>Check the manual override lever on these valves in the fwd lower
+cargo compartment RH side, however pallet position "3" must be empty
+to access.</para>
+</numlitem>
+<numlitem><para>To ensure these valves remain closed, pull following
+CB's on panel P180 (located in the RH tunnel fwd of the E/E compartment).</para>
+</numlitem>
+</numlist>
+<table>
+<tgroup cols="4">
+<?PubTbl tgroup dispwid="818.00px"?>
+<colspec colname="col1" colwidth="1.24*"/>
+<colspec colname="col2" colwidth="0.90*"/>
+<colspec colname="col3" colwidth="1.05*"/>
+<colspec colname="col4" colwidth="0.84*"/>
+<thead>
+<row>
+<entry valign="top">
+<para>CB NOMENCLATURE</para>
+</entry>
+<entry valign="top">
+<para>PANEL</para>
+</entry>
+<entry valign="top">
+<para>GRID NUMBER</para>
+</entry>
+<entry valign="top">
+<para>EQUIP #</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>FWD CGO OVBD VLV PWR</para>
+</entry>
+<entry>
+<para>P180</para>
+</entry>
+<entry>
+<para>E12</para>
+</entry>
+<entry>
+<para>C10584</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>FWD CGO EXT BUP VLV PWR</para>
+</entry>
+<entry>
+<para>P180</para>
+</entry>
+<entry>
+<para>E28</para>
+</entry>
+<entry>
+<para>C10510</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

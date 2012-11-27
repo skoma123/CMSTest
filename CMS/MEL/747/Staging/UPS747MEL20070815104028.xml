@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1" key="UPS747MEL20070815104028" revdate="20090824" revnbr="7" sectnbr="61">
+<title>EICAS Lower Integrated Display Unit (IDU)</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided it is verified that EICAS can be
+switched to an alternate IDU (in case of en route failure of the EICAS
+Upper IDU). </para>
+</remarks>
+<operation key="UPS747MEL20070815104029">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>IDS DU</para>
+</note>
+</operation>
+<placard>
+<para>Placard on lower EICAS display unit: "INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104030">
+<para>This item allows dispatch only with the IDU located in the lower
+EICAS position inoperative. The four EFIS IDU&rsquo;s and the upper
+EICAS IDU must operate normally. However, all of the IDU&rsquo;s are
+interchangeable. Therefore, if an IDU located in the upper EICAS position
+or any one of the EFIS positions is inoperative (and no spares are
+available), it can be swapped with the lower (operative) IDU. This
+switches the inoperative IDU to the lower EICAS position to permit
+dispatch per this MEL item.</para>
+<note><para>CRT and LCD IDU's are completely interchangeable in the
+UPPER and LOWER EICAS positions. The Captain's PF and ND IDU's or
+the First Officer's PF and ND IDU's are to be maintained as a matched
+set of either CRT or LCD IDU's. The mixing of both types of IDU on
+the same side is not allowed. Mixing between the Captain's and First
+Officer's sides is allowed but not preferred.</para></note>
+<para>Use the following procedure to verify that EICAS display can
+be switched to an alternate IDU:</para>
+<numlist>
+<numlitem><para>Select INBD CRT switch on CAPT or F/O Display Transfer
+Module to EICAS position.</para></numlitem>
+<numlitem><para>Verify that EICAS is switch to CAPT or F/O inboard
+IDU.</para></numlitem>
+<numlitem><para>Return switch to NORM position.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

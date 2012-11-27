@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="2" key="UPS747MEL20070815104213" revdate="20090824" revnbr="7" sectnbr="42">
+<title>Alternate Anti-skid Valves</title>
+<dispcond attr-rev="NO" category="C" downgrade="CATEGORY 3a"
+maintenance="YES" nbrins="8" nbrreq="7" operation="YES" btb="YES">
+<remarks>
+<para>One valve (affecting two wheels) may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both of the associated brakes are deactivated by capping
+the supply pressure hydraulic line, and</para></numlitem>
+<numlitem><para>AOM/AA Data performance decrements are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104214">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ANTI-SKID</para>
+</note>
+<numlist>
+<numlitem><para>Stopping distances will increase.</para></numlitem>
+<numlitem><para>Leave gear down for a minimum of 2 minutes after takeoff
+to permit affected wheel(s) to spin down prior to gear retraction.</para>
+</numlitem>
+<numlitem><para>Observe performance limitations.</para></numlitem>
+<numlitem><para>Maximum takeoff thrust must be used.</para></numlitem>
+</numlist>
+<note><para>At takeoff weights greater than 720,000 lbs., flaps up
+maneuver speed (V<sub>REF</sub> + 100 kt) may exceed the landing gear
+retract speed (270 kt). Therefore, ensure gear is retracted prior
+to selecting Flaps Up.</para></note>
+</operation>
+<limitation key="UPS747MEL20070815104215">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+<numlitem><para>Compute V1 using the V1 correction, One or Two Brakes
+Deactivated or One or Two Anti-Skid Channels Inoperative worksheet
+in the AOM Chapter 5.1. </para></numlitem>
+<numlitem><para>Apply takeoff performance runway weight corrections
+from the Takeoff Runway Limit Weight Reduction, Landing Gear Extended
+or Brake(s) Deactivated By Capping chart found in the AOM Chapter
+5.1.</para></numlitem>
+<numlitem><para>Apply restricted takeoff climb weights from the Takeoff
+Climb Limit Weight, Landing Gear Extended or Brake(s) Deactivated
+By Capping chart found in the AOM Chapter 5.1.</para></numlitem>
+<numlitem><para>Apply landing weight performance for 1 or 2 brakes
+deactivated in the AA landing data.</para></numlitem>
+<numlitem><para>If "Obstacle Clearance Altitude (OCA)" is present
+on the AA Data for the departure runway, contact Flight Control for
+alternate AA Data.</para></numlitem>
+<numlitem><para>Operations on cluttered or icy runways prohibited.</para>
+</numlitem>
+<numlitem><para>Use cutback runway is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placards as directed in DMP procedure. Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104216">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.03*"/>
+<colspec colname="col3" colwidth="0.97*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Placard Captain&rsquo;s PFD on P-1-1 panel: "WHEEL_ BRAKE(S)
+DEACTIVATED WITH LINES CAPPED". Enter item in Aircraft Deferred Item
+Log.</para>
+<para>Cap and deactivate the associated brake lines and prior to every
+flight review CMC messages when ANTISKID advisory message is displayed.</para>
+<numlist>
+<numlitem><para>Deactivate the associated brakes using DMP 32-41-1-2.</para>
+</numlitem>
+<numlitem><para>For ANTISKID advisory message displayed, before each
+flight review CMC for additional antiskid faults.</para>
+<note><para>The ground set-up procedure may be simplified. The IRUs
+do not need to be in NAV mode. (Ignore any IRS signal fault indications).
+Hydraulic pressure is not required. Autobrake system does not need
+to be armed.</para></note>
+<numlist>
+<numlitem><para>Select 32 BRAKE CONTROL from the CMC GROUND TEST menu.</para>
+</numlitem>
+<numlitem><para>Execute the BRAKE SYSTEM BITE test. Record all antiskid
+system configuration and input faults annunciated during the test.</para>
+</numlitem>
+<numlitem><para>Following the conclusion of the CMC Brake System Ground
+Test, select the line-select key opposite the FAIL prompt on the CMC
+and record the antiskid system fault. Continue to select the NEXT
+PAGE key on the CMC as required and record the antiskid system faults.</para>
+<note><para> When CMC message PARK BRK VLV NOT OPEN WHEN RELEASED
+or NO PARK BRKE PWR is displayed, dispatch is not allowed (Brake Torque
+Limiter is inoperative). This condition causes Status message PARK
+BRK VALVE as well as ANTISKID OFF and BRAKE LIMITER Advisory messages.</para>
+</note>
+</numlitem>
+<numlitem><para>For additional faults indicated, use DMP item 32-42-1-0-1,
+32-42-1-1, 32-42-1-1-1, or 32-42-1-2 as applicable.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

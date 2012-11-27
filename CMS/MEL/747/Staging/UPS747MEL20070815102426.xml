@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1" key="UPS747MEL20070815102426" revdate="20080827" revnbr="5" sectnbr="43">
+<title>Ground Crew Call System</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>EE Cooling System is continuously monitored during
+ground operations, and</para></numlitem>
+<numlitem><para>Alternate procedures are established and used.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MELCDL20080331135535">
+<numlist>
+<numlitem><para>Establish and maintain communication between Ground
+Crew and Flight Deck personnel.</para></numlitem>
+<numlitem><para>Ensure the Equipment Cooling system is continuously
+monitored from the cockpit when avionics are powered during ground
+operations.</para></numlitem>
+<numlitem><para>Ensure IRU is not operating on DC power.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Ground Crew Call System "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

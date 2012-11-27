@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="5-3-2" key="UPS747-400MELCDL20080717084004" revdate="20080827" revnbr="5"
+sectnbr="23">
+<effect effrg="578579" efftext=""></effect>
+<title>Pressure Stop Fitting Assemblies (Upper Deck Door(s)) &ndash;
+Freighter without Draw-Through Smoke Detection System &ndash; Flight
+Unpressurized</title>
+<dispcond category="C" maintenance="YES" nbrins="20" nbrreq="16"
+operation="YES">
+<remarks>
+<para>One forward fitting assembly and/or one aft fitting assembly
+per door may be missing or inoperative in unpressurized configuration.</para>
+</remarks>
+<operation key="UPS747-400MELCDL20080717084440">
+<numlist>
+<numlitem><para>With supernumeraries on board, en route altitude must
+be limited to 10,000 feet MSL.</para></numlitem>
+<numlitem><para>Equipment cooling may be operated in NORM or STBY.</para>
+</numlitem>
+<numlitem><para>Flight must remain with 60 minutes of a suitable landing
+airport. If operation with Equipment Cooling in OVRD mode becomes
+necessary, an unpressurized configuration yields insufficient equipment
+cooling.</para></numlitem>
+<numlitem><para>A minimum of two packs is required.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080717084525">
+<numlist>
+<numlitem><para>Flight is conducted unpressurized.</para></numlitem>
+<numlitem><para>With supernumeraries on board, flight is limited to
+an en route altitude of 10,000 feet MSL.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel: "STOP FITTINGS INOP
+&ndash; AIRCRAFT UNPRESSURIZED". Enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080717084716">
+<numlist>
+<numlitem><para>Visually inspect remaining fittings on affected door(s)
+for defects.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

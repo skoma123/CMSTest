@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="2-1" key="UPS747MEL20070815102431" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Headset/ Boom Microphones Headset Boom Microphones &ndash;
+Captain&rsquo;s and First Officer</title>
+<dispcond category="A" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated hand microphone is installed and operative,</para>
+</numlitem>
+<numlitem><para>Flight Data Recorder (FDR) is operative, and</para>
+</numlitem>
+<numlitem><para>Repairs are made within three flight days.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel "BOOM MICROPHONE(S)
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

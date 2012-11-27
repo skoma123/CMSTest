@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="10-2" key="UPS747MEL20070815101917" revdate="20080827" revnbr="5" sectnbr="61">
+<title>Zone Duct Overheat Protective Systems</title>
+<dispcond category="C" maintenance="NO" nbrins="5" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided TRIM AIR Switch remains OFF.</para>
+</remarks>
+<operation key="UPS747MEL20070815101918">
+<note><para>The following EICAS message(s) may remain displayed:</para>
+<para>ZONE TEMP</para>
+</note>
+<numlist>
+<numlitem><para>Select AUTO W or AUTO C to control pack outlet temperature.
+ Flight deck temperature remains controllable by the FLT DECK TEMP
+selector. </para></numlitem>
+<numlitem><para>Upper Deck Zone, Crew Rest Zone and both Main Deck
+Cargo Zones receive pack outlet air at the same temperature commanded
+by the FLT DECK TEMP selector.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard associated TRIM AIR switch "LEAVE OFF".  Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

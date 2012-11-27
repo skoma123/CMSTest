@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="4-2" key="UPS747MEL20070815104040" revdate="20080827" revnbr="5" sectnbr="61">
+<title>EICAS Status Messages</title>
+<dispcond category="C" maintenance="YES" nbrins="462" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided dispatch deviations for associated
+equipment are observed.</para>
+</remarks>
+<operation key="UPS747MEL20070815104041">
+<numlist>
+<numlitem><para>Dispatch with inoperative (nuisance) Status level
+message(s) is allowed by provisions of this MEL item. An inoperative
+message is one which is displayed when there is no actual equipment
+fault. Dispatch may be accomplished by observing the Dispatch Deviation
+for the associated equipment.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard "DISREGARD STATUS MESSAGE _____" below Captain&rsquo;s
+PFD on P-1-1 panel. Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104042">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS747MEL20070815104039"> 31-61-4-1.</refint></para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

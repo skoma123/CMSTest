@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-0-1" key="UPS747MEL20070815105143" revdate="20090528" revnbr="6" sectnbr="11">
+<!--C.R.4097 Deletes MX Procedure per Tim 2/5/09-->
+<title>Auxiliary Power Unit</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+<note><para>APU battery and APU charger are not deferrable and must
+be operative for flight.</para>
+<!--Per C.R.4051 Tim 12/30/08-->
+</note>
+</remarks>
+<operation key="UPS747MEL20070815105144">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>APU</para>
+<para>APU DUCT LEAK</para>
+<para>APU STRT INHIBIT</para>
+</note>
+<numlist>
+<numlitem><para>Use external power and air for engine start.</para>
+</numlitem>
+<numlitem><para>If EEC CLNG SUP FAN status message is displayed, it
+can be cleared by rotating the EQUIP COOLING switch to OVRD, then
+back to NORM.</para></numlitem>
+<numlitem><para>If any RECIRC FAN UPR or LWR status message is displayed,
+momentarily depress the PACK RST switch until each has cleared.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to APU Selector Switch: "APU INOP". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

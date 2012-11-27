@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-2-2" key="E0F2A1D4453610C6B6194D33E1B1CF4F" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Flight Crew Seats Manual Adjustment System &ndash; Armrests</title>
+<dispcond category="B" maintenance="YES" nbrins="4" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Affected armrest is stowed in the retracted position
+or removed, and</para></numlitem>
+<numlitem><para>Seat is acceptable to affected crewmember.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "______ SEAT
+ARMREST INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102621">
+  <para>
+    <refint reftype="pgblk" refid="E0F2A1D4453610C6B6194D33E1B1CF4F">See Maintenance Procedure 05-51-10 P/B 201</refint>
+  </para>
+</maintenance>
+</dispcond>
+</item>

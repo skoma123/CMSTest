@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="2-1-2" key="UPS747MEL20070815102847" revdate="20100707" revnbr="8" sectnbr="14">
+<!--Per C.R.4342 Tim 1/21/10 for Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Crew Rest Area Smoke Detection System</title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="1"
+operation="YES" btb="YES">
+<remarks>
+<para>Two may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Center detector is operative, and</para></numlitem>
+<numlitem><para>Associated detector(s) is deactivated.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815102848">
+<numlist>
+<numlitem><para>If any crew rest area is placarded CREW REST AREA
+SMOKE DET SYS INOP &ndash; DO NOT ENTER, do not use the affected crew
+rest area for any purpose.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080702152142">
+<note><para>International flights may be affected if crew rest area
+or supernumerary seats are deemed unusable.</para></note>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "CREW REST
+AREA SMOKE DET SYS INOP". Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102849">
+<numlist>
+<numlitem><para>Confirm normal detector operation by noting the following
+while the self test switch on detector&rsquo;s faceplate is depressed:</para>
+<numlist>
+<numlitem><para>Caution message> SMOKE CREW REST displays on EICAS.</para>
+</numlitem>
+<numlitem><para>The detector&rsquo;s alarm horn sounds off.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For each inoperative detector:</para>
+<numlist>
+<numlitem><para>Disconnect, cap and stow the inoperative detector&rsquo;s
+electrical connector (AMM 26-14-21, page 401).</para></numlitem>
+<numlitem><para>Crew Rest Area smoke detectors are identical and interchangeable.
+If the center detector (STA 595, BL 0, WL 391) is inoperative, it
+may be interchanged with an operable detector from a bunk bed room.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="26" chg="U" key="UPS747MEL20070815102850"
+revdate="20080827" revnbr="5" sectnbr="14">
+<sheet chg="U" gnbr="747-400_DMP_CH_26_Page_5"
+key="UPS747MEL20070815102851" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

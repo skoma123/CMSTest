@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPS747MEL20070815104537" revdate="20080827" revnbr="5" sectnbr="22">
+<title>Non-Stabilized Magnetic Compass (Standby) &ndash; Two IRU&rsquo;s
+Operative </title>
+<dispcond category="B" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Any combination of two IRUs are operative, and</para>
+</numlitem>
+<numlitem><para>Aircraft is operated with dual independent navigation
+capability and under positive radar control by ATC on the en route
+portion of the flight. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104538">
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104539">
+<numlist>
+<numlitem><para>Operations must be conducted in Class 1 navigation
+airspace. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Magnetic Compass: "STBY COMPASS INOP". Enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

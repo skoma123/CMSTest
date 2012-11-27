@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2-1" key="UPS747MEL20070815104641" revdate="20080827" revnbr="5" sectnbr="33">
+<title>Radio Altimeters (RA) &ndash; Multi-Source Datalink to GPWS
+One Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 2" maintenance="YES"
+nbrins="3" nbrreq="2" operation="YES" btb="NO">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>GPWS is supplied with Radio altitude data, and</para>
+</numlitem>
+<numlitem><para>Approach minimums or operating procedures do not require
+their use.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104642">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>RADIO ALT ___</para>
+<para>NO LAND 3</para>
+</note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104643">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+2.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "MULTI-SOURCE
+DATALINK INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104644">
+<numlist>
+<numlitem><para>Verify that status message GND PROX SYS is not displayed.
+If it is, there is a fault in the GPWS itself and dispatch might not
+be allowed. GPWS Modes 1 thru 4 and the TEST mode must be operative
+and are not deferrable. Modes 5 thru 7 may be deferrable under MEL's
+34-46-1-X-X.</para></numlitem>
+</numlist>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<note><para>It is recommended that the remaining RA(s) have an associated
+operative FCC (i.e., Left RA and Left FCC both operative). This will
+insure proper operation of the Autopilot Flight Director System (AFDS)
+takeoff and approach modes. </para></note>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="COLSPEC1" colwidth="1.00*"/>
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 2</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

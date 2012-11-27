@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1" key="UPS747MEL20070815102231" revdate="20080827" revnbr="5" sectnbr="12">
+<title>VHF Communications Systems &ndash; #2 or #3 Inoperative</title>
+<dispcond category="C" nbrins="3" nbrreq="2" operation="NO">
+<remarks>
+<para>Any in excess of those required by FAR may be inoperative provided
+it is not powered by the Emergency DC Bus, Battery Bus, Battery Direct
+Bus or the Transfer Bus and not required for emergency procedures.</para>
+<note><para>The left (Captain&rsquo;s) VHF radio must be operative.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815102232">
+<note><para>ACARS operative with HF and/or SATCOM operative.</para>
+</note>
+</operation>
+<placard>
+<para>Placard near Captains Audio Select Panel "R VHF (C VHF and ACARS)
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="5-1" key="UPS747MEL20070815101514" revdate="20080827" revnbr="5" sectnbr="33">
+<title>Cabin Altitude Primary Sensors</title>
+<dispcond category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO" btb="NO">
+<remarks>
+<para>One primary sensor may be inoperative provided the Cabin Altitude
+backup Sensor (CPCS BACKUP SENS) system is operative.</para>
+</remarks>
+<placard>
+<para>Placard "ONE CABIN ALT PRIMARY SENSOR - INOP" below Captain's
+PFD on P-1-1 panel.  Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-3-1" key="UPS747MEL20070815102645" revdate="20090528" revnbr="6" sectnbr="25">
+<title>Passenger Seats &ndash; Armrests WITH RECLINE MECHANISM</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="6"
+nbrreq="0">
+<remarks>
+<para>May be inoperative or missing and seat occupied provided:</para>
+<numlist>
+<numlitem><para>Armrest does not block any Emergency Exit,</para>
+</numlitem>
+<numlitem><para>Armrest does not restrict any passenger from access
+to the main aircraft aisle, and</para></numlitem>
+<numlitem><para>If armrest is missing, seat is secured in the full
+upright position.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard affected seat: "SEAT ARMREST INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090504131949">
+<numlist>
+<numlitem><para>Secure armrest(s) in retracted position or remove
+affected armrest.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

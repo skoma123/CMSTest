@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-5-2" key="UPS747MEL20070815104738" revdate="20080827" revnbr="5" sectnbr="46">
+<title>Ground Proximity Warning System (GPWS) &ndash; Windshear Alert
+Mode (Reactive) (Mode 7) &ndash; Predictive Operative</title>
+<dispcond category="C" downgrade="" maintenance="NO" nbrins="1"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Alternate procedures are established and used, and</para>
+</numlitem>
+<numlitem><para>Weather Radar System Windshear Alert Mode (Predictive)
+is operative.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104739">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>GND PROX SYS</para>
+<para>WINDSHEAR REAC</para>
+</note>
+<note><para>Decreasing Performance Windshear warnings will be inoperative.</para>
+</note>
+<numlist>
+<numlitem><para>Modify Approach Briefing accordingly for the existing
+meteorological conditions.</para></numlitem>
+<numlitem><para>Review/Brief WINDSHEAR, Avoidance, Precautions, Recognition
+and Recovery procedures, AOM Chapter 2.0.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "GPWS WINDSHEAR
+ALERT (MODE 7) INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

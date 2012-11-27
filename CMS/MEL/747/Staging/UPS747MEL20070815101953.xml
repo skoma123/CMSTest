@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="1-1" key="UPS747MEL20070815101953" revdate="20080827" revnbr="5" sectnbr="10">
+<title>Autopilot Systems &ndash; One Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 3a" maintenance="YES"
+nbrins="3" nbrreq="2" operation="YES">
+<remarks>
+<para>One may be inoperative  provided:</para>
+<numlist>
+<numlitem><para>Associated FCC SERVO circuit  breaker is opened and
+collared, </para></numlitem>
+<numlitem><para>Autopilot Flight Director System  is verified not
+in a single source  configuration before each  departure, and</para>
+</numlitem>
+<numlitem><para>Approach minimums do not  require its use.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101954">
+<numlist>
+<numlitem><para>If Autopilot engagement between 250 feet and 500 feet
+AGL is desired: the pilot will not engage the autopilot unless the
+Auto Flight Director System being used is fully operational.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101955">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected A/P ENGAGE switch  "INOP" or "MODE(S) INOP"
+and enter item  in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101956">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Open and collar the FCC servo circuit breaker (P7
+panel) for the inoperative FCC:</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec colname="col1" colwidth="219.30pt"/>
+<tbody>
+<row>
+<entry>
+<para>Left L FLT CONT CMPTR SERVO</para>
+<para>Center C FLT CONT CMPTR SERVO</para>
+<para>Right R FLT CONT CMPTR SERVO</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Before each departure, verify that status message
+A/P SINGLE SYS is not displayed. If A/P SINGLE SYS is displayed see
+MEL 22-10-1-3 for dispatch.</para></numlitem>
+</numlist>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

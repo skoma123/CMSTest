@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS747MEL20070815104052" revdate="20080827" revnbr="5" sectnbr="10">
+<title>Main Gear Wheel Tiebolts</title>
+<dispcond category="A" maintenance="YES" nbrins="288" nbrreq="272">
+<remarks>
+<para>One per wheel may be broken or missing provided:</para>
+<numlist>
+<numlitem><para>Affected wheel is removed, checked for broken parts
+or damage, and replaced if broken parts or damage is found,</para>
+</numlitem>
+<numlitem><para>Associated brake is checked for broken parts or damage,
+and is replaced or deactivated if broken parts or damage is found,</para>
+</numlitem>
+<numlitem><para>After each landing, wheel is inspected for additional
+broken or missing tiebolts, and</para></numlitem>
+<numlitem><para>Operations are limited to five departures before repairs
+are made.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "WHEEL(S)___
+TIEBOLT MISSING". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104053">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Remove the wheel and tire assembly, and inspect the wheel and
+brake assemblies for broken parts or damage. Inspect the wheel after
+each landing and replace the affected wheel after five departures.</para>
+<numlist>
+<numlitem><para>Deflate affected wheel to 40 psig or less.</para>
+<caution><para>YOU MUST DEFLATE THE TIRE BEFORE YOU REMOVE THE WHEEL
+AND TIRE ASSEMBLY. A DEFECTIVE WHEEL AND TIRE CAN BURST IF YOU DO
+NOT DEFLATE THE TIRE BEFORE YOU REMOVE THE ASSEMBLY. INJURY TO PERSONS
+OR DAMAGE TO EQUIPMENT CAN OCCUR.</para></caution>
+<note><para>Do not move the aircraft while the tire is deflated. If
+the aircraft is moved, the deflated tire and associated wheel, and
+the wheel and tire on the opposite side of the axle must be replaced.</para>
+</note>
+</numlitem>
+<numlitem><para>Remove each wheel with a broken, loose or missing
+tiebolt per AMM 32-45-01/401.</para></numlitem>
+<numlitem><para>Inspect the wheel for broken parts or damage.</para>
+</numlitem>
+<numlitem><para>If other bolts are broken, loose or missing, or if
+other areas of the wheel have been damaged, the affected wheel is
+to be replaced.</para></numlitem>
+<numlitem><para>Inspect the brake for broken or missing parts or damage
+(AMM 32-41-15/601). If parts are missing or damage is found, the affected
+brake is to be replaced or deactivated (MEL item 32-41-1-X).</para>
+</numlitem>
+<numlitem><para>Re-install the affected wheel per AMM 32-45-01/401.</para>
+</numlitem>
+<numlitem><para>Inflate tire to correct pressure per AMM 12-15-06/301.</para>
+</numlitem>
+<numlitem><para>After each landing (up to 5 maximum), inspect remaining
+tiebolts on the affected wheel (wheel removal not required) to ensure
+no other bolts are broken, loose or missing. The affected wheel is
+to be replaced immediately if discrepant tiebolts are found.</para>
+</numlitem>
+<numlitem><para>Replace the affected wheel after a <emphasis
+role="underline">maximum</emphasis> of 5 subsequent landings.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

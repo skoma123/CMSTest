@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1" key="UPS747MEL20070815101611" revdate="20100707" revnbr="8" sectnbr="51">
+<title>Packs</title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="2"
+operation="NO" btb="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated pack is selected OFF,</para></numlitem>
+<numlitem><para>Lower lobe cargo A/C FLOW RATE (if installed) remains
+OFF, and</para></numlitem>
+<numlitem><para>Associated Pack Flow Control &amp; Shutoff Valve is
+secured closed.</para></numlitem>
+</numlist>
+<note><para>Lower Lobe cargo A/C Flow Rate is installed on UPS aircraft.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815101612">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815101613">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+cargo compartment is prohibited.</para></numlitem>
+<numlitem><para>Increase flight plan fuel by 0.6% due to 2 packs operating
+in HI FLOW Mode.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard as instructed in DMP Procedure <refint
+refid="UPS747MEL20070815101614" reftype="DMP">21-51-1</refint>. Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101614">
+<numlist>
+<numlitem><para>Position the associated Bleed Air Control panel (P5)
+PACK selector OFF.</para></numlitem>
+<numlitem><para>Secure the affected Pack Flow Control and Shutoff
+Valve closed: </para>
+<numlist>
+<numlitem><para>Access valve through the air conditioning equipment
+bay access doors.</para></numlitem>
+<numlitem><para>Manually rotate crank arm on end of butterfly shaft
+until valve is closed.</para></numlitem>
+<numlitem><para>Run screw on end of crank into hole in the casting.</para>
+</numlitem>
+<numlitem><para>Manually select HI FLOW on remaining packs and advise
+flight crew that HI FLOW must remain selected to ensure that these
+packs will operate in High Flow Mode. The associated PACK_ advisory
+message may be displayed. </para></numlitem>
+<numlitem><para>If the affected Pack Flow Control and Shutoff Valve
+has an external maintenance canister installed containing a lockout
+device (a cap, a spring and a plug):</para>
+<numlist>
+<numlitem><para>Remove the existing pack flow control and shutoff
+valve plug, packing, spring and filter from the inoperative Pack Flow
+Control and Shutoff Valve per AMM 21-51-13. Retain all removed parts
+for later storage in the canister.</para></numlitem>
+<numlitem><para>Remove the perforated plug from the canister containing
+the lockout device (the canister is located near the end of the crank
+screw noted in step E. (1)).</para></numlitem>
+<numlitem><para>Remove the cap and spring from inside the canister.</para>
+</numlitem>
+<numlitem><para>Install the cap and spring into the filter cavity:
+The small end of cap fits into the inside diameter of the spring.
+Ensure the cap is seated at the bottom of the filter cavity.</para>
+</numlitem>
+<numlitem><para>Apply anti-seize compound to the threads on the perforated
+plug obtained from the canister.</para></numlitem>
+<numlitem><para>Install and tighten the perforated plug that was obtained
+from the canister: Tighten the plug to 60-70 pound-inches (6.78-7.90
+newton-meters).</para></numlitem>
+<numlitem><para>Install a lockwire on the perforated plug with the
+hole.</para></numlitem>
+<numlitem><para>Place the removed plug, packing, spring and filter
+(from step E. (1)) into the canister for storage and future restoration
+of the Pack Flow Control and Shutoff Valve function.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Position the Overhead Maintenance Panel (P461) LOWER
+CARGO COND FLOW RATE selector to "OFF".</para></numlitem>
+<numlitem><para>Placard adjacent to associated Pack selector "INOP
+- OFF" and PACK ___ FLOW CONTROL AND SHUTOFF VALVE INOP CLOSED". 
+Install Placard adjacent to Lower Lobe CARGO COND AIR FLOW RATE selector
+on Overhead Maintenance panel (P461) INOP OFF. Enter items in Aircraft
+Deferred Item Log.</para></numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101615"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_45"
+key="UPS747MEL20070815101616" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

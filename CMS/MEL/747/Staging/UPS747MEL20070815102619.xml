@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-2-1" key="UPS747MEL20070815102619" revdate="20090528" revnbr="6" sectnbr="11">
+<title>Flight Crew Seats Manual Adjustment System &ndash; Recline
+Systems</title>
+<dispcond category="A" maintenance="YES" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Affected seat is secured in an upright position,</para>
+</numlitem>
+<numlitem><para>Seat is acceptable to affected crewmember, and</para>
+</numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "______ SEAT
+RECLINE INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102620">
+<numlist>
+<numlitem><para>Ensure inoperable recline system is secured in an
+upright position acceptable to crewmember.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="10-1" key="UPS747MEL20070815101914" revdate="20090824" revnbr="7" sectnbr="61">
+<title>Zone Duct Overheat Protective Systems </title>
+<dispcond category="C" maintenance="YES" nbrins="5" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated Zone Duct Overheat Switch(es) is deactivated,
+and </para></numlitem>
+<numlitem><para>Associated zone trim air modulation valve is secured
+closed. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815101915">
+<note><para>The following EICAS message(s) may remain displayed:</para>
+<para>ZONE TEMP</para>
+</note>
+<numlist>
+<numlitem><para>When a zone trim air mod valve is secured closed,
+that zone's temperature will be determined by the temperature of pack
+outlet air.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard as instructed in DMP Procedure <refint
+refid="UPS747MEL20070815101916" reftype="DMP"> 21-61-10-1</refint
+>.  Enter item(s) in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101916">
+<numlist>
+<numlitem><para>For dispatch with the associated zone trim air modulation
+valve(s) secured closed:</para>
+<note><para>If the F/D zone overheat switch is affected, interchange
+the inoperative F/D zone duct overheat switch with an operative switch
+from the U/D zone or C/R zone.</para><para>If the Fwd Main Deck zone
+and/or Aft Main Deck zone overheat switch is affected, it is recommended
+to interchange the inoperative zone's duct overheat switch(es) with
+an operative switch (if available) from the U/D zone or C/R zone.</para>
+</note>
+<numlist>
+<numlitem><para>Open the P6 panel ZONE TEMP CONT AC and ZONE TEMP
+CONT DC circuit breakers.</para></numlitem>
+<numlitem><para>Location of zone trim air modulation valve(s);</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec align="left" colname="col1" colwidth="505.89pt"/>
+<tbody>
+<row>
+<entry>
+<para>Flight Deck STA 1114, WL 340, LBL 14  (Above Main Deck Ceiling)</para>
+<para>Upper Deck STA 1109, WL 340, LBL 13  (Above Main Deck Ceiling)</para>
+<para>Crew Rest:  STA 1111, WL 340, LBL 10  (Above Main Deck Ceiling)
+ </para>
+<para>Fwd Main Deck:  STA 1253, WL 170, RBL 94  (RH Wheel Well)</para>
+<para>Aft Main Deck:  L STA 1253, WL 170, LBL 94  (LH Wheel Well)</para>
+<para>Aft Main Deck: R STA 1253, WL 170, RBL 87  (RH Wheel Well)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Disconnect, cap, and stow electrical connector from
+affected valve(s).</para></numlitem>
+<numlitem><para>For each affected valve, install an Allen wrench in
+the valve's manual position shaft.  Rotate the shaft to the closed
+position as shown on the valve's position indicator.</para>
+<note><para>The Aft Main Deck zone is equipped with two trim air modulation
+valves (Left and Right).  If the Aft main Zone Duct Overheat Protective
+System is affected, secure both Aft Main Deck trim air mod valves
+closed.</para></note>
+</numlitem>
+<numlitem><para>Close the P6 panel ZONE TEMP CONT AC and ZONE TEMP
+CONT DC circuit breakers.</para></numlitem>
+<numlitem><para>If Crew Rest and/or Upper Deck zone(s) valve is secured
+closed, placard Cabin Temperature Selector (located in Upper Deck)
+"CREW REST TEMP CONTROL INOP and/or UPPER DECK TEMP CONTROL INOP".</para>
+</numlitem>
+<numlitem><para>If the Fwd Main Deck zone trim mod valve is secured
+closed, placard the FWD MAIN DECK TEMP selector on the Temperature
+Control panel (P5) "INOP".</para></numlitem>
+<numlitem><para>If the Aft Main Deck zone trim mod valves are secured
+closed, placard the AFT MAIN DECK TEMP selector on the Temperature
+Control panel (P5) "INOP".</para></numlitem>
+<numlitem><para>To prevent a failed zone duct overheat switch(es)
+from commanding the Master Trim Air Valve closed, deactivate the failed
+switch(es) as per maintenance steps 3A thru 3D below.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For dispatch with the Master Trim Air Valve remaining
+closed, placard the TRIM AIR switch on the Temperature Control panel
+(P5) "INOP - LEAVE OFF".</para></numlitem>
+<numlitem><para>To deactivate associated zone duct overheat switch(es):</para>
+<numlist>
+<numlitem><para>Position the Temperature Control panel (P5) TRIM AIR
+switch OFF.</para></numlitem>
+<numlitem><para>Access the associate zone duct overheat switch(es)
+located behind the ceiling panel in the air conditioning duct risers.
+ Actual location of each switch is listed below:</para>
+<table frame="none">
+<tgroup align="center" cols="4">
+<colspec colname="col1" colwidth="114.97pt"/>
+<colspec colname="col2" colwidth="108.41pt"/>
+<colspec colname="col3" colwidth="122.37pt"/>
+<colspec colname="col4" colwidth="129.74pt"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ZONE</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>STATION</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>WL</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>BL</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>F/D</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>690</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>385</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>L23</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>U/D</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>702</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>387</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>L7</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>C/R</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>817</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>376</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>L11</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Fwd M/D</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>910</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>342</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>R8</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Aft M/D</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1292</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>343</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>L1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Disconnect, cap, and stow electrical connector from
+affected switch(es).</para></numlitem>
+<numlitem><para>Position the Temperature Control panel (P5): TRIM
+AIR switch ON.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If a trim air modulation valve is secured closed,
+status message ZONE TEMP may remain displayed.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

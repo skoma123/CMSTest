@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="8-2" key="UPS747MEL20070815102443" revdate="20100707" revnbr="8" sectnbr="51">
+<title>Captain/First Officer Push-to-Talk (PTT) Switches &ndash; Flight
+Crew Audio Control Panel PTT Switches</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated control wheel PTT switch is operative,
+and</para></numlitem>
+<numlitem><para>Affected switch is verified inoperative open.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<!--Per C.R.4337 Tim 1/20/10 for Rev 8-->
+<para>Placard affected Panel PTT switch "PTT SW INOP OPEN" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102444">
+<numlist>
+<numlitem><para>Verify that the affected ACP PTT switch is inoperative
+open. </para>
+<numlist>
+<numlitem><para>Push the PA transmitter select switch on the associated
+ACP and ensure the PA MIC light is illuminated.</para></numlitem>
+<numlitem><para>Without pressing any PTT, speak into the associated
+microphone and determine if voice transmission can be heard over the
+PA system. If no voice is heard, the switch is in the open position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

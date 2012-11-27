@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2-3-1" key="UPS747MEL20070815102842" revdate="20090824" revnbr="7" sectnbr="14">
+<effect effrg="578579" efftext=""></effect>
+<title>Main Deck Cargo Smoke Detector System Detectors &ndash; Freighter
+without Draw-Through Smoke Detection System (Detector of Opposite
+Loop Inoperative)</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="77"
+nbrreq="35" operation="YES" btb="YES">
+<remarks>
+<para>Multiple detectors within a smoke zone(s) (Forward, Mid, and/or
+Aft) may be inoperative provided:</para>
+<numlist>
+<numlitem><para>All inoperative detectors per smoke zone are of the
+same loop type (loop A or B), and</para></numlitem>
+<numlitem><para>All detectors of opposite loop type are verified to
+be operative before each departure.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747-400MELCDL20080701094314">
+<note><para>The following EICAS message(s) may be dispalyed:</para>
+<para>MD CGO__LP__</para>
+</note>
+<numlist>
+<numlitem><para>Push and hold the flight deck FIRE/OVHT TEST button
+on the overhead panel.</para></numlitem>
+<numlitem><para>Verify proper system indications followed by EICAS>FIRE
+TEST PASS message accompained by the status message associated with
+the inoperative smoke detection loop(s).</para></numlitem>
+<numlitem><para>Release the FIRE/OVHT TEST button.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Install Placard below Captain's PFD on P-1-1 panel "MULTIPLE
+MAIN DECK CARGO DECK SMOKE DETECTORS IN____ (fwd, mid or aft) INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080701095037">
+<title>MAIN DECK CARGO SMOKE DETECTOR SYSTEM DETECTORS</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify integrity of main deck cargo smoke detection
+system as follows:</para>
+<numlist>
+<numlitem><para>Close circuit breakers (MM 26-14-00/501).</para>
+</numlitem>
+<numlitem><para>Select either one of the following switches to the
+ENABLE position:</para>
+<numlist>
+<numlitem><para>S2089 Ground Test Enable Switch (P461).</para>
+</numlitem>
+<numlitem><para>S2090 Remote Test Enable Switch (RCDU) at STA 400
+in the left Main Equipment Center.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Set CDU to the CMC main menu and press LINE SELECT
+key for GROUND TEST.</para></numlitem>
+<numlitem><para>When screen displays ATA name and chapter, select
+26 FIRE PROTECTION SYSTEM.</para></numlitem>
+<numlitem><para>Press LINE SELECT key to initiate FIRE/OVHT TEST.
+TEST IN PROGRESS will display for the duration of the test. Upon completion
+of the test, TEST PASSED or FIRE TEST FAIL will be displayed on the
+CDU.</para></numlitem>
+<numlitem><para>If TEST PASSED is displayed, system integrity is verified.</para>
+</numlitem>
+<numlitem><para>If FIRE TEST FAIL is displayed:</para>
+<note><para>FIRE TEST FAIL may appear because of a fault in a different
+fire/overheat detection system.</para></note>
+<numlist>
+<numlitem><para>Verify the following EICAS/CMC messages do not appear:</para>
+</numlitem>
+</numlist>
+<table>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="620.00px"?>
+<colspec colname="col1" colwidth="0.84*"/>
+<colspec colname="col2" colwidth="1.16*"/>
+<tbody>
+<row>
+<entry>
+<para>FIRE MAIN DECK</para>
+</entry>
+<entry>
+<para>FIRE MN DK MID</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>FIRE MAIN DECK MID</para>
+</entry>
+<entry>
+<para>FIRE MN DK AFT</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>FIRE MAIN DECK AFT</para>
+</entry>
+<entry>
+<para>CARGO FIRE SIGNAL> MM-A CARD FAIL</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>FIRE MN DK FWD</para>
+</entry>
+<entry>
+<para>CARGO FIRE SIGNAL> MM-B CARD FAIL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>If the above EICAS/CMC messages appear, seek corrective action: <emphasis
+role="bold">dispatch is not allowed.</emphasis></para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Check for the following EICAS status messages:</para>
+<table>
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="494.00px"?>
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.01*"/>
+<tbody>
+<row>
+<entry>
+<para>CGO DET 1 MN DK*</para>
+</entry>
+<entry>
+<para>CGO DET 9 MN DK**</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 2 MN DK*</para>
+</entry>
+<entry>
+<para>CGO DET 10 MN DK***</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 3 MN DK*</para>
+</entry>
+<entry>
+<para>CGO DET 11 MN DK***</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 4 MN DK*</para>
+</entry>
+<entry>
+<para>CGO DET 12 MN DK***</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 5 MN DK*</para>
+</entry>
+<entry>
+<para>CGO DET 13 MN DK***</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 6 MN DK**</para>
+</entry>
+<entry>
+<para>CGO DET 14 MN DK***</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 7 MN DK**</para>
+</entry>
+<entry>
+<para>CGO DET 15 MN DK***</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>CGO DET 8 MN DK**</para>
+</entry>
+<entry>
+<para>CGO DET 16 MN DK***</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>For each of the above EICAS status messages displayed,
+dispatch is allowed provided:</para><para>* The Forward zone (sub-zones
+1 through 5) remain empty for above EICAS status message(s) listed
+and followed by one asterisk (*).</para>
+<para>** The Mid zone (sub-zones 6 through 9) remain empty for above
+EICAS status message(s) listed and followed by two asterisks (**).</para>
+<para>*** The Aft zone (sub-zones 10 through 16) remain empty for
+above EICAS status message(s) listed and follwed by three asterisks
+(***).</para>
+<graphic chapnbr="26" chg="U" key="UPS747-400MELCDL20080702110226"
+revdate="20080827" revnbr="05" sectnbr="14">
+<sheet chg="U" gnbr="747-400_DMP_CH_26_Page_4"
+key="UPS747-400MELCDL20080702110317" revdate="20080827" revnbr="05"
+sheetnbr="001"></sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

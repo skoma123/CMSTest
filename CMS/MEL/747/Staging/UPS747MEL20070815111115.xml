@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="2" chapnbr="78" chg="U" key="UPS747MEL20070815111115" qtyreq="48" revdate="20100707" revnbr="8" sectnbr="31">
+<title>Fan Thrust Reverser Blocker Doors</title>
+<remarks>
+<numlist>
+<numlitem><para>For GE, one per reverser half on one engine (maximum
+of two total) may be missing provided the associated reverser is deactivated
+(refer to MEL Item <refint refid="UPS747MEL20070815105646" reftype="MEL"
+>78-31-1-1</refint>) and performance limited weights are reduced by
+the following: </para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec colname="col1" colwidth="0.66*"/>
+<colspec colname="col2" colwidth="1.34*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>800 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(363 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En&nbsp;route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1600 lb</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>(726 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<!--Per C.R.4295 R. Keating 12/15/09 Rev 8-->
+<numlitem><para>Additional Deferral Required &ndash; Thrust Reverser.</para>
+</numlitem>
+</numlist>
+</remarks>
+<graphic chapnbr="78" chg="U" confnbr="2" key="UPS747MEL20070815111116"
+revdate="20080827" revnbr="5" sectnbr="31">
+<sheet chg="U" gnbr="747-400_CDL_CH_78_Page_2"
+key="UPS747MEL20070815111117" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</cdlblk>

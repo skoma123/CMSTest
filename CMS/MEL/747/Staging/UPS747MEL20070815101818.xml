@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="7-2" key="UPS747MEL20070815101818" revdate="20090824" revnbr="7" sectnbr="58">
+<title>Equipment Cooling Ground Exhaust Valve </title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative deactivated closed provided:</para>
+<numlist>
+<numlitem><para>Equipment cooling is operated with one fan cooling,</para>
+</numlitem>
+<numlitem><para>Remaining fan is operative, and</para></numlitem>
+<numlitem><para>For operation on the ground above 85&deg;F OAT (29&deg;C)
+at least one pack is operative.</para></numlitem>
+</numlist>
+<note><para>Forward cargo heating will not be available with one fan
+deactivated. </para></note>
+</remarks>
+<operation key="UPS747MEL20070815101819">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>EE CLNG GND EXH</para>
+</note>
+<numlist>
+<numlitem><para>Ensure at least one pack is operative for operation
+on the ground above 85&deg;F OAT (29&deg;C).</para></numlitem>
+<numlitem><para>If Supply Fan is deactivated, status message EE CLNG
+SUP FAN may remain annunciated.</para></numlitem>
+<numlitem><para>If Exhaust Fan is deactivated, status message EE CLNG
+EXH FAN may remain annunciated.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101820">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+lower forward cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Install Placards adjacent to the Equipment Cooling selector
+" GND EXH VLV INOP CLOSED" and "EXH FAN INOP or SUPPLY FAN INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101821">
+<numlist>
+<numlitem><para>To deactivate Ground Exhaust Valve closed with Supply
+Fan or Exhaust Fan deactivated:</para>
+<numlist>
+<numlitem><para>Position the Temperature Control panel (P5) EQUIP
+COOLING selector to STBY.</para></numlitem>
+<numlitem><para>Open the P414 panel EQUIP COOL CONT VLV GND circuit
+breaker. </para>
+<note><para>The shorting wire and plug in the following steps is UPS
+P/N 747-21-002-101, if available.</para></note>
+</numlitem>
+<numlitem><para>Fabricate a 3 to 4 inch shorting wire from type 6A
+(BMS 13-60 Type 1 or BMS 13-48 Type 10) wire and two P/N BACC47CN-1
+(or P/N BACC47CN1S) pin contacts.</para></numlitem>
+<numlitem><para>Obtain shorting plug P/N BACC45FN12-12P and, using
+fabricated shorting wire, short pin numbers 1 &amp; 2 on the shorting
+plug.</para></numlitem>
+<numlitem><para>Disconnect electrical connector from Ground Exhaust
+Valve located in the forward cargo floor area at STA 550.</para>
+</numlitem>
+<numlitem><para>Install shorting plug, P/N BACC45FN12-12P with shorting
+wire attached, on the electrical connector and stow.</para>
+<note><para>The shorting wire is installed so EQUIP COOLING cautionary
+message and EE CLNG GND EXH status message will not display due to
+the disabled Ground Exhaust Valve.</para></note>
+</numlitem>
+<numlitem><para>Close the P414 panel EQUIP COOL CONT VLV GND circuit
+breaker. </para></numlitem>
+<numlitem><para>Open and collar the P414 panel EQPT COOLING SUPPLY
+FAN or the P415 panel EQPT COOLING EXHAUST FAN circuit breaker as
+appropriate.</para>
+<note><para>Cooling system re-configures to closed-loop mode within
+30 seconds. </para></note>
+</numlitem>
+<numlitem><para>Determine Ground Exhaust Valve position. If not already
+closed, manually position the valve in the closed position:</para>
+<numlist>
+<numlitem><para>Insert 3/8 inch drive wrench into the ground exhaust
+valve manual drive collar located on aircraft skin adjacent to valve
+flapper door. </para></numlitem>
+<numlitem><para>Push manual drive collar in approximately 3/8 inch
+and rotate counter-clockwise to close valve.</para></numlitem>
+<numlitem><para>Ensure valve closed by visual check of flapper position.</para>
+<note><para>If Supply Fan is deactivated, status message EE CLNG SUP
+FAN may  remain annunciated.</para></note>
+<note><para>If Exhaust Fan is deactivated, status message EE CLNG
+EXH FAN may remain annunciated</para></note>
+<note><para>Temperature gradients are to be expected during these
+inoperative conditions. Predicted cargo compartment temperatures (which
+may vary) when forward cargo heat is inoperative:</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<table>
+<tgroup align="center" cols="1">
+<colspec colname="col1" colwidth="509.17pt"/>
+<tbody>
+<row>
+<entry align="center">
+<para>Ground operation &ndash; steady state temperatures with A/C
+Packs ON </para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="261.03pt"/>
+<colspec colname="col2" colwidth="247.32pt"/>
+<tbody>
+<row>
+<entry align="center">
+<para>Airport OAT</para>
+<para>&deg;F/&deg;C</para>
+</entry>
+<entry align="center">
+<para>FWD Cargo Compartment</para>
+<para>Temperature &deg;F/&deg;C</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>45/7</para>
+</entry>
+<entry align="center">
+<para>73/23</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>59/15</para>
+</entry>
+<entry align="center">
+<para>87/31</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>80/27</para>
+</entry>
+<entry align="center">
+<para>98/37</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2" key="UPS747MEL20070815102711" revdate="20080827" revnbr="5" sectnbr="40">
+<title>Lavatory Waste Receptacle Access Doors/ Covers</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated waste container is empty,</para></numlitem>
+<numlitem><para>Receptacle access is secured to prevent waste introduction
+into the receptacle,</para></numlitem>
+<numlitem><para>Lavatory is used only by crewmembers, and</para>
+</numlitem>
+<numlitem><para>Associated lavatory entrance door is locked closed
+and placarded, INOPERATIVE &ndash; DO NOT ENTER.</para></numlitem>
+</numlist>
+<note><para>These provisions are not intended to prohibit lavatory
+use or inspections by crewmembers.</para></note>
+</remarks>
+<placard>
+<para>Placard adjacent to the waste access door "DO NOT USE" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102712">
+<numlist>
+<numlitem><para>Ensure waste receptacle is empty.</para></numlitem>
+<numlitem><para>Block access door with tape.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

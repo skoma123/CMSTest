@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-1" key="UPS747MEL20070815103320" revdate="20100707" revnbr="8" sectnbr="15">
+<!--Per C.R.4344 Tim 1/21/10 Rev 8-->
+<effect chg="U" effrg="580580" efftext=""></effect>
+<title>FUEL SCAVENGE PUMP (ELECTRIC) &ndash; CENTER TANK EMPTY</title>
+<dispcond attr-rev="NO" category="C" maintenance="YES" nbrins="1"
+nbrreq="0">
+<remarks>
+<para>May be inoperative deactivated provided center tank remains
+empty.</para>
+</remarks>
+<operation key="UPSB747-400MELCDL20100215132447">
+<note><para>The EICAS status message FUEL SCAV PUMP will be displayed
+and latched when the fuel scavenge pump is commanded on.</para></note>
+<note><para>The EICAS advisory message >SCAV PUMP ON may be displayed
+on the ground (due to failure of the pump low pressure indicating
+switch S314).</para></note>
+</operation>
+<placard>
+<para>Placard below Captain's PFD on P-1-1 panel: "SCAVENGE PUMP INOP".
+Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20100215134930">
+<numlist>
+<numlitem><para>Deactivate the inoperative pump by opening and collaring
+the SCAV PUMP circuit breaker located on the P414 panel (row M2).</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

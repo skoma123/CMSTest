@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-2-2-1" key="UPS747MELCDL20080402135244" revdate="20080827" revnbr="5"
+sectnbr="61">
+<effect effrg="578579" efftext=""></effect>
+<title>Flight Crew/Supernumerary Escape Devices &ndash; Escape Harnesses
+Freighter without Draw-Through Smoke Detection System Both Upper Deck
+Slides are Operative</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative or missing provided:</para>
+<numlist>
+<numlitem><para>Both Upper Deck Door/Slides are operative, and</para>
+</numlitem>
+<numlitem><para>Inoperative escape harnesses are removed.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747-400MELCDL20080628140041">
+<numlist>
+<numlitem><para>Ensure flight crew and supernumeraries are briefed
+on the number of harnesses inoperative and emergency operation of
+Upper Deck Door/Slides.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below captain's PFD on P-1-1 panel stating: "____# ESCAPE
+HARNESS INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747-400MELCDL20080628140327">
+<numlist>
+<numlitem><para>Remove inoperative escape harness from stowage box.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

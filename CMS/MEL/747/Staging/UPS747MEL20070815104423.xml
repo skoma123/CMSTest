@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1-1" key="UPS747MEL20070815104423" revdate="20080827" revnbr="5" sectnbr="43">
+<title>Position Lights (Wing Tips and Tail)</title>
+<dispcond category="C" nbrins="6" nbrreq="3" operation="NO">
+<remarks>
+<para>For night operations, all except the following minimum may be
+inoperative: </para>
+<numlist>
+<numlitem><para>One stationary red wing tip bulb,</para></numlitem>
+<numlitem><para>One stationary green wing tip bulb, and</para>
+</numlitem>
+<numlitem><para>One stationary white tail bulb.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near Nav Light Switch: "___ NAV LIGHT(S) INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

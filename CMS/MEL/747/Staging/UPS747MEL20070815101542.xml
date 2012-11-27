@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-1" key="UPS747MEL20070815101542" revdate="20090824" revnbr="7" sectnbr="44">
+<title>Aft Cargo Heating System &ndash; Two Valve Installation </title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO" btb="YES">
+<remarks>
+<para>May be inoperative provided one valve (control or shutoff) is
+secured closed.</para>
+</remarks>
+<limitation key="UPS747MEL20070815101543">
+<numlist>
+<numlitem><para>Carriage of animals and perishables in associated
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to Aft Cargo Heat "INOP OFF".  Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815101544">
+<numlist>
+<numlitem><para>Position the Temperature Control panel (P5) AFT CARGO
+HT switch OFF.</para></numlitem>
+<numlitem><para>Advise dispatch that aft cargo compartment will be
+unheated. </para></numlitem>
+<numlitem><para>Open and collar the P415 panel AFT CARGO HEAT PWR
+and the P7 panel CARGO HEAT AFT circuit breakers.</para>
+<note><para>As an alternate method to deactivating circuit breakers,
+electrical connectors on the valves to be deactivated may be disconnected,
+capped, and stowed.</para></note>
+</numlitem>
+<numlitem><para>TWO VALVE INSTALLATION: Deactivate control valve or
+override valve in the closed position.</para>
+<numlist>
+<numlitem><para>Access for both valves is in right body landing gear
+wheel well area, inboard bulkhead. Override valve is against aft bulkhead.</para>
+</numlitem>
+<numlitem><para>Check that either the control or override valve is
+closed. Manually position one of the valves in the closed position
+using the manual operating handle on the valve position indicator.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101545"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_41"
+key="UPS747MEL20070815101546" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+<graphic chapnbr="21" chg="U" key="UPS747MEL20070815101547"
+revdate="20080827" revnbr="5">
+<sheet chg="U" gnbr="747-400_DMP_CH_21_Page_42"
+key="UPS747MEL20070815101548" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

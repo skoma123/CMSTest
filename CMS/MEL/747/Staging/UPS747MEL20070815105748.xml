@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="80" chg="U" itemnbr="3" key="UPS747MEL20070815105748" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Auto Start Systems</title>
+<dispcond category="C" maintenance="NO" nbrins="4" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided Manual Start System is operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815105749">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>AUTOSTART SYS ___</para>
+<para>ENG ___ AUTOSTART</para>
+</note>
+<numlist>
+<numlitem><para>For ground start, Autostart may be used on the unaffected
+engine(s).  Manual start procedures must be used for the affected
+engine(s) and may be used for all engines.</para></numlitem>
+<numlitem><para>Should an affected engine not start on the ground
+using manual procedures, perform a modified manual start procedure
+as follows:</para>
+<numlist>
+<numlitem><para>Select Standby Ignition Switch to either STBY 1 or
+STBY 2. </para></numlitem>
+<numlitem><para>Start engine(s) by manual procedures.</para></numlitem>
+<numlitem><para>After engine start is confirmed, Select Standby Ignition
+Switch to NORM.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>After all engines are started, select the Autostart
+switch to OFF.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to associated AUTOSTART switch:  "AUTOSTART
+SYSTEM ___ INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="2-0-1" key="UPS747MEL20070815102948" revdate="20100707" revnbr="8" sectnbr="18">
+<!--Per C.R.4342 Tim 1/21/10 for Rev 8. Tim changed this after reviewing changes. Sent email 3-23-10-->
+<effect chg="U" effrg="578583" efftext=""></effect>
+<title>Center Duct Leak Detection Systems</title>
+<dispcond category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS747MEL20070815102949">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BLD DUCT LEAK C</para>
+</note>
+<caution><para>RECALL ITEMS FOR CABIN ALTITUDE (RAPID DEPRESSURIZATION)
+NON-NORMAL PROCEDURES ARE MODIFIED.</para></caution>
+<numlist>
+<numlitem><para>With the entire system inoperative, use the modified
+CABIN ALTITUDE (RAPID DEPRESSURIZATION) Non-Normal Procedure Listed
+in AOM Chapter 2.1 and QRH.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to FIRE/OVHT Test Switch: "CTR DUCT LEAK DET
+SYS INOP". Enter Item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

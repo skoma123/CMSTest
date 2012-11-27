@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1" key="UPS747MEL20070815104411" revdate="20080827" revnbr="5" sectnbr="41">
+<title>Wing Illumination Light</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided ground deicing procedures do not
+require their use.</para>
+</remarks>
+<operation key="UPS747MEL20070815104412">
+<note><para>UPS does not require the use of wing illumination lights
+for deicing procedures.</para></note>
+</operation>
+<placard>
+<para>Placard near Wing illumination Light Switch: "L or R WING ILLUM
+LIGHT(S) INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-1" key="UPS747MEL20070815104018" revdate="20080827" revnbr="5" sectnbr="51">
+<title>Master Caution/ Warning Systems &ndash; Master Warning Lights
+(Pilot&rsquo;s Glare Shield)</title>
+<dispcond category="C" nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative provided master warning aural systems
+and all discrete warning lights are operative.</para>
+</remarks>
+<operation key="UPS747MEL20070815104019">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>AURAL SYNTH CARD</para>
+<para>AURAL WARN SPKR</para>
+</note>
+</operation>
+<placard>
+<para>Placard near affected Master Warning Light: "MASTER WARNING
+LIGHT INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

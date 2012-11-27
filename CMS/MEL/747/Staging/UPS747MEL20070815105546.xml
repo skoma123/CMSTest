@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="74" chg="U" itemnbr="1" key="UPS747MEL20070815105546" revdate="20080827" revnbr="5" sectnbr="00">
+<title>Ignition Systems</title>
+<dispcond category="C" maintenance="NO" nbrins="8" nbrreq="4"
+operation="YES" btb="NO">
+<remarks>
+<para>One per engine may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Nacelle anti-ice system on the associated engine is
+operative, </para></numlitem>
+<numlitem><para>Ignition Selector is positioned to ensure ignition
+to all engines, and</para></numlitem>
+<numlitem><para>For PW &amp; RR, No.1 ignition system is verified
+to operate on at least two engines prior to each flight.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815105547">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>ENG ___ IGNITOR ___</para>
+</note>
+<numlist>
+<numlitem><para>To ensure Ignition to all engines, after start, select
+NORM on STBY Ignition Selector and Select BOTH on Auto Ignition Selector.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "___ ENG IGN
+SYS 1 or 2 INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

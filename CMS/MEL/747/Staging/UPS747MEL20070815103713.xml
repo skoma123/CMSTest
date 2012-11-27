@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="3-1-1" key="UPS747MEL20070815103713" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Demand Pump Selector &ndash; AUTO Position</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>If the affected pump is either No. 1 and/or No. 4,
+it remains ON during takeoff and landing, and</para></numlitem>
+<numlitem><para>Verify OFF and ON positions are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103714">
+<note><para></para><para>The following EICAS message(s) may be displayed:</para>
+<para>HYD PRESS DEM ___</para>
+</note>
+<numlist>
+<numlitem><para>If the AUTO position is inoperative on either the
+No. 1 or No. 4 system, move the demand pump selector(s) to the ON
+Position for takeoff and landing. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard the associated Demand Pump Selector AUTO Position: "AUTO
+INOP". Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815103715">
+<numlist>
+<numlitem><para>AUTO Position INOP:</para>
+<numlist>
+<numlitem><para>After engine start for affected pump, verify that
+associated system pressure with Demand Pump in ON position, and no
+other pumps running, is 2800-3200 psi.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

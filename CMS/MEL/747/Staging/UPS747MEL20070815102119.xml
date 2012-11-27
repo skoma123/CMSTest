@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-8-2-1" key="UPS747MEL20070815102119" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; L NAV Switch</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided procedures do not require their
+use.</para>
+</remarks>
+<operation key="UPS747MEL20070815102120">
+<numlist>
+<numlitem><para>Use HDG SEL to follow the desired course. LNAV limits
+bank angle to comply with maneuvering limitations; HDG SEL does not.
+When operating at MAX altitude using a roll mode other than LNAV,
+fly at least 10 kts. above minimum maneuver amber speed band and limit
+bank angle to 10 degrees.</para></numlitem>
+<numlitem><para>HDG SEL and HDG HOLD must be operative.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MELCDL20080331095703">
+<numlist>
+<numlitem><para>GPS, RNAV (GPS), and LOC BC approaches are prohibited.</para>
+</numlitem>
+<numlitem><para>RNP operations prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard L NAV Switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

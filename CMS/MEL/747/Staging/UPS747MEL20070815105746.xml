@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="80" chg="U" itemnbr="2" key="UPS747MEL20070815105746" revdate="20080827" revnbr="5" sectnbr="11">
+<title>Starter Switch Systems</title>
+<dispcond category="C" maintenance="NO" nbrins="4" nbrreq="0"
+operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided alternate start procedures are used.</para>
+</remarks>
+<operation key="UPS747MEL20070815105747">
+<numlist>
+<numlitem><para>Select Autostart Switch to OFF.</para></numlitem>
+<numlitem><para>Perform engine start(s) by manual procedure with the
+following exceptions:</para>
+<numlist>
+<numlitem><para>Manually pull and, if necessary, hold the start  switch
+in the start position until N<sub>2</sub> reaches 50%.</para></numlitem>
+<numlitem><para>When N<sub>2</sub> reaches 50%, manually push the
+engine Start Switch into the OFF position.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Select Autostart switch to ON if desired.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to associated START switch on the Engine Ignition
+and Start Control panel (P5):  "AUTO CUTOUT INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

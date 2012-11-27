@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-3-2" key="UPS747MEL20070815103036" revdate="20100707" revnbr="8" sectnbr="23">
+<!--Per C.R.4342 Tim 1/21/10 for Rev 8-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Lower Cargo Compartment Fire Extinguisher System &ndash; Four
+Bottle System &ndash; Bottles C and D</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>Both bottles and associated indications may be inoperative provided: </para>
+<numlist>
+<numlitem><para>Aircraft is operated pressurized,</para></numlitem>
+<numlitem><para>For Combi, procedures are established and used to
+verify main deck cargo compartment remains empty or contains only
+empty cargo handling equipment, ballast (ballast may be loaded in
+ULDs), or Fly Away Kits, and </para></numlitem>
+<numlitem><para>Flight remains within 30 minutes of landing at a suitable
+airport.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815103037">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BTL LOW CARGO ___</para>
+</note>
+<numlist>
+<numlitem><para>Operate Aircraft in pressurized condition.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815103038">
+<numlist>
+<numlitem><para>Flight remains within 30 minutes of landing at a suitable
+airport.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near discharge switch on fire control module located
+on the pilots overhead panel: "BOTTLE _____ INOP". Enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

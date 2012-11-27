@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-1-1" key="UPS747MEL20070815102642" revdate="20090528" revnbr="6" sectnbr="25">
+<title>Passenger Seats &ndash; Recline Mechanism</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="0">
+<remarks>
+<para>May be inoperative and seat occupied provided seat is secured
+in the full upright position.</para>
+</remarks>
+<placard>
+<para>Placard affected seat: "SEAT RECLINE MECHANISM INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB747-400MELCDL20090504115714">
+<numlist>
+<numlitem><para>Secure affected seat in full upright position.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

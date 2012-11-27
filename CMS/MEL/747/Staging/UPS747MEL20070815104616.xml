@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="2-1-2" key="UPS747MEL20070815104616" revdate="20100707" revnbr="8" sectnbr="31">
+<title>ILS Antenna Switching &ndash; Glide Slope (GS) Two or Three
+Inoperative</title>
+<dispcond category="B" downgrade="CATEGORY 1" maintenance="NO" nbrins="3"
+nbrreq="0" operation="YES" btb="NO">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+use of the associated ILS Glide Slope receiver.</para>
+<note><para>If Left Glide Slope switching is inoperative, GPWS Mode
+5 is considered inoperative.</para></note>
+<!--Per C.R.4329 Tim 1/20/10 Rev 8-->
+<note><para>Additional Deferral Required &ndash; GPWS MODE 5.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815104617">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>G/S ANTENNA ___</para>
+<para>GND PROX SYS</para>
+</note>
+<numlist>
+<numlitem><para>Confirm that the associated GS receiver is not required
+for planned approach minimums.</para></numlitem>
+<numlitem><para>If the left GS is inoperative, GPWS mode 5 (GS Deviation)
+will be inoperative. The flight crew should observe the following:</para>
+<numlist>
+<numlitem><para>Flight crew should be vigilant monitoring aircraft
+altitude and flight path.</para></numlitem>
+<numlitem><para>Flight crew should use all systems available to include
+the use of autopilot, auto land, ILS, FMCS to include RNAV/GPS.</para>
+</numlitem>
+<numlitem><para>Modify Approach Briefing appropriate for the existing
+meteorological conditions.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104618">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "___ GLIDE
+SLOPE(S) INOP". Enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815104619">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="COLSPEC1" colwidth="1.00*"/>
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>3</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

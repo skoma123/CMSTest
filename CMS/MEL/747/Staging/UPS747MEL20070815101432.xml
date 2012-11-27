@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-2" key="UPS747MEL20070815101432" revdate="20100707" revnbr="8" sectnbr="32">
+<title>Positive Pressure Relief Valves </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="YES" btb="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Flight is conducted in an unpressurized configuration,</para>
+</numlitem>
+<numlitem><para>Procedures are established and used to verify main
+deck and lower lobe cargo compartments remain empty, or contain only
+empty cargo handling equipment, ballast (ballast may be loaded in
+ULDs), or Fly Away Kits,</para></numlitem>
+<numlitem><para>Extended overwater flight is prohibited, and</para>
+</numlitem>
+<numlitem><para>Crew rests, crew workstations and passenger business
+centers with a door and smoke detection system (except the Combi Enlarged
+Lav/Business Center) are empty, locked closed and placard INOPERATIVE
+- DO NOT ENTER.</para></numlitem>
+</numlist>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815101433">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>___ PRESS RELIEF</para>
+<para>PACK ___</para>
+</note>
+<numlist>
+<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+<numlitem><para>Equipment cooling may be operated in NORM or STBY.</para>
+</numlitem>
+<numlitem><para>If operation with Equipment Cooling in OVRD mode becomes
+necessary inflight, an unpressurized configuration yields insufficient
+equipment cooling.  Flight time must therefore be limited to 60 minutes
+when in OVRD mode.</para></numlitem>
+<numlitem><para>A minimum of two pack operation is required for unpressurized
+flight.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101434">
+<numlist>
+<numlitem><para>Flight will be unpressurized.</para></numlitem>
+<numlitem><para>Flight is limited to an en&nbsp;route altitude of
+10,000 feet with supernumeraries on board.</para></numlitem>
+<numlitem><para>Main cargo deck and lower cargo holds remain empty,
+or contain only empty cargo handling equipment.</para></numlitem>
+<numlitem><para>Flight must be within 60 minutes of a suitable landing
+airport. </para></numlitem>
+<numlitem><para>Extended overwater flight is prohibited.</para>
+</numlitem>
+<numlitem><para>Crew rests area is empty, and secured closed.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Cabin Pressurization Controller Selector "POSITIVE PRESSURE
+RELIEF VALVE(S) INOP".  Enter item in Aircraft Deferred Item Log.</para>
+<para>Placard Manual Outflow Valve Switch "MAN L and MAN R INOP".</para>
+<para>Placard the Upper Deck Crew Rest compartment - "COMPARTMENT
+INOPERATIVE - DO NOT ENTER".</para>
+</placard>
+<maintenance key="UPS747MEL20070815101435">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure .<refint
+refid="UPS747MEL20070815101345"> 21-31-1-2</refint></para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

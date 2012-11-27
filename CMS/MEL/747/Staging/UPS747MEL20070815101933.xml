@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-0-2" key="UPS747MEL20070815101933" revdate="20100707" revnbr="8" sectnbr="62">
+<title>Pack Coolant (Inlet/Exit Doors) Systems </title>
+<dispcond category="C" maintenance="YES" nbrins="3" nbrreq="2"
+operation="YES" btb="YES">
+<remarks>
+<para>One may be inoperative for an inoperative pack provided associated
+inlet and exit doors are secured closed.</para>
+</remarks>
+<operation key="UPS747MEL20070815101934">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>PACK ___</para>
+</note>
+<numlist>
+<numlitem><para>Packs 2 and 3 provide conditioned air to forward and
+aft lower lobe cargo compartments.</para></numlitem>
+<numlitem><para>If pack 2 is not used, the aft lower lobe cargo compartment
+may still be heated by the aft cargo heating system.</para></numlitem>
+<numlitem><para>If pack 3 is not used, the forward lower lobe cargo
+compartment may still be heated to a limited extent by the equipment
+cooling exhaust air. </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815101935">
+<!--Per C.R.4321 Tim 1/19/10 for Rev 8-->
+<numlist>
+<numlitem><para>Increase flight plan fuel by 0.6% due to 2 packs operating
+in HI Flow mode.</para></numlitem>
+<numlitem><para>Carriage of animals or perishables in associated lower
+cargo compartment is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to associated PACK selector "INLET/EXIT COOLING
+DR INOP".  Enter item in Aircraft Deferred Item Log.</para>
+<para>Placard adjacent to associated PACK selector "INOP OFF".</para>
+<para>Placard adjacent to Lower Lobe Cargo Cond Air Flow Rate selector
+"INOP OFF".</para>
+</placard>
+<maintenance key="UPS747MEL20070815101936">
+<numlist>
+<numlitem><para>If an inlet/exit cooling door(s) cannot be positioned
+as necessary; or, if a pack is inoperative and its associated inlet/exit
+door(s) is also inoperative, perform the following:</para>
+<numlist>
+<numlitem><para>Secure affected Pack Flow Control and Shutoff valve
+(FCV) in closed position:</para>
+<numlist>
+<numlitem><para>Place Associated Pack switch (P5 panel) to OFF position.</para>
+</numlitem>
+<numlitem><para>Access associated FCV(s) through the air conditioning
+equipment bay access doors under wing root center section.</para>
+</numlitem>
+<numlitem><para>Check associated FCV position indicator (crank arm
+on valve) indicates closed. Next, run locking screw (end of crank
+arm) into hole in casting.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Open the P6 panel PACK TEMP CONT A and PACK TEMP CONT
+B circuit breakers.</para></numlitem>
+<numlitem><para>Disconnect, cap, and stow electrical connectors for
+inlet and exit doors.</para></numlitem>
+<numlitem><para>Check position of the inlet/exit.  They must be secured
+in the following configuration for dispatch:</para>
+<numlist>
+<numlitem><para>Both are fully closed.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If inlet/exit doors are not in one of the above configurations,
+reposition the inlet/exit door(s) as necessary using the Allen wrench
+if the actuator(s) can be moved manually.</para>
+<caution><para>IF DOORS ARE NOT IN POSITION DESCRIBED, DAMAGE TO DUCTING
+COULD OCCUR, OR CABIN TEMPERATURE COULD BECOME EXCESSIVELY WARM.</para>
+</caution>
+</numlitem>
+<numlitem><para>Close the P6 panel PACK TEMP CONT A and PACK TEMP
+CONT B circuit breakers.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Make associated pack inoperative by accomplishing
+DMP 21-51-1.</para>
+<numlist>
+<numlitem><para>Position the associated Bleed Air Control panel (P5)
+PACK selector OFF.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Status message PACK__ may remain displayed.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

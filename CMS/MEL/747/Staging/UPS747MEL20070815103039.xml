@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-4-1" key="UPS747MEL20070815103039" revdate="20080827" revnbr="5" sectnbr="23">
+<effect effrg="578579" efftext=""></effect>
+<title>Lower Cargo Compartment Fire Extinguisher System &ndash; Six
+Bottle System, Bottles C, D, E &amp; F</title>
+<dispcond category="C" nbrins="4" nbrreq="3" operation="YES">
+<remarks>
+<para>One bottle and associated indications may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Aircraft is operated pressurized,</para></numlitem>
+<numlitem><para>For Combi, procedures are established and used to
+verify main deck cargo compartment remains empty or contains only
+empty cargo handling equipment, ballast (ballast may be loaded in
+ULD's), or fly away kits,</para></numlitem>
+<numlitem><para>For Passenger/Combi/Freighter with Draw-Through Smoke
+Detection System, flight remains within 148 minutes of landing at
+a suitable airport,</para></numlitem>
+<numlitem><para>For Freighter without Draw-Through Smoke Detection
+System, flight remains within 258 minutes of landing at a suitable
+airport.</para></numlitem>
+</numlist>
+<note><para>UPS does not carry Fly Away Kits in voided cargo compartments.</para>
+</note>
+</remarks>
+<operation key="UPS747-400MELCDL20080709144012">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>BTL LOW CARGO ___</para>
+</note>
+<numlist>
+<numlitem><para>Operate Aircraft in pressurized condition.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080714152127">
+<numlist>
+<numlitem><para>Flight remains within 258 minutes of landing at a
+suitable airport.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent or on fire control module located on pilots
+overhead panel "LOWER CARGO COMP FIRE EXT SYST INOP". Enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

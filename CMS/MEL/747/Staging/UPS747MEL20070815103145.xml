@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS747MEL20070815103145" revdate="20090824" revnbr="7" sectnbr="28">
+<title>Rudder Position Indicating System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0" btb="YES">
+<remarks>
+<para>May be inoperative provided visual confirmation of proper rudder
+movement is made before each departure.</para>
+</remarks>
+<placard>
+<para>Placard on rudder trim indicator: "RUD TRIM IND INOP". Enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815103146">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Perform visual check of surface movement:</para>
+<numlist>
+<numlitem><para>Establish communications &ndash; flight deck to ground.</para>
+<warning><para>ENSURE THAT PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL
+FLIGHT CONTROL SURFACES.</para></warning>
+</numlitem>
+<numlitem><para>Pressurize all four hydraulic systems.</para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec colname="col2" colwidth="224.20pt"/>
+<colspec colname="col4" colwidth="250.48pt"/>
+<thead>
+<row>
+<entry colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">FLIGHT DECK</emphasis></para>
+</entry>
+<entry colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">GROUND OBSERVATION</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Rudder Pedal Full Left, then Full Right</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Observe both upper and lower rudder deflection to left, then
+right. </para>
+<note><para>Full rudder deflection is approximately &plusmn; 31.5&deg;</para>
+</note>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

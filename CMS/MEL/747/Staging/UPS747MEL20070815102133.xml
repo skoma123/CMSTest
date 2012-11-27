@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="5-2" key="UPS747MEL20070815102133" revdate="20100707" revnbr="8" sectnbr="11">
+<title>Mode Control Panel Switch Lights &ndash; Mode Selector Switch
+Lights</title>
+<!--Per C.R.4333 Tim 1/20/10 for Rev 8-->
+<dispcond attr-rev="NO" category="C" nbrins="13" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS747MEL20070815102134">
+<numlist>
+<numlitem><para>Verify autopilot mode engagement using PFD flight
+mode annunciations. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Mode Selector switch(es) light "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

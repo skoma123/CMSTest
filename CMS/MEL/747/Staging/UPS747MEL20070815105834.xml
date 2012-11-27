@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="23" chg="U" key="UPS747MEL20070815105834" qtyreq="68" revdate="20080827" revnbr="5" sectnbr="61">
+<title>Static Dischargers (Trailing and Tip Type)</title>
+<remarks>
+<para>Any number of static dischargers at any location may be missing
+with no performance decrement when aircraft operations are not dependent
+upon use of ADF, LORAN or HF.</para>
+<para>When aircraft operations are dependent upon use of ADF, LORAN
+or HF, up to 45 static dischargers may be missing without any performance
+decrement.  A minimum of 23 static dischargers are required to be
+installed as follows: </para>
+<numlist>
+<numlitem><para>A minimum of 15 trailing type dischargers with 3 at
+any of the 6 outboard locations on each wing, 3 at any of the 5 outboard
+locations on each horizontal stabilizer and 3 at any of the 4 upper
+locations on the vertical stabilizer.</para></numlitem>
+<numlitem><para>A minimum of 8 tip dischargers with 1 on each winglet
+tip (or wing tip on 747-400D), 2 on each horizontal stabilizer tip
+and 2 on the vertical stabilizer tip. </para></numlitem>
+</numlist>
+</remarks>
+<graphic chapnbr="23" chg="U" confnbr="1" key="UPS747MEL20070815105835"
+revdate="20080827" revnbr="5" sectnbr="61">
+<sheet chg="U" gnbr="747-400_CDL_CH_23_Page_1"
+key="UPS747MEL20070815105836" revdate="20080827" revnbr="5"></sheet>
+</graphic>
+</cdlblk>

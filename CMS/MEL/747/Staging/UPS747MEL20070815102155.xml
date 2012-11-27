@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="1" key="UPS747MEL20070815102155" revdate="20100707" revnbr="8" sectnbr="31">
+<title>Autothrottle System</title>
+<dispcond category="C" downgrade="CATEGORY 2" maintenance="NO" nbrins="1"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+its use. </para>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815102156">
+<numlist>
+<numlitem><para>If A/T ARM Switch is in the OFF position, the EEC
+engine trim function will not operate. Small thrust asymmetry may
+occur even if the throttles appear aligned.</para></numlitem>
+<numlitem><para>EICAS display of Thrust Management Computers computations
+are operative.</para></numlitem>
+<numlitem><para>Set thrust manually.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102157">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+2.</para></numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard A/T ARM switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102158">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 2</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

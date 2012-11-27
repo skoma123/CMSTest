@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2-2-2" key="UPS747MEL20070815103558" revdate="20100707" revnbr="8" sectnbr="41">
+<!--Per C.R.4348 Tim 1/21/10-->
+<effect chg="U" effrg="" efftext="N570UP-N577UP and N580UP-N583UP">
+</effect>
+<title>Single Point Sensor Systems Main Tanks 2 and 3 Sensors (Reserve
+Transfer) &ndash; Reserve Tanks Empty</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative with reserve tanks 2 and 3 empty provided
+maximum takeoff weight is limited to 785,000 lbs (356,000 kgs).</para>
+</remarks>
+<operation key="UPS747MEL20070815103560">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>FUEL QTY SYS</para>
+<para>M2/M3&lt;6K SIG</para>
+</note>
+<note><para>CWT fuel included as part of ZFW may be used en route.</para>
+</note>
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747-400MELCDL20080714151844">
+<numlist>
+<numlitem><para>Actual takeoff weight cannot exceed 785,000 lbs.</para>
+</numlitem>
+<numlitem><para>Center Wing Tank fuel must be included as part of
+the ZFW but is considered usable en route.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "#2 OR #3
+MAIN TANK SINGLE PT SENSORS SYS INOP". Enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+</dispcond>
+</item>

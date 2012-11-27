@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS747MEL20070815104058" revdate="20090824" revnbr="7" sectnbr="30">
+<title>Landing Gear Retracting System</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be partially or completely inoperative provided:</para>
+<numlist>
+<numlitem><para>Inoperative components are properly secured, and</para>
+</numlitem>
+<numlitem><para>Aircraft is operated in accordance with AOM gear down
+appendix Chapter 5.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS747MEL20070815104059">
+<numlist>
+<numlitem><para>Operate aircraft in accordance with Landing Gear Extended
+performance.</para></numlitem>
+<numlitem><para>If all landing gear is not to be left extended, use
+of the following procedure will keep all wheel well doors closed.</para>
+<numlist>
+<numlitem><para>Before retraction of operable landing gear, depressurize
+the hydraulic system associated with the inoperative landing gear:
+Body and Nose gear Hyd Sys #1, Wing gear Hyd Sys #4.</para></numlitem>
+<numlitem><para>After gear retraction, position gear lever OFF.</para>
+</numlitem>
+<numlitem><para>Repressurize the hydraulic system associated with
+the inoperative landing gear.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815104110">
+<numlist>
+<numlitem><para>Maximum operating speed is 270 KIAS/ 0.73 M.</para>
+</numlitem>
+<numlitem><para>Maximum takeoff weight is limited to 720,000 lbs.</para>
+</numlitem>
+<numlitem><para>Apply restricted takeoff climb weights from the Takeoff
+Climb Limit Weight, Landing Gear Extended or Brake(s) Deactivated
+By Capping Chart found in the AOM Chapter 5.1.</para></numlitem>
+<numlitem><para>RVSM operations prohibited.</para></numlitem>
+<numlitem><para>Modify ATC flight plan suffix to the appropriate code.</para>
+</numlitem>
+<numlitem><para>Extended overwater operation prohibited.</para>
+</numlitem>
+<numlitem><para>If operations are conducted in known or forecasted
+icing conditions during any part of the flight and if the destination
+airport has a forecast landing temperature below 8&deg; C, reduce
+the landing climb limit weight by 78,150 lbs.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard below Captain&rsquo;s PFD on P-1-1 panel: "___ LANDING
+GEAR TO REMAIN EXTENDED". Enter item in Aircraft Deferred Item Log. </para>
+</placard>
+<maintenance key="UPS747MEL20070815104111">
+<numlist>
+<numlitem><para>Configure (pin) the landing gear to be left extended
+for dispatch per AMM 32-00-00/201. The nose gear and/or main gear
+(in symmetric wing and body pairs) may be left extended.</para>
+</numlitem>
+<numlitem><para>If all landing gear are to be left extended, in addition
+to complying with the step above, the landing gear lever lock circuit
+breaker (C01435) on the P7 panel must be pulled and collared.</para>
+</numlitem>
+<numlitem><para>Configure the Mach/airspeed warning system as required
+by the applicable AOM appendix.</para>
+<numlist>
+<numlitem><para>Access the Gear Down Dispatch Switch in the main electronic
+equipment center.</para></numlitem>
+<numlitem><para>Remove the safety wire from the switch guard.</para>
+</numlitem>
+<numlitem><para>Lift switch guard and place switch in the Gear Down
+Dispatch position.</para></numlitem>
+<numlitem><para>Close switch guard and install safety wire.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

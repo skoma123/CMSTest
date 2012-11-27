@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-0-2" key="UPS747MEL20070815102243" revdate="20100707" revnbr="8" sectnbr="25">
+<title>Satellite Communication (SATCOM) Systems &ndash; Datalink Inoperative</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+<note><para>Any function that is operative may be used.</para></note>
+<note><para>North Polar Route Restrictions.</para></note>
+</remarks>
+<operation key="UPS747MEL20070815102244">
+<note><para>The following EICAS message(s) may be displayed:</para>
+<para>SATCOM ___</para>
+</note>
+</operation>
+<limitation key="UPS747MEL20070815102245">
+<numlist>
+<numlitem><para>FANS Operations prohibited.</para></numlitem>
+<numlitem><para>RNP -4 Operations prohibited.</para></numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Center CDU "SATCOM INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

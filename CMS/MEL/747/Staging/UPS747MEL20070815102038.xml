@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-1-2" key="UPS747MEL20070815102038" revdate="20100707" revnbr="8" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; A/P Engage Switches (L
+CMD, C CMD, R CMD) Three Inoperative</title>
+<dispcond category="B" downgrade="CATEGORY 1" maintenance="YES"
+nbrins="3" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided all three autopilot systems are
+considered inoperative.</para>
+<note><para>North Polar Route Restrictions.</para></note>
+<!--Per C.R.4322 Tim 1/19/10 Rev 8-->
+<note><para>Additional Deferral Required &ndash; AUTOPILOT SYSTEMS.</para>
+</note>
+</remarks>
+<operation key="UPS747MEL20070815102039">
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS747MEL20070815102040">
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+<numlitem><para>Two operative Flight Directors required to fly charted
+ILS CAT 1 minimums below RVR 4000 or 3/4 mile visibility.</para>
+</numlitem>
+<numlitem><para>RVSM Operations prohibited.</para></numlitem>
+<numlitem><para>Flight does not exceed 5 flight hours.</para></numlitem>
+<numlitem><para>RNP-4/FANS operations prohibited.</para></numlitem>
+<numlitem><para>Modify ATC Flight plan suffix to the appropriate code.</para>
+</numlitem>
+<numlitem><para>North Polar Routes prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard A/P Engage Switches "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS747MEL20070815102041">
+<title>MODE CONTROL PANEL SWITCHES A/P ENGAGE SWITCHES THREE INOPERATIVE</title>
+<numlist>
+<numlitem><para>Verify one FCC power circuit breaker (P7 panel) is
+closed for dispatch configuration. Sensor data availability is maximized
+if all FCC power circuit breakers are closed:</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec align="left" colname="col1" colwidth="219.30pt"/>
+<tbody>
+<row>
+<entry>
+<para>Left L FLT CONT CMPTR PWR</para>
+<para>Center C FLT CONT CMPTR PWR</para>
+<para>Right R FLT CONT CMPTR PWR</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Open and collar all three FCC servo circuit breakers
+(P7 panel):</para>
+<table frame="none">
+<tgroup align="left" cols="1">
+<colspec align="left" colname="col1" colwidth="219.30pt"/>
+<tbody>
+<row>
+<entry>
+<para>Left L FLT CONT CMPTR SERVO</para>
+<para>Center C FLT CONT CMPTR SERVO</para>
+<para>Right R FLT CONT CMPTR SERVO</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>EICAS status message A/P SINGLE SYS may remain displayed.</para>
+</numlitem>
+</numlist>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.04*"/>
+<colspec colname="col3" colwidth="0.96*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>3</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>
