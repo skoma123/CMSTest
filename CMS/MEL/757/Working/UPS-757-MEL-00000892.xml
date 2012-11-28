@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000892" revdate="20091120" revnbr="67" sectnbr="33">
+<title>Hydraulic System Low Qty or RSVR Lights &ndash; HYD QTY Indications
+Operative </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="3" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated HYD QTY indication is
+operative.</para>
+</remarks>
+<placard>
+<para>Placard affected RSVR light "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000893">
+<para><emphasis role="underline">MAINTENANCE NOTE: </emphasis></para>
+<numlist>
+<numlitem><para>Check EICAS status indication of HYD QTY for affected
+system. </para></numlitem>
+<numlitem><para>Service reservoir as required (MM 12-12-01).</para>
+</numlitem>
+</numlist>
+<para>Pressure Indication Check:</para>
+<numlist>
+<numlitem><para>Reference EICAS maintenance page. RSVR PRESS will
+indicate LOW, NORM or HIGH for each system.</para>
+<note><para>If, after engine start, the L, C, or R HYD RSVR PRES EICAS
+message illuminates (indicating LOW air pressure) dispatch is not
+allowed.</para></note>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

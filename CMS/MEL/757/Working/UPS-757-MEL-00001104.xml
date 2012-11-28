@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="2" key="UPS-757-MEL-00001104" revdate="20091120" revnbr="67" sectnbr="12">
+<title>Fan Air (Precooler) Control Systems </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Associated fan air modulation valve is secured full
+open, and</para></numlitem>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions. </para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS-757-MEL-00001106">
+<numlist>
+<numlitem><para>Operations into known or forecast icing conditions
+are prohibited. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near HI-STAGE Indicating lights located on Bleed Air
+Supply Module (M10259) on P5 panel "FAN MOD VALVE INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001105">
+<numlist>
+<numlitem><para>Notify Flight Dispatch.  Flight planning may be affected. </para>
+<warning><para>FAILURE TO FOLLOW MAINTENANCE MANUAL 78-31-100/201
+COULD RESULT IN INJURY TO PERSONNEL AND/OR DAMAGE TO FAN COWL, CORE
+COWL AND FAN DUCT COWL AND THRUST REVERSER.</para></warning>
+</numlitem>
+<numlitem><para>Open applicable fan duct and thrust reverser cowls.</para>
+</numlitem>
+<numlitem><para>On the fan air modulating valve, depress the lock
+lever ensuring the pawl is disengaged.  Rotate the manual override
+hex approximately 90&ordm; clockwise (CW) until pawl is engaged in
+the open detent.  Verify position indicator agrees with the selected
+detent.</para></numlitem>
+<numlitem><para>Close applicable fan duct and thrust reverser cowls.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="36" chg="U" key="UPSB757MELCDL20080925112434"
+revdate="20080924" revnbr="65" sectnbr="12">
+<title>FAN AIR MODULATING VALVE (P&amp;W)</title>
+<sheet chg="U" gnbr="DMP_CH_36_Page_9" key="UPSB757MELCDL20080925112532"
+revdate="20080924" revnbr="65" sheetnbr="001"></sheet>
+</graphic>
+<graphic chapnbr="36" chg="U" key="UPS757MELCDL20080723075854"
+revdate="20080924" revnbr="65" sectnbr="12">
+<title>FAN AIR MODULATING VALVE (RB211)</title>
+<sheet chg="U" gnbr="DMP_CH_36_Page_10" key="UPS757MELCDL20080723075953"
+revdate="20080924" revnbr="65" sheetnbr="001"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

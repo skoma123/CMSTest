@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2-0-1" key="UPS-757-MEL-00000066" revdate="20080924" revnbr="65" sectnbr="33">
+<title>CABIN DIFF Pressure Indicator &ndash; Pressurized Flight</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>CABIN ALT indicator is operative, and</para></numlitem>
+<numlitem><para>A chart is provided to convert cabin altitude to cabin
+differential pressure.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000067">
+<para>Pressurized Flight:</para>
+<numlist>
+<numlitem><para>Use the following chart to convert altitude to cabin
+differential pressure.</para></numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="MEL_CH_21_Page_9" revdate="20080924"
+revnbr="65" sectnbr="33">
+<sheet chg="U" gnbr="MEL_CH_21_Page_9" key="UPSMEL_CH_21_Page_9"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</operation>
+<placard>
+<para>Placard near CABIN DIFF Pressure Indicator on P5 panel "INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

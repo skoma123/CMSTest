@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS-757-MEL-00000857" revdate="20080924" revnbr="65" sectnbr="43">
+<title>FUEL TEMP Indicating Systems</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided Total Air Temperature (TAT) is used
+as an indication of fuel temperature.</para>
+<note><para>Static Air Temperature may be used provided appropriate
+ram rise factor is applied.</para></note>
+</remarks>
+<operation key="UPS-757-MEL-00000858">
+<numlist>
+<numlitem><para>Use total air temperature for fuel temperature.  If
+TAT is unavailable, use SAT and the following table to approximate
+TAT. </para>
+<numlist>
+<numlitem><para>For the current pressure altitude and Mach number,
+find the TAT at ISA.</para></numlitem>
+<numlitem><para>Determine the ISA deviation as the difference between
+actual SAT and SAT at ISA from the table.</para></numlitem>
+<numlitem><para>Apply the ISA deviation to the TAT at ISA to approximate
+actual TAT.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<table>
+<title>TOTAL TEMPERATURE AT ISA</title>
+<tgroup cols="11">
+<colspec align="center" colname="col1" colwidth="65.49pt"/>
+<colspec colname="col2" colwidth="34.15pt"/>
+<colspec colname="col3" colwidth="45.82pt"/>
+<colspec colname="col4" colwidth="45.82pt"/>
+<colspec colname="col5" colwidth="45.82pt"/>
+<colspec colname="col6" colwidth="45.82pt"/>
+<colspec colname="col7" colwidth="45.82pt"/>
+<colspec colname="col8" colwidth="45.82pt"/>
+<colspec colname="col9" colwidth="45.82pt"/>
+<colspec colname="col10" colwidth="45.82pt"/>
+<colspec colname="col11" colwidth="36.68pt"/>
+<thead>
+<row>
+<entry morerows="2" rowsep="1" valign="top">
+<para>PRESSURE ALTITUDE 1000 FT</para>
+</entry>
+<entry align="center" colsep="1" nameend="col11" namest="col2"
+valign="top">
+<para>INDICATED MACH NUMBER</para>
+</entry>
+</row>
+<row>
+<entry align="center" valign="top">
+<para>.40</para>
+</entry>
+<entry align="center" valign="top">
+<para>.50</para>
+</entry>
+<entry align="center" valign="top">
+<para>.60</para>
+</entry>
+<entry align="center" valign="top">
+<para>.70</para>
+</entry>
+<entry align="center" valign="top">
+<para>.74</para>
+</entry>
+<entry align="center" valign="top">
+<para>.78</para>
+</entry>
+<entry align="center" valign="top">
+<para>.80</para>
+</entry>
+<entry align="center" valign="top">
+<para>.82</para>
+</entry>
+<entry align="center" valign="top">
+<para>.84</para>
+</entry>
+<entry align="center" valign="top">
+<para>.86</para>
+</entry>
+</row>
+<row>
+<entry align="center" nameend="col11" namest="col2" valign="top">
+<para>TOTAL TEMPERATURE AT ISA DEGREES C</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>36 TO 45</para>
+<para>34</para>
+<para>32</para>
+</entry>
+<entry align="right"></entry>
+<entry align="right">
+<para> </para>
+<para>&ndash;41</para>
+<para>&ndash;37</para>
+</entry>
+<entry align="right">
+<para>&ndash;41</para>
+<para>&ndash;36</para>
+<para>&ndash;32</para>
+</entry>
+<entry align="right">
+<para>&ndash;35</para>
+<para>&ndash;31</para>
+<para>&ndash;26</para>
+</entry>
+<entry align="right">
+<para>&ndash;33</para>
+<para>&ndash;28</para>
+<para>&ndash;24</para>
+</entry>
+<entry align="right">
+<para>&ndash;30</para>
+<para>&ndash;25</para>
+<para>&ndash;21</para>
+</entry>
+<entry align="right">
+<para>&ndash;29</para>
+<para>&ndash;24</para>
+<para>&ndash;20</para>
+</entry>
+<entry align="right">
+<para>&ndash;27</para>
+<para>&ndash;23</para>
+<para>&ndash;18</para>
+</entry>
+<entry align="right">
+<para>&ndash;26</para>
+<para>&ndash;21</para>
+<para>&ndash;17</para>
+</entry>
+<entry align="right">
+<para>&ndash;24</para>
+<para>&ndash;20</para>
+<para>&ndash;15</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>30</para>
+<para>28</para>
+<para>26</para>
+</entry>
+<entry align="right"></entry>
+<entry align="right">
+<para>&ndash;33</para>
+<para>&ndash;29</para>
+<para>&ndash;25</para>
+</entry>
+<entry align="right">
+<para>&ndash;28</para>
+<para>&ndash;24</para>
+<para>&ndash;19</para>
+</entry>
+<entry align="right">
+<para>&ndash;22</para>
+<para>&ndash;18</para>
+<para>&ndash;13</para>
+</entry>
+<entry align="right">
+<para>&ndash;19</para>
+<para>&ndash;15</para>
+<para>&ndash;11</para>
+</entry>
+<entry align="right">
+<para>&ndash;17</para>
+<para>&ndash;12</para>
+<para>&ndash;8</para>
+</entry>
+<entry align="right">
+<para>&ndash;15</para>
+<para>&ndash;11</para>
+<para>&ndash;6</para>
+</entry>
+<entry align="right">
+<para>&ndash;14</para>
+<para>&ndash;9</para>
+<para>&ndash;5</para>
+</entry>
+<entry align="right">
+<para>&ndash;12</para>
+<para>&ndash;8</para>
+<para>&ndash;3</para>
+</entry>
+<entry align="right">
+<para>&ndash;11</para>
+<para>&ndash;6</para>
+<para>&ndash;2</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>24</para>
+<para>22</para>
+<para>20</para>
+</entry>
+<entry align="right">
+<para>&ndash;25</para>
+<para>&ndash;21</para>
+<para>&ndash;17</para>
+</entry>
+<entry align="right">
+<para>&ndash;21</para>
+<para>&ndash;16</para>
+<para>&ndash;12</para>
+</entry>
+<entry align="right">
+<para>&ndash;15</para>
+<para>&ndash;11</para>
+<para>&ndash;7</para>
+</entry>
+<entry align="right">
+<para>&ndash;9</para>
+<para>&ndash;5</para>
+<para>&ndash;0</para>
+</entry>
+<entry align="right">
+<para>&ndash;6</para>
+<para>&ndash;2</para>
+<para>3</para>
+</entry>
+<entry align="right">
+<para>&ndash;3</para>
+<para>1</para>
+<para>6</para>
+</entry>
+<entry align="right">
+<para>&ndash;2</para>
+<para>3</para>
+<para>7</para>
+</entry>
+<entry align="right">
+<para>0</para>
+<para>4</para>
+<para>9</para>
+</entry>
+<entry align="right">
+<para>1</para>
+<para>6</para>
+<para>40</para>
+</entry>
+<entry align="right">
+<para>3</para>
+<para>8</para>
+<para>12</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>18</para>
+<para>16</para>
+<para>14</para>
+</entry>
+<entry align="right">
+<para>&ndash;13</para>
+<para>&ndash;8</para>
+<para>&ndash;4</para>
+</entry>
+<entry align="right">
+<para>&ndash;8</para>
+<para>&ndash;4</para>
+<para>0</para>
+</entry>
+<entry align="right">
+<para>&ndash;2</para>
+<para>2</para>
+<para>6</para>
+</entry>
+<entry align="right">
+<para>4</para>
+<para>8</para>
+<para>13</para>
+</entry>
+<entry align="right">
+<para>7</para>
+<para>11</para>
+<para>16</para>
+</entry>
+<entry align="right">
+<para>10</para>
+<para>15</para>
+<para>19</para>
+</entry>
+<entry align="right">
+<para>12</para>
+<para>16</para>
+</entry>
+<entry align="right">
+<para>13</para>
+</entry>
+<entry align="right">
+<para>15</para>
+</entry>
+<entry align="right"></entry>
+</row>
+<row>
+<entry>
+<para>12</para>
+<para>10</para>
+<para>8</para>
+</entry>
+<entry align="right">
+<para>0</para>
+<para>4</para>
+<para>8</para>
+</entry>
+<entry align="right">
+<para>4</para>
+<para>9</para>
+<para>13</para>
+</entry>
+<entry align="right">
+<para>10</para>
+<para>15</para>
+<para>19</para>
+</entry>
+<entry align="right">
+<para>17</para>
+<para>21</para>
+<para>26</para>
+</entry>
+<entry align="right">
+<para>20</para>
+</entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+</row>
+<row>
+<entry>
+<para>6</para>
+<para>4</para>
+<para>2</para>
+</entry>
+<entry align="right">
+<para>12</para>
+<para>16</para>
+<para>20</para>
+</entry>
+<entry align="right">
+<para>17</para>
+<para>21</para>
+<para>25</para>
+</entry>
+<entry align="right">
+<para>23</para>
+<para>27</para>
+<para>32</para>
+</entry>
+<entry align="right">
+<para>30</para>
+</entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+<entry align="right"></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</operation>
+<placard>
+<para>Placard indication "INOP" and enter item in Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

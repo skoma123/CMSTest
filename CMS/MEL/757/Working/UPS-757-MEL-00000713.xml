@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000713" revdate="20080924" revnbr="65" sectnbr="08">
+<title>Flap Position Indicator System &ndash; Position Needles </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins=" 2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS757MELCDL20080603082508">
+<note><para>Observe operable Flap Position Indicator needle for proper
+flap operation.</para></note>
+<note><para>Absence of LE Slat/TE Flap Asym and LE Slat/TE Flap Disagree
+EICAS message(s) indicates proper slat/flap operation.</para></note>
+</operation>
+<placard>
+<para>Placard next to Flap Position Indicator needle "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

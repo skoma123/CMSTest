@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="2" key="UPS-757-MEL-00000104" revdate="20090814" revnbr="66" sectnbr="40">
+<title>Aft Cargo Heating System </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative deactivated.</para>
+</remarks>
+<operation key="UPSB757MELCDL20090814110558">
+<note><para>Consideration must be given to perishable cargo in affected
+zone (AFT Cargo).</para></note>
+</operation>
+<limitation key="UPSB757MELCDL20090814110614">
+<note><para>Consideration must be given to perishable cargo in affected
+zone (AFT Cargo).</para></note>
+</limitation>
+<placard>
+<para>Placard next to upper EICAS screen "AFT CARGO HEATING SYSTEM
+INOP - C/B PULLED ON P37" and enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000105">
+<numlist>
+<numlitem><para>Open and collar the AFT CARGO HEAT FAN circuit breaker
+on P37 (C-2) panel.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

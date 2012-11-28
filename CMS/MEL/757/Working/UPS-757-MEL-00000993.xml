@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1" key="UPS-757-MEL-00000993" revdate="20080924" revnbr="65" sectnbr="71">
+<title>Drain Mast Heaters</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>One or both may be inoperative, (PF Floor Drain System).</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "DRAIN MAST HEATER(S) INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000994">
+<numlist>
+<numlitem><para>If both drain mast heaters are inoperative:</para>
+<numlist>
+<numlitem><para>Open and collar circuit breakers DRAIN MAST HTR-AIR
+(P37F7) and DRAIN MAST HTR-GND (P34B3).</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If either drain mast heater is inoperative and it
+is desirable to deactivate one heater:</para>
+<numlist>
+<numlitem><para>Open circuit breakers DRAIN MAST HTR-AIR (P37F7) and
+DRAIN MAST HTR GND (P34B3).</para></numlitem>
+<numlitem><para>Open P37 panel.  Disconnect cap and stow the power
+wire for the affected drain mast heater (wiring diagram 30-71-11).</para>
+<numlist>
+<numlitem><para>For the forward Drain Mast Heater, wire 5793-20 on
+Terminal Block TB178 (YC3).</para></numlitem>
+<numlitem><para>For the aft Drain Mast Heater, wire 5792-20 on Terminal
+Block TB178 (YC3).</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Close circuit breakers (P37F7) and (P34B3). Close
+P37 panel. </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

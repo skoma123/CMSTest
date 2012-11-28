@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="3" key="UPS-757-MEL-00000158" revdate="20080924" revnbr="65" sectnbr="52">
+<title>Air Conditioning Pack OFF Lights</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative OFF provided associated EICAS message
+and all other pack indications are operative.</para>
+</remarks>
+<placard>
+<para>Placard affected OFF light "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000159">
+<numlist>
+<numlitem><para>Provide electric and pneumatic power.</para></numlitem>
+<numlitem><para>Make sure affected pack L (R) PACK OFF advisory message
+is displayed on upper EICAS (pack off). (NOTE: press RECALL as necessary
+to display message.)</para></numlitem>
+<numlitem><para>Select affected pack to AUTO.</para></numlitem>
+<numlitem><para>Make sure affected pack advisory message is not displayed. </para>
+</numlitem>
+<numlitem><para>Select affected pack to OFF.</para></numlitem>
+<numlitem><para>Make sure affected pack L (R) PACK OFF advisory message
+is displayed.</para></numlitem>
+<numlitem><para>Return aircraft to desired configuration.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

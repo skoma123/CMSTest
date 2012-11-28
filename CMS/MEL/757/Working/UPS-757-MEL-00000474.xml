@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000474" revdate="20091120" revnbr="67" sectnbr="00">
+<title>APU Generator</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Except for ER operations, may be inoperative provided both engine
+generators are operative.</para>
+</remarks>
+<placard>
+<para>Placard APU GEN switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

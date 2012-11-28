@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000655" revdate="20100423" revnbr="68" sectnbr="22">
+<title>APU Fire Extinguisher System</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Except for ER operations, may be inoperative provided APU is
+considered inoperative.</para>
+<!--Per C.R.#4381 Bill Bombatch 3/9/10 Considered Inop Item-->
+<note><para>Additional deferral required &ndash; Auxiliary Power Unit
+(APU).</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080602142827">
+<note><para>An auto-generated ACARS message requesting an inflight
+APU start should be disregarded.</para></note>
+</operation>
+<placard>
+<para>Placard near APU Fire Handle "APU FIRE BOTTLE INOP" as appropriate
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

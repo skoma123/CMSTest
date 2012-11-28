@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="5-2" key="UPS-757-MEL-00000174" revdate="20090814" revnbr="66" sectnbr="58">
+<title>Aft Equipment/Lav/Galley Exhaust (Vent) Fans</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard near ALTN Equip Cooling switch "ONE FAN INOP - C/B PULLED
+P34(P37)" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000175">
+<numlist>
+<numlitem><para>Open and collar affected fan circuit breaker EXH FAN
+1 (P37D5) EXH FAN 2 (P34H2).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

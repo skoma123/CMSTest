@@ -14,6 +14,12 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.XPath;
 using System.Drawing;
+using System.Configuration;
+using System.Net;
+//using Newtonsoft.Json;
+using System.Web.Extensions;
+using System.Runtime.Serialization;
+
 
 public partial class _Default : System.Web.UI.Page 
 {
@@ -90,6 +96,26 @@ public partial class _Default : System.Web.UI.Page
 
             BindTreeView();
 
+            gitInfo.Arguments = @"shortlog -n -s"; //@"log --all --format=""%an <%ae>""" ; //@"shortlog -n -s"; 
+            //%Cred%h%Creset - %C(yellow)%s%Creset %C(green)<%an>%Creset"""; //@"log --format=""%aN"" | sort -u"; // such as "fetch orign" //GIT COMMAND
+            gitProcess.StartInfo = gitInfo;
+            gitProcess.Start();
+
+            //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+            stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+            stdout_str = stdout_str.Replace("\t", "");
+            //clear the listbox
+            lstUsers.Items.Clear();
+            words = stdout_str.Split('\n');
+
+            foreach (string strtest in words)
+                if (strtest != "")
+                {
+                    lstUsers.Items.Add(strtest.Remove(1,5).Trim());
+                    if (strtest.Contains("*"))
+                        lstUsers.SelectedValue = strtest;
+                }
+
             gitInfo.Arguments = "branch -a"; // such as "fetch orign" //GIT COMMAND
             gitProcess.StartInfo = gitInfo;
             gitProcess.Start();
@@ -107,7 +133,10 @@ public partial class _Default : System.Web.UI.Page
                     if (strtest.Contains("*"))
                         lstBranches.SelectedValue = strtest;
                 }
-                   
+
+            gitProcess.WaitForExit();
+            gitProcess.Close();
+      
         }
         else
         {
@@ -116,8 +145,12 @@ public partial class _Default : System.Web.UI.Page
                 Xml1.DocumentSource = treeFiles.SelectedValue;
             }
         }
+        XmlDocument doc1 = new XmlDocument();
+        doc1.Load(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\UPS747MEL20070815101151.xml");
 
-    }
+        //FreeTextBox1.Text = doc1.InnerXml;
+        //FreeTextBox1.FormatHtmlTagsToXhtml = true;
+     }
 
     protected void BindTreeView()
     {
@@ -149,6 +182,7 @@ public partial class _Default : System.Web.UI.Page
             treenode.SelectAction = TreeNodeSelectAction.Select;
             treenode.PopulateOnDemand = false;
             treenode.Expanded = false;  //.Depth = 0; //.Expand();
+            treenode.ShowCheckBox = true;
         }
         return treenode;
     }
@@ -351,66 +385,7 @@ public partial class _Default : System.Web.UI.Page
 
     }
 
-    protected void btnCommitHistory_Click(object sender, EventArgs e)
-    {
-        lstAll.Items.Clear();
-        InitialProcessing();
-        gitInfo.Arguments = "log --stat"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
-
-        //git log -p -2 difference introduced in each commit
-
-        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-
-        words = stdout_str.Split('\n');
-
-        foreach (string strtest in words)
-            if (strtest != "")
-                lstAll.Items.Add(strtest);
-    }
-    protected void btnCommitHistSimple_Click(object sender, EventArgs e)
-    {
-        lstAll.Items.Clear();
-        InitialProcessing();
-        //commit history (authorname, author date, subject, committer name, committed date)
-        gitInfo.Arguments = @"log --pretty=format:""%an | %ar | %s | %cn | %cr"""; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
-
-        //git log -p -2 difference introduced in each commit
-
-        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-
-        words = stdout_str.Split('\n');
-
-        foreach (string strtest in words)
-            if (strtest != "")
-                //lstCommitHistorySimple.Items.Add(strtest);
-                lstAll.Items.Add(strtest);
-    }
-    protected void btnCommitNotMerged_Click(object sender, EventArgs e)
-    {
-        lstAll.Items.Clear();
-        InitialProcessing();
-        gitInfo.Arguments = @"log --pretty=""%h - %s"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
-
-        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-
-        words = stdout_str.Split('\n');
-
-        foreach (string strtest in words)
-            if (strtest != "")
-                lstAll.Items.Add(strtest);
-
-        gitProcess.WaitForExit();
-        gitProcess.Close();
-    }
+   
 
     protected void EditXMLWindow(object sender, EventArgs e)
     {
@@ -451,22 +426,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnBlame_Click(object sender, EventArgs e)
     {
-        InitialProcessing();
-        gitInfo.Arguments = @"blame CMS/MEL/747/" + @treeFiles.SelectedNode.Text;
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();   
-
-        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
-
-        lstAll.Items.Clear();
-        words = stdout_str.Split('\n');
-
-        foreach (string strtest in words)
-            if (strtest != "")
-                lstAll.Items.Add(strtest);
-
-        gitProcess.WaitForExit();
-        gitProcess.Close();
+     
     }
 
     protected void btnValidateXML_Click(object sender, EventArgs e)
@@ -508,10 +468,9 @@ public partial class _Default : System.Web.UI.Page
         }
         catch (XmlException ex)
         {
-              lblMsg.Text = "XML Document not valid, following error:" +  ex.Message;          
-              Server.ClearError();
-              Xml1.DocumentSource = treeFiles.SelectedValue;
-                             
+              lblMsg.Text = "XML Document not valid, following error:" +  ex.Message + " Correct and validate the fragment";       
+              Server.ClearError();   
+            Xml1.DocumentSource = treeFiles.SelectedValue;              
              }
     }
 
@@ -591,4 +550,369 @@ public partial class _Default : System.Web.UI.Page
         //bool lp = process.WaitForExit(10000);
         
     }
+
+    static void DeleteCouchDB(string name)
+    {
+
+        HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:5984/" + name.ToLower());    
+        request.Method ="DELETE";   
+        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+        {
+            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            {
+                Console.WriteLine(reader.ReadToEnd()); //response should be {"ok":true}
+            }  
+        }    
+    }
+    public class XMLFragment
+    {
+        public string fleet;
+        public string manual;
+        public string docpath;
+        public string xmldata;
+        //public string _id;
+    }
+
+    public void CreateDocument(string content)
+    {
+
+        //create it user PUT instead of POST. PUT is secure but requires the _id to be passed, so it gives you more control.
+        //POST automatically creates the id and revision.
+
+        //Where should be store images, can attach to the XML fragment but if common to other XML fragments then we can store in a common place
+        //and access image based on the graphics. Can stored the image list as the record or read them while loading the file.
+        //CreateDocument("http://127.0.0.1:5984/cms/newdocXYZ", "");
+
+        //new record needs id, fleet (ex:747), manual (ex:MEL), docpath (ex: MEL/747/staging - where the doc was staged to deploy to Couch). 
+        //if no id is provided, it will autogenerate, we want to handle it ourselves
+        List<XMLFragment> eList = new List<XMLFragment>();
+        XMLFragment e = new XMLFragment();
+        //e._id = "new123";
+        e.fleet = "747";
+        e.manual = "MEL";
+        e.docpath = "MEL/747/Staging/new456";
+
+        StringWriter rs1 = new StringWriter();
+        XmlWriter rs2 = XmlWriter.Create(rs1);
+
+        XmlDocument doc1 = new XmlDocument();
+        doc1.Load(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\UPS747MEL20070815101151.xml");
+
+        e.xmldata = doc1.InnerXml; // @"<?xml version=""1.0"" encoding=""UTF-""?><Bookmark><Title Named=""lec"" Action=""GoTo"" >HIGHLIGHTS OF CHANGES</Title></Bookmark>";
+
+        eList.Add(e);
+
+        //e = new XMLFragment();
+        //e.Fleet = "757";
+        //e.Manual = "MEL";
+
+        //eList.Add(e);
+
+        System.Web.Script.Serialization.JavaScriptSerializer oSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+        string sJSON = oSerializer.Serialize(eList);
+
+       // string ans = JsonConvert.SerializeObject(eList); // JsonConvert.SerializeObject(eList, Formatting.Indented);
+        
+        DoRequest("http://127.0.0.1:5984/cms/newdocXYZ", "PUT", sJSON.TrimStart('[').TrimEnd(']'), "application/json"); 
+
+     
+       } 
+
+    static void CreateNewCouchDB(string name)
+    {
+             //******create new db   
+        HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:5984/" + name.ToLower());  
+        request.Method ="PUT";   
+        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())    
+        {        
+            using (StreamReader reader = new StreamReader(response.GetResponseStream()))       
+            {
+                Console.WriteLine(reader.ReadToEnd());    //response should be {"ok":true}    
+            }
+        }
+    }
+
+    public void DeleteDocument(string server, string db, string docid) {
+        DoRequest("http://127.0.0.1:5984/cms/1a?rev=3-0089c796210167d456f8e15f0c8dd0b1", "DELETE"); 
+    } 
+
+       private string DoRequest(string url,string method,string postdata,string contenttype)          
+       {           
+           HttpWebRequest req=WebRequest.Create(url) as HttpWebRequest;   
+           req.Method=method;                       
+           // Yuk - set an infinite timeout on this for now, because       
+           // executing a temporary view (for example) can take a very   
+           // long time...                        
+           req.Timeout=System.Threading.Timeout.Infinite;  
+           if(contenttype!=null)   
+               req.ContentType=contenttype;  
+           if(postdata!=null)              
+           {   
+               byte[] bytes=UTF8Encoding.UTF8.GetBytes(postdata.ToString());      
+               req.ContentLength=bytes.Length; 
+               using(Stream ps = req.GetRequestStream())  
+               {
+                   ps.Write(bytes, 0, bytes.Length);  
+               }   
+           }
+           HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
+           //HttpWebResponse resp=req.GetResponse() as HttpWebResponse; 
+           string result; 
+           using(StreamReader reader=new StreamReader(resp.GetResponseStream()))
+           { 
+               result=reader.ReadToEnd();
+           } 
+           return result;
+       }                 
+
+    static void GetDatabaseInfo(string name)
+    {
+        HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:5984/" + name.ToLower()); //ex: cms
+        request.Method = "GET";
+
+        using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+        {
+            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            {
+                Console.WriteLine(reader.ReadToEnd());
+            }
+        }
+    }
+
+    protected void btnCouch_Click(object sender, EventArgs e)
+    {
+        System.Net.HttpWebRequest webRequest = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(System.Configuration.ConfigurationManager.AppSettings.Get("CouchServer") + "/1a");
+        //webRequest.Credentials = new System.Net.NetworkCredential(System.Configuration.ConfigurationManager.AppSettings.Get("apiUserName"), System.Configuration.ConfigurationManager.AppSettings.Get("apiPassword"));
+       
+        //webRequest.Method = "HEAD" 'faster to check if ID is valid, no content body is returned
+            webRequest.Method = "GET"; //gets content body
+            webRequest.Accept = "application/json";
+            System.Net.WebResponse responseID   = webRequest.GetResponse();
+
+
+           // g1 = JSONHelper.Deserialise<GoogleSearchResults>(json);
+           // Response.Write(g1.content);
+
+                StreamReader streamReader = new System.IO.StreamReader(responseID.GetResponseStream());
+                string text1;
+                using (var sr = new StreamReader(responseID.GetResponseStream()))
+                {
+                    text1 = sr.ReadToEnd();
+                }
+
+        //*********all documents  http://127.0.0.1:5984/cms/_all_docs
+        //*********all DBs http://127.0.0.1:5984/_all_dbs
+        //*********all docs in range http://127.0.0.1:5984/cms/_all_docs?include_docs=true&startkey="1a"&endkey="1c"
+
+                //HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:5984/cms/1b");
+                //request.Method = "DELETE";
+                //using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                //{
+                //    using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+                //    {
+                //        Console.WriteLine(reader.ReadToEnd());    //response should be {"ok":true}    
+                //    }
+                //}
+                //MUST pass the latest revision of doc to delete, get it first
+               //**WORKING DoRequest("http://127.0.0.1:5984/cms/1b?rev=6-0650b47891557eb0b393ae206888284c", "DELETE"); 
+
+
+   
+  }
+
+    private string DoRequest(string url, string method) 
+    {
+        return DoRequest(url, method, null, null); 
+    }  
+
+        //User user = new User();
+        //user.Name = "Igloo Snc";
+        //user.Save();
+
+        //user.FetchById("74c461d3f5c70029de65f85873000ea7");
+
+        //user.Delete();
+
+
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
+        CreateDocument("");
+        //MUST pass the latest revision of doc to delete, get it first
+        //**WORKING DoRequest("http://127.0.0.1:5984/cms/1b?rev=6-0650b47891557eb0b393ae206888284c", "DELETE"); 
+    }
+    protected void btnLookup_Click(object sender, ImageClickEventArgs e)
+    {
+        lstAll.Items.Clear();
+        InitialProcessing();
+        gitInfo.Arguments = @"grep ""Operations"""; //@"log --stat --name-only --pretty=""%h | %s %an | %ar | %s | %cn | %cr"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
+    protected void btnConflict_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void ImageButton1_Click1(object sender, ImageClickEventArgs e)
+    {
+        lstAll.Items.Clear();
+        InitialProcessing();
+        gitInfo.Arguments = @"blame CMS/MEL/747/Working/" + @treeFiles.SelectedNode.Text;
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
+    protected void btnCommitHistDetail_Click(object sender, ImageClickEventArgs e)
+    {
+        lstAll.Items.Clear();
+        InitialProcessing();
+        gitInfo.Arguments = "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //git log -p -2 difference introduced in each commit
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+    }
+    protected void btnCommitHistSimple_Click(object sender, ImageClickEventArgs e)
+    {
+        lstAll.Items.Clear();
+        InitialProcessing();
+        //commit history (authorname, author date, subject, committer name, committed date)
+        gitInfo.Arguments = @"log --pretty=format:""%an | %ar | %s | %cn | %cr"""; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //git log -p -2 difference introduced in each commit
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                //lstCommitHistorySimple.Items.Add(strtest);
+                lstAll.Items.Add(strtest);
+    }
+    protected void btnCommittedNotMerged_Click(object sender, ImageClickEventArgs e)
+    {
+        lstAll.Items.Clear();
+        InitialProcessing();
+        gitInfo.Arguments = @"log --stat --name-only --pretty=""%h | %s %an | %ar | %s | %cn | %cr"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND //"diff --stat HEAD^!"; //
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
+
+    protected void btnUploadManual_Click(object sender, ImageClickEventArgs e)
+    {
+        InitialProcessing();
+
+        //then stage, commit, and push new folder
+        gitInfo.Arguments = @"mkdir CMS/MEL/767";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //then stage, commit, and push new folder
+        InitialProcessing();
+        gitInfo.Arguments = @"mkdir CMS/MEL/757/Working";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //then stage, commit, and push new folder
+        InitialProcessing();
+        gitInfo.Arguments = @"mkdir CMS/MEL/757/Staging";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        //then stage, commit, and push new folder
+        InitialProcessing();
+        gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitInfo.Arguments = @"commit -am ""Added new folder Manual"""; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //push files from working folder to staging
+        //Now Create all of the directories
+        foreach (string dirPath in Directory.GetDirectories(@"C:\Temp\757 MEL", "*",
+            SearchOption.AllDirectories))
+            Directory.CreateDirectory(dirPath.Replace(@"C:\Temp\757 MEL", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\"));
+
+        //Copy all the files
+        foreach (string newPath in Directory.GetFiles(@"C:\Temp\757 MEL", "*.*",
+            SearchOption.AllDirectories))
+            File.Copy(newPath, newPath.Replace(@"C:\Temp\757 MEL", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\"));
+
+
+        //then stage, commit, and push new folder
+        InitialProcessing();
+        gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        gitInfo.Arguments = @"commit -am ""Added new 757 Manual"""; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        gitInfo.Arguments = @"push"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+
+        treeFiles.Nodes.Clear();
+        BindTreeView();
+    }
 }
+
+

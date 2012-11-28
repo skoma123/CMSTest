@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS-757-MEL-SA0132300100" revdate="20100423" revnbr="68" sectnbr="30">
+<title>LANDING GEAR RETRACTING SYSTEM</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Inoperative components are properly secured by an
+accepted procedure, and</para></numlitem>
+<numlitem><para>Aircraft is dispatched in accordance with appropriate
+AOM Landing Gear Extended Appendix.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-125SA567125">
+<numlist>
+<numlitem><para>Comply with procedures outlined in the appropriate
+AOM Landing Gear Extended Appendix in the AOM.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-0257980JDM45541418">
+<numlist>
+<numlitem><para>Use Landing Gear Extended Flight Planning Data.</para>
+</numlitem>
+<numlitem><para>Complete T/O runway limit and T/O climb worksheets
+in AOM chapter 5.8.</para></numlitem>
+<numlitem><para>Flaps 5 or 15 only takeoff operation authorized.</para>
+</numlitem>
+<numlitem><para>Extended Range Operations prohibited.</para></numlitem>
+<numlitem><para>Extended overwater flights at a horizontal distance
+of more than 50NM from the nearest shoreline are prohibited.</para>
+</numlitem>
+<numlitem><para>V<sub>mo</sub>/M<sub>mo</sub> is reduced to 270 KIAS/0.73
+Mach. </para></numlitem>
+<numlitem><para>Max Altitude FL 300.</para></numlitem>
+<numlitem><para>If "OCA" is present on Airport Analytical page and
+is greater than level off height, contact Aircraft Performance Engineering
+for alternate Airport Analysis Data.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Gear Handle "GEAR RETRACTING INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757DMP00037892001">
+<warning><para>MAKE SURE THAT THE MAIN GEAR DOORS CAN NOT OPEN INTO
+PERSONS OR EQUIPMENT.  THE DOORS OPEN QUICKLY AND CAN CAUSE INJURY
+OR DAMAGE.</para></warning>
+<numlist>
+<numlitem><para>Install the landing gear downlock pins in the main
+and nose gear. Remove Red Flags from Pins.  Secure pins with safety
+wire.  Alternate procedure use, nuts and bolts in place of gear pins.</para>
+</numlitem>
+<numlitem><para>Open and collar the Landing Gear Lever Lock circuit
+breakers (11S20) prior to flight to prevent inadvertent gear lever
+movement to the up position.</para></numlitem>
+<numlitem><para>Select the ALTN position (switch pushed up) on the
+ALTERNATE Vmo/Mmo switch S10471 on the EE Bay Service Panel.  This
+provides gear down Vmo/Mmo data for display on airspeed indicators
+and causes the aural warning siren, red WARNING master warning lights
+on the glareshield, and the red OVSPD warning light on the Captain's
+panel to come on, and OVERSPEED warning on EICAS to appear when the
+gear down Vmo/Mmo is exceeded.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

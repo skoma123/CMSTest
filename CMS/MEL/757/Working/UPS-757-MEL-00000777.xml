@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS-757-MEL-00000777" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Sump Drain Valves</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="6" nbrreq="5"
+operation="NO">
+<remarks>
+<para>One may be inoperative closed provided there is no evidence
+of leakage. </para>
+</remarks>
+<placard>
+<para>Placard near EICAS "SUMP DRAIN VALVE INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000778">
+<numlist>
+<numlitem><para>See following illustrations for location and sketches
+of typical fuel sump drain valves.</para></numlitem>
+<numlitem><para>Visually inspect exterior of valve location for evidence
+of fuel leakage.</para></numlitem>
+</numlist>
+<graphic chapnbr="28" chg="U" key="UPS757DMPFIG2811" revdate="20080924"
+revnbr="65" sectnbr="11">
+<title>FUEL SUMP DRAIN VALVE INSTALLATION</title>
+<sheet chg="U" gnbr="DMP_CH_28_Page_1" key="UPSDMP_CH_28_Page_1"
+revdate="20080924" revnbr="65">
+<title>CENTER TANK DRAIN VALVE</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000746" revdate="20091120" revnbr="67" sectnbr="51">
+<title>FLAP ISOLATION VALVE (FLAP/SLAT DEPRESSURIZATION MODULE &ndash;
+SHUTOFF FUNCTION) &ndash; AIRPLANES NOT EQUIPPED WITH FSAM</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative open provided FSEUs and by-pass valves are
+verified to be operative.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "FLAP ISOLATION VALVE INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB757MELCDL20091116075826">
+<title>Flap Isolation Valve</title>
+<numlist>
+<numlitem><para>Verify that isolation valve is open:</para>
+<numlist>
+<numlitem><para>Provide electrical power (Ref. Maintenance Manual
+24-22-00). </para>
+<warning><para>KEEP PERSONNEL AND EQUIPMENT CLEAR OF <emphasis
+role="underline"> ALL</emphasis> CONTROL SURFACES TO PREVENT INJURY
+OR DAMAGE.</para></warning>
+</numlitem>
+<numlitem><para>Pressurize left hydraulic system (Ref. Maintenance
+Manual 29-11-00).</para></numlitem>
+<numlitem><para>Verify that flaps respond to flap lever input.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify proper operation of bypass valve.</para>
+<numlist>
+<numlitem><para>Place flap lever in 1 position.</para></numlitem>
+<numlitem><para>Open FLAP SLAT SHUTOFF 1 circuit breaker (11H14) and
+attach DO-NOT-CLOSE identifier.</para></numlitem>
+<numlitem><para>Ground pin #4 on FSEU data bus test receptacle in
+the cargo compartment, station 56OR, for at least ten seconds.</para>
+</numlitem>
+<numlitem><para>Verify "L E SLAT ASYM" message appears on EICAS and
+amber leading edge light comes on (P3 panel).</para></numlitem>
+<numlitem><para>Move flap lever to 15.</para></numlitem>
+<numlitem><para>Verify that there is no flap or slat motion.</para>
+</numlitem>
+<numlitem><para>Move flap lever to 1.</para></numlitem>
+<numlitem><para>With an observer watching the slats, press the left
+and right stall warning test switch.</para></numlitem>
+<numlitem><para>Verify by observing that there is no slat motion.</para>
+</numlitem>
+<numlitem><para>Close FLAP SLAT SHUTOFF 1 circuit breaker (11H14)
+and remove DO-NOT-CLOSE identifier.</para></numlitem>
+<numlitem><para>Cycle FLAP SLAT ELEC UNIT 1 PWR (G12 on P11 panel)
+Circuit Breaker to clear "L E SLAT ASYM FAULT".</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify alternate mode is operational.</para>
+<numlist>
+<numlitem><para>Cycle flaps and slats from UP to 1 and 1 to UP by
+using the TE and LE alternate arming switches and the alternate FLAPS/SLATS
+switch. </para></numlitem>
+<numlitem><para>Check that no TE FLAPS DISAGREE or LE SLATS DISAGREE
+message appears on EICAS.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify that all three Flap Slat Electronic Units (FSEU)
+is operative by performing FSEU BITE procedure (Ref. Maintenance Manual
+27-51-00). </para>
+<table frame="none">
+<tgroup align="center" cols="1">
+<colspec colname="col1" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para>OR</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Verify all busses are normally powered. Check for FLAP SLAT
+ELEC status message and FLAP SLAT BITE maintenance message. If either
+message is displayed, dispatch is not allowed.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

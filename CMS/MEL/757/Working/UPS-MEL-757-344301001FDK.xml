@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-1" key="UPS-MEL-757-344301001FDK" revdate="20100423" revnbr="68" sectnbr="43">
+<title>Weather Radar System</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative for day VMC. May be inoperative for day IMC
+and night (VMC or IMC) provided that no thunderstorms or other potentially
+hazardous weather conditions, detectable with airborne weather radar,
+may reasonably be expected along the route of flight.</para>
+</remarks>
+<operation key="UPS-MEL-757-3443101OPSFDK">
+<note><para>No aircraft shall be dispatched in day IMC or night (VMC
+or IMC) when current weather reports indicate thunderstorms or other
+potentially hazardous weather conditions, detectable with airborne
+weather radar, may reasonably be expected along the route of flight
+unless approved airborne radar equipment is installed in the aircraft
+and is in satisfactory operating condition.</para></note>
+<para>During daylight hours, when pilot reports or current weather
+reports indicate widely scattered thunderstorm activity which may
+be circumnavigated visually, operative radar is not a requirement
+for the release of a flight.</para>
+<para>Although the requirements for operative radar are based on current
+weather reports, consideration shall also be given to forecasts and
+other indications of the need for operative radar en route.</para>
+</operation>
+<limitation key="UPS-MEL-757-3443101LIMFDK">
+<numlist>
+<!--Per Ken Foster's e-mail 2/1/10-->
+<numlitem><para>Dispatch not authorized when thunderstorms or other
+potentially hazardous weather conditions can be detected with airborne
+weather radar may reasonably be expected along the route to be flown.</para>
+</numlitem>
+</numlist>
+<note><para>Dispatch allowed when the flight is planned to avoid any
+potential thunderstorms or hazardous weather.</para></note>
+</limitation>
+<placard>
+<para>Placard Weather Radar Control Panel (M75) located on P8 panel
+"INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

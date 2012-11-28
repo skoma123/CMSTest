@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000438" revdate="20080924" revnbr="65" sectnbr="43">
+<title>Ground Crew Call Horn</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000439">
+<numlist>
+<numlitem><para>When the service interphone Ground Crew Call Horn
+is inoperative, use the flight deck interphone Flight Deck to Ground
+system. If both Flight Deck to Ground systems are inoperative, use
+standard hand signals. Coordination with ground personnel to ensure
+mutual understanding of hand signals is mandatory. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Ground Crew Call switch "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080530084930">
+<note><para>Ensure IRU's are not operating on DC power.</para></note>
+</maintenance>
+</dispcond>
+</item>

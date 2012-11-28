@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-12" key="UPS-757-MEL-00000287" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; EPR/THR Switch </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided both thrust levers are operated
+manually for takeoff.</para>
+</remarks>
+<placard>
+<para>Placard EPR Switch "INOP" and enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+</dispcond>
+</item>

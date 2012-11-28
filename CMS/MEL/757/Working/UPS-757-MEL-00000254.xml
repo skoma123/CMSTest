@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-1-1" key="UPS-757-MEL-00000254" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; A/P Engage Switches/Paddles
+(L CMD, C CMD, R CMD)</title>
+<dispcond btb="NO" category="C" downgrade="CATEGORY 3a" maintenance="NO"
+nbrins="3" nbrreq="1" operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+<note><para>All operative autopilots may be used during autoland operations.</para>
+</note>
+</remarks>
+<operation key="UPS757MELCDL20080529103641">
+<numlist>
+<numlitem><para>If autopilot engagement between 200' and 500' AGL
+is desired, ensure the AFDS is fully operational.</para></numlitem>
+<numlitem><para>For autoland operations, select APP switch and observe
+all three autopilots engage automatically at 1,500 feet AGL.</para>
+</numlitem>
+<numlitem><para>Monitor Autoland Status Annunciators (ASA) for autoland
+status.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPDDMPLIMFDK0007131">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard A/P Engage Switch "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+<para>Placard associated A/P system "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000256">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="160.96pt"/>
+<colspec colname="col2" colwidth="165.08pt"/>
+<colspec colname="col3" colwidth="156.86pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

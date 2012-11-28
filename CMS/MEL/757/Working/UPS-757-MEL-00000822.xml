@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-2-2" key="UPS-757-MEL-00000822" revdate="20091120" revnbr="67" sectnbr="40">
+<effect effrg="431475" efftext=""></effect>
+<title>Crossfeed VALVE Light(s) &ndash; Dual VALVE Installation &ndash;
+Both Lights Inoperative  </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Except for ER operations, may be inoperative provided: </para>
+<numlist>
+<numlitem><para>Both crossfeed valves are verified to be operative,
+and </para></numlitem>
+<numlitem><para>Both main fuel quantity indications are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard Crossfeed VALVE Light(s) "LIGHT INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000823">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS-757-MEL-00000821"> 28-40-1-2-1.</refint> </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<mfmatr chg="U" key="UPS757MELCDL20080923104542" revdate="20080924" revnbr="65">
+<section chapnbr="00" chg="U" key="UPS757MELCDL20080923104607" revdate="20080924" revnbr="65" sectnbr="01">
+<title>GENERAL (DMP PROCEDURES)</title>
+<textset chapnbr="00" chg="U" key="UPSGEN07TXT01" revdate="20080924" revnbr="65" sectnbr="02" textsetnbr="01">
+<title>DMP GUIDELINES</title>
+<para>This document contains <emphasis role="underline">guideline</emphasis
+> maintenance and operational procedures for dispatching B757&rsquo;s
+in non-standard configurations. It is not intended to replace existing
+Maintenance and/or Operations Manuals, but it is to be used by Line
+Maintenance and/or flying personnel as a ready reference to determine
+any procedures and/or limitations which may be imposed when invoking
+the provisions of the Minimum Equipment List.</para>
+<para>Should disagreement with the procedures given herein arise,
+the Maintenance, Operations, Flight or other official manuals which
+pertain to the problems shall be considered more authoritative than
+these Dispatch Maintenance Procedures and shall be relied upon to
+provide the proper procedures.</para>
+</textset>
+</section>
+</mfmatr>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS-757-MEL-00000720" revdate="20080924" revnbr="65" sectnbr="21">
+<title>Power Control Unit Monitor System (Including Pressure Differential
+Sensors)</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided Power Control Unit Actuators are
+verified to be operative by performing a single hydraulic system flight
+controls check with each hydraulic system before each departure.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "POWER CONTROL UNIT MONITOR INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000721">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Before each departure, perform a single hydraulic flight controls
+check with each of the three hydraulic systems as follows:</para>
+<warning><para>ENSURE PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL CONTROL
+SURFACES TO PREVENT INJURY OR DAMAGE.</para></warning>
+<numlist>
+<numlitem><para>Supply pressure to Left, Right and Center hydraulic
+systems.</para></numlitem>
+<numlitem><para>Center Electric Hydraulic Pump Switches.........................ON</para>
+</numlitem>
+<numlitem><para>Observe Center Electric Pump PRESS light(s) extinguished.</para>
+<note><para>If the aircraft is using only the APU or ground power,
+there is no power to the number 2 pump therefore the number 1 center
+electric pump will come on and only the PRESS light for the number
+1 pump will extinguish. </para></note>
+</numlitem>
+<numlitem><para>Left and Right Pump Switches.....................................OFF</para>
+</numlitem>
+<numlitem><para>Rudder check: Displace rudder in both directions while
+observing rudder deflection on EICAS status display. Verify movement
+in proper direction, and that deflection rate is normal (rate is non-normal
+if control surface deflection lags significantly behind pilot input).</para>
+<note><para>Hold the nose wheel steering tiller stationary during
+rudder check to prevent nose wheel movement. </para></note>
+</numlitem>
+<numlitem><para>Elevator check: Set the stabilizer to 7 units. Displace
+control column forward and aft while observing elevator deflection
+on EICAS status display. Control column sweep should be accomplished
+at a rate of 8-12 seconds for a full column sweep (from neutral to
+full nose up to full nose down to neutral). Verify movement in proper
+direction, and that deflection rate is normal (rate is non-normal
+if control surface deflection lags significantly behind pilot input).
+Also verify that both elevators track the column input and that there
+is no significant disagreement between the two surfaces. Ensure that
+each surface returns to neutral position when the column is returned
+to neutral.</para>
+<note><para>The SPOILERS light and message may illuminate if the control
+wheel is displaced with only the center system hydraulics available.
+The light will extinguish after the left and right hydraulic systems
+are powered.</para></note>
+</numlitem>
+<numlitem><para>Center Electric Pump Switches....................................OFF</para>
+</numlitem>
+<numlitem><para>Left ENG or Left ELEC Pump Switch..........................ON</para>
+</numlitem>
+<numlitem><para>Observe appropriate Left Pump PRESS light extinguished.</para>
+</numlitem>
+<numlitem><para>Repeat steps 5 and 6.</para></numlitem>
+<numlitem><para>Left ENG and Left ELEC Pump Switches...................OFF</para>
+</numlitem>
+<numlitem><para>Right ENG or Right ELEC Pump Switch....................ON</para>
+</numlitem>
+<numlitem><para>Observe appropriate Right Pump PRESS light extinguished.</para>
+</numlitem>
+<numlitem><para>Repeat steps 5 and 6.</para></numlitem>
+<numlitem><para>Restore HYDRAULIC PANEL Pump Switch setting as required
+and observe Pump PRESS lights are as appropriate.</para></numlitem>
+<numlitem><para>Reset stabilizer to takeoff trim setting, as required.</para>
+</numlitem>
+<numlitem><para>Return aircraft to normal configuration. </para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

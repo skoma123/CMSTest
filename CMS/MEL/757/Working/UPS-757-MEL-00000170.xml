@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="4" key="UPS-757-MEL-00000170" revdate="20080924" revnbr="65" sectnbr="58">
+<title>Flight Deck Equipment Cooling Supply Fans</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided flight remains within 90 minutes
+of a suitable landing airport.</para>
+</remarks>
+<limitation key="UPS-757-MEL-00000172">
+<numlist>
+<numlitem><para>Flight restricted to 90 minutes from a suitable landing
+airport. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near ALTN Equip Cooling switch (overhead panel) "FLT
+DECK FAN INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000171">
+<para>Maintenance procedure is not required. All UPS 757 A/C have
+90 minute EADIs and EHSIs installed.</para>
+</maintenance>
+</dispcond>
+</item>

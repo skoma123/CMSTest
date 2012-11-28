@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="74" chg="U" itemnbr="1-2" key="UPS-757-MEL-00001256" revdate="20091120" revnbr="67" sectnbr="00">
+<title>Ignition Systems</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="4" nbrreq="2"
+operation="YES">
+<remarks>
+<para>Except for ER operations, one per engine may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Ignition selector remains in BOTH position, and</para>
+</numlitem>
+<numlitem><para>Engine anti-ice systems are operative on associated
+engine(s).</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001257">
+<numlist>
+<numlitem><para>Maintain Ignition Selector in the BOTH position.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Ignition Selector on overhead panel "_______ INOP -
+MAINTAIN IN BOTH" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

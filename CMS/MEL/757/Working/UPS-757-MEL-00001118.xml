@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="1-2" key="UPS-757-MEL-00001118" revdate="20080924" revnbr="65" sectnbr="22">
+<title>BLEED Lights &ndash; Inoperative System </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative for associated inoperative bleed system.</para>
+</remarks>
+<limitation key="UPS-757-MEL-00001120">
+<numlist>
+<numlitem><para>Limit Max Altitude to FL350.</para></numlitem>
+<numlitem><para>No icing conditions below 5000 ft. AGL at intended
+destination. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near BLEED light located on Bleed Air Supply Module
+(M10259) on P5 panel "HI PRESS S/O VLV INOP and BLEED LIGHT INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001119">
+<numlist>
+<numlitem><para>Notify Flight Dispatch.  Flight operations may be
+affected. </para></numlitem>
+<numlitem><para>Select affected Bleed Air Switch OFF.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

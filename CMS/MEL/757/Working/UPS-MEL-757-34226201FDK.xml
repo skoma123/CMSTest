@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="6-3-0-1" key="UPS-MEL-757-34226201FDK" revdate="20080924" revnbr="65" sectnbr="22">
+<title>EFIS Controls &ndash; Decision Height Indication (DH REF)</title>
+<dispcond category="C" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative provided approach procedures do not require
+its use.</para>
+<note><para>Flight crew use EADI DH indication.</para></note>
+</remarks>
+<placard>
+<para>Placard affected indication "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

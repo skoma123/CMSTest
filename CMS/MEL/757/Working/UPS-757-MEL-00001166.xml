@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="2" key="UPS-757-MEL-00001166" revdate="20080924" revnbr="65" sectnbr="70">
+<title>APU RUN Light</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided another acceptable means to verify
+APU condition is available and used.</para>
+</remarks>
+<operation key="UPS-757-MEL-00001167">
+<para>APU Shutdown</para>
+<numlist>
+<numlitem><para>Position APU VALVE switch to OFF. Check to see that
+APU VALVE light does not illuminate.</para></numlitem>
+<numlitem><para>Wait 120 seconds for APU cooldown.</para></numlitem>
+<numlitem><para>Turn APU selector switch to OFF.</para></numlitem>
+<numlitem><para>Wait 20 seconds, observe APU FAULT light momentarily
+illuminates to indicate APU fuel valve is intransit to closed.</para>
+</numlitem>
+</numlist>
+<para>APU Startup</para>
+<numlist>
+<numlitem><para>Monitor APU RPM and EGT on ElCAS, load APU when APU
+RPM is 95% or greater.</para>
+<note><para><emphasis role="underline">APU STARTER DUTY CYCLE-</emphasis
+></para><para>- 3 consecutive attempts maximum.</para>
+<para>- 5 minute cooling period between attempts.</para>
+<para>- 60 minute cooling period following third attempt.</para>
+</note>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard RUN Light on APU Control Panel "LIGHT INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

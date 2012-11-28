@@ -1,0 +1,30 @@
+<!-- ArborText character entity set. Typical invocation:
+  <!ENTITY % ATInum PUBLIC
+    "-//ArborText//ENTITIES Numeric and Special Graphic//EN//XML"
+    "ati-num.ent"
+  >
+-->
+
+<!-- This is an XML version of ati-num.gml -->
+
+<!-- Where there is no known Unicode character, E000 <Private Use, First>
+     is used -->
+
+<!ENTITY peso		"&#x20B1;"> <!-- peso sign-->
+
+<!ENTITY monthname	"&#xE000;"> <!-- current month, e.g., January -->
+<!ENTITY monthnum	"&#xE000;"> <!-- current month as number, e.g., 1 -->
+<!ENTITY day		"&#xE000;"> <!-- current day of the month -->
+<!ENTITY year		"&#xE000;"> <!-- current year -->
+
+<!ENTITY brkpt		"&#x0082;"> <!-- allowable point to break line -->
+
+<!ENTITY lsaquo		"&#x2039;"> <!-- left single angle quote -->
+<!ENTITY rsaquo		"&#x203A;"> <!-- right single angle quote -->
+
+<!ENTITY fracbar	"&#x002F;"> <!-- fraction bar (slash, solidus) -->
+
+<!ENTITY squot		"&#x0027;"> <!-- single neuter quote -->
+<!ENTITY backquote	"&#x0060;"> <!-- back (left) quote, grave accent -->
+
+<!ENTITY ignorespc	"&#xE000;"> <!-- ignore space(s) to next glyph -->

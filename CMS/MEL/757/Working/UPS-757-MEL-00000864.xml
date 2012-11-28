@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS-757-MEL-00000864" revdate="20080924" revnbr="65" sectnbr="44">
+<title>Measuring Sticks</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="14" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided fuel quantity is determined by other
+approved means.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "(<emphasis role="underline">QTY</emphasis
+> ) FUEL MEASURING STICKS INOP" and enter item in Aircraft Deferred
+Item Log.  (Ref: MM 28-41-00).</para>
+</placard>
+</dispcond>
+</item>

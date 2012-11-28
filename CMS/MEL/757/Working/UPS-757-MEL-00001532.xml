@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="57" chg="U" key="UPS-757-MEL-00001532" qtyreq="20" revdate="20080924" revnbr="65" sectnbr="20">
+<title>MAIN SLAT TRACK SKIRT EXTENSIONS </title>
+<remarks>
+<para>Any number or combination may be missing.  The performance decrement
+is negligible.</para>
+</remarks>
+<graphic chapnbr="57" chg="U" confnbr="1" key="UPS757CDLFIG5702"
+revdate="20080924" revnbr="65" sectnbr="20">
+<title>MAIN SLAT TRACK SKIRT EXTENSIONS</title>
+<sheet chg="U" gnbr="CDL_CH_57_Page_2" key="UPSCDL_CH_57_Page_2"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</cdlblk>

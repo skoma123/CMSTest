@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000784" revdate="20080924" revnbr="65" sectnbr="21">
+<title>Pressure Fueling System &ndash; Fuel Shutoff Valves </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="4" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative closed.</para>
+</remarks>
+<placard>
+<para>Placard affected control switch "TANK SHUTOFF VALVE INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000785">
+<numlist>
+<numlitem><para>Manually open/close fueling valve for fuel level desired
+(Ref MM 12-11-01).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

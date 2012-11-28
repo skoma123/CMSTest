@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1" key="UPS-757-MEL-00000879" revdate="20080924" revnbr="65" sectnbr="31">
+<title>Hydraulic Low SYS PRESS Lights</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="3" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated pump low PRESS lights are operative, and</para>
+</numlitem>
+<numlitem><para>Associated HYD SYS PRESS EICAS indication is verified
+to be operative.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard affected SYS PRESS light "LIGHT INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000880">
+<numlist>
+<numlitem><para>Select all hydraulic pumps OFF.</para></numlitem>
+<numlitem><para>Verify associated L(C or R) HYD SYS PRESS caution
+message is displayed on EICAS.</para></numlitem>
+<numlitem><para>Select associated ACMP ON.</para></numlitem>
+<numlitem><para>Verify associated L(C or R) HYD SYS PRESS caution
+message is not displayed on EICAS.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

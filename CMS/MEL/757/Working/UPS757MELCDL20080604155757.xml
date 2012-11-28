@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-1-1" key="UPS757MELCDL20080604155757" revdate="20080924" revnbr="65"
+sectnbr="42">
+<title>Fuel Pump Low PRESS Lights &ndash; Inoperative Main Tank Pump
+Lights</title>
+<dispcond category="C" maintenance="YES" nbrins="4" nbrreq="3"
+operation="YES">
+<remarks>
+<para>May be inoperative for an associated inoperative pump.</para>
+</remarks>
+<operation key="UPS757MELCDL20080604160043">
+<para>Use Normal fuel management.</para>
+<numlist>
+<numlitem><para>Takeoff, Initial climb, and Landing</para></numlitem>
+</numlist>
+<para>Boost pump inoperative in either main tank:</para>
+<para>Appropriate minimum fuel quantities are maintained in the affected
+tank for the associated flight condition.</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="right" colname="col1" colwidth="0.41*"/>
+<colspec colname="col2" colwidth="0.71*"/>
+<colspec align="left" colname="col3" colwidth="1.89*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>TAKEOFF</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>FWD PUMP</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>-8,000 lbs.</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>AFT PUMP</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>-12,200 lbs.</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>LANDING</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>FWD PUMP</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>-1,500 lbs.</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>AFT PUMP</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>-1,500 lbs.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>The minimum fuel quantities specified provide sufficient
+fuel to ensure the operable main tank pump's inlet and suction bypass
+inlet will remain covered at expected pitch attitudes for takeoff
+and landing.</para></note>
+</operation>
+<limitation key="UPS757MELCDL20080604161424">
+<numlist>
+<numlitem><para>For landing, minimum fuel quantities must be regarded
+as unusable fuel.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected Pump Switch(es) "PUMP INOP DUE TO LIGHT" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080604160734">
+<numlist>
+<numlitem><para>Open and collar affected pump C/B on P6:</para>
+</numlitem>
+</numlist>
+<table frame="none">
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="543.00px"?>
+<colspec colname="col1" colwidth="0.97*"/>
+<colspec align="left" colname="col2" colwidth="1.03*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>L FWD (P6H23)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>R FWD (P6H17)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>L AFT (P6H14)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>R AFT (P6H20)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

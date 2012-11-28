@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1-3" key="UPS-MEL-757-34131130717" revdate="20080924" revnbr="65" sectnbr="13">
+<title>Mach/Airspeed Indicators &ndash; Mach Indicators &ndash; Both
+Inoperative</title>
+<dispcond category="C" nbrins="2" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Aircraft remains at or below FL300, and</para>
+</numlitem>
+<numlitem><para>A placard with this limitation is affixed to instrument
+panel.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS-MEL-757-13113070717">
+<numlist>
+<numlitem><para>Limit flight altitude to FL300 or below.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard both Mach/Airspeed Indicators "MACH INOP &ndash; ALT
+RESTRICTED TO FL300" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

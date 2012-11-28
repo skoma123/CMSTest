@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-1-4" key="UPS-757-MEL-00000552" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Flight Deck First Observer&rsquo;s Seat (Including Associated
+Equipment) &ndash; First Observer&rsquo;s Audio Selector Panel </title>
+<dispcond btb="NO" category="A" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Occupant of seat is not required to perform official
+duties, </para></numlitem>
+<numlitem><para>An FAA Inspector may, after being briefed on the nature
+of the discrepancy, elect to utilize the seat,</para></numlitem>
+<numlitem><para>Acceptable communications procedures are established
+and used, and</para></numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+<note><para>An official observer may elect to use the cockpit speaker
+if the Audio Selector Panel/Headset is inoperative and such procedure
+is acceptable to the flight crew.</para></note>
+</remarks>
+<placard>
+<para>Placard First Observer's Audio Selector Panel "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

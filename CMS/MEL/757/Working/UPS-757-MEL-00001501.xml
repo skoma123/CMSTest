@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="6" chapnbr="52" chg="U" key="UPS-757-MEL-00001501" qtyreq="1" revdate="20080924" revnbr="65" sectnbr="48">
+<title>WATER DRAIN MAST ACCESS PANEL (Forward)</title>
+<remarks>
+<para>May be missing.  The performance decrement is negligible.</para>
+<para>(SEE FIGURE 52-48-5/6)</para>
+</remarks>
+<graphic chapnbr="52" chg="U" confnbr="5" key="UPS757CDLFIG5202"
+revdate="20080924" revnbr="65" sectnbr="48">
+<title>AIR CONDITION INLET ACCESS AND WATER DRAIN MAST ACCESS PANELS</title>
+<sheet chg="U" gnbr="CDL_CH_52_Page_2" key="UPSCDL_CH_52_Page_2"
+revdate="20080924" revnbr="65">
+<title>FIGURE 52-48-5/6</title>
+</sheet>
+</graphic>
+</cdlblk>

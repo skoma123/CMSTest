@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="1-3-3" key="UPS-757-MEL-00000339" revdate="20080924" revnbr="65" sectnbr="30">
+<title>Thrust Management System (Including Autothrottle System) Thrust
+Mode Select Panel &ndash; TO/GA Switch </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard TO/GA Switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

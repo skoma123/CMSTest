@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="2-1-1" key="UPS757MELCDL20080612152818" revdate="20080924" revnbr="65"
+sectnbr="58">
+<title>ACSS Surveillance Processor (STC ST02053LA) Automatic Dependent
+Surveillance-Broadcast (ADS-B) Functionality &ndash; Cockpit Display
+of Traffic Information (CDTI) Functionality (EFB Installed)</title>
+<dispcond category="D" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Procedures do not require its use, and</para></numlitem>
+<numlitem><para>Merging &amp; Spacing and CAVS operations are prohibited.</para>
+</numlitem>
+</numlist>
+<note><para>ADS-B data transmissions may continue.</para></note>
+</remarks>
+<limitation key="UPS757MELCDL20080612153538">
+<numlist>
+<numlitem><para>Merging &amp; Spacing and CAVS operations are prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard EFB(s) "CDTI FUNCTION INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

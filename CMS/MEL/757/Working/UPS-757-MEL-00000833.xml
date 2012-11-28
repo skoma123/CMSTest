@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000833" revdate="20090814" revnbr="66" sectnbr="41">
+<title>Fuel Tank Quantity Indication Systems (Flight Deck) &ndash;
+Center Tank Indicator Inop </title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Center tank remains empty, and</para></numlitem>
+<numlitem><para>Center tank is verified to be empty before each refueling.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000834">
+<note><para>If fuel quantity is entered manually, MANUAL appears following
+the entry.  The TOTALIZER display on PROGRESS page 2 is blanked and
+fuel quantity from the Fuel Quantity Processor Unit is ignored for
+the remainder of the flight.  The FMC now uses calculated fuel quantity.</para>
+</note>
+</operation>
+<limitation key="UPS757MELCDL20080604132006">
+<numlist>
+<numlitem><para>Center Tank remains empty.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected Fuel Quantity Indication "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000835">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>To verify the fuel quantity in associated tank, accomplish
+one of the following procedures as appropriate:</para>
+<numlist>
+<numlitem><para>Check the associated tank fuel quantity indicator
+on the fuel control P28 panel. If it is operative, it may be used
+as the means of determining the quantity in the tank with the inoperative
+indicator. If it is not operative, placard it inoperative and notify
+the fuel crew that the automatic fueling shutoff function may be inoperative.</para>
+<para>OR</para>
+</numlitem>
+<numlitem><para>Determine the associated tank&rsquo;s fuel quantity
+utilizing measuring sticks and the Fuel Measuring Stick Manual provided
+with the aircraft. </para>
+<note><para>The Fuel Measuring Stick Manual provides instruction for
+using the measuring stick readings and a set of conversion tables
+that relate stick readings and aircraft attitude to obtain tank quantity.
+Ensure that the manual corresponds to the units on the measuring stick
+and the weight units of the aircraft configuration. </para></note>
+<note><para>With a fuel tank quantity gage inoperative, the total
+fuel quantity indication (MEL <refint refid="UPS-757-MEL-00000849"
+reftype="MEL">28-41-7-1</refint> and <refint
+refid="UPS757MELCDL20080604151459" reftype="MEL">28-41-7-2</refint
+>) will be blank.</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

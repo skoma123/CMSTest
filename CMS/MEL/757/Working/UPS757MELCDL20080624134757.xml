@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="4-2" chapnbr="78" chg="U" key="UPS757MELCDL20080624134757" qtyreq="4" revdate="20080924"
+revnbr="65" sectnbr="31">
+<title>(PW) THRUST REVERSER SLEEVE ASSEMBLY SEAL (Bull Nose Seal)</title>
+<remarks>
+<para>20% of the seal may be missing from each reverser half or each
+engine, provided the performance limited weights are reduced by:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="left" colname="col1" colwidth="1.34*"/>
+<colspec align="right" colname="COLSPEC0" colwidth="0.82*"/>
+<colspec align="left" colname="COLSPEC2" colwidth="2.32*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>400 lbs</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>500 lbs</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Any combination of the authorized numbers of items (CDL <refint
+refid="UPS-757-MEL-00001572" reftype="CDL">78-31-1-1</refint>, <refint
+refid="UPS757MELCDL20080624123222" reftype="CDL">78-31-1-2</refint
+>, <refint refid="UPS-757-MEL-00001573" reftype="CDL">78-31-2-1</refint
+>, <refint>78-31-2-2</refint>, <refint refid="UPS-757-MEL-00001585"
+reftype="CDL">78-31-3</refint>, <refint refid="UPS-757-MEL-00001590"
+reftype="CDL">78-31-4-1</refint>, <refint
+refid="UPS757MELCDL20080624134757" reftype="CDL">78-31-4-2</refint
+>) may be missing.</para>
+<para>(SEE FIGURE 78-31-4-2)</para>
+</remarks>
+<graphic chapnbr="78" chg="U" confnbr="5" key="UPS757CDLFIG7806"
+revdate="20080924" revnbr="65" sectnbr="31">
+<title>THRUST REVERSER SLEEVE ASSEMBLY SEAL (BULL NOSE SEAL) (PW ENGINE)</title>
+<sheet chg="U" gnbr="CDL_CH_78_Page_6" key="UPSCDL_CH_78_Page_6"
+revdate="20080924" revnbr="65">
+<title>FIGURE 78-31-4-2</title>
+</sheet>
+</graphic>
+</cdlblk>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-2-1-3" key="UPSB757MELCDL20100519131831" revdate="20100423" revnbr="68"
+sectnbr="11">
+<!--Per J.Perella & B.Bombatch 5/19/10-->
+<title>COMMUNICATIONS SYSTEMS (HF) &ndash; HIGH FREQUENCY (HF) COMMUNICATION
+SYSTEM &ndash; ONE INOPERATIVE &ndash; SATCOM OPERATIVE </title>
+<dispcond attr-rev="NO" category="C" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>May be inoperative while conducting operations that require
+two LRCS provided:</para>
+<numlist>
+<numlitem><para>SATCOM Voice or Data Link is operative,</para>
+</numlitem>
+<numlitem><para>Alternate procedures are established and used,</para>
+</numlitem>
+<numlitem><para>SATCOM coverage is available over intended route of
+flight, and</para></numlitem>
+<numlitem><para>If Inmarsat codes are not available while using SATCOM
+voice, prior coordination with appropriate ATS facility is required.</para>
+<note><para>SATCOM is to be used only as a backup to normal HF communication
+unless otherwise authorized by appropriate ATS facilities.</para></note>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPSB757MELCDL20100519132714">
+<numlist>
+<numlitem><para>Maintain company communications with appropriate facility.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected system "HF INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

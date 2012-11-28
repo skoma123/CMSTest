@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="1-1-2" key="UPS-757-MEL-00001214" revdate="20091120" revnbr="67" sectnbr="21">
+<title>Electronic Engine Control (EEC) Systems &ndash; RB211</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>Except for ER operations, may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both EECs are OFF, and</para></numlitem>
+<numlitem><para>ENG Limiter Control (ELC) is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001215">
+<numlist>
+<numlitem><para>With one Electronic Engine Control (EEC) system inoperative,
+plan flight with both EECs turned off to prevent unacceptable throttle
+stagger.  With the EECs inoperative or turned off, there will be no
+Command Sector indication (see following illustration).  Observe thrust
+limits.</para>
+<graphic chapnbr="73" chg="U" key="UPS757MELPFIG7301" revdate="20080924"
+revnbr="65" sectnbr="21">
+<sheet chg="U" gnbr="MEL_CH_73_Page_1" key="UPSMEL_CH_73_Page_1"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Observe (L/R) Engine Limiter EICAS message is not
+displayed.  (ELC provides N<sub>1 </sub> limit operation.)</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Electronic Engine Control (EEC) system(s) "INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001216">
+<numlist>
+<numlitem><para>Place Left and Right Engine EEC Control Switches (Pilot's
+overhead panel) to the INOP position.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

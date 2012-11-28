@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-4" key="UPS-757-MEL-00000264" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; A/T SPD Mode Engage Switch </title>
+<dispcond btb="NO" category="C" downgrade="CATEGORY 1" maintenance="NO"
+nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided procedures and approach minimums
+do not require use of autothrottle system.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000265">
+<numlist>
+<numlitem><para>Autothrottle Speed mode cannot be manually selected.</para>
+</numlitem>
+<numlitem><para>Set thrust manually for takeoff.</para></numlitem>
+<numlitem><para>A/T Speed mode is the default A/T mode after altitude
+capture on FLCH, VNAV, or G/A.</para></numlitem>
+<numlitem><para>VNAV commands the A/T to speed determined by FMC. </para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-7578-MEL111264">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+1.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard A/T SPD Mode Engage Switch "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000266">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="158.50pt"/>
+<colspec colname="col3" colwidth="159.31pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

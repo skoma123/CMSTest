@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="6-1" key="UPS-757-MEL-00000143" revdate="20090814" revnbr="66" sectnbr="51">
+<title>Main Cargo Air Distribution Riser Shutoff Valves</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="2" nbrreq="1" operation="YES">
+<remarks>
+<para>One may be inoperative closed provided:</para>
+<numlist>
+<numlitem><para>Corresponding zone trim air modulating valve is deactivated
+closed, and</para></numlitem>
+<numlitem><para>Operation is limited to one pack.</para></numlitem>
+</numlist>
+<note><para>In event of operating pack failure, turn on remaining
+pack.</para></note>
+</remarks>
+<operation key="UPS-757-MEL-00000144">
+<numlist>
+<numlitem><para>Limit operation to one pack.</para></numlitem>
+<numlitem><para>Limit altitude to FL350 or below.</para></numlitem>
+</numlist>
+<note><para>In event of operating pack failure, turn on remaining
+pack.</para></note>
+</operation>
+<limitation key="UPS-757-MEL-00000146">
+<numlist>
+<numlitem><para>Limit flight altitude to FL350 or below.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard the Air Conditioning Pack Selector "OPERATION LIMITED
+TO ONE PACK".</para>
+<para>Placard respective Cabin Temp Selector "FWD OR AFT MAIN CARGO
+S/O VALVE CLOSED" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000145">
+<numlist>
+<numlitem><para>Secure applicable Main Cargo Shutoff Valve closed
+per following procedure.</para></numlitem>
+<numlitem><para>Verify that the Air Conditioning Pack selector, on
+the P5 panel, is in the OFF position. Verify that the PACK OFF Light
+is on. Put a DO-NOT-OPERATE identifier on the selector.</para>
+</numlitem>
+<numlitem><para>Open the forward cargo compartment door, 821.</para>
+</numlitem>
+<numlitem><para>Remove the aft bulkhead lining of the forward cargo
+compartment (Ref. MM 25-50-03).</para></numlitem>
+<numlitem><para>Locate the applicable Main Cargo Shutoff Valve about
+two feet to the left of the mix manifold.</para></numlitem>
+<numlitem><para>Disconnect, cap, and stow the electrical connector.</para>
+</numlitem>
+<numlitem><para>Rotate the manual drive with 5/32-inch hexagonal wrench
+until the position indicator points to CLOSE.</para>
+<note><para>About 15 turns are necessary to go from the full open
+to full closed position.</para></note>
+</numlitem>
+<numlitem><para>Deactivate associated zone trim air modulating valve
+in the closed position (see <refint refid="UPS-757-MEL-00000189"
+reftype="MEL">21-61-1-2</refint> CABIN COMPT TEMP CONTROL SYSTEM).</para>
+<numlist>
+<numlitem><para>If the forward riser shutoff valve is closed, close
+the trim air valve for the forward zone.</para></numlitem>
+<numlitem><para>If the aft riser shutoff valve is closed, close the
+trim valve for the aft zone.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Install the aft bulkhead lining of the forward cargo
+compartment (Ref. MM 25-50-03).</para></numlitem>
+<numlitem><para>Close the forward cargo compartment door, 821.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPSDMP02103FDK03" revdate="20080924"
+revnbr="65">
+<sheet chg="U" gnbr="DMP_CH_21_Page_3" key="UPSDMP_CH_21_Page_3"
+revdate="20080924" revnbr="65">
+<title>MAIN CARGO (AIR DISTRIBUTION RISER) SHUTOFF VALVE</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

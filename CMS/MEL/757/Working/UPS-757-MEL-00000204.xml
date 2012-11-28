@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="7-2" key="UPS-757-MEL-00000204" revdate="20080924" revnbr="65" sectnbr="61">
+<title>Trim Air Check Valves</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Failed check valve is secured closed, and</para>
+</numlitem>
+<numlitem><para>Trim air is available from side opposite to valve
+which is secured closed.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS757MELCDL20080528110730">
+<numlist>
+<numlitem><para>With both packs operative, operate left pack in AUTO
+mode only.</para></numlitem>
+<numlitem><para>With one pack inoperative, operate remaining pack
+in AUTO or STBY mode as appropriate.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near Trim Air switch "L (R) TRIM AIR INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000205">
+<note><para>If both air conditioning packs are operative the failed
+check valve and blanking plate should be on the right side. Swap the
+operative valve onto the left side, if necessary, using procedures
+in AMM 21-61-05. If an air conditioning pack is inoperative, the failed
+check valve should be on the side with the inoperative pack. Swap
+valves, if necessary, using AMM 21-61-05.</para></note>
+<note><para>An inoperative trim air check valve is secured closed
+by installing a blanking plate on the downstream side of the inoperative
+trim air check valve.</para></note>
+<numlist>
+<numlitem><para>Obtain blanking plate (213T2412-1) or manufacture
+per the following:</para>
+<graphic chapnbr="21" chg="U" key="UPSDMP021008FDK6" revdate="20080924"
+revnbr="65">
+<sheet chg="U" gnbr="DMP_CH_21_Page_8" key="UPSDMP_CH_21_Page_8"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Provide electrical power (Ref. MM 24-22-00).</para>
+<warning><para>REMOVE PRESSURE FROM THE PNEUMATIC SYSTEM. PRESSURE
+IN THE PNEUMATIC SYSTEM CAN CAUSE INJURY TO PERSONS AND DAMAGE TO
+EQUIPMENT.</para></warning>
+</numlitem>
+<numlitem><para>Remove pressure from the pneumatic system (Ref. MM
+36-00-00). </para></numlitem>
+<numlitem><para>Place both air conditioning pack control selectors
+on pilot&rsquo;s overhead panel P5 in OFF position. Attach DO-NOT-OPERATE
+identifier to both selectors.</para></numlitem>
+<numlitem><para>Lower left (right) air conditioning pack access door
+193HL (194ER).</para></numlitem>
+<numlitem><para>Loosen clamp on downstream side of the left (right)
+trim air check valve and slide clamp along duct.</para></numlitem>
+<numlitem><para>Slip blanking plate between duct assembly and trim
+air check valve.</para></numlitem>
+<numlitem><para>Reinstall clamp. Torque clamp nut to 45 inch-pounds.</para>
+<graphic chapnbr="21" chg="U" key="UPSDMP021009" revdate="20080924"
+revnbr="65">
+<sheet chg="U" gnbr="DMP_CH_21_Page_9" key="UPSDMP_CH_21_Page_9"
+revdate="20080924" revnbr="65">
+<title>TRIM AIR CHECK VALVE</title>
+</sheet>
+</graphic>
+</numlitem>
+<numlitem><para>Perform leakage test per the following:</para>
+<numlist>
+<numlitem><para>Provide pneumatic power (Ref. MM 36-00-00).</para>
+</numlitem>
+<numlitem><para>Remove DO-NOT-OPERATE identifier from both air conditioning
+pack control selectors on P5 panel and place both selectors to AUTO
+position. </para></numlitem>
+<numlitem><para>Press TRIM AIR switchlight, on P5 panel, to OFF position.
+Remove DO-NOT-OPERATE identifier from switchlight.</para></numlitem>
+<numlitem><para>Check valve flange for leakage.</para>
+<numlist>
+<numlitem><para>Diffused leakage is acceptable.</para></numlitem>
+<numlitem><para>Jet blast leakage must be repaired by joint or clamp
+realignment. </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Put the aircraft back to its usual condition:</para>
+<numlist>
+<numlitem><para>Close left (right) air conditioning pack access door
+193HL (194ER).</para></numlitem>
+<numlitem><para>Remove pneumatic power (Ref. MM 36-00-00).</para>
+</numlitem>
+<numlitem><para>Remove electrical power (Ref. MM 24-22-00).</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

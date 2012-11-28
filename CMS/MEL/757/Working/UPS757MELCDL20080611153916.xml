@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="6" key="UPS757MELCDL20080611153916" revdate="20080924" revnbr="65" sectnbr="13">
+<title>Standby Altimeter Vibrator</title>
+<dispcond category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided VMC exists at departure and arrival
+airports.</para>
+</remarks>
+<limitation key="UPS757MELCDL20080611154137">
+<note><para>May be inoperative provided VMC exists at departure and
+arrival airports.</para></note>
+</limitation>
+<placard>
+<para>Placard Standby Altimeter "VIBRATOR INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

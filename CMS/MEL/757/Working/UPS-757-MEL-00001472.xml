@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="2" chapnbr="33" chg="U" key="UPS-757-MEL-00001472" qtyreq="2" revdate="20080924" revnbr="65" sectnbr="42">
+<title>NOSE GEAR LANDING LIGHT</title>
+<remarks>
+<para>One may be missing with no penalty.  (SEE FIGURE 33-42-1/2)</para>
+</remarks>
+<graphic chapnbr="33" chg="U" confnbr="2" key="UPS757CDLFIG3302"
+revdate="20080924" revnbr="65" sectnbr="42">
+<title>RUNWAY TURNOFF AND NOSE GEAR LANDING LIGHTS</title>
+<sheet chg="U" gnbr="CDL_CH_33_Page_2" key="UPSCDL_CH_33_Page_2"
+revdate="20080924" revnbr="65">
+<title>FIGURE 33-42-1/2</title>
+</sheet>
+</graphic>
+</cdlblk>

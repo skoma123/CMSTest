@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-1" key="UPS-757-MEL-00345SAJDM001" revdate="20080924" revnbr="65" sectnbr="31">
+<title>Flight Data Recorder System &ndash; DFDR Recording Parameters
+Required by FAR </title>
+<dispcond btb="NO" category="A" maintenance="NO" nbrins="&ndash;"
+nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Cockpit Voice Recorder (CVR) is operative, and</para>
+</numlitem>
+<numlitem><para>Repairs are made within twenty calendar days.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard Flight Recorder Control Switch "INOP" on the accessory
+panel and enter item in Aircraft Deferred Item Log Parameter ___ inoperative. </para>
+</placard>
+<maintenance key="UPS757MEL00310101SAJDM">
+<para>The B757 has the following parameters required and not required
+by the FAA.</para>
+<table>
+<tgroup cols="4">
+<colspec colname="COLSPEC1" colwidth="18.53*"/>
+<colspec colname="col1" colwidth="33.70*"/>
+<colspec colname="col2" colwidth="23.64*"/>
+<colspec colname="col3" colwidth="24.13*"/>
+<thead>
+<row>
+<entry valign="top"></entry>
+<entry align="center" valign="top">
+<para>PARAMETER</para>
+</entry>
+<entry align="center" valign="top">
+<para>REQUIRED</para>
+<para>N401-N420</para>
+</entry>
+<entry align="center" valign="top">
+<para>REQUIRED</para>
+<para>N421 and UP</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>1.</para>
+</entry>
+<entry align="left">
+<para>Time</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>2.</para>
+</entry>
+<entry align="left">
+<para>Altitude</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>3.</para>
+</entry>
+<entry align="left">
+<para>Airspeed</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>4.</para>
+</entry>
+<entry align="left">
+<para>Heading</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>5.</para>
+</entry>
+<entry align="left">
+<para>Vertical Acceleration</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>6.</para>
+</entry>
+<entry align="left">
+<para>Pitch Altitude</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>7.</para>
+</entry>
+<entry align="left">
+<para>Roll Attitude</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>8.</para>
+</entry>
+<entry align="left">
+<para>ATC Event Radio Keying</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>9.</para>
+</entry>
+<entry align="left">
+<para>Thrust Power of Each Engine</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>10.</para>
+</entry>
+<entry align="left">
+<para>Autopilot Engagement Status</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>11.</para>
+</entry>
+<entry align="left">
+<para> Longitudinal Acceleration</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>12.</para>
+</entry>
+<entry align="left">
+<para>Pitch Control Position (CC)</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>13.</para>
+</entry>
+<entry align="left">
+<para>Lateral Control Position (CW)</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>14.</para>
+</entry>
+<entry align="left">
+<para>Yaw Control Position (RP)</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>15.</para>
+</entry>
+<entry align="left">
+<para>Pitch Control Surface Position</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>16.</para>
+</entry>
+<entry align="left">
+<para>Lateral Control Surface Position</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>17.</para>
+</entry>
+<entry align="left">
+<para>Yaw Control Surface Position</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>18.</para>
+</entry>
+<entry align="left">
+<para>Lateral  Acceleration</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>19.</para>
+</entry>
+<entry align="left">
+<para>Pitch Trim Position (Stabilizer)</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>20.</para>
+</entry>
+<entry align="left">
+<para>Trailing Edge Flap Position</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>21.</para>
+</entry>
+<entry align="left">
+<para>Leading Edge Flap Position</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>22.</para>
+</entry>
+<entry align="left">
+<para>Thrust Reverser Position</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>23.</para>
+</entry>
+<entry align="left">
+<para>Ground Spoiler or Speed Brake</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>24.</para>
+</entry>
+<entry align="left">
+<para>OAT or TAT</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>25.</para>
+</entry>
+<entry align="left">
+<para>AFCS Mode and Engagement</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>26.</para>
+</entry>
+<entry align="left">
+<para>Radio Altitude</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>27.</para>
+</entry>
+<entry align="left">
+<para>Localizer Deviation</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>28.</para>
+</entry>
+<entry align="left">
+<para>Glideslope Deviation</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>29.</para>
+</entry>
+<entry align="left">
+<para>Marker  Beacon Passage</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>30.</para>
+</entry>
+<entry align="left">
+<para>Master Warning</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>31.</para>
+</entry>
+<entry align="left">
+<para>Air/Ground Sensor</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>32.</para>
+</entry>
+<entry align="left">
+<para>Angle of Attack</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>33.</para>
+</entry>
+<entry align="left">
+<para>Hydraulic Pressure Low</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>34.</para>
+</entry>
+<entry align="left">
+<para>Groundspeed</para>
+</entry>
+<entry></entry>
+<entry align="center">
+<para>X</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

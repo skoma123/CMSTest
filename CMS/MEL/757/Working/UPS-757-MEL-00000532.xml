@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000532" revdate="20080924" revnbr="65" sectnbr="51">
+<title>NOT APPLICABLE</title>
+<dispcond btb="NO" category="" maintenance="NO" nbrins="" nbrreq=""
+operation="NO">
+<remarks>
+<para> </para>
+<para><emphasis role="bold">END ELECTRICAL POWER</emphasis></para>
+</remarks>
+</dispcond>
+</item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="35" chg="U" itemnbr="2-2-1" key="UPS-757-MEL-00001058" revdate="20091120" revnbr="67" sectnbr="11">
+<title>Crew Oxygen System &ndash; Bottle Gage &ndash; SINGLE BOTTLE
+SYSTEM</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided pressure indication (EICAS) is operative. </para>
+</remarks>
+<operation key="UPS-757-MEL-00001059">
+<note><para>Observe EICAS screen for minimum oxygen requirements as
+stated in chart found in Dispatch Maintenance Procedure <refint
+refid="UPS-757-MEL-0SA321125057">35-11-2-1</refint>.</para></note>
+</operation>
+<placard>
+<para>Placard near upper EICAS "BOTTLE GAGE INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

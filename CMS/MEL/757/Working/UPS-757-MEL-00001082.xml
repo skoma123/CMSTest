@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="1" key="UPS-757-MEL-00001082" revdate="20091120" revnbr="67" sectnbr="11">
+<title>ENG BLEED Pressure Regulating and Shutoff Valves  (PRSOV) (L
+&amp; R)</title>
+<dispcond attr-rev="NO" btb="NO" category="C" maintenance="YES"
+nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, one may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>PRSOV is closed, </para></numlitem>
+<numlitem><para>Associated engine BLEED switch remains OFF,</para>
+</numlitem>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions, </para></numlitem>
+<numlitem><para>Remaining (opposite) engine bleed system and its associated
+pack are operative, and</para></numlitem>
+<numlitem><para>Aircraft remains at or below FL350.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS-757-MEL-00001084">
+<numlist>
+<numlitem><para>Operations into known or forecast icing conditions
+is prohibited. </para></numlitem>
+<numlitem><para>Aircraft remains at or below FL350.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard applicable BLEED AIR L or R ENG switchlight located
+on Bleed Air Supply Module (M10259) on P5 panel "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001083">
+<numlist>
+<numlitem><para>Notify Flight Dispatch.  Aircraft operation, procedures
+and flight planning may be affected.</para></numlitem>
+<numlitem><para>Press BLEED AIR L and R ENG switchlight on pilots
+overhead P5 panel to OFF.  Verify OFF lights come on.</para></numlitem>
+<numlitem><para>If OFF light does not come on:</para><para><emphasis
+role="bold"> PW ENGINE</emphasis></para>
+<numlist>
+<numlitem><para>Open applicable engine right core cowl (418R Left
+engine, 428AR Right engine).</para></numlitem>
+<numlitem><para>Rotate manual override hex nut on pressure regulating
+and shutoff valve clockwise until  the  poppet valve lever falls into
+the lock arm assembly notch.  The word "LOCKED" should be visible
+on the valve body beneath the cam.  Ensure the poppet valve lever
+is not in the detent position. </para></numlitem>
+<numlitem><para>Close engine core cowl.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="36" chg="U" key="UPS757DMPFIG3601" revdate="20080924"
+revnbr="65" sectnbr="11">
+<title>PRSOV</title>
+<sheet chg="U" gnbr="DMP_CH_36_Page_1" key="UPSDMP_CH_36_Page_1"
+revdate="20080924" revnbr="65">
+<title>P&amp;W ENGINE</title>
+</sheet>
+</graphic>
+<numlist>
+<numlitem><para><emphasis role="bold">RB211 ENGINE</emphasis></para>
+<numlist>
+<numlitem><para>Open applicable strut pressure relief door (433LR
+Right engine, 433LL Left engine).</para></numlitem>
+<numlitem><para>Rotate the manual override hex nut on the pressure
+regulating and shutoff valve clockwise until the poppet valve lever
+falls into the lock arm assembly notch.  The word "LOCKED" should
+be visible on the valve body beneath the cam.  Ensure the poppet valve
+lever is not in the detent position. </para></numlitem>
+<numlitem><para>Close strut pressure relief door.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="36" chg="U" key="UPS757DMPFIG3602" revdate="20080924"
+revnbr="65" sectnbr="11">
+<title>PRSOV</title>
+<sheet chg="U" gnbr="DMP_CH_36_Page_2" key="UPSDMP_CH_36_Page_2"
+revdate="20080924" revnbr="65">
+<title>RB211 ENGINE</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

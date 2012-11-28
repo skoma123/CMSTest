@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="3" key="UPS-757-MEL-00001034" revdate="20080924" revnbr="65" sectnbr="42">
+<title>Runway Turnoff Lights</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard next to switches (S1 or S2) on panel M10056, left lighting
+control panel denoting which light(s) "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

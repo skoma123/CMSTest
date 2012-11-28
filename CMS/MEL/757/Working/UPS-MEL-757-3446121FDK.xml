@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPS-MEL-757-3446121FDK" revdate="20100423" revnbr="68" sectnbr="46">
+<title>Ground Proximity Warning System (GPWS) &ndash; Test Mode</title>
+<dispcond category="A" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>GPWS is considered inoperative, and</para></numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+<!--Per C.R.#4381 Bill Bombatch 3/9/10 Considered Inop Item-->
+<note><para>Additional deferral required &ndash; Ground Proximity
+Warning System (GPWS).</para></note>
+</remarks>
+<placard>
+<para>Placard near EICAS "GPWS TEST MODE INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

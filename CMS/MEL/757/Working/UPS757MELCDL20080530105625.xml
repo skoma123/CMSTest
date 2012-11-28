@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-1" key="UPS757MELCDL20080530105625" revdate="20100423" revnbr="68" sectnbr="32">
+<title>APU Start Transformer Rectifier Unit &ndash; APU Inoperative</title>
+<dispcond category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided APU is considered inoperative.</para>
+<!--Per C.R.#4381 Bill Bombatch 3/9/10 Considered Inop Item-->
+<note><para>Additional deferral required &ndash; Auxiliary Power Unit
+(APU).</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080530105855">
+<note><para>An auto-generated ACARS message requesting an in flight
+APU start should be disregarded.</para></note>
+</operation>
+<placard>
+<para>Placard APU Control Panel "APU TRU INOP" as appropriate and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

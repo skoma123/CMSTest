@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2-0-1" key="UPS-757-MEL-00000795" revdate="20091120" revnbr="67" sectnbr="22">
+<title>Center Tank Fuel Pumps &ndash; Center Tank Fueled</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One pump may be inoperative with center tank fueled provided:</para>
+<numlist>
+<numlitem><para>Fuel quantity in main tanks is adequate to reach a
+suitable airport if remaining pump fails at anytime, </para></numlitem>
+<numlitem><para>Zero fuel weight calculations are adjusted by weight
+of center tank fuel,</para></numlitem>
+<numlitem><para>Effect on aircraft balance, in event fuel cannot be
+used, is accounted for,</para></numlitem>
+<numlitem><para>Low PRESS light is operative on remaining pump,</para>
+</numlitem>
+<numlitem><para>Center tank quantity indication is operative, and</para>
+</numlitem>
+<numlitem><para>Affected pump is deactivated.</para></numlitem>
+</numlist>
+<note><para>If no fuel is required in the Center Tank for flight,
+the Center Tank is considered correctly fueled.</para></note>
+</remarks>
+<operation key="UPS-757-MEL-00000796">
+<note><para>Flight crew must perform a manual computation of ZFW +
+Center Tank Fuel Weight and compare this value to the maximum ZFW
+to ensure that the flight will not exceed MAX ZFW.</para></note>
+<numlist>
+<numlitem><para>Prior to takeoff, verify one crossfeed is open and
+remains open until center tank fuel usage is terminated.</para>
+</numlitem>
+<numlitem><para>Initialize FMC with aircraft's actual weight and balance
+ZFW (Basic Operating Weight and payload).</para></numlitem>
+<numlitem><para>Ensure fuel quantity in main tanks is adequate to
+reach a suitable airport.  The low pressure light is operative on
+remaining pump, and center tank quantity indication is operative.</para>
+</numlitem>
+<numlitem><para>Should the operative center fuel pump fail after departure
+the center tank fuel plus ZFW must not exceed the maximum ZFW limitation
+200,000 lbs. and remains within C.G. limits for landing.</para>
+</numlitem>
+<numlitem><para>These restrictions can be verified by applying the
+following adjustments to the ZFW/CG values from the original load
+manifest:</para>
+<numlist>
+<numlitem><para>Add the center tank fuel to the zero fuel weight from
+the load manifest.  The zero fuel weight plus center tank fuel must
+not exceed the maximum structural zero fuel weight.</para></numlitem>
+<numlitem><para>To determine the effect of the center tank fuel on
+balance, refer to the following graph.  This graph shows the normal
+forward CG limit line and revised forward CG limit lines as a function
+of center tank fuel. </para><para>To use the graph, find the appropriate
+revised forward CG limit line for the center tank fuel load.</para>
+<para>Plot the zero fuel weight, including center tank fuel, versus
+the zero fuel weight CG, as shown on the load manifest.</para>
+<para>If the point falls aft of the revised forward CG limit, and
+forward of the aft CG limit, the aircraft is within balance limits.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<para><emphasis role="underline">EXAMPLE: </emphasis></para>
+<table frame="none">
+<tgroup align="left" cols="2">
+<colspec colname="col1" colwidth="0.61*"/>
+<colspec colname="col2" colwidth="1.39*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ZFW</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>145,000</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Center Tank Fuel</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>15,000</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Revised Forward CG</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>15</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>If within balance limits at takeoff, aircraft will remain
+within limits whether or not center tank fuel is used.</para></note>
+<graphic chapnbr="28" chg="U" key="UPS757OPSFIG028" revdate="20080924"
+revnbr="65" sectnbr="22">
+<sheet chg="U" gnbr="MEL_CH_28_Page_7" key="UPSMEL_CH_28_Page_7"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</operation>
+<limitation key="UPS-757-MEL-00000798">
+<numlist>
+<numlitem><para>The aircraft's ZFW (Basic Operating Weight and payload)
+plus center tank fuel weight may not exceed 200,000 lbs.</para>
+<note><para>Do not use balance control fuel procedures.</para></note>
+</numlitem>
+<numlitem><para>Center tank fuel quantity must be considered unusable
+if remaining pump fails.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected Fuel Pump Switch "PUMP INOP - C/B PULLED ON
+P6" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000797">
+<numlist>
+<numlitem><para>Open and collar affected pump C/B  on P6:</para><para
+> L OVRD - P6F14&#9;R OVRD - P6F20</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

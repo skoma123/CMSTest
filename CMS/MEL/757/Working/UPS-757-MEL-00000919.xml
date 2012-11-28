@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000919" revdate="20090814" revnbr="66" sectnbr="21">
+<title>Engine Anti-Ice Valves &ndash; PW Valve Open </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative locked open provided:</para>
+<numlist>
+<numlitem><para>Reduced Thrust or Derate operation is not permitted,</para>
+</numlitem>
+<numlitem><para>Improved climb performance operation is not permitted,</para>
+</numlitem>
+<numlitem><para>Anti-ice OFF thrust settings are reduced by the following
+EPR decrements:</para><para>PW All Thrust Settings:</para>
+<table frame="none">
+<tgroup align="center" cols="2">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>ALTITUDE <emphasis role="underline">(1000 FT )</emphasis></para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">EPR CHANGE </emphasis></para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para> - 1 to  6</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>- 0.03</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para> 6.1 to 15</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>- 0.04</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>15.1 to 25</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>- 0.05</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>25.1 to 40</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>- 0.07</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>40.1 to 42</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>- 0.09</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Forecast ambient temperature cannot be greater than
+38 degrees C,</para></numlitem>
+<numlitem><para>Engine anti-ice is selected ON for affected engine
+during entire flight, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000920">
+<numlist>
+<numlitem><para>Max Thrust required.</para></numlitem>
+<numlitem><para>Do not use improved climb performance operation.</para>
+</numlitem>
+<numlitem><para>Observe MEL EPR decrements.</para></numlitem>
+<numlitem><para>Observe reduced MEL takeoff and landing performance
+limited weight and obstacle clearance and en route climb limited performance
+weight. </para></numlitem>
+<numlitem><para>Observe MEL V<sub>1</sub>  and V<sub>R</sub>  increase.</para>
+</numlitem>
+<numlitem><para>Observe MEL ambient temperature requirements.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.
+ </para></numlitem>
+</numlist>
+<note><para>Disregard Associated Valve Light and EICAS message indications,
+if any. </para></note>
+<note><para>Expect longer than normal engine start.</para></note>
+<para><emphasis role="underline"><emphasis role="bold">PW2000 ENGINE</emphasis
+></emphasis></para>
+<caution><para>IF THE TAI VALVE IS LOCKED OPEN FOR DISPATCH, THE VALVE
+SHOULD BE CLOSED DURING EXTENDED GROUND OPERATIONS WHEN THE ASSOCIATED
+PNEUMATIC DUCT IS PRESSURIZED BY THE APU OR GROUND CART AIR. REOPEN
+THE VALVE FOR DISPATCH AND DURING ENGINE START.</para></caution>
+</operation>
+<limitation key="UPS-757-MEL-00000922">
+<numlist>
+<numlitem><para>Apply EPR decrement to all thrust settings.</para>
+</numlitem>
+<numlitem><para>Reduce Takeoff Runway Limit Weight by 14,600 lbs.,
+if <emphasis role="bold">NOT</emphasis> OBSTACLE LIMITED.</para>
+</numlitem>
+<numlitem><para>Reduce Takeoff Runway  Limit Weight by 22,400 lbs.,
+if OBSTACLE LIMITED.</para></numlitem>
+<numlitem><para>Reduce both Takeoff Climb Limit Weight and Climb Limit
+Weight for Landing by 14,600 lbs.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+<numlitem><para>Reduce the ONE ENGINE INOPERATIVE NET EN ROUTE WEIGHT
+CAPABILITY found in Ch. 5.3 of the AOM by 22,400 lbs.</para></numlitem>
+<numlitem><para>V<sub>1</sub>  and V<sub>R</sub>  are increased by
+1 knot, and</para></numlitem>
+<numlitem><para>PW only:  Limit operations to below 38&deg;C ambient
+temperature. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard appropriate Engine Anti-ice Switch "COWL VALVE INOP
+OPEN" and enter item in Aircraft Deferred Item Log.</para>
+<para>Also, placard the APU Bleed Valve Switch and Ground Air Cart
+Access Door Reference "CAUTION" Note on PW2000 Engine.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000921">
+<para><emphasis role="bold">P&amp;W ENGINE</emphasis></para>
+<warning><para>TAG THRUST REVERSER LEVERS - "DO NOT OPERATE".</para>
+</warning>
+<numlist>
+<numlitem><para>Access engine inlet thermal anti-ice valve by opening
+the access panel on the appropriate engine.</para>
+<numlist>
+<numlitem><para>For left engine, open access panel 414AR.</para>
+</numlitem>
+<numlitem><para>For right engine, open access panel 424AR.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Disconnect, cap and stow TAI valve connector.</para>
+<note><para>Disconnecting the TAI valve connector will cause the associated
+engine anti-ice switch-light to remain illuminated for the duration
+of flight.</para></note>
+</numlitem>
+<numlitem><para>Perform the following if desired valve position is
+closed. </para>
+<numlist>
+<numlitem><para>Check that vane manual drive indicates valve CLOSED.</para>
+</numlitem>
+<numlitem><para>Pull vane lock out and rotate 90&deg; clockwise to
+LOCK CLOSED position.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Perform the following if desired valve position is
+open.</para>
+<caution><para>IF THE TAI VALVE IS LOCKED OPEN FOR DISPATCH, THE VALVE
+SHOULD BE CLOSED DURING EXTENDED GROUND OPERATIONS WHEN THE ASSOCIATED
+PNEUMATIC DUCT IS PRESSURIZED BY THE APU OR GROUND CART AIR. REOPEN
+THE VALVE FOR DISPATCH AND DURING ENGINE START.</para></caution>
+<numlist>
+<numlitem><para>Check that vane manual drive indicates valve OPEN.</para>
+</numlitem>
+<numlitem><para>Pull vane lock out and rotate 90&deg; counterclockwise
+to LOCK OPEN position.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Disregard associated VALVE light and EICAS message
+indications, if any.</para></numlitem>
+</numlist>
+<graphic chapnbr="30" chg="U" key="UPS757DMPFIG00305" revdate="20080924"
+revnbr="65" sectnbr="21">
+<title>MANUAL VALVE POSITIONING ENGINE INLET COWL TAI</title>
+<sheet chg="U" gnbr="DMP_CH_30_Page_5" key="UPSDMP_CH_30_Page_5"
+revdate="20080924" revnbr="65">
+<title>P&amp;W ENGINE</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

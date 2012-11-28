@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-1" key="UPS-MEL-757-346101FDK" revdate="20091120" revnbr="67" sectnbr="61">
+<title>Flight Management Computer Systems (FMCS) &ndash; One FMC/CDU
+Inoperative</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Except for ER operations, one may be inoperative provided en
+route operations do not require its use.</para>
+</remarks>
+<operation key="UPS-MEL-7573461101OPSFDK">
+<para><emphasis role="bold"><emphasis role="underline">One FMC Inoperative </emphasis
+></emphasis></para>
+<numlist>
+<numlitem><para>Prior to dispatch, ensure the FMC instrument source
+select switch associated with the failed FMC is selected to ALTN.</para>
+</numlitem>
+<numlitem><para>Position both pilot&rsquo;s HSI range selector to
+the same range scale to obtain a map for the side with the inoperative
+FMC.</para></numlitem>
+<numlitem><para><emphasis role="underline">RIGHT FMC lNOP</emphasis
+></para><para>LNAV and VNAV is available providing left or center
+autopilot is used. </para>
+</numlitem>
+<numlitem><para><emphasis role="underline">LEFT FMC lNOP</emphasis
+></para><para>LNAV and VNAV will arm but not capture unless 1) the
+left flight director is turned OFF and the right flight director is
+ON, or 2) the right autopilot is in Command.</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec colname="col1" colsep="0" colwidth="75.55pt"/>
+<colspec align="justify" colname="col2" colwidth="426.23pt"/>
+<tbody>
+<row>
+<entry>
+<para>Procedure:</para>
+</entry>
+<entry>
+<para>At 1,000 feet, select FL CH and position the command airspeed
+cursor to the zero flap maneuvering speed. This puts the autothrottles
+in the EPR mode and provides FL CH pitch guidance for flap retraction.
+LNAV and VNAV may be used once the right autopilot is engaged.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-3461101LIMFDK">
+<numlist>
+<numlitem><para>Limited LNAV/VNAV availability to crew.</para>
+</numlitem>
+<numlitem><para>Two FMCs required for departing from domestic gateways
+to Americas' Region destinations.</para></numlitem>
+</numlist>
+<note><para>For operations to Central, South American and Mexico destinations
+ONLY, the flight may not depart outbound domestic gateways with inoperative
+Flight Management Computer (FMC), but may continue series of flights
+for repair interval specified in the Repair Int Category section.</para>
+</note>
+</limitation>
+<placard>
+<para>Placard affected Left or Right FMCS Control Display Unit (M76,
+M77) "INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080613083610">
+<para>(Preferred to place inoperative FMC in the right FMC position.)</para>
+</maintenance>
+</dispcond>
+</item>

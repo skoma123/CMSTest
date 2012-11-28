@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="79" chg="U" itemnbr="2" key="UPS-757-MEL-00001372" revdate="20080924" revnbr="65" sectnbr="35">
+<title>Engine Oil Filter  Bypass (Pressure/Scavenge) Warning Indication
+(RB211) </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>It is verified that malfunction is in alerting system,
+  </para></numlitem>
+<numlitem><para>Pressure and scavenge oil filters are replaced, and</para>
+</numlitem>
+<numlitem><para>Master Chip Detector and pressure and scavenge oil
+filters are checked for contaminants once each flight day.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near upper EICAS "L (R) OIL FILTER INDICATING SYSTEM
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001373">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>If the "L (R) OIL FILTER" Advisory message is displayed
+for longer than one minute after engine shutdown, assume the alerting
+system is faulty.</para></numlitem>
+<numlitem><para>Replace the pressure oil filter (ref. MM 79-21-07)
+and the scavenge oil filter (ref. MM 79-21-08).</para></numlitem>
+<numlitem><para>Inspect the Master Chip Detector and the pressure
+and scavenge oil filters (ref. MM 79-00-00).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

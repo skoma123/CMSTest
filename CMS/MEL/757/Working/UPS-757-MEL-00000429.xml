@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-2-3-1-3" key="UPS-757-MEL-00000429" revdate="20080924" revnbr="65" sectnbr="40">
+<title>Crewmember Interphone System(s) All Cargo Configuration &ndash;
+Flight Deck to Ground &ndash; Flight and Service Interphone Inoperative</title>
+<dispcond btb="NO" category="B" maintenance="NO" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000430">
+<numlist>
+<numlitem><para>If both Flight and Service Flight Deck to Ground systems
+are inoperative, use standard hand signals. Coordination with ground
+personnel to ensure mutual understanding of hand signals is mandatory.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Crewmember Interphone System Flight Deck to Ground "INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

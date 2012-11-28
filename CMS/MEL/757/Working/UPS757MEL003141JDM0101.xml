@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-1" key="UPS757MEL003141JDM0101" revdate="20091120" revnbr="67" sectnbr="41">
+<title>Engine Indication and Crew Alerting Systems (EICAS) &ndash;
+Display Unit (DU) </title>
+<dispcond btb="NO" category="A" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Except for ER operations, one may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Standby Engine Instruments are operative and turned
+ON,</para></numlitem>
+<numlitem><para>Cargo FIRE/OVHT test is performed before each departure, </para>
+</numlitem>
+<numlitem><para>Electronic Engine Control or autothrottle system is
+operative, </para></numlitem>
+<numlitem><para>At least one autopilot is operative,</para></numlitem>
+<numlitem><para>All EICAS computers are operative, and</para></numlitem>
+<numlitem><para>Repair or replacements are made within one flight
+day.</para>
+<note><para>In event of an additional DU failure en route, flight
+crew should consider landing as soon as practical.</para></note>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-031SA512JDM215">
+<para><emphasis role="underline">START:</emphasis></para>
+<numlist>
+<numlitem><para>For engine start, monitor normal fuel flow and EGT
+rise in the compacted mode.</para></numlitem>
+</numlist>
+<para><emphasis role="underline">TAKEOFF:</emphasis></para>
+<numlist>
+<numlitem><para>Power setting for takeoff must be made with EICAS.</para>
+</numlitem>
+<numlitem><para>If remaining EICAS CRT fails:</para>
+<numlist>
+<numlitem><para>Use SEI to observe engine parameters.</para></numlitem>
+<numlitem><para>Prior to descent, scan overhead panel for possible
+non-normal indications.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00214JDM215427">
+<numlist>
+<numlitem><para>Observe EGT Start Limits: (PW) 485&deg;C ground 545&deg;C
+flight. (RR) 570&deg;C ground and flight.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected display unit (DU) "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757DMP1244SAJDM58581">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Pull and collar circuit breakers for affected CRT:</para>
+<para>Upper Display P11J3</para>
+<para>Lower Display P11J30</para>
+</numlitem>
+<numlitem><para>Perform Cargo FIRE/OVHT test prior to each departure.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

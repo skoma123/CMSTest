@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="5" chapnbr="52" chg="U" key="UPS-757-MEL-00001500" qtyreq="2" revdate="20080924" revnbr="65" sectnbr="48">
+<title>AIR CONDITION INLET ACCESS PANEL (Ram Air Actuator Access Panel)</title>
+<remarks>
+<para>One or both may be missing.  The performance decrement is negligible. </para>
+</remarks>
+</cdlblk>

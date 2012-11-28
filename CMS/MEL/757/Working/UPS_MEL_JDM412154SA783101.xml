@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="78" chg="U" itemnbr="1-1" key="UPS_MEL_JDM412154SA783101" revdate="20090814" revnbr="66" sectnbr="31">
+<title>THRUST REVERSERS &ndash; RB211</title>
+<dispcond btb="YES" category="C" downgrade="CATEGORY 1/2/3a"
+maintenance="YES" nbrins="2" nbrreq="1" operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Inoperative reverser is secured in forward thrust
+position, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+<note><para>No performance adjustments required on UPS aircraft.</para>
+</note>
+<note><para>During landing roll-out, differential braking may be required
+to maintain directional control.</para></note>
+</remarks>
+<operation key="UPS-757-OPS-2JDM56411342">
+<numlist>
+<numlitem><para>Asymmetrical reverse thrust may be used. Use normal
+reversing procedures and techniques. If it appears that rudder authority
+is becoming limited during deceleration, return lever to reverse idle
+detent.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-OPS-0SA44578465">
+<numlist>
+<numlitem><para>Downgrade aircraft dispatch category status to CAT
+3a.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+<numlitem><para>No dispatch with any reverser message displayed for
+operative reverser.</para></numlitem>
+</numlist>
+<note><para>Must be operative for dispatch into LPB, UIO, BOG, GUA,TGU.</para>
+</note>
+</limitation>
+<placard>
+<para>Placard affected Reverser Thrust Lever "REVERSER INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757DMP7831SA54651">
+<title>Thrust Reversers</title>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.01*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>&mdash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para><emphasis role="bold">P&amp;W ENGINE</emphasis></para>
+<note><para>Dispatch is permitted with one or both sync-locks inoperative
+provided sync-locks are verified inoperative in the "locked" position.
+ The following verification of inoperative sync-locks does not need
+to be performed if it is known the sync-locks are operating normally.</para>
+</note>
+<para>Verification of sync-lock in locked position:</para>
+<numlist>
+<numlitem><para>Open fan cowl panels per AMM 71-11-04-2.</para>
+<caution><para>DO NOT USE AN EXTENSION BAR OR OTHER TOOLS TO MOVE
+THE UNLOCK LEVER.  IF YOU USE AN EXTENSION BAR OR OTHER TOOLS, DAMAGE
+TO THE UNLOCK LEVER OR ACTUATOR CAN OCCUR.</para></caution>
+</numlitem>
+<numlitem><para>Operate the unlock handle on the thrust reverser locking
+actuator to the unlocked position, and then release.</para></numlitem>
+<numlitem><para>Verify that both left and right translating sleeves
+do not move aft more than approximately one sixteenth of an inch.</para>
+</numlitem>
+<numlitem><para>Deactivate the thrust reverser per the normal procedure.</para>
+</numlitem>
+</numlist>
+<para>Normal Deactivation of Inoperative Thrust Reverser:</para>
+<numlist>
+<numlitem><para>Open fan cowl panels per AMM 71-11-04-2.</para>
+</numlitem>
+<numlitem><para>Open aft fairing access door.</para></numlitem>
+<numlitem><para>Obtain isolation valve deactivation pin B78001-3 (part
+of B78001-2 Dispatch Kit) from the nacelle stowage location or the
+fly-away equipment stowage container in the forward cargo compartment.</para>
+</numlitem>
+<numlitem><para>Install deactivation pin in the manual lockout hole
+on the thrust reverser isolation valve and install cotter pin or lockwire.</para>
+</numlitem>
+<numlitem><para>Depress the bypass valve handle on the thrust reverser
+isolation valve and install a streamered deactivation pin (0.125 inch
+diameter X 1.1 inch, part of B78001-1 lock assembly).</para>
+<note><para>The streamer pins and the hitch pins are found in the
+deactivation pin container on the forward surface of the isolation
+valve (if installed).</para></note>
+</numlitem>
+<numlitem><para>If the sleeve is extended, turn manual drive with
+3/8 inch square drive to retract per AMM 78-31-00-2.  Manual cranking
+of the sleeve will return sleeve to within approximately 0.75 inch
+of the stowed position. </para>
+<note><para>The manual drive has an override clutch which limits the
+amount of torque that can be applied.  Due to seal forces, the clutch
+will ratchet before the sleeve is fully retracted and locking is complete.</para>
+</note>
+</numlitem>
+<numlitem><para>Remove the two thrust reverser sleeve plugs.  Loosen
+the primary deactivation eyebolt nut until the eyebolt can be aligned
+with the hole in the thrust reverser sleeve.</para></numlitem>
+<numlitem><para>Remove the two deactivation pins from the stowage
+position below the center hydraulic actuator.  Install the sleeve
+plugs in the deactivation pin stowage position.</para></numlitem>
+<numlitem><para>Perform the following to unlock the sync-locks.</para>
+<numlist>
+<numlitem><para>Verify that the following circuit breakers are closed:</para>
+<numlist>
+<numlitem><para>AIR/GND SYS 1  (11S15)</para></numlitem>
+<numlitem><para>AIR/GND SYS 2  (11S19)</para></numlitem>
+<numlitem><para>LANDING GEAR POS SYS 1  (11C30)</para></numlitem>
+<numlitem><para>LANDING GEAR POS SYS 2  (11C23)</para></numlitem>
+<numlitem><para>SYNC-LOCK-L or SYNC-LOCK-R  (L=6C12 or R=6D12)</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Supply electrical power (Ref AMM 24-22-00).</para>
+</numlitem>
+<numlitem><para>Raise the left (right) reverse thrust lever to the
+deploy position.</para></numlitem>
+<numlitem><para>Install primary deactivation pin through the thrust
+reverser sleeve into the primary deactivation eyebolt.</para>
+<caution><para>MAKE SURE THAT THE MANUAL DRIVE IS FULLY ENGAGED WITH
+THE SYNC-LOCK DRIVE SHAFT BEFORE ROTATION AND THAT IT STAYS FULLY
+ENGAGED DURING THE FULL ROTATION.  IF THE MANUAL DRIVE IS NOT FULLY
+ENGAGED, DAMAGE TO THE SYNC-LOCK CAN OCCUR.</para></caution>
+</numlitem>
+<numlitem><para>Tighten the primary deactivation eyebolt nut to retract
+the thrust reverser sleeve until the secondary deactivation pin can
+be installed through the thrust reverser sleeve into the torque box
+structure.</para>
+<note><para>If the sync-locks cannot be electrically unlocked per
+step 9, it will be necessary to unlock the sync-lock manually by engaging
+the manual drive and rotating the manual drive in the stow direction
+while at the same time tightening the primary deactivation eyebolt
+nut.</para></note>
+</numlitem>
+<numlitem><para>Verify the locking feature on the deactivation pins
+and/or captive nuts as follows:</para>
+<numlist>
+<numlitem><para>Fully engage the deactivation pin in the thrust reverser
+captive nut.</para></numlitem>
+<numlitem><para>Measure the "breakaway" torque value as the deactivation
+pin is rotated in the remove direction until the locking feature on
+the pin and/or nut is disengaged.</para>
+<note><para>There should be no axial load on the captive nut when
+the torque is measured.</para></note>
+</numlitem>
+<numlitem><para>Make sure the deactivation pin and/or captive nut
+have a minimum breakaway torque of 18 inch-pounds.</para></numlitem>
+<numlitem><para>If the deactivation pin and captive nut combination
+include a breakaway torque of less than 18 inch-pounds, replace the
+deactivation pin and/or captive nut as necessary.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Tighten both deactivation pins to 120 to 150 pound-inches. </para>
+</numlitem>
+<numlitem><para>Repeat steps 6-15 for the opposite reverser sleeve.</para>
+</numlitem>
+<numlitem><para>Move the left (right) reverse thrust lever to the
+stow position. </para></numlitem>
+<numlitem><para>Remove the streamered pin from the bypass valve handle
+on the thrust reverser isolation valve allowing the valve to return
+to its normally closed position.</para></numlitem>
+<numlitem><para>Close aft fairing access door.</para></numlitem>
+<numlitem><para>Close fan cowl panels per AMM 71-11-04-2.</para>
+</numlitem>
+<numlitem><para>Open and collar the appropriate SYNC-LOCK circuit
+breakers.  For the left engine, the L ENG SYNC-CONTROL (6C12).  For
+the right engine, the R ENG SYNC-LOCK CONTROL (6D12).</para></numlitem>
+<numlitem><para>Verify thrust control operates normally:</para>
+<numlist>
+<numlitem><para>Prior to engine start, move the EEC POWER switch on
+the EEC Maintenance Panel (P61) to the ALTN position.</para></numlitem>
+<numlitem><para>Advance thrust levers to the full forward position.</para>
+</numlitem>
+<numlitem><para>Verify that the Thrust Level Resolver (TLR) measurements
+on the EICAS EPCS page read between 80 - 83 degrees for associated
+engine.</para>
+<note><para>If the angle is not in the given range, then adjust the
+control rod(s) per AMM 76-11-00-5.</para></note>
+</numlitem>
+<numlitem><para>Move the thrust levers to the idle position.</para>
+</numlitem>
+<numlitem><para>Verify that the TLR measurements on the EICAS EPCS
+page read 38.0 +/- 0.2 degrees.</para>
+<note><para>If the angle is not in the given range, then adjust the
+control rod(s) per AMM 76-11-00-5.</para></note>
+</numlitem>
+<numlitem><para>Verify that the RVA measurement on the EICAS EPCS
+page reads 0 +/- 2.0 for the PRI and SEC channels of both EECs.</para>
+</numlitem>
+<numlitem><para>Move the EEC POWER switch to the NORM position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="78" chg="U" confnbr="1" key="UPS757DMPFIG7803"
+revdate="20080924" revnbr="65" sectnbr="31">
+<sheet chg="U" gnbr="DMP_CH_78_Page_3" key="UPSDMP_CH_78_Page_3"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+<graphic chapnbr="78" chg="U" key="UPS757DMPFIG7804" revdate="20080924"
+revnbr="65" sectnbr="31">
+<sheet chg="U" gnbr="DMP_CH_78_Page_4" key="UPSDMP_CH_78_Page_4"
+revdate="20080924" revnbr="65">
+<title>THRUST REVERSER ISOLATION VALVE DEACTIVATION</title>
+</sheet>
+</graphic>
+<graphic chapnbr="78" chg="U" key="UPS757DMPFIG7805" revdate="20080924"
+revnbr="65" sectnbr="31">
+<sheet chg="U" gnbr="DMP_CH_78_Page_5" key="UPSDMP_CH_78_Page_5"
+revdate="20080924" revnbr="65">
+<title>PW ENGINE</title>
+</sheet>
+</graphic>
+<para><emphasis role="bold">RB211 ENGINE</emphasis></para>
+<numlist>
+<numlitem><para>Stow thrust reverser, if deployed, per AMM 78-31-00,
+Manually (Stow) Retract the Thrust Reverser, or Retract (Stow) the
+Thrust Reverser with Hydraulic Power.</para>
+<note><para>The ground maintenance thrust reverser deactivation procedure
+must first be accomplished prior to manually stowing the thrust reverser.
+ The AMM CAUTION to not use the ground maintenance deactivation procedure
+for flight dispatch is appropriate because the procedure is used only
+while manually stowing the thrust reverser.  After manually stowing
+the thrust reverser, the thrust reverser activation procedure must
+be accomplished before proceeding with the following DDG deactivation
+procedural steps.</para></note>
+</numlitem>
+<numlitem><para>Open aft fairing access door.</para></numlitem>
+<numlitem><para>Obtain isolation valve deactivation pin B78001-3 (part
+of B78001-2 Dispatch Kit) from the nacelle stowage location or the
+fly-away equipment stowage container in the forward cargo compartment.</para>
+</numlitem>
+<numlitem><para>Install deactivation pin in the manual lockout hole
+on the thrust reverser isolation valve and install cotter pin or lockwire.</para>
+</numlitem>
+<numlitem><para>Remove mechanical deactivation pin from stowage hole
+on both translating sleeves of inoperative thrust reverser.</para>
+</numlitem>
+<numlitem><para>Remove plug from lockout hole on both translating
+sleeves of inoperative reverser and install in stowage hole.</para>
+</numlitem>
+<numlitem><para>Install mechanical deactivation pin in lockout hole
+of right translating sleeve of the inoperative thrust reverser.  If
+pin cannot be installed continue with step 7A; otherwise proceed to
+step 8.</para>
+<note><para>When installed, mechanical deactivation pin will protrude
+0.83 &plusmn; 0.03 in. (20-22mm).</para></note>
+<numlist>
+<numlitem><para>Manually unlock the lower locking actuator on the
+right thrust reverser translating sleeve (Ref. AMM 78-31-00-2) and
+restrain the unlock lever in the unlocked position.</para></numlitem>
+<numlitem><para>Depress the bypass valve handle on the thrust reverser
+isolation valve and install a streamered pin (0.125 inch diameter
+X 1.1 inch).</para></numlitem>
+<numlitem><para>Insert 3/8 in. square drive into the external drive
+socket of the right translating sleeve.</para>
+<caution><para>MAXIMUM TORQUE PERMITTED DURING MANUAL STOWAGE IS 165
+POUND-INCHES (18.6 NM).</para></caution>
+</numlitem>
+<numlitem><para>Push the drive to engage, then crank counter-clockwise
+until 165 pound-inches (18.6 NM) torque is reached; release pressure.
+ Install mechanical deactivation pin.  (If necessary repeat step three
+times.)</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Manually unlock the left translating sleeve locking
+actuator and restrain the unlock lever in the unlocked position.</para>
+</numlitem>
+<numlitem><para>Insert  3/8 in. square drive into the external drive
+socket of the left translating sleeve.</para></numlitem>
+<numlitem><para>Push the drive to engage, then apply 160 &plusmn;
+5 lb-in torque clockwise.  Verify that the left translating sleeve
+does not deploy (slight movement is acceptable).</para></numlitem>
+<numlitem><para>Remove the restraint from the left translating sleeve
+actuator unlock lever and allow it to return to the locked position.</para>
+</numlitem>
+<numlitem><para>Install mechanical deactivation pin in lockout hole
+of left translating sleeve of the inoperative thrust reverser.  If
+pin cannot be installed continue with step 12A; otherwise proceed
+to step 13.</para>
+<numlist>
+<numlitem><para>Insert 3/8 in. square drive into the external drive
+socket of the left translating sleeve.</para>
+<caution><para>MAXIMUM TORQUE PERMITTED DURING MANUAL STOWAGE IS 165
+POUND-INCHES (18.6 NM).</para></caution>
+</numlitem>
+<numlitem><para>Push the drive to engage, then crank counter-clockwise
+until 165 pound-inches (18.6 NM) torque is reached; release pressure.
+ Install mechanical deactivation pin.  (If necessary repeat step three
+times).</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove the streamered pin from the bypass valve handle
+on the thrust reverser isolation valve allowing the valve to return
+to its normally closed position.</para></numlitem>
+<numlitem><para>Close aft fairing access door.</para></numlitem>
+<numlitem><para>Pull and collar the affected sync lock circuit breaker(s). </para>
+<numlist>
+<numlitem><para>LH  engine</para>
+<numlist>
+<numlitem><para>On main power distribution P6:  L ENG SYNC-LOCK CONTROL
+(6C12) </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>RH engine</para>
+<numlist>
+<numlitem><para>On main power distribution P6:  R ENG SYNC-LOCK CONTROL</para>
+<para>                                                       ALTN
+(6D12)</para>
+</numlitem>
+<numlitem><para>On overhead circuit breaker panel P11:  R ENG SYNC-LOCK</para>
+<para>                                                           
+       CONTROL (11K32)</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="78" chg="U" key="UPS757MELCDL20080723111844"
+revdate="20080924" revnbr="65" sectnbr="31">
+<sheet chg="U" gnbr="DMP_CH_78_Page_8a" key="UPS757MELCDL20080723111923"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>THRUST REVERSER ACTUATOR MANUAL LOCK AND CRANK LOCATIONS</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

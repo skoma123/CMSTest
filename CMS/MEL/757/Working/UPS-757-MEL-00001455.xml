@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="28" chg="U" key="UPS-757-MEL-00001455" qtyreq="14" revdate="20080924" revnbr="65" sectnbr="44">
+<title>FUEL QUANTITY MEASURING STICK</title>
+<remarks>
+<para>Any number or combination may be missing.  The performance decrement
+is negligible.  (SEE FIGURE 28-44-1)</para>
+</remarks>
+<graphic chapnbr="28" chg="U" key="UPS757CDLFIG2801" revdate="20080924"
+revnbr="65" sectnbr="44">
+<title>FUEL QUANTITY MEASURING STICK</title>
+<sheet chg="U" gnbr="CDL_CH_28_Page_1" key="UPSCDL_CH_28_Page_1"
+revdate="20080924" revnbr="65">
+<title>FIGURE 28-44-1</title>
+</sheet>
+</graphic>
+</cdlblk>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="4-0-1" key="UPS-MEL-757-342240101FDK" revdate="20080924" revnbr="65" sectnbr="22">
+<title>Flight Director Systems &ndash; One Inoperative</title>
+<dispcond category="C" maintenance="NO" nbrins="3" nbrreq="2"
+operation="NO">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+their use. </para>
+</remarks>
+<operation key="UPS-MEL-757-3422401OPSFDK">
+<note><para>For Category 3a/3b approaches, instrument source selections
+must be made from separate sources.</para></note>
+</operation>
+<placard>
+<para>If Left or Right Flight Director System is inoperative, placard
+appropriate Flight Director Instrument Source Select switch "L (R)
+FLT DIR SYS INOP" and enter item in Aircraft Deferred Item Log.</para>
+<para>If Center Flight Director System is inoperative, placard Center
+Flight Director System "C FLT DIR SYS INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-3422401BMANFDK">
+<para>If Left Flight Director System inoperative, select CENTER on
+Captain&rsquo;s Flight Director Source Select switch. If Right Flight
+Director System inoperative, select CENTER on F/O&rsquo;s Flight Director
+Source Select switch.</para>
+<para>If Center Flight Director System is inoperative, leave Captain&rsquo;s
+Flight Director Instrument Source Select switch in LEFT and F/O&rsquo;s
+in RIGHT.</para>
+</maintenance>
+</dispcond>
+</item>

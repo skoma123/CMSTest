@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-2" key="UPS757MEL0257JDM0102" revdate="20091120" revnbr="67" sectnbr="41">
+<title>Engine Indication and Crew Alerting Systems (EICAS) &ndash;
+Computer</title>
+<dispcond btb="NO" category="A" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Except for ER operations, one may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Standby Engine Instruments are operative and are turned
+ON,</para></numlitem>
+<numlitem><para>Electronic Engine Control or autothrottle system is
+operative, </para></numlitem>
+<numlitem><para>At least one autopilot is operative,</para></numlitem>
+<numlitem><para>SB 757-71-5 or equivalent, engine EGT interconnection,
+is installed (RR Engine only),</para>
+<note><para>All UPS aircraft incorporate SB 757-71-5.</para></note>
+</numlitem>
+<numlitem><para>Both Display Units are operative, and</para></numlitem>
+<numlitem><para>Repair or replacements are made within one flight
+day.</para></numlitem>
+</numlist>
+<note><para>In event of an additional computer failure en route, flight
+crew should consider landing as soon as practical.</para></note>
+</remarks>
+<operation key="UPS-757-MEL-00SA212548633">
+<numlist>
+<numlitem><para>Before takeoff, with engines running, compare engine
+display on EICAS with the Standby Engine Instrument. The EICAS/SEI
+engine display cross-compare tolerances are as follows:</para>
+<table frame="none">
+<tgroup cols="2">
+<?PubTbl tgroup dispwid="656.00px"?>
+<colspec align="center" colname="col1" colwidth="0.90*"/>
+<colspec align="center" colname="col2" colwidth="1.10*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">EICAS/SEI Engine Display</emphasis
+></para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">Engine Display</emphasis></para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">Cross-Compare Tolerance</emphasis
+></para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>EPR</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>.01</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>EGT</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>12.0 degree C</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>N1</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>.2%</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>N2 (PW)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1.0%</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>N3 (RR)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1.0%</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Dispatch is prohibited if tolerances are exceeded.</para>
+</numlitem>
+<numlitem><para>Power setting for takeoff must be made with EICAS.</para>
+</numlitem>
+<numlitem><para>If remaining computer fails:</para>
+<numlist>
+<numlitem><para>Use SEI to observe engine parameters.</para></numlitem>
+<numlitem><para>Prior to descent, scan overhead panel for possible
+non-normal indications.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<note><para>With EICAS computer C/B pulled, FMC calculated fuel is
+unavailable. </para></note>
+</operation>
+<placard>
+<para>Placard affected position of the Computer Select Switch "INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757DMP0754SAJDM021511">
+<numlist>
+<numlitem><para>With one computer inoperative, test the operative
+computer as follows:</para>
+<numlist>
+<numlitem><para>Set parking brake ON, in order to enable the EICAS
+test function. </para></numlitem>
+<numlitem><para>Set computer select switch to operative computer.
+Press TEST switch on maintenance panel, P61, checking for "SELF TEST
+Complete" "0 External Faults and 0 Internal Faults" message on EICAS.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Pull and collar the circuit breaker for the affected
+computer as follows: Inoperative computer &ndash; L (P11J2) or R (P11J29)
+EICAS COMPUTER. </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

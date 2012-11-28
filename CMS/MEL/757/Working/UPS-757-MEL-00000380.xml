@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1-2-1" key="UPS-757-MEL-00000380" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Communications Systems (VHF) VHF Comm &ndash; Frequency Transfer
+Switch  </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated VHF active frequency
+can be selected. </para>
+</remarks>
+<operation key="UPS-757-MEL-00000381">
+<note><para>Log frequency assignments. Do not move transfer switch
+on operating panel.</para></note>
+</operation>
+<placard>
+<para>Placard affected Comm Control Panel "FREQUENCY TRANSFER SWITCH
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

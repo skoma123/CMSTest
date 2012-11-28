@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="4-2" key="UPS757MEL65874JDM7369" revdate="20080924" revnbr="65" sectnbr="61">
+<title>EICAS Status Messages &ndash; Associated Equipment Deferred</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="96" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided dispatch deviations for associated
+equipment are observed.</para>
+</remarks>
+<operation key="UPS-757-MEL-0589JDM8135684">
+<numlist>
+<numlitem><para>If unable to clear status message, observe Dispatch
+Maintenance Procedure operating restrictions. Comply with operating
+procedures for possible relief for appropriate EICAS message section.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near upper EICAS display "(Specific EICAS Message) INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757DMP-00214SA54785">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>See MEL/DMP for relief for the applicable associated
+inoperative equipment.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

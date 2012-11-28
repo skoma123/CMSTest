@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1" key="UPS-MEL-757-34310107FDK" revdate="20080924" revnbr="65" sectnbr="32">
+<title>Marker Beacon System</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+its use. </para>
+</remarks>
+<operation key="IPS-MEL-757-343201OPSFDK">
+<numlist>
+<numlitem><para>For lLS approaches to Category 1 minima, the marker
+beacon system is required if marker position determination is dependent
+upon its use. For ILS operations, a precision or surveillance radar
+fix, designated NDB, VOR, DME fix, or a published minimum GSIA fix
+may be used in lieu of an outer marker.</para></numlitem>
+<numlitem><para>A middle marker is not required.</para></numlitem>
+<numlitem><para>Inner marker</para>
+<numlist>
+<numlitem><para>Except for Category 2 instrument approach procedures
+designated as "RA NA" (radar/radio altimeter not authorized), operative
+radar/radio altimeters may be used in lieu of an inner marker.</para>
+</numlitem>
+<numlitem><para>Where "RA NA" Standard Instrument Approach Procedure
+does not prohibit its use, the inner marker may be inoperative provided
+approach minimums is limited to not less than 1600 RVR.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For lLS approaches to Category 3 minima, the marker
+beacon system is not required.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-343201LIMFDK">
+<numlist>
+<numlitem><para>Not required if substitutions can be made.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Marker Beacon lights located on P1 panel and P3
+panel "MARKER BEACON LIGHT INOP" and enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001021" revdate="20080924" revnbr="65" sectnbr="37">
+<title>Cargo Compartment Lights &ndash; Light Lens </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="48" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be broken/missing provided associated light bulb is removed.</para>
+</remarks>
+<placard>
+<para>Placard "INOP" near Light where Lens is missing and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001022">
+<numlist>
+<numlitem><para>Remove affected light bulb and tape opening created
+by broken or removed lens with fiberglass tape.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

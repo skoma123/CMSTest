@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1-1-1-1" key="UPS-MEL-757-34211111FDK" revdate="20100423" revnbr="68" sectnbr="21">
+<!--Per C.R.#4302 Bill Bombatch 12/28/09-->
+<title>Inertial Reference Systems (IRS) &ndash; Left Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 2/3a" maintenance="YES"
+nbrins="3" nbrreq="2" operation="YES">
+<remarks>
+<para>Left may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Approach minimums do not require its use, and</para>
+</numlitem>
+<numlitem><para>Center is selected and isolation is verified once
+each flight day.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-MEL-757-34211111OP3">
+<numlist>
+<numlitem><para>For all operations at least 2 IRS's are required for
+autoland operation. The operative IRS's must be associated with the
+engaged autopilots. </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-LIM03FDK">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a with left IRS inoperative.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected IRS Mode Selector on the Inertial Reference
+Mode Panel (M59) "INOP" and enter item in Aircraft Deferred Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-342111MANT">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="158.50pt"/>
+<colspec colname="col3" colwidth="159.31pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>Left</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>For left IRU at Captain&rsquo;s Instrument Source
+Select Panel, select IRS ALTN and leave in this position.</para><para
+><emphasis role="bold"> Verify isolation each flight day by:</emphasis
+></para>
+</numlitem>
+<numlitem><para>Switching one of the operating IRUs to ALIGN.</para>
+</numlitem>
+<numlitem><para>Verify that one (not both) pilot&rsquo;s EADI and
+EHSI lose attitude and heading information.</para></numlitem>
+<numlitem><para>Switch the IRU back to NAV.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

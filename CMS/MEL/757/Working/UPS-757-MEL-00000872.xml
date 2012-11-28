@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="2" key="UPS-757-MEL-00000872" revdate="20090814" revnbr="66" sectnbr="11">
+<title>Center System (Electric) Hydraulic Pumps</title>
+<dispcond attr-rev="NO" btb="NO" category="C" maintenance="YES"
+nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative provided pump is deactivated.</para>
+</remarks>
+<placard>
+<para>Placard affected Pump Control switch "INOP" and enter in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000873">
+<numlist>
+<numlitem><para>Select affected pump control switch OFF.</para>
+</numlitem>
+<numlitem><para>For the inoperative pump, open and collar the appropriate
+circuit breaker on P11 panel.</para>
+<numlist>
+<numlitem><para>ELEC HYD PUMP C1  K-15</para></numlitem>
+<numlitem><para>ELEC HYD PUMP C2  K-24</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Establish external or APU electrical power.</para>
+</numlitem>
+<numlitem><para>Select both engine generators to OFF.</para></numlitem>
+<numlitem><para>On EICAS maintenance control portion of P61 panel:</para>
+<numlist>
+<numlitem><para>Select ELEC/HYD page.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Select the operative C2(C1) electric hydraulic pump
+ON.</para></numlitem>
+<numlitem><para>On EICAS display screen:</para>
+<numlist>
+<numlitem><para>Confirm center hydraulic pressure is 2900 psi (minimum).</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Return both engine generator switches to ON.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

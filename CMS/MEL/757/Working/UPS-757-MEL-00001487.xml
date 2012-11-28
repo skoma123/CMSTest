@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="2" chapnbr="33" chg="U" key="UPS-757-MEL-00001487" qtyreq="1" revdate="20080924" revnbr="65" sectnbr="44">
+<title>UPPER BODY ANTI-COLLISION LIGHT ASSEMBLY</title>
+<remarks>
+<para>May be missing with no penalty.</para>
+</remarks>
+<note><para>Refer to MEL items <refint refid="UPS-757-MEL-00001040"
+reftype="MEL">33-44-1-1</refint>, <refint refid="UPS-757-MEL-00001042"
+reftype="MEL">33-44-1-2</refint>, <refint refid="UPS-757-MEL-00001044"
+reftype="MEL">33-44-1-3</refint> for dispatch requirements.</para>
+</note>
+<note><para>When a lens is missing, disconnect, cap and stow the electrical
+connector. Remove the light bulb, reflector, lens cover and lens cover
+support. With the rest of the light assembly intact, cover the opening
+with appropriate material (Speed Tape, for example).</para></note>
+</cdlblk>

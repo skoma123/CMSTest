@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000640" revdate="20090814" revnbr="66" sectnbr="17">
+<title>Wheel Well Fire Detection System</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided an accepted procedure is used to
+ensure brakes are cool before engine start.</para>
+<note><para>Avoid possibility of retracting an overheated wheel by
+leaving landing gear extended for ten minutes after takeoff. Pilots
+must consider possibility of ice accumulation with landing gear extended
+during winter operations.</para></note>
+<note><para>In case of engine failure after V<sub>1</sub>, landing
+gear should be retracted until takeoff obstacles are cleared.</para>
+</note>
+</remarks>
+<operation key="UPS-757-MEL-00000641">
+<numlist>
+<numlitem><para>If not obstacle limited after takeoff, avoid the possibility
+of retracting a wheel overheated by dragging brakes by leaving gear
+extended for 10 minutes.</para></numlitem>
+<numlitem><para>In case of engine failure after V<sub>1,</sub> climb
+performance is the prime consideration. Landing gear should be retracted
+until at or above OCA then extended for a 10 minute cooling period.</para>
+</numlitem>
+<numlitem><para>During winter operations from contaminated runways
+retract the landing gear until reaching OCA, then extend the landing
+gear for a 10 minute cooling period. </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00000643">
+<numlist>
+<numlitem><para>Dispatch may be delayed to meet proviso.</para>
+</numlitem>
+<numlitem><para>Add 850 lbs. MEL fuel usage (10 minute gear down operation
+for brake cooling).</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to WHL WELL FIRE Light "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000642">
+<numlist>
+<numlitem><para>Brakes must be checked for being cool (when hand can
+be held on brake housings) immediately prior to starting engine.</para>
+</numlitem>
+<numlitem><para>Inform dispatch that flight planning may be affected.</para>
+</numlitem>
+<numlitem><para>If wheel well detection sensor(s) are failed closed,
+the EICAS warning message WHEEL WELL FIRE and WHEEL WELL FIRE light
+may be deactivated.</para>
+<numlist>
+<numlitem><para>To deactivate the EICAS warning message WHEEL WELL
+FIRE and WHEEL WELL FIRE light, open and collar the W/W FIRE DET circuit
+breaker on P11 panel.</para></numlitem>
+<numlitem><para>Place additional placard next to the WHEEL WELL FIRE
+light "WHEEL WELL FIRE LIGHT DEACTIVATED".</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<note><para>The center panel FIRE light and First Officer's panel
+WHEEL WELL FIRE light will extinguish. The Fire light will continue
+to be operative for engine fire and overheat detection. </para></note>
+</maintenance>
+</dispcond>
+</item>

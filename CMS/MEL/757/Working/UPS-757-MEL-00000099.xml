@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="6-1" key="UPS-757-MEL-00000099" revdate="20090814" revnbr="66" sectnbr="33">
+<title>Cabin Altitude Warning System High Altitude Warning System
+&ndash; (South America Aircraft) </title>
+<dispcond btb="NO" category="D " maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<para>Aircraft is not operated into High Altitude Airports (10,000
+ft. or above).</para>
+</remarks>
+<limitation key="UPS-757-MEL-00000101">
+<note><para>Must be operative for operations into LaPaz (LPB).</para>
+</note>
+</limitation>
+<placard>
+<para>Placard High Altitude Airport Warning System "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

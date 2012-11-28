@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="4" chapnbr="52" chg="U" key="UPS-757-MEL-00001512" qtyreq="1" revdate="20080924" revnbr="65" sectnbr="49">
+<title>AFT CARGO DOOR SWITCH ACCESS PANEL</title>
+<remarks>
+<para>May be missing.  The performance decrement is negligible.</para>
+<para>(SEE FIGURE 52-49-3/4)</para>
+</remarks>
+<graphic chapnbr="52" chg="U" confnbr="4" key="UPS757CDLFIG5205"
+revdate="20080924" revnbr="65" sectnbr="49">
+<title>FORWARD/AFT CARGO DOOR SWITCH ACCESS PANELS</title>
+<sheet chg="U" gnbr="CDL_CH_52_Page_5" key="UPSCDL_CH_52_Page_5"
+revdate="20080924" revnbr="65">
+<title>FIGURE 52-49-3/4</title>
+</sheet>
+</graphic>
+</cdlblk>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="1-2" key="UPS757MEL00346SAJDM002" revdate="20080924" revnbr="65" sectnbr="31">
+<title>Flight Data Recorder System &ndash; DFDR Recording Parameters
+not Required by FAR</title>
+<dispcond btb="NO" category="A" maintenance="NO" nbrins="&ndash;"
+nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided repairs are made prior to completion
+of next heavy maintenance visit.</para>
+</remarks>
+<placard>
+<para>Placard Flight Recorder Control Switch "INOP" on the accessory
+panel and enter item in Aircraft Deferred Item Log Parameter ___ inoperative. </para>
+</placard>
+<maintenance key="UPS-757-DMP-251111132536">
+<numlist>
+<numlitem><para>Reference MEL <refint refid="UPS-757-MEL-00345SAJDM001"
+reftype="MEL">31-31-1-1</refint> Parameters not listed are not Required
+Recording Parameters. </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

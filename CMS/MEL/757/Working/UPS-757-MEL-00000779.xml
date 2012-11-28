@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS-757-MEL-00000779" revdate="20090814" revnbr="66" sectnbr="21">
+<title>Pressure Fueling System </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+<note><para>See Maintenance Procedures Section for alternate procedure.</para>
+</note>
+</remarks>
+<placard>
+<para>Placard near EICAS "PRESSURE FUELING SYSTEM INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000780">
+<note><para>Any fill valve that is operative may be used.</para></note>
+<note><para>Auto overfill system may be overridden with overfill reset
+switch to fuel aircraft.</para></note>
+<numlist>
+<numlitem><para>Utilize individual components of pressure fuel system
+which is operative.</para></numlitem>
+<numlitem><para>If the entire system is inoperative, fuel aircraft
+from above the wing in accordance with AMM procedures.</para></numlitem>
+<numlitem><para>If the automatic function of the fuel shutoff valve(s)
+is inoperative, then utilize the manual electric function of the same
+valve(s) in accordance with AMM procedures.</para></numlitem>
+</numlist>
+<note><para>When the pressure fueling system is inoperative, gravity
+fueling of the main fuel tanks may be accomplished.  A maximum of
+1900 gallons (12,730 pounds at 6.7 lb/gal) can be loaded in each main
+tank by gravity fueling.</para></note>
+<note><para>Center tank fueling may be accomplished by transferring
+fuel from the main tanks.  A maximum of 2000 pounds of fuel may be
+loaded in the center tank with less than full wing tanks, provided
+the weight of fuel in the center tank plus actual Zero Fuel Weight
+does not exceed Maximum Zero Fuel Weight, and balance limits are observed.</para>
+</note>
+<note><para>See fueling manual for gravity fueling procedure.</para>
+</note>
+<warning><para>DO NOT EXCEED 100 GPM FUELING RATE TO PREVENT POSSIBLE
+FIRE/EXPLOSION DUE TO STATIC DISCHARGE.</para></warning>
+</maintenance>
+</dispcond>
+</item>

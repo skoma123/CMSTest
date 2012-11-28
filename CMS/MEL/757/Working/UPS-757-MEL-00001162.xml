@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-2" key="UPS-757-MEL-00001162" revdate="20080924" revnbr="65" sectnbr="61">
+<title>APU External Control System &ndash; APU automatic fire extinguishing
+system operative </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative and APU used, provided an APU automatic fire
+extinguishing system is installed and verified to be operative.</para>
+</remarks>
+<placard>
+<para>Placard APU Control Panel "APU EXTERNAL CONTROL SYSTEM INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001163">
+<para>On the flight deck from the Aft Electronics panel (P8) perform
+a FIRE/OVHT TEST by pushing the ENG/APU/CARGO switch.  The fire bell
+will ring intermittently.  Observe the following lights illuminate:</para>
+<numlist>
+<numlitem><para>Discrete FIRE warning light.</para></numlitem>
+<numlitem><para>APU fire switch.</para></numlitem>
+</numlist>
+<para>On the flight deck from the Accessory Panel, push the SQUIB
+TEST switch.  Observe the APU squib light illuminates green.  </para>
+</maintenance>
+</dispcond>
+</item>

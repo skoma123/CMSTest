@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001153" revdate="20100423" revnbr="68" sectnbr="15">
+<title>APU Air Intake Door Actuation System &ndash; Door Closed</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative secured closed provided APU is considered
+inoperative.</para>
+<!--Per C.R.#4381 Bill Bombatch 3/9/10 Considered Inop Item-->
+<note><para>Additional deferral required &ndash; Auxiliary Power Unit
+(APU).</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080618081158">
+<note><para>An auto-generated ACARS message requesting an inflight
+APU start should be disregarded.</para></note>
+</operation>
+<placard>
+<para>Placard APU Control Panel "APU AIR INTAKE DOOR INOP" as appropriate
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001154">
+<numlist>
+<numlitem><para>If door positioning is required, manually position
+as follows: </para>
+<numlist>
+<numlitem><para>Remove hydraulic power to left, right and center systems
+(Ref. Maintenance Manual 29-11-00).</para></numlitem>
+<numlitem><para>Turn APU master switch to OFF position.</para>
+</numlitem>
+<numlitem><para>Place FLT CONT SHUTOFF valve switches L, R and C on
+panel P61 to OFF.</para></numlitem>
+<numlitem><para>Place STAB TRIM SHUTOFF valve switches C and R on
+panel P10 to CUTOFF.</para></numlitem>
+<numlitem><para>Open FLT CONT SHUTOFF TAIL circuit breakers L, C,
+R (11H17, 11H18, 11H28).</para></numlitem>
+<numlitem><para>Open STAB TRIM SHUTOFF valve circuit breakers R (11C13)
+and L (11C12).</para></numlitem>
+<numlitem><para>Open APU ALTN BAT CONT circuit breaker (11B34).</para>
+</numlitem>
+<numlitem><para>Open APU BAT APU CONT UNIT circuit breaker on E6 rack
+in aft equipment center.</para></numlitem>
+<numlitem><para>Open lower service access door to gain access to actuator
+from inside aircraft.</para></numlitem>
+<numlitem><para>Hand crank door actuator to position door.</para>
+<caution><para>DO NOT OVERTORQUE MANUAL/ELECTRICAL SELECTOR SHAFT
+AND MANUAL DRIVE.  IF RESISTANCE IS FELT, ACTUATOR DAMAGE MAY RESULT.
+ SEE APU INTAKE DOOR ACTUATOR MANUAL OPERATION DECAL ON ACTUATOR.</para>
+</caution>
+<numlist>
+<numlitem><para>Insert 1/4 inch square drive into manual/electrical
+selector shaft located on the forward end of the actuator.  Push inward
+and rotate counterclockwise (about 90&deg;) until manual drive socket
+is exposed.  Do not exceed 10 pound-inches torque.</para></numlitem>
+<numlitem><para>Insert square drive into revealed socket and turn
+counterclockwise to extend actuator and clockwise to retract.  Do
+not exceed 65 pound-inches torque.</para></numlitem>
+<numlitem><para>Insert square drive into manual/electric selector
+shaft.  Push inward and rotate clockwise until manual drive socket
+is covered.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Place FLT CONT SHUTOFF valve switches L, R, C to ON.</para>
+</numlitem>
+<numlitem><para>Close FLT CONT SHUTOFF TAIL circuit breakers L, C,
+R (11H17, 11H18, 11H28).</para></numlitem>
+<numlitem><para>Close STAB TRIM SHUTOFF valve circuit breaker R (11C13)
+and L (11C12).</para></numlitem>
+<numlitem><para>Place STAB TRIM SHUTOFF valve switches C and R to
+NORM.</para></numlitem>
+<numlitem><para>Close APU ALTN BAT CONT circuit breaker (11B34).</para>
+</numlitem>
+<numlitem><para>Close APU BAT CONT UNIT circuit breaker on E6 rack
+in aft equipment center.</para></numlitem>
+<numlitem><para>Close lower access service door.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Secure APU air intake door in position.  Open and
+collar APU INLET DR ACT circuit breaker on E6 rack in aft equipment
+center.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

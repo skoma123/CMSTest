@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="1-2-2" key="UPS-757-MEL-00000330" revdate="20080924" revnbr="65" sectnbr="30">
+<title>Thrust Management System (Including Autothrottle System) &ndash;
+Two Autothrottle Disconnect Switches </title>
+<dispcond btb="NO" category="C" downgrade="CATEGORY 1" maintenance="YES"
+nbrins="2" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Autothrottles are deactivated, and</para></numlitem>
+<numlitem><para>Approach minimums do not require use of autothrottle.</para>
+</numlitem>
+</numlist>
+<para><emphasis role="bold">CATEGORY 2/3a/3b</emphasis></para>
+<para>Installed: 1</para>
+<para>Required: 1</para>
+<para>Must be operative.</para>
+</remarks>
+<limitation key="ups-mel-7570000012332">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+1.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near A/T Control switch &ldquo;L (R) A/T DISC SW INOP&rdquo;
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000332">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="158.50pt"/>
+<colspec colname="col3" colwidth="159.31pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>2</para>
+</entry>
+<entry align="center">
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>Open and Collar TMC Servo Circuit Breaker (F16) on
+(P11) panel. </para></numlitem>
+<numlitem><para>Set Autothrottle Arm switch to OFF.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

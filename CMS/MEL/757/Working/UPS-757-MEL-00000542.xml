@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-2-1" key="UPS-757-MEL-00000542" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Flight Crew Seat Manual Adjustment System &ndash; (Recline) </title>
+<dispcond btb="NO" category="A" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Seat is secured in upright position and is acceptable
+to affected crewmember,</para></numlitem>
+<numlitem><para>Fwd/Aft and vertical manual adjustment modes are operative,
+and</para></numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near upper EICAS "______ SEAT RECLINE MODE INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000543">
+<numlist>
+<numlitem><para>Secure seat in upright position acceptable to crew
+member. </para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

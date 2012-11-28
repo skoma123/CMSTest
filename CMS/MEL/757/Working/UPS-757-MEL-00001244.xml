@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="10" key="UPS-757-MEL-00001244" revdate="20080924" revnbr="65" sectnbr="21">
+<title>ENG Limiter Control (ELC) INOP Lights (RB211)</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided remaining operative light is
+associated with an operating ENG Limiter Control (ELC) system. </para>
+</remarks>
+<placard>
+<para>Placard affected ENG Limiter INOP Light "INOP" and enter item
+in Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

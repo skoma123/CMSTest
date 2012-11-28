@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2" key="UPS-757-MEL-00000814" revdate="20100423" revnbr="68" sectnbr="25">
+<title>APU Fuel Shutoff Valve </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>APU is considered inoperative, and</para></numlitem>
+<numlitem><para>Valve is secured closed.</para></numlitem>
+</numlist>
+<!--Per C.R.#4381 Bill Bombatch 3/9/10 Considered Inop Item-->
+<note><para>Additional deferral required &ndash; Auxiliary Power Unit
+(APU).</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080604105820">
+<note><para>An auto-generated ACARS message requesting an inflight
+APU start should be disregarded. </para></note>
+</operation>
+<placard>
+<para>Placard APU Control Panel "APU FUEL S/O VALVE INOP" as appropriate
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000815">
+<numlist>
+<numlitem><para>Open and collar FUEL/SO VLV - APU circuit breaker
+(6E3).</para></numlitem>
+<numlitem><para>Gain access to dry side of center tank rear spar and
+locate actuator.</para>
+<numlist>
+<numlitem><para>Check that landing gear downlocks are installed (Ref.
+Maintenance Manual 32-00-15).</para>
+<warning><para>REFER TO MAINTENANCE MANUAL 32-00-15 FOR LOCK INSTALLATION
+PROCEDURE.  RAPID ACTION OF DOORS MAY CAUSE INJURY OR DAMAGE IF LOCKS
+ARE NOT PROPERLY INSTALLED.</para></warning>
+</numlitem>
+<numlitem><para>Open main gear doors and install door locks.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove, cap and stow electrical connector from actuator.</para>
+</numlitem>
+<numlitem><para>Lockwire manual override lever in CLOSED position.</para>
+</numlitem>
+<numlitem><para>Notify Flight Dispatch that the APU is inoperative.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="28" chg="U" key="UPS757DMPFIG2802" revdate="20080924"
+revnbr="65" sectnbr="25">
+<title>APU FUEL SHUTOFF VALVE ACTUATOR INSTALLATION</title>
+<sheet chg="U" gnbr="DMP_CH_28_Page_2" key="UPSDMP_CH_28_Page_2"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

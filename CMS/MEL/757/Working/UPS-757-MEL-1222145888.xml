@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS-757-MEL-1222145888" revdate="20080924" revnbr="65" sectnbr="61">
+<title>Landing Gear DOORS Light System</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided EICAS Advisory message GEAR DOORS
+is verified to be operative.</para>
+</remarks>
+<placard>
+<para>Placard light "LIGHT INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS757-DMP-02569SAJDM2667">
+<warning><para>REFER TO MAINTENANCE MANUAL 32-00-15 FOR LOCK INSTALLATION
+PROCEDURE. RAPID ACTION OF DOORS MAY CAUSE INJURY OR DAMAGE IF LOCKS
+ARE NOT PROPERLY INSTALLED.</para></warning>
+<numlist>
+<numlitem><para>Open main gear doors.</para></numlitem>
+<numlitem><para>Confirm that advisory level message GEAR DOORS illuminated
+after 35 second time delay.</para></numlitem>
+<numlitem><para>Close main gear doors.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

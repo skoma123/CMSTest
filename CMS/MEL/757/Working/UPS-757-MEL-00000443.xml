@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="3" key="UPS-757-MEL-00000443" revdate="20080924" revnbr="65" sectnbr="51">
+<title>Flight Deck Speakers</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Procedures do not require their use, and</para>
+</numlitem>
+<numlitem><para>TSO headset earphones/headphones (or equivalent) are
+installed and operative.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000444">
+<numlist>
+<numlitem><para>When flight deck speaker(s) is inoperative, the affected
+pilot(s) must use headsets.</para>
+<note><para>Only equipment approved under FAA Technical Standard Order
+(TSO), to include flightdeck microphones, headphones, and boom microphone
+headsets, may be used in UPS aircraft. </para></note>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard inoperative Flight Deck Speaker(s) "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

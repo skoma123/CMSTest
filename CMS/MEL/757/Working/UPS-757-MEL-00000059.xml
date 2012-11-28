@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000059" revdate="20080924" revnbr="65" sectnbr="33">
+<title>CABIN RATE of Climb Indicator &ndash; Pressurized Flight </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided both automatic pressure control
+systems are operative.</para>
+</remarks>
+<placard>
+<para>Placard near CABIN RATE Of Climb indicator "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

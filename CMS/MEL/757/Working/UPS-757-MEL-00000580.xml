@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-1-1" key="UPS-757-MEL-00000580" revdate="20080924" revnbr="65" sectnbr="61">
+<title>Flight Crew/Supernumerary Escape Devices &ndash; Observer's
+Seat Inoperative &ndash; Inertial Escape Reels</title>
+<dispcond btb="NO" category="A" maintenance="YES" nbrins="6" nbrreq="2"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>One inertial escape reel is available for each crewmember/observer,
+and</para></numlitem>
+<numlitem><para>Inoperative escape reel(s) is removed from installed
+location.</para></numlitem>
+<numlitem><para>Operations are limited to not more than two flight
+days before repair is made.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS757MELCDL20080602104458">
+<numlist>
+<numlitem><para>Occupants are limited to the number of operative escape
+devices.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near upper EICAS "# ESCAPE REEL(S) INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000581">
+<numlist>
+<numlitem><para>Inoperative Inertial Escape Reels:</para>
+<numlist>
+<numlitem><para>Utilize AMM 25-61-02-2 procedures to remove the inoperative
+Inertial Escape Reel(s).</para></numlitem>
+<numlitem><para>Utilize AMM 25-61-02-2 procedures to reinstall the
+operative Inertial Escape Reel(s).</para></numlitem>
+<numlitem><para>Place inoperative Inertial Escape Reel(s) in forward
+cargo bin or remove from aircraft.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Inoperative Escape Harness:</para>
+<numlist>
+<numlitem><para>Place inoperative Escape Harness(es) in forward cargo
+bin or remove from aircraft.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Notify dispatch that escape device(s) are inoperative
+per MEL and that the number of people on the aircraft is limited to
+the number of operative escape devices.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

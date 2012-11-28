@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-1" key="UPS757MELCDL20080607105854" revdate="20090814" revnbr="66" sectnbr="21">
+<title>Engine Anti-Ice Valves &ndash; RB211 Valve Partially Open</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative locked partially open provided:</para>
+<numlist>
+<numlitem><para>Reduced Thrust or Derate operation is not permitted,</para>
+</numlitem>
+<numlitem><para>Improved climb performance operation is not permitted,</para>
+</numlitem>
+<numlitem><para>Anti-ice OFF thrust settings are reduced by the following
+EPR decrements:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="left" colname="col1" colwidth="0.79*"/>
+<colspec align="left" colname="col2" colwidth="0.92*"/>
+<colspec colname="COLSPEC1" colwidth="1.29*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>RR</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Takeoff</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>-0.02</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>MCT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>-0.01</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Engine anti-ice is selected ON for affected engine
+during entire flight, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+<note><para>(RR Only) If L or R ENG ANTI-ICE EICAS message and associated
+valve light extinguish after advancing affected thrust lever (up to
+1.04 EPR), continue normal operations. The message and light may come
+on again when the thrust lever is retarded, but will go out when takeoff
+power is applied. No logbook write-up is required. If the message
+and valve light <emphasis role="underline">do not</emphasis> go out
+when the thrust lever is advanced, comply with all applicable MEL
+procedures.</para></note>
+<note><para>If ignition system is inoperative the engine anti-ice
+valve must be operative.</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080607110810">
+<numlist>
+<numlitem><para>Max Thrust required.</para></numlitem>
+<numlitem><para>Do not use improved climb performance operation.</para>
+</numlitem>
+<numlitem><para>Observe MEL EPR decrements.</para></numlitem>
+<numlitem><para>Observe reduced MEL takeoff and landing performance
+limited weight and obstacle clearance and en route climb limited performance
+weight.</para></numlitem>
+<numlitem><para>Observe MEL V<sub>1</sub> and V<sub>R</sub> increase.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+<note><para>For RR engines, there is no Outside Air Temperature (OAT)
+restriction on the use of high thrust settings when operating with
+the EAI VALVE locked partially open.</para></note>
+<note><para>Disregard Associated Valve Light and EICAS message indications,
+if any.</para></note>
+</operation>
+<limitation key="UPS757MELCDL20080607111309">
+<numlist>
+<numlitem><para>Apply EPR decrement to all thrust settings.</para>
+</numlitem>
+<numlitem><para>Reduce Takeoff Runway Limit Weight by 10,200 lbs.,
+if <emphasis role="bold">NOT</emphasis> OBSTACLE LIMITED.</para>
+</numlitem>
+<numlitem><para>Reduce Takeoff Runway Limit Weight by 11,300 lbs.,
+if OBSTACLE LIMITED.</para></numlitem>
+<numlitem><para>Reduce both Takeoff Climb Limit Weight and Climb Limit
+Weight for Landing by 10,200 lbs.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+<numlitem><para>Reduce the ONE ENGINE INOPERATIVE NET EN ROUTE WEIGHT
+CAPABILITY found in Ch. 5.3 of the AOM by 11,300 lbs.</para></numlitem>
+<numlitem><para>V<sub>1</sub> and V<sub>R</sub> are increased by 1
+knot.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard appropriate Engine Anti-ice Switch "COWL VALVE INOP
+LOCKED PART OPEN" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080607112129">
+<title>ENGINE ANTI-ICE VALVES (VALVE CLOSED)</title>
+<para><emphasis role="bold">RB211 ENGINE</emphasis></para>
+<warning><para>TAG THRUST REVERSER LEVERS - "DO NOT OPERATE".</para>
+</warning>
+<numlist>
+<numlitem><para>Access engine inlet thermal  anti-ice valve  by opening
+the access panel on the appropriate engine.</para>
+<numlist>
+<numlitem><para>For left engine, open access panel 413AL.</para>
+</numlitem>
+<numlitem><para>For  right engine, open access panel 423AL.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Disconnect, cap and stow the valve actuation electrical
+connector. </para></numlitem>
+<numlitem><para>Disconnect the valve position microswitch connector
+and connect to the adjacent socket.</para></numlitem>
+<numlitem><para>Remove six bolts securing manual override assembly
+to valve body.</para></numlitem>
+<numlitem><para>Lift manual override assembly clear of locating dowels.</para>
+</numlitem>
+<numlitem><para>Remove locking plate and gasket from locating dowels.</para>
+</numlitem>
+<numlitem><para>Lift microswitch assembly and gasket clear of locating
+dowels. </para></numlitem>
+<numlitem><para>Place gasket on valve body.</para></numlitem>
+<numlitem><para>Invert manual override assembly and replace on dowels
+so that tongue of screw jack engages with groove in valve head.</para>
+</numlitem>
+<numlitem><para>Place gasket and locking plate on manual override
+assembly so that valve position, as engraved on plate, is on top.</para>
+</numlitem>
+<numlitem><para>Move valve head to ("VALVE LOCKED CLOSED") by rotating
+jack screw until lug on jack screw locates in the slot on underside
+of locking plate.</para></numlitem>
+<numlitem><para>Invert microswitch assembly and position on top of
+valve position locking plate.</para>
+<note><para>THE MICROSWITCH ACTUATION LEVER MUST BE POINTING UPWARDS.</para>
+</note>
+</numlitem>
+<numlitem><para>Install six retaining bolts and secure assembly to
+valve head. </para></numlitem>
+<numlitem><para>Check appropriate ANTI-ICE ENGINE L or R switchlight,
+on wing and engine anti-ice control panel (P5), is OFF.</para>
+</numlitem>
+<numlitem><para>Disregard associated VALVE light and EICAS message
+indications, if any.</para></numlitem>
+</numlist>
+<graphic chapnbr="30" chg="U" confnbr="1" key="UPS757DMPFIG03003"
+revdate="20080924" revnbr="65" sectnbr="21">
+<title>MANUAL VALVE POSITIONING</title>
+<sheet chg="U" gnbr="DMP_CH_30_Page_3" key="UPSDMP_CH_30_Page_3"
+revdate="20080924" revnbr="65">
+<title>RB211 ENGINES</title>
+</sheet>
+</graphic>
+<para><emphasis role="bold">ENGINE ANTI-ICE VALVES &ndash; RB211 VALVE
+PARTIALLY OPEN</emphasis></para>
+<para><emphasis role="bold">RB211 ENGINE</emphasis></para>
+<warning><para>tag thrust reverser levers &ndash; "do not operate".</para>
+</warning>
+<note><para>Remove "DO NOT OPERATE" tag once the DMP is completed.</para>
+</note>
+<numlist>
+<numlitem><para>Access engine inlet thermal anti-ice valve by opening
+the access panel on the appropriate engine.</para></numlitem>
+<numlitem><para>Open left fan cowl for left or right engine.</para>
+</numlitem>
+<numlitem><para>Disconnect, cap and stow the valve actuation electrical
+connector.</para></numlitem>
+<numlitem><para>Disconnect the valve position microswitch connector
+and connect to the adjacent socket.</para></numlitem>
+<numlitem><para>Remove six bolts securing manual override assembly
+to valve body.</para></numlitem>
+<numlitem><para>Lift manual override assembly clear of locating dowels.</para>
+</numlitem>
+<numlitem><para>Remove locking plate and gasket from locating dowels.</para>
+</numlitem>
+<numlitem><para>Lift microswitch assembly and gasket clear of locating
+dowels.</para></numlitem>
+<numlitem><para>Place gasket on valve body.</para></numlitem>
+<numlitem><para>Invert manual override assembly and replace on dowels
+so that tongue of screw jack engages with groove in valve head.</para>
+</numlitem>
+<numlitem><para>Place gasket and locking plate on manual override
+assembly so that valve position, as engraved on plate, is on top.</para>
+</numlitem>
+<numlitem><para>Move valve head to desired position ("VALVE LOCKED
+PART OPEN") by rotating jack screw until lug on jack screw locates
+in the slot on underside of locking plate.</para></numlitem>
+<numlitem><para>Invert microswitch assembly and position on top of
+valve position locking plate.</para>
+<note><para>THE MICROSWITCH ACTUATION LEVER MUST BE POINTING UPWARDS.</para>
+</note>
+</numlitem>
+<numlitem><para>Install six retaining bolts and secure assembly to
+valve head.</para></numlitem>
+<numlitem><para>Check appropriate ANTI-ICE ENGINE L or R switchlight,
+on wing and engine anti-ice control panel (P5), is OFF.</para>
+</numlitem>
+<numlitem><para>Disregard associated VALVE light and EICAS message
+indications, if any.</para></numlitem>
+</numlist>
+<graphic chapnbr="30" chg="U" key="UPS757MELCDL20080722131815"
+revdate="20080924" revnbr="65" sectnbr="21">
+<title>MANUAL VALVE POSITIONING</title>
+<sheet chg="U" gnbr="DMP_CH_30_Page_5a" key="UPS757MELCDL20080722131912"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>RB211 ENGINES</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

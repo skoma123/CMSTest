@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="2-2" key="UPS-757-MEL-00001125" revdate="20080924" revnbr="65" sectnbr="22">
+<title>HI STAGE Lights &ndash; Inoperative System </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative for associated inoperative bleed system(s).</para>
+</remarks>
+<limitation key="UPS-757-MEL-00001127">
+<numlist>
+<numlitem><para>No flight into known or forecast icing conditions.</para>
+</numlitem>
+<numlitem><para>Aircraft remains at or below FL350.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near HI STAGE light located on Bleed Air Supply Module
+(M10259) on P5 panel "HI PRESS S/O VLV INOP and HI STAGE LIGHT INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001126">
+<numlist>
+<numlitem><para>Notify Flight Dispatch.  Flight operations may be
+affected. </para></numlitem>
+<numlitem><para>Select affected Bleed Air Switch OFF.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="3-2" key="UPS-757-MEL-00000244" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Selectors &ndash; Bank Limit Selector</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000245">
+<numlist>
+<numlitem><para>If AFDS is not providing desired commands, turn off
+Flight Director manually while maneuvering aircraft.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Bank Limit Selector "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="31" chg="U" itemnbr="4-1" key="UPS757MEL21486101JDM57813" revdate="20080924" revnbr="65" sectnbr="61">
+<title>EICAS Status Messages &ndash; Associated Equipment Operative</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="96" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided associated equipment is verified
+to be operative before each departure.</para>
+</remarks>
+<operation key="UPS-757-MEL-00JDM061040156">
+<numlist>
+<numlitem><para>Attempt to clear EICAS status message using EICAS
+STATUS MESSAGE CLEARING PROCEDURE in Chapter 4 of AOM.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near upper EICAS display "(Specific EICAS Message) INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757DMP21458SAJDM25497">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>An inoperative STATUS message is one which is displayed
+when there is no actual equipment fault. The equipment with the inoperative
+STATUS message must be checked for normal operation prior to each
+departure per the associated Maintenance Manual operational procedure.</para>
+</numlitem>
+<numlitem><para>If normal equipment operation cannot be verified,
+MEL dispatch deviations for the associated equipment must be observed,
+see MEL <refint refid="UPS757MEL65874JDM7369" reftype="MEL">31-61-4-2</refint
+>. </para></numlitem>
+<numlitem><para>Accomplish the appropriate procedures for the following
+EICAS Status messages:</para><para>L (R) OIL SCAV VAL (PW Only)</para>
+<para>FUEL QTY CHANNEL</para>
+<para>POWER XFER UNIT</para>
+</numlitem>
+</numlist>
+<para><emphasis role="bold">EICAS STATUS MESSAGES</emphasis></para>
+<para>L(R) OIL SCAV VAL (PW Only)</para>
+<para>The following procedure can be used to verify normal operation
+of the #4 bearing scavenge valve for PW engines when the Status message
+"L(R) OIL SCAV VAL" is displayed.</para>
+<numlist>
+<numlitem><para>Confirm that the scavenge valve operates normally
+and #4 carbon seal is intact by operating the engine on the ground
+at an N<sub>2</sub> speed greater than 88% or reading data taken from
+an EICAS manual event with a burner pressure greater than 300 psig
+and verifying the following parameters on the EICAS Perf/APU page,
+the Status page, and the Exceedence page.</para>
+<numlist>
+<numlitem><para>Verify Scavenge Oil Pressure (SCAV) shown on the Perf/APU
+page is between 45 and 155 psig.</para></numlitem>
+<numlitem><para>Verify that there has not been a Main Oil Temperature
+exceedence on the previous flight.</para></numlitem>
+<numlitem><para>Verify that there has not been a step increase in
+oil consumption. </para></numlitem>
+<numlitem><para>Verify that the affected engine does not display any
+of the following EICAS messages:</para><para>L(R) ENG OIL SEAL</para>
+<para>L(R) OIL FILTER</para>
+<para>L(R) OIL SCAV OPEN</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Determine dispatchability.</para>
+<numlist>
+<numlitem><para>Dispatch is not permitted if any of the above tests
+are failed. Refer to the MM 79-21-00 for trouble shooting procedures.</para>
+</numlitem>
+<numlitem><para>If all the tests in Step 1 are passed, the L(R) OIL
+SCAV VAL message is a nuisance message and dispatch is permitted.
+Placard the inflight log "L(R) ENGINE #4 SCAVENGE VALVE PROXIMITY
+SENSOR INOP".</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<para>FUEL QTY CHANNEL</para>
+<para>The following procedure can be used to verify normal operation
+of the FQIS when the Status message "FUEL QTY CHANNEL" is displayed. </para>
+<numlist>
+<numlitem><para>Record last flight leg fault to develop fault history.</para>
+</numlitem>
+<numlitem><para>Run the FQIS self test.</para></numlitem>
+<numlitem><para>If no faults are displayed, the "FUEL QTY CHANNEL"
+message is a nuisance message and dispatch is permitted.</para>
+</numlitem>
+</numlist>
+<para>POWER XFER UNIT</para>
+<para>The following procedure can be used to verify normal operation
+of the Power Transfer Unit when the Status message "POWER XFER UNIT"
+is displayed.</para>
+<numlist>
+<numlitem><para>Display ELEC/HYD on EICAS.</para></numlitem>
+<numlitem><para>Power right hydraulic system with ACMP (Left ACMP
+is OFF). </para></numlitem>
+<numlitem><para>Open the right Speed Card circuit breaker (11B32).
+This removes electrical power from the right Engine Out relay.</para>
+</numlitem>
+<numlitem><para>Verify left Hydraulic system pressure is high (PTU
+is ON). </para></numlitem>
+<numlitem><para>Turn OFF right ACMP.</para></numlitem>
+<numlitem><para>Confirm right hydraulic system pressure decays to
+less than 100 psi (pumps OFF).</para></numlitem>
+<numlitem><para>Confirm left hydraulic system pressure decays to less
+than 100 psi (pumps OFF).</para></numlitem>
+<numlitem><para>Switch right ACMP ON and confirm pressure rises in
+right hydraulic system.</para></numlitem>
+<numlitem><para>Verify that no rise in left hydraulic system pressure
+occurs. If a rise in left hydraulic system pressure occurs, either
+the control pressure switch (S10129), the PTU relay (K10051), or the
+time delay (M10145) has failed. Rise in the left hydraulic system
+means no dispatch is allowed.</para></numlitem>
+<numlitem><para>Close the right Speed Card circuit breaker (11B32).
+This provides electrical power to the right engine out relay and recycles
+the relays.</para></numlitem>
+<numlitem><para>Erase the ECS/HYD Maintenance Page.</para></numlitem>
+<numlitem><para>Start right engine. (Configuration: EDPs ON, left
+and right ACMPs ON)</para></numlitem>
+<numlitem><para>Turn the left ACMP OFF.</para></numlitem>
+<numlitem><para>Verify left hydraulic pressure is high.</para>
+</numlitem>
+<numlitem><para>Start left engine.</para></numlitem>
+<numlitem><para>Turn OFF left EDP and verify left ACMP remains OFF.</para>
+</numlitem>
+<numlitem><para>Verify left hydraulic system pressure remains high.</para>
+</numlitem>
+<numlitem><para>Turn left EDP ON.</para></numlitem>
+<numlitem><para>Verify EDP Low Pressure light goes out.</para>
+</numlitem>
+<numlitem><para>Pull hydraulic PTU control circuit breaker (11D31).</para>
+</numlitem>
+<numlitem><para>Turn left EDP OFF.</para></numlitem>
+<numlitem><para>Verify left system pressure is low.</para></numlitem>
+<numlitem><para>Close circuit breaker (11D31) and verify left hydraulic
+system pressure is high.</para></numlitem>
+<numlitem><para>Restore system to normal.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

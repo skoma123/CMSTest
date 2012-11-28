@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="1" key="UPS-757-MEL-00001185" revdate="20080924" revnbr="65" sectnbr="32">
+<title>Main Deck Cargo Door &ndash; Electrical Control (Open/Close)
+System</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided alternate procedures for opening
+and closing cargo door are established and used.</para>
+</remarks>
+<placard>
+<para>Placard Main Deck Cargo Door Opening and Closing Electrical
+Function "INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00002JDM">
+<note><para>The DMP is required for any portion that does not operate
+normally. </para></note>
+<numlist>
+<numlitem><para>Open Main Cargo Door (Ref. AMM 52-32-00):</para>
+<numlist>
+<numlitem><para>Locate the Main Cargo Door control valve in the left
+main gear wheel well.</para></numlitem>
+<numlitem><para>Put the control valve lever found in the left main
+gear wheel well to the "OPEN" position (POS 1).</para></numlitem>
+<numlitem><para>Locate the hydraulic hand pump found just below the
+Main Cargo Door control valve in the left main gear wheel well.</para>
+</numlitem>
+<numlitem><para>Install the manual pump handle onto the hydraulic
+hand pump and operate the hand pump until the Main Cargo Door is in
+the OPEN position. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Close Main Cargo Door:</para>
+<warning><para>KEEP PERSONS AND EQUIPMENT AWAY FROM THE MAIN CARGO
+DOOR.  THE DOOR CAN FALL WHEN THE CONTROL VALVE LEVER IS MOVED AND
+CAN CAUSE INJURY OR DAMAGE.</para></warning>
+<numlist>
+<numlitem><para>Locate the Main Cargo Door control valve in the left
+main gear wheel well.</para></numlitem>
+<numlitem><para>Put the control valve lever to the "CLOSE" position
+(POS 2). </para></numlitem>
+<numlitem><para>Locate the hydraulic hand pump found just below the
+Main Cargo Door control valve in the left main gear wheel well.</para>
+</numlitem>
+<numlitem><para>Install the manual pump handle onto the hydraulic
+hand pump. </para></numlitem>
+<numlitem><para>Operate the hand pump until the Main Cargo Door is
+in the CLOSED and LOCKED position.</para>
+<note><para>Main Cargo Door may free-fall during this step.</para>
+</note>
+</numlitem>
+<numlitem><para>Verify the Main Cargo Door is closed and locked. 
+This may be verified by checking EICAS, door control panel indications,
+or by visual inspection of the door lock indicators.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="52" chg="U" key="UPSB757MELCDL20080925113730"
+revdate="20080924" revnbr="65" sectnbr="32">
+<sheet chg="U" gnbr="DMP_CH_52_Page_2" key="UPSB757MELCDL20080925113829"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>CONTROL PANEL</title>
+</sheet>
+</graphic>
+<graphic chapnbr="52" chg="U" key="UPS757DMPFIG5203" revdate="20080924"
+revnbr="65">
+<sheet chg="U" gnbr="DMP_CH_52_Page_3" key="UPSDMP_CH_52_Page_3"
+revdate="20080924" revnbr="65" width="60%">
+<title>CARGO DOOR OPERATION</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

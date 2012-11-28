@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001040" revdate="20080924" revnbr="65" sectnbr="44">
+<title>Anti-Collision Lights (Red Strobes/White Strobes) &ndash; Upper
+and Lower Red Fuselage Strobe Lights </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="4" nbrreq="2"
+operation="NO">
+<remarks>
+<para>Upper and lower red fuselage strobe lights may be inoperative
+provided wing tip white strobe lights are operative.</para>
+</remarks>
+<placard>
+<para>Placard next to Anti-Collision and Landing lights on control
+panel M56 denoting light(s) "INOP" and enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+</dispcond>
+</item>

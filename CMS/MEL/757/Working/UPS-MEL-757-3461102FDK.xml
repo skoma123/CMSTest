@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-2" key="UPS-MEL-757-3461102FDK" revdate="20091120" revnbr="67" sectnbr="61">
+<title>Flight Management Computer Systems (FMCS) &ndash; Both FMC's/CDU's
+Inoperative </title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>Except for ER operations, may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both Fuel Quantity Indicating System (FQIS) processor
+channels are verified to be operative,</para></numlitem>
+<numlitem><para>All flight deck fuel quantity indications are operative,
+and </para></numlitem>
+<numlitem><para>En route operations do not require its use.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-MEL-757-3461102OPSFDK">
+<para><emphasis role="bold"><emphasis role="underline">Both FMCs Inoperative </emphasis
+></emphasis></para>
+<numlist>
+<numlitem><para>Reference AOM Ch. 4, <emphasis role="bold">DISPATCH
+WITH BOTH FMC'S INOPERATIVE</emphasis>, for detailed operational considerations.</para>
+</numlitem>
+<numlitem><para>Complete IRS alignment using the overhead IRS Mode
+Selector Panel. Reference AOM Ch. 4, <emphasis role="bold">NAVIGATION</emphasis
+>, for detailed procedures.</para></numlitem>
+<numlitem><para>Use of Engine and Wing Anti-ice is unaffected. Conversion
+of TAT and SAT in cruise may be derived from the One Engine INOP chart
+in the QRH.</para></numlitem>
+<numlitem><para>Monitor fuel usage for agreement with flight plan.
+At a minimum, verify fuel quantity from top of climb to top of descent
+at half hour intervals.</para></numlitem>
+<numlitem><para>Record zero fuel weight on flight plan to determine
+takeoff and landing weights by adding fuel on board.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-3461102LIMFDK">
+<numlist>
+<numlitem><para>Modify the FAA filing suffix to the appropriate code.</para>
+</numlitem>
+<numlitem><para>LNAV/VNAV not available to crew.</para></numlitem>
+<numlitem><para>FMS RNAV type 1 or 2 SIDS/STARS prohibited.</para>
+</numlitem>
+<numlitem><para>Route of flight to remain within service volume of
+ground based NAV AIDS. RNAV waypoints and procedures not authorized.</para>
+</numlitem>
+</numlist>
+<note><para>For operations to Central, South American and Mexico destinations
+ONLY, the flight may not depart outbound domestic gateways with inoperative
+Flight Management Computer (FMC), but may continue series of flights
+within the region for the repair interval specified in the Repair
+Int Category section.</para></note>
+</limitation>
+<placard>
+<para>Placard Both FMC&rsquo;s Control Display Units (M76, M77) "INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-3461102MNTFDK">
+<title>Both FMC's INOP</title>
+<para>Perform the following test to determine if FQIS processor channels
+operate normally:</para>
+<note><para>It is preferable that this test be performed with less
+than 15,000 lbs (7000 kgs) total fuel.</para></note>
+<numlist>
+<numlitem><para>Apply electrical power per AMM 24-22-00. Close the
+battery and RIGHT DC BUS circuit breakers.</para></numlitem>
+<numlitem><para>Close the fueling panel door.</para></numlitem>
+<numlitem><para>Open the FUEL QTY L and FUEL QTY R circuit breakers
+on the P11 overhead panel.</para></numlitem>
+<numlitem><para>Verify that the FUEL QTY displays have gone blank.</para>
+</numlitem>
+<numlitem><para>Test FQIS processor channels:</para>
+<numlist>
+<numlitem><para>Close FUEL QTY L circuit breaker, wait ten seconds,
+and record the indicated fuel quantity for each tank.</para></numlitem>
+<numlitem><para>Open FUEL QTY L circuit breaker and then close FUEL
+QTY R circuit breaker, wait ten seconds, and record the indicated
+fuel quantity for each tank.</para></numlitem>
+<numlitem><para>Compare the quantities recorded in steps 5A and 5B.
+If quantities differ by 400 lbs (200 kgs) or less per tank, the fuel
+quantity indicating processor unit is acceptable.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

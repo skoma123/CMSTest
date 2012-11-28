@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS-757-MEL-00000718" revdate="20080924" revnbr="65" sectnbr="21">
+<title>Rudder Ratio Light</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative off provided:</para>
+<numlist>
+<numlitem><para>RUDDER RATIO message on EICAS is verified to be operative,
+and</para></numlitem>
+<numlitem><para>Both control channels are operative.</para></numlitem>
+</numlist>
+<note><para>Rudder Ratio light is NOT deferrable if light is ON.</para>
+</note>
+</remarks>
+<placard>
+<para>Placard Rudder Ratio light "INOP-OFF" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000719">
+<para>Verify Rudder Ratio message as follows:</para>
+<numlist>
+<numlitem><para>Provide Electrical Power.</para></numlitem>
+<numlitem><para>Select BATTERY switch ON.</para></numlitem>
+<numlitem><para>Select STBY POWER switch to AUTO.</para>
+<note><para>Ensure flight controls are clear before applying hydraulic
+power.</para></note>
+</numlitem>
+<numlitem><para>Provide L Hydraulic System power.</para></numlitem>
+<numlitem><para>Make sure RUDDER RATIO is NOT displayed on upper EICAS.</para>
+</numlitem>
+<numlitem><para>WAIT FOR 20 SECONDS.</para></numlitem>
+<numlitem><para>Make sure RUDDER RATIO is NOT displayed on the maintenance
+page.</para></numlitem>
+<numlitem><para>Remove L Hydraulic System power.</para></numlitem>
+<numlitem><para>Do the check that follows:</para>
+<numlist>
+<numlitem><para>Move the EICAS select switch to L.  Make sure RUDDER
+RATIO is displayed on upper EICAS.</para></numlitem>
+<numlitem><para>Move the EICAS select switch to R.  Make sure RUDDER
+RATIO is displayed on upper EICAS.</para></numlitem>
+<numlitem><para>WAIT FOR 20 SECONDS.  Make sure RUDDER RATIO is NOT
+displayed on the maintenance page.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Provide L Hydraulic System power.</para></numlitem>
+<numlitem><para>Make sure RUDDER RATIO is NOT displayed on upper EICAS.</para>
+</numlitem>
+<numlitem><para>Return aircraft to normal configuration.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

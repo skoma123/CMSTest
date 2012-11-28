@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-5-2" key="UPS-MEL-757-3446010502FDK" revdate="20080924" revnbr="65"
+sectnbr="46">
+<title>Ground Proximity Warning System (GPWS) &ndash; Windshear Alert
+Mode (Reactive) (Mode 7)</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Alternate procedures are established and used, and</para>
+</numlitem>
+<numlitem><para>Windshear Detection and Avoidance System (Predictive)
+is operative.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-MEL-757-3446152OPSFDK">
+<numlist>
+<numlitem><para>Brief Manual Recovery From Inadvertent Windshear Encounter
+per AOM Chapter 4.</para></numlitem>
+<numlitem><para>Takeoffs and landings are not conducted in known or
+forecast windshear conditions.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-46152LIMFDK">
+<numlist>
+<numlitem><para>Takeoffs and landings are not conducted in known or
+forecast windshear conditions.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near EICAS "GPWS WINDSHEAR MODE INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

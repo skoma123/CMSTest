@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="52" chg="U" itemnbr="1" key="UPS-757-MEL-00001199" revdate="20090814" revnbr="66" sectnbr="71">
+<title>Door Indication System</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated door(s) is verified closed,
+latched, and locked before each departure.</para>
+</remarks>
+<operation key="UPS-757-MEL-00001200">
+<note><para>ACARS operation may be affected if door light not extinguished.
+ Complete Flight Data Coupon as described in FOM, Chapter 3.</para>
+</note>
+</operation>
+<placard>
+<para>Placard near EICAS "DOOR INDICATION INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+<para>Placard affected light (Pilot Overhead Panel) "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001201">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Visually check that all affected doors are closed and locked.</para>
+<para>Forward and aft lower cargo doors:</para>
+<numlist>
+<numlitem><para>Unload cargo as necessary to place an individual with
+a flashlight in the cargo bay to observe the cargo door closing.</para>
+</numlitem>
+<numlitem><para>Close door.</para></numlitem>
+<numlitem><para>The individual inside the bay will verify proper door
+closing. </para>
+<numlist>
+<numlitem><para>Latch cranks move to the latched position (see illustration). </para>
+</numlitem>
+<numlitem><para>Movable upper stops move into position behind the
+upper door frame stops (see illustration).</para></numlitem>
+<numlitem><para>Vent doors close (see illustration).</para></numlitem>
+<numlitem><para>All door stops align with frame stops.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Open cargo door (allow individual to exit).</para>
+</numlitem>
+<numlitem><para>Reload cargo as necessary.</para></numlitem>
+<numlitem><para>On all subsequent flights, perform the following:</para>
+<numlist>
+<numlitem><para>Verify door is faired with fuselage.</para></numlitem>
+<numlitem><para>Verify that door handles are in the proper faired/close
+position. </para></numlitem>
+<numlitem><para>Verify vent doors close.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<para>Crew entry door, forward equipment bay and E/C compartment doors:</para>
+<numlist>
+<numlitem><para>Close the door.</para></numlitem>
+<numlitem><para>Verify the door is faired with the fuselage.</para>
+</numlitem>
+<numlitem><para>Push on door to ensure it is properly closed and locked.</para>
+</numlitem>
+</numlist>
+<para>Main cargo door:</para>
+<note><para>A malfunction that causes a "Main Cargo Door" message
+will also not allow normal operation of ACARS "OOOI" functions.</para>
+</note>
+<numlist>
+<numlitem><para>If EICAS message "MAIN CARGO DOOR SYS" appears on
+EICAS display, perform the following to verify shutoff valve position:</para>
+<numlist>
+<numlitem><para>Pressurize the aircraft left hydraulic system and
+close the main cargo door, then remove the left hydraulic system pressure.</para>
+</numlitem>
+<numlitem><para>Gain access to the left main gear wheel well and locate
+the main cargo door pressure switch (S10518).</para></numlitem>
+<numlitem><para>Remove connector D7174 from the main cargo door pressure
+switch.</para></numlitem>
+<numlitem><para>Verify electrical continuity exists across pins 2
+and 3 on the pressure switch side of the main cargo door pressure
+switch (S10518).</para></numlitem>
+<numlitem><para>Pressurize the aircraft left hydraulic system.</para>
+</numlitem>
+<numlitem><para>Verify electrical continuity <emphasis role="bold"
+>remains</emphasis> across pins 2 and 3 of the main cargo door pressure
+switch (S10518).</para>
+<note><para>If electrical continuity no longer exists across pins
+2 and 3 of S10518 pressure switch after the left hydraulic system
+is pressurized, then DISPATCH is NOT allowed.</para></note>
+</numlitem>
+<numlitem><para>Reconnect D7174 to the S10518 pressure switch.</para>
+</numlitem>
+<numlitem><para>Ensure main cargo door is still closed and faired.</para>
+</numlitem>
+<numlitem><para>Ensure main cargo door pressure relief doors are closed.</para>
+</numlitem>
+<numlitem><para>Ensure four white flags are viewable through the main
+cargo door lock view ports.</para></numlitem>
+<numlitem><para>Remove aircraft left hydraulic system pressure.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If EICAS message "EICAS SCC" appears on EICAS display,
+perform the following:</para>
+<note><para><emphasis role="bold">Door operation will not be affected
+with either or both connectors removed in the pursuing steps. The
+"DOOR NOT LOCKED" light will not be illuminated with D41160P disconnected
+and the main cargo door not locked CLOSED.</emphasis></para></note>
+<numlist>
+<numlitem><para>Pressurize the aircraft left hydraulic system and
+close the main cargo door, then remove left hydraulic system pressure
+from the aircraft.</para></numlitem>
+<numlitem><para>Gain access to the left main gear wheel well and locate
+the main cargo door pressure switch S10518.</para></numlitem>
+<numlitem><para>Remove connector D7174 from the main cargo door pressure
+switch.</para></numlitem>
+<numlitem><para>If EICAS message "EICAS SCC" IS <emphasis role="bold"
+>NOT</emphasis> displayed, then cap, stow and secure D7174 for flight,
+go to step H.</para></numlitem>
+<numlitem><para>If EICAS message "EICAS SCC" is still displayed with
+D7174 disconnected, then locate and disconnect D41160P at upper middle
+area of the main cargo door.</para></numlitem>
+<numlitem><para>If EICAS message "EICAS SCC" is <emphasis role="bold"
+>NOT</emphasis> displayed, then cap, stow and secure D41160P for flight.</para>
+</numlitem>
+<numlitem><para>Reconnect connector D7174 at the S10518 pressure switch.</para>
+</numlitem>
+<numlitem><para>Ensure main cargo door is still closed and faired.</para>
+</numlitem>
+<numlitem><para>Ensure main cargo door pressure relief doors are closed.</para>
+</numlitem>
+<numlitem><para>Ensure four white flags are viewable through the main
+cargo door lock view ports.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="52" chg="U" key="UPS757DMPFIG5207" revdate="20080924"
+revnbr="65" sectnbr="71">
+<title>DOOR INDICATION SYSTEM</title>
+<sheet chg="U" gnbr="DMP_CH_52_Page_7" key="UPSDMP_CH_52_Page_7"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+<graphic chapnbr="52" chg="U" key="UPS757DMPFIG05207" revdate="20080924"
+revnbr="65" sectnbr="71">
+<title>MAIN CARGO DOOR</title>
+<sheet chg="U" gnbr="DMP_CH_52_Page_8" key="UPSDMP_CH_52_Page_8"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

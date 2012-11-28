@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000588" revdate="20100423" revnbr="68" sectnbr="62">
+<title>Flotation Equipment &ndash; Life Preserver </title>
+<dispcond btb="NO" category="D" maintenance="YES" nbrins="6" nbrreq="2"
+operation="NO">
+<remarks>
+<para>May be inoperative provided any unserviceable unit(s) in excess
+of those required by FAR are removed from the compartment.</para>
+</remarks>
+<limitation key="UPS-757-MEL-00000590">
+<numlist>
+<numlitem><para>For extended overwater flights at a horizontal distance
+of more than 50NM from the nearest shoreline, an approved life preserver
+or flotation means is required for each occupant.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near upper EICAS "LIFE PRESERVER INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000589">
+<numlist>
+<numlitem><para>Remove unserviceable unit from compartment.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000646" revdate="20091120" revnbr="67" sectnbr="18">
+<title>DUCT LEAK Detection Systems &ndash; Test Function </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided detection system is verified to
+be operative once each flight day.</para>
+</remarks>
+<placard>
+<para>Placard the DUCT LEAK TEST Switch (P61) "TEST INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000647">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Two procedures are available. Perform either Procedure One or
+Procedure Two.</para>
+<para><emphasis role="bold"><emphasis role="underline">PROCEDURE 1</emphasis
+></emphasis></para>
+<numlist>
+<numlitem><para>Ensure that the detection loop(s) operate normally
+by the following method.</para></numlitem>
+<numlitem><para>Use a heat source of approximately 260&deg;F to heat
+a section of the detector element (loops are accessible through the
+respective ECS bay). The required substitute test heat device must
+not produce heat greater than 450&deg;F (232&deg;C). This temperature
+limit should be observed in the event that fuel vapors exist in this
+area.</para></numlitem>
+</numlist>
+<para><emphasis role="bold"><emphasis role="underline">PROCEDURE 2</emphasis
+></emphasis></para>
+<numlist>
+<numlitem><para>Gain access to the Duct Leak and Wheel Well Fire Control
+Card M691 on the Electrical System Card File P50 in the Main Equipment
+Center. </para></numlitem>
+<numlitem><para>Momentarily press "MEM READ" pushbutton.</para>
+</numlitem>
+<numlitem><para>Record fault code (if any) until code 97 (memory read
+complete) appears.</para></numlitem>
+<numlitem><para>The following can be used to decipher the MEM READ
+two digit (XY) code.</para>
+<table>
+<tgroup cols="4">
+<colspec align="center" colname="col1" colsep="0" colwidth="29.56pt"/>
+<colspec align="left" colname="col2" colsep="1" colwidth="142.08pt"/>
+<colspec align="center" colname="col3" colsep="0" colwidth="32.03pt"/>
+<colspec align="left" colname="col4" colsep="0" colwidth="294.01pt"/>
+<tbody>
+<row>
+<entry align="left">
+<para>X</para>
+</entry>
+<entry align="left">
+<para>= 1 Left Wing Leading Edge</para>
+<para>= 2 Left A/C Pack Bay</para>
+<para>= 3 Wheel Well ECS</para>
+<para>= 4 Aft Cargo Section 46</para>
+<para>= 5 Aft Bulkhead Section 48</para>
+<para>= 6 Right Wing Leading Edge</para>
+<para>= 7 Right A/C Pack Bay</para>
+</entry>
+<entry>
+<para>Y</para>
+</entry>
+<entry align="left">
+<para>= 0 Short Loop A</para>
+<para>= 1 Short Loop B</para>
+<para>= 2 Open Loop A</para>
+<para>= 3 Open Loop B</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>The above XY codes indicate a defective element. Ensure
+at least one loop (A or B) is operative for each of the above (X)
+zones.</para></numlitem>
+<numlitem><para>XY codes other than those listed above require more
+maintenance. Consult Maintenance Manual/Fault Isolation procedures
+26-18-00.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

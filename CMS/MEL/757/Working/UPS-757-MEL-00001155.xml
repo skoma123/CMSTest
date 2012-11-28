@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-2" key="UPS-757-MEL-00001155" revdate="20090814" revnbr="66" sectnbr="15">
+<title>APU Air Intake Door Actuation System &ndash; Door Open</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative secured open provided:</para>
+<numlist>
+<numlitem><para>APU is operated continuously during flight, and</para>
+</numlitem>
+<numlitem><para>Appropriate AOM performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001156">
+<numlist>
+<numlitem><para>If APU air intake door is secured open, the APU must
+be operated continuously during flight, and the following performance
+corrections are applicable (Ref. B757 AAM).</para><para>Takeoff Weight
+Reduction - reduce Climb Limit Weight 500 lbs.</para>
+<para>Landing Weight Reduction - reduce Climb Limit Weight 700 Ibs.</para>
+<para>Method 1 or 2 Terrain Clearance Reduction &ndash; reduce 1500
+lbs.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00001158">
+<numlist>
+<numlitem><para>Takeoff Weight Reduction - 500 lbs to Climb Limit
+Weight. </para></numlitem>
+<numlitem><para>Landing Weight Reduction - 700 lbs to Approach Climb
+Limit Weight.</para></numlitem>
+<numlitem><para>Method 1 or 2 Terrain Clearance Reduction &ndash;
+1500 lbs.</para></numlitem>
+<numlitem><para>Add 370 lbs/hour MEL fuel usage for APU operation.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard APU Control Panel "INLET DOOR INOP OPEN" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001157">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS-757-MEL-00001154" reftype="DMP">49-15-1-1</refint>.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="49" chg="U" key="UPS757DMPFIG4902" revdate="20080924"
+revnbr="65" sectnbr="15">
+<title>APU INTAKE DOOR</title>
+<sheet chg="U" gnbr="DMP_CH_49_Page_2" key="UPSDMP_CH_49_Page_2"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

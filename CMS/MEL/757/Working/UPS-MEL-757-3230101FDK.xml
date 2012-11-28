@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPS-MEL-757-3230101FDK" revdate="20080924" revnbr="65" sectnbr="23">
+<title>Magnetic Compass (Standby) &ndash; Three Compass (IRS) Systems</title>
+<dispcond category="B" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided three IRS stabilized compass systems
+are operative.</para>
+</remarks>
+<operation key="UPS-MEL-757-34230101AOPS">
+<numlist>
+<numlitem><para>Operate aircraft with three normally operating IRS
+stabilized compass systems.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard face of compass located near P5 panel "INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

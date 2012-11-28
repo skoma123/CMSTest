@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1" key="UPS-757-MEL-1425475382" revdate="20090814" revnbr="66" sectnbr="51">
+<title>Rudder Pedal Nose Wheel Steering</title>
+<dispcond btb="YES" category="B" downgrade="CATEGORY 1/2/3a"
+maintenance="YES" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Approach minimums do not require its use, and</para>
+</numlitem>
+<numlitem><para>All takeoffs and landings are made by a pilot with
+access to an operating tiller.</para></numlitem>
+</numlist>
+<para><emphasis role="bold">CATEGORY 3b</emphasis></para>
+<para>Installed: 1</para>
+<para>Required: 1</para>
+<para>Must be operative.</para>
+</remarks>
+<operation key="UPS-757-OPS-012547265">
+<numlist>
+<numlitem><para>The Captain will make all takeoffs and landings and
+the following procedures shall be used.</para></numlitem>
+<numlitem><para>Takeoff: The Captain will steer the aircraft, manipulating
+the steering wheel control with his hand, until the rudder becomes
+effective (approximately 40 to 50 kts). The crewmember not flying
+should assist by keeping the wings level and a light forward pressure
+on the control column until the tiller is no longer required for steering.</para>
+</numlitem>
+<numlitem><para>Landing: The Captain should use the rudder and steering
+wheel control as required during the landing roll. The other crewmember
+should assist by keeping the wings level and a forward pressure on
+the control column.</para></numlitem>
+<numlitem><para>For Autoland conditions requiring LAND 3 ASA annunciation,
+rudder pedal nosewheel steering is required.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-LIM21547852">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+<numlitem><para>Captain performs all takeoffs and landings.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near each pilot&rsquo;s Airspeed Indicator "RUDDER PEDAL
+NWS INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757-DMP-0JDM547552356">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>Verify that rudder pedal interconnect mechanism failure
+will not jam other system controls:</para>
+<numlist>
+<numlitem><para>Visually inspect mechanism below flight compartment
+floor for broken or disconnected components.</para></numlitem>
+<numlitem><para>Displace rudder pedals full travel in both directions
+to ensure that pedals move freely.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Test tiller steering system as follows:</para>
+<numlist>
+<numlitem><para>Install downlocks for the nose and main landing gear.</para>
+</numlitem>
+<numlitem><para>Open the doors for the nose landing gear and install
+the door lock.</para></numlitem>
+<numlitem><para>Disconnect nose gear torque links and stow them to
+avoid any interference when the nose gear tiller is moved full left
+and right.</para></numlitem>
+<numlitem><para>Pressurize the left hydraulic system.</para></numlitem>
+<numlitem><para>Using Captain's tiller, operate steering through full
+left and right envelope and verify that no system binding occurs.</para>
+</numlitem>
+<numlitem><para>Depressurize the left hydraulic system.</para>
+</numlitem>
+<numlitem><para>Reconnect nose gear torque links.</para></numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

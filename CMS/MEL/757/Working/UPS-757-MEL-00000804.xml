@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2-0-2" key="UPS-757-MEL-00000804" revdate="20091120" revnbr="67" sectnbr="22">
+<title>CENTER TANK FUEL PUMPS</title>
+<dispcond attr-rev="NO" btb="YES" category="C" downgrade=""
+maintenance="YES" nbrins="2" nbrreq="0">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Center tank remains empty,</para></numlitem>
+<numlitem><para>Center tank is verified to be empty before each refueling,
+and</para></numlitem>
+<numlitem><para>Affected pumps are deactivated.</para></numlitem>
+</numlist>
+<note><para>Aircraft has Automatic Shut OFF system installed &ndash;
+(Restriction placard removed).</para></note>
+<note><para>BOTH pumps are INOP for this sequence.</para></note>
+</remarks>
+<placard>
+<para>Placard BOTH Center Fuel Pump Switches "PUMP INOP &ndash; C/B
+PULLED ON P6" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB757MELCDL20091112140550">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para>
+<numlist>
+<numlitem><para>To determine Center Tank Fuel quantity, observe the
+fuel quantity on the Fuel Quantity Indicator (P5) or the Fueling Control
+Panel (P28).</para>
+<note><para>Suction Defuel of Center Tank is not permitted.</para>
+</note>
+</numlitem>
+<numlitem><para>Open and collar both Center Tank OVRD pump C/B's on
+P6:</para></numlitem>
+</numlist>
+<para>L OVRD &ndash; P6F14</para>
+<para>R OVRD &ndash; P6F20</para>
+</note>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="6-2" key="UPS-757-MEL-00000202" revdate="20080924" revnbr="65" sectnbr="61">
+<title>COMPT TEMP INOP Lights</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="3" nbrreq="1"
+operation="NO">
+<remarks>
+<para>FWD and/or AFT light(s) may be inoperative provided associated
+trim air modulation valve(s) remains closed.</para>
+</remarks>
+<operation key="UPS757MELCDL20080528110101">
+<note><para>If flight deck (or affected compartment) temperature becomes
+too hot or too cold, select trim air OFF to achieve 75&deg;F control.</para>
+</note>
+</operation>
+<placard>
+<para>Placard respective Cabin Temp Selector "DO-NOT-OPERATE" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000203">
+<numlist>
+<numlitem><para>To close trim air modulation valve, accomplish Dispatch
+Maintenance Procedure <refint refid="UPS-757-MEL-00000190" reftype="DMP"
+>21-61-1-2.</refint></para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

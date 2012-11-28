@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="3" key="UPS-757-MEL-00000806" revdate="20080924" revnbr="65" sectnbr="22">
+<effect effrg="431475" efftext=""></effect>
+<title>Dual Fuel Crossfeed Valves</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Affected valve is secured closed,</para></numlitem>
+<numlitem><para>Remaining valve is operative, and</para></numlitem>
+<numlitem><para>For ER operations, remaining valve is exercised during
+the last hour of flight.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000807">
+<numlist>
+<numlitem><para>Verify remaining valve is operative.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected Crossfeed Valve Switch "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000808">
+<numlist>
+<numlitem><para>Open main gear doors and install door locks.</para>
+<warning><para>REFER TO MAINTENANCE MANUAL 32-00-15 FOR LOCK INSTALLATION
+PROCEDURE.  RAPID ACTION OF DOORS MAY CAUSE INJURY OR DAMAGE IF LOCKS
+ARE NOT PROPERLY INSTALLED.</para></warning>
+</numlitem>
+<numlitem><para>Gain access to affected valve actuator.  Aft valve
+is in left w/w aft spar.  Forward valve is in right w/w aft spar.
+ Just left and right of keel beem.</para></numlitem>
+<numlitem><para>Remove, cap, and stow electrical connector from affected
+valve actuator.</para></numlitem>
+<numlitem><para>Move manual override handle to the fully closed position
+and lockwire closed.</para></numlitem>
+<numlitem><para>Check operation of operable valve.</para></numlitem>
+<numlitem><para>Pull and collar affected valve C/B:</para><para>AFT
+- P11A20 </para>
+<para>FWD - P11A19</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

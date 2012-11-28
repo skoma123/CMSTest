@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="57" chg="U" key="UPS-757-MEL-00001529" qtyreq="28" revdate="20080924" revnbr="65" sectnbr="00">
+<title>VORTEX GENERATORS</title>
+<remarks>
+<para>One or two (non-adjacent) may be missing on each wing with no
+penalty. </para>
+<para>(SEE FIGURE 57-00-1)</para>
+</remarks>
+<graphic chapnbr="57" chg="U" confnbr="1" key="UPS757CDLFIG5701"
+revdate="20080924" revnbr="65" sectnbr="00">
+<title>VORTEX GENERATORS</title>
+<sheet chg="U" gnbr="CDL_CH_57_Page_1" key="UPSCDL_CH_57_Page_1"
+revdate="20080924" revnbr="65">
+<title>FIGURE 51-00-1</title>
+</sheet>
+</graphic>
+</cdlblk>

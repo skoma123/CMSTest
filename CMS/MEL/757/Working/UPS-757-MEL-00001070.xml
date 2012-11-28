@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="35" chg="U" itemnbr="1" key="UPS-757-MEL-00001070" revdate="20080924" revnbr="65" sectnbr="20">
+<title>PBE Smoke Hoods</title>
+<dispcond btb="NO" category="" maintenance="NO" nbrins="1" nbrreq="1"
+operation="NO">
+<remarks>
+<para>Must be operative.</para>
+</remarks>
+</dispcond>
+</item>

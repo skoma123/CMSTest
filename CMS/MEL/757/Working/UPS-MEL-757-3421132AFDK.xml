@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-3-2" key="UPS-MEL-757-3421132AFDK" revdate="20091120" revnbr="67" sectnbr="21">
+<title>Inertial Reference Systems (IRS) &ndash; IRS MODE SELECTOR
+PANEL &ndash; DISPLAY AND KEYBOARD FUNCTIONS</title>
+<dispcond category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>For non-ER operations, may be inoperative provided one FMCS
+CDU is operative.</para>
+</remarks>
+<placard>
+<para>Placard affected IRS Mode Selector "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

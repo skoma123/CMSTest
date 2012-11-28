@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000052" revdate="20090814" revnbr="66" sectnbr="32">
+<title>Positive Pressure Relief Valves &ndash; One Valve Inoperative </title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative closed.</para>
+</remarks>
+<placard>
+<para>Placard adjacent to CABIN ALTITUDE CONTROL "ONE POS PRESS RELIEF
+VALVE INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000053">
+<numlist>
+<numlitem><para>For one failed valve, press flapper doors closed until
+flush with fuselage.</para></numlitem>
+<numlitem><para>Disconnect and cap external static sense line from
+primary differential pressure control mechanism.</para></numlitem>
+<numlitem><para>Disconnect and cap integral static sense line from
+secondary differential pressure control mechanism.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1-1" key="UPS757MELCDL20080826153639" revdate="20090814" revnbr="66"
+sectnbr="25">
+<title>SAT Communication Systems &ndash; SATCOM Voice</title>
+<dispcond category="C" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS757MELCDL20080826153933">
+<numlist>
+<numlitem><para>For International Operations, the Captain will contact
+Flight Control to determine ATC and company VHF/HF communication requirements.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near the HF Control Panel "SATCOM VOICE INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

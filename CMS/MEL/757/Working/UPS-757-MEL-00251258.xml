@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="2-2" key="UPS-757-MEL-00251258" revdate="20091120" revnbr="67" sectnbr="21">
+<title>Electronic Engine Control (EEC) INOP Lights &ndash; (RB211)</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>Except for ER operations, may be inoperative provided both EECs
+are OFF.</para>
+</remarks>
+<operation key="UPS-757-OPS-0012458SA2">
+<numlist>
+<numlitem><para>With one Electronic Engine Control (EEC) system inoperative,
+plan flight with both EECs turned off to prevent unacceptable throttle
+stagger. With the EECs inoperative or turned off, there will be no
+Command Sector indication (see following illustration). Observe thrust
+limits.</para>
+<graphic chapnbr="73" chg="U" confnbr="2" key="UPS757DMPFIG07304"
+revdate="20080924" revnbr="65" sectnbr="21">
+<effect></effect>
+<sheet chg="U" gnbr="MEL_CH_73_Page_4" key="UPSMEL_CH_73_Page_4"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected EEC Control Switch "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-DMP-2145221547">
+<numlist>
+<numlitem><para>Place Left and Right Engine EEC Control Switches (Pilot&rsquo;s
+overhead panel) to the INOP position.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

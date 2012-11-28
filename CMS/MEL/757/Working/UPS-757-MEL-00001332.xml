@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="77" chg="U" itemnbr="2" key="UPS-757-MEL-00001332" revdate="20080924" revnbr="65" sectnbr="12">
+<title>N<sub>2</sub> Tachometer Systems (EICAS) (RB211)</title>
+<dispcond btb="NO" category="B" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One N<sub>2</sub> indication may be inoperative provided:</para>
+<numlist>
+<numlitem><para>N<sub>1</sub> and N<sub>3</sub> EICAS indications
+for associated engine are operative,</para></numlitem>
+<numlitem><para>N<sub>1</sub> STANDBY indications for associated engine
+are operative, and</para></numlitem>
+<numlitem><para>Fuel flow indications for associated engine are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near upper EICAS "L (R) N<sub>2</sub>  TACH INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="4" key="UPS-757-MEL-1245JDM47547" revdate="20080924" revnbr="65" sectnbr="44">
+<title>Brake Accumulator Pressure Gauge (Wing Fairing)</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated flight deck indication
+is operative. </para>
+</remarks>
+<placard>
+<para>Placard near EICAS "BRAKE ACCUMULATOR PRESSURE GAUGE (WING FAIRING)
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080611135216">
+<note><para>Use Flight Deck gauge.</para></note>
+</maintenance>
+</dispcond>
+</item>

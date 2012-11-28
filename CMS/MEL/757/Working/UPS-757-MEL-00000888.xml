@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000888" revdate="20080924" revnbr="65" sectnbr="32">
+<title>Pump OVHT Indication Systems Left, Center, and Right Pump OVHT
+Lights &ndash; Pump Operative </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="6" nbrreq="3"
+operation="YES">
+<remarks>
+<para>One in each hydraulic system may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated low SYS PRESS light or pump low PRESS light
+is operative, and</para></numlitem>
+<numlitem><para>Associated pump is verified to be operative before
+each departure.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS757MELCDL20080609115941">
+<note><para>During ground operation of the affected pump, to prevent
+Hydraulic Pump damage from overheat, do not operate pumps without
+a minimum of 600 lbs. of fuel in tanks.</para></note>
+<numlist>
+<numlitem><para>Ensure personnel are clear of flight controls.</para>
+</numlitem>
+<numlitem><para>Establish electrical power on the aircraft.</para>
+</numlitem>
+<numlitem><para>Before engine start and prior to selecting HYD pumps
+ON, verify associated low SYS PRESS or pump low PRESS light(s) illuminated.</para>
+</numlitem>
+<numlitem><para>On the Accessory Panel (P61), select the EICAS Maintenance
+Control Switch ELEC/HYD and observe the lower EICAS screen for HYD
+PRESS and TEMP.</para></numlitem>
+<numlitem><para>Select associated HYD pump ON using the following
+procedure(s):</para>
+<note><para>The pump being tested must be the only pump operating
+within the related hydraulic system at the time of the test.</para>
+</note>
+<para><emphasis role="underline">ENGINE DRIVEN PUMP (EDP)</emphasis
+></para>
+<note><para><emphasis role="bold">An active brake source is required
+when operating an engine.</emphasis></para></note>
+<para>-With affected engine running, press ENG pump switch ON.</para>
+<para><emphasis role="underline">ELEC HYD PUMP</emphasis></para>
+<para>-With electrical power on aircraft, press affected ELEC pump
+switch to ON.</para>
+</numlitem>
+<numlitem><para>Verify associated (Left, Center, Right) HYD PRESS
+reading on EICAS within 2800 to 3200 psig range.</para></numlitem>
+<numlitem><para>Verify associated (Left, Center, Right) HYD TEMP reading
+on EICAS is less than 80 degrees C.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected Hydraulic Pump OVHT light(s) on Hydraulic Control
+panel "INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000889"></maintenance>
+</dispcond>
+</item>

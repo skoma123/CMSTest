@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3-1-3" key="UPS-757-MEL-2232567142" revdate="20080924" revnbr="65" sectnbr="44">
+<title>PARKING BRAKE Lights &ndash; Park Brake Light &ndash; (Light
+INOP)</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided EICAS Advisory message PARKING BRAKE
+is verified to be operative. </para>
+</remarks>
+<operation key="UPS-757-OPS-0142JDM441578">
+<numlist>
+<numlitem><para>When parking brake is set, verify EICAS Advisory message
+PARKING BRAKE is displayed.</para></numlitem>
+<numlitem><para>When releasing parking brake:</para>
+<numlist>
+<numlitem><para>Check that ANTI-SKID light (P5 panel) is extinguished.</para>
+</numlitem>
+<numlitem><para>If ANTI-SKID light is illuminated, dispatch must be
+with anti-skid inoperative then comply with MEL <refint
+refid="UPS-757-MEL23654SA5874" reftype="MEL">32-42-1-0-1</refint>.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard park brake light on control stand "Light INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

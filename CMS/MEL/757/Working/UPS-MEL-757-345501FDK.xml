@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1" key="UPS-MEL-757-345501FDK" revdate="20090814" revnbr="66" sectnbr="55">
+<title>Distance Measuring Equipment Systems</title>
+<dispcond category="C" nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative:</para>
+<numlist>
+<numlitem><para><emphasis role="underline">Domestic</emphasis></para>
+<para> One required when operating in the 50 states and District of
+Columbia.</para>
+</numlitem>
+<numlitem><para><emphasis role="underline">International</emphasis
+></para><para>One required in airspace of foreign countries which
+require DME.</para>
+</numlitem>
+<numlitem><para>If both distance measuring equipment systems become
+inoperative en route, ATC must be notified as soon as it occurs.</para>
+</numlitem>
+<numlitem><para>RNP-10 airspace operations are not authorized for
+flights in excess of 12 hours <emphasis role="underline">after alignment</emphasis
+> without updating.</para></numlitem>
+<numlitem><para>BRNAV (RNP-5) airspace operations are not authorized
+for flights in excess of 2 hours <emphasis role="underline">after
+alignment</emphasis> without updating.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-MEL-757-345501OPSFDK">
+<note><para>At least one DME system is required for all flight operations
+in the 50 states and the District of Columbia.</para></note>
+</operation>
+<limitation key="UPS-MEL-757-345501LIMFDK">
+<numlist>
+<numlitem><para>FMS RNAV approaches prohibited.</para></numlitem>
+</numlist>
+<note><para>For operations to Central, South American and Mexico destinations
+ONLY, the flight may not depart outbound domestic gateways with inoperative
+Distance Measuring Equipment (DME), but may continue series of flights
+for repair interval specified in the Repair Int Category section.</para>
+</note>
+</limitation>
+<placard>
+<para>Placard near Left or Right RDMI "DME INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>
