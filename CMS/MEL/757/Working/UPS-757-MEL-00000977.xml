@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="2-2" key="UPS-757-MEL-00000977" revdate="20080924" revnbr="65" sectnbr="41">
+<title>Window Heat INOP Lights &ndash; Associated System Inoperative </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="4" nbrreq="1"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated window heat system is
+inoperative. </para>
+</remarks>
+<operation key="UPS-757-MEL-00000978">
+<note><para>Associated Window Heat Switch remains OFF.</para></note>
+</operation>
+<limitation key="UPS-757-MEL-00000980">
+<numlist>
+<numlitem><para>If L1 or R1 window is affected, operations into known
+or forecast icing conditions is prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard appropriate Window Heat Light (P5) "LIGHT INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

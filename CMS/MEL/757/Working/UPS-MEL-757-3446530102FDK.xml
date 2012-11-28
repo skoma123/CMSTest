@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-2" key="UPS-MEL-757-3446530102FDK" revdate="20080924" revnbr="65"
+sectnbr="53">
+<title>ATC Transponders and Automatic Altitude Reporting Systems</title>
+<dispcond category="C" nbrins="2" nbrreq="1">
+<remarks>
+<para>Any in excess of those required by FAR may be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard ATC Control Panel (M 10140) located on P8 panel if Left
+or Right ATC Transponders "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

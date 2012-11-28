@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="6-1" key="UPS-MEL-757-34226101FDK" revdate="20080924" revnbr="65" sectnbr="22">
+<title>EFIS Controls &ndash; Switches (NAV AID/ARPT/RTE DATA/WPT/WXR/TERR)</title>
+<dispcond category="C" nbrins="8" nbrreq="4">
+<remarks>
+<para>One switch for each function may be inoperative provided procedures
+do not require its use.</para>
+</remarks>
+<placard>
+<para>Placard affected switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

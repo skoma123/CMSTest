@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS-757-MEL-00000673" revdate="20080924" revnbr="65" sectnbr="03">
+<title>FLT CONTROL SHUTOFF Valves </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="3" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative open.</para>
+</remarks>
+<placard>
+<para>Placard appropriate switch "VALVE INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000674">
+<warning><para>ENSURE PERSONNEL AND EQUIPMENT ARE CLEAR OF <emphasis
+role="underline">ALL</emphasis>  CONTROL SURFACES TO PREVENT INJURY
+OR DAMAGE.</para></warning>
+<numlist>
+<numlitem><para>Verify valve(s) is open by pressurizing the appropriate
+hydraulic system and displacing the control column while observing
+elevator deflection on EICAS.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

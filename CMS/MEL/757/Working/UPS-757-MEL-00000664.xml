@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000664" revdate="20080924" revnbr="65" sectnbr="26">
+<title>Portable Fire Extinguisher - 13 lb. Halon Bottle </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Inoperative fire extinguisher is tagged inoperative,
+removed from the installed location, and placed out of sight so it
+can not be mistaken for a functional unit, and</para></numlitem>
+<numlitem><para>Required distribution is maintained.</para></numlitem>
+<numlitem><para>Main cargo deck remains empty.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPS-757-MEL-00000666">
+<numlist>
+<numlitem><para>Main deck cargo compartment remains empty.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to Fire Extinguisher Bracket "Main Deck Portable
+Fire Extinguisher INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000665">
+<numlist>
+<numlitem><para>Remove and stow fire extinguisher in a secure area.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

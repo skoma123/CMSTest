@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="46" chg="U" itemnbr="1-1-1" key="UPS757MELCDL20080617135134" revdate="20080924" revnbr="65"
+sectnbr="20">
+<title>ELECTRONIC FLIGHT BAG (EFB) SYSTEM &ndash; CLASS 3 EFB (BOEING)
+&ndash; ONE SYSTEM INOPERATIVE</title>
+<dispcond category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative.</para>
+<note><para>Any function, program or document which is operative may
+be used.</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080617135606">
+<numlist>
+<numlitem><para>The pilot with the inoperative EFB will use his or
+her paper manuals and charts in their flight kits or the ship's library.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to affected EFB Display Unit "___ EFB (<emphasis
+role="underline">functionality</emphasis>) INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080827135008">
+<numlist>
+<numlitem><para>Document specific inoperative function in Aircraft
+Logbook.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

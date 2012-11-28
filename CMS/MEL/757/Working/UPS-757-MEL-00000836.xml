@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-3-1" key="UPS-757-MEL-00000836" revdate="20080924" revnbr="65" sectnbr="41">
+<title>Fuel Tank Quantity Indication Systems (Flight Deck) &ndash;
+Fuel Quantity Densitometers &ndash; Honeywell</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="3" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated densitometer(s) is deactivated.</para>
+</remarks>
+<placard>
+<para>Placard affected Fuel Quantity Indication "L (C) (R) DENS INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000837">
+<numlist>
+<numlitem><para>Remove, cap, and stow affected densitometer connector.</para>
+</numlitem>
+</numlist>
+<table frame="none">
+<tgroup align="center" cols="2">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<thead>
+<row>
+<entry colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">N401-420UP</emphasis></para>
+</entry>
+<entry colsep="0" rowsep="0" valign="top">
+<para><emphasis role="underline">N421 and subsequent </emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>L - D2790</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>L - D6882</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>C - D2810</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>C - D6890</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para> R - D2616</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>R - D6886</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

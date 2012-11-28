@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="3-2" key="UPS-757-MEL-00000497" revdate="20080924" revnbr="65" sectnbr="27">
+<title>APU GEN OFF Light &ndash; Ground Use </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided APU generator is not required for
+flight.</para>
+</remarks>
+<operation key="UPS757MELCDL20080530102333">
+<note><para>Use of APU can not be planned, but if there is an IDG
+failure during flight it could be used. </para></note>
+</operation>
+<placard>
+<para>Placard APU Control Panel "APU INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

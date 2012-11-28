@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000108" revdate="20090814" revnbr="66" sectnbr="45">
+<title>Flight Crew Auxiliary Heat Systems &ndash; (Foot and Shoulder)</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="4" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided associated system is deactivated.</para>
+<note><para>Any portion which is operative may be used.</para></note>
+</remarks>
+<placard>
+<para>Placard as appropriate and enter item in Aircraft Deferred Item
+Log. </para>
+<para>"Foot Heater INOP" (HI/LOW).</para>
+<para>"Shoulder Heater INOP" (HI/LOW).</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000109">
+<numlist>
+<numlitem><para>Pull and collar the circuit breaker on (P34 or P37
+panels) for the associated inoperative heater.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

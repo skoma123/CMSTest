@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000855" revdate="20080924" revnbr="65" sectnbr="42">
+<title>Fuel Pump Low PRESS Lights &ndash; Operative Pump </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="6" nbrreq="3"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated EICAS message is verified
+to operate once each flight day.</para>
+</remarks>
+<placard>
+<para>Placard affected PRESS Light "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000856">
+<title>Fuel Pump Low Press Lights</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Verify Low PRESS Lights for wing MAIN tank boost pump(s). </para>
+<numlist>
+<numlitem><para>Verify associated EICAS message(s) for affected tank(s)
+fuel boost pump(s).</para>
+<numlist>
+<numlitem><para>Turn all tank fuel boost pumps to OFF.</para>
+<note><para>APU must be OFF to perform test.</para></note>
+</numlitem>
+<numlitem><para>Close fuel crossfeed valve.</para></numlitem>
+<numlitem><para>Verify the following messages are displayed on EICAS:</para>
+<numlist>
+<numlitem><para>L FUEL SYSTEM PRESS</para></numlitem>
+<numlitem><para>R FUEL SYSTEM PRESS</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Turn all wing main tank fuel boost pumps to ON.</para>
+<note><para>Ensure that tanks contain sufficient fuel to cover boost
+pumps.</para></note>
+</numlitem>
+<numlitem><para>Verify the following messages are not displayed on
+EICAS. </para>
+<numlist>
+<numlitem><para>L FUEL SYSTEM PRESS</para></numlitem>
+<numlitem><para>R FUEL SYSTEM PRESS</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For the operative fuel boost pumps, ensure the following
+messages are not displayed on EICAS:</para>
+<numlist>
+<numlitem><para>L FWD FUEL PUMP</para></numlitem>
+<numlitem><para>L AFT FUEL PUMP</para></numlitem>
+<numlitem><para>R FWD FUEL PUMP</para></numlitem>
+<numlitem><para>R AFT FUEL PUMP</para>
+<note><para>The message will remain displayed for any inoperative
+boost pump(s). </para></note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Open fuel crossfeed valve.</para></numlitem>
+<numlitem><para>Turn off pump(s) one at a time with inoperative light(s). </para>
+<numlist>
+<numlitem><para>Verify associated EICAS message is displayed for affected
+pump.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Restore system to normal as required.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify Low PRESS Light for center tank boost pumps.</para>
+<numlist>
+<numlitem><para>Verify associated EICAS message(s) for affected tank
+pump(s). </para>
+<numlist>
+<numlitem><para>Turn all tank fuel boost pumps to OFF.</para>
+<note><para>APU must be OFF to perform test.</para></note>
+</numlitem>
+<numlitem><para>Close fuel crossfeed valve.</para></numlitem>
+<numlitem><para>Verify the following messages are displayed on EICAS:</para>
+<numlist>
+<numlitem><para>L FUEL SYSTEM PRESS</para></numlitem>
+<numlitem><para>R FUEL SYSTEM PRESS</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Simulate engines running by one of the following methods: </para>
+<numlist>
+<numlitem><para>Fully open the fueling door.</para>
+<numlist>
+<numlitem><para>Fueling panel is lit.</para>
+<warning><para>OBSERVE AMM PRECAUTIONS BEFORE ACTIVATING SPEED CARDS.</para>
+</warning>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Activate both engine speed cards.</para>
+<numlist>
+<numlitem><para>Aircraft N401UP-N435UP:  AMM 77-12-01-5.</para>
+</numlitem>
+<numlitem><para>Aircraft N436UP-N475UP:  AMM 77-12-03-5.</para>
+<note><para>Operating both engines can replace engine run-up simulation.</para>
+</note>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Turn all wing main and center tank boost pumps to
+ON.</para>
+<note><para>Ensure that tanks contain sufficient fuel to cover boost
+pumps.</para></note>
+</numlitem>
+<numlitem><para>Verify the following messages are not displayed on
+EICAS. </para>
+<numlist>
+<numlitem><para>L FUEL SYSTEM PRESS</para></numlitem>
+<numlitem><para>R FUEL SYSTEM PRESS</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For the operative fuel boost pumps, ensure the following
+messages are not displayed on EICAS:</para>
+<numlist>
+<numlitem><para>L FWD FUEL PUMP</para></numlitem>
+<numlitem><para>L AFT FUEL PUMP</para></numlitem>
+<numlitem><para>R FWD FUEL PUMP</para></numlitem>
+<numlitem><para>R AFT FUEL PUMP</para></numlitem>
+<numlitem><para>CTR L FUEL PUMP</para></numlitem>
+<numlitem><para>CTR R FUEL PUMP</para>
+<note><para>The message will remain displayed for any inoperative
+boost pump(s). </para></note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Turn OFF center tank pump(s) one at a time with inoperative
+light(s).</para>
+<numlist>
+<numlitem><para>Verify associated EICAS message is displayed for affected
+pump.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Restore aircraft to normal configuration.</para>
+<numlist>
+<numlitem><para>Turn off fuel boost pumps.</para></numlitem>
+<numlitem><para>Close refueling door, if opened.</para></numlitem>
+<numlitem><para>Remove engine speed card simulators, if activated.</para>
+</numlitem>
+<numlitem><para>Position crossfeed valve switch, as required.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

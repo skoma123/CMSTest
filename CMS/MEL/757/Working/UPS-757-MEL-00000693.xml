@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS-757-MEL-00000693" revdate="20080924" revnbr="65" sectnbr="08">
+<title>Control Surface Position Indicating System </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided a visual flight control check is
+accomplished before each departure.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "(SPECIFIC CONTROL SURFACE INDICATION) INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000694">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<warning><para>ENSURE ALL PERSONNEL AND EQUIPMENT ARE CLEAR OF ALL
+CONTROL SURFACES TO PREVENT INJURY OR DAMAGE.</para></warning>
+<numlist>
+<numlitem><para>Establish communications between the flight deck and
+a ground observer.</para></numlitem>
+<numlitem><para>Pressurize all hydraulic systems (Engine and/or Electric
+Hydraulic Pumps running).</para></numlitem>
+</numlist>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<thead>
+<row>
+<entry valign="top">
+<para>FLIGHT DECK</para>
+</entry>
+<entry valign="top">
+<para>GROUND OBSERVATION</para>
+</entry>
+<entry valign="top">
+<para>NOTES</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<para>Control Wheel Full Left</para>
+</entry>
+<entry align="left">
+<numlist>
+<numlitem><para>Observe that five left wing spoilers extend</para>
+</numlitem>
+<numlitem><para>Observe left aileron up, right aileron down</para>
+</numlitem>
+</numlist>
+</entry>
+<entry align="left">
+<para>Spoilers 1,2,3, and 5 will extend approximately 45 degrees.
+Spoiler 6 will extend approximately 30 degrees. Spoiler 4 will not
+extend. </para>
+<para></para>
+<para>Ailerons move up 20 degrees and down 20 degrees.</para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>Control Wheel Full Right</para>
+</entry>
+<entry align="left">
+<numlist>
+<numlitem><para>Observe that five right wing spoilers extend (as above)</para>
+</numlitem>
+<numlitem><para>Observe right aileron up, left aileron down (as above)</para>
+</numlitem>
+</numlist>
+</entry>
+<entry align="left"></entry>
+</row>
+<row>
+<entry align="left">
+<para>Control Column Full Aft, then Full Forward</para>
+</entry>
+<entry align="left">
+<para>Observe both elevators up, then down</para>
+</entry>
+<entry align="left">
+<para>Elevator deflection will be trailing edge approximately 30 degrees
+up and 20 degrees down.</para>
+</entry>
+</row>
+<row>
+<entry align="left">
+<para>Push Pedals for Full Left Rudder, then Full Right Rudder</para>
+</entry>
+<entry align="left">
+<para>Observe rudder move left, then right</para>
+</entry>
+<entry align="left">
+<para>Hold the nose wheel steering tiller stationary during rudder
+check to prevent nose wheel movement.</para>
+<para></para>
+<para>Rudder deflection will be approximately 30 degrees left or right.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

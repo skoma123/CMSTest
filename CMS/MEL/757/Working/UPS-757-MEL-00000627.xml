@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-1-1" key="UPS-757-MEL-00000627" revdate="20090814" revnbr="66" sectnbr="16">
+<title>Lower Cargo Compartment Fire Detection Systems (Fwd and Aft)
+Detectors &ndash;Configurations Without -136 or Later AFOLTS Card
+(M10427 in P-54 Card File)  </title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="NO"
+nbrins="4" nbrreq="2" operation="YES">
+<remarks>
+<para>One in each compartment may be inoperative provided remaining
+detector is verified to be operative before each departure.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000628">
+<numlist>
+<numlitem><para>Press ENG/APU/CARGO FIRE/OVHT TEST Switch.</para>
+</numlitem>
+<numlitem><para>Ensure affected system FWD and AFT CARGO FIRE WARNING
+Lights illuminate, FWD and AFT CARGO FIRE message displays on top
+EICAS, and red FIRE Light illuminates on Discreet Warning Panel.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard adjacent to affected CARGO FIRE Light "FWD OR AFT CARGO
+- ONE SMOKE DET INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

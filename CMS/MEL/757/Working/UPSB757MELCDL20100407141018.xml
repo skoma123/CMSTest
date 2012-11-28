@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="1-2-1" key="UPSB757MELCDL20100407141018" revdate="20100423" revnbr="68"
+sectnbr="21">
+<!--Per Bill Bombatch's e-mail 3/29/10-->
+<title>ELECTRONIC ENGINE CONTROL (EEC) SYSTEMS &ndash; PW CONTROL
+CHANNELS &ndash; THRUST REVERSER DEACTIVATED</title>
+<dispcond attr-rev="NO" btb="YES" category="B" maintenance="YES"
+nbrins="4" nbrreq="3" operation="YES">
+<remarks>
+<para>Except for ER operations, one control channel may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Associated thrust reverser is verified to be operative
+or is deactivated, and </para></numlitem>
+<numlitem><para>Appropriate AOM performance adjustments are applied.
+(See Limitations/Performance Penalties.)</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPSB757MELCDL20100407141511">
+<para>P &amp; W Engines:</para>
+<numlist>
+<numlitem><para>Max thrust takeoff only.</para></numlitem>
+<numlitem><para>Use of autothrottle not permitted. (Disarm autothrottle.)</para>
+</numlitem>
+<numlitem><para>Use Limitations/Performance Penalties as required.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPSB757MELCDL20100407141734">
+<para>P &amp; W Engines:</para>
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+<numlitem><para>No dispatch with two or more engine controls advisory
+messages displayed.</para></numlitem>
+<numlitem><para>No dispatch with any reverser message displayed for
+operative reverser.</para></numlitem>
+<numlitem><para>Max thrust takeoff only.</para></numlitem>
+<numlitem><para>Use of autothrottle not permitted.</para></numlitem>
+<numlitem><para>Takeoff weight penalty:</para>
+<numlist>
+<numlitem><para>If runway is OBST (obstacle) limited, determine max
+allowable takeoff weight using Derate 2 Airport Analysis page.</para>
+<note><para>Takeoff must be accomplished using max takeoff thrust.</para>
+</note>
+</numlitem>
+<numlitem><para>If runway is OBST limited and an OCA exists, reduce
+max allowable takeoff weight by 9,400 lbs.</para></numlitem>
+<numlitem><para>If runway is not OBST limited and no OCA exists, reduce
+max allowable takeoff weight as shown below for the published runway
+performance limit:</para><para>TIRE: -2,400 lbs.</para>
+<para>VMBE: -2,400 lbs.</para>
+<para>RNWY: -2,400 lbs.</para>
+<para>CLB: -5,600 lbs.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Method 1/Method 2 Terrain Clearance weight penalty:
+Reduce one engine inoperative terrain clearance weight by 8,600 lbs.</para>
+</numlitem>
+<numlitem><para>Landing weight penalty: Reduce climb limit weight
+for landing by 6,000 lbs.</para></numlitem>
+<numlitem><para>Takeoff thrust is limited to 5 minute duration.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Electronic Engine Control (EEC) system(s) "INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB757MELCDL20100407142710">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS-757-MEL-00001222" reftype="DMP">73-21-1-2</refint>.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

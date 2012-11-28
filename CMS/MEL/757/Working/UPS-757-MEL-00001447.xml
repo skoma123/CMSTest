@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="27" chg="U" key="UPS-757-MEL-00001447" qtyreq="6" revdate="20080924" revnbr="65" sectnbr="51">
+<title>FLAP TRACK FAIRING</title>
+<remarks>
+<para>One per side may be missing.  The performance limited weights
+are reduced by:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="1.09*"/>
+<colspec colname="COLSPEC3" colwidth="0.55*"/>
+<colspec colname="col2" colwidth="1.36*"/>
+<tbody>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry align="right" colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>1620 lbs/side</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>En route Climb:</para>
+</entry>
+<entry align="right" colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>2407 lbs/side </para>
+</entry>
+</row>
+<row>
+<entry align="center" colsep="0" nameend="col2" namest="col1" rowsep="0">
+<para>(Fuel burn increase 1.7%)/missing side (SEE FIGURE 27-51-1)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</remarks>
+<note><para>Only one flap track fairing or gear trunnion fairing (32-12-2)
+per side may be missing.</para></note>
+<note><para>If the front section is removed, then also remove the
+middle and aft sections.  If the middle section is removed, then remove
+the aft section also.  The aft section may be removed alone.</para>
+</note>
+</cdlblk>

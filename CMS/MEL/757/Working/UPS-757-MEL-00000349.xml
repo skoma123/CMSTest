@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000349" revdate="20080924" revnbr="65" sectnbr="30">
+<title>Go-Around Switches &ndash; One Switch Inoperative </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Approach minimums do not require its use, and</para>
+</numlitem>
+<numlitem><para>Remaining Go-Around switch is verified to be operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard G/A Switch "INOP" and enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+<maintenance key="UPS-757-MEL-00000350">
+<numlist>
+<numlitem><para>Verify that the operative G/A Switch commands both
+the A/P and Autothrottle go around mode by performing MCDP ground
+test #13 (SW G/A). Reference FIM 22-00-03/113.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

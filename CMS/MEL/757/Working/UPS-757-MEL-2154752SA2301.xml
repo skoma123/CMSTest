@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3-1" key="UPS-757-MEL-2154752SA2301" revdate="20090814" revnbr="66" sectnbr="42">
+<title>ANTI-SKID Light &ndash; Anti-skid System Operative</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided anti-skid system is verified to
+be operative. </para>
+</remarks>
+<placard>
+<para>Placard light "LIGHT INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS757-DMP-104SA215475">
+<para>If ANTI-SKID light on P5 is inoperative, determine that the
+anti-skid system is operative as follows:</para>
+<numlist>
+<numlitem><para>With electrical power on aircraft and wheels chocked,
+release parking brake and check that the parking brake valve is full
+open (see illustration). </para>
+<warning><para>INSTALL DOOR LOCKS BEFORE ENTERING WHEEL WELL (REF.
+MAINTENANCE MANUAL 32-00-15).  RAPID ACTION OF DOORS MAY INJURE PERSONNEL
+OR DAMAGE EQUIPMENT IF LOCKS ARE NOT PROPERLY INSTALLED.</para>
+</warning>
+<numlist>
+<numlitem><para>Gain access to valve, located on forward bulkhead
+of right main gear wheel well.</para></numlitem>
+<numlitem><para>Check that the manual override handle on valve is
+at POS 1 (full open).</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>On the anti-skid/autobrake control unit in the E5-2
+rack, perform the following:</para>
+<numlist>
+<numlitem><para>Press the BIT switch to check for the absence of faults
+until the unit display reads TEST END.</para></numlitem>
+<numlitem><para>Confirm that no faults are displayed.</para></numlitem>
+<numlitem><para>Press the RESET switch to clear memory.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="32" chg="U" confnbr="3-1" key="UPS757DMPFIG3209"
+revdate="20080924" revnbr="65" sectnbr="42">
+<title>PARKING BRAKE VALVE MOTOR INSTALLATION</title>
+<sheet chg="U" gnbr="DMP_CH_32_Page_9" key="UPSDMP_CH_32_Page_9"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

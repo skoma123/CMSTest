@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="4-1" chapnbr="78" chg="U" key="UPS-757-MEL-00001590" qtyreq="4" revdate="20080924" revnbr="65" sectnbr="31">
+<title>(RR) THRUST REVERSER SLEEVE ASSEMBLY SEAL (Bull Nose Seal)</title>
+<remarks>
+<para>Up to 20% of the seal may be missing from each reverser half.
+There is no performance penalty.</para>
+<para>(SEE FIGURE 78-31-4-1)</para>
+</remarks>
+<graphic chapnbr="78" chg="U" confnbr="5" key="UPS757CDLFIG"
+revdate="20080924" revnbr="65" sectnbr="31">
+<title>THRUST REVERSER SLEEVE ASSEMBLY SEAL (BULL NOSE SEAL) (RR ENGINE)</title>
+<sheet chg="U" gnbr="CDL_CH_78_Page_5" key="UPSCDL_CH_78_Page_5"
+revdate="20080924" revnbr="65">
+<title>FIGURE 78-31-4-1</title>
+</sheet>
+</graphic>
+</cdlblk>

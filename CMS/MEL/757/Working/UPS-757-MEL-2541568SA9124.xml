@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3-2" key="UPS-757-MEL-2541568SA9124" revdate="20100423" revnbr="68" sectnbr="42">
+<title>ANTI-SKID Light &ndash; Anti-skid System Inoperative</title>
+<dispcond attr-rev="NO" btb="YES" category="C"
+downgrade="CATEGORY 1/2/3a" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided AOM decrements are applied for anti-skid
+inoperative operations.</para>
+<note><para>Dispatch is not allowed with a brake deactivated and the
+anti-skid system inoperative.</para></note>
+<para><emphasis role="bold">CATEGORY 3b</emphasis></para>
+<para>Installed: 1</para>
+<para>Required: 1</para>
+<para>Must be operative.</para>
+</remarks>
+<!--Per Bill Bombatch's e-mail 3/29/10-->
+<operation key="PS-757-MEL-OPS21JDM54625">
+<para><emphasis role="underline">PRE-TAKEOFF PERFORMANCE CALCULATIONS:</emphasis
+></para>
+<numlist>
+<numlitem><para>Use Takeoff Runway Limit Worksheet/Anti-Skid Inoperative
+Procedures, respective to engine type, in Chapter 5.1 of the AOM.</para>
+</numlitem>
+<numlitem><para>Autobrakes will not be available. Do not select RTO.</para>
+</numlitem>
+<numlitem><para>Use the whole runway for stopping consistent with
+conditions.</para></numlitem>
+<numlitem><para>When stopping after landing and for rejected takeoffs,
+utilize reverse thrust to the maximum extent possible and raise speedbrakes.</para>
+</numlitem>
+<numlitem><para>Initiate wheel braking using very light pedal pressure
+and increase as ground speed decreases. Exercise greater caution during
+light weight landings, normal brake pressure may lock wheels.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-0214JDM4754147">
+<note><para>Must be operative for dispatch into LPB, UIO, BOG, GUA,
+TGU.</para></note>
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+<numlitem><para>V<sub>1</sub> Reduction and comparison to V<sub>MCG</sub
+> required (see AOM Chapter 5.1).</para></numlitem>
+<numlitem><para>Apply Airport Analysis Anti-Skid Inoperative weight
+correction.</para></numlitem>
+<numlitem><para>Landing Weight Reduction &ndash; see destination airport
+landing chart for Max Landing Weight with Anti-Skid System inoperative.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near ANTI-SKID light "ANTI-SKID INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757DMP-12451JDM254555">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>Accomplish DMP <refint refid="UPS757DMP-451254SAJDM85476"
+reftype="DMP">32-42-1-0-1</refint> Maintenance Procedure.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

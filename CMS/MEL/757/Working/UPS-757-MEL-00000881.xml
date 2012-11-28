@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000881" revdate="20080924" revnbr="65" sectnbr="31">
+<title>Pump Low PRESS Indication Systems &ndash; Left Pump Indication
+Systems &ndash; Pump Operative </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated low SYS PRESS Light is operative, and</para>
+</numlitem>
+<numlitem><para>Associated pump is verified to be operative before
+each departure. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000882">
+<numlist>
+<numlitem><para>Select operable HYD Pumps ON and verify SYS PRESS
+Lights extinguished before each flight.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected Hydraulic Pump Low PRESS light(s) on Hydraulic
+Control panel "INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000883">
+<title>Pump Low Press Lights</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<note><para>THE FOLLOWING PROCEDURE MUST BE ACCOMPLISHED PRIOR TO <emphasis
+role="underline"> EACH</emphasis> FLIGHT.</para></note>
+<para>Check affected pump operation as follows:</para>
+<caution><para>TO PREVENT HYDRAULIC FLUID OVERHEAT, DO NOT OPERATE
+PUMPS WITHOUT MINIMUM QUANTITIES OF FUEL IN TANKS.  (600 GALLONS/4020
+POUNDS IN EACH MAIN TANK.</para></caution>
+<note><para>EDP = Engine Driven Pump; EMP = Electric Motor Pump</para>
+</note>
+<numlist>
+<numlitem><para>Right engine driven pump:</para>
+<numlist>
+<numlitem><para>Ensure personnel are clear of flight controls.</para>
+</numlitem>
+<numlitem><para>With right engine running, select R System EDP ON
+and EMP OFF.</para></numlitem>
+<numlitem><para>HYD PRESS reading EICAS must be 2850 to 3150 psig.</para>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+<note><para>When running the right engine EDP, the PTU will come on
+pressurizing the FLAP/SLAT and LANDING GEAR circuits.  The PTU can
+be deactivated by pulling circuit breakers D31 on panel P11 before
+engine start.</para></note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Left engine driven pump and PTU control logic verification: </para>
+<note><para>The PTU portion of the L EDP Low PRESS Switch must be
+operative for dispatch.</para></note>
+<numlist>
+<numlitem><para>With the flaps in the up position, select left and
+right engines off.</para></numlitem>
+<numlitem><para>Ensure PTU circuit breaker (11D31) is closed.</para>
+</numlitem>
+<numlitem><para>Select right system pumps on (EMP and EDP).</para>
+</numlitem>
+<numlitem><para>Select left system EDP on and EMP off.</para></numlitem>
+<numlitem><para>Start right engine.</para></numlitem>
+<numlitem><para>Verify left system pressure on EICAS is &ge; 2850
+psi.</para></numlitem>
+<numlitem><para>Start left engine.</para></numlitem>
+<numlitem><para>Verify left system pressure on EICAS is &ge; 2850
+psi. </para></numlitem>
+<numlitem><para>Pull PTU circuit breaker (11D31) to remove power from
+PTU control valve.</para></numlitem>
+<numlitem><para>Select left EDP off.</para></numlitem>
+<numlitem><para>Select flaps 1.</para></numlitem>
+<numlitem><para>Verify left system pressure on EICAS is &le; 1500
+psi.  TE FLAP DISAGREE on EICAS occurs.</para></numlitem>
+<numlitem><para>Turn left system EDP on and select flaps up.</para>
+</numlitem>
+<numlitem><para>Verify left system pressure on EICAS is &ge; 2850
+psi. </para></numlitem>
+<numlitem><para>Arm and disarm alternate flaps to clear EICAS TE FLAP
+DISAGREE. </para></numlitem>
+<numlitem><para>Reset PTU circuit breaker (11D31).</para></numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Alternating current motor pump:</para>
+<numlist>
+<numlitem><para>Ensure that personnel are clear of flight controls.</para>
+</numlitem>
+<numlitem><para>With electrical power on aircraft, press affected
+HYD PUMPS ELEC Switch to ON.</para></numlitem>
+<numlitem><para>HYD PRESS reading on EICAS must be 2850 to 3150 psig.</para>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+<note><para>The pump being tested must be the only pump operating
+within the related hydraulic system at the time of the test.  This
+test may be accomplished by the flight crew in coordination with AMC.</para>
+</note>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

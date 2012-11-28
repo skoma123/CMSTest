@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="33" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001036" revdate="20080924" revnbr="65" sectnbr="43">
+<title>Position Lights (Bulbs) &ndash; Night Operations </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="8" nbrreq="4"
+operation="NO">
+<remarks>
+<para>One stationary light on the forward and aft tip of each wing
+may be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard next to Anti-Collision and Landing lights on control
+panel M56 denoting which light(s) "INOP" and enter item in Aircraft
+Deferred Item Log. </para>
+</placard>
+</dispcond>
+</item>

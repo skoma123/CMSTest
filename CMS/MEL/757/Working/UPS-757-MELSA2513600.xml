@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="2-2" key="UPS-757-MELSA2513600" revdate="20080924" revnbr="65" sectnbr="41">
+<title>BRAKE SOURCE Indication System</title>
+<dispcond btb="NO" category="B" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided: </para>
+<numlist>
+<numlitem><para>L and R hydraulic low SYS PRESS lights are operative,
+and</para></numlitem>
+<numlitem><para>Normal and alternate brake systems and brake accumulator
+are verified to be operative. </para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard Brake Source light "LIGHT INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MELJDM2510871">
+<title>Brake Source Light</title>
+<para>Check that normal and alternate hydraulic brake systems, and
+brake accumulator are operational:</para>
+<numlist>
+<numlitem><para>Check that landing gear ground lock pins are installed
+(Ref. Maintenance Manual 32-00-20) and wheels are adequately chocked.</para>
+</numlitem>
+<numlitem><para>Release parking brakes by depressing both Captain's
+or First Officer's brake pedals to the stops and releasing.</para>
+</numlitem>
+<numlitem><para>Pressurize the right hydraulic system with one electric
+pump, observe R SYS PRESS light is not illuminated.</para></numlitem>
+<numlitem><para>Depress and release both Captain's or First Officer's
+brake pedals seven times minimum.  Brake pressure gauges should dip
+momentarily (2000 to 2500 psi) at each brake application.</para>
+<note><para>Both brake pedals should be depressed and released at
+the same time.  Pause a minimum of five seconds after each brake application
+before the next application.</para></note>
+</numlitem>
+<numlitem><para>Check that BRAKE PRESS pressure gauge on First Officer's
+main instrument panel P3 indicates 2850 to 3500 psig.</para></numlitem>
+<numlitem><para>Pressurize the left hydraulic system with one electric
+pump, observe L SYS PRESS light is not illuminated.</para></numlitem>
+<numlitem><para>Depressurize the right hydraulic system, observe R
+SYS PRESS light illuminates.</para></numlitem>
+<numlitem><para>Depress and release both Captain's or First Officer's
+brake pedals seven times minimum.  Observe that brake pressure gauge
+does not dip with brake application.</para></numlitem>
+<numlitem><para>Check the BRAKE PRESS pressure gauge on P3 panel indicates
+2850 to 3500 psig.</para></numlitem>
+<numlitem><para>Depressurize the left hydraulic system.</para>
+</numlitem>
+<numlitem><para>Depress and release both Captain's or First Officer's
+brake pedals seven times minimum.</para></numlitem>
+<numlitem><para>Check that BRAKE PRESS pressure gauge on P3 panel
+indicates a lower value each time the brakes are applied.  Final pressure
+should be about 1150 - 1500 psig.</para></numlitem>
+<numlitem><para>Ensure brake accumulator is correctly serviced.</para>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

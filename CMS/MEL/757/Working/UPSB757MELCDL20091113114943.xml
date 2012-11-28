@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-6" key="UPSB757MELCDL20091113114943" revdate="20091120" revnbr="67"
+sectnbr="58">
+<title>AUTOMATIC DEPENDENT SURVEILLANCE-BROADCAST (ADS-B) SYSTEM &ndash;
+ADS-B APPLICATIONS</title>
+<dispcond attr-rev="NO" category="D" downgrade="" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard ADS-B Applications "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

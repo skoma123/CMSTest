@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="9" key="UPS-757-MEL-00001241" revdate="20100423" revnbr="68" sectnbr="21">
+<title>ENG Limiter Control (ELC) Systems (RB211)</title>
+<dispcond btb="NO" category="B" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>N<sub>1</sub>, N<sub>2</sub>, N<sub>3</sub>, and Fuel
+Flow indications on the associated engine are operative,</para>
+</numlitem>
+<numlitem><para>Associated engine Starter Switch Holding/Cutout Systems
+are verified to be operative, and</para></numlitem>
+<numlitem><para>Electronic Engine Control (EEC) Systems are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001242">
+<numlist>
+<!--Per C.R.#4364 Tom Gorman 2/15/10-->
+<numlitem><para>N<sub>1</sub>  on the affected engine will not be
+automatically limited.  Deactivate limiter on affected engine.</para>
+</numlitem>
+<numlitem><para>Observe engine limitations. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected ENG Limiter Control Switch "INOP" and enter
+item in Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001243">
+<numlist>
+<numlitem><para>Select affected ENG Limiter Switch to OFF.</para>
+</numlitem>
+<numlitem><para>Verify engine starter switch holding/cutout systems
+are operative by observing automatic starter cutout at 47% N<sub>3</sub
+>.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

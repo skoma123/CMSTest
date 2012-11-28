@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="2-1-3" key="UPS-757-MEL-00000550" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Flight Deck First Observer&rsquo;s Seat (Including Associated
+Equipment) </title>
+<dispcond btb="NO" category="A" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Required minimum safety equipment (safety belt and
+oxygen) is available,</para></numlitem>
+<numlitem><para>Seat is acceptable to an FAA inspector for performance
+of official duties, and</para></numlitem>
+<numlitem><para>Repairs are made within two flight days.</para>
+</numlitem>
+</numlist>
+<note><para>These provisos are intended to provide for occupancy of
+above seats by an FAA inspector when minimum safety equipment (oxygen
+and safety belt) is functional and inspector determines conditions
+to be acceptable. </para></note>
+<note><para>The Pilot-in-Command will determine if minimum safety
+equipment is functional for other persons authorized to occupy any
+observer seat(s). </para></note>
+</remarks>
+<placard>
+<para>Placard Seat "INOP" and enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+</dispcond>
+</item>

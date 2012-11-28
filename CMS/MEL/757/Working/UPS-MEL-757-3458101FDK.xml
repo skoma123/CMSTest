@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-0-1" key="UPS-MEL-757-3458101FDK" revdate="20091120" revnbr="67" sectnbr="58">
+<title>Automatic Dependent Surveillance-Broadcast (ADS-B) System &ndash;
+(STC ST01103SE)</title>
+<dispcond category="D" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided it is not required by 14 CFR.</para>
+<note><para>If ADS-B is installed in lieu of or as a replacement for
+14 CFR required equipment, repair category in operator's MEL will
+be the same as that of 14 CFR required equipment. </para></note>
+</remarks>
+<placard>
+<para>Placard ADS-B "INOP" and enter item in Aircraft Deferred Item
+Log. </para>
+</placard>
+</dispcond>
+</item>

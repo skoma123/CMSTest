@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="79" chg="U" itemnbr="1" key="UPS-757-MEL-00001363" revdate="20080924" revnbr="65" sectnbr="31">
+<title>OIL QTY Indications </title>
+<dispcond btb="YES" category="B" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Oil tank is filled to recommended capacity before
+each departure,</para></numlitem>
+<numlitem><para>There is no evidence of above normal oil consumption
+or leakage, </para></numlitem>
+<numlitem><para>Associated ENG OIL PRESS and OIL TEMP indications
+are operative, and </para></numlitem>
+<numlitem><para>Associated low ENG OIL PRESS light is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near EICAS "L (R) OIL QTY INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001364">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Fill affected engine oil tank, inspect engine exterior
+for signs of leakage.</para></numlitem>
+</numlist>
+<note><para>Oil consumption averaging greater than one U.S. quart
+per hour of flight should be questioned.</para></note>
+</maintenance>
+</dispcond>
+</item>

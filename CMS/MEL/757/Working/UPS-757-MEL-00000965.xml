@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000965" revdate="20091120" revnbr="67" sectnbr="41">
+<title>Flight Deck Window Heat Systems &ndash; No. 1 (fwd) Windows </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, one may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions, </para></numlitem>
+<numlitem><para>Both No. 2 (side) window heaters are operative,</para>
+</numlitem>
+<numlitem><para>Associated windshield pneumatic anti-fog system is
+operative, and</para></numlitem>
+<numlitem><para>Associated window heat is deactivated.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000966">
+<numlist>
+<numlitem><para>Observe EICAS advisory message "L(R) FWD WINDOW".</para>
+</numlitem>
+<numlitem><para>Operate Window Heat switches normally.</para></numlitem>
+</numlist>
+<note><para>No flight in known or forecast icing conditions.</para>
+</note>
+</operation>
+<limitation key="UPS-757-MEL-00000968">
+<numlist>
+<numlitem><para>Operations in known or forecast icing conditions prohibited. </para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Window Heat System panel "(<emphasis role="underline"
+>location</emphasis>) WINDOW HEAT INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000967">
+<numlist>
+<numlitem><para>Open and collar affected window heat power C/B:</para>
+<para> L1 - P31A5</para>
+<para>R1 - P37J2</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

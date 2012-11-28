@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="6-1" key="UPS-757-MEL-00000298" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Switch Lights &ndash; Autopilot Engage Switch
+Lights (CMD)  </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="3" nbrreq="2"
+operation="YES">
+<remarks>
+<para>One may be inoperative.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000299">
+<numlist>
+<numlitem><para>Verify autopilot engagement using EADI Flight Mode
+Annunciations. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Autopilot Engage switch light "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="79" chg="U" itemnbr="2" key="UPS-757-MEL-00001369" revdate="20080924" revnbr="65" sectnbr="34">
+<title>ENG OIL TEMP Sensing Elements</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="4" nbrreq="2"
+operation="YES">
+<remarks>
+<para>One sensing element on each engine may be inoperative provided
+both engine oil temperature indications are available from one EICAS
+computer.</para>
+</remarks>
+<operation key="UPS-757-MEL-00001370">
+<numlist>
+<numlitem><para>Manually select left and/or right EICAS computer to
+regain oil temperature indication.  If oil temperature indication
+returns, leave EICAS computer at selected position.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near EICAS "L (R) OIL TEMP ONE ELEMENT INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

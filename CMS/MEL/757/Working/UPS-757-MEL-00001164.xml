@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1" key="UPS-757-MEL-00001164" revdate="20080924" revnbr="65" sectnbr="70">
+<title>APU FAULT Light</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard near APU Master Switch on APU Control Panel (M1) on
+panel P5 "APU FAULT LIGHT INOP" and enter item in Aircraft Deferred
+Item Log.  </para>
+</placard>
+</dispcond>
+</item>

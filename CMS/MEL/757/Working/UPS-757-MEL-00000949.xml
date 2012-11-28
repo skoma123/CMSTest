@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="5-0-1" key="UPS-757-MEL-00000949" revdate="20091120" revnbr="67" sectnbr="31">
+<title>CAPT PITOT and F/O PITOT HEAT Indicating Systems (Heater OFF
+Monitor) </title>
+<dispcond btb="NO" category="B" maintenance="NO" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Pitot heater systems are operative,</para></numlitem>
+<numlitem><para>Remaining probe heater indicating systems for operative
+probe heaters are operative, and</para></numlitem>
+<numlitem><para>Aircraft is not operated into known or forecast icing
+conditions. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000950">
+<note><para>No flight in known or forecast icing conditions.</para>
+</note>
+</operation>
+<limitation key="UPS-757-MEL-00000952">
+<numlist>
+<numlitem><para>Operations in known or forecast icing conditions prohibited. </para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near EICAS "CAPT (F/O) PITOT HEATER OFF INDICATION INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

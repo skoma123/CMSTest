@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="3-1-1" key="UPS-757-MELSA3244030240" revdate="20090814" revnbr="66" sectnbr="44">
+<title>PARKING BRAKE LIGHTS &ndash; Park Brake Light &ndash; Anti-skid
+Operative</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Parking brake valve is operative, and</para></numlitem>
+<numlitem><para>Anti-skid light is verified to be operative once each
+flight day. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-012JDM2145">
+<numlist>
+<numlitem><para>When releasing parking brakes, verify that anti-skid
+indicator light on P5 panel extinguishes.</para></numlitem>
+<numlitem><para>If the anti-skid light remains illuminated, the flight
+may be dispatched with the anti-skid system inoperative. See MEL item <refint
+refid="UPS-757-MEL-2221457411" reftype="MEL">32-44-3-1-2</refint>. </para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard PARK BRAKE Light on control stand "LIGHT INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001001">
+<title> Park Brake Light</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<note><para>PARK BRAKE indicator light may be inoperative continuously
+extinguished or continuously illuminated.</para></note>
+<numlist>
+<numlitem><para>Check that parking brake valve operates normally:</para>
+<numlist>
+<numlitem><para>Check that wheels are chocked.</para></numlitem>
+<numlitem><para>Provide electrical power.</para></numlitem>
+<numlitem><para>Provide right hydraulic system pressure.</para>
+</numlitem>
+<numlitem><para>Close PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Close IND LTS 1 circuit breaker (11P1).</para>
+<warning><para>DOOR LOCKS MUST BE PROPERLY INSTALLED PRIOR TO ACCESS
+TO PARKING BRAKE VALVE (REF. MAINTENANCE MANUAL 32-00-15).  RAPID
+ACTION OF DOORS MAY INJURE PERSONNEL OR DAMAGE EQUIPMENT IF LOCKS
+ARE NOT PROPERLY INSTALLED. </para></warning>
+</numlitem>
+<numlitem><para>Gain access to valve, located on forward bulkhead
+of right main gear wheel well.</para></numlitem>
+<numlitem><para>Set parking brakes and verify that valve visual position
+indicator is at POS 2 (closed).</para></numlitem>
+<numlitem><para>Release parking brake and verify that valve visual
+position indicator moves to POS 1 (open).</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If PARK BRAKE indicator light is continuously illuminated,
+proceed to Step 3.</para><para>If PARK BRAKE indicator light is continuously
+extinguished, check that ANTI-SKID indicator light monitor of parking
+brake valve is operational by performing the following:</para>
+<numlist>
+<numlitem><para>Set Parking brakes.</para></numlitem>
+<numlitem><para>If ANTI-SKID indicator light on P5 illuminates, perform
+the following:</para>
+<numlist>
+<numlitem><para>Open PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Verify the ANTI-SKID indicator light extinguishes.</para>
+</numlitem>
+<numlitem><para>Close PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Verify that ANTI-SKID light illuminates after approximately
+3 second delay.</para></numlitem>
+<numlitem><para>Position and hold CONFIG TEST switch on the accessory
+panel, panel P61, to T/O.</para></numlitem>
+<numlitem><para>Verify that PARKING BRAKE takeoff warning message
+is displayed in EICAS.</para></numlitem>
+<numlitem><para>Release parking brakes.</para></numlitem>
+<numlitem><para>Verify that PARKING BRAKE takeoff warning message
+extinguished. </para></numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light extinguishes.</para>
+</numlitem>
+<numlitem><para>Release CONFIG TEST switch.</para></numlitem>
+<numlitem><para>Proceed to Step 4.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If ANTI-SKID indicator on P5 does not illuminate,
+perform the following:</para>
+<numlist>
+<numlitem><para>Open PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light is illuminated.</para>
+</numlitem>
+<numlitem><para>Close PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light extinguishes.</para>
+</numlitem>
+<numlitem><para>Position and hold CONFIG TEST switch on the accessory
+panel, panel P61, to T/O.</para></numlitem>
+<numlitem><para>Verify that PARKING BRAKE takeoff warning message
+is displayed on EICAS.</para></numlitem>
+<numlitem><para>Release parking brakes.</para></numlitem>
+<numlitem><para>Verify that PARKING BRAKE takeoff warning message
+extinguishes. </para></numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light is extinguished.</para>
+</numlitem>
+<numlitem><para>Release CONFIG TEST switch.</para></numlitem>
+<numlitem><para>Proceed to Step 4.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If PARK BRAKE indicator light is continuously illuminated,
+perform the following:</para>
+<numlist>
+<numlitem><para>Set parking brake.</para></numlitem>
+<numlitem><para>Open PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light is illuminated.</para>
+</numlitem>
+<numlitem><para>Close PARKING BRAKE VLV circuit breaker (6F4).</para>
+</numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light extinguishes.</para>
+</numlitem>
+<numlitem><para>Position and hold CONFIG TEST switch on the accessory
+panel, panel P61, to T/O.</para></numlitem>
+<numlitem><para>Verify that PARKING BRAKE takeoff warning message
+is displayed on EICAS.</para></numlitem>
+<numlitem><para>Release parking brake.</para></numlitem>
+<numlitem><para>Verify that PARKING BRAKE takeoff warning message
+extinguishes. </para></numlitem>
+<numlitem><para>Verify that ANTI-SKID indicator light is extinguished.</para>
+</numlitem>
+<numlitem><para>Release CONFIG TEST switch.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

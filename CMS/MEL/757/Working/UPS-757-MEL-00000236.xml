@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="2" key="UPS-757-MEL-00000236" revdate="20080924" revnbr="65" sectnbr="11">
+<title>A/P DISC Light</title>
+<dispcond btb="NO" category="C" downgrade="CATEGORY 1" maintenance="NO"
+nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Autopilots are not used below 1,500 feet AGL, and</para>
+</numlitem>
+<numlitem><para>All other A/P disengagement alerts are operative.</para>
+</numlitem>
+</numlist>
+<para><emphasis role="bold">CATEGORY 2/3a/3b</emphasis></para>
+<para>Installed: 1</para>
+<para>Required: 1</para>
+<para>Must be operative.</para>
+</remarks>
+<operation key="UPS757MELCDL20080529102438">
+<note><para>Do not use Autopilot(s) below 1,500 feet AGL.</para></note>
+</operation>
+<limitation key="upddmplimfdk000713">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+1.</para></numlitem>
+<numlitem><para>Two operative flight directors required to fly charted
+ILS CAT 1 minimums below RVR 4000 or 3/4 mile visibility.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard A/P DISC warning light "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000238">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="158.50pt"/>
+<colspec colname="col3" colwidth="159.31pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000406" revdate="20080924" revnbr="65" sectnbr="21">
+<title>Selective Call System (SELCAL) &ndash; ACARS Operative </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided ACARS is operative.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000407">
+<numlist>
+<numlitem><para>Monitor ACARS for messages.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard SELCAL "INOP" and enter item in Aircraft Deferred Item
+Log. </para>
+</placard>
+</dispcond>
+</item>

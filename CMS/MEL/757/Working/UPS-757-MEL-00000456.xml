@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="5-2-0-1" key="UPS-757-MEL-00000456" revdate="20080924" revnbr="65" sectnbr="51">
+<title>Flight Crew Communication Equipment &ndash; Hand Microphones </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative or missing provided associated boom microphone
+is operative.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "Microphone INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000457">
+<numlist>
+<numlitem><para>Disconnect faulty microphone from jack.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

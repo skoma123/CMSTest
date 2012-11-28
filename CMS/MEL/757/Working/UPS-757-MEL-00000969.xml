@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000969" revdate="20080924" revnbr="65" sectnbr="41">
+<title>Flight Deck Window Heat Systems &ndash; No. 2 (side) Windows </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both No. 1 (fwd) window heaters are operative, and</para>
+</numlitem>
+<numlitem><para>Associated window heat is deactivated.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000970">
+<numlist>
+<numlitem><para>Observe EICAS advisory message "L(R) SIDE WINDOW".</para>
+</numlitem>
+<numlitem><para>Operate Window Heat switches normally.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Window Heat System panel "(<emphasis role="underline"
+>location</emphasis>) WINDOW HEAT INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000971">
+<numlist>
+<numlitem><para>Turn affected side Window Heat Switch ON.</para>
+</numlitem>
+<numlitem><para>Touch affected side windows to confirm if side Window
+Heat #2 and/or #3 are inoperative.</para></numlitem>
+<numlitem><para>If #2 side Window Heat is inoperative, pull and collar
+affected side window power circuit breaker:</para><para>L2 - P37E3</para>
+<para>R2 - P34AA6</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000750" revdate="20080924" revnbr="65" sectnbr="61">
+<title>Spoiler Systems &ndash; Ground Spoilers </title>
+<dispcond btb="YES" category="C" downgrade="CATEGORY 1" maintenance="YES"
+nbrins="2" nbrreq="0" operation="YES">
+<remarks>
+<para>One symmetrical pair may be inoperative in down position provided: </para>
+<numlist>
+<numlitem><para>All flight spoilers are verified to be operative once
+each flight day,</para></numlitem>
+<numlitem><para>Anti-skid system is operative,</para></numlitem>
+<numlitem><para>Flaps 1 takeoff operation is prohibited, and</para>
+</numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000751">
+<numlist>
+<numlitem><para>Observe LIMITATIONS/PERFORMANCE PENALTIES.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited. </para>
+</numlitem>
+</numlist>
+<note><para>SPOILER amber light on the overhead panel will be illuminated
+and the SPOILER message on EICAS will be displayed.</para></note>
+</operation>
+<limitation key="UPS-757-MEL-00000SA003">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+1.</para></numlitem>
+<numlitem><para>Takeoff Weight Reduction - 3,200 lbs. to Runway Limit
+Weight. </para></numlitem>
+<numlitem><para>Landing Weight Reduction - see the destination airport
+analysis for Max Landing Weight with Manual Spoilers.</para></numlitem>
+<numlitem><para>Minimum field length is 6,000 ft.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+<numlitem><para>Anti-skid system must be operative.</para></numlitem>
+<numlitem><para>Flap 1 operations for takeoff not authorized.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near EICAS "SPOILERS NO&rsquo;s X and Y INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000752">
+<title>Spoiler Systems</title>
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.01*"/>
+<colspec colname="col3" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para>INOP POSITION</para>
+</entry>
+<entry>
+<para>NUMBER INOP</para>
+</entry>
+<entry>
+<para>A/C STATUS DISPATCH</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>2</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<note><para>This relief does not apply if spoiler panel is detached
+from the actuator and could float up or is not in the retracted position.</para>
+</note>
+<warning><para>TO PREVENT INJURY OR DAMAGE, CLEAR PERSONNEL AND EQUIPMENT
+FROM CONTROL SURFACES BEFORE PROVIDING HYDRAULIC POWER.  KEEP AREA
+CLEAR WHEN OPERATING CONTROL SURFACES.</para></warning>
+<numlist>
+<numlitem><para>Ensure that all operative spoilers operate correctly
+(no more than one spoiler pair inoperative) once each flight day:</para>
+<numlist>
+<numlitem><para>Turn the control wheel full counterclockwise (left).
+ Observe that operative left wing spoilers extend.</para>
+<note><para>Spoilers 1, 2, 3 and 5 will extend approximately 45 degrees.
+ Spoiler 6 will extend approximately 30 degrees (panel 4 will not
+extend).</para></note>
+</numlitem>
+<numlitem><para>Turn the control wheel full clockwise (right).  Observe
+that operative right wing spoilers extend.</para>
+<note><para>Spoilers 8, 10, 11 and 12 will extend approximately 45
+degrees.  Spoiler 7 will extend approximately 30 degrees (panel 9
+will not extend).</para></note>
+</numlitem>
+<numlitem><para>Place speed brake lever in the UP position.  Ensure
+that all operative spoilers are operative (panels 1, 2, 3, 5, 8, 10,
+11, and 12 will extend approximately 45 degrees; panels 6 and 7 will
+extend approximately 30 degrees; panels 4 and 9 will extend approximately
+55 degrees).</para></numlitem>
+<numlitem><para>Ensure that the inoperative spoiler pair remain down.
+ If the inoperative spoiler pair rise, perform step 2 to deactivate
+the inoperative pair.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>To disable a spoiler pair and secure it in the retracted
+position, do the procedure that follows:</para>
+<warning><para>ACCIDENTAL SPOILER MOVEMENT CAN CAUSE INJURY TO PERSONS
+AND DAMAGE TO EQUIPMENT.</para></warning>
+<numlist>
+<numlitem><para>Fully extend trailing edge flaps.</para></numlitem>
+<numlitem><para>Remove power from the left, right and center hydraulic
+systems (Ref. MM 29-11-00/201).</para>
+<warning><para>ENSURE THAT HYDRAULIC POWER WILL NOT BE SUPPLIED TO
+THE PCA DURING MAINTENANCE.  THE SPOILER PANEL WILL RETRACT IMMEDIATELY
+AND CAN CAUSE INJURY TO PERSONS AND DAMAGE TO EQUIPMENT.</para>
+</warning>
+</numlitem>
+<numlitem><para>With a 5/32 inch Allen wrench, operate the manual
+release cam on the bottom of the PCA pairs to be disabled and manually
+move the spoiler panels to the up position.  Return manual release
+cam to normal position. </para></numlitem>
+<numlitem><para>Disconnect the electrical connector from the PCA,
+cap and stow the connectors for flight.</para></numlitem>
+<numlitem><para>Manually move the spoiler panel to a position slightly
+above the neutral position.</para>
+<warning><para>MAKE SURE THAT ALL PERSONS AND EQUIPMENT ARE AWAY FROM
+THE CONTROL SURFACES BEFORE HYDRAULIC POWER IS SUPPLIED.  STAY AWAY
+FROM THE AREA DURING THEIR OPERATION.</para></warning>
+</numlitem>
+<numlitem><para>Pressurize the left, center and right hydraulic systems
+(Ref. MM 29-11-00/201).</para></numlitem>
+<numlitem><para>Make sure that the deactivated spoiler panels return
+to their neutral positions and are held in this position by their
+PCA's.</para></numlitem>
+<numlitem><para>Turn the control wheel full counterclockwise (left).
+ Ensure that the operative left wing spoilers extend.</para>
+<note><para>Spoilers 1, 2, 3, and 5 will extend approximately 45 degrees.
+ Spoiler number 6 will extend approximately 30 degrees (panel 4 will
+not extend).</para></note>
+</numlitem>
+<numlitem><para>Turn the control wheel full clockwise (right).  Ensure
+that the operative right wing spoilers extend.</para>
+<note><para>Spoilers 8, 10, 11, and 12 will extend approximately 45
+degrees.  Spoiler number 7 will extend approximately 30 degrees (panel
+9 will not extend).</para></note>
+</numlitem>
+<numlitem><para>Place speed brake lever in the UP position.  Ensure
+that all operative spoilers are operative (panels 1, 2, 3, 5, 8, 10,
+11, and 12 will extend approximately 45 degrees; panels 6 and 7 will
+extend approximately 30 degrees; panels 4 and 9 will extend approximately
+55 degrees.</para></numlitem>
+<numlitem><para>Ensure that the inoperative spoiler pair remain down
+and do not move.  If the inoperative panel pair is not secured in
+the down position, dispatch is not allowed.</para></numlitem>
+<numlitem><para>Return flaps to normal.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="27" chg="U" confnbr="1" key="UPS757DMPFIG0305"
+revdate="20080924" revnbr="65" sectnbr="61">
+<sheet chg="U" gnbr="DMP_CH_27_Page_8" key="UPSDMP_CH_27_Page_8"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

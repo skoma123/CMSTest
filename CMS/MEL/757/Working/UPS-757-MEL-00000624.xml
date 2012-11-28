@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000624" revdate="20091120" revnbr="67" sectnbr="16">
+<title>Lower Cargo Compartment Fire Detection Systems (Fwd and Aft)</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided procedures are established and used
+to ensure associated compartment remains empty.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000625">
+<numlist>
+<numlitem><para>Ensure the Load Supervisor or authorized personnel
+has signed the load manifest. This signature indicates that the load
+planning system has accounted for any aircraft load restriction resulting
+from the inoperative equipment and that the aircraft has been loaded
+in accordance with all UPS weight and balance limitations.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near EICAS "FWD OR AFT CARGO FIRE DET INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000626">
+<numlist>
+<numlitem><para>When forward cargo compartment is to be voided ensure
+all contents are removed from the PFM Box. Include the statement "PFM
+Box verified empty" in the deferral statement.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

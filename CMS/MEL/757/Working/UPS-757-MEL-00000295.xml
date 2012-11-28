@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="5-3" key="UPS-757-MEL-00000295" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Windows &ndash; Vertical Speed (VERT SPD) </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided Vertical Speed mode is not selected.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000296">
+<numlist>
+<numlitem><para>If V/S mode is inoperative, do not select V/S mode.
+Another pitch mode may be selected when desired.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Vertical Speed window "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

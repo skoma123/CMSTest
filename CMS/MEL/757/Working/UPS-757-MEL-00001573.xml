@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="2-1" chapnbr="78" chg="U" key="UPS-757-MEL-00001573" qtyreq="24" revdate="20100423" revnbr="68" sectnbr="31">
+<title>(RR)&#9;THRUST REVERSER BLOCKER DOOR </title>
+<remarks>
+<para>One or two may be missing from each reverser half of one engine,
+provided the thrust reverser for that engine is deactivated (refer
+to MEL <refint refid="UPS_MEL_JDM412154SA783101" reftype="MEL">78-31-1-1</refint
+>) and the performance limited weights are reduced by:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="left" colname="col1" colwidth="1.34*"/>
+<colspec align="right" colname="COLSPEC0" colwidth="0.82*"/>
+<colspec align="left" colname="COLSPEC2" colwidth="2.32*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>150 lbs/door</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>100 lbs/door</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<!--Per C.R.#4280 Bill Bombatch 11/20/09 & #4298 Rebecca Keating 12/16/09-->
+<note><para>Affected Thrust Reverser must be deferred per MEL <refint
+refid="UPS_MEL_JDM412154SA783101" reftype="MEL">78-31-1-1</refint
+>.</para></note>
+<para>Any combination of the authorized numbers of items (CDL <refint
+>78-31-1-1</refint>, <refint>78-31-1-2</refint>, <refint>78-31-2-1</refint
+>, <refint>78-31-2-2</refint>) may be missing.</para>
+<para>(SEE FIGURE 78-31-2-1 (RR))</para>
+</remarks>
+</cdlblk>

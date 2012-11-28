@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="2" key="UPS-757-MEL-00000824" revdate="20090814" revnbr="66" sectnbr="40">
+<title>SPAR VALVE Lights</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="2" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided spar valve is verified to be operative
+once each flight day.</para>
+</remarks>
+<placard>
+<para>Placard affected light "LIGHT INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000825">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>Operation of the Spar Valve can be verified without gaining
+access to the valve as follows:</para>
+<numlist>
+<numlitem><para>Start affected engine(s) per standard procedures.</para>
+</numlitem>
+<numlitem><para>Open applicable FUEL COND CONTROL circuit breaker
+(left 6C1, right 6C2) on panel P6.</para></numlitem>
+<numlitem><para>Move FUEL CONTROL switch on control stand to CUTOFF
+position. </para></numlitem>
+<numlitem><para>Engine shutdown indicates proper operation of the
+Spar Valve.  (Shutdown should occur in approximately 40 sec.)</para>
+</numlitem>
+<numlitem><para>Close previously opened FUEL CONTROL circuit breaker
+on P6 panel.</para></numlitem>
+</numlist>
+<para>Spar Valve check without running engine:</para>
+<warning><para>REFER TO MAINTENANCE MANUAL 32-00-15 FOR LOCK INSTALLATION
+PROCEDURE.  RAPID ACTION OF DOORS MAY CAUSE INJURY OR DAMAGE IF LOCKS
+ARE NOT PROPERLY INSTALLED.</para></warning>
+<numlist>
+<numlitem><para>Open applicable left or right main gear door and install
+door lock.</para></numlitem>
+<numlitem><para>Deactivate the flaps and slats:</para>
+<numlist>
+<numlitem><para>Depressurize right and center hydraulic systems.</para>
+</numlitem>
+<numlitem><para>Open ALT TE FLAPS circuit breaker (6D23) on main power
+distribution panel P6 to deactivate secondary power source to flaps.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Gain access to the applicable spar valve.</para>
+<numlist>
+<numlitem><para>For left engine spar valve, open access door 551BB.</para>
+</numlitem>
+<numlitem><para>For right engine spar valve, open access door 651BB.</para>
+<para>(Ref. Maintenance Manual 6-44-00.)</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Open applicable FUEL COND CONTROL circuit breaker
+(left 6C1, right 6C2) on panel P6.</para></numlitem>
+<numlitem><para>With ground observer viewing, move the fuel control
+switch to the RUN position.  Verify movement of the manual override
+lever.</para></numlitem>
+<numlitem><para>Repeat several times to verify proper valve operation.</para>
+</numlitem>
+<numlitem><para>Restore aircraft to required configuration.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="28" chg="U" key="UPS757DMPFIG2806" revdate="20080924"
+revnbr="65" sectnbr="40">
+<title>ENGINE FUEL SHUTOFF VALVE</title>
+<sheet chg="U" gnbr="DMP_CH_28_Page_6" key="UPSDMP_CH_28_Page_6"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

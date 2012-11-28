@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="4-3" key="UPS-757-MELSA0032420300" revdate="20080924" revnbr="65" sectnbr="42">
+<title>Autobrake System &ndash; Module Deactivated</title>
+<dispcond btb="NO" category="C" downgrade="CATEGORY 1/2/3a"
+maintenance="YES" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative with AUTO BRAKES light illuminated and autobrake
+switch OFF provided:</para>
+<numlist>
+<numlitem><para>Module is deactivated in accordance with an accepted
+procedure, and</para></numlitem>
+<numlitem><para>Approach minimums do not require its use.</para>
+</numlitem>
+</numlist>
+<para><emphasis role="bold">CATEGORY 3b</emphasis></para>
+<para>Installed: 1</para>
+<para>Required: 1</para>
+<para>Must be operative.</para>
+</remarks>
+<limitation key="UPS-757-MEL-0214JDM2420222">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard the Autobrake Selector panel "SYSTEM INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MELSA00324203012">
+<title>Module Deactivated</title>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>Depressurize the RIGHT and LEFT hydraulic systems.</para>
+</numlitem>
+<numlitem><para>Depressurize the RIGHT hydraulic system reservoir
+(ref. MM 29-11-00).</para></numlitem>
+<numlitem><para>Pump the brake pedals until the brake accumulator
+pressure gage on the First Officer's panel will reduce no further
+(approximately 1300 psi).</para></numlitem>
+<numlitem><para>Open the following circuit breakers on the overhead
+circuit breaker panel P11 and attach DO-NOT-CLOSE identifiers:</para>
+<numlist>
+<numlitem><para>11S14, AUTOBRK ANTI-SKID TEST IND1</para></numlitem>
+<numlitem><para>11S21, AUTOBRK ANTI-SKID TEST IND2</para></numlitem>
+</numlist>
+<warning><para>DOOR LOCKS MUST BE PROPERLY INSTALLED PRIOR TO ACCESS
+TO AUTOBRAKE MODULE (REF. MM 32-00-15).  RAPID ACTION OF DOORS MAY
+INJURE PERSONNEL OR DAMAGE EQUIPMENT IF LOCKS ARE NOT PROPERLY INSTALLED.</para>
+</warning>
+</numlitem>
+<numlitem><para>Locate the autobrake valve module located in the left
+main gear wheel well on the forward bulkhead.</para></numlitem>
+<numlitem><para>Remove, cap, and stow four electrical connectors D2668,
+D2670, D2672 and D2674.</para>
+<note><para>The autobrake valve module may be deactivated and left
+in place, or it can be removed.  Interconnection between the BRAKE
+and RETURN lines, either through the valve or interconnect tube, is
+required to prevent leaks.</para></note>
+</numlitem>
+<numlitem><para>Perform step A, or step B.</para>
+<numlist>
+<numlitem><para>To disable the autobrake valve module in place:</para>
+<numlist>
+<numlitem><para>Disconnect and plug system PRESSURE hydraulic line
+at module (ref. MM 32-42-09) with a #8 MS plug (steel or CRES material
+only).</para></numlitem>
+<numlitem><para>Cap the valve PRESSURE port with a #8 MS cap (steel
+or CRES material only).</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>To remove the autobrake valve module:</para>
+<numlist>
+<numlitem><para>Remove the autobrake valve module (ref. MM 32-42-09).</para>
+</numlitem>
+<numlitem><para>Plug the system PRESSURE hydraulic line with a #8
+MS plug (steel or CRES material only) (ref. MM 32-42-09).</para>
+</numlitem>
+<numlitem><para>Interconnect the BRAKE and RETURN lines with a suitable
+section of tubing or flexible hose (ref. MM 20-10-09).</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove DO-NOT-CLOSE identifiers and close the following
+circuit breakers on the P11 panel:</para>
+<numlist>
+<numlitem><para>11S14, AUTOBRK ANTI-SKID TEST IND1</para></numlitem>
+<numlitem><para>11S21, AUTOBRK ANTI-SKID TEST IND2</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Restore right hydraulic system power (Ref. Maintenance
+Manual 29-11-00), and check for leaks.</para></numlitem>
+<numlitem><para>Restore the aircraft to its normal configuration.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="32" chg="U" key="UPS757DMPFIG32110" revdate="20080924"
+revnbr="65" sectnbr="42">
+<title>AUTOBRAKE MODULE</title>
+<sheet chg="U" gnbr="DMP_CH_32_Page_11" key="UPSDMP_CH_32_Page_11"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

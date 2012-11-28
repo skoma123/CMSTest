@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="1-2-2" key="UPS-757-MEL-00000544" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Flight Crew Seat Manual Adjustment System &ndash; (Armrest) </title>
+<dispcond btb="NO" category="B" maintenance="YES" nbrins="4" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Affected armrest is in up position or removed, and</para>
+</numlitem>
+<numlitem><para>Seat is acceptable to affected crewmember.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard near upper EICAS "______ SEAT ARMREST INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000545">
+<numlist>
+<numlitem><para>If applicable, secure inoperative armrest in up position
+or remove.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

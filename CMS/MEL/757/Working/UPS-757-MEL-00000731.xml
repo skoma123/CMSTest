@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS-757-MEL-00000731" revdate="20080924" revnbr="65" sectnbr="32">
+<title>Stall Warning Test Systems</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided operation of the associated system
+is verified once each flight day.</para>
+</remarks>
+<placard>
+<para>Placard Stall Test switch (P61) "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000732">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Check that trailing edge flaps and leading edge slats
+are fully retracted with flap lever in zero (flaps up) detent.</para>
+</numlitem>
+<numlitem><para>Provide electrical power (Ref. Maintenance Manual
+24-22-00). </para>
+<warning><para>KEEP PERSONNEL AND EQUIPMENT CLEAR OF ALL CONTROL SURFACES
+TO PREVENT INJURY OR DAMAGE.</para></warning>
+</numlitem>
+<numlitem><para>Open RAT AUTO CONT C/B (11D26).</para></numlitem>
+<numlitem><para>Pressurize left hydraulic system (Ref. Maintenance
+Manual 29-11-00).</para></numlitem>
+<numlitem><para>Position flap lever to 1-unit detent, check that flaps
+move to 1 (one) and slats move to the intermediate (takeoff) position.</para>
+</numlitem>
+<numlitem><para>Check that left and right angle-of-attack vanes are
+parallel to ground.</para></numlitem>
+<numlitem><para>Provide a pressure source to pressurize upper left
+and upper right pitot-static probes to 140-150 knots (0.47 - 0.54
+psig) regulated air pressure (Ref. Maintenance Manual 34-11-00).</para>
+</numlitem>
+<numlitem><para>Check that left stall warning/autoslat system is operational: </para>
+<numlist>
+<numlitem><para>Open L AOA PROBE HT (6L17) and Air/Ground relay system
+No. 1 (11S15) circuit breakers.</para></numlitem>
+<numlitem><para>Check that left AOA vane is cool enough to touch.
+ If not, wait until vane cools.</para></numlitem>
+<numlitem><para>Rotate left AOA vane counterclockwise (vane trailing
+edge up) approximately 20 degrees and check that left stickshaker
+shakes control columns and that slats deploy.</para></numlitem>
+<numlitem><para>Rotate left AOA vane to original position and check
+that left stickshaker stops shaking and slats return to sealed position.</para>
+</numlitem>
+<numlitem><para>Close L AOA PROBE HT (6L17) and Air/Ground relay system
+No. 1 (11S15) circuit breakers.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Check that right stall warning/autoslat system is
+operational: </para>
+<numlist>
+<numlitem><para>Open R AOA PROBE HT (6L23) and Air/Ground relay system
+No. 2 (11S19) circuit breakers.</para></numlitem>
+<numlitem><para>Check that right AOA vane is cool enough to touch.
+ If not, wait until vane cools.</para></numlitem>
+<numlitem><para>Rotate right AOA vane clockwise (vane trailing edge
+up) approximately 20 degrees and check that right stickshaker shakes
+control columns and that slats deploy.</para></numlitem>
+<numlitem><para>Rotate right AOA vane to original position and check
+that right stickshaker stops shaking, and slats return to sealed position.</para>
+</numlitem>
+<numlitem><para>Close R AOA PROBE HT (6L23) and Air/Ground relay system
+No. 2 (11S19) circuit breakers.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Restore aircraft to normal.</para></numlitem>
+<numlitem><para>Close RAT AUTO CONT C/B (11D26).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS757MELCDL20080603082904" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Control Wheel Damper</title>
+<dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided damper is deactivated.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "CONTROL WHEEL DAMPER INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080603083109">
+<note><para>MMEL relief under this item id for certain failure in
+the lateral damper system. These types of failure are a failed system
+found during a periodic maintenance check (passive failure) and/or
+a jam of the lateral damper. It is recommended that the lateral damper
+system be deactivated if either or both of the failure conditions
+are observed. </para></note>
+<warning><para>ensure personnel and equipment are clear of all control
+surfaces to prevent injury or damage.</para></warning>
+<numlist>
+<numlitem><para>Depressurize the left, right and center hydraulic
+systems (AMM 29-11-00/201).</para></numlitem>
+<numlitem><para>Open access door 113AL (AMM 06-41-00/201).</para>
+</numlitem>
+<numlitem><para>Deactivate lateral damper system (see the following
+illustrations).</para>
+<numlist>
+<numlitem><para>Remove rod assembly.</para>
+<numlist>
+<numlitem><para>Remove the following components from end of rod assembly
+(callout #1):</para>
+<numlist>
+<numlitem><para>Hex head bolt.</para></numlitem>
+<numlitem><para>Plain bushing.</para></numlitem>
+<numlitem><para>Flat washer.</para></numlitem>
+<numlitem><para>Self-locking nut.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove the following components from other end of
+rod assembly (callout #2):</para>
+<numlist>
+<numlitem><para>Hex head bolt.</para></numlitem>
+<numlitem><para>Plain bushing.</para></numlitem>
+<numlitem><para>Flat washer.</para></numlitem>
+<numlitem><para>Self-locking nut.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove rod assembly 250N2004-xxx (callout #3).</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove damper crank assembly.</para>
+<numlist>
+<numlitem><para>Remove the following components (callout #4):</para>
+<numlist>
+<numlitem><para>Nut</para></numlitem>
+<numlitem><para>Flat washer.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Remove bolt (callout #5).</para></numlitem>
+<numlitem><para>Open damper crank spline (callout #6).</para></numlitem>
+<numlitem><para>Remove damper crank assembly 251N1028-x (callout #7).</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Place all removed components securely in a box or
+bag and identify it as the removed components for this deferral number
+and place in the PFM.</para></numlitem>
+<numlitem><para>Close access door 113AL.</para></numlitem>
+<numlitem><para>Restore the aircraft to its usual condition.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="27" chg="U" key="UPS757MELCDL20080722114332"
+revdate="20080924" revnbr="65" sectnbr="11">
+<sheet chg="U" gnbr="DMP_CH_27_Page_2" key="UPS757MELCDL20080722114513"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>CONTROL WHEEL DAMPER</title>
+</sheet>
+</graphic>
+<graphic chapnbr="27" chg="U" key="UPS757MELCDL20080722114720"
+revdate="20080924" revnbr="65" sectnbr="11">
+<sheet chg="U" gnbr="DMP_CH_27_Page_3" key="UPS757MELCDL20080722114755"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>CONTROL WHEEL DAMPER ROD ASSEMBLY VIEW A-A</title>
+</sheet>
+</graphic>
+<graphic chapnbr="27" chg="U" key="UPS757MELCDL20080722115310"
+revdate="20080924" revnbr="65" sectnbr="11">
+<sheet chg="U" gnbr="DMP_CH_27_Page_4" key="UPS757MELCDL20080722115340"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>CONTROL WHEEL DAMPER CRANK ASSEMBLY</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

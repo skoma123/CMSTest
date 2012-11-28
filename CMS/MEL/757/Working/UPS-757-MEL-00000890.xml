@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000890" revdate="20080924" revnbr="65" sectnbr="32">
+<title>Pump OVHT Indication Systems Center Electric Pump Indication
+Systems &ndash; One Pump Inoperative  </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided associated pump is selected
+OFF.</para>
+</remarks>
+<placard>
+<para>Placard affected Hydraulic Pump OVHT light(s) on Hydraulic Control
+panel "INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

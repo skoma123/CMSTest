@@ -851,26 +851,12 @@ public partial class _Default : System.Web.UI.Page
     {
         InitialProcessing();
 
-        //then stage, commit, and push new folder
-        gitInfo.Arguments = @"mkdir CMS/MEL/767";
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+
+        Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\");
+        Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Staging\");
 
         //then stage, commit, and push new folder
-        InitialProcessing();
-        gitInfo.Arguments = @"mkdir CMS/MEL/757/Working";
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
 
-        //then stage, commit, and push new folder
-        InitialProcessing();
-        gitInfo.Arguments = @"mkdir CMS/MEL/757/Staging";
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
-
-
-        //then stage, commit, and push new folder
-        InitialProcessing();
         gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();

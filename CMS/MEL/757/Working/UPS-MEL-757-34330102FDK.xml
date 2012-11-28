@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2-1" key="UPS-MEL-757-34330102FDK" revdate="20080924" revnbr="65" sectnbr="33">
+<title>Radio Altimeter (RA) Systems (EADI) &ndash; Multi-source datalink
+to GPWS</title>
+<dispcond category="C" downgrade="CATEGORY 1/2/3a" maintenance="YES"
+nbrins="3" nbrreq="1" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>GPWS is supplied with altitude data, and</para>
+</numlitem>
+<numlitem><para>Approach minimums or operating procedures do not require
+its use.</para></numlitem>
+</numlist>
+<note><para>Operative Symbol generators must be associated with operative
+radio altimeters and operative ILS receivers.</para></note>
+</remarks>
+<operation key="UPS-MEL-757-3433010101OPSFDK">
+<para>If the left radio altimeter is failed, the flight crew will
+see the following flight deck effects for the GEAR NOT DOWN warning:</para>
+<numlist>
+<numlitem><para>If the landing gear is not down and locked, the flaps
+are retracted, and either engine throttle is at idle the CONFIG warning
+light will illuminate and the GEAR NOT DOWN EICAS warning message
+will annunciate; however, the siren will not sound and the master
+warning lights will not illuminate. </para></numlitem>
+<numlitem><para>If the landing gear is not down and locked, the flaps
+are not fully retracted, and either engine throttle is at idle, the
+gear not down warning will be operative. That is, the CONFIG warning
+light will illuminate, the GEAR NOT DOWN EICAS warning message will
+annunciate, the siren will sound and the master warning lights will
+illuminate.</para></numlitem>
+<numlitem><para>If the landing gear is not down and locked, the flaps
+are set at 25 or 30, and the throttles are at any position, the gear
+not down warning will be operative. The CONFIG warning light will
+illuminate, the GEAR NOT DOWN EICAS warning message will annunciate,
+the siren will sound and the master warning lights will illuminate.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-3433010201LIMFDK">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+1 or CAT 3a as appropriate.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near upper EICAS "____RADIO ALTIMETER SYSTEM INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-34331201MNTFDK">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="151.93pt"/>
+<colspec colname="col2" colwidth="162.61pt"/>
+<colspec colname="col3" colwidth="160.96pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>Right</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 3a</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>Right and Center</para>
+</entry>
+<entry align="center">
+<para>2</para>
+</entry>
+<entry align="center">
+<para>CAT 1</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>Center</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 3a</para>
+</entry>
+</row>
+<row>
+<entry align="center">
+<para>Left</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>If left radio altimeter is inoperative, select ALTN
+for Captain&rsquo;s EFI Instrument Source (for radio altimeter display
+on Captain&rsquo;s EADI). </para></numlitem>
+<numlitem><para>If only right radio altimeter is inoperative, select
+ALTN for F/O&rsquo;s EFI Instrument Source (for radio altimeter display
+on F/O&rsquo;s EADI).</para></numlitem>
+<numlitem><para>Check Status Page for display of "GND PROX BITE" message.</para>
+</numlitem>
+<numlitem><para>If message is not displayed, no further maintenance
+action is required.</para></numlitem>
+<numlitem><para>If message is displayed, comply with MEL <refint
+refid="UPS-MEL-757-3443010001FDK" reftype="MEL">34-46-1-0-1</refint
+> also. </para></numlitem>
+</numlist>
+<para>If left radio altimeter is inoperative, operation of the test
+switch for the landing configuration warning will show the function
+to be faulty. However, flap-based monitoring modes of the landing
+configuration remain operational and can be verified, if desired,
+as follows:</para>
+<numlist>
+<numlitem><para>Open LDG GEAR POS SYS 1 (11C30) and 2 (11S23) circuit
+breakers. </para></numlitem>
+<numlitem><para>With landing flaps extended, all warning indications
+will be activated.</para></numlitem>
+<numlitem><para>With flaps up, the configuration warning light and
+associated EICAS message will illuminate with at least one throttle
+at idle.</para></numlitem>
+<numlitem><para>Close LDG GEAR POS SYS 1 and 2 circuit breakers.</para>
+<note><para>Certain failures of the radio altimeter system will cause
+one or more of the following messages to be displayed:</para></note>
+<numlist>
+<numlitem><para>AUTOPILOT</para></numlitem>
+<numlitem><para>R/A DISAGREE</para></numlitem>
+<numlitem><para>GRD PROX SYS</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<para>If the Ground Proximity Warning System with multi-source datalink
+is not receiving radio altitude information from at least one radio
+altimeter, the GND PROX SYS status message will be annunciated.</para>
+<table frame="none">
+<tgroup cols="1">
+<colspec colname="col1" colwidth="501.78pt"/>
+<tbody>
+<row>
+<entry align="left">
+<para><emphasis role="bold"><emphasis role="underline">EICAS STATUS
+MESSAGES </emphasis></emphasis></para>
+<para>GND PROX BITE</para>
+<para>GND PROX SYS</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

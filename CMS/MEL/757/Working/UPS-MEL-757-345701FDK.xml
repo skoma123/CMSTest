@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1" key="UPS-MEL-757-345701FDK" revdate="20080924" revnbr="65" sectnbr="57">
+<title>Radio Compass (ADF) System</title>
+<dispcond category="D" nbrins="1" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided proposed route of flight, primary
+and alternate approach facilities do not require its use, and</para>
+<numlist>
+<numlitem><para>Both VOR receivers are operative, and</para></numlitem>
+<numlitem><para>VOR navigation aids are available along the route
+of flight and can be used to proceed to a suitable alternate.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-MEL-757-345701OPSFDK">
+<note><para>ADF is not required unless en route or approach navigation
+is predicated upon its use.</para></note>
+</operation>
+<placard>
+<para>Placard ADF Control Panel "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

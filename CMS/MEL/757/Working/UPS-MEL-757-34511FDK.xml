@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1" key="UPS-MEL-757-34511FDK" revdate="20091120" revnbr="67" sectnbr="51">
+<title>VOR Navigation Systems</title>
+<dispcond attr-rev="NO" category="C" nbrins="2" nbrreq="1">
+<remarks>
+<para>First Officer's (#2) VOR may be inoperative.</para>
+<note><para>Captain's (#1) VOR is not deferrable.</para></note>
+</remarks>
+<placard>
+<para>Placard First Officer's VOR Control Panel "F/O's VOR INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

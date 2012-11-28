@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1" key="UPS-757-MEL-00000902" revdate="20091120" revnbr="67" sectnbr="11">
+<title>Wing Anti-Ice Valves</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, may be inoperative
+closed provided aircraft is not operated in known or forecast icing
+conditions.</para>
+</remarks>
+<operation key="UPS757MELCDL20080607103207">
+<note><para>No flight in known or forecast icing conditions.</para>
+</note>
+</operation>
+<limitation key="UPS-757-MEL-00000904">
+<numlist>
+<numlitem><para>Operations in known or forecast icing conditions prohibited. </para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Wing Anti-ice Switch "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000903">
+<numlist>
+<numlitem><para>Check that ANTI-ICE WING switch on overhead panel
+is OFF. </para></numlitem>
+<numlitem><para>Gain access to wing anti-ice valve through fixed wing
+upper panel 521AB (left wing) or 621AB (right wing).</para>
+<warning><para>TAI DUCT MAY BE HOT.  ALLOW DUCT TO COOL BEFORE CLOSING
+VALVE.  SEVERE BURNS MAY RESULT.</para></warning>
+</numlitem>
+<numlitem><para>If valve is not closed, wrench manual drive nut (7/16
+inch hex drive) counterclockwise to close valve.</para></numlitem>
+<numlitem><para>Lift and rotate valve lock 90&deg; clockwise to lock
+valve closed.  A pushbutton on the valve housing allows manual operation.
+ The valve can only be locked in the full closed position.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="30" chg="U" key="UPS757DMPFIG3001" revdate="20080924"
+revnbr="65" sectnbr="11">
+<title>WING ANTI-ICE</title>
+<sheet chg="U" gnbr="DMP_CH_30_Page_1" key="UPSDMP_CH_30_Page_1"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="80" chg="U" itemnbr="2" key="UPS-757-MEL-00001385" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Starter Switch Holding/Cutout Systems</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided: </para>
+<numlist>
+<numlitem><para>(RB211 engines only) Associated Engine Start Valve
+is operative,</para></numlitem>
+<numlitem><para>(RB211 engines only)  Associated Engine Limiter Control
+(ELC) system is operative, and</para></numlitem>
+<numlitem><para>Alternate procedures are established and used.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001386">
+<numlist>
+<numlitem><para>Manually hold start switch to GND position.</para>
+</numlitem>
+<numlitem><para>Release the start switch to AUTO at 51-52% N<sub>2</sub
+>  (P&amp;W) or 47-49% N<sub>3</sub>  (RB211).</para>
+<caution><para>DELAYING RELEASE OF THE START SWITCH CAN CAUSE  STARTER
+OVERSPEED AND DAMAGE.</para></caution>
+</numlitem>
+<numlitem><para>Verify that the start valve light on the overhead
+panel momentarily illuminates, then extinguishes.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard affected Starter Switch "HOLD COIL INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

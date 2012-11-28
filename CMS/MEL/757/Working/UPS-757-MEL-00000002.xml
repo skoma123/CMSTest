@@ -1,0 +1,5542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mfmatr PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<mfmatr chg="U" key="UPS-757-MEL-00000002" revdate="20080924" revnbr="65">
+<section chapnbr="00" chg="U" key="UPS-757-MEL-00000003" revdate="20080924" revnbr="65" sectnbr="01">
+<title>EICAS</title>
+<textset chapnbr="00" chg="U" key="UPS-757-MEL-00000004" revdate="20100423" revnbr="68" sectnbr="01" textsetnbr="01">
+<title>EICAS</title>
+<para>The Engine Indication and Crew Alerting System (EICAS) provides
+displays of engine parameters, crew alerts of non-normal conditions,
+systems status and maintenance data. EICAS messages are divided into
+the following categories: </para>
+<para>WARNING &mdash; Red message and light, Master Warning light
+illuminates, Master Warning Aural sounds, immediate crew action required.</para>
+<para>CAUTION &mdash; Amber message and light, Master Caution light
+illuminates, Master Caution Aural sounds, immediate crew awareness
+and future crew action required.</para>
+<para>ADVISORY &mdash; Amber message and light, crew awareness and
+possible future crew action required.</para>
+<para>STATUS &mdash; White message displayed on EICAS Status page,
+provides readiness for dispatch information which require crew awareness,
+possible crew action and/or MEL relief prior to takeoff.</para>
+<para>MAINTENANCE &mdash; White message displayed on ECS/MSG page
+of EICAS, for use of maintenance personnel.</para>
+<para>EEC MAINTENANCE &mdash; White message displayed on EPCS page,
+Pratt &amp; Whitney engine-related maintenance only.</para>
+<para>All messages of status level or higher affect airplane dispatchability
+and conditions causing their appearance must be corrected prior to
+flight or the Minimum Equipment List (MEL) consulted to determine
+possible dispatch relief.</para>
+<para>Status messages indicate equipment faults which affect dispatchability
+but are not necessarily identified by higher category (Alert) EICAS
+messages. </para>
+<para>Maintenance messages do not prohibit dispatch but must be corrected
+in accordance with United Parcel Service's approved maintenance program.</para>
+<para>The EICAS Message List which follows contains those messages
+which are in the Warning, Caution, Advisory or Status categories.
+This section is provided as a "Quick Reference" between EICAS messages
+and Minimum Equipment List (MEL) items which may provide dispatch
+relief.</para>
+<para>Normal crew procedures require checking status messages during
+cockpit preparation to determine airplane dispatchability. CAUTION
+and ADVISORY messages do not require crew action up to this time because
+they reflect systems not yet configured for flight and should disappear
+as a result of crew action during flight deck preparation. WARNING
+messages should be dealt with immediately whenever they are displayed.</para>
+<para>Any message adversely affecting safe continuation of the flight
+or requiring crew attention, will appear as an EICAS alert message
+(WARNING, CAUTION or ADVISORY). From engine start until shutdown at
+the completion of flight, EICAS alert messages are the primary means
+of alerting the flight crews to non-normal conditions or improper
+configuration. After engine start and prior to takeoff, any alert
+message requires accomplishment of the appropriate non-normal procedure
+by the crew. Upon completion of the non-normal procedure and prior
+to takeoff, consult the MEL to determine if relief is available. Status
+messages observed prior to takeoff may require crew action. Attempt
+to clear status message, if unable, refer to the MEL to determine
+appropriate action. There are no safety issues or QRH procedures associated
+with an inflight status message. Do not use the MEL inflight. Make
+a logbook entry upon arrival at the scheduled destination.</para>
+<para>Dispatch capability with an invalid EICAS message depends on
+the message level. Dispatch with invalid status level messages is
+allowed by MEL item 31-61-4, provided that either the associated equipment
+is verified to operate normally or the dispatch deviations for the
+associated equipment are observed. However, there is no specific item
+in the MEL for dispatch with invalid Alert level (Warning, Caution,
+or Advisory) messages, since they are required for inflight crew awareness
+or action as described at the beginning of Section 1. Thus, if an
+Alert message is displayed, dispatch is allowed only if there is MEL
+relief for the associated equipment fault or failure, and the applicable
+dispatch deviations are applied. If system deactivation procedures
+result in an associated Alert message remaining OFF, dispatch may
+be acceptable if no inflight alert is needed for the deactivated equipment.
+In most cases, appropriate placards or flight log entries provide
+sufficient crew awareness. </para>
+<para>The MEL lists the items of airplane equipment that may be inoperative,
+and the conditions under which dispatch is allowed. The purpose of
+the Cross-Reference List is to relate an EICAS message indicating
+an equipment fault or failure to the MEL item(s) that allows dispatch
+with the condition indicated by the message. It is intended to assist
+operators in quickly identifying the proper MEL items to consult to
+determine airplane dispatchability. The list includes the message,
+a description of the condition(s) that result in message display,
+message level, and possible MEL cross reference as follows:</para>
+<para>xx-xx-xx &mdash; The indicated MEL item should be consulted
+for possible dispatch when the associated message is displayed. If
+the message description indicates more than one possible equipment
+fault, multiple MEL items may be listed. In such cases, additional
+system troubleshooting may be required to determine the equipment
+fault(s) that are present.</para>
+<para>No Takeoff &mdash; Takeoff is not allowed unless the message
+is invalid. In such cases, MEL item 31-61-4 may be used to dispatch.</para>
+<para>Not Applicable &mdash; The message does not necessarily indicate
+a system fault or failure. Dispatch is allowed provided appropriate
+crew procedures are followed.</para>
+<graphic chg="U" key="UPS-757-EICAS000002" revdate="20080924" revnbr="65"
+sectnbr="1">
+<effect></effect>
+<sheet chg="U" gnbr="MEL_EICAS_Page_2" key="UPS-757-MEL-00000002fdk1"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+<table frame="none">
+<tgroup align="center" cols="4">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.17*"/>
+<colspec colname="col3" colwidth="0.91*"/>
+<colspec colname="col4" colwidth="0.94*"/>
+<thead>
+<row valign="bottom">
+<entry colsep="0" rowsep="0">
+<para>MESSAGE</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>SYSTEM INPUT</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>LEVEL</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>SEE MEL/DDPG </para>
+<para>ITEM FOR</para>
+<para> POSSIBLE RELIEF</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ACCESS DOORS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Fwd and E/E Access doors unlatched.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT CABIN TEMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft cabin supply duct temperature excessive or zone temperature
+forward cabin channel failure or switched off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-61-1</para>
+<para>21-61-4</para>
+<para>21-61-6</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT CARGO DET 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft cargo detector loop 1 unsatisfactory test or smoke detected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT CARGO DET 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft cargo detector loop 2 unsatisfactory test or smoke detected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT CARGO DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft cargo door not closed and locked.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT CARGO FAN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft cargo compartment fan failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-40-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT CARGO FIRE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft cargo fire.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT EQPT SMOKE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Smoke in aft equipment cooling exhaust duct.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-5</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT EXHAUST FAN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft equipment exhaust fan 1 or 2 failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-5</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AFT FUEL X-FEED</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aft switch/valve disagree - provisions for dual fuel cross feed
+- inhibited by FUEL CROSSFEED message.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AIR/GND DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>System 1 and system 2 air/ground logic disagree &ndash; main
+gear tilt. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ALTITUDE ALERT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Deviation of 300 feet from selected altitude.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ALTN ANTISKID</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Antiskid system detects fault in alternate system.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-42-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ANTISKID</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Antiskid system detects fault in normal system (or alternate
+if selected) .</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-42-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU BLEED VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU bleed valve not in commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-4</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU BTL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU bottle low pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-22-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU door disagrees with selected position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>49-15-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU FAULT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU automatic fault shutdown.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>49-11-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU FIRE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU fire.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-15-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU FIRE LP 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU fire loop 1 fire or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-15-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU FIRE LP 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU fire loop 2 fire or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-15-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU FUEL VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU fuel valve disagrees with commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-25-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU GEN OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU generator auxiliary power breaker open with APU running
+and external power contactor open or APU generator control switch
+off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-00-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU OIL QTY</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>APU oil quantity low level switch detects 30 hours run time
+remaining with APU running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-61-4</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ATC FAULT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Air traffic control transponder fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-53-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AUTO SPEEDBRAKE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Auto speedbrake system detects fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-62-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AUTOBRAKES</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Autobrake disarmed or inoperative.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-42-4</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AUTOPILOT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Loss of ADC, FMC, stab. trim, ILS or RA inputs to active autopilot.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>22-10-1</para>
+<para>34-31-1</para>
+<para>34-33-1</para>
+<para>34-61-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AUTOPILOT DISC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Loss of all engaged autopilots.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>22-10-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>AUTOTHROT DISC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Manual or automatic disengagement of autothrottle or failure
+to remove power from autothrottle servo.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>22-30-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>BATTERY OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Battery Switch off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Crew Awareness</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>BLEED ISLN VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Bleed isolation valve not in commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-6</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>BRAKE SOURCE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Hydraulic brake pressure supplied by accumulator only.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-41-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C FLT CONT HYD</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center hydraulic flight control valves closed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-03-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD 1 OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center electrical pump 1 temperature excessive.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD 2 OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center electrical pump 2 temperature excessive.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD ELEC 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center electrical pump 1 output pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD ELEC 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center electrical pump 2 output pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD QTY</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center reservoir low quantity.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-33-1</para>
+<para>29-33-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD RSVR PRES</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center hydraulic reservoir pressure low with both engines running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD SYS MAINT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center hydraulic pressure low with both engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C HYD SYS PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center system pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C IRS DC FAIL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center Inertial Reference System DC failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C IRS FAULT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center Inertial Reference System fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>C IRS ON DC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center Inertial Reference System on DC Power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CABIN ALT AUTO 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Automatic pressurization controller 1 self-detected failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CABIN ALT AUTO 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Automatic pressurization controller 2 self-detected failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CABIN ALTITUDE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Cabin altitude above 10,000 feet.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CABIN AUTO INOP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Loss of automatic pressurization controllers 1 and 2 or manual
+selected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CAPT INSTR XFER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Captain&rsquo;s instrument bus transferred with left main bus
+still powered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CAPT PITOT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Captain&rsquo;s main pitot heat power or continuity loss or
+incorrect power level.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-1</para>
+<para>30-31-5</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CARGO DOORS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Two or more doors not closed and locked.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CTR L FUEL PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel pump output pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>CTR R FUEL PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel pump output pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>DATALINK SYS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Loss of datalink system due to ACARS MU failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>23-22-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>DUCT LEAK LP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Duct leak/wheel well fire system logic card self detected fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-17-1</para>
+<para>26-18-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>E/E ACCESS DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>E/E bay door unlatched.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EICAS CONT PNL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>EICAS display select control panel fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EICAS DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Computer fault causing an engine parameter disagreement code
+(between left and right EICAS computers) or a computer fault effecting
+the caution alerting function.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-41-1</para>
+<para>73-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EICAS DISPLAY</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>EICAS upper or lower pilots display unit failed, off, or blank
+due to computer fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EICAS SCC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Signal consolidation card failure in the P51 card file bite
+detected fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ELEV ASYM</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Elevator asymmetry protection system fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ELEV C HYD PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Center elevator hydraulic system pressure reducer valve senses
+high or low pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ELEV FEEL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Elevator feel system detects fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ELEV L HYD PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left elevator hydraulic system pressure reducer valve senses
+high or low pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ELEV R HYD PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right elevator hydraulic system pressure reducer valve senses
+high or low pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EMER LIGHTS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Emergency light switch in OFF or ON position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Crew Awareness</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ENG BTL 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Engine bottle 1  low pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-20-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ENG BTL 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Engine bottle 2 low pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-20-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>ENGINE CONTROLS</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Two or more EEC channels inoperative on the ground with both
+engines running or stator vane position cross check failure, or thrust
+reverser position sensor cross check failure, or EEC detected air
+data failure condition.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EQPT CLG FAN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>One or more equipment cooling supply fans failed in either the
+forward or aft blow through system.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EQPT CLG FLOW</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low flow detected in forward, flight deck, or aft cooling ducts
+on the ground.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-13</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EQPT CLG SENSOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>One or more low flow sensor(s) failed test.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-13</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EQPT CLG TEST</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Equipment cooling system automatic self-test not performed or
+not completed. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-13</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EQPT OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Both forward or both aft supply fans not running or left recirculation
+fan failed and overboard exhaust valve not open after 10 seconds.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-7</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EQPT SMOKE TEST</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward equipment smoke detection system failed automatic test.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>F/O INSTR XFER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>First Officer&rsquo;s instrument bus transferred with right
+main bus still powered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>F/O PITOT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>First Officer&rsquo;s main pitot heat power or continuity loss
+or incorrect power level.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-1</para>
+<para>30-31-5</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FIRE/OVHT SYS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Fire/overheat system failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-1</para>
+<para>26-11-2</para>
+<para>26-15-1</para>
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLAP LD RELIEF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flaps fail to relieve at proper airspeed or fail to recover.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-51-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLAPS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>LE and TE flaps not in takeoff position for a takeoff and takeoff
+thrust selected on either engine.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLAP ISLN VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flap isolation valve open when uncommanded or failed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-51-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLAP/SLAT ELEC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>FSEU 1 self-detected loss of normal asymmetry and disagree alerts.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLT CONT VALS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Two or more flight control valves closed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-03-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLT DATA ACQ</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flight recorder data acquisition unit fault with both engines
+running. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLT DATA REC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flight recorder off with both engines running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLT DECK TEMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flight deck supply duct temperature excessive or zone temperature
+flight deck channel failure or switched off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLT DK EQ SMOKE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Smoke in duct from flight deck supply fans.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FMC MESSAGE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flight Management System detects one of several high priority
+FMC messages. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-61-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FUEL CONFIG</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Both center pumps switched off with usable fuel remaining in
+center tank (Approx. 1,000 lbs.).</para>
+<para>OR</para>
+<para>Left and right fuel tank quantities differ by approx. 2,000
+lbs..</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-2</para>
+<para>28-41-1</para>
+<para>28-41-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FUEL CROSSFEED</para>
+<para>(N431UP and Subsequent)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Switch/valve disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FUEL CROSSFEED</para>
+<para>(N401-430UP)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Switch/valve disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FUEL QTY BITE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Unknown accuracy in one or more fuel tank quantity indicators
+or all three quantity indicators, or any FQIS fault coupled with loss
+of valid digital data.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-41-1</para>
+<para>28-41-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FUEL QTY CHANNEL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Fuel quantity indication fault in either channel with valid
+digital data.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-41-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FUEL QTY IND</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Unknown accuracy in one or two but not three fuel tank quantity
+indicators with valid digital data.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD ACCESS DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward access door unlatched.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD CABIN TEMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward cabin supply duct temperature excessive, or zone temperature
+aft cabin channel failure or switched off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-61-1</para>
+<para>21-61-4</para>
+<para>21-61-6</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD CARGO DET 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward cargo detector loop 1 unsatisfactory test or smoke detected. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD CARGO DET 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward cargo detector loop 2 unsatisfactory test or smoke detected. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD CARGO DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward cargo door not closed and locked.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD CARGO FAN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward cargo compartment fan failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-40-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD CARGO FIRE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Forward cargo compartment fire detected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>FWD EQPT SMOKE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Smoke in forward equipment cooling supply or exhaust ducts.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>GEAR DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Systems 1 and 2 both indicate any gear disagree up or down.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>GEAR DOORS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Any landing gear door not closed and locked (systems 1 and 2).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>GEAR NOT DOWN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Either throttle at idle and below 800 feet radio altimeter and
+any gear not down and locked, or landing flaps and any gear not down
+and locked.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>GRD PROX BITE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Ground proximity system fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-46-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>IAS DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Airspeed difference of 5 kts between the Captain/First Officer
+air data sources.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>INSTR SWITCH</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Captain&rsquo;s and First Officer&rsquo;s EFIS both switched
+to ALTN on instrument source select switches.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-00-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L AC BUS OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left AC main bus unpowered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L AFT FUEL PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel pump output pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L AOA PROBE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left AOA probe heat power or continuity loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-2</para>
+<para>30-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L AUX PITOT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left auxiliary pitot heat power or continuity loss or incorrect
+power level.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-1</para>
+<para>30-31-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L BLD DUCT LEAK</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Duct leak between left engine (or APU) and isolation valve.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-18-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L BUS ISOLATED</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left isolation bus tie automatically or manually locked open.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L EEC OFF</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC switched off and full forward thrust lever position
+selected. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+<para>73-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L EICAS CMPTR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EICAS computer failed or off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ELEC HYD OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left electrical pump temperature excessive.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ELEV PCU</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Valve jammed in one or more left elevator power control units.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG ANTI-ICE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine cowl anti-ice valve/switch disagree with engine
+running. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-21-1</para>
+<para>30-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG BLEED OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine Pressure Regulating and Shutoff Valve closed with
+engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-1</para>
+<para>36-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG BLEED VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine bleed air overheat.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG CASE COOL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine EEC channel-in-control indicates:</para>
+<numlist>
+<numlitem><para>HPC/HPT core vent valve is not closed when commanded
+to close (failsafe) and/or</para></numlitem>
+<numlitem><para>LPT core vent valve is not open when commanded to
+open (failsafe). </para></numlitem>
+</numlist>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>75-24-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG EEC</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC failure or switched off with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG EEC POWER</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC powered by ground test power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG FIRE LP 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fire loop 1 fire or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG FIRE LP 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fire loop 2 fire or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG FUEL FILT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Differential pressure across left engine fuel filter approaches
+bypass. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG FUEL VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fuel valve disagree with commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG HI STAGE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine bleed air over pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-2</para>
+<para>36-22-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG HYD OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left primary hydraulic pump case drain overheat.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG LIM PROT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine EEC using N<sub>2</sub> as control parameter and
+full forward thrust subsequently applied on left engine.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG LIM PROT</para>
+<para> (PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC using N<sub>2</sub> as control parameter.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG LIMITER</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left electronic engine limiter self-detected failure with engine
+running. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+<para>76-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG LOW N<sub>1</sub></para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fan speed below minimum limit in flight.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-5</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG LP PUMP (RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low pressure downstream of left engine low pressure fuel pump
+with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG OH LP 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine nacelle overheat detector loop 1 overheat or fault
+output. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG OH LP 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine nacelle overheat detector loop 2 overheat or fault
+output. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG OIL COOL (PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC channel in control indicates air/oil or fuel/oil cooler
+control loop fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG OIL PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine oil pressure below limit with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>79-33-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG OIL SEAL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine #4 bearing oil seal leaking at takeoff power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>79-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine strut or nacelle overtemperature.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG PRI CONT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC primary channel is not independently capable of engine
+control. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG PROBE HEAT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine P2/T2 probe heat inoperative.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-34-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG REV CONT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC reverser control fault (primary or secondary).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG SEC CONT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC secondary channel is not independently capable of engine
+control. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG SEC SEL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left EEC secondary channel selected by automatic system.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG SHUTDOWN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fire switch pulled or left fuel control switch in
+cutoff. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG SPEED CARD</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine N<sub>2</sub> (PW) or N<sub>3</sub> (RR) speed sensing
+relay fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG STARTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left starter valve/switch disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>80-00-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG TAI VAL</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine thermal anti-ice high pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG TURB COOL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>L engine EEC channel-in-control indicates both turbine cooling
+valves failed closed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>75-24-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENG VIB</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>The left engine vibration indicating system detects dispatch
+critical fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>77-31-1-1</para>
+<para>77-31-2-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENGINE FIRE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fire.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L ENGINE FIRE</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine fire or the turbine temperature is too high.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FCU FAILSAFE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>L EEC incapable of controlling the left Fuel Control Unit; L
+EEC depowers the FCU to failsafe position (minimum fuel flow 400 lbs/hr).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FLT CONT HYD</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left hydraulic flight control valves closed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-03-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FMC FAIL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left Flight Management Computer fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-61-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FUEL SPAR VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left spar valve disagrees with commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-40-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FUEL SYS PRES</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Both left main pumps and center tank left pump low pressure
+and fuel cross-feed valve closed or all six pumps low pressure or
+turned off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-1</para>
+<para>28-22-2</para>
+<para>28-42-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FWD ENT DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left forward entry door unlatched.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FWD FUEL PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel pump output pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L FWD WINDOW</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left forward window heat temperature excessive or power loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L GEN DRIVE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left generator drive low oil pressure or high oil temperature
+with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-00-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L GEN OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left generator control breaker open with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-00-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HF DATALINK</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left HF Datalink failure of the data function of the HF data
+radio.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>23-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HYD ELEC PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left electrical pump output pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HYD ENG PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine driven pump output pressure low with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HYD QTY</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left reservoir low quantity.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-33-1</para>
+<para>29-33-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HYD RSVR PRES</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left Hydraulic Reservoir Pressure low with both engines running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HYD SYS MAINT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left hydraulic pressure low with both engines running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L HYD SYS PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left system pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L IRS DC FAIL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left IRS DC failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L IRS FAULT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left IRS fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L IRS ON DC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left IRS on DC power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L OIL FILTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine oil filter pressure differential approaches bypass
+with oil temperature above 25&deg;C (PW), 10&deg;C (RR).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L OIL FILTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine oil filter pressure differential approaches bypass
+and is not currently with oil temperature above 25&deg;C (PW), 10&deg;C
+(RR).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L OIL SCAV CLOSE</para>
+<para> (PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine #4 bearing scavenge valve closed at engine cruise
+thrust. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>79-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L OIL SCAV VAL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine #4 bearing scavenge valve stuck open and leaking
+carbon seal when takeoff power selected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-61-4</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L PACK OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left pack switched off or compressor outlet temperature excessive.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-51-1</para>
+<para>21-51-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L PACK TEMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left pack outlet or compressor outlet temperature excessive
+or critical system failure detected by pack controller.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-51-1</para>
+<para>21-51-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L RECIR FAN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left recirculation/electrical equipment exhaust fan failed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-25-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L REV ISLN VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left thrust reverser isolation valve fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L REV STOW SIG</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left reverser auto-stow sensor fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L SIDE WINDOW</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left side window heat overtemperature or power loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L STARTER CUTOUT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine starter valve open above engine RPM at which cutout
+should occur.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>80-00-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L STRUT OH DET 1</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine strut overheat detector loop 1 fire output.</para>
+<note><para>Message does not show during L ENGINE FIRE.</para></note>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-12-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L STRUT OH DET 2</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left engine strut overheat detector loop 2 fire output.</para>
+<note><para>Message does not show during L ENGINE FIRE.</para></note>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-12-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L SVA FAILSAFE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>L EEC incapable of controlling the left stator vane actuator.
+L EEC depowers the SVA to the failsafe position (full open).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L TURB OH DET 1</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left turbine overheat detector 1 fire output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L TURB OH DET 2</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left turbine overheat detector 2 fire output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L UTIL BUS OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left utility bus unpowered with left AC main bus powered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-51-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L WING ANTI-ICE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left wing anti-ice valve/switch disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-11-1</para>
+<para>30-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>L YAW DAMPER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left yaw damper failure, power loss, or switched off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>22-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>LDG GEAR MONITOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>System 1 and system 2 landing gear position indications disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-61-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>LE SLAT ASYM</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Leading edge slat asymmetry or slat loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-81-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>LE SLAT DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>LE slat disagreement with selected position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>LOW FUEL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel quantity in main tanks.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MACH/SPD TRIM</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Both mach speed trim channels have failed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MAIN BAT CHGR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Main battery charger failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MAIN BAT DISCH</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Main battery discharging at 4 Amps or more.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MAIN CARGO DOOR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Main cargo door not closed and locked.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MAIN CARGO FIRE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Main cargo fire.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MN CARGO DR SYS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Hydraulic pressure downstream of shutoff valve.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>52-71-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MN CARGO LOOP 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Main cargo detector loop 1 failed test or smoke detected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>MN CARGO LOOP 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Main cargo detector loop 2 failed test or smoke detected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-16-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>NORM ANTI-SKID</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Anti-skid system detects fault in normal system.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-42-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>NOSE A/G DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>System 1 and system 2 air/ground logic disagree - nosewheel
+compressed. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>OVBD EX VAL OPEN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Overboard dump valve open in the air.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-7</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>OVBD EX VAL TEST</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Overboard dump valve or control relays failed automatic test.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-58-7</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>OVERSPEED</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Aircraft speed exceeds VMO/MMO.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>PARKING BRAKE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Parking brake set and takeoff thrust selected on either engine.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Crew Awareness</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>PARKING BRAKE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Parking brake set.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>32-44-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>PILOT RESPONSE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>No MCDU, EFIS/EICAS, Radio Control Panel or MCP activity and
+No HF/VHF flight deck transmission detected for an extended amount
+of time.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+<para>Advisory</para>
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Not Applicable</para>
+</entry>
+</row>
+<row>
+<?PubTbl row rht="0.61in"?>
+<entry align="left" colsep="0" rowsep="0">
+<!--Per C.R.#4355 Steve Yoder, 2/2/10-->
+<para>POWER XFER UNIT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Power transfer unit system failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-61-4</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>PROBE HEAT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Two or more probe heat failures or continuity loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-1</para>
+<para>30-31-2</para>
+<para>30-32-1</para>
+<para>30-33-1</para>
+<para>30-80-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R AC BUS OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right AC main bus unpowered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R AFT FUEL PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel pump output pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R AOA PROBE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right AOA probe heat power or continuity loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-2</para>
+<para>30-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R AUX PITOT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right aux. pitot heat power or continuity loss or incorrect
+power level. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-2</para>
+<para>30-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R BLD DUCT LEAK</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Duct leak between right engine and isolation valve.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-18-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R BUS ISOLATED</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right isolation bus tie automatically or manually locked open.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R EEC OFF</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC switched off and full forward thrust lever position
+selected. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+<para>73-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R EICAS CMPTR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EICAS computer failed or off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ELEC HYD OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right electrical pump temperature excessive.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ELEV PCU</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Valve jammed in one or more right elevator power control unit(s).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG ANTI-ICE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine cowl anti-ice valve switch disagree with engine
+running. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG BLEED OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine Pressure Regulating and Shutoff Valve closed with
+engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-1</para>
+<para>36-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG BLEED VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine bleed air overheat.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG CASE COOL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine EEC channel-in-control indicates:</para>
+<numlist>
+<numlitem><para>HPC/HPT core vent valve is not closed when commanded
+to close (failsafe) and/or</para></numlitem>
+<numlitem><para>LPT core vent valve is not open when commanded to
+open (failsafe). </para></numlitem>
+</numlist>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>75-24-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG EEC</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC failure or switched off with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG EEC POWER (PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC powered by ground test power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG FIRE LP 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fire loop 1 fire or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG FIRE LP 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fire loop 2 fire or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG FUEL FILT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Differential pressure across right engine fuel filter approaches
+bypass. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG FUEL VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fuel valve disagrees with commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG HI STAGE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine bleed air over pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>36-11-2</para>
+<para>36-22-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG HYD OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right primary hydraulic pump case drain overheated.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-32-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG LIM PROT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC using N<sub>2</sub> as control parameter and full
+forward thrust subsequently applied on right engine.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG LIM PROT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC using N<sub>2</sub> as control parameter.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG LIMITER</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right electronic engine limiter self-detected failure with engine
+running. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+<para>76-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG LOW N<sub>1</sub></para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fan speed below minimum limit in flight.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-5</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG LP PUMP</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Pressure low downstream of right engine low pressure fuel pump
+with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG OH LP 1</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine nacelle overheat detector loop 1 overheat or fault
+output. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG OH LP 2</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine nacelle overheat detector loop 2 overheat or fault
+output. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG OIL COOL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC channel-in-control indicates air/oil or fuel/oil cooler
+control loop fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG OIL PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine oil pressure below limit with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>79-33-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG OIL SEAL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine #4 bearing oil seal leaking at takeoff power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>79-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG OVHT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine strut or nacelle overtemperature.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG PRI CONT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC primary channel is not independently capable of engine
+control. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG PROBE HEAT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine probe heat inoperative.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-34-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG REV CONT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC reverser control fault (primary or secondary).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG SEC CONT</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC secondary channel considered inoperative.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG SEC SEL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right EEC secondary channel selected by manual or automatic
+system.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>73-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG SHUTDOWN</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fire switch pulled or right fuel control switch
+in cutoff. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG SPEED CARD</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine N<sub>2</sub> (PW) or N<sub>3</sub> (RR) speed
+sensing relay fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG STARTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right starter valve/switch disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>80-00-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG TAI VALVE</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine thermal anti-ice high pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG TURB COOL</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>R engine EEC channel-in-control indicates both turbine cooling
+valves failed closed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>75-24-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENG VIB</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine vibration indicating system detects dispatch critical
+fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>77-31-1-1</para>
+<para>77-31-2-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENGINE FIRE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fire.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R ENGINE FIRE</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine fire or the turbine temperature is too high.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FCU FAILSAFE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>R EEC incapable of controlling the right Fuel Control Unit;
+R EEC depowers the FCU to the failsafe position (minimum fuel flow
+400 lbs/hr).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FLT CONT HYD</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right hydraulic flight control valves closed.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-03-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FMC FAIL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right Flight Management Computer fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-61-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FUEL SPAR VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right spar valve disagrees with commanded position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-40-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FUEL SYS PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Both right main pumps and center tank right pump low pressure
+with fuel crossfeed valve closed or all six pumps low pressure or
+turned off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-1</para>
+<para>28-22-2</para>
+<para>28-42-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FWD FUEL PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Low fuel pump output pressure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>28-22-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R FWD WINDOW</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right forward window heat temperature excessive or power loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R GEN DRIVE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right generator drive low oil pressure or high oil temperature
+with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-00-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R GEN OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right generator control breaker open with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-00-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HF DATALINK</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Failure of data function of the right HF data radio.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>23-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HYD ELEC PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right electric pump output pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HYD ENG PUMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine driven pump output pressure low with engine running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HYD QTY</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right reservoir quantity low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>29-33-1</para>
+<para>29-33-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HYD RSVR PRES</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right hydraulic reservoir pressure low with both engines running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HYD SYS MAINT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right hydraulic pressure low with both engines running.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R HYD SYS PRESS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right system pressure low.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R IRS DC FAIL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right Inertial Reference System DC failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R IRS FAULT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right Inertial Reference System fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R IRS ON DC</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right Inertial Reference System on DC power.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R OIL FILTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine oil filter pressure differential approaches bypass
+with oil temperature above 25&deg;C (PW), 10&deg;C (RR).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R OIL FILTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine oil filter pressure differential approached bypassing
+and is not currently with oil temperature above 25&deg;C (PW), 10&deg;C
+(RR).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R OIL SCAV CLOSE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine #4 bearing scavenge valve closed at engine cruise
+thrust. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>79-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R OIL SCAV VAL (PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine #4 bearing scavenge valve stuck open and leaking
+carbon seal when takeoff power selected.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>31-61-4</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R PACK OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right pack switched off or compressor outlet temperature excessive.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-51-1</para>
+<para>21-51-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R PACK TEMP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right pack outlet or compressor outlet temperature excessive,
+or critical system failure detected by pack controller.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>21-51-1</para>
+<para>21-51-3</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R REV ISLN VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right thrust reverser isolation valve fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R REV STOW SIG</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right reverser auto-stow sensor fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R SIDE WINDOW</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right side window heat overtemperature or power loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-41-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R STARTER CUTOUT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine starter valve open above engine RPM at which cutout
+should occur.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>80-00-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R STRUT OH DET 1</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine strut overheat detector loop 1 fire output.</para>
+<note><para>Message does not show during R ENGINE FIRE.</para></note>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-12-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R STRUT OH DET 2</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right engine strut overheat detector loop 2 fire output.</para>
+<note><para>Message does not show during R ENGINE FIRE.</para></note>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-12-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R SVA FAILSAFE</para>
+<para>(PW only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>R EEC incapable of controlling the right stator vane actuator.
+R EEC depowers the SVA to the failsafe position (full open).</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R TURB OH DET 1</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right turbine overheat detector 1 fire output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R TURB OH DET 2</para>
+<para>(RR only)</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right turbine overheat detector 2 fire output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R UTIL BUS OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right utility bus unpowered with right AC main bus powered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>24-51-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R WING ANTI-ICE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right wing anti-ice valve/switch disagree.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-11-1</para>
+<para>30-11-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>R YAW DAMPER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Right yaw damper failure, power loss, or switched off.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>22-21-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>RAT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Ram air turbine system inhibited from deployment or deployed
+on the ground.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>RAT UNLOCKED</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Ram air turbine unlocked.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>REV ISLN VAL</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Either thrust reverser isolation valve fault.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>78-31-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>RUDDER PCU</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Valve jammed in one or more rudder power control units.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-21-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>RUDDER RATIO</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Rudder ratio system failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>SPEEDBRAKES EXT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Speedbrakes deployed during descent.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>SPOILERS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Spoilers not down for a takeoff and takeoff thrust selected
+on either engine.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>SPOILERS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Spoiler system has detected one or more faults and has shut
+down one or more spoiler panel pairs.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-61-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>STAB TRIM</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>One-half drive speed in flight or on ground.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>27-41-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>STABILIZER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Stabilizer not in takeoff range for a takeoff and takeoff thrust
+selected on either engine.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>STANDBY BUS OFF</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Standby bus unpowered.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>STBY INVERTER</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Standby inverter voltage output outside normal limits with main
+battery switch ON.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>T-R UNIT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Left or right transformer rectifier unit failure (DC bus tie
+closed). </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>TAT PROBE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Total Air Temperature probes heater power or continuity loss.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-31-2</para>
+<para>30-33-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>TE FLAP ASYM</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flap asymmetry.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>TE FLAP DISAGREE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Flap disagreement with selected position.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>TRIM AIR</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Trim air valve selected closed (75&deg; F fixed temperature
+pack mode selected). </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>UNSCHD STAB TRIM</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Uncommanded stabilizer motion in autopilot or Mach/Speed Trim
+modes. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Caution</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>WARN ELEX</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Warning electronics system single power supply failure,</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>No Takeoff</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>OR</para>
+<para>Stall Warning Unit failure.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para></para>
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para></para>
+<para>27-32-2</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>WHEEL WELL FIRE</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Wheel well fire detected or fault output.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Warning</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>26-17-1</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>WINDOW HEAT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Two or more window heater failures.</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Advisory</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>30-41-1</para>
+</entry>
+</row>
+<row>
+<?PubTbl row rht="0.58in"?>
+<entry align="left" colsep="0" rowsep="0">
+<para>WXR SYS</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>WXR display is not present when WXR selected on EFIS control
+panel. </para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>Status</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>34-43-1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<graphic chapnbr="00" chg="U" key="UPSB757MELCDL20090804093222"
+revdate="20090814" revnbr="66" sectnbr="00">
+<sheet chg="U" gnbr="FLT_COMPARTMENT_PANEL_EICAS"
+key="UPSB757MELCDL20090804093304" revdate="20090814" revnbr="66"
+sheetnbr="001"></sheet>
+</graphic>
+</textset>
+</section>
+<section chapnbr="00" chg="U" key="UPS-757-MEL-00000009" revdate="20080924" revnbr="65" sectnbr="02">
+<title>PREAMBLE</title>
+<textset chapnbr="00" chg="U" key="UPS-757-MEL-00000010" revdate="20080924" revnbr="65" sectnbr="01" textsetnbr="01">
+<title>PREAMBLE</title>
+<para>The following is applicable for authorized certificate holders
+operating under Federal Aviation Regulations (FAR) Parts 121, 125,
+129, 135: The FAR require that all equipment installed on an aircraft
+in compliance with the Airworthiness Standards and the Operating Rules
+must be operative. However, the Rules also permit the publication
+of a Minimum Equipment List (MEL) where compliance with certain equipment
+requirements is not necessary in the interests of safety under all
+operating conditions. Experience has shown that with the various levels
+of redundancy designed into aircraft, operation of every system or
+installed component may not be necessary when the remaining operative
+equipment can provide an acceptable level of safety. A Master Minimum
+Equipment List (MMEL) is developed by the FAA, with participation
+by the aviation industry, to improve aircraft utilization and thereby
+provide more convenient and economic air transportation for the public.
+The FAA approved MMEL includes those items of equipment related to
+airworthiness and operating regulations and other items of equipment
+which the Administrator finds may be inoperative and yet maintain
+an acceptable level of safety by appropriate conditions and limitations;
+it does not contain obviously required items such as wings, flaps,
+and rudders. The MMEL is the basis for development of individual operator
+MELs which take into consideration the operator&rsquo;s particular
+aircraft equipment configuration and operational conditions. Operator
+MELs, for administrative control, may include items not contained
+in the MMEL; however, relief for administrative control items must
+be approved by the Administrator. An operator&rsquo;s MEL may differ
+in format from the MMEL, but cannot be less restrictive than the MMEL.
+The individual operator&rsquo;s MEL, when approved and authorized,
+permits operation of the aircraft with inoperative equipment.</para>
+<para>Equipment not required by the operation being conducted and
+equipment in excess of FAR requirements are included in the MEL with
+appropriate conditions and limitations. The MEL must not deviate from
+the Aircraft Flight Manual Limitations, Emergency Procedures or with
+Airworthiness Directives. It is important to remember that all equipment
+related to the airworthiness and the operating regulations of the
+aircraft not listed on the MMEL must be operative. </para>
+<para>Suitable conditions and limitations in the form of placards,
+maintenance procedures, crew operating procedures and other restrictions
+as necessary are specified in the MEL to ensure that an acceptable
+level of safety is maintained. </para>
+<para>The MEL is intended to permit operation with inoperative items
+of equipment for a period of time until repairs can be accomplished.
+It is important that repairs be accomplished at the earliest opportunity.
+In order to maintain an acceptable level of safety and reliability,
+the MMEL establishes limitations on the duration of and conditions
+for operation with inoperative equipment. The MEL provides for release
+of the aircraft for flight with inoperative equipment. When an item
+of equipment is discovered to be inoperative, it is reported by making
+an entry in the Aircraft Maintenance Record/Logbook as prescribed
+by FAR. The item is then either repaired or may be deferred per the
+MEL or other approved means acceptable to the Administrator prior
+to further operation. MEL conditions and limitations do not relieve
+the operator from determining that the aircraft is in condition for
+safe operation with items of equipment inoperative.</para>
+<para>When these requirements are met, an Airworthiness Release, Aircraft
+Maintenance Record/Logbook entry, or other approved documentation
+is issued as prescribed by FAR. Such documentation is required prior
+to operation with any item of equipment inoperative.</para>
+<para>Operators are responsible for exercising the necessary operational
+control to ensure that an acceptable level of safety is maintained.
+When operating with multiple inoperative items, the interrelationships
+between those items and the effect on aircraft operation and crew
+workload will be considered. </para>
+<para>Operators are to establish a controlled and sound repair program
+including the parts, personnel, facilities, procedures, and schedules
+to ensure timely repair.</para>
+<para>WHEN USING THE MEL, COMPLIANCE WITH THE STATED INTENT OF THE
+PREAMBLE, DEFINITIONS, AND THE CONDITIONS AND LIMITATIONS SPECIFIED
+IN THE MEL IS REQUIRED. </para>
+</textset>
+</section>
+<section chapnbr="00" chg="U" key="MEL070107DEFFDK" revdate="20080924" revnbr="65" sectnbr="03">
+<title>DEFINITIONS</title>
+<textset chapnbr="00" chg="R" key="MEL070107DEFTXT001" revdate="20100707" revnbr="68a" sectnbr="02" textsetnbr="01">
+<chgdesc>Removes "Underline (Block-Turn-Back)" definition.</chgdesc>
+<title>DEFINITIONS</title>
+<numlist>
+<numlitem><para>System Definitions.</para><para>System numbers are
+based on the Air Transport Association (ATA) specification number
+100 and items are numbered sequentially.</para>
+<numlist>
+<numlitem><para>"Item" means the equipment, system, component, or
+function listed after the MEL number. Repair interval categories (A,
+B, C, and D) are listed in the Repair Int Category block. Repair intervals
+are described in definition 22.</para></numlitem>
+<numlitem><para>"Number Installed" (Installed block) is the number
+of (quantity) of items normally installed in the aircraft. This number
+represents the aircraft configuration considered in developing this
+MEL.</para>
+<note><para>Where the MMEL shows a variable number installed, the
+MEL must reflect the actual number installed or an alternate means
+of configuration control approved by the Administrator.</para></note>
+</numlitem>
+<numlitem><para>"Number Required for Dispatch" (Required block) is
+the minimum number (quantity) of items required for operation provided
+the conditions specified in Remarks and Exceptions are met.</para>
+<note><para>Where the MMEL shows a variable number required for dispatch,
+the MEL must reflect the actual number required for dispatch or an
+alternate means of configuration control approved by the Administrator.</para>
+</note>
+</numlitem>
+<numlitem><para>"Remarks and Exceptions" (in the Remarks and Exceptions
+section) includes a statement either prohibiting or permitting operation
+with a specific number of items inoperative, provisos (conditions
+and limitations) for such operation, and appropriate notes.</para>
+<numlist>
+<numlitem><para>References given in the Remarks and Exceptions section
+are to bring attention to certain interrelationships between the subject
+item and other MEL items or DMP and/or AOM material. These references
+are intended to assist with compliance, but do not relieve the operator
+of the responsibility for determining such inter-relationships as
+stated in the Preamble.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>A vertical bar (change bar) in the margin indicates
+a change or addition in the adjacent text for the current revision
+of that item only. The change bar is dropped at the next MMEL revision.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>"Airplane Flight Manual" (AFM) is the document required
+for type certification and approved by the responsible FAA Aircraft
+Certification Office. The FAA approved AFM for the specific aircraft
+is listed on the applicable Type Certificate Data Sheet.</para>
+</numlitem>
+<numlitem><para>Not applicable.</para></numlitem>
+<numlitem><para>Each inoperative item must be placarded to inform
+and remind the crewmembers and maintenance personnel of the equipment
+condition.</para>
+<note><para>To the extent practical, placards should be located adjacent
+to the control or indicator for the item affected; however, unless
+otherwise specified, placard wording and location will be determined
+by the operator. </para></note>
+</numlitem>
+<numlitem><para>Dash "&ndash;" Symbol in the installed block indicates
+a variable number (quantity) of the item installed.</para></numlitem>
+<numlitem><para>"Deleted" after a sequence number indicates the item
+was previously listed but is now required to be operative if installed
+in the aircraft.</para></numlitem>
+<numlitem><para>"ER" &ndash; As used in MMELs, "ER" refers to Extended
+Operations (ETOPS) of an aircraft with operational approval to conduct
+ETOPS in accordance with the applicable regulations.</para>
+<note><para>UPS does not operate the B757 aircraft on ER operations;
+therefore, it must remain within 60 minutes of a suitable airport.</para>
+</note>
+</numlitem>
+<numlitem><para>"Federal Aviation Regulations" (FAR) &ndash; the applicable
+portions of the Federal Aviation Act and Federal Aviation Regulations. </para>
+</numlitem>
+<numlitem><para>"Flight Day" &ndash; a 24 hour period (from midnight
+to midnight) SDF local time, as established by UPS, during which at
+least one flight is initiated for the affected aircraft.</para>
+</numlitem>
+<numlitem><para>"Icing Conditions" &ndash; an atmospheric environment
+that may cause ice to form on the aircraft (structural) or in the
+engine(s) (induction).</para></numlitem>
+<numlitem><para>Alphabetical symbol (in the Remarks and Exceptions
+section) indicates a provisio (condition or limitation) that must
+be complied with for operation with the listed item inoperative.</para>
+</numlitem>
+<numlitem><para>"Inoperative" &ndash; any time a system and/or component
+malfunctions to the extent that it does not accomplish its intended
+purpose and/or is not consistently functioning within its designed
+operating limit(s) or tolerance(s). If an item of equipment is deferred
+or any proviso indicates an item of equipment is inoperative or considered
+to be inoperative, that equipment shall not be used during flight
+unless authorized by the MEL. </para></numlitem>
+<numlitem><para>Notes: &ndash; (In the Remarks and Exceptions section)
+provides additional information for crewmember or maintenance consideration.
+Notes are to identify applicable material which are intended to assist
+with compliance, but do not relieve the operator of the responsibility
+for compliance with all applicable requirements. Notes are not a part
+of the provisos.</para></numlitem>
+<numlitem><para>Inoperative components of an inoperative system: Inoperative
+items which are components of a system which is inoperative are usually
+considered components directly associated with and having no other
+function than to support that system. (Warning/caution systems associated
+with the inoperative system must be operative unless relief is specifically
+authorized per the MMEL). </para></numlitem>
+<numlitem><para>"(M)" symbol (in the Remarks and Exceptions section)
+indicates a requirement for a specific maintenance procedure which
+must be accomplished prior to operation with the listed item inoperative.
+Normally these procedures are accomplished by maintenance personnel;
+however, other personnel may be qualified and authorized to perform
+certain functions. Procedures requiring specialized knowledge or skill,
+or requiring the use of tools or test equipment should be accomplished
+by maintenance personnel. The satisfactory accomplishment of all maintenance
+procedures, regardless of who performs them, is the responsibility
+of the operator. Appropriate procedures are required to be published
+as part of the operator's manual or MEL.</para></numlitem>
+<numlitem><para>"(O)&ldquo; symbol (in the Remarks and Exceptions
+section) indicates a requirement for a specific operations procedure
+which must be accomplished in planning for and/or operating with the
+listed item inoperative. Normally these procedures are accomplished
+by the flight crew; however, other personnel may be qualified and
+authorized to perform certain functions. The satisfactory accomplishment
+of all procedures, regardless of who performs them, is the responsibility
+of the operator. Appropriate procedures are required to be published
+as part of the operator's manual or MEL.</para>
+<note><para>The (M) and (O) symbols are required in the operator's
+MEL unless otherwise authorized by the Administrator.</para></note>
+</numlitem>
+<numlitem><para>"Deactivated" and "Secured" &ndash; means that the
+specified component must be put into an acceptable condition for safe
+flight. An acceptable method of securing or deactivating will be listed
+in the Operations Procedure section, Maintenance Procedure section,
+or corresponding Dispatch Maintenance Procedure.</para></numlitem>
+<numlitem><para>Visual Flight Rules (VFR) is as defined in FAR Part
+91. This precludes a pilot from filing an IFR flight plan.</para>
+</numlitem>
+<numlitem><para>"Visual Meteorological Conditions" (VMC) &ndash; the
+atmospheric environment is such that would allow a flight to proceed
+under the visual flight rules applicable to the flight. This does
+not preclude operating under Instrument Flight Rules.</para></numlitem>
+<numlitem><para>"Visible Moisture" &ndash; an atmospheric environment
+containing water in any form that can be seen in natural or artificial
+light, for example; clouds, fog, rain, sleet, hail, or snow.</para>
+</numlitem>
+<numlitem><para>"Passenger Convenience Items" &ndash; Deleted see
+NEF #30.</para></numlitem>
+<numlitem><para>Repair Intervals: (Repair Int Category block) All
+MEL users must effect repairs of inoperative systems or components,
+deferred in accordance with the MEL, at or prior to the repair times
+established by the following letter designators: </para>
+<note><para>It is permissible to dispatch an aircraft provided the
+time limitation has not expired at the time of<emphasis role="underline"
+> blockout</emphasis>. </para></note>
+<para>Category A. Items in this category shall be repaired within
+the time interval specified in the remarks section of the operator's
+approved MEL. For time intervals specified in "flight days," the day
+the malfunction was recorded in the aircraft maintenance record/logbook
+is excluded. For all other time intervals (flights, flight legs, cycles,
+hours, etc.,), repair tracking begins at the point when the malfunction
+is deferred in accordance with the operator's approved MEL.</para>
+<para>Category B. Items in this category shall be repaired within
+three (3) consecutive calendar days (72 hours), excluding the day
+the malfunction was recorded in the aircraft maintenance record/logbook.
+For example, if it were recorded at 10 a.m. on January 26th, the three
+day interval would begin at midnight the 26th and end at midnight
+the 29th. All time will be based on SDF local time.</para>
+<para>Category C. Items in this category shall be repaired within
+ten (10) consecutive calendar days (240 hours), excluding the day
+the malfunction was recorded in the aircraft maintenance record/logbook.
+For example, if it were recorded at 10 am. on January 26th, the 10
+day interval would begin at midnight the 26th and end at midnight
+February 5th. All time will be based on SDF local time.</para>
+<para>Category D. Items in this category shall be repaired within
+one hundred and twenty (120) consecutive calendar days (2880 hours),
+excluding the day the malfunction was recorded in the aircraft maintenance
+log and/or record. The letter designators are inserted adjacent to
+the Installed block.</para>
+<para>An operator who has the authorization to use an MEL also has
+the authority to approve extensions to the maximum repair interval
+for category B and C items provided the responsible Flight Standards
+District Office (FSDO) is notified within 24 hours of the MEL extension.
+The operator is not authorized to extend A and D items in the MEL.
+Misuse of the MEL extension authority may result in the operators
+OpSpecs/Mspecs being amended by removing the authority for the operator
+to use the MEL extension authority and/or use an MEL.</para>
+</numlitem>
+<numlitem><para>"Electronic fault alerting system" &ndash; Boeing
+airplanes equipped with Engine Indicating and Crew Alerting Systems
+(EICAS), provide different priority levels of system messages (WARNING,
+CAUTION, ADVISORY, STATUS and MAINTENANCE). Any messages that affect
+airplane dispatch status will be displayed at a STATUS message level
+or higher. The absence of an EICAS STATUS or higher level (WARNING,
+CAUTION, ADVISORY) indicates that the system/component is operating
+within its approved operating limits or tolerances. </para><para>System
+conditions that result only in a maintenance level message, i.e. no
+correlation with a higher level EICAS message, do not affect dispatch
+and do not require action other than as addressed within an operators
+standard maintenance program.</para>
+</numlitem>
+<numlitem><para>"Administrative control item" means an item listed
+by the operator in the MEL for tracking and informational purposes.
+It may be added to an operator&rsquo;s MEL by approval of the Principal
+Operations Inspector provided no relief is granted, or provided conditions
+and limitations are contained in an approved document (i.e., Structural
+Repair Manual, airworthiness directive, etc.). If relief other than
+that granted by an approved document is sought for an administrative
+control item, a request must be submitted to the Administrator. If
+the request results in review and approval by the FOEB, the item becomes
+an MMEL item rather than an administrative control item.</para>
+</numlitem>
+<numlitem><para>Not applicable.</para></numlitem>
+<numlitem><para>"Excess items" means those items that have been installed
+that are redundant to the requirements of the FARs.</para></numlitem>
+<numlitem><para>"Day of Discovery" &ndash; the calendar day an equipment/instrument
+malfunction was recorded in the aircraft maintenance logbook and or
+record. This day is excluded from the calendar days or flight days
+specified in the MEL for the repair of an inoperative item of equipment.
+This provision is applicable to all MEL items, i.e., categories "A,
+B, C, and D".</para></numlitem>
+<numlitem><para>"Considered Inoperative", as used in the provisos
+means that item must be treated for dispatch, taxi and flight purposes
+as though it were inoperative. The item shall not be used or operated
+until the original deferred item is repaired. Additional actions include:
+documenting the item on the dispatch release (if applicable), placarding,
+and complying with all remarks, exceptions, and related MMEL provisions,
+including any (M) and (O) procedures and observing the repair category.</para>
+</numlitem>
+<numlitem><para>"Is not used" in the provisos, remarks or exceptions
+for an MMEL item may specify that another item relieved in the MMEL
+"is not used". In such cases, crewmembers should not activate, actuate,
+or otherwise utilize that component or system under normal operations.
+It is not necessary for the operators to accomplish the (M) procedures
+associated with the item. However, operational requirements must be
+complied with, and an additional placard must be affixed, to the extent
+practical, adjacent to the control or indicator for the item that
+is not used to inform crewmembers that a component or system is not
+to be used under normal operations. </para></numlitem>
+<numlitem><para>Nonessential equipment and furnishings (NEF) are those
+items installed on the aircraft as part of the original type certification,
+supplemental type certificate, or other form of alteration that have
+no effect on the safe operation of flight and would not be required
+by the applicable certification rules or operational rules. They are
+those items that if inoperative, damaged or missing have no effect
+on the aircraft's ability to be operated safely under all operational
+conditions. These nonessential items may be installed in areas including,
+but not limited to, the passenger compartment, flight deck area, service
+areas, cargo areas, crew rest areas, lavatories, and galley areas.
+NEF items are not items already identified in the MEL or CDL of the
+applicable aircraft. They do not include items that are functionally
+required to meet the certification rule or for compliance with any
+operational rule. Operator's NEF process shall not provide for deferral
+of items within serviceable limits identified in the manufacturer's
+maintenance manual or operator's approved maintenance program such
+as wear limits, fuel/hydraulic leak rates, oil consumption, etc. Cosmetic
+items that are fully serviceable but worn or soiled may be deferred
+under an operator's NEF process.</para></numlitem>
+<numlitem><para>As used in MMELs, Heavy Maintenance Visit (HMV) is
+a scheduled C-check/D-check or airworthiness maintenance program inspection
+where the aircraft is scheduled to be out of service for 4 or more
+days.</para></numlitem>
+<numlitem><para>"Affected" &ndash; refers to the subject item of equipment
+(component, system or function) listed in the Item Title.</para>
+</numlitem>
+<numlitem><para>"Associated" &ndash; refers to a related component,
+system or function other than the subject one.</para></numlitem>
+<numlitem><para>Class E Cargo &ndash; all UPS B-757 aircraft are in
+a Class E Cargo configuration.</para></numlitem>
+<numlitem><para>Effectivity &ndash; Aircraft Registration Numbers
+listed following the MEL Title indicate the effectivity which applies
+to an MEL item number. These effectivities are as accurate and up&ndash;to&ndash;date
+as possible as of the publication revision date. However, if an aircraft
+registration number does not appear following the MEL Title, but physical
+inspection of the aircraft indicates an item is installed, relief
+may be taken and the item deferred provided the number of items required
+for dispatch are operational and the appropriate procedures are accomplished.</para>
+<note><para>Some items listed in the Minimum Equipment List reference
+a corresponding maintenance procedure in the Dispatch Maintenance
+Procedures section. It is the responsibility of maintenance personnel
+to ensure that applicable DMP procedures are accomplished.</para></note>
+</numlitem>
+<numlitem><para>"Instrument Meteorological Conditions" (IMC) &ndash;
+Meteorological conditions expressed in terms of visibility distance
+from cloud, and ceiling less than the minimums specified for visual
+meteorological conditions. </para></numlitem>
+<numlitem><para>"Not Applicable" (in the Title section) &ndash; Refers
+to equipment or subcomponents of a system which are no longer installed
+or part of the configuration or UPS is not taking relief.</para>
+</numlitem>
+<numlitem><para>References in this document to the Airplane Operations
+Manual (AOM) or Airport Analysis Manual (AAM) replace the references
+in the FAA Master Minimum Equipment List to Airplane Flight Manual
+(AFM).</para></numlitem>
+<numlitem><para>"Repair" &ndash; Means such maintenance action, including
+replacement, as necessary to restore an inoperative item to an operative
+condition.</para></numlitem>
+<numlitem><para>"Sub&ndash;System" &ndash; A major functional portion
+of a system which contributes to operational completeness of the system. </para>
+</numlitem>
+<numlitem><para>"System" &ndash; A combination of interrelated items
+arranged to perform a specific function.</para></numlitem>
+<numlitem><para>"Time In Service" &ndash; The time from the moment
+an aircraft leaves the surface of the earth until it touches it at
+the next point of landing (as defined in FAR Part l).</para></numlitem>
+<numlitem><para>"Operations Procedure" &ndash; This section includes
+specific (O) operations procedures called for in the Remarks or Exception
+section, which must be accomplished in planning for and/or operating
+with the listed item inoperative. (Refer to the (O) definition, number
+16 in this chapter.) </para></numlitem>
+<numlitem><para>Operative &ndash; The available functions meet the
+intended purpose required to complete the flight.</para></numlitem>
+<numlitem><para>"Maintenance Procedure" &ndash; When a (M) Maintenance
+Procedure is required, a reference will display ("Accomplish Dispatch
+Maintenance Procedure XX-XX-X") in the Maintenance Procedure section
+of the MEL. This reference links the procedure to a specific DMP.
+However, when a (M) Maintenance Procedure is <emphasis role="bold"
+><emphasis role="underline">NOT</emphasis></emphasis> required, the
+Maintenance Procedure section in the MEL may include Notes, Downgrade
+statements and CAT boxes.</para></numlitem>
+<numlitem><para>"Limitations/Performance Penalties" &ndash; This section
+includes specific limitations or performance penalties that must be
+complied with during flight planning, prior to departure, en route
+or during approach and landing. Compliance with the limitations in
+this section do not relieve the user from complying with the Repair
+Int Category block, Required block, Remarks and Exceptions section,
+Operations Procedure section, and Maintenance Procedure section.</para>
+</numlitem>
+<numlitem><para>Reduced Vertical Separation Minimums (RVSM) &ndash;
+A program to permit operations of 1000 feet vertical separation.</para>
+</numlitem>
+<numlitem><para>"Blockout" &ndash; The time the aircraft begins movement
+for the purpose of takeoff either by pushback, tow or under its own
+power.</para></numlitem>
+<numlitem><para>Required Navigation Performance Capability (RNP) is
+a statement of navigation performance necessary for operation within
+a defined airspace. RNP-10 is defined in FAA order 8400.12 series
+and European Basic Area Navigation (BRNAV/RNP-5) in Advisory Circular
+#90-96 series.</para><para>Required Navigation Performance Capability
+is a standard for continuing airworthiness based on a more stringent
+separation parameter to be implemented as part of a worldwide ICAO
+effort to implement the Future Air Navigation Systems (FANS), Communication/Navigation/Surveillance
+(CNS) and Air Traffic Management (ATM) concept. Currently, a 50 nautical
+mile lateral separation on the North Pacific (NOPAC) and selected
+Central Pacific (CEPAC) routes are based on RNP-10 criteria. This
+performance capability is similar to existing minimum navigation performance
+specifications (MNPS) over the North Atlantic. At least two Long Range
+Navigation systems should be operational at oceanic entry points.
+MNPS or RNP-5 navigation accuracy BRNAV requirements are met where
+RNP-10 is authorized.</para>
+</numlitem>
+<numlitem><para>"Takeoff" - The act of beginning flight in which an
+aircraft is accelerated from a state of rest to that of flight.</para>
+</numlitem>
+<numlitem><para>UPS Special Operations Airports &ndash; A more restrictive
+definition applied to certain airports listed in FAR 121.445 and other
+airports selected by UPS due to arrival/departure requirements, local
+topography and/or uniqueness of localized weather phenomena. The following
+airports are designated as UPS Special Operations Airports:</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="180.84pt"/>
+<colspec colname="col2" colwidth="180.84pt"/>
+<tbody>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>BOG/SKBO</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Bogota, Columbia</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>GUA/MGGT</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Guatemala City, Guatemala</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>LPB/SLLP</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>La Paz, Bolivia</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>TGU/MHTG</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Tegucigalpa, Honduras</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>UIO/SEGU</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>Quito, Ecquador</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>UPS Lettered Revision (Red Revision) &ndash; is an
+interim revision that is designated by a letter, with the intent of
+addressing Airworthiness Directives and/or safety of flight issues
+that impact the MEL/DMP. Additionally, an Engineering Order (EO) will
+be issued to supersede the affected DMP until the UPS Lettered Revision
+is published. </para></numlitem>
+<numlitem><para>"Ballast Weights" &ndash; Ballast is any weight added
+to the aircraft for the purpose of CG control. It will be loaded on/in
+a ULD and loaded uniformly and with barrier nets in place.</para>
+<note><para>Materials loaded on/in a ULD for use as ballast during
+flight, must not consist of any combustible, flammable or otherwise
+hazardous material. The weight of ballast materials, such as concrete
+blocks, metal plates, and sand bags must be distributed evenly across
+the floor of the ULD and secured to prevent shifting during flight.</para>
+</note>
+</numlitem>
+</numlist>
+</textset>
+</section>
+<section chapnbr="00" chg="U" key="UPS-757-MEL-00000011" revdate="20080924" revnbr="65" sectnbr="05">
+<title>CATEGORY 2/3</title>
+<textset chapnbr="00" chg="U" key="UPS-757-MEL-00000012" revdate="20080924" revnbr="65" sectnbr="01" textsetnbr="01">
+<title>Maintenance Significant Cat 2/3 Systems/Components</title>
+<textgrp>
+<title>General</title>
+<para>Maintenance personnel shall perform maintenance on the maintenance
+significant and/or flight operations significant system(s)/component(s)
+listed, per one of the following procedures, as applicable.</para>
+<numlist>
+<numlitem><para>Qualified Maintenance Personnel Procedures</para>
+</numlitem>
+<numlitem><para>Non-Qualified Personnel Procedures</para></numlitem>
+</numlist>
+<table frame="none">
+<tgroup cols="2">
+<colspec align="left" colname="col1" colwidth="52.56pt"/>
+<colspec align="left" colname="col2" colwidth="420.59pt"/>
+<thead>
+<row>
+<entry align="center" colsep="0" nameend="col2" namest="col1" rowsep="0"
+valign="top">
+<para>MAINTENANCE SIGNIFICANT COMPONENTS</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" colsep="0" nameend="col2" namest="col1" rowsep="0">
+<para>INERTIAL REFERENCE UNITS</para>
+<para>AUTOLAND STATUS ANNUNCIATOR</para>
+</entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0"></entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>FLIGHT CONTROL COMPUTER</para>
+<para>A/P MODE CONTROL PANEL</para>
+<para>STAB/TRIM ELEVATOR ASYMMETRY MODULE (SAM)</para>
+<para>STAB/TRIM CONTROL MODULE</para>
+<para>A/P LATERAL CONTROL SERVO</para>
+<para>A/P PITCH CONTROL SERVO</para>
+<para>ROLLOUT GUIDANCE SERVO</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0">
+<para>EADI</para>
+</entry>
+<entry colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>EFIS SYMBOL GENERATORS</para>
+<para>EFIS CONTROL PANEL</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry align="left" colsep="0" nameend="col2" namest="col1" rowsep="0">
+<para>MASTER WARNING CARD (WEU)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>ILS RECEIVER</para>
+<para>ILS CONTROL PANEL</para>
+<para>ILS GLIDE SLOPE ANTENNA</para>
+<para>ILS LOCALIZER ANTENNA</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>RADIO ALTIMETER RECEIVER</para>
+<para>RADIO ALTIMETER ANTENNA &amp; COAX CABLE</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0">
+<para>VOR/MARKER BEACON RECEIVER (LEFT ONLY)</para>
+<para>MARKER BEACON ANTENNA</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0"></entry>
+<entry colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry align="left" colsep="0" rowsep="0"></entry>
+<entry align="left" colsep="0" rowsep="0">
+<para>THRUST MANAGEMENT COMPUTER</para>
+<para>AUTOTHROTTLE SERVOMOTOR GEN.</para>
+<para>THRUST MODE SELECT PANEL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<textgrp>
+<title>Flight Operations Significant Cat 2/3 Systems/Components</title>
+<para>Component(s)/System(s) which do not possess complex operational,
+aircraft system interface, and performance degradation characteristics,
+but are essential for CAT 2/3 operations.</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec align="left" colname="col1" colwidth="52.56pt"/>
+<colspec colname="col2" colwidth="2.00*"/>
+<tbody>
+<row>
+<entry align="left" colsep="0" nameend="col2" namest="col1" rowsep="0">
+<para>CONTROL WHEEL DISENGAGE SWITCHES</para>
+<para>A/P DISCONNECT LIGHT</para>
+<para> </para>
+<para>WHEEL BRAKES</para>
+<para>SPOILER SYSTEMS (FLIGHT SPOILERS)</para>
+<para>WINDSHIELD WIPERS</para>
+<para>AUTOBRAKE SYSTEM</para>
+<para>RUDDER PEDAL NOSE WHEEL STEERING</para>
+<para>THRUST REVERSERS</para>
+<para>AUTO SPEED BRAKE SYSTEM</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<graphic chg="U" key="MELPROFIG03" revdate="20080924" revnbr="65">
+<sheet chg="U" gnbr="MEL_CAT_Page_2" key="UPSMEL_CAT_Page_2"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</textgrp>
+</textgrp>
+</textset>
+</section>
+</mfmatr>

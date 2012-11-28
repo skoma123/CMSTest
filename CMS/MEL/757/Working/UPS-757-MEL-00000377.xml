@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="1-1-1" key="UPS-757-MEL-00000377" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Communications Systems (VHF) VHF Comm &ndash; Frequency In
+Use Light </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000378">
+<note><para>Select frequency transfer switch to desired frequency
+selection prior to transmitting.</para></note>
+</operation>
+<placard>
+<para>Placard affected Comm Control Panel "FREQUENCY TRANSFER LIGHT
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

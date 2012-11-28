@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="75" chg="U" key="UPS-757-MEL-00001564" qtyreq="3  per engine" revdate="20080924" revnbr="65" sectnbr="32">
+<title>INTERMEDIATE PRESSURE COMPRESSOR BLEED VALVE ACOUSTIC ATTENUATOR</title>
+<remarks>
+<para><emphasis role="underline">ROLLS ROYCE RB211-535E4/E4B</emphasis
+></para>
+<para>Any number or combination may be missing.  There is no performance
+penalty. </para>
+</remarks>
+<graphic chapnbr="75" chg="U" confnbr="1" key="UPS757CDLFIG7501"
+revdate="20080924" revnbr="65" sectnbr="32">
+<title>INTERMEDIATE PRESSURE COMPRESSOR BLEED VALVE ACOUSTIC ATTENUATOR</title>
+<sheet chg="U" gnbr="CDL_CH_75_Page_1" key="UPSCDL_CH_75_Page_1"
+revdate="20080924" revnbr="65">
+<title>FIGURE 75-32-1</title>
+</sheet>
+</graphic>
+</cdlblk>

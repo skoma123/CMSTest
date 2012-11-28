@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="4-11" key="UPS-757-MEL-00000284" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Switches &ndash; L NAV, HDG HOLD Switches </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>HDG SEL is operative, and</para></numlitem>
+<numlitem><para>Procedures or en route operations do not require its
+use. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000285">
+<numlist>
+<numlitem><para>Use HDG SEL or manual flight.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard L NAV/HDG HOLD Switches "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

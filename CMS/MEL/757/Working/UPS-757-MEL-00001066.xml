@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="35" chg="U" itemnbr="2-3-2" key="UPS-757-MEL-00001066" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Crew Oxygen System &ndash; Supernumerary Oxygen Masks Below
+10,000 </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="3" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided flight is not conducted above 10,000
+feet MSL.</para>
+</remarks>
+<limitation key="UPS-757-MEL-00001068">
+<numlist>
+<numlitem><para>Flight is not conducted above 10,000 feet MSL.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near upper EICAS "OXYGEN SYSTEM EMPTY" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

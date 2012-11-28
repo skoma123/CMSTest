@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000516" revdate="20080924" revnbr="65" sectnbr="41">
+<title>External Power System</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard External Power switch "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000517">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Secure External Power Receptacle door closed using
+speed tape.</para>
+<numlist>
+<numlitem><para>Clean area with solvent to provide suitable bonding
+surface.</para></numlitem>
+<numlitem><para>Use a minimum of 2 inch overlap of External Power
+Receptacle door opening.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Place additional "INOP" placard on speed tape.</para>
+</numlitem>
+<numlitem><para>Reinspect speed tape security/condition once each
+flight day.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="1" key="UPS-757-MEL-00001100" revdate="20091120" revnbr="67" sectnbr="12">
+<title>Precoolers</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, one may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Associated engine bleed valve is closed, and</para>
+</numlitem>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001101">
+<numlist>
+<numlitem><para>Do not operate aircraft in known forecast icing conditions. </para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00001103">
+<numlist>
+<numlitem><para>Operations into known or forecast icing conditions
+are prohibited. </para></numlitem>
+<numlitem><para>Aircraft remains at or below FL350.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard applicable switchlight located on Bleed Air Supply Module
+(M10259) on P5 panel "INOP" and enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001102">
+<numlist>
+<numlitem><para>Notify Flight Dispatch.  Flight operations may be
+affected. </para></numlitem>
+<numlitem><para>Press applicable L ENG, or R ENG switch light on P5
+panel to OFF.  Verify that bar light extinguishes and OFF light illuminates.</para>
+</numlitem>
+<numlitem><para>Two procedures are provided.  Perform either step
+A or step B.</para>
+<note><para>If step A is performed the APU bleed valve cycles to close,
+effectively shutting off the alternate bleed source for the affected
+air conditioning pack.  Dispatch criteria for an inoperative air conditioner
+must be met per item <refint refid="UPS-757-MEL-00000112" reftype="MEL"
+>21-51-1</refint>.</para></note>
+<numlist>
+<numlitem><para>Open and collar applicable circuit breaker on overhead
+circuit breaker panel (P11).</para>
+<numlist>
+<numlitem><para>L ENG BLEED CONT (11Q10)</para></numlitem>
+<numlitem><para>R ENG BLEED CONT (11Q19)</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Lock valves in closed position as outline below.</para>
+<warning><para>FAILURE TO FOLLOW MAINTENANCE MANUAL 78-31-00/201 COULD
+RESULT IN INJURY TO PERSONNEL AND DAMAGE TO FAN COWL, CORE COWL, FAN
+DUCT COWL AND THRUST REVERSER.</para></warning>
+<numlist>
+<numlitem><para>Open the following, as applicable</para>
+<numlist>
+<numlitem><para>RB211 ENGINE:  Strut pressure relief door (433 LR
+right, 443LL left), left engine fan duct cowl, and thrust reverser.</para>
+</numlitem>
+<numlitem><para>P&amp;W ENGINE:  Core cowls (418AR left, 428AR right),
+right engine fan duct cowl, and thrust reverser.</para>
+<note><para>See illustrations included in items <refint
+refid="UPS-757-MEL-00001083" reftype="DMP">36-11-1</refint> and <refint
+refid="UPS-757-DMP-0SA425001087" reftype="DMP">36-11-2</refint> for
+clarity. </para></note>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Rotate manual override hex nut on pressure regulating
+and shutoff valve until position indicator is in CLOSE.</para>
+</numlitem>
+<numlitem><para>Rotate manual override hex nut on engine high stage
+bleed valve until position indicator is in CLOSE.</para></numlitem>
+<numlitem><para>Close thrust reverser, fan duct cowl, core cowl, and
+strut pressure relief door as applicable.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

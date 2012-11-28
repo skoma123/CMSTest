@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="5-2" key="UPS-757-MEL-00000292" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Windows &ndash; Heading (HDG) </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided selected heading indications on
+both HSI&rsquo;s are operative.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000293">
+<numlist>
+<numlitem><para>Set associated target values by observing targeted
+HDG cursor. </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Heading window "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="29" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000870" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Engine Driven Hydraulic Pumps &ndash; Depressurization Function </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard affected Pump Control switch "DEPRESSURIZATION FUNCTION
+INOP" and enter item Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="33" chg="U" key="UPS-757-MEL-00001491" qtyreq="4" revdate="20080924" revnbr="65" sectnbr="45">
+<title>LOGO ILLUMINATION LIGHT COVER - Horizontal Stabilizer</title>
+<remarks>
+<para>Any number or combination may be missing.  The performance decrement
+is negligible.  (SEE FIGURE 33-45-1)</para>
+<note><para>Openings created by missing light covers must be covered
+with Speed Tape (Permacel II or 3M425). Inspect the condition of the
+Speed Tape every other flight.</para></note>
+</remarks>
+<graphic chapnbr="33" chg="U" confnbr="1" key="UPS757CDLFIG3308"
+revdate="20080924" revnbr="65" sectnbr="45">
+<title>LOGO ILLUMINATION LIGHT COVER (2 PER SIDE)</title>
+<sheet chg="U" gnbr="CDL_CH_33_Page_8" key="CDL_CH_33_Page_8.png"
+revdate="20080924" revnbr="65">
+<title>FIGURE 33-45-1</title>
+</sheet>
+</graphic>
+</cdlblk>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="3-1-1" key="UPS757MELCDL20080613092110" revdate="20080924" revnbr="65"
+sectnbr="61">
+<title>ACSS Surveillance Processor TCAS II Functionality (STC ST02053LA)
+&ndash; Resolution Advisory (RA) Display System(s) (VSI/RA) &ndash;
+One Inoperative (EFB Installed)</title>
+<dispcond category="C" nbrins="2" nbrreq="1">
+<remarks>
+<para>May be inoperative on non-flying pilot side.</para>
+</remarks>
+<placard>
+<para>Placard affected IVSI "RA INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

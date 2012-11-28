@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001171" revdate="20080924" revnbr="65" sectnbr="72">
+<title>APU Hourmeter System</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<placard>
+<para>Placard APU Hourmeter "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001172">
+<numlist>
+<numlitem><para>If both Hourmeter and ACARS are inoperative refer
+to the B767 ETOPS Manual 3-2 for alternate means of calculating APU
+operating hours for current week.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

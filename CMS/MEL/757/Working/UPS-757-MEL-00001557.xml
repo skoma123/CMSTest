@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="71" chg="U" key="UPS-757-MEL-00001557" qtyreq="2" revdate="20080924" revnbr="65" sectnbr="11">
+<title>(PW) INLET PT<sub>2</sub>/TT<sub>2</sub> PROBE ACCESS PANEL</title>
+<remarks>
+<para>One or both may be missing.  The performance decrement is negligible. </para>
+</remarks>
+</cdlblk>

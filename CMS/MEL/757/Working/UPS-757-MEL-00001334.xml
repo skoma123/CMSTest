@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="77" chg="U" itemnbr="3" key="UPS-757-MEL-00001334" revdate="20080924" revnbr="65" sectnbr="12">
+<title>N<sub>3</sub>  Tachometer Systems (EICAS) (RB211)</title>
+<dispcond btb="NO" category="B" maintenance="NO" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One N<sub>3</sub> indication may be inoperative provided only
+indication function is inoperative. </para>
+</remarks>
+<operation key="UPS757MELCDL20080623133021">
+<numlist>
+<numlitem><para>Move standby engine indicator (SEI) selector to ON.</para>
+</numlitem>
+<numlitem><para>Use SEI N<sub>3</sub> RPM indication and accomplish
+a normal engine start.</para>
+<note><para>If N<sub>3</sub> RPM and start valve operation and indicators
+are normal, satisfactory operation of the N<sub>3</sub> tachometer
+system is confirmed.</para></note>
+</numlitem>
+<numlitem><para>SEI N<sub>3</sub> RPM indication may be used for any
+procedures requiring N<sub>3</sub> RPM.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near EICAS "EICAS N<sub>3</sub> <super> </super> INDICATION
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

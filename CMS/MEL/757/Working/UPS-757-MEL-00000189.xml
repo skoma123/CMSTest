@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-2" key="UPS-757-MEL-00000189" revdate="20090814" revnbr="66" sectnbr="61">
+<title>Cabin COMPT TEMP Control Systems &ndash; (FWD/AFT Cabin) </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided associated zone trim air modulating
+valve remains closed.</para>
+</remarks>
+<operation key="UPS757MELCDL20080528104808">
+<note><para>Consideration must be given to perishable cargo in affected
+zone (FWD/AFT Cabin).</para></note>
+</operation>
+<placard>
+<para>Placard respective Cabin Temp Selector "DO-NOT-OPERATE" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000190">
+<title>COMPT Temp Control Systems</title>
+<numlist>
+<numlitem><para>Affected Zone Trim Air Modulating Valve Closed:</para>
+<numlist>
+<numlitem><para>Position affected Compartment Temperature Control
+as follows: FWD CAB or AFT CAB cabin, rotate temperature control to
+OFF.</para></numlitem>
+<numlitem><para>Check on EICAS ECS/MSG page that the affected TRIM
+VALVE is in the full closed (between 0.00 and 0.05) position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If the valve fails to close using the above procedure,
+a Block-Turn-Back is required to accomplish the following procedure.</para>
+<para>Trim air modulating valves are located in the mix bay at the
+aft end of the forward cargo compartment.</para>
+<numlist>
+<numlitem><para>Provide electrical power.</para></numlitem>
+<numlitem><para>Place affected Compartment Temperature Control to
+OFF.</para></numlitem>
+<numlitem><para>Gain access to the forward cargo compartment.</para>
+</numlitem>
+<numlitem><para>Remove aft center bulkhead lining of the forward cargo
+compartment (Ref. MM 25-50-03).</para></numlitem>
+<numlitem><para>Locate affected trim air modulating valve.</para>
+</numlitem>
+<numlitem><para>Disconnect, cap and stow electrical connector from
+affected valve.</para></numlitem>
+<numlitem><para>Check valve position, if not closed rotate the manual
+override knob counterclockwise until the position indicator on the
+valve shows valve closed.</para></numlitem>
+<numlitem><para>Reinstall aft center bulkhead lining in cargo compartment. </para>
+</numlitem>
+<numlitem><para>Close forward cargo compartment door.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="21" chg="U" key="UPSDMP021007FDK5" revdate="20080924"
+revnbr="65">
+<sheet chg="U" gnbr="DMP_CH_21_Page_7" key="UPSDMP_CH_21_Page_7"
+revdate="20080924" revnbr="65">
+<title>TRIM AIR MODULATING VALVE</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

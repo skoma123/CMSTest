@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="2-0-1" key="UPS-757-MEL-00000650" revdate="20080924" revnbr="65" sectnbr="20">
+<title>Fire Extinguisher SQUIB TEST System</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative or individual test functions may be inoperative
+provided each squib circuit associated with an inoperative test function
+is verified to be operative once each flight day.</para>
+</remarks>
+<placard>
+<para>Placard SQUIB TEST Switch "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000651">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>For APU and engine, fabricate a squib test lamp with
+pigtail leads terminating in sockets. Use lamp P/N 387 (28 volt, 40
+milliamp) in suitable holder (ref. IPC 33-14-70-05).</para>
+<warning><para>RESTRICT PERSONNEL FROM FIRE BOTTLE AREA WHILE TESTING.
+LIMIT SQUIB CURRENT TO 50 MILLIAMPERES MAXIMUM.</para></warning>
+</numlitem>
+<numlitem><para>Verify that squib circuit is operative.</para>
+<numlist>
+<numlitem><para>For APU:</para>
+<numlist>
+<numlitem><para>Remove M10401 squib test control panel (P61 right
+side panel). </para></numlitem>
+<numlitem><para>Connect test lamp between plug D3736 pin 7 (+28 volt
+source) and pin 12 (pin 14 for bottle #2 &ndash; if installed) (ground
+path through squib).</para></numlitem>
+<numlitem><para>Lamp illuminated indicates intact squib.</para>
+</numlitem>
+<numlitem><para>Remove test lamp and install M10401 squib test control
+panel. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For engines:</para>
+<numlist>
+<numlitem><para>Remove M10401 squib test control panel (P61 right
+side panel). </para></numlitem>
+<numlitem><para>For bottle 1, L Squib; connect test lamp between pins
+8 and 3 of connector D3734.</para></numlitem>
+<numlitem><para>For bottle 1, R Squib; connect test lamp between pins
+8 and 3 of connector D3736.</para></numlitem>
+<numlitem><para>For bottle 2, L Squib; connect test lamp between pins
+9 and 4 of connector D3734.</para></numlitem>
+<numlitem><para>For bottle 2, R Squib; connect test lamp between pins
+9 and 4 of connector D3736.</para>
+<note><para>Pins 3 and 4 connect to +28 volt DC source.</para><para
+>Pins 8 and 9 connect to ground path through squib.</para>
+</note>
+</numlitem>
+<numlitem><para>Lamp illuminated indicates intact squib.</para>
+</numlitem>
+<numlitem><para>Remove test lamp and install M10401 squib test control
+panel. </para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="26" chg="U" key="UPS-MEL-757-26202FDK3"
+revdate="20080924" revnbr="65">
+<title>ENGINE FIRE EXTINGUISHER BOTTLE/DISCHARGE CARTRIDGE INSTALLATION</title>
+<sheet chg="U" gnbr="DMP_CH_26_Page_3" key="UPSDMP_CH_26_Page_3"
+revdate="20080924" revnbr="65">
+<title>APU FIRE EXTINGUISHER BOTTLE/DISCHARGE CARTRIDGE INSTALLATION</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

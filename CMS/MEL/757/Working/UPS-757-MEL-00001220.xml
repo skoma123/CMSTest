@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="73" chg="U" itemnbr="1-2" key="UPS-757-MEL-00001220" revdate="20100423" revnbr="68" sectnbr="21">
+<!--Per Bill Bombatch's e-mail 3/29/10-->
+<title>Electronic Engine Control (EEC) Systems &ndash; PW Control
+Channels &ndash; THRUST REVERSER OPERATIVE</title>
+<dispcond btb="YES" category="B" maintenance="YES" nbrins="4" nbrreq="3"
+operation="YES">
+<remarks>
+<para>Except for ER operations, one control channel may be inoperative
+provided:</para>
+<numlist>
+<numlitem><para>Associated thrust reverser is verified to be operative
+or is deactivated, and</para></numlitem>
+<numlitem><para>Appropriate AOM performance adjustments are applied.
+ (See LIMITATIONS/PERFORMANCE PENALTIES.)</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001221">
+<para><emphasis role="bold">P &amp; W Engines </emphasis></para>
+<numlist>
+<numlitem><para>Max thrust takeoff only.</para></numlitem>
+<numlitem><para>Use of auto throttle not permitted.  (Disarm auto
+throttle). </para></numlitem>
+<numlitem><para>Use LIMITATIONS/PERFORMANCE PENALTIES as required. </para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-0SA7302580964">
+<para><emphasis role="bold">P &amp; W Engines</emphasis></para>
+<numlist>
+<numlitem><para>Downgrade Aircraft Category Dispatch Status to CAT
+1.</para></numlitem>
+<numlitem><para>No dispatch with two or more engine controls advisory
+messages displayed.</para></numlitem>
+<numlitem><para>No dispatch with any reverser message displayed for
+operative reverser.</para></numlitem>
+<numlitem><para>Max thrust takeoff only.</para></numlitem>
+<numlitem><para>Use of auto throttle not permitted.</para></numlitem>
+<numlitem><para>Takeoff weight penalty:</para>
+<numlist>
+<numlitem><para>If runway is OBST (obstacle) limited, determine max
+allowable takeoff weight using Derate 2 Airport Analysis page.</para>
+<note><para>Takeoff must be accomplished using max takeoff thrust.</para>
+</note>
+</numlitem>
+<numlitem><para>If runway is OBST limited and an OCA exists, reduce
+max allowable takeoff weight by 9,400 lbs.</para></numlitem>
+<numlitem><para>If runway is not OBST limited and no OCA exists, reduce
+max allowable takeoff weight as shown below for the published runway
+performance limit: </para><para>TIRE: -2,400 lbs. </para>
+<para>VMBE: -2,400 lbs.</para>
+<para>RNWY: -2,400 lbs.</para>
+<para>CLB: -5,600 lbs.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Method 1/Method 2 Terrain Clearance weight penalty:
+Reduce one engine inoperative terrain clearance weight by 8,600 lbs.</para>
+</numlitem>
+<numlitem><para>Landing weight penalty: Reduce climb limit weight
+for landing by 6,000 lbs.</para></numlitem>
+<numlitem><para>Takeoff thrust is limited to 5 minute duration.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Electronic Engine Control (EEC) system(s) "INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001222">
+<para><emphasis role="underline">With two or more of the following
+messages, dispatch is not permitted</emphasis> (ENGINE CONTROLS advisory
+message is displayed if on the ground with both engines running).</para>
+<table frame="none">
+<tgroup align="center" cols="1">
+<colspec colname="col1" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry>
+<para>L or R ENG PRI CONT</para>
+<para>L or R ENG SEC CONT</para>
+<para>L or R ENG SEC SEL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="33.74*"/>
+<colspec colname="col2" colwidth="33.40*"/>
+<colspec colname="col3" colwidth="32.88*"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>&mdash;</para>
+</entry>
+<entry>
+<para>&mdash;</para>
+</entry>
+<entry>
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>P&amp;W Engine</para>
+<numlist>
+<numlitem><para>One EEC channel is considered to be inoperative with
+any of the following STATUS messages displayed:</para>
+<table frame="none">
+<tgroup align="center" cols="1">
+<colspec colname="col1" colwidth="1.00*"/>
+<tbody>
+<row rowsep="0">
+<entry>
+<para>L or R ENG PRI CONT</para>
+<para>L or R ENG SEC CONT</para>
+<para>L or R ENG SEC SEL</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>With two or more of these messages dispatch is not
+permitted (ENGINE CONTROLS advisory message is displayed if on the
+ground with both engines running).</para></numlitem>
+<numlitem><para>Dispatch with one channel inoperative is allowed with
+the following conditions:</para>
+<numlist>
+<numlitem><para>Select the EICAS EPCS page on the EICAS MAINT panel
+(P61).</para></numlitem>
+<numlitem><para>Record any EEC related status messages in the Aircraft
+Maintenance Logbook.</para></numlitem>
+<numlitem><para>ENG SEC SEL</para>
+<numlist>
+<numlitem><para>With this message displayed on the ground, position
+the EEC MAINT CHANNEL SEL switch on the EEC Maintenance Panel (P61)
+to the AUTO mode.  This step may clear the message.  If the message
+remains dispatch is allowed.  The primary channel on the affected
+engine will not be available. </para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>ENG SEC CONT</para>
+<numlist>
+<numlitem><para>If L ENG SEC CONT is displayed, position the EEC MAINT
+CHANNEL SEL switch on the EEC Maintenance Panel (P61) to the AUTO
+mode, then open and collar LEFT EEC CHANNEL SEL circuit breaker on
+the P11 panel (L7).</para></numlitem>
+<numlitem><para>If R ENG SEC CONT is displayed, position the EEC MAINT
+CHANNEL SEL switch on the EEC Maintenance Panel (P61) to the AUTO
+mode, then open and collar RIGHT EEC CHANNEL SEL circuit breaker on
+the P11 panel (L34).</para></numlitem>
+<numlitem><para>Verify that the primary EEC channel is in control
+of the affected engine:</para>
+<numlist>
+<numlitem><para>Move the EEC POWER switch on the EEC Maintenance Panel
+(P61) to the ALTN position.</para></numlitem>
+<numlitem><para>Select the EICAS EPCS page on the EICAS MAINT panel
+(P61). </para></numlitem>
+<numlitem><para>Verify that a white box is displayed around PRI on
+the affected engine on the EPCS page.</para></numlitem>
+<numlitem><para>Move the EEC POWER switch to the NORM position.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="73" chg="U" key="UPS757MELCDL20080723094939"
+revdate="20080924" revnbr="65" sectnbr="21">
+<sheet chg="U" gnbr="DMP_CH_73_Page_2" key="UPS757MELCDL20080723095110"
+revdate="20080924" revnbr="65" sheetnbr="001"></sheet>
+</graphic>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>ENG PRI CONT &ndash;</para>
+<numlist>
+<numlitem><para>On Maintenance panel P61:</para>
+<numlist>
+<numlitem><para>At EEC Maintenance Panel, place EEC power switch to
+ALTN.</para></numlitem>
+<numlitem><para>At EICAS MAINT panel, select EPCS page.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>One EICAS Display Screen EPCS page:</para>
+<numlist>
+<numlitem><para>Check for message S351-23.</para></numlitem>
+<numlitem><para>Check for message S351-24.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If either message is present, DISPATCH IS PROHIBITED.</para>
+</numlitem>
+<numlitem><para>If neither messages are displayed, dispatch is allowed.</para>
+</numlitem>
+<numlitem><para>On maintenance panel P61:</para>
+<numlist>
+<numlitem><para>At EEC Maintenance Panel, place EEC power switch to
+NORM.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify the thrust reverser operates normally or deactivate
+thrust reverser per DDG 78-31-1.</para>
+<numlist>
+<numlitem><para>Make sure the thrust levers are in the idle position.</para>
+<caution><para>DO NOT EXTEND THE THRUST REVERSER WHILE THE CORE COWL
+PANEL IS OPENED.  DAMAGE TO THRUST REVERSER AND CORE COWL PANELS CAN
+OCCUR.</para></caution>
+</numlitem>
+<numlitem><para>Make sure the thrust reverser halves are closed.</para>
+</numlitem>
+<numlitem><para>Make sure the core cowl panels are closed.</para>
+<warning><para>THE THRUST REVERSER WILL AUTOMATICALLY RETRACT IF THE
+ELECTRICAL POWER TO THE EEC/THRUST REVERSER CONTROL SYSTEM IS TURNED
+OFF OR IF THE EEC MAINT POWER SWITCH IS MOVED TO NORM POSITION.  THE
+ACCIDENTAL OPERATION OF THE THRUST REVERSER CAN CAUSE INJURY TO PERSONS
+OR DAMAGE TO EQUIPMENT.</para></warning>
+</numlitem>
+<numlitem><para>For the affected engine:</para>
+<numlist>
+<numlitem><para>Move the EEC MAINT CHANNEL SEL L(R) switch to the
+AUTO position. </para></numlitem>
+<numlitem><para>Verify the L(R) ENG fire handle is in NORM position.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>For the affected engine, make sure these circuit breakers
+on the main distribution panel P6 are closed:</para><para>FUEL COND
+CONT L(R) </para>
+<para>T/L INTERLOCK L(R)</para>
+<para>L(R) ENG ELECTRONIC ENGINE CONTROL ALTN PWR</para>
+<para>SYNC-LOCK LEFT (RIGHT) ENG</para>
+</numlitem>
+<numlitem><para>Make sure these circuit breakers on the overhead panel
+P11 are closed:</para><para>AIR/GND SYS 1</para>
+<para>AIR/GND SYS 2</para>
+</numlitem>
+<numlitem><para>For the affected engine, make sure these circuit breakers
+on the overhead panel P11 are closed:</para><para>LEFT (RIGHT) ENGINE
+PDIU </para>
+<para>LEFT (RIGHT) ENGINE THRUST REVERSER PRI CONT</para>
+<para>LEFT (RIGHT) ENGINE THRUST REVERSER SEC CONT</para>
+<para>LEFT (RIGHT) ENGINE THRUST REVERSER CONT/SCAV PRESS</para>
+<para>LEFT (RIGHT) ENGINE T/R IND</para>
+</numlitem>
+<numlitem><para>Make sure the EICAS circuit breakers (6 locations)
+are closed. </para></numlitem>
+<numlitem><para>Supply electrical power.</para></numlitem>
+<numlitem><para>Supply hydraulic pressure to the engine thrust reverser
+system. </para></numlitem>
+<numlitem><para>Move the EEC POWER switch on the EEC Maintenance Panel
+(P61) to the ALTN position.</para></numlitem>
+<numlitem><para>Make sure that the "REV" indication and the L(R) REV
+ISLN VAL advisory message do not show on the EICAS.</para>
+<warning><para>MAKE SURE THE AREA AROUND THE THRUST REVERSERS ARE
+CLEAR OF PERSONS AND EQUIPMENT.  THE STEPS THAT FOLLOW WILL CAUSE
+THE THRUST REVERSERS TO EXTEND.  FOLLOW THE INSTRUCTIONS TO DEACTIVATE
+THE SPOILER/SPEEDBRAKE.  IF YOU DO NOT OBEY THE INSTRUCTIONS, INJURY
+TO PERSONS OR DAMAGE TO EQUIPMENT CAN OCCUR.</para></warning>
+</numlitem>
+<numlitem><para>Move the reverse thrust lever to the interlock position.</para>
+</numlitem>
+<numlitem><para>Make sure that the L(R) REV ISLN VAL advisory message
+does not show on the EICAS.</para></numlitem>
+<numlitem><para>Make sure that the green REV indication does show
+on the EICAS. </para></numlitem>
+<numlitem><para>Move the reverse thrust lever to the forward idle
+position. </para></numlitem>
+<numlitem><para>Make sure that the L(R) REV ISLN VAL advisory message
+and the L(R) REV STOW SIG status message are not shown on the EICAS.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If thrust reverser has been deactivated, verify thrust
+control operates normally.</para>
+<numlist>
+<numlitem><para>On center pedestal, advance thrust levers to full
+forward thrust position.</para></numlitem>
+<numlitem><para>On EICAS display screen EPCS Page:</para>
+<numlist>
+<numlitem><para>Verify Thrust Lever Resolver (TLR) measurements are
+between 80.5 and 83 degrees.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>On center pedestal, move thrust levers to the idle
+position.</para></numlitem>
+<numlitem><para>On EICAS screen EPCS Page:</para>
+<numlist>
+<numlitem><para>Verify TLR measurements read 38 +/- 0.25 degrees.</para>
+</numlitem>
+<numlitem><para>Verify Thrust Reverser Position (RVA) is 0 +/- 2.0
+is displayed for both engines.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Return aircraft to normal configuration.</para>
+<numlist>
+<numlitem><para>On maintenance panel P61:</para>
+<numlist>
+<numlitem><para>At EEC Maintenance Panel, verify EEC power switch
+is in NORM.</para></numlitem>
+<numlitem><para>Check that throttles are at idle.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="73" chg="U" key="UPS757DMPFIG7303" revdate="20080924"
+revnbr="65" sectnbr="21">
+<sheet chg="U" gnbr="DMP_CH_73_Page_3" key="UPSDMP_CH_73_Page_3"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

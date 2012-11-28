@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-0-1" key="UPS-757-MEL23654SA5874" revdate="20090814" revnbr="66" sectnbr="42">
+<title>Anti-skid System &ndash; Complete System Inoperative (2 or
+More Channels)</title>
+<dispcond btb="YES" category="B" downgrade="CATEGORY 1/2/3a"
+maintenance="YES" nbrins="1" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>AOM CH. 5.1 anti-skid inoperative decrements are applied
+for anti-skid inoperative operations, and</para></numlitem>
+<numlitem><para>Approach minimums do not require its use.</para>
+</numlitem>
+</numlist>
+<note><para>Dispatch is not allowed with a brake deactivated and the
+anti-skid system inoperative.</para></note>
+<note><para>Flight/Ground Spoilers must be operative.</para></note>
+<para><emphasis role="bold">CATEGORY 3b</emphasis></para>
+<para>Installed: 1</para>
+<para>Required: 1</para>
+<para>Must be operative.</para>
+</remarks>
+<operation key="UPS-757-MEL245OPS542214">
+<para><emphasis role="underline">PRE-TAKEOFF PERFORMANCE CALCULATIONS</emphasis
+></para>
+<numlist>
+<numlitem><para>Use Takeoff Runway Limit Worksheet/Anti-skid Inoperative
+Procedures, respective to engine type, in Chapter 5.1 of the AOM.</para>
+</numlitem>
+<numlitem><para>Autobrakes will not be available. Do not select RTO.</para>
+</numlitem>
+<numlitem><para>Use the whole runway for stopping consistent with
+conditions. </para></numlitem>
+<numlitem><para>When stopping after landing and for rejected takeoffs,
+utilize reverse thrust to the maximum extent possible and raise speedbrakes.</para>
+</numlitem>
+<numlitem><para>Initiate wheel braking using very light pedal pressure
+and increase as ground speed decreases. Exercise greater caution during
+light weight landings, normal brake pressure may lock wheels.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-3520JDM87541">
+<note><para>Must be operative for dispatch into LPB, UIO, BOG, GUA,
+TGU.</para><para></para>
+</note>
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+<numlitem><para>V<sub>1</sub> Reduction and comparison to V<sub>MCG</sub
+> required (see AOM Chapter 5.1).</para></numlitem>
+<numlitem><para>Apply Airport Analysis Anti-skid Inoperative weight
+correction. </para></numlitem>
+<numlitem><para>Landing Weight Reduction &ndash; see destination airport
+landing chart for Max Landing Weight with anti-skid system inoperative.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard ANTI-SKID light "SYSTEM INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+<para>Placard Autobrake Selector Panel "SYSTEM INOP".</para>
+</placard>
+<maintenance key="UPS757DMP-451254SAJDM85476">
+<title>Anti-skid System Inoperative (2 or More Channels)</title>
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para><emphasis role="bold">PREFERRED PROCEDURE (2 or more
+channels inoperative):</emphasis> This allows for anti-skid protection
+on the operative channels to minimize tire/brake wear.</para>
+<numlist>
+<numlitem><para><emphasis role="bold">Deactivate the inoperative channels
+using BITE check:</emphasis></para>
+<numlist>
+<numlitem><para>Gain access to anti-skid/autobrake control unit located
+E1-1 shelf in the main equipment center.</para></numlitem>
+<numlitem><para>Note all faults by pressing BIT until TEST END.</para>
+</numlitem>
+<numlitem><para>Clear faults by pressing RESET. </para></numlitem>
+<numlitem><para>Note recurrent faults by pressing BIT until TEST END.</para>
+</numlitem>
+<numlitem><para>Open and collar circuit breakers for channels that
+display fault codes XDCR____ or BOX____.</para>
+<table frame="all">
+<tgroup align="center" cols="2">
+<colspec colname="col1" colwidth="1.00*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<tbody>
+<row>
+<entry colsep="1" rowsep="1">
+<para>FAULT CODES</para>
+</entry>
+<entry colsep="1" rowsep="1">
+<para>CIRCUIT BREAKERS</para>
+</entry>
+</row>
+<row>
+<entry colsep="1" rowsep="1">
+<para>XDCR1 </para>
+<para>XDCR5</para>
+<para>BOX 1&ndash;5</para>
+</entry>
+<entry colsep="1" rowsep="1" valign="middle">
+<para>ANTI-SKID 1&ndash;5 (11S18)</para>
+</entry>
+</row>
+<row>
+<entry colsep="1" rowsep="1">
+<para>XDCR2 </para>
+<para>XDCR6 </para>
+<para>BOX 2&ndash;6</para>
+</entry>
+<entry colsep="1" rowsep="1" valign="middle">
+<para>ANTI-SKID 2&ndash;6 (11C31)</para>
+</entry>
+</row>
+<row>
+<entry colsep="1" rowsep="1">
+<para>XDCR3 </para>
+<para>XDCR7</para>
+<para>BOX 3&ndash;7</para>
+</entry>
+<entry colsep="1" rowsep="1" valign="middle">
+<para>ANTI-SKID 3&ndash;7 (11C32)</para>
+</entry>
+</row>
+<row>
+<entry colsep="1" rowsep="1">
+<para>XDCR4 </para>
+<para>XDCR8 </para>
+<para>BOX 4&ndash;8</para>
+</entry>
+<entry colsep="1" rowsep="1" valign="middle">
+<para>ANTI-SKID 4&ndash;8 (11S22)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Select AUTO BRAKES OFF.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<para><emphasis role="bold">OR</emphasis></para>
+</numlitem>
+<numlitem><para><emphasis role="bold">ALTERNATE PROCEDURE:</emphasis
+> Dispatch with all anti-skid channels inoperative (2 or more channels
+inoperative).</para>
+<numlist>
+<numlitem><para>Open and collar the four anti-skid channel circuit
+breakers:</para>
+<table>
+<tgroup cols="2">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<tbody>
+<row>
+<entry>
+<para>ANTI-SKID 1-5 (11S18)</para>
+</entry>
+<entry>
+<para>ANTI-SKID 2-6 (11C31)</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>ANTI-SKID 3-7 (11C32)</para>
+</entry>
+<entry>
+<para>ANTI-SKID 4-8 (11S22)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Select AUTO BRAKES OFF.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

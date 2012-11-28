@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1" key="UPS-757-MEL-00000954" revdate="20090814" revnbr="66" sectnbr="32">
+<title>Angle of Attack Sensor Heater Systems</title>
+<dispcond attr-rev="NO" btb="YES" category="C" maintenance="YES"
+nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative provided: </para>
+<numlist>
+<numlitem><para>Associated AOA vane is verified intact,</para>
+</numlitem>
+<numlitem><para>Remaining probe heater indicating systems for operative
+probe heaters are operative, and</para></numlitem>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions. </para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000955">
+<note><para>No flight in known or forecast icing conditions.</para>
+</note>
+</operation>
+<limitation key="UPS-757-MEL-00000957">
+<numlist>
+<numlitem><para>Operations in known or forecast icing conditions prohibited. </para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard overhead panel "L(R) AOA HEAT INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000956">
+<numlist>
+<numlitem><para>Verify associated AOA vane is intact by visually inspecting
+it to ensure it is not bent or missing, and moves freely.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

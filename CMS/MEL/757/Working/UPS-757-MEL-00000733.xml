@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="2" key="UPS-757-MEL-00000733" revdate="20091120" revnbr="67" sectnbr="32">
+<title>Stall Warning/Autoslat System </title>
+<dispcond btb="YES" category="A" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Remaining system is verified to be operative before
+each departure, and</para></numlitem>
+<numlitem><para>Operations are limited to not more than three flight
+days before repair is made.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard affected Stall Test switch "L (R) STALL WARNING INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000734">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+ (Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>For an inoperative stall warning or autoslat function,
+check the stall warning BITE module on the P51 panel for fault indication.
+ If each BITE does not begin with a "4", a fault indication is present.
+ Perform proper maintenance (Ref. MM 27-32-00).</para></numlitem>
+<numlitem><para>For a failed WEU power supply, check the Warning Electronics
+(WEU) Power Supply fault balls.  If a fault ball is present, reset
+power supplies.  If either power supply has failed, remove and replace
+(Ref. MM 31-51-00).  Dispatch is not permitted with either power supply
+inoperative.</para></numlitem>
+<numlitem><para>For the stickshaker which has failed the test or had
+a nuisance activation, open and collar the appropriate stickshaker
+circuit breaker on P11 overhead panel (stickshaker - L (11C11); stickshaker
+- R (11J20)).</para></numlitem>
+<numlitem><para>For a nuisance autoslat activation perform the following: </para>
+<numlist>
+<numlitem><para>Open WARN ELEX A (11J33) and WARN ELEX B (11B18) circuit
+breakers on P11 overhead panel.</para>
+<caution><para>STATIC SENSITIVE DEVICE.  WEU CONTAINS DEVICES THAT
+CAN BE DAMAGED BY STATIC DISCHARGE.  DO NOT HANDLE BEFORE READING
+PROCEDURE FOR HANDLING ELECTROSTATIC DISCHARGE SENSITIVE DEVICES (REF.
+MM 20-41-01).</para></caution>
+</numlitem>
+<numlitem><para>Open the WARNING ELECTRONICS UNIT P51 panel in the
+main E/E bay and remove the stall warning module for the affected
+system (system corresponding to the failed autoslat).</para></numlitem>
+<numlitem><para>The slats should return to the intermediate position
+if they had remained extended after the test.  If the slats remain
+extended after removing the stall warning module, dispatch is not
+permitted.</para></numlitem>
+<numlitem><para>Protect and store the removed stall warning module
+so it can be returned when a new module is installed.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<para><emphasis role="underline">MAINTENANCE NOTE</emphasis></para>
+<para>If a "WARN ELEX" EICAS message is displayed or if the stall
+warning/autoslat system failed to operate properly, perform the following
+cockpit initiated test prior to each flight to verify that both WEU
+power supplies and at least one stall warning/autoslat system is operative.
+ The stall warning/autoslat system is considered to be operative if
+it activates the stickshaker and autoslat when tested.</para>
+<note><para>The speedbrakes/spoilers should be down prior to disconnecting
+power from the aircraft.  Ensure control surface areas are clear of
+personnel and equipment before movement.</para></note>
+<numlist>
+<numlitem><para>Provide electrical power.</para></numlitem>
+<numlitem><para>Pull WARN ELEX A (11J33) and WARN ELEX B (11B18) circuit
+breakers on the P11 overhead panel.</para></numlitem>
+<numlitem><para>Reset WARN ELEX A circuit breaker.</para></numlitem>
+<numlitem><para>Pressurize the left hydraulic system (Ref. Maintenance
+Manual 29-11-00).</para></numlitem>
+<numlitem><para>Position the flap lever to the 1-unit detent.  Verify
+that the flaps move to 1 (one) and the slats move to the intermediate
+(takeoff) position.</para></numlitem>
+<numlitem><para>Hold both STALL test switches in the STALL position.</para>
+</numlitem>
+<numlitem><para>Verify that the one (or both) stickshaker(s) is operative
+and the slats move to the fully extended (landing) position.</para>
+</numlitem>
+<numlitem><para>Release the test switches.</para></numlitem>
+<numlitem><para>Verify that the stickshaker(s) ceases to operate and
+the slats retract to the intermediate (takeoff)  position.</para>
+</numlitem>
+<numlitem><para>Repeat steps 6 through 9 with the WARN ELEX B circuit
+breaker in and the WARN ELEX A circuit breaker pulled.</para></numlitem>
+<numlitem><para>Reset both WARN ELEX A and B circuit breakers.</para>
+</numlitem>
+<numlitem><para>If the stickshaker failed to be operative, the WEU
+power supply or both stall warning modules are inoperative.  Dispatch
+is not permitted (see MM 31-51-00).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001107" revdate="20080924" revnbr="65" sectnbr="21">
+<title>Bleed Air DUCT PRESS Indication Systems &ndash; DUCT PRESS
+Indicators (P5-Panel)</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>May be inoperative.</para>
+</remarks>
+<placard>
+<para>Placard near Bleed air Supply Module (M10259) on P5 panel "BLEED
+AIR DUCT PRESS INDICATION SYSTEM INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

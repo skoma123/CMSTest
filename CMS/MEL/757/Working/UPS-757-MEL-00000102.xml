@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1" key="UPS-757-MEL-00000102" revdate="20090814" revnbr="66" sectnbr="40">
+<title>Fwd Cargo Heating System </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative deactivated.</para>
+</remarks>
+<operation key="UPSB757MELCDL20090814110143">
+<note><para>Consideration must be given to perishable cargo in affected
+zone (FWD Cargo).</para></note>
+</operation>
+<limitation key="UPSB757MELCDL20090814110325">
+<note><para>Consideration must be given to perishable cargo in affected
+zone (FWD Cargo).</para></note>
+</limitation>
+<placard>
+<para>Placard next to upper EICAS screen "FWD CARGO HEATING SYSTEM
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000103">
+<numlist>
+<numlitem><para>Open and collar the FWD CARGO FAN circuit breaker
+(B-2) at P34 panel.</para></numlitem>
+<numlitem><para>Open and collar the FWD CARGO HEAT FAN CONTROL circuit
+breaker (N17) on P11 panel.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

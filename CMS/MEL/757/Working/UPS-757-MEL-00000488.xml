@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000488" revdate="20090814" revnbr="66" sectnbr="27">
+<title>GEN CONT OFF Lights &ndash; Generator Operative </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided associated EICAS message L(R)
+GEN OFF is verified to be operative.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000489">
+<numlist>
+<numlitem><para>After engine start, verify associated engine generator
+is operating, and the L(R) GEN OFF EICAS message is extinguished.</para>
+</numlitem>
+<numlitem><para>If the associated generator is operative, select the
+generator OFF and observe the associated L(R) GEN OFF EICAS message
+illuminates.</para></numlitem>
+<numlitem><para>Reset the associated engine generator and observe
+the associated EICAS message L(R) GEN OFF is extinguished.</para>
+</numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard Generator CONT OFF Light "INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000490">
+<numlist>
+<numlitem><para>Start affected engine and verify associated L(R) GEN
+OFF EICAS message is extinguished.</para></numlitem>
+<numlitem><para>If associated generator is operative, select the generator
+OFF and observe the associated L(R) GEN OFF EICAS message is displayed.</para>
+</numlitem>
+<numlitem><para>Reset the associated generator and observe the L(R)
+GEN OFF EICAS message is extinguished.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

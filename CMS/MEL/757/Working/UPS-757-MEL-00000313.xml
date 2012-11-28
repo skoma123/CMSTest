@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="1" key="UPS-757-MEL-00000313" revdate="20080924" revnbr="65" sectnbr="21">
+<title>Yaw Dampers</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided remaining yaw damper is verified
+to be operative.</para>
+</remarks>
+<placard>
+<para>Placard affected Yaw Damper switchlight "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000314">
+<numlist>
+<numlitem><para>To verify the proper operation of the remaining yaw
+damper use the following procedure:</para>
+<numlist>
+<numlitem><para>Establish electrical and hydraulic power.</para>
+</numlitem>
+<numlitem><para>Verify that the IRS' are aligned and in NAV mode.</para>
+</numlitem>
+<numlitem><para>Position autopilot and flight director switches to
+OFF on AFDS mode control panel P55.</para></numlitem>
+<numlitem><para>Verify that Engine Indicating and Crew Alerting System
+is operational.</para></numlitem>
+<numlitem><para>Select STATUS on EICAS display select panel P9.</para>
+</numlitem>
+<numlitem><para>Press operational YAW DAMPER switchlight on yaw damper
+panel and verify ON is illuminated.</para></numlitem>
+<numlitem><para>Verify that YAW DAMPER INOP indicator is extinguished.</para>
+</numlitem>
+<numlitem><para>Momentarily position YAW DMPR test switch (P61) to
+TEST on the operational yaw damper (L or R).</para></numlitem>
+<numlitem><para>Verify immediately that the YAW DAMPER INOP indicator
+is illuminated amber.</para></numlitem>
+<numlitem><para>Verify that the rudder position indicator in EICAS
+display shows the rudder moves approximately 3 degrees trailing edge
+right, then 3 degrees trailing edge left and then returns to center
+within 10 SECONDS. Rudder deflection of 3 degrees is represented by
+a 0.05 inch movement on the EICAS indicator scale.</para></numlitem>
+<numlitem><para>Verify that the YAW DAMPER INOP indicator is extinguished
+in approximately 10 seconds.</para></numlitem>
+<numlitem><para>Restore aircraft to required configuration.</para>
+</numlitem>
+</numlist>
+<para><emphasis role="bold">OR</emphasis></para>
+<note><para>Use step 2 below to render L or R Yaw Damper System inoperative
+ONLY if there is visible external leakage evident at the L or R Yaw
+Damper Actuator.</para></note>
+</numlitem>
+<numlitem><para>To render L or R Yaw Damper System Inoperative:</para>
+<numlist>
+<numlitem><para>For left yaw damper actuator, remove left hydraulic
+system pressure. For right yaw damper actuator, remove center hydraulic
+system pressure.</para></numlitem>
+<numlitem><para>At the P-61 panel, select the L, C, R, TAIL SHUTOFF
+VALVES to OFF position.</para></numlitem>
+<numlitem><para>At the P-10 control stand, select the two STAB TRIM
+switches to CUTOFF position.</para></numlitem>
+<numlitem><para>Open the following circuit breakers at the P-11 panel.
+Make sure the FLT CONT ELEC AC circuit breakers are opened prior to
+the FLT CONT ELEC DC circuit breakers for each power supply module.</para>
+<table frame="none">
+<tgroup cols="2">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">YAW DAMPER L:</emphasis></para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para><emphasis role="underline">YAW DAMPER R:</emphasis></para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 1L AC (C6)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 1R AC (G17)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 1L DC (C7)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 1R DC (G18)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 2L AC (C8)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 2R AC (G27)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 2L DC (C9)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>FLT CONT ELEC 2R DC (G28)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>STAB TRIM SHUTOFF L (C12)</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>STAB TRIM SHUTOFF R (C13)</para>
+</entry>
+</row>
+<row>
+<entry colsep="1" nameend="col2" namest="col1">
+<para>FLT CONTROL SHUTOFF TAIL L (H17), C (H18), R (H28)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Gain access to the leaky yaw damper actuator.</para>
+</numlitem>
+<numlitem><para>Remove the pressure and return lines from the leaky
+actuator.</para>
+<note><para>Use suitable caps and plugs, such as MS21913K4 (plug)
+and MS21914-4K (cap) or equivalent for pressure lines and MS21913D6
+(plug) and MS21914-6D (cap) or equivalent for return lines. </para>
+</note>
+</numlitem>
+<numlitem><para>Cap actuator hydraulic port.</para></numlitem>
+<numlitem><para>Plug actuator hydraulic line.</para></numlitem>
+<numlitem><para>Close all circuit breakers opened in step D.</para>
+</numlitem>
+<numlitem><para>Set STAB TRIM switches at the P-10 control stand to
+NORM.</para></numlitem>
+<numlitem><para>Set L, C, R, TAIL SHUTOFF VALVES to ON.</para>
+</numlitem>
+<numlitem><para>Verify proper operation of the remaining yaw damper
+system per step 1 above.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

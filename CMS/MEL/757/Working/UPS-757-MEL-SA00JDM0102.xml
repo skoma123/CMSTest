@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-2" key="UPS-757-MEL-SA00JDM0102" revdate="20090814" revnbr="66" sectnbr="00">
+<title>Gear Door Ground Control Switches/Lights &ndash; Gear Door
+Open/Door Arm Switches </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="&ndash;"
+nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Inoperative switch is verified failed in open circuit
+position, and</para></numlitem>
+<numlitem><para>Alternate gear extension switch ALTN GEAR EXTEND on
+flight deck is verified to be operative.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard appropriate switches as required and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757DMP002513SA558">
+<numlist>
+<numlitem><para>To verify Gear Door Open/Door Arm switches failed
+in the open circuit position, do the following:</para>
+<numlist>
+<numlitem><para>One at a time, cycle the switches. If nothing happens,
+the switches are failed in the open circuit position.</para>
+<warning><para>KEEP PERSONS AND EQUIPMENT AWAY FROM THE WHEEL WELL
+AREAS WHEN YOU MOVE THE ALTN GEAR EXTEND SWITCH TO OPEN THE GEAR DOOR(S).
+THE DOOR(S) OPEN AND CLOSE QUICKLY AND CAN CAUSE INJURY TO PERSONS
+AND DAMAGE TO EQUIPMENT.</para></warning>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify the ALTN GEAR EXTEND switch is operative as
+follows:</para>
+<warning><para>KEEP PERSONS AND EQUIPMENT AWAY FROM THE WHEEL WELL
+AREAS WHEN YOU MOVE THE ALTN GEAR EXTEND SWITCH TO OPEN THE GEAR DOOR(S).
+THE DOOR(S) OPEN AND CLOSE QUICKLY AND CAN CAUSE INJURY TO PERSONS
+AND DAMAGE TO EQUIPMENT.</para></warning>
+<numlist>
+<numlitem><para>Close the gears doors.</para></numlitem>
+<numlitem><para>Move the ALTN GEAR EXTEND switch to the down position.</para>
+</numlitem>
+<numlitem><para>Verify the gear doors open.</para></numlitem>
+<numlitem><para>Return the aircraft to normal configuration.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

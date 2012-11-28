@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS-757-MEL-00000742" revdate="20080924" revnbr="65" sectnbr="51">
+<title>Automatic Flap Load Relief Retraction System (Trailing Edge)</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>Flaps 30 retractor may be inoperative provided Flaps 30 adjusted
+maximum landing weight is observed.</para>
+<note><para>Flaps 25 may be used to maximum landing weight.</para>
+</note>
+</remarks>
+<operation key="UPS-757-MEL-00000743">
+<numlist>
+<numlitem><para>Landing Weight Reduction - Flaps 30 Structural Landing
+Weight reduced to 183,000 lbs.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00000745">
+<numlist>
+<numlitem><para>Landing Weight Reduction - Flaps 30 Structural Landing
+Weight reduced to 183,000 lbs.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard next to Flap Handle "AUTO FLAP LOAD RELIEF INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

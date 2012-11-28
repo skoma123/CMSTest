@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="2-2" key="UPSB757MELCDL20090731101132" revdate="20090814" revnbr="66"
+sectnbr="25-1">
+<title>SAT COMMUNICATION SYSTEMS &ndash; SATCOM LIGHTS</title>
+<dispcond attr-rev="NO" category="D" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+</remarks>
+<placard>
+<para>Placard light "INOP" and enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+</dispcond>
+</item>

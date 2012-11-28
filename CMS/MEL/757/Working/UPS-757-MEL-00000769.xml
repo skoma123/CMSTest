@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="27" chg="U" itemnbr="1" key="UPS-757-MEL-00000769" revdate="20080924" revnbr="65" sectnbr="81">
+<title>Inboard Slat Loss Sensing System</title>
+<dispcond btb="NO" category="A" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Either left or right switch may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Slat loss sensing system is deactivated,</para>
+</numlitem>
+<numlitem><para>Minimum approach speeds are increased by 10 kts for
+each approach, and</para></numlitem>
+<numlitem><para>Repair is made within one flight day.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000770">
+<numlist>
+<numlitem><para>Add 10 knots to the planned V<sub>ref</sub>  for the
+planned landing flap setting.</para></numlitem>
+<numlitem><para>Reduce Runway Landing Limit Weight by 25,000 lbs.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.
+ </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00000772">
+<numlist>
+<numlitem><para>Add 10 knots to the planned V<sub>ref</sub>  for the
+planned landing flap setting.</para></numlitem>
+<numlitem><para>Reduce Runway Landing Limit Weight by 25,000 lbs.</para>
+</numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.
+ </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near upper EICAS "L (R) INBD SLAT SW INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000771">
+<numlist>
+<numlitem><para>Deactivate inoperative Inboard Slat Loss switch (Ref.
+WDM 27-81-31).</para>
+<numlist>
+<numlitem><para>Troubleshoot which Inboard Slat Loss switch is inoperative. </para>
+</numlitem>
+<numlitem><para>Cut and stow wire to inoperative switch as close to
+switch as possible.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Check for normal operation of slats.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

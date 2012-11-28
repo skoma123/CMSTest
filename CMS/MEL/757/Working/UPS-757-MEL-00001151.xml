@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="49" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001151" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Auxiliary Power Unit (APU) &ndash; Pneumatic Function </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided procedures do not require its use.</para>
+<note><para>APU may be used for electric power.</para></note>
+</remarks>
+<placard>
+<para>Placard APU Bleed Valve Control Switch "PNEUMATIC FUNCTION INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001152">
+<para><emphasis role="underline">MAINTENANCE NOTE: </emphasis></para>
+<numlist>
+<numlitem><para>Select APU Bleed Air Valve Switch to OFF.</para>
+</numlitem>
+<numlitem><para>Ensure VALVE Light and APU BLD VAL EICAS message are
+not illuminated. </para></numlitem>
+<numlitem><para>If there is indication the valve did not close, use
+MEL <refint refid="UPS-757-MEL-00001093" reftype="MEL">36-11-4</refint
+> for deferral.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

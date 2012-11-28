@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPS-MEL-757-346112FDK" revdate="20080924" revnbr="65" sectnbr="61">
+<title>Flight Management Computer Systems (FMCS) &ndash; FMC Annunciator
+Light</title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative provided CDU MSG light and EICAS Advisory
+message FMC MESSAGE are verified to be operative.</para>
+</remarks>
+<placard>
+<para>Placard "FMC Annunciator LIGHT INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-6112MNTFDK">
+<note><para>This test uses two people, one in the flight deck and
+one in the main equipment center.</para></note>
+<numlist>
+<numlitem><para>On P11 circuit breaker panel open the following circuit
+breaker - FMCS RIGHT(LEFT) E-30(E-9).</para></numlitem>
+<numlitem><para>On the left(right) FMC CDU - push the clear key until
+all the messages are clear.</para></numlitem>
+<numlitem><para>On the E2 rack left(right) FMC front face - push and
+hold the TEST button.</para></numlitem>
+<numlitem><para>On the upper EICAS screen - make sure the message
+FMC MESSAGE appears.</para></numlitem>
+<numlitem><para>On the left(right) FMC CDU - the MSG light is illuminated. </para>
+</numlitem>
+<numlitem><para>On the E2 rack left(right) FMC front face - release
+the TEST button.</para></numlitem>
+<numlitem><para>On P11 circuit breaker panel close the following circuit
+breaker - FMCS CMPTR RIGHT(LEFT) E-30(E-9).</para></numlitem>
+<numlitem><para>Repeat test steps 1 thru 7 on right FMC with left
+FMC disabled using data in parentheses.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

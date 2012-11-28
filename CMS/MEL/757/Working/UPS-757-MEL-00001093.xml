@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="4" key="UPS-757-MEL-00001093" revdate="20080924" revnbr="65" sectnbr="11">
+<title>APU BLEED Valve</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>The valve is closed, and</para></numlitem>
+<numlitem><para>Bleed switch remains OFF.</para></numlitem>
+</numlist>
+<note><para>APU may be used for electrical power.</para></note>
+</remarks>
+<placard>
+<para>Placard APU VALVE switch located on Bleed Air Supply Module
+(M10259) on P5 panel "INOP" and enter item in Aircraft Deferred Item
+Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001094">
+<numlist>
+<numlitem><para>Press APU VALVE switchlight on P5 panel to OFF position.
+ Verify that bar light and VALVE light goes out.</para></numlitem>
+<numlitem><para>If VALVE Light does not go out, manually close APU
+valve as follows:</para>
+<numlist>
+<numlitem><para>Open and collar AIR SUPPLY APU BLEED PWR circuit breaker
+(11Q22). </para></numlitem>
+<numlitem><para>Open controls access door (313BL).</para></numlitem>
+<numlitem><para>Manually position the position indicator on APU valve
+to CLOSE. </para></numlitem>
+<numlitem><para>Close controls access door (313BL).</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="36" chg="U" confnbr="4" key="UPS757DMPFIG3606"
+revdate="20080924" revnbr="65" sectnbr="11">
+<title>APU BLEED (SHUTOFF) VALVE</title>
+<sheet chg="U" gnbr="DMP_CH_36_Page_6" key="UPSDMP_CH_36_Page_6"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

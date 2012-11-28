@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-1" key="UPS-MEL-757-345811FDK" revdate="20080924" revnbr="65" sectnbr="58">
+<title>Automatic Dependent Surveillance-Broadcast (ADS-B) System &ndash;
+Link and Display Processor Unit (LDPU) (STC ST01103SE) (EFB Not Installed)</title>
+<dispcond category="D" nbrins="1" nbrreq="0">
+<remarks>
+<para>May be inoperative.</para>
+<note><para>Cockpit Display of Traffic Information (CDTI) display
+of data from other aircraft systems may be used.</para></note>
+</remarks>
+<placard>
+<para>Placard ADS-B LDPU "INOP" and enter item in Aircraft Deferred
+Item Log. </para>
+</placard>
+</dispcond>
+</item>

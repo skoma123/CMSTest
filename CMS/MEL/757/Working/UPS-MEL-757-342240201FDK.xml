@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="4-0-2" key="UPS-MEL-757-342240201FDK" revdate="20100423" revnbr="68" sectnbr="22">
+<title>Flight Director Systems &ndash; Two or Three Inoperative</title>
+<dispcond category="C" downgrade="CATEGORY 1" maintenance="NO" nbrins="3"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+their use. </para>
+<note><para>Windshear guidance may be unavailable.</para></note>
+</remarks>
+<operation key="UPS-MEL-757-3422402OPSFDK">
+<numlist>
+<numlitem><para>For Category 1 manually flown lLS approaches, one
+flight director system or approach coupler must be operative at the
+time of flight release if a combination of weather reports and forecast
+indicates the weather at the destination airport will be below 3/4
+mile visibility or RVR 4000 at the estimated time of arrival.</para>
+</numlitem>
+<numlitem><para>For Category 1 manually flown lLS approaches, all
+flight director systems may be inoperative provided a combination
+of weather reports and forecasts indicates the weather at the destination
+airport will be at or above 3/4 mile visibility or RVR 4000 at the
+estimated time of arrival.</para></numlitem>
+<numlitem><para>For autopilot coupled approaches to Category 1 minima,
+one flight director must be operative.</para></numlitem>
+<!--Per Chris Zimmerman's e-mail 4/21/10-->
+<numlitem><para>For flight operations not intending an lLS approach,
+all flight director systems may be inoperative. </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-MEL-757-3422402LIMFDK">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+1.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard associated Flight Director "INOP" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-3422401MANFDK">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="158.50pt"/>
+<colspec colname="col3" colwidth="159.31pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>2 or 3</para>
+</entry>
+<entry align="center">
+<para>CAT 1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

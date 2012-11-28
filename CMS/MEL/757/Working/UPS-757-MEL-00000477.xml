@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="24" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000477" revdate="20090814" revnbr="66" sectnbr="11">
+<title>Generator DRIVE Lights &ndash; IDG Connected </title>
+<dispcond attr-rev="NO" btb="YES" category="B" maintenance="YES"
+nbrins="2" nbrreq="1" operation="NO">
+<remarks>
+<para>One may be inoperative off provided associated EICAS message
+is verified to be operative.</para>
+</remarks>
+<placard>
+<para>Placard affected L (R) GEN CONT switch "DRIVE LIGHT INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000478">
+<numlist>
+<numlitem><para>Verify associated EICAS message operates normally
+as follows: </para>
+<numlist>
+<numlitem><para>Run affected engine.</para></numlitem>
+<numlitem><para>Disconnect affected IDG by pushing the disconnect
+switch on the overhead panel.</para></numlitem>
+<numlitem><para>Verify the associated EICAS message (L/R GEN DRIVE)
+is displayed: </para></numlitem>
+<numlitem><para>Shut down affected engine.</para></numlitem>
+<numlitem><para>Return aircraft to normal configuration (reconnect
+affected IDG).</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

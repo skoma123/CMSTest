@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="36" chg="U" itemnbr="2" key="UPS-757-MEL-00001085" revdate="20080924" revnbr="65" sectnbr="11">
+<title>ENGINE HIGH STAGE (L &amp; R) Bleed Valve Systems </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Valve is secured closed,</para></numlitem>
+<numlitem><para>A minimum N<sub>1</sub>  is maintained on the associated
+engine in icing conditions as follows:  </para><para>(P&amp;W)</para>
+<para>70% N<sub>1</sub>  above 10,000 feet MSL</para>
+<para>60% N<sub>1</sub>  below 10,000 feet MSL</para>
+<para>(RB211)</para>
+<para>75% N<sub>1</sub></para>
+</numlitem>
+<numlitem><para>Descent, approach and landing are not made in icing
+conditions within 5,000 feet AGL, and</para></numlitem>
+<numlitem><para>Remaining (opposite) engine bleed system is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00001086">
+<note><para>For engine start during single engine taxi with HPSOV
+deferred on the operating engine; when APU air is available, APU must
+be started and used to start the remaining engine. </para></note>
+<note><para>When APU air is unavailable with HPSOV deferred; both
+engines must be started with a ground air source.</para></note>
+<numlist>
+<numlitem><para>Operate with bleed air switch normal.</para></numlitem>
+<numlitem><para>In icing conditions, maintain a minimum N<sub>1</sub
+>  as follows:</para><para>(P&amp;W)</para>
+<para>70% N<sub>1 </sub> above 10,000 feet MSL</para>
+<para>60% N<sub>1</sub>  below 10,000 feet MSL</para>
+<para>(RB211)</para>
+<para>75% N<sub>1</sub></para>
+</numlitem>
+<numlitem><para>Do not execute descent, approach and landing in icing
+conditions below 5,000 feet AGL.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00001088">
+<numlist>
+<numlitem><para>No icing conditions below 5000 ft. AGL at intended
+destination. </para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near BLEED Indicator light located on Bleed Air Supply
+Module (M10259) on P5 panel "HI PRESS S/O VLV INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-DMP-0SA425001087">
+<numlist>
+<numlitem><para>Notify Flight Dispatch.  Flight operations may be
+affected. </para></numlitem>
+<numlitem><para>Lock valve in closed position as outline below.</para>
+<warning><para>FAILURE TO FOLLOW MAINTENANCE 78-31-00/201 COULD RESULT
+IN INJURY TO PERSONNEL AND DAMAGE TO FAN COWL, CORE COWL AND FAN DUCT
+COWL AND THRUST REVERSER.</para></warning>
+</numlitem>
+<numlitem><para>For PW engine, open right fan cowl, right core cowl
+and right thrust reverser fan duct cowl (MM 78-31-001201).</para><para
+>For RB211 engine, open left fan C-duct and thrust reverser (MM 78-31-001201).</para>
+<numlist>
+<numlitem><para>Rotate the manual override hex nut on the high pressure
+shutoff valve clockwise until the poppet valve lever falls into the
+lock arm assembly notch.  The word "LOCKED" should be visible on the
+valve body beneath the cam.  Ensure the poppet valve lever is not
+in the detent position.</para>
+<note><para>This locks valve in closed position.  Valve must be manually
+wrenched from CLOSE before valve will open.</para></note>
+<note><para>A faulty, or out of calibration, over-pressure sensor
+could cause the HI STAGE light to illuminate and advisory EICAS message
+to appear, regardless of valve position.</para></note>
+</numlitem>
+<numlitem><para>Disconnect High Stage Pilot electrical connector,
+cap and stow.</para></numlitem>
+<numlitem><para>Close fan duct cowl and thrust reverser.</para>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="36" chg="U" key="UPSB757MELCDL20080925104316"
+revdate="20080924" revnbr="65" sectnbr="11">
+<title>HPSOV</title>
+<sheet chg="U" gnbr="DMP_CH_36_Page_3" key="UPSB757MELCDL20080925104507"
+revdate="20080924" revnbr="65" sheetnbr="001"></sheet>
+</graphic>
+<graphic chapnbr="36" chg="U" key="UPSB757MELCDL20080925105627"
+revdate="20080924" revnbr="65" sectnbr="11">
+<sheet chg="U" gnbr="DMP_CH_36_Page_4" key="UPSB757MELCDL20080925105718"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>RB211-535 ENGINES</title>
+</sheet>
+</graphic>
+<graphic chapnbr="36" chg="U" key="UPSB757MELCDL20080925110902"
+revdate="20080924" revnbr="65" sectnbr="11">
+<sheet chg="U" gnbr="DMP_CH_36_Page_5" key="UPSB757MELCDL20080925110942"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>PW2000 ENGINES (High-Stage Pilot)</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

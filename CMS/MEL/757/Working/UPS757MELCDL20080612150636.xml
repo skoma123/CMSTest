@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="2-0-1" key="UPS757MELCDL20080612150636" revdate="20100423" revnbr="68"
+sectnbr="58">
+<title>ACSS Surveillance Processor (STC ST02053LA) &ndash; (EFB Installed)</title>
+<dispcond category="B" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Automatic Dependent Surveillance-Broadcast (ADS-B)
+is considered inoperative, and</para></numlitem>
+<numlitem><para>TCAS is considered inoperative.</para></numlitem>
+</numlist>
+<!--Per C.R.#4381 Bill Bombatch 3/9/10 Considered Inop Item-->
+<note><para>Two additional deferrals required &ndash; Automatic Dependent
+Surveillance-Broadcast (ADS-B) System &ndash; ADS-B Applications and
+Traffic Alert Collision Avoidance System (TCAS II) &ndash; (EFB Installed
+or EFB Not Installed).</para></note>
+</remarks>
+<operation key="UPS757MELCDL20080612151015">
+<numlist>
+<numlitem><para>Operate TCAS in transponder-only mode by selecting
+TCAS Mode Selector to XPNDR position.</para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS757MELCDL20080612151355">
+<numlist>
+<numlitem><para>Flight Control to ensure TCAS is not required by Foreign
+States along planned route.</para></numlitem>
+<numlitem><para>Merging &amp; Spacing and CAVS operations are prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to affected TCAS/VSI indicator "INOP".</para>
+<para>Placard ADS-B "INOP" and enter item in Aircraft Deferred Item
+Log.</para>
+<para>Placard TCAS "INOP" and enter item in Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757MELCDL20080612151509">
+<!--Removed item 2 of DMP per Mike O. covering for Bill Bombatch 4/14/10-->
+<numlist>
+<numlitem><para>Deactivate and secure the system by opening and collaring
+the TCAS circuit breaker.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

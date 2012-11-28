@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="26" chg="U" itemnbr="1" key="UPS-757-MEL-00000648" revdate="20080924" revnbr="65" sectnbr="20">
+<title>Engine Fire Extinguisher Bottle Pressure Indicating System
+&ndash; Fire BTL DISCH Lights </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided an acceptable test procedure is
+used once each flight day to verify that associated bottle is properly
+charged.</para>
+</remarks>
+<placard>
+<para>Placard affected BTL DISCH Light (P8) "INOP" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000649">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<note><para>Perform once each flight day.</para></note>
+<note><para>Bottle charge can be verified two ways: electrically per
+step 1) or by weighing the bottle per step 2). If the electrical check
+passes, the aircraft may be dispatched. If the electrical check fails,
+the failure may be in the pressure switch, and the system may still
+be acceptable for dispatch if the bottle charge is verified by weighing.</para>
+</note>
+<numlist>
+<numlitem><para>Check that the pressure switch is operative, and that
+bottle is charged:</para>
+<numlist>
+<numlitem><para>Disconnect electrical connector from pressure switch
+at bottle with inoperative light circuit.</para></numlitem>
+<numlitem><para>Connect ohmmeter between pin sockets 1 and 3 of bottle
+receptacle.</para>
+<numlist>
+<numlitem><para>Check for open circuit indication. Open circuit indicates
+pressurized bottle.</para></numlitem>
+<numlitem><para>Push and hold the pressure switch manual-override
+button or turn and hold the ground test hex key 1/4 turn counterclockwise
+on the switch and check for closed circuit indication. </para>
+</numlitem>
+<numlitem><para>Release button or hex key and check for open circuit
+indication.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Reconnect electrical connector to bottle receptacle.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Optional Procedure:</para>
+<numlist>
+<numlitem><para>Remove the bottle per the AMM procedure 26-21-01.</para>
+</numlitem>
+<numlitem><para>Weigh bottle and compare to the service weight stamped
+on the fire bottle (+/- 0.1 pound).</para></numlitem>
+<numlitem><para>Reinstall serviceable bottle as per AMM.</para>
+</numlitem>
+<numlitem><para>Cap and stow the affected bottle's Pressure Switch
+Connector.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS-757-MEL-00000816" revdate="20080924" revnbr="65" sectnbr="26">
+<title>Defuel Valves</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be  inoperative closed.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "DEFUEL VALVES INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000817">
+<numlist>
+<numlitem><para>Open and collar associated L/R TANK DEFUEL VALVES
+circuit breakers (L 34B1, R 34B2).</para></numlitem>
+<numlitem><para>Locate the defueling valve actuator on the dry side
+of the inboard rear spar just inboard of each center tank end rib.
+ Access is through the main landing gear shock strut door.</para>
+</numlitem>
+<numlitem><para>Remove cap and stow valve electrical connector.</para>
+</numlitem>
+<numlitem><para>Lockwire actuator manual override handle in the CLOSED
+position. </para></numlitem>
+<numlitem><para>Notify Flight Dispatch that the Defuel Valves are
+inoperative. </para></numlitem>
+</numlist>
+<graphic chapnbr="28" chg="U" key="UPS757DMPFIG2817" revdate="20080924"
+revnbr="65" sectnbr="26">
+<title>DEFUELING VALVE INSTALLATION</title>
+<sheet chg="U" gnbr="DMP_CH_28_Page_3" key="UPS-757-MEL-0000FIG0305"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="1-2" key="UPSB757MELCDL20100407104724" revdate="20100423" revnbr="68"
+sectnbr="42">
+<!--Per Bill Bombatch's e-mail 3/29/10-->
+<title>ANTI-SKID SYSTEM CHANNELS &ndash; (ONE CHANNEL AND ASSOCIATED
+BRAKE INOPERATIVE &ndash; DEACTIVATED BY CAPPING THE LINE)</title>
+<dispcond attr-rev="NO" btb="YES" category="C"
+downgrade="CATEGORY 1/2/3a" maintenance="YES" nbrins="8" nbrreq="7"
+operation="YES">
+<remarks>
+<para>One channel and associated brake may be inoperative (brake deactivated
+or line capped) provided:</para>
+<numlist>
+<numlitem><para>Brake is deactivated by an acceptable procedure, and</para>
+</numlitem>
+<numlitem><para>AOM Ch. 5.1 Brake Deactivated or Line Capped decrements
+are applied for the selected procedure.</para></numlitem>
+</numlist>
+<note><para>Dispatch is not allowed with a brake deactivated and the
+anti-skid system inoperative.</para></note>
+<para><emphasis role="bold">CATEGORY 3b</emphasis></para>
+<para>Installed: 8</para>
+<para>Required: 8</para>
+<para>Must be operative.</para>
+</remarks>
+<operation key="UPSB757MELCDL20100407105359">
+<para><emphasis role="underline">PRE-TAKEOFF PERFORMANCE CALCULATIONS:</emphasis
+></para>
+<para>(Use appropriate One Brake Deactivated worksheet respective
+to engine type, in Chapter 5.1 of the AOM.)</para>
+<para><emphasis role="underline">TAKEOFF PROCEDURES:</emphasis></para>
+<numlist>
+<numlitem><para>After takeoff, the landing gear must remain extended
+for a minimum of two minutes to allow the wheel to spin down prior
+to gear retraction.</para></numlitem>
+<numlitem><para>An additional 500 lbs. of fuel must be added to account
+for additional drag of leaving landing gear extended.</para></numlitem>
+</numlist>
+<para><emphasis role="underline">LANDING PROCEDURES:</emphasis></para>
+<numlist>
+<numlitem><para>See the destination airport landing chart for the
+runway limit weight for landing with one wheel brake deactivated.</para>
+</numlitem>
+<numlitem><para>Consult the Quick Turn-Around Limit chart with one
+wheel brake deactivated, if necessary.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPSB757MELCDL20100407105919">
+<note><para>Must be operative for dispatch into LPB, UIO, BOG, GUA,
+TGU.</para></note>
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+<numlitem><para>Takeoff Performance limit weight (lower of runway/climb
+limit weight) reduced by:</para><para>Flaps 5 = 37,800 lbs.</para>
+<para>Flaps 15 = 31,400 lbs.</para>
+</numlitem>
+<numlitem><para>Landing Weight Reduction &ndash; see destination airport
+landing chart for Max Landing Weight With One Brake Deactivated.</para>
+</numlitem>
+<numlitem><para>Additional 500 lbs. of fuel required for planning
+purposes.</para></numlitem>
+<numlitem><para>Flaps 1 and 20 takeoff operation is not allowed.</para>
+</numlitem>
+<numlitem><para>No operation with Improved Climb Performance is allowed.</para>
+</numlitem>
+<numlitem><para>If "OCA" is present on the airport analysis page and
+is greater than the level of height, contact Flight Control for alternate
+airport analysis data.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard Anti-Skid Light "ANTI-SKID SYSTEM CHANNEL #_____ INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+<para>Placard Autobrake Selector Panel "SYSTEM INOP".</para>
+</placard>
+<maintenance key="UPSB757MELCDL20100407110557">
+<numlist>
+<numlitem><para>Accomplish Dispatch Maintenance Procedure <refint
+refid="UPS757-DMP-4157SA2552658" reftype="DMP">32-42-1-1</refint>.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

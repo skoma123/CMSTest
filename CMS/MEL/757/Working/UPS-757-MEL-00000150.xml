@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="1-1" key="UPS-757-MEL-00000150" revdate="20080924" revnbr="65" sectnbr="52">
+<title>Pack RESET Switches &ndash; Both Packs Operating </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided both packs are operative.</para>
+</remarks>
+<placard>
+<para>Placard respective PACK RESET switch "PACK RESET SWITCH INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

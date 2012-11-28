@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="2-1" key="UPS-757-MEL-00000399" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Flight Deck Communications Systems (Datalink)</title>
+<dispcond attr-rev="NO" btb="NO" category="C" maintenance="NO" nbrins="2"
+nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided alternate procedures are established
+and used.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000400">
+<numlist>
+<numlitem><para>Place associated selector switch in voice mode.</para>
+</numlitem>
+<numlitem><para>If Datalink is not available in both HF and SATCOM
+modes, complete Flight Data coupon as described in FOM, Chapter 3
+on each leg, and submit white copy to Operations personnel at arrival
+gateway. </para></numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-00000402">
+<note><para>Any mode which is operative may be used.</para></note>
+</limitation>
+<placard>
+<para>Placard near HF Control Panel "L(R) HF DATALINK INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

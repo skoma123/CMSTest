@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="2-0-1" key="UPS-MEL-757-3461201FDK" revdate="20080924" revnbr="65" sectnbr="61">
+<title>Traffic Alert Collision Avoidance System (TCAS II) &ndash;
+(EFB Installed or EFB Not Installed)</title>
+<dispcond category="B" maintenance="YES" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>System is deactivated and secured, and</para></numlitem>
+<numlitem><para>En route or approach procedures do not require its
+use.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-MEL-757-3461201OPSFDK">
+<numlist>
+<numlitem><para>Operate TCAS in transponder-only mode by selecting
+TCAS Mode Selector to XPNDR position.</para></numlitem>
+</numlist>
+<note><para>Contact Dispatch for operational requirements for foreign
+states.</para></note>
+</operation>
+<limitation key="UPS-MEL-757-3461201LIMFDK">
+<numlist>
+<numlitem><para>Flight Control to ensure TCAS is not required by Foreign
+States along planned route.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard adjacent to affected TCAS/VSI indicator "RA INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-MEL-757-3461201MNTFDK">
+<numlist>
+<numlitem><para>Deactivate and secure the system by opening and collaring
+the TCAS circuit breaker.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

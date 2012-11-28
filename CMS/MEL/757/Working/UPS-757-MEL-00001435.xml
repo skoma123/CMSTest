@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="23" chg="U" key="UPS-757-MEL-00001435" qtyreq="2" revdate="20080924" revnbr="65" sectnbr="41">
+<title>INTERPHONE ACCESS PANEL - Wing-to-Body Fairing</title>
+<remarks>
+<para>One or both may be missing.  The performance decrement is negligible.
+ (SEE FIGURE 23-41-1)</para>
+</remarks>
+<graphic chapnbr="23" chg="U" key="UPS757CDLFIG2301" revdate="20080924"
+revnbr="65" sectnbr="41">
+<title>INTERPHONE ACCESS PANEL</title>
+<sheet chg="U" gnbr="CDL_CH_23_Page_1" key="UPSCDL_CH_23_Page_1"
+revdate="20080924" revnbr="65">
+<title>FIGURE 23-41-1</title>
+</sheet>
+</graphic>
+</cdlblk>

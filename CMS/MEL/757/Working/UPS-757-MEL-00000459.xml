@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="5-2-1-1" key="UPS-757-MEL-00000459" revdate="20080924" revnbr="65" sectnbr="51">
+<title>Flight Crew Communication Equipment &ndash; Dual Tone Multi-Frequency
+(DTMF)  </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Voice mode is operative, and</para></numlitem>
+<numlitem><para>Alternate procedures are established and used.</para>
+</numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-00000460">
+<numlist>
+<numlitem><para>Use voice radio, ACARS or other organizations, such
+as Aeronautical Radio Inc. (ARINC) for communications with Flight
+Control (FOM Chapter 4). </para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard near EICAS "DTMF INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

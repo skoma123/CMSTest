@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="2" chapnbr="32" chg="U" key="UPS-757-MEL-00001464" qtyreq="2" revdate="20080924" revnbr="65" sectnbr="12">
+<title>MAIN LANDING GEAR TRUNNION FAIRING</title>
+<remarks>
+<para>One or both may be missing.  For <emphasis role="underline"
+>each</emphasis>  missing fairing the performance limited weights
+are reduced by:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="left" colname="col1" colwidth="1.09*"/>
+<colspec align="right" colname="COLSPEC3" colwidth="0.55*"/>
+<colspec align="left" colname="col2" colwidth="1.36*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>1620 lbs (735 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>2407 lbs (1092 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</remarks>
+<note><para>Only one gear trunnion fairing or flap track fairing  <refint
+refid="UPS-757-MEL-00001447" reftype="CDL">(27-51-1)</refint> per
+side may be missing.</para></note>
+<note><para>If the front section is removed, then also remove the
+middle and aft sections.  If the middle section is removed, then remove
+the aft section also.  The aft section may be removed alone.</para>
+</note>
+<graphic chapnbr="32" chg="U" key="UPS757MELCDL20080801081337"
+revdate="20080924" revnbr="65" sectnbr="12">
+<sheet chg="U" gnbr="CDL_CH_32_Page_3" key="UPS757MELCDL20080801081914"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>FIGURE 32-12-2</title>
+</sheet>
+</graphic>
+</cdlblk>

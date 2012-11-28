@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPSB757MELCDL20100414083906" revdate="20100423" revnbr="68"
+sectnbr="16">
+<!--Per Bill Bombatch's e-mail 4/13/10 and PL-39 Rev 5-->
+<title>ALTITUDE ALERTING SYSTEM &ndash; VISUAL ALERT</title>
+<dispcond attr-rev="NO" category="C" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Aural alert is operative, and</para></numlitem>
+<numlitem><para>Autopilot with altitude hold and altitude capture
+is operative.</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPSB757MELCDL20100414084207">
+<numlist>
+<numlitem><para>In addition to normal crew callouts, the crew will
+observe and acknowledge Altitude Capture and Altitude Hold Flight
+Mode Annunciation on EADI.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard above Captain's Marker Beacon Lights "ALTITUDE ALERT
+VISUAL WARNING INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

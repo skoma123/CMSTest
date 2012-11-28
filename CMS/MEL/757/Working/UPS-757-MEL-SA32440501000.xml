@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="5" key="UPS-757-MEL-SA32440501000" revdate="20080924" revnbr="65" sectnbr="44">
+<title>BRAKE PRESS GAUGE (Flight Deck)</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Brake accumulator charge is verified normal once each
+flight day, and</para></numlitem>
+<numlitem><para>Right low SYS PRESS light is operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard BRAKE PRESS gauge on First Officer&rsquo;s main panel
+"GAUGE INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-SA324405325607">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<numlist>
+<numlitem><para>Check that landing gear ground lock pins are installed
+and wheels are adequately chocked.</para></numlitem>
+<numlitem><para>With the right and left hydraulic systems depressurized,
+check that the R SYS PRESS indicator light on P5 panel is illuminated.</para>
+</numlitem>
+<numlitem><para>Provide electrical power to hydraulic brake system.</para>
+</numlitem>
+<numlitem><para>Pressurize the right hydraulic system.  Verify that
+the R SYS PRESS indicator light on P5 panel is extinguished.</para>
+</numlitem>
+<numlitem><para>Gain access to accumulator pressure gauge in the aft
+hydraulic bay (197KL, in the wing fairing, see illustration).</para>
+<warning><para>DOOR LOCKS MUST BE PROPERLY INSTALLED BEFORE GAINING
+ACCESS TO PARKING BRAKE ACCUMULATOR (REF. MAINTENANCE MANUAL 32-00-15).
+ RAPID ACTION OF DOORS MAY CAUSE INJURY OR DAMAGE, IF LOCKS ARE NOT
+PROPERLY INSTALLED. </para></warning>
+</numlitem>
+<numlitem><para>Check that the pressure gauge indicates 2850 to 3500
+psig. </para></numlitem>
+<numlitem><para>Turn off the hydraulic pump.</para></numlitem>
+<numlitem><para>Discharge hydraulic pressure from parking brake accumulator
+by use of either the Captain's or the First Officer's brake pedals.
+ Full depress and release forth pedals at the same time:  seven times
+minimum.  Verify R SYS PRESS indicator light illuminated.</para>
+<note><para>Pause a minimum of 5 seconds after each brake application
+before next application.</para></note>
+</numlitem>
+<numlitem><para>Verify accumulator pressure is 1150 to 1500 psig.</para>
+<note><para>On a day cooler than 20&ordm;C, proper accumulator pressure
+is below 1300 psi.  Correct pressure as a function of ambient temperature
+is identified on a placard near the charge valve.</para></note>
+</numlitem>
+<numlitem><para>Restore aircraft to its required configuration.</para>
+</numlitem>
+</numlist>
+<graphic chapnbr="32" chg="U" confnbr="5" key="UPS757DMPFIG3216"
+revdate="20080924" revnbr="65" sectnbr="44">
+<title>BRAKE PRESSURE GAUGE</title>
+<sheet chg="U" gnbr="DMP_CH_32_Page_16" key="UPSDMP_CH_32_Page_16"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

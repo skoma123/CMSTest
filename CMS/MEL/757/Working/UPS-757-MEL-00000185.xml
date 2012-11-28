@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="21" chg="U" itemnbr="13" key="UPS-757-MEL-00000185" revdate="20080924" revnbr="65" sectnbr="58">
+<title>Equipment Cooling Airflow Detection System </title>
+<dispcond btb="YES" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided equipment cooling airflow is verified
+to be operative before each flight.</para>
+</remarks>
+<placard>
+<para>Placard near EICAS "EQUIPMENT COOLING AIRFLOW DETECTION SYSTEM
+INOP" and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000186">
+<note><para>The repetitive inspection required when this item is inoperative
+must be documented in the Aircraft Logbook at the prescribed intervals.
+(Refer to GMM, Chapter 3, Section 6.)</para></note>
+<para>When the equipment cooling airflow detection system is inoperative,
+indicated by EICAS status messages "EQPT CLG FLOW", "EQPT CLG SENSOR"
+or "EQPT CLG TEST" being displayed, use the following procedures to
+verify equipment cooling airflow is normal. If normal equipment cooling
+cannot be established, then the aircraft cannot be dispatched. </para>
+<numlist>
+<numlitem><para>EQPT CLG FLOW displayed:</para><para>Remove and stow
+the connector from the respective equipment cooling sensor associated
+with the displayed EICAS message and perform the following procedures
+based on the associated EICAS maintenance message.</para>
+<numlist>
+<numlitem><para>FWD EQ SUP FLOW (M) (Sensor TS5292) &ndash; Remove
+the right HSI per maintenance manual instructions and verify that
+airflow can be felt with a hand located against the first officers
+control column. Reinstall the HSI per maintenance manual instructions.</para>
+</numlitem>
+<numlitem><para>FWD EQ EXH FLOW (M) (Sensor TS5293) &ndash; Verify
+that air is exhausted at the equipment cooling overboard exhaust valve.</para>
+</numlitem>
+<numlitem><para>AFT EQ FLOW (M) &ndash; Remove a unit, per maintenance
+manual instruction, from the E6 rack and verify that airflow can be
+felt with a hand placed against the bottom of the next higher shelf.
+Reinstall the unit per maintenance manual instructions.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>EQPT CLG SENSOR displayed:</para><para>Perform the
+following procedures based on the associated EICAS Maintenance message.</para>
+<numlist>
+<numlitem><para>FWD EQ SUP SNSR (M) &ndash; Perform check procedure
+identified in 1.a.</para></numlitem>
+<numlitem><para>FWD EQ EXH SNSR (M) &ndash; Perform check procedure
+identified in 1.b.</para></numlitem>
+<numlitem><para>AFT EQ SUP SNSR (M) &ndash; Perform check procedure
+identified in 1.c.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>EQPT CLG TEST displayed:</para><para>Perform check
+procedures identified in 1.a., 1.b., and 1.c. If only EQPT CLG TEST
+is displayed, sensor connectors do not need to be disconnected.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

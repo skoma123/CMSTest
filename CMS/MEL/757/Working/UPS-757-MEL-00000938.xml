@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="30" chg="U" itemnbr="1-0-1" key="UPS-757-MEL-00000938" revdate="20091120" revnbr="67" sectnbr="31">
+<title>Pitot Probe Heater Systems</title>
+<dispcond btb="NO" category="B" maintenance="NO" nbrins="4" nbrreq="3"
+operation="NO">
+<remarks>
+<para>Except for ER operations beyond 120 minutes, one probe heater
+may be inoperative provided aircraft is not operated in visible moisture,
+or in known or forecast icing conditions.</para>
+</remarks>
+<operation key="UPS-757-MEL-00000939">
+<note><para>No flight in visible moisture, or in known or forecast
+icing conditions.</para></note>
+</operation>
+<limitation key="UPS-757-MEL-00000941">
+<numlist>
+<numlitem><para>Operations in visible moisture, or in known or forecast
+icing conditions prohibited.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near Probe Heat Lights "_______ PROBE HEAT INOP" and
+enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

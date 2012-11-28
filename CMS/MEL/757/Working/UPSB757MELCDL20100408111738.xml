@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="2-1" key="UPSB757MELCDL20100408111738" revdate="20100423" revnbr="68"
+sectnbr="14">
+<!--Per C.R. #4310 Kevin Woodruff 1/8/10-->
+<title>AUTOMATIC LANDING SYSTEM (AUTOLAND) &ndash; TRIPLE CHANNEL
+AUTOLAND (LAND 3)</title>
+<dispcond attr-rev="NO" category="C" downgrade="CATEGORY 3a" nbrins="1"
+nbrreq="0">
+<remarks>
+<para>May be inoperative provided approach minimums do not require
+its use.</para>
+<note><para>The ASA indicates faults in the Automatic Landing System.
+The indications may be accompanied by other indications or EICAS messages
+regarding specific inoperative equipment. Use appropriate associated
+MEL sequences.</para></note>
+<note><para>If a NO LAND 3 annunciation is displayed prior to departure
+and if no other indication or message are present, the aircraft may
+be dispatched with no maintenance action provided all three auto pilots
+can be independently engaged on the ground and approach minimums do
+not require triple channel autoland. Ground autopilot engagement should
+be done while the aircraft is parked.</para></note>
+</remarks>
+<limitation key="UPSB757MELCDL20100408112128">
+<numlist>
+<numlitem><para>Downgrade aircraft category dispatch status to CAT
+3a.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near the MCP APP Switch "NO LAND 3" and enter item in
+Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPSB757MELCDL20100408112623">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1" colwidth="158.50pt"/>
+<colspec colname="col2" colwidth="158.50pt"/>
+<colspec colname="col3" colwidth="159.31pt"/>
+<thead>
+<row>
+<entry align="center" valign="top">
+<para>INOP</para>
+<para>POSITION</para>
+</entry>
+<entry align="center" valign="top">
+<para>NUMBER</para>
+<para>INOP</para>
+</entry>
+<entry align="center" valign="top">
+<para>A/C STATUS</para>
+<para>DISPATCH</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<para>&mdash;</para>
+</entry>
+<entry align="center">
+<para>1</para>
+</entry>
+<entry align="center">
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</maintenance>
+</dispcond>
+</item>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="78" chg="U" itemnbr="1" key="UPS-757-MEL-8JDM542569" revdate="20090814" revnbr="66" sectnbr="36">
+<title>REV Unlock Indications</title>
+<dispcond btb="YES" category="C" downgrade="CATEGORY 1/2/3a"
+maintenance="YES" nbrins="2" nbrreq="1" operation="YES">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>No thrust reverser damage exists which would adversely
+affect aircraft operation,</para></numlitem>
+<numlitem><para>Thrust reverser for associated engine is deactivated
+and locked in stowed (forward thrust) position, and</para></numlitem>
+<numlitem><para>Appropriate performance adjustments are applied.</para>
+</numlitem>
+</numlist>
+<note><para>No performance adjustments required on UPS aircraft.</para>
+</note>
+</remarks>
+<operation key="UPS-757-MEL-00001360">
+<numlist>
+<numlitem><para>Asymmetrical reverse thrust may be used. Use normal
+reversing procedures and techniques. If it appears that rudder authority
+is becoming limited during deceleration, return lever to reverse idle
+detent.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS-757-MEL-3JDM8675426">
+<numlist>
+<numlitem><para>Downgrade aircraft dispatch category status to CAT
+3a.</para></numlitem>
+<numlitem><para>Land and Hold Short Operations (LAHSO) prohibited.</para>
+<note><para>Must be operative for dispatch into LPB, UIO, BOG, GUA,TGU.</para>
+</note>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near EICAS "REV UNLOCK INDICATION INOP" for affected
+reverser and enter item in Aircraft Deferred Item Log.</para>
+<para>Placard affected Reverser Thrust Lever "REVERSER INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001361">
+<para>Deferral of this item requires downgrading to the status indicated
+in the A/C STATUS DISPATCH column below.</para>
+<table>
+<tgroup align="center" cols="3">
+<colspec colname="col1" colwidth="0.99*"/>
+<colspec colname="col2" colwidth="1.00*"/>
+<colspec colname="col3" colwidth="1.01*"/>
+<thead>
+<row>
+<entry valign="top">
+<para><emphasis role="bold">INOP POSITION</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">NUMBER INOP</emphasis></para>
+</entry>
+<entry valign="top">
+<para><emphasis role="bold">A/C STATUS DISPATCH</emphasis></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<para>&ndash;</para>
+</entry>
+<entry>
+<para>1</para>
+</entry>
+<entry>
+<para>CAT 3a</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<numlist>
+<numlitem><para>Check thrust reverser is physically normal (No visible
+damage and thrust reverser sleeve is in alignment by visual inspection).</para>
+</numlitem>
+<numlitem><para>Deactivate thrust reverser in accordance with Dispatch
+Maintenance Procedure <refint refid="UPS-757DMP7831SA54651">78-31-1-1</refint
+>.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

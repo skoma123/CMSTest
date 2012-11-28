@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="2-2-2" key="UPS-757-MEL-SA3261020202451" revdate="20080924" revnbr="65"
+sectnbr="61">
+<title>Landing Gear Position Sensors &ndash; Main Gear up and Locked
+Sensors &ndash; System Two </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="2" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Main gear door closed sensors are verified to be operative,
+and</para></numlitem>
+<numlitem><para>Both main gear up and locked sensors from System 1
+are verified to be operative.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard Main Landing Gear Light "MLG UP SENSOR INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00SA3261020257945">
+<title>Main Gear Up and locked Sensors &ndash; System Two Inoperative</title>
+<para>For inoperative Main Gear Up and Locked Sensors, do the following:</para>
+<numlist>
+<numlitem><para>Verify Main Gear Door Closed Sensors operate normally
+as follows: </para>
+<numlist>
+<numlitem><para>Perform the PSEU BITE test.</para></numlitem>
+<numlitem><para>Verify that no Main Gear Door sensors are faulted.</para>
+</numlitem>
+<numlitem><para>Open gear doors.</para></numlitem>
+<numlitem><para>Verify that GEAR DOORS (Advisory) message is displayed
+on EICAS after 35 seconds.</para></numlitem>
+<numlitem><para>Place targets on the following sensors to simulate
+gear doors being closed:</para>
+<numlist>
+<numlitem><para>System 1 Nose Gear Door Closed S10243.</para></numlitem>
+<numlitem><para>System 2 Nose Gear Door Closed S10081.</para></numlitem>
+<numlitem><para>System 1 Left Gear Door Closed S10242.</para></numlitem>
+<numlitem><para>System 2 Left Gear Door Closed S10076.</para></numlitem>
+<numlitem><para>System 1 Right Gear Door Closed S10241.</para>
+</numlitem>
+<numlitem><para>System 2 Right Gear Door Closed S10072.</para>
+</numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify the GEAR DOORS Advisory message is no longer
+displayed. </para></numlitem>
+<numlitem><para>Remove the targets from S10241 and S10072 Right Gear
+Door Closed sensors.</para></numlitem>
+<numlitem><para>Wait at least 35 seconds, then verify the GEAR DOORS
+Advisory EICAS message is displayed.</para></numlitem>
+<numlitem><para>Reinstall targets on S10241 and S10072 Right Gear
+Door Closed sensors.</para></numlitem>
+<numlitem><para>Verify the GEAR DOORS Advisory message is no longer
+displayed. </para></numlitem>
+<numlitem><para>Remove the targets from S10242 and S10076 Left Gear
+Door Closed sensors.</para></numlitem>
+<numlitem><para>Wait at least 35 seconds, then verify the GEAR DOORS
+Advisory EICAS message is displayed.</para></numlitem>
+<numlitem><para>Remove all targets.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify Main Gear Up and Locked System 1 Sensors operate
+normally as follows:</para>
+<numlist>
+<numlitem><para>Perform the PSEU BITE test.</para></numlitem>
+<numlitem><para>Verify no System 1 Main Gear Up and Locked Sensors
+are faulted. </para></numlitem>
+<numlitem><para>Place Safety Pins in gears.  Move landing gear lever
+to OFF position.</para></numlitem>
+<numlitem><para>Place targets on the following system 1 Sensors.</para>
+<numlist>
+<numlitem><para>Nose Gear Up S10238.</para></numlitem>
+<numlitem><para>Nose Gear Locked S10065.</para></numlitem>
+<numlitem><para>Right Gear Up and Locked S10239.</para></numlitem>
+<numlitem><para>Left Gear Up and Locked S10240.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>Verify that GEAR DISAGREE EICAS message is not displayed. </para>
+</numlitem>
+<numlitem><para>Remove the target from S10239 Right Gear Up and Locked
+sensor. </para></numlitem>
+<numlitem><para>Wait at least 25 seconds.</para></numlitem>
+<numlitem><para>Verify the GEAR DISAGREE EICAS Advisory message is
+displayed. </para></numlitem>
+<numlitem><para>Reinstall the target to S10239 Right Gear Up and Locked
+sensor. </para></numlitem>
+<numlitem><para>Verify the GEAR DISAGREE message is no longer displayed.</para>
+</numlitem>
+<numlitem><para>Remove the target from S10240, Left Gear Up and Locked
+sensor. </para></numlitem>
+<numlitem><para>Wait at least 25 seconds.</para></numlitem>
+<numlitem><para>Verify the GEAR DISAGREE EICAS Advisory message is
+displayed. </para></numlitem>
+<numlitem><para>Remove all targets.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

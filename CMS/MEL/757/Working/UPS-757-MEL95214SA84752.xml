@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="32" chg="U" itemnbr="2-1" key="UPS-757-MEL95214SA84752" revdate="20080924" revnbr="65" sectnbr="42">
+<title>ALTERNATE Anti-skid Valves</title>
+<dispcond btb="YES" category="C" downgrade="" maintenance="YES"
+nbrins="4" nbrreq="0" operation="YES">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Manual braking capability on alternate brake system
+is verified on associated wheels, and</para></numlitem>
+<numlitem><para>Normal anti-skid system is operative,</para></numlitem>
+</numlist>
+</remarks>
+<operation key="UPS-757-MEL-0124558JDM5478">
+<numlist>
+<numlitem><para>If normal braking system is lost and alternate brakes
+will be used, use manual braking techniques.</para></numlitem>
+</numlist>
+</operation>
+<placard>
+<para>Placard ANTI-SKID Light "ALT ANTI-SKID VALVE INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757DMP-2142356DM658666">
+<numlist>
+<numlitem><para>Verify that manual braking capability is available
+on affected wheels as follows:</para>
+<numlist>
+<numlitem><para>Provide electrical power.</para></numlitem>
+<numlitem><para>Chock the wheels. </para></numlitem>
+<numlitem><para>Release parking brake.</para></numlitem>
+<numlitem><para>Depressurize right hydraulic system.</para></numlitem>
+<numlitem><para>Provide left system hydraulic power.</para></numlitem>
+<numlitem><para>Depress and release brake pedals. Observe brake unit
+wear indicator pins to check that all brakes apply and release.</para>
+</numlitem>
+<numlitem><para>If brakes apply and release on all brakes, manual
+braking capability on the alternate brake system is verified and dispatch
+is allowed without further maintenance action.</para></numlitem>
+</numlist>
+</numlitem>
+<numlitem><para>If manual braking is not available on all brakes,
+use the following procedure:</para>
+<numlist>
+<numlitem><para>Deactivate alternate anti-skid valve(s) for affected
+brakes.</para>
+<numlist>
+<numlitem><para>Disconnect and stow connector for affected alternate
+anti-skid valve (see illustration).</para>
+<table>
+<tgroup cols="3">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<colspec colname="col3"/>
+<tbody>
+<row>
+<entry>
+<para><emphasis role="underline">WHEELS</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="underline">VALVE NUMBER</emphasis></para>
+</entry>
+<entry>
+<para><emphasis role="underline">VALVE LOCATION</emphasis></para>
+</entry>
+</row>
+<row>
+<entry>
+<para>1 and 2</para>
+</entry>
+<entry>
+<para>V37 (D2028)</para>
+</entry>
+<entry>
+<para>L Wing, Outboard</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>3 and 4</para>
+</entry>
+<entry>
+<para>V39 (D1696)</para>
+</entry>
+<entry>
+<para>R Wing, Outboard</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>5 and 6</para>
+</entry>
+<entry>
+<para>V38 (D2030)</para>
+</entry>
+<entry>
+<para>L Wing, Inboard</para>
+</entry>
+</row>
+<row>
+<entry>
+<para>7 and 8</para>
+</entry>
+<entry>
+<para>V40 (D1698)</para>
+</entry>
+<entry>
+<para>R Wing, Inboard</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</numlitem>
+<numlitem><para>Depress and release brake pedals. Observe brake unit
+wear indicator pins to check that all brakes apply and release.</para>
+</numlitem>
+<numlitem><para>If brakes apply and release on all brakes, manual
+braking capability on the alternate brake system is verified and dispatch
+is allowed with no AFM performance penalties.</para></numlitem>
+</numlist>
+</numlitem>
+</numlist>
+</numlitem>
+</numlist>
+<graphic chapnbr="32" chg="U" key="UPS757MELCDL20080722141026"
+revdate="20080924" revnbr="65" sectnbr="42">
+<title>ALTERNATE ANTI-SKID MODULE</title>
+<sheet chg="U" gnbr="DMP_CH_32_Page_12a" key="UPS757MELCDL20080722141144"
+revdate="20080924" revnbr="65" sheetnbr="001">
+<title>LEFT WHEEL WELL SHOWN RIGHT WHEEL WELL OPPOSITE</title>
+</sheet>
+</graphic>
+</maintenance>
+</dispcond>
+</item>

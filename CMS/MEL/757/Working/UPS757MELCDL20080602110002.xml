@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="25" chg="U" itemnbr="10-1" key="UPS757MELCDL20080602110002" revdate="20100423" revnbr="68"
+sectnbr="63">
+<title>Emergency Locator Transmitter (ELT) &ndash; Survival Type ELT's</title>
+<dispcond category="C" nbrins="1" nbrreq="0">
+<remarks>
+<para>Any in excess of those required by FAR may be inoperative or
+missing.</para>
+</remarks>
+<limitation key="UPS757MELCDL20080602110231">
+<numlist>
+<numlitem><para>Extended overwater flights at a horizontal distance
+of more than 50NM from the nearest shoreline are prohibited.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near upper EICAS screen "ELT INOPERATIVE OR MISSING"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="28" chg="U" itemnbr="1" key="UPS-757-MEL-00000812" revdate="20100423" revnbr="68" sectnbr="25">
+<title>APU (DC) Fuel Pump</title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Both left fuel tank boost pumps  are operative when
+APU is required for dispatch, and</para></numlitem>
+<numlitem><para>Pump is deactivated.</para></numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard APU Control Panel "APU (DC) FUEL PUMP INOP" and enter
+item in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00000813">
+<numlist>
+<!--Per C.R.#4403 Bill Bombatch 3/30/10-->
+<numlitem><para>Open and collar DC Fuel pwr C/B (C33) located on P11
+panel.</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

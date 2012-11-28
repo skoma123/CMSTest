@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="22" chg="U" itemnbr="3-3-1" key="UPS-757-MEL-00000247" revdate="20080924" revnbr="65" sectnbr="11">
+<title>Mode Control Panel Selectors &ndash; Selector Push Functions
+&ndash; IAS/MACH (Push Button)</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="1" nbrreq="0"
+operation="YES">
+<remarks>
+<para>May be inoperative.</para>
+<note><para>Rotational function of these selectors must be operative.</para>
+</note>
+</remarks>
+<operation key="UPS-757-MEL-00000248">
+<numlist>
+<numlitem><para>If VNAV operation is desired, speed entries can be
+made via the FMC CDU.</para></numlitem>
+</numlist>
+<note><para>With the IAS/MACH push function inoperative, VNAV speed
+intervention can not be invoked. Non-precision approaches using VNAV
+are not to be conducted.</para></note>
+</operation>
+<placard>
+<para>Placard IAS/MACH switch "INOP" and enter item in Aircraft Deferred
+Item Log.</para>
+</placard>
+</dispcond>
+</item>

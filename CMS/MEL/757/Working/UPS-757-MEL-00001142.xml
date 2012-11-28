@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="38" chg="U" itemnbr="1-2" key="UPS-757-MEL-00001142" revdate="20080924" revnbr="65" sectnbr="30">
+<title>Lavatory Waste Systems &ndash; System Leaks </title>
+<dispcond btb="NO" category="C" maintenance="YES" nbrins="1" nbrreq="0"
+operation="NO">
+<remarks>
+<para>Associated lavatory system(s) may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Associated components are deactivated or isolated
+to prevent leaks,</para></numlitem>
+<numlitem><para>Pilot-in-Command will determine if flight duration
+is acceptable with a FWD lavatory unusable, and</para></numlitem>
+<numlitem><para>Associated lavatory door(s) is secured closed and
+placarded "INOPERATIVE - DO NOT ENTER".</para></numlitem>
+</numlist>
+<note><para>These provisions are not intended to prohibit inspections
+by crewmembers. </para></note>
+</remarks>
+<placard>
+<para>Placard lav door "LAV INOP &ndash; DO NOT ENTER" and enter item
+in Aircraft Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS-757-MEL-00001143">
+<numlist>
+<numlitem><para>Drain waste tank and leave empty.</para></numlitem>
+<numlitem><para>Placard exterior Lav Servicing Panel "INOP WASTE TANK
+TO REMAIN EMPTY" and enter item in Aircraft Deferred Item Log.</para>
+</numlitem>
+<numlitem><para>Open and collar flush motor circuit breaker (P11S25).</para>
+</numlitem>
+<numlitem><para>Associated lavatory door is secured closed.</para>
+</numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

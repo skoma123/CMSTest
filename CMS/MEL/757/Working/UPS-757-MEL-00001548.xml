@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="57" chg="U" key="UPS-757-MEL-00001548" qtyreq="12" revdate="20080924" revnbr="65" sectnbr="70">
+<title>SPOILER PANEL</title>
+<remarks>
+<para>None may be missing.  May have damage due to on-ground hail.
+ If a performance restriction is required due to on-ground hail damage,
+as assessed in the Structural Repair Manual 51-10-04, for each damaged
+panel the performance limited weights are reduced by:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="left" colname="col1" colwidth="1.01*"/>
+<colspec align="right" colname="col2" colwidth="0.62*"/>
+<colspec align="left" colname="COLSPEC0" colwidth="1.74*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>210 lb (96 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>360 lb (164 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</remarks>
+<graphic chapnbr="57" chg="U" confnbr="2" key="UPS757CDLFIG5707"
+revdate="20080924" revnbr="65" sectnbr="70">
+<title>SPOILER PANEL</title>
+<sheet chg="U" gnbr="CDL_CH_57_Page_7" key="UPSCDL_CH_57_Page_7"
+revdate="20080924" revnbr="65"></sheet>
+</graphic>
+</cdlblk>

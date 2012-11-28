@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="77" chg="U" itemnbr="1-1-1" key="UPS757400MEL9995899707" revdate="20091120" revnbr="67" sectnbr="31">
+<title>Vibration Indicating Systems &ndash; Broad Band &ndash; RB211 </title>
+<dispcond btb="YES" category="A" maintenance="YES" nbrins="2" nbrreq="1"
+operation="YES">
+<remarks>
+<para>Except for ER operations, one may be inoperative provided:</para>
+<numlist>
+<numlitem><para>Aircraft is not operated in known or forecast icing
+conditions, </para></numlitem>
+<numlitem><para>For -535C engine, both master and internal gearbox
+magnetic chip detectors are inspected before each takeoff, and </para>
+</numlitem>
+<numlitem><para>Operations are limited to not more than three flight
+days before repair is made.</para></numlitem>
+</numlist>
+<note><para>UPS does not operate -535C engines.</para></note>
+</remarks>
+<operation key="UPS757400MEL9995899708">
+<numlist>
+<numlitem><para>Avoid flight into known or forecast icing conditions.</para>
+</numlitem>
+</numlist>
+</operation>
+<limitation key="UPS757400MEL9995899710">
+<numlist>
+<numlitem><para>No flight into known or forecast icing conditions.</para>
+</numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard near EICAS "AVM INDICATION FOR (L or R) ENGINE INOP"
+and enter item in Aircraft  Deferred Item Log.</para>
+</placard>
+<maintenance key="UPS757400MEL9995899709">
+<numlist>
+<numlitem><para>Inspect master and internal gearbox magnetic chip
+detector (AMM 79-21-03/401).</para></numlitem>
+</numlist>
+</maintenance>
+</dispcond>
+</item>

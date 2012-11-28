@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="34" chg="U" itemnbr="1-2" key="UPS-MEL-757-34510101FDK" revdate="20090814" revnbr="66" sectnbr="53">
+<title>ATC Transponders and Automatic Altitude Reporting Systems &ndash;
+ADS-B Extended Squitter Transmissions </title>
+<dispcond category="A" nbrins="&ndash;" nbrreq="0" operation="NO">
+<remarks>
+<para>May be inoperative provided:</para>
+<numlist>
+<numlitem><para>Operations do not require its use, and</para></numlitem>
+<numlitem><para>Repairs are made prior to completion of next heavy
+maintenance visit.</para></numlitem>
+</numlist>
+</remarks>
+<limitation key="UPSB757MELCDL20090811145441">
+<numlist>
+<numlitem><para>Flight Control to ensure ADS-B Squitter is not required
+by Foreign States along planned route.</para></numlitem>
+</numlist>
+</limitation>
+<placard>
+<para>Placard affected Parameter "INOP" and enter item in Aircraft
+Deferred Item Log. </para>
+</placard>
+</dispcond>
+</item>

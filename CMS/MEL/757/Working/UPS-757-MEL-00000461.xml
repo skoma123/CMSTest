@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="23" chg="U" itemnbr="5-3" key="UPS-757-MEL-00000461" revdate="20080924" revnbr="65" sectnbr="51">
+<title>Flight Crew Communication Equipment &ndash; TSO Headset Earphones/Headphones </title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>Either the Captain&rsquo;s or First Officer&rsquo;s earphone/headphone
+may be inoperative or missing provided associated flight deck speaker
+is operative. </para>
+</remarks>
+<operation key="UPS757MELCDL20080530090905">
+<note><para>Only equipment approved under FAA Technical Standard Order
+(TSO), to include flightdeck microphones, headphones, and boom microphone
+headsets, may be used in UPS aircraft.</para></note>
+</operation>
+<placard>
+<para>Placard near EICAS "Captain or First Officer earphone INOP"
+and enter item in Aircraft Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

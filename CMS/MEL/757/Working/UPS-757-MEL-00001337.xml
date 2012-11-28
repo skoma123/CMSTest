@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<item chapnbr="77" chg="U" itemnbr="1-1" key="UPS-757-MEL-00001337" revdate="20080924" revnbr="65" sectnbr="21">
+<title>EGT Indications (Standby Engine Indicator) &ndash; RB211</title>
+<dispcond btb="NO" category="C" maintenance="NO" nbrins="2" nbrreq="1"
+operation="NO">
+<remarks>
+<para>One may be inoperative provided:</para>
+<numlist>
+<numlitem><para>N<sub>1</sub> EICAS and STANDBY indications for both
+engines are operative, </para></numlitem>
+<numlitem><para>N<sub>2</sub> and N<sub>3</sub> EICAS indications
+for both engines are operative, and</para></numlitem>
+<numlitem><para>EPR EICAS indications for both engines are operative.</para>
+</numlitem>
+</numlist>
+</remarks>
+<placard>
+<para>Placard L/R "EGT IND ON SEI INOP" and enter item in Aircraft
+Deferred Item Log.</para>
+</placard>
+</dispcond>
+</item>

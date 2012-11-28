@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdlblk PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
+<cdlblk blknbr="1" chapnbr="55" chg="U" key="UPS-757-MEL-00001525" qtyreq="2 (1 per side)" revdate="20080924" revnbr="65" sectnbr="20">
+<title>ELEVATOR</title>
+<remarks>
+<para>None may be missing.  May have damage due to on-ground hail.
+ If a performance restriction is required due to on-ground hail damage,
+as assessed in the Structural Repair Manual 51-10-04, for each damaged
+elevator the performance limited weights are reduced by:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec align="left" colname="col1" colwidth="1.09*"/>
+<colspec align="right" colname="COLSPEC3" colwidth="0.55*"/>
+<colspec align="left" colname="col2" colwidth="1.36*"/>
+<tbody>
+<row>
+<entry colsep="0" rowsep="0">
+<para>Takeoff and Landing:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>280 lb (127 kg)</para>
+</entry>
+</row>
+<row>
+<entry colsep="0" rowsep="0">
+<para>En route Climb:</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>&ndash;</para>
+</entry>
+<entry colsep="0" rowsep="0">
+<para>410 lb (186 kg)</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>In addition, if one or both elevators are damaged, the forward
+Center of Gravity (CG) Limit must be restricted to be no further forward
+than the following:</para>
+<table frame="none">
+<tgroup cols="3">
+<colspec colname="COLSPEC4" colwidth="1.01*"/>
+<colspec colname="col1" colwidth="0.89*"/>
+<colspec colname="col2" colwidth="1.88*"/>
+<thead>
+<row>
+<entry align="center" colsep="0" nameend="col1" namest="COLSPEC4"
+rowsep="0" valign="top">
+<para>Weight, </para>
+<para>thousands</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0" valign="top">
+<para>CG Limit,</para>
+<para> % MAC</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center" colsep="0" rowsep="0">
+<para>lb</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>kg</para>
+</entry>
+<entry align="left" colsep="0" rowsep="0"></entry>
+</row>
+<row>
+<entry align="center" colsep="0" rowsep="0">
+<para>140.0</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>63.50</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>12.00</para>
+</entry>
+</row>
+<row>
+<entry align="center" colsep="0" rowsep="0">
+<para>221.0</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>100.20</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>12.00</para>
+</entry>
+</row>
+<row>
+<entry align="center" colsep="0" rowsep="0">
+<para>254.2 </para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>115.30 </para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>17.05</para>
+</entry>
+</row>
+<row>
+<entry align="center" colsep="0" rowsep="0">
+<para>256.0</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>116.10</para>
+</entry>
+<entry align="center" colsep="0" rowsep="0">
+<para>20.00</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>(Interpolate linearly between listed values.)</para>
+</remarks>
+</cdlblk>
