@@ -899,6 +899,26 @@ public partial class _Default : System.Web.UI.Page
         treeFiles.Nodes.Clear();
         BindTreeView();
     }
+    protected void btnListAll_Click(object sender, ImageClickEventArgs e)
+    {
+        lstAll.Items.Clear();
+        InitialProcessing();
+        gitInfo.Arguments = @"ls-files";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
 }
 
 

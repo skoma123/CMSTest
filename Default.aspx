@@ -113,7 +113,10 @@
         &nbsp;<asp:ImageButton ID="btnLookup" runat="server" ImageAlign="Middle" 
             ImageUrl="~/images/look.png" onclick="btnLookup_Click" 
         style="width: 16px" ToolTip="Find text in repository" />
-        &nbsp;<br />
+        &nbsp;<asp:ImageButton ID="btnListAll" runat="server" ImageAlign="Middle" 
+                ImageUrl="~/images/AllFiles.png" onclick="btnListAll_Click" 
+                ToolTip="List all files" />
+            <br />
         <table><tr><td valign="top">
         <asp:ListBox  style="overflow:auto" ID="lstAll" runat="server" BackColor="#FFFFCC" 
             Width="1092px" Height="176px" ></asp:ListBox>
