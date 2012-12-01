@@ -145,8 +145,8 @@ public partial class _Default : System.Web.UI.Page
                 Xml1.DocumentSource = treeFiles.SelectedValue;
             }
         }
-        XmlDocument doc1 = new XmlDocument();
-        doc1.Load(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\UPS747MEL20070815101151.xml");
+        //XmlDocument doc1 = new XmlDocument();
+        //doc1.Load(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\UPS747MEL20070815101151.xml");
 
         //FreeTextBox1.Text = doc1.InnerXml;
         //FreeTextBox1.FormatHtmlTagsToXhtml = true;
@@ -156,6 +156,7 @@ public partial class _Default : System.Web.UI.Page
     {
         DirectoryInfo dir1 = new DirectoryInfo(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\");
         treeFiles.Nodes.Add(GetNode(dir1));
+
     }
 
     protected TreeNode GetNode(DirectoryInfo directoryinfo)
@@ -742,9 +743,10 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnLookup_Click(object sender, ImageClickEventArgs e)
     {
+        lblGitCommand.Text = "";
         lstAll.Items.Clear();
         InitialProcessing();
-        gitInfo.Arguments = @"grep ""Operations"""; //@"log --stat --name-only --pretty=""%h | %s %an | %ar | %s | %cn | %cr"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
+        gitInfo.Arguments = @"grep """ + txtSearchRepo.Text + ""; //""Operations"""; //@"log --stat --name-only --pretty=""%h | %s %an | %ar | %s | %cn | %cr"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
@@ -758,6 +760,7 @@ public partial class _Default : System.Web.UI.Page
             if (strtest != "")
                 lstAll.Items.Add(strtest);
 
+        
         gitProcess.WaitForExit();
         gitProcess.Close();
     }
@@ -783,6 +786,11 @@ public partial class _Default : System.Web.UI.Page
             if (strtest != "")
                 lstAll.Items.Add(strtest);
 
+        if (lstAll.Items.Count != 0)
+        {
+            lblGitCommand.Text = @"Shows what revision and author last modified each line of a file";
+        }
+
         gitProcess.WaitForExit();
         gitProcess.Close();
     }
@@ -804,9 +812,15 @@ public partial class _Default : System.Web.UI.Page
         foreach (string strtest in words)
             if (strtest != "")
                 lstAll.Items.Add(strtest);
+
+        if (lstAll.Items.Count != 0)
+        {
+            lblGitCommand.Text = @"Detail committed and merged history";
+        }
     }
     protected void btnCommitHistSimple_Click(object sender, ImageClickEventArgs e)
     {
+        lblGitCommand.Text = "";
         lstAll.Items.Clear();
         InitialProcessing();
         //commit history (authorname, author date, subject, committer name, committed date)
@@ -824,10 +838,16 @@ public partial class _Default : System.Web.UI.Page
         foreach (string strtest in words)
             if (strtest != "")
                 //lstCommitHistorySimple.Items.Add(strtest);
-                lstAll.Items.Add(strtest);
+                     lstAll.Items.Add(strtest);
+
+        if (lstAll.Items.Count != 0)
+        {
+            lblGitCommand.Text = @"Simple committed and merged history";
+        }
     }
     protected void btnCommittedNotMerged_Click(object sender, ImageClickEventArgs e)
     {
+        lblGitCommand.Text = "";
         lstAll.Items.Clear();
         InitialProcessing();
         gitInfo.Arguments = @"log --stat --name-only --pretty=""%h | %s %an | %ar | %s | %cn | %cr"" --author=skoma123 --graph --decorate --all --since=""2012-10-01"" --before=""2012-11-30"" --no-merges"; //"log --pretty=oneline"; // "log --stat"; // such as "fetch orign" //GIT COMMAND //"diff --stat HEAD^!"; //
@@ -843,6 +863,10 @@ public partial class _Default : System.Web.UI.Page
             if (strtest != "")
                 lstAll.Items.Add(strtest);
 
+        if (lstAll.Items.Count != 0)
+        {
+            lblGitCommand.Text = @"Committed changes but not merged with master";
+        }
         gitProcess.WaitForExit();
         gitProcess.Close();
     }
@@ -901,6 +925,7 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnListAll_Click(object sender, ImageClickEventArgs e)
     {
+        lblGitCommand.Text = "";
         lstAll.Items.Clear();
         InitialProcessing();
         gitInfo.Arguments = @"ls-files";
@@ -916,8 +941,56 @@ public partial class _Default : System.Web.UI.Page
             if (strtest != "")
                 lstAll.Items.Add(strtest);
 
+        if (lstAll.Items.Count != 0)
+        {
+            lblGitCommand.Text = @"List of all files within Repository";
+        }
+
         gitProcess.WaitForExit();
         gitProcess.Close();
+    }
+    protected void btnListbyAuthor_Click(object sender, ImageClickEventArgs e)
+    {
+        lblGitCommand.Text = "";
+        lstAll.Items.Clear();
+        InitialProcessing();
+        gitInfo.Arguments = @"log --pretty=""%an | %ar | %s"" --author=" + lstUsers.SelectedValue; //add this if want to see detail --name-only
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+        stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+
+        words = stdout_str.Split('\n');
+
+        foreach (string strtest in words)
+            if (strtest != "")
+                lstAll.Items.Add(strtest);
+
+        if (lstAll.Items.Count != 0) {
+            lblGitCommand.Text = @"History for user: " + lstUsers.SelectedValue;
+        }
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+    }
+    protected void lstAll_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        lblGitCommand.Text = "";
+
+        Xml1.DocumentSource = lstAll.SelectedValue.Substring(0,lstAll.SelectedValue.IndexOf(".xml")) + "xml";
+        //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
+        tblXML.Visible = true;
+    }
+    protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+    {
+        
+            lblMsg.CssClass = "";
+            MultiView1.ActiveViewIndex = Int32.Parse(e.Item.Value);
+            if (e.Item.Value == "1") {
+
+            }
+
+
     }
 }
 
