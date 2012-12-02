@@ -116,23 +116,23 @@ public partial class _Default : System.Web.UI.Page
                         lstUsers.SelectedValue = strtest;
                 }
 
-            gitInfo.Arguments = "branch -a"; // such as "fetch orign" //GIT COMMAND
-            gitProcess.StartInfo = gitInfo;
-            gitProcess.Start();
+            //gitInfo.Arguments = "branch -a"; // such as "fetch orign" //GIT COMMAND
+            //gitProcess.StartInfo = gitInfo;
+            //gitProcess.Start();
 
-            //stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
-            stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
+            ////stderr_str = gitProcess.StandardError.ReadToEnd();  // pick up STDERR
+            //stdout_str = gitProcess.StandardOutput.ReadToEnd(); // pick up STDOUT
 
-            //clear the listbox
-            lstBranches.Items.Clear();
-            words = stdout_str.Split('\n');
+            ////clear the listbox
+            //lstBranches.Items.Clear();
+            //words = stdout_str.Split('\n');
 
-            foreach (string strtest in words)
-                if (strtest != "") {
-                    lstBranches.Items.Add(strtest.Trim());
-                    if (strtest.Contains("*"))
-                        lstBranches.SelectedValue = strtest;
-                }
+            //foreach (string strtest in words)
+            //    if (strtest != "") {
+            //        lstBranches.Items.Add(strtest.Trim());
+            //        if (strtest.Contains("*"))
+            //            lstBranches.SelectedValue = strtest;
+            //    }
 
             gitProcess.WaitForExit();
             gitProcess.Close();
@@ -973,21 +973,21 @@ public partial class _Default : System.Web.UI.Page
         gitProcess.WaitForExit();
         gitProcess.Close();
     }
-    protected void lstAll_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        lblGitCommand.Text = "";
+    //protected void lstAll_SelectedIndexChanged(object sender, EventArgs e)
+    //{
+    //    lblGitCommand.Text = "";
 
-        Xml1.DocumentSource = lstAll.SelectedValue.Substring(0,lstAll.SelectedValue.IndexOf(".xml")) + "xml";
-        //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
-        tblXML.Visible = true;
-    }
+    //    Xml1.DocumentSource = lstAll.SelectedValue.Substring(0,lstAll.SelectedValue.IndexOf(".xml")) + "xml";
+    //    //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
+    //    tblXML.Visible = true;
+    //}
     protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
     {
         
             lblMsg.CssClass = "";
             MultiView1.ActiveViewIndex = Int32.Parse(e.Item.Value);
             if (e.Item.Value == "1") {
-
+                lstAll.Items.Clear();
             }
 
 

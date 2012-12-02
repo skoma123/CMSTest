@@ -51,6 +51,14 @@
         {
             height: 430px;
         }
+        .style4
+        {
+            width: 350px;
+        }
+        .style5
+        {
+            width: 72px;
+        }
     </style>
 </head>
 <body>
@@ -66,36 +74,39 @@
                         <StaticSelectedStyle CssClass="selectedTab"></StaticSelectedStyle>
                         <StaticMenuItemStyle CssClass="tab"></StaticMenuItemStyle>
                         <Items>
-                            <asp:MenuItem Text="Git Repository" Value="0" Selected="true" ></asp:MenuItem>
+                            <asp:MenuItem Text="Git Repository" Value="0" Selected="true"></asp:MenuItem>
                             <asp:MenuItem Text="Git Extensions" Value="1"></asp:MenuItem>
                             <asp:MenuItem Text="Couch" Value="2"></asp:MenuItem>
                         </Items>
                     </asp:Menu>
                     <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
                         <asp:View ID="viewGitRepository" runat="server">
+                            <br />
                             <table width="600px" cellpadding="0" cellspacing="0">
                                 <tr valign="top">
                                     <td style="width: 600px; border: 1 thin blue;">
-                                    <div>
                                         <table style="width: 789px">
                                             <tr>
-                                                <td>
-                                                    <asp:FileUpload ID="FileUpload1" runat="server" Width="218px" />
+                                                <td class="style4">
+                                                    <asp:TextBox ID="txtImport" runat="server" Width="311px">C:\Temp</asp:TextBox>
+                                                    <%--                                                    <asp:FileUpload ID="FileUpload1" runat="server" Width="218px" />--%>
                                                     <asp:ImageButton ID="btnUploadManual" runat="server" ImageAlign="Middle" ImageUrl="~/images/upload.png"
-                                                        OnClick="btnUploadManual_Click" />
+                                                        OnClick="btnUploadManual_Click" ToolTip="Import" />
                                                 </td>
-                                                <td>
+                                                <%--                                               <td>
                                                     Branches
                                                     <asp:DropDownList ID="lstBranches" runat="server" BackColor="#FFFFCC" 
                                                         CausesValidation="false" ForeColor="#3366CC">
                                                     </asp:DropDownList>
-                                                </td>
+                                                </td>--%>
+                                                <td class="style5"><asp:Button ID="btnPublish" runat="server" Text="Publish" /></td>                                                
                                                 <td>
                                                     Users
-                                                    <asp:DropDownList ID="lstUsers" runat="server" BackColor="#FFFFCC" 
-                                                        CausesValidation="false" ForeColor="#3366CC">
+                                                    <asp:DropDownList ID="lstUsers" runat="server" BackColor="#FFFFCC" CausesValidation="false"
+                                                        ForeColor="#3366CC">
                                                     </asp:DropDownList>
                                                 </td>
+                                                <td><asp:Button ID="btnCheckOutBranch" runat="server" Text="Checkout" /></td>
                                             </tr>
                                         </table>
                                         <table id="Table1" runat="server">
@@ -142,12 +153,12 @@
             Width="751px" Height="230px"></asp:ListBox>
             </td>--%></tr>
                                         </table>
-                                        </div>
                                     </td>
                                 </tr>
                             </table>
                         </asp:View>
                         <asp:View ID="viewGitCommands" runat="server">
+                            <br />
                             <table width="600px" cellpadding="0" cellspacing="0">
                                 <tr valign="top">
                                     <td style="width: 600px">
@@ -171,7 +182,8 @@
                                             <tr>
                                                 <td valign="top">
                                                     <asp:ListBox Style="overflow: auto" ID="lstAll" runat="server" BackColor="#FFFFCC"
-                                                        Width="1092px" Height="161px" AutoPostBack="true" OnSelectedIndexChanged="lstAll_SelectedIndexChanged">
+                                                        Width="1092px" Height="275px"
+                                                       > <%-- AutoPostBack="true" OnSelectedIndexChanged="lstAll_SelectedIndexChanged"--%>
                                                     </asp:ListBox>
                                                 </td>
                                             </tr>
@@ -181,6 +193,7 @@
                             </table>
                         </asp:View>
                         <asp:View ID="viewCouch" runat="server">
+                            <br />
                             <table style="width: 600px;" cellpadding="0" cellspacing="0">
                                 <tr style="vertical-align: top">
                                     <td style="width: 600px">
