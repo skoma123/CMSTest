@@ -1018,7 +1018,17 @@ public partial class _Default : System.Web.UI.Page
          {
              if (firstNode == 0)
              {
+                 //Create the folders, including entities and styles
                  Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")));
+                 Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")) + "\\Entities");
+
+                 //Copy all the files
+                 foreach (string newPath in Directory.GetFiles(@node.Parent.Value + "\\Entities", "*.*",
+                     SearchOption.AllDirectories))
+                     File.Copy(newPath, @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")) + "\\Entities" + newPath.Substring(newPath.LastIndexOf("\\")));
+
+                 //get all dtds and xsl files, add at root
+                 //get all selected fragments and add at root
                  gitInfo.Arguments = @"add .";
                  gitProcess.StartInfo = gitInfo;
                  gitProcess.Start();
@@ -1028,6 +1038,7 @@ public partial class _Default : System.Web.UI.Page
                  gitProcess.StartInfo = gitInfo;
                  gitProcess.Start();
 
+                 
 
              }
              firstNode += 1;
