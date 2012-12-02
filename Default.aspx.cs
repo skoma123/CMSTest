@@ -360,7 +360,7 @@ public partial class _Default : System.Web.UI.Page
            
            Xml1.DocumentSource = treeFiles.SelectedValue;
         //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
-           Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "DTDStyles\\melcdl2html_mod.xsl"; // "~/CMS/MEL/747/Working/melcdl2html_mod.xsl";
+           Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "melcdl2html_mod.xsl"; // "~/CMS/MEL/747/Working/melcdl2html_mod.xsl";
           treeFiles.SelectedNodeStyle.ForeColor = Color.Blue;
           tblXML.Visible = true;
 
@@ -992,6 +992,68 @@ public partial class _Default : System.Web.UI.Page
             }
 
 
+    }
+    protected void btnCheckoutByUser_Click(object sender, ImageClickEventArgs e)
+    {
+        
+        //Create the folders, including entities and styles
+
+        //      Xml1.DocumentSource = treeFiles.SelectedValue;
+        ////   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
+        //   Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "melcdl2html_mod.xsl"; // "~/CMS/MEL/747/Working/melcdl2html_mod.xsl";
+        //  treeFiles.SelectedNodeStyle.ForeColor = Color.Blue;
+     int firstNode = 0;
+
+     if (treeFiles.CheckedNodes.Count == 0)
+     {
+         lblMsg.Text = "Please select files to checkout";
+         lblMsg.ForeColor = Color.Red;
+     }
+     else
+     {
+         //push files from working folder to staging
+         foreach (TreeNode node in treeFiles.CheckedNodes)
+         {
+             if (firstNode == 0)
+             {
+                 Directory.CreateDirectory(node.Value.Replace("Working\\" + node.Text, "Branches\\") + lstUsers.SelectedValue);
+             }
+             firstNode += 1;
+         }
+
+         //Now Create all of the directories
+         foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\" + treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, ""), "*",
+             SearchOption.AllDirectories))
+             Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\" + treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, ""));
+
+
+
+         //    NextPrevFormat
+         //Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\");
+         //Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Staging\");
+
+         //then stage, commit, and push new folder
+         InitialProcessing();
+         gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
+         gitProcess.StartInfo = gitInfo;
+         gitProcess.Start();
+
+
+         gitInfo.Arguments = @"commit -am ""Checkout files to user's branch"""; //GIT COMMAND
+         gitProcess.StartInfo = gitInfo;
+         gitProcess.Start();
+
+
+         //gitInfo.Arguments = @"push"; //GITHIB remote COMMAND
+         //gitProcess.StartInfo = gitInfo;
+         //gitProcess.Start();
+
+         gitProcess.WaitForExit();
+         gitProcess.Close();
+
+         treeFiles.Nodes.Clear();
+         BindTreeView();
+     }
     }
 }
 
