@@ -144,7 +144,7 @@
                                                         <tr>
                                                             <td valign="top" class="style3">
                                                                 <asp:Panel ID="Panel2" runat="server" Height="369px" Width="700px">
-                                                                    <asp:Xml ID="Xml1" runat="server" EnableViewState="true" DocumentSource="" TransformSource="~/CMS/MEL/747/Working/melcdl2html_mod.xsl"></asp:Xml></asp:Panel>
+                                                                    <asp:Xml ID="Xml1" runat="server" EnableViewState="true" DocumentSource="" TransformSource=""></asp:Xml></asp:Panel>
                                                             </td>
                                                         </tr>
                                                     </table>

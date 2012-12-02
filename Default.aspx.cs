@@ -360,6 +360,7 @@ public partial class _Default : System.Web.UI.Page
            
            Xml1.DocumentSource = treeFiles.SelectedValue;
         //   Xml1.TransformSource = "~/CMS/MEL/747/melcdl2html_mod.xsl";
+           Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "DTDStyles\\melcdl2html_mod.xsl"; // "~/CMS/MEL/747/Working/melcdl2html_mod.xsl";
           treeFiles.SelectedNodeStyle.ForeColor = Color.Blue;
           tblXML.Visible = true;
 
