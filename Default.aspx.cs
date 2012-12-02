@@ -1011,45 +1011,57 @@ public partial class _Default : System.Web.UI.Page
      }
      else
      {
+         InitialProcessing();
+
          //push files from working folder to staging
          foreach (TreeNode node in treeFiles.CheckedNodes)
          {
              if (firstNode == 0)
              {
-                 Directory.CreateDirectory(node.Value.Replace("Working\\" + node.Text, "Branches\\") + lstUsers.SelectedValue);
+                 Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")));
+                 gitInfo.Arguments = @"add .";
+                 gitProcess.StartInfo = gitInfo;
+                 gitProcess.Start();
+
+
+                 gitInfo.Arguments = @"commit -am ""Created folder for user's branch"""; //GIT COMMAND
+                 gitProcess.StartInfo = gitInfo;
+                 gitProcess.Start();
+
+
              }
              firstNode += 1;
          }
 
-         //Now Create all of the directories
-         foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\" + treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, ""), "*",
-             SearchOption.AllDirectories))
-             Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\" + treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, ""));
+         ////Now Create all of the directories
+         //foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\" + treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, ""), "*",
+         //    SearchOption.AllDirectories))
+         //    Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\" + treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, ""));
 
 
 
-         //    NextPrevFormat
-         //Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\");
-         //Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Staging\");
+         ////    NextPrevFormat
+         ////Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\");
+         ////Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Staging\");
 
-         //then stage, commit, and push new folder
-         InitialProcessing();
-         gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
-         gitProcess.StartInfo = gitInfo;
-         gitProcess.Start();
-
-
-         gitInfo.Arguments = @"commit -am ""Checkout files to user's branch"""; //GIT COMMAND
-         gitProcess.StartInfo = gitInfo;
-         gitProcess.Start();
-
-
-         //gitInfo.Arguments = @"push"; //GITHIB remote COMMAND
+         ////then stage, commit, and push new folder
+         //InitialProcessing();
+         //gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
          //gitProcess.StartInfo = gitInfo;
          //gitProcess.Start();
 
-         gitProcess.WaitForExit();
-         gitProcess.Close();
+
+         //gitInfo.Arguments = @"commit -am ""Checkout files to user's branch"""; //GIT COMMAND
+         //gitProcess.StartInfo = gitInfo;
+         //gitProcess.Start();
+
+
+         ////gitInfo.Arguments = @"push"; //GITHIB remote COMMAND
+         ////gitProcess.StartInfo = gitInfo;
+         ////gitProcess.Start();
+
+         //gitProcess.WaitForExit();
+         //gitProcess.Close();
 
          treeFiles.Nodes.Clear();
          BindTreeView();
