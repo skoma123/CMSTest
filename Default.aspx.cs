@@ -1040,7 +1040,7 @@ public partial class _Default : System.Web.UI.Page
 
              }
 
-
+             File.Copy(node.Value, @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")) + "\\" + node.Text);
              firstNode += 1;               
 
              }
