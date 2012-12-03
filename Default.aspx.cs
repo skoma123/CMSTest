@@ -1028,6 +1028,24 @@ public partial class _Default : System.Web.UI.Page
                      File.Copy(newPath, @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")) + "\\Entities" + newPath.Substring(newPath.LastIndexOf("\\")));
 
                  //get all dtds and xsl files, add at root
+                    foreach (string newPath in Directory.GetFiles(@node.Parent.Value, "*.dtd",
+                     SearchOption.AllDirectories))
+                     File.Copy(newPath, @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")) + newPath.Substring(newPath.LastIndexOf("\\")));
+
+                 
+                 //get all dtds and xsl files, add at root
+                    foreach (string newPath in Directory.GetFiles(@node.Parent.Value, "*.xsl",
+                     SearchOption.AllDirectories))
+                     File.Copy(newPath, @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\Branches\" + lstUsers.SelectedValue + node.Parent.Value.Replace("\\Working", "").Substring(node.Parent.Value.Replace("\\Working", "").LastIndexOf("\\")) + newPath.Substring(newPath.LastIndexOf("\\")));
+
+             }
+
+
+             firstNode += 1;               
+
+             }
+  
+                 //get all dtds and xsl files, add at root
                  //get all selected fragments and add at root
                  gitInfo.Arguments = @"add .";
                  gitProcess.StartInfo = gitInfo;
@@ -1037,11 +1055,6 @@ public partial class _Default : System.Web.UI.Page
                  gitInfo.Arguments = @"commit -am ""Created folder for user's branch"""; //GIT COMMAND
                  gitProcess.StartInfo = gitInfo;
                  gitProcess.Start();
-
-                 
-
-             }
-             firstNode += 1;
          }
 
          ////Now Create all of the directories
@@ -1077,7 +1090,7 @@ public partial class _Default : System.Web.UI.Page
          treeFiles.Nodes.Clear();
          BindTreeView();
      }
-    }
+
 }
 
 
