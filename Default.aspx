@@ -112,6 +112,10 @@
                                                     &nbsp;<asp:ImageButton ID="btnCheckoutByUser" runat="server" 
                                                         ImageUrl="~/images/checkout.png" onclick="btnCheckoutByUser_Click" 
                                                         ToolTip="Check out selected files" />
+                                                    &nbsp;<asp:ImageButton ID="btnCheckinByUser" runat="server" 
+                                                        ImageUrl="~/images/checkin.png" ToolTip=" Check in branch files" />
+                                                    &nbsp;<asp:ImageButton ID="btnGitDraft" runat="server" ImageUrl="~/images/draft.png" 
+                                                        onclick="btnGitDraft_Click" ToolTip="Create draft in GIT repository" />
                                                 </td>
                                                 <td>
                                                     &nbsp;</td>

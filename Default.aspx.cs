@@ -1091,6 +1091,42 @@ public partial class _Default : System.Web.UI.Page
          BindTreeView();
      }
 
+    protected void btnGitDraft_Click(object sender, ImageClickEventArgs e)
+    {
+        //push files from working folder to staging
+        //Now Create all of the directories
+        foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", "*",
+            SearchOption.AllDirectories))
+            Directory.CreateDirectory(dirPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Draft Publish\"));
+
+        //Copy all the files
+        foreach (string newPath in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", "*.*",
+            SearchOption.AllDirectories))
+            File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Draft Publish\"));
+
+
+        //then stage, commit, and push new folder
+        InitialProcessing();
+        gitInfo.Arguments = @"stage CMS/MEL/747 MEL Rev51.0 2012_1_31/*.*";
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        gitInfo.Arguments = @"commit -am ""Make a draft copy for fragment approval"""; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+
+        gitInfo.Arguments = @"push"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+
+        treeFiles.Nodes.Clear();
+        BindTreeView();
+    }
 }
 
 
