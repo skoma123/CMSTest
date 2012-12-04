@@ -16,9 +16,10 @@ using System.Xml.XPath;
 using System.Drawing;
 using System.Configuration;
 using System.Net;
-//using Newtonsoft.Json;
 using System.Web.Extensions;
 using System.Runtime.Serialization;
+using System.Runtime.Serialization.Json;
+using System.Data;
 
 
 public partial class _Default : System.Web.UI.Page 
@@ -32,6 +33,21 @@ public partial class _Default : System.Web.UI.Page
     string[] words;
     Process gitProcess;
     private static bool isValid = true;
+
+    public static T JsonDeserialize<T>(string jsonString)
+    {
+        DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(T));
+        MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(jsonString));
+        T obj = (T)ser.ReadObject(ms);
+        return obj;
+    }
+
+    public class rows
+    {
+        public string id { get; set; }
+        public string key { get; set; }
+        public string value { get; set; }
+    }
    // bool treepopu = false;
         //public const string CURRENT_REPOSITORY = "repository";
 
@@ -140,9 +156,10 @@ public partial class _Default : System.Web.UI.Page
         }
         else
         {
-            if (treeFiles.SelectedValue != null)
+            if (treeFiles.SelectedValue != null && treeFiles.SelectedValue != "")
             {
                 Xml1.DocumentSource = treeFiles.SelectedValue;
+                Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "melcdl2html_mod.xsl";
             }
         }
         //XmlDocument doc1 = new XmlDocument();
@@ -154,7 +171,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void BindTreeView()
     {
-        DirectoryInfo dir1 = new DirectoryInfo(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\");
+        DirectoryInfo dir1 = new DirectoryInfo(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\");
         treeFiles.Nodes.Add(GetNode(dir1));
 
     }
@@ -363,7 +380,6 @@ public partial class _Default : System.Web.UI.Page
            Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "melcdl2html_mod.xsl"; // "~/CMS/MEL/747/Working/melcdl2html_mod.xsl";
           treeFiles.SelectedNodeStyle.ForeColor = Color.Blue;
           tblXML.Visible = true;
-
           
 
         }           
@@ -383,7 +399,7 @@ public partial class _Default : System.Web.UI.Page
 
         //git processes to run
         gitProcess = new Process();
-        gitInfo.WorkingDirectory = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP"; //"D:\data\FileShareGITsample\"; //YOUR_GIT_REPOSITORY_PATH;
+        gitInfo.WorkingDirectory = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS"; //"D:\data\FileShareGITsample\"; //YOUR_GIT_REPOSITORY_PATH;
 
     }
 
@@ -395,86 +411,69 @@ public partial class _Default : System.Web.UI.Page
         System.Diagnostics.Process.Start(@treeFiles.SelectedValue);
        
     }
-    protected void btnRefreshXML_Click(object sender, EventArgs e)
-    {
-        InitialProcessing();
-        gitInfo.Arguments = @"stage CMS\MEL\*.*"; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+    //protected void btnRefreshXML_Click(object sender, EventArgs e)
+    //{
+   
+    //}
+    //protected void btnMergeXML_Click(object sender, EventArgs e)
+    //{
+    //    InitialProcessing();
+    //    gitInfo.Arguments = @"merge CMS"; //GIT COMMAND
+    //    gitProcess.StartInfo = gitInfo;
+    //    gitProcess.Start();   
 
-        gitInfo.Arguments = @"commit -am ""Updated XML file"""; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
-
-
-        gitInfo.Arguments = @"push"; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
-
-        gitProcess.WaitForExit();
-        gitProcess.Close();
-
-        Xml1.DocumentSource = treeFiles.SelectedValue;
-    }
-    protected void btnMergeXML_Click(object sender, EventArgs e)
-    {
-        InitialProcessing();
-        gitInfo.Arguments = @"merge CMS"; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();   
-
-        gitProcess.WaitForExit();
-        gitProcess.Close();
-    }
+    //    gitProcess.WaitForExit();
+    //    gitProcess.Close();
+    //}
     protected void btnBlame_Click(object sender, EventArgs e)
     {
      
     }
 
-    protected void btnValidateXML_Click(object sender, EventArgs e)
-    {
-        try
-        {
-            string xmlPath = treeFiles.SelectedValue.Replace("\\", "/");
-            XmlReader reader = null;
-            XmlReaderSettings settings = new XmlReaderSettings();
-            settings.ValidationEventHandler += new ValidationEventHandler(MyValidationEventHandler);
-            settings.ValidationType = ValidationType.DTD;
-            settings.ProhibitDtd = false;
-            reader = XmlReader.Create(xmlPath, settings);
-            if (reader.Read())
-            {
-                //Response.Write("<script>alert('XML Document well formed')</script>");
-                lblMsg.Text = "XML Document well formed";
-                lblMsg.ForeColor = Color.Green;
-            }
-            else
-            {
-                lblMsg.Text = "XML Document is not well formed";
-                lblMsg.ForeColor = Color.Red;
-            }
-            while (reader.Read())
-            {
-            }
+    //protected void btnValidateXML_Click(object sender, EventArgs e)
+    //{
+    //    try
+    //    {
+    //        string xmlPath = treeFiles.SelectedValue.Replace("\\", "/");
+    //        XmlReader reader = null;
+    //        XmlReaderSettings settings = new XmlReaderSettings();
+    //        settings.ValidationEventHandler += new ValidationEventHandler(MyValidationEventHandler);
+    //        settings.ValidationType = ValidationType.DTD;
+    //        settings.ProhibitDtd = false;
+    //        reader = XmlReader.Create(xmlPath, settings);
+    //        if (reader.Read())
+    //        {
+    //            //Response.Write("<script>alert('XML Document well formed')</script>");
+    //            lblMsg.Text = "XML Document well formed";
+    //            lblMsg.ForeColor = Color.Green;
+    //        }
+    //        else
+    //        {
+    //            lblMsg.Text = "XML Document is not well formed";
+    //            lblMsg.ForeColor = Color.Red;
+    //        }
+    //        while (reader.Read())
+    //        {
+    //        }
 
-            if (_builder.ToString() == String.Empty)
-                lblMsg.Text = "DTD Validation completed successfully";
-            //Response.Write("<script>alert('DTD Validation completed successfully')</script>");
-            //Response.Write("DTD Validation completed successfully.");
-            else
-                lblMsg.Text = "DTD Validation Failed";
-            //Response.Write("<script>alert('DTD Validation Failed" + _builder.ToString() + "')</script>");
-            // Response.Write("DTD Validation Failed. <br>" + _builder.ToString());
-            reader.Close();
+    //        if (_builder.ToString() == String.Empty)
+    //            lblMsg.Text = "DTD Validation completed successfully";
+    //        //Response.Write("<script>alert('DTD Validation completed successfully')</script>");
+    //        //Response.Write("DTD Validation completed successfully.");
+    //        else
+    //            lblMsg.Text = "DTD Validation Failed";
+    //        //Response.Write("<script>alert('DTD Validation Failed" + _builder.ToString() + "')</script>");
+    //        // Response.Write("DTD Validation Failed. <br>" + _builder.ToString());
+    //        reader.Close();
 
-        }
-        catch (XmlException ex)
-        {
-              lblMsg.Text = "XML Document not valid, following error:" +  ex.Message + " Correct and validate the fragment";       
-              Server.ClearError();   
-            Xml1.DocumentSource = treeFiles.SelectedValue;              
-             }
-    }
+    //    }
+    //    catch (XmlException ex)
+    //    {
+    //          lblMsg.Text = "XML Document not valid, following error:" +  ex.Message + " Correct and validate the fragment";       
+    //          Server.ClearError();   
+    //        Xml1.DocumentSource = treeFiles.SelectedValue;              
+    //         }
+    //}
 
        // XmlTextReader r = new XmlTextReader(treeFiles.SelectedValue);
        // XmlReader v = new XmlReader;
@@ -505,53 +504,53 @@ public partial class _Default : System.Web.UI.Page
     }
 
 
-    protected void btnStage_Click(object sender, EventArgs e)
-    {
-        //push files from working folder to staging
-        //Now Create all of the directories
-        foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*",
-            SearchOption.AllDirectories))
-            Directory.CreateDirectory(dirPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
+    //protected void btnStage_Click(object sender, EventArgs e)
+    //{
+    //    //push files from working folder to staging
+    //    //Now Create all of the directories
+    //    foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*",
+    //        SearchOption.AllDirectories))
+    //        Directory.CreateDirectory(dirPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
 
-        //Copy all the files
-        foreach (string newPath in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*.*",
-            SearchOption.AllDirectories))
-            File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
-
-
-        //then stage, commit, and push new folder
-        InitialProcessing();
-        gitInfo.Arguments = @"stage CMS/MEL/747/*.*";
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+    //    //Copy all the files
+    //    foreach (string newPath in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", "*.*",
+    //        SearchOption.AllDirectories))
+    //        File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\"));
 
 
-        gitInfo.Arguments = @"commit -am ""Updated XML file"""; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+    //    //then stage, commit, and push new folder
+    //    InitialProcessing();
+    //    gitInfo.Arguments = @"stage CMS/MEL/747/*.*";
+    //    gitProcess.StartInfo = gitInfo;
+    //    gitProcess.Start();
 
 
-        gitInfo.Arguments = @"push"; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+    //    gitInfo.Arguments = @"commit -am ""Updated XML file"""; //GIT COMMAND
+    //    gitProcess.StartInfo = gitInfo;
+    //    gitProcess.Start();
 
-        gitProcess.WaitForExit();
-        gitProcess.Close();
 
-        treeFiles.Nodes.Clear();
-        BindTreeView();
+    //    gitInfo.Arguments = @"push"; //GIT COMMAND
+    //    gitProcess.StartInfo = gitInfo;
+    //    gitProcess.Start();
 
-        //copy the contents from working to staging
-        //Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.*");
+    //    gitProcess.WaitForExit();
+    //    gitProcess.Close();
 
-        //foreach(var file in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.*"))
-        //File.Copy(file, Path.Combine(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\", Path.GetFileName(file)));
-        //process.StartInfo.FileName = "xcopy";
-        //process.StartInfo.Arguments = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.* C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\ /e /y /I";
-        //process.Start();
-        //bool lp = process.WaitForExit(10000);
+    //    treeFiles.Nodes.Clear();
+    //    BindTreeView();
+
+    //    //copy the contents from working to staging
+    //    //Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.*");
+
+    //    //foreach(var file in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.*"))
+    //    //File.Copy(file, Path.Combine(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\", Path.GetFileName(file)));
+    //    //process.StartInfo.FileName = "xcopy";
+    //    //process.StartInfo.Arguments = @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Working\*.* C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747\Staging\ /e /y /I";
+    //    //process.Start();
+    //    //bool lp = process.WaitForExit(10000);
         
-    }
+    //}
 
     static void DeleteCouchDB(string name)
     {
@@ -572,6 +571,7 @@ public partial class _Default : System.Web.UI.Page
         public string manual;
         public string docpath;
         public string xmldata;
+        public string docRevision;
         //public string _id;
     }
 
@@ -765,10 +765,7 @@ public partial class _Default : System.Web.UI.Page
         gitProcess.WaitForExit();
         gitProcess.Close();
     }
-    protected void btnConflict_Click(object sender, EventArgs e)
-    {
 
-    }
 
     protected void ImageButton1_Click1(object sender, ImageClickEventArgs e)
     {
@@ -877,12 +874,12 @@ public partial class _Default : System.Web.UI.Page
         InitialProcessing();
 
 
-        Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\");
-        Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Staging\");
+        Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757 MEL Rev60.1 2012_8_10\Working\");
+        Directory.CreateDirectory(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757 MEL Rev60.1 2012_8_10\Draft Publish\");
 
         //then stage, commit, and push new folder
 
-        gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
+        gitInfo.Arguments = @"add .";
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
@@ -892,37 +889,39 @@ public partial class _Default : System.Web.UI.Page
 
         //push files from working folder to staging
         //Now Create all of the directories
-        foreach (string dirPath in Directory.GetDirectories(@"C:\Temp\757 MEL", "*",
+        foreach (string dirPath in Directory.GetDirectories(@"C:\Temp\757 MEL Rev60.1 2012_8_10", "*",
             SearchOption.AllDirectories))
-            Directory.CreateDirectory(dirPath.Replace(@"C:\Temp\757 MEL", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\"));
+            Directory.CreateDirectory(dirPath.Replace(@"C:\Temp\757 MEL Rev60.1 2012_8_10", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757 MEL Rev60.1 2012_8_10\Working\"));
 
         //Copy all the files
-        foreach (string newPath in Directory.GetFiles(@"C:\Temp\757 MEL", "*.*",
+        foreach (string newPath in Directory.GetFiles(@"C:\Temp\757 MEL Rev60.1 2012_8_10", "*.*",
             SearchOption.AllDirectories))
-            File.Copy(newPath, newPath.Replace(@"C:\Temp\757 MEL", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757\Working\"));
+            File.Copy(newPath, newPath.Replace(@"C:\Temp\757 MEL Rev60.1 2012_8_10", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\757 MEL Rev60.1 2012_8_10\Working\"));
 
 
         //then stage, commit, and push new folder
         InitialProcessing();
-        gitInfo.Arguments = @"stage CMS/MEL/757/*.*";
+        gitInfo.Arguments = @"add .";
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
 
-        gitInfo.Arguments = @"commit -am ""Added new 757 Manual"""; //GIT COMMAND
+        gitInfo.Arguments = @"commit -am ""Added new 757 MEL Manual"""; //GIT COMMAND
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
 
-        gitInfo.Arguments = @"push"; //GIT COMMAND
-        gitProcess.StartInfo = gitInfo;
-        gitProcess.Start();
+        //gitInfo.Arguments = @"push"; //GIT COMMAND
+        //gitProcess.StartInfo = gitInfo;
+        //gitProcess.Start();
 
         gitProcess.WaitForExit();
         gitProcess.Close();
 
         treeFiles.Nodes.Clear();
         BindTreeView();
+
+        lblMsg.Text = "Manual successfully imported";
     }
     protected void btnListAll_Click(object sender, ImageClickEventArgs e)
     {
@@ -991,7 +990,9 @@ public partial class _Default : System.Web.UI.Page
                 lstAll.Items.Clear();
             }
 
-
+            lblMsg.Text = "";
+            tblXML.Visible = false;
+            
     }
     protected void btnCheckoutByUser_Click(object sender, ImageClickEventArgs e)
     {
@@ -1095,24 +1096,47 @@ public partial class _Default : System.Web.UI.Page
     {
         //push files from working folder to staging
         //Now Create all of the directories
-        foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", "*",
-            SearchOption.AllDirectories))
-            Directory.CreateDirectory(dirPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Draft Publish\"));
+        //foreach (TreeNode node1 in treeFiles.CheckedNodes)
+        //{
+            foreach (string dirPath in Directory.GetDirectories(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", "*",
+                SearchOption.AllDirectories))
+                Directory.CreateDirectory(dirPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Draft Publish\"));
 
-        //Copy all the files
-        foreach (string newPath in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", "*.*",
-            SearchOption.AllDirectories))
-            File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Draft Publish\"));
+            //Copy all the files
+            foreach (string newPath in Directory.GetFiles(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", "*.*",
+                SearchOption.AllDirectories))
+                File.Copy(newPath, newPath.Replace(@"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Working\", @"C:\Users\air0sxk\Documents\Visual Studio 2010\Websites\CTestGitAPP\CMS\MEL\747 MEL Rev51.0 2012_1_31\Draft Publish\"));
 
-
+        //}
         //then stage, commit, and push new folder
         InitialProcessing();
-        gitInfo.Arguments = @"stage CMS/MEL/747 MEL Rev51.0 2012_1_31/*.*";
+        gitInfo.Arguments = @"add .";
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
 
         gitInfo.Arguments = @"commit -am ""Make a draft copy for fragment approval"""; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitProcess.WaitForExit();
+        gitProcess.Close();
+
+        treeFiles.Nodes.Clear();
+        BindTreeView();
+    }
+    protected void btnEditXML_Click(object sender, ImageClickEventArgs e)
+    {
+        System.Diagnostics.Process.Start(@treeFiles.SelectedValue);
+    }
+    protected void btnRefreshXML_Click(object sender, ImageClickEventArgs e)
+    {
+        InitialProcessing();
+        gitInfo.Arguments = @"stage CMS\MEL\*.*"; //GIT COMMAND
+        gitProcess.StartInfo = gitInfo;
+        gitProcess.Start();
+
+        gitInfo.Arguments = @"commit -am ""Updated XML file"""; //GIT COMMAND
         gitProcess.StartInfo = gitInfo;
         gitProcess.Start();
 
@@ -1124,8 +1148,176 @@ public partial class _Default : System.Web.UI.Page
         gitProcess.WaitForExit();
         gitProcess.Close();
 
-        treeFiles.Nodes.Clear();
-        BindTreeView();
+        Xml1.DocumentSource = treeFiles.SelectedValue;
+        Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "melcdl2html_mod.xsl";
+    }
+    protected void btnValidateXML_Click(object sender, ImageClickEventArgs e)
+    {
+            try
+            {
+                string xmlPath = treeFiles.SelectedValue.Replace("\\", "/");
+                XmlReader reader = null;
+                XmlReaderSettings settings = new XmlReaderSettings();
+                settings.ValidationEventHandler += new ValidationEventHandler(MyValidationEventHandler);
+                settings.ValidationType = ValidationType.DTD;
+                settings.ProhibitDtd = false;
+                reader = XmlReader.Create(xmlPath, settings);
+                if (reader.Read())
+                {
+                    //Response.Write("<script>alert('XML Document well formed')</script>");
+                    lblMsg.Text = "XML Document well formed";
+                    lblMsg.ForeColor = Color.Green;
+                }
+                else
+                {
+                    lblMsg.Text = "XML Document is not well formed";
+                    lblMsg.ForeColor = Color.Red;
+                }
+                while (reader.Read())
+                {
+                }
+
+                if (_builder.ToString() == String.Empty)
+                    lblMsg.Text = "DTD Validation completed successfully";
+                //Response.Write("<script>alert('DTD Validation completed successfully')</script>");
+                //Response.Write("DTD Validation completed successfully.");
+                else
+                    lblMsg.Text = "DTD Validation Failed";
+                //Response.Write("<script>alert('DTD Validation Failed" + _builder.ToString() + "')</script>");
+                // Response.Write("DTD Validation Failed. <br>" + _builder.ToString());
+                reader.Close();
+
+            }
+            catch (XmlException ex)
+            {
+                  lblMsg.Text = "XML Document not valid, following error:" +  ex.Message + " Correct and validate the fragment";       
+                  Server.ClearError();   
+                Xml1.DocumentSource = treeFiles.SelectedValue;
+                Xml1.TransformSource = treeFiles.SelectedValue.Replace(treeFiles.SelectedNode.Text, "") + "melcdl2html_mod.xsl";
+            }
+    }
+
+    protected void btnPublishtoCouch_Click(object sender, ImageClickEventArgs e)
+    {
+        //get the checked parent
+        foreach (TreeNode xmlFile in treeFiles.CheckedNodes)
+        {
+            foreach (TreeNode childNodes in xmlFile.ChildNodes)
+            {
+
+                if (childNodes.Value.IndexOf(".xsl") != -1 || childNodes.Value.IndexOf(".xml") != -1)
+                {
+                    List<XMLFragment> eList = new List<XMLFragment>();
+                    XMLFragment e1 = new XMLFragment();
+                    //e._id = "new123";
+                    e1.fleet = "747";
+                    e1.manual = xmlFile.Parent.Text; // "747 MEL Rev51.0 2012_1_31";
+                    e1.docpath = @"MEL\747 MEL Rev51.0 2012_1_31\Draft Publish";
+                    e1.docRevision = "DRAFT - DO NOT RELEASE";
+
+                    //get the XML file as text
+                    StreamReader reader = File.OpenText(childNodes.Value);
+
+                    //XmlDocument doc1 = new XmlDocument();
+                    //doc1.Load(childNodes.Value);
+
+                    e1.xmldata = reader.ReadToEnd(); // doc1.InnerXml; // @"<?xml version=""1.0"" encoding=""UTF-""?><Bookmark><Title Named=""lec"" Action=""GoTo"" >HIGHLIGHTS OF CHANGES</Title></Bookmark>";
+
+                    eList.Add(e1);
+
+                    //e = new XMLFragment();
+                    //e.Fleet = "757";
+                    //e.Manual = "MEL";
+
+                    //eList.Add(e);
+
+                    System.Web.Script.Serialization.JavaScriptSerializer oSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+                    string sJSON = oSerializer.Serialize(eList);
+
+                    // string ans = JsonConvert.SerializeObject(eList); // JsonConvert.SerializeObject(eList, Formatting.Indented);
+
+                    DoRequest("http://127.0.0.1:5984/cms_draft_publish/" + childNodes.Text, "PUT", sJSON.TrimStart('[').TrimEnd(']'), "application/json");
+                }
+            }
+            lblMsg.Text = "Publish to couchDB complete";
+            lblMsg.ForeColor = Color.Green;
+        }
+    }
+    //protected void Button1_Click(object sender, EventArgs e)
+    //{
+    //    DeleteCouchDB("cms_draft_publish");
+    //    CreateNewCouchDB("cms_draft_publish");
+        
+    //}
+
+
+    protected void btnCouchDraft_Click(object sender, EventArgs e)
+    {
+        System.Net.HttpWebRequest webRequest = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(@"http://127.0.0.1:5984/cms_draft_publish/_all_docs");
+        //webRequest.Credentials = new System.Net.NetworkCredential(System.Configuration.ConfigurationManager.AppSettings.Get("apiUserName"), System.Configuration.ConfigurationManager.AppSettings.Get("apiPassword"));
+
+        //webRequest.Method = "HEAD" 'faster to check if ID is valid, no content body is returned
+        webRequest.Method = "GET"; //gets content body
+        webRequest.Accept = "application/json";
+        System.Net.WebResponse responseID = webRequest.GetResponse();
+        string result = DoRequest("http://127.0.0.1:5984/cms_draft_publish/_all_docs", "GET");
+
+        rows p = new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<rows>(result);
+        
+
+        //Json.ToObject(result)["id"].ToString();
+
+
+        List<XMLFragment> facebooks = new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<List<XMLFragment>>(result);
+
+        foreach (XMLFragment list in facebooks)
+        {
+
+        }
+        System.Web.Script.Serialization.JavaScriptSerializer ser = new System.Web.Script.Serialization.JavaScriptSerializer();  
+        //List<XMLFragment> items = ser.Deserialize<XMLFragment>(new StreamReader(responseID.GetResponseStream()).ReadToEnd());
+        List<XMLFragment> items = ser.Deserialize<List<XMLFragment>>(result);
+
+        Action<Stream> writer1 = null;
+        using (var writer = responseID.GetResponseStream())   
+         {
+             writer1(writer);
+             //content(writer);     
+         }
+
+       // Action<Stream> writer
+        //List<XMLFragment> list = new List<XMLFragment>();
+
+        
+        //foreach (List row in items)
+        //{ 
+        //    DocInfo doc = new DocInfo(); 
+        //    doc.ID = row["id"].ToString(); 
+        //    doc.Revision = (row["value"])["rev"].ToString(); 
+        //    list.Add(doc); } 
+        //return list.ToArray();  
+
+
+        // g1 = JSONHelper.Deserialise<GoogleSearchResults>(json);
+        // Response.Write(g1.content);
+
+        StreamReader streamReader = new System.IO.StreamReader(responseID.GetResponseStream());
+
+        using (var sr = new StreamReader(responseID.GetResponseStream()))
+        {
+            System.Web.Script.Serialization.JavaScriptSerializer oSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+            string sJSON = oSerializer.Serialize(sr.ReadToEnd());
+        }
+
+        //*********all documents  http://127.0.0.1:5984/cms/_all_docs
+        //*********all DBs http://127.0.0.1:5984/_all_dbs
+        //*********all docs in range http://127.0.0.1:5984/cms/_all_docs
+    }
+
+    protected void btnDeleteCouchRows_Click(object sender, ImageClickEventArgs e)
+    {
+        DeleteCouchDB("cms_draft_publish");
+        CreateNewCouchDB("cms_draft_publish");
     }
 }
 

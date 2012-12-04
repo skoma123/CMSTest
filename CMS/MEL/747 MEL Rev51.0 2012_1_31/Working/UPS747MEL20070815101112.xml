@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE item PUBLIC "-//UPS//DTD MELCDL-REV1//EN" "melcdl.dtd">
 <item chapnbr="21" chg="U" itemnbr="5-2" key="UPS747MEL20070815101112" revdate="20100707" revnbr="8" sectnbr="26">
-<title>ECS Misc Card &ndash; Non-ER Operations</title>
+<title>Testing ECS Misc Card &ndash; Non-ER Operations</title>
 <dispcond category="C" maintenance="YES" nbrins="1" nbrreq="0"
 operation="YES" btb="YES">
 <remarks>
@@ -40,7 +40,7 @@ exhaust valves.</para></note>
 </note>
 <para>ECS MISC CARD</para>
 <numlist>
-<numlitem><para>&Ensuretheloadsupervisor;</para></numlitem>
+<numlitem><para>Ensure the load supervisor</para></numlitem>
 <numlitem><para>Operation limited to two packs.</para></numlitem>
 </numlist>
 </operation>
